@@ -1,4 +1,4 @@
 ---
 title: Genady Maryash, Hunter College
 ---
-[./s18.html](CSCI 127 SUMMER 2018)
+[CSCI 127 SUMMER 2018](./s18.html)
