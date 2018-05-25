@@ -1,4 +1,5 @@
 ---
+layout: myDefault
 title: Genady Maryash, Hunter College
 ---
 [CSCI 127 SUMMER 2018](./s18.html)
