@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  	<title>geoJSON Classwork, Honors Section, CSci 127, CUNY, Spring 2018</title>
+    <link type="text/css" rel="stylesheet" href="../../../lehman.css" />
+</head>
+<body>
+
+<div id="header">
+
+<h1>Classwork:  geoJSON</h1>
+<h2>Honors Section<br>
+CSci 127<br>
+Spring 2018</h2>
+</div>
+
+
+<div>
+<h3>GIS Data</h3>
+
+<p> We will be mapping and analyzing GIS data as the course progresses.  There are several standard formats for mapping GIS data:
+<ul>
+	<li> <a href="https://en.wikipedia.org/wiki/Shapefile">Shapefiles</a> (<a href="http://www.esri.com/arcgis/about-arcgis">ERSI's ArcGIS</a>)
+	<li> <a href="https://developers.google.com/kml/">Keynote Markup Languange</a> (KML)
+	<li><a href="http://geojson.org">geoJSON</a>
+</ul>
+Here's an <a href="http://apprentice.craic.com/tutorials/28">excellent summary & comparison</a> of these formats.
+
+<p> Note:  In <a href="lab9.html">Lab 9</a>, we will introduce the <a href="https://pypi.python.org/pypi/folium">Folium</a> Python package that creates HTML maps.  For the honors section, we will use additional features in <tt>folium</tt> for creating choropleth maps using geoJSON files.
+
+</div>
+
+
+<div>
+<h3>github</h3>
+
+<p>
+We introduce <a href="https://github.com">github</a>, the standard way to share and collaborate on code, in <a href="lab8.html">Lab 8</a>.  It also has a nice feature for quickly previewing <tt>geoJSON</tt> files.   
+
+If you do not already have a <tt>github</tt> account, follow the directions in <a href="lab8.html">Lab 8</a> to set one up to use below (you can also submit the corresponding programming assignment on it early).
+
+</div>
+
+<div>
+
+<h3>geoJSON</h3>
+
+<p>
+We will be primarily using <tt>geoJSON</tt> files for this course.
+Use the <a href="http://geojson.io/#map=2/20.0/0.0">geojson's mapper</a>, locate your favorite neighborhood.  Mark a favorite location in the neighborhood (or a landmark) as a <tt>point</tt> (select from the menu on the right of the map).  
+<ul>
+	<li>On the right hand side, the corresponding <tt>geoJSON</tt> file will be created.  
+	<li> Save the file and upload to <tt>github</tt> (see above).
+	<li> Commit the file and preview.  <br>
+	You should see the a map pop up in the preview window.
+	<br>
+	(Here's a <a href="
+	https://help.github.com/articles/mapping-geojson-files-on-github/">helpful example</a>.)
+</ul>
+
+<p>Here's a nice description of <a href="http://www.macwright.org/2015/03/23/geojson-second-bite.html">basic concepts of geoJSON</a>:
+<ul>
+	<li> Read/skim the description of different types. 
+	<li> What types are in the geoJSON file you created above?
+	<li> Using the mapper, add a polygon outlining your neighborhood.  What was created in the corresponding geoJSON file?
+	<li> Create two additional markers for favorite places or landmarks in your neighborhood.  
+	<li> Also in your file, mark the major transit lines (subway, train, or bus). 
+</ul>
+
+
+</div>
+
+
+<!--
+<div>
+
+<h3>geoJSON and folium</h3>
+
+Folium provides a simple interface to leaflet.js for mapping geoJSON data.
+Work through example from tutorial that uses a geoJSON layer for
+<a href="https://libraries.io/pypi/folium">folium</a>.
+
+
+<p>
+<i>These have moved since this classwork was written, a similar version is
+at <a href=""></a>.  Note that the rewrite of the examples assumes that you are using jupyter and displays in-line.  To save an .html file to diplay, you need to save it (<tt>mapName.save(outfile='htmlFile.html')</tt>)</i>
+
+<p>
+Using your the geoJSON file that you created.  What do the different 
+tile options do?  That is, how do the following options change your
+map:
+
+<ul>
+	<li> <tt>tiles='Stamen Terrain'</tt>
+	<li> <tt>tiles='stamenwatercolor'</tt>
+	<li> <tt>tiles='Mapbox Bright'</tt>
+	<li> <tt>tiles='Stamen Toner'</tt>
+	<li> <tt>tiles='Cartodb Positron'</tt>
+</ul>
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+<div>
+<h3>Additional Challenges</h3>
+
+Through the <a href="http://opendata.cityofnewyork.us">open data project</a>, there are many geoJSON layers available.  Download some of the following and use folium to create different webpages displaying these <a href="http://www1.nyc.gov/site/planning/data-maps/open-data/districts-download-metadata.page">political and administrative districts</a>:
+<ul>
+	<li> NYC Boroughs
+	<li> NYC zip codes
+	<li> NY Congressional Districts
+</ul>
+For each, choose an appropriate background map. Note that you can combine these with your own datasets (i.e. overlap your 311 complaints on top of zip codes or congressional districts).
+
+
+</div>
+
+-->
