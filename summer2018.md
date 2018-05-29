@@ -6,19 +6,19 @@ This course presents an overview of computer science (CS) with an emphasis on pr
 
 The course has lectures on Tuesday mornings and recitation sections offered throughout the week (you must register both for the lecture and a recitation section).
 
-**Course Coordinator and Lecture Instructor
+**Course Coordinator and Lecture Instructor**
 
-*Genady Maryash, office hours: after lecture on Tuesdays and before lecture on Thursdays
+*Genady Maryash* office hours: after lecture on Tuesdays and before lecture on Thursdays
 
-**Tutor/UTA Coordinator:
+**Tutor/UTA Coordinator:**
 
-*Katherine Howitt
+*Katherine Howitt*
 
 **Lab Hours:** There is a dedicated computer laboratory, North 1001E for this course:
 
-*Staffed Hours: Monday-Friday, 9:30am to 9:30pm, when classes are in session.
+*Staffed Hours:* Monday-Friday, 9:30am to 9:30pm, when classes are in session.
 
-**Lecture & Recitation Instructors:
+**Lecture & Recitation Instructors:**
 |Sections: |Time:|Instructor:|E-mail:|
 |--- |--- |--- |--- |
 |Lecture|T,Th 1:30-3:04PM, HN510|Genady Maryash|gmaryash AT hunter cuny edu|
