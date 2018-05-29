@@ -1,7 +1,7 @@
-CSci 127: Introduction to Computer Science  
+CSCI 12700 Introduction to Computer Science  
 Hunter College, City University of New York  
-Summer 2018  
----
+SUMMER 2018  
+-------------------------------------------
 This course presents an overview of computer science (CS) with an emphasis on problem-solving and computational thinking through 'coding': computer programming for beginners. Other topics include: organization of hardware, software, and how information is structured on contemporary computing devices. This course is pre-requisite to several introductory core courses in the CS Major. The course is also required for the CS minor. MATH 12500 or higher is strongly recommended as a co-req for intended Majors.
 
 The course has lectures on Tuesday mornings and recitation sections offered throughout the week (you must register both for the lecture and a recitation section).
