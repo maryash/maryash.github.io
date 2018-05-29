@@ -1,5 +1,3 @@
-CSci 127, Introduction to Computer Science, Hunter College, CUNY, Spring 2018 
-
 CSci 127: Introduction to Computer Science  
 Hunter College, City University of New York  
 Summer 2018  
@@ -8,11 +6,11 @@ This course presents an overview of computer science (CS) with an emphasis on pr
 
 The course has lectures on Tuesday mornings and recitation sections offered throughout the week (you must register both for the lecture and a recitation section).
 
-**Course Coordinator and Lecture Instructor**
+**Course Coordinator and Lecture Instructor
 
-**Genady Maryash, office hours: after lecture on Tuesdays and before lecture on Thursdays
+*Genady Maryash, office hours: after lecture on Tuesdays and before lecture on Thursdays
 
-**Tutor/UTA Coordinator:**
+**Tutor/UTA Coordinator:
 
 *Katherine Howitt
 
@@ -20,7 +18,7 @@ The course has lectures on Tuesday mornings and recitation sections offered thro
 
 *Staffed Hours: Monday-Friday, 9:30am to 9:30pm, when classes are in session.
 
-**Lecture & Recitation Instructors:**
+**Lecture & Recitation Instructors:
 |Sections: |Time:|Instructor:|E-mail:|
 |--- |--- |--- |--- |
 |Lecture|T,Th 1:30-3:04PM, HN510|Genady Maryash|gmaryash AT hunter cuny edu|
@@ -34,11 +32,11 @@ The course has lectures on Tuesday mornings and recitation sections offered thro
 *   [Syllabus](s18/syl.html)
 *   [Programming Assignments](s18/ps.html)
 *   [Honors Section](s18/honors.html) Information
-*   Book & tutorial pages:
-    *   Python: [How to Think Like a Computer Scientist](https://interactivepython.org/runestone/static/thinkcspy/index.html) by Miller _et al_.
-    *   Logical Circuits: [Burch's Logic & Circuits](http://www.toves.org/books/logic/), [Explain Logic Gates](http://www.explainthatstuff.com/logicgates.html)
-    *   Machine Language: [U Idaho reference sheet](http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html), [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)
-    *   C++: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf), [C++ Tutorials Point](https://www.tutorialspoint.com/cplusplus/index.htm), [The Rook's Guide to C++](https://rooksguide.files.wordpress.com/2013/12/rooks-guide-isbn-version.pdf)
+### Book & tutorial pages:
+*   Python: [How to Think Like a Computer Scientist](https://interactivepython.org/runestone/static/thinkcspy/index.html) by Miller _et al_.
+*   Logical Circuits: [Burch's Logic & Circuits](http://www.toves.org/books/logic/), [Explain Logic Gates](http://www.explainthatstuff.com/logicgates.html)
+*   Machine Language: [U Idaho reference sheet](http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html), [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)
+*   C++: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf), [C++ Tutorials Point](https://www.tutorialspoint.com/cplusplus/index.htm), [The Rook's Guide to C++](https://rooksguide.files.wordpress.com/2013/12/rooks-guide-isbn-version.pdf)
 
 ### Outline:
 
