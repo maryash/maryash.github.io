@@ -2,28 +2,25 @@ CSci 127, Introduction to Computer Science, Hunter College, CUNY, Spring 2018
 
 CSci 127: Introduction to Computer Science  
 Hunter College, City University of New York  
-Spring 2018  
-
----------------------------------------------------------------------------------------------------------------
-
+Summer 2018  
+---
 This course presents an overview of computer science (CS) with an emphasis on problem-solving and computational thinking through 'coding': computer programming for beginners. Other topics include: organization of hardware, software, and how information is structured on contemporary computing devices. This course is pre-requisite to several introductory core courses in the CS Major. The course is also required for the CS minor. MATH 12500 or higher is strongly recommended as a co-req for intended Majors.
 
 The course has lectures on Tuesday mornings and recitation sections offered throughout the week (you must register both for the lecture and a recitation section).
 
 **Course Coordinator and Lecture Instructor**
 
-*   Genady Maryash, office hours: after lecture on Tuesdays and before lecture on Thursdays
+**Genady Maryash, office hours: after lecture on Tuesdays and before lecture on Thursdays
 
 **Tutor/UTA Coordinator:**
 
-*   Katherine Howitt
+*Katherine Howitt
 
 **Lab Hours:** There is a dedicated computer laboratory, North 1001E for this course:
 
-*   Staffed Hours: Monday-Friday, 9:30am to 9:30pm, when classes are in session.
+*Staffed Hours: Monday-Friday, 9:30am to 9:30pm, when classes are in session.
 
 **Lecture & Recitation Instructors:**
-
 |Sections: |Time:|Instructor:|E-mail:|
 |--- |--- |--- |--- |
 |Lecture|T,Th 1:30-3:04PM, HN510|Genady Maryash|gmaryash AT hunter cuny edu|
