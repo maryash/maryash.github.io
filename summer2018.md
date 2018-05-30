@@ -2,9 +2,8 @@
 layout: myDefault
 title: Genady Maryash, Hunter College
 ---
-CSCI 12700 Introduction to Computer Science  
+CSCI 12700 Introduction to Computer Science   SUMMER 2018  
 Hunter College, City University of New York  
-SUMMER 2018  
 
 ---
 
@@ -13,10 +12,10 @@ This course presents an overview of computer science (CS) with an emphasis on pr
 The course has lectures on Tuesday mornings and recitation sections offered throughout the week (you must register both for the lecture and a recitation section).
 
 **Course Coordinator and Lecture Instructor:**
-***Genady Maryash*** office hours: after lecture on Tuesdays and before lecture on Thursdays
+**Genady Maryash** office hours: after lecture on Tuesdays and before lecture on Thursdays
 
 **Tutor/UTA Coordinator:**
-***Katherine Howitt***
+**Katherine Howitt**
 
 **Lab Hours:** There is a dedicated computer laboratory, HN1001E for this course:
 Staffed Hours: Monday-Friday, 9:30am to 9:30pm, when classes are in session.
