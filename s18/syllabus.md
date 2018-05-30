@@ -6,7 +6,7 @@ Syllabus
 -----------
 
 ### CSCI 12700 | Introduction to Computer Science  
-Hunter College | City University of New York Summer 2018    
+Hunter College, City University of New York Summer 2018    
 
 ### General Information
 
