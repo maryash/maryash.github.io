@@ -174,7 +174,8 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     _Hint: See [Lab 2](lab2.html)._
     
     * * *
-    
+<!--    
+
 11.  **Due Date: 22 February** **Think CS: [Chapters 4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
     Write a program that asks the user for a message and then prints the message out, one character per line, in reverse order.
@@ -1099,5 +1100,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 Here's [xkcd](http://xkcd.com) on the simplicity of Python:
 
 ![](http://imgs.xkcd.com/comics/python.png)
+
+-->
 
 _(This file was last modified on 30 May 2018.)_
