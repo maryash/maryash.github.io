@@ -1,13 +1,12 @@
-Syllabus for CSci 127, Introduction to Computer Science, Hunter College, CUNY, Spring 2018 
-
-  
+---
+layout: myDefault
+title: Genady Maryash, Hunter College
+---
 Syllabus
 -----------
 
-### CSci 127: Introduction to Computer Science  
-Hunter College, City University of New York  
-Spring 2018  
-  
+### CSCI 127: Introduction to Computer Science  
+Hunter College, City University of New York, Summer 2018    
 
 ### General Information
 
