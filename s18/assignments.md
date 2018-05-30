@@ -12,7 +12,6 @@ Summer 2018
 ### General Notes
 
 *   Every program should begin with a comment that includes your name and a brief description.
-
 ```python    
     #Name: Thomas Hunter
     #Date: May 30, 2018
@@ -20,7 +19,6 @@ Summer 2018
     
     print("Hello, World!")
 ```    
-
 *   You are encouraged to submit your assignments early. Below lists the last date on which each assignment will be accepted. Assignments must be **submitted before 9pm** on the date due.
 *   **No credit will be given for an assignment submitted late.**
 *   Before submitting an assignment you are free to ask for help in recitation, during tutoring and office hours. Please take advantage of this.
