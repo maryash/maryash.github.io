@@ -7,18 +7,19 @@ Hunter College, City University of New York, Summer 2018
 
 ---
 
-This course presents an overview of computer science (CS) with an emphasis on problem-solving and computational thinking through 'coding': computer programming for beginners. Other topics include: organization of hardware, software, and how information is structured on contemporary computing devices. This course is pre-requisite to several introductory core courses in the CS Major. The course is also required for the CS minor. MATH 12500 or higher is strongly recommended as a co-req for intended Majors.
+This course presents an overview of computer science (CS) with an emphasis on problem-solving and computational thinking through 'coding': computer programming for beginners. Other topics include: organization of hardware, software, and how information is structured on contemporary computing devices. This course is pre-requisite to several introductory core courses in the CS Major. The course is also required for the CS minor. MATH 125 or higher is strongly recommended as a co-req for intended Majors.
 
-The course has lectures on Tuesday mornings and recitation sections offered throughout the week (you must register both for the lecture and a recitation section).
+The course has lectures on Tuesdays and Thursdays and recitation sections on Mondays and Wednesdays. You must register for both lecture and recitation.
 
-**Course Coordinator and Lecture Instructor:**
-**Genady Maryash** office hours: after lecture on Tuesdays and before lecture on Thursdays
+**Course Coordinator and Lecture Instructor:**  
+Genady Maryash  
+*Office hours: after lecture on Tuesdays and before lecture on Thursdays*
 
-**Tutor/UTA Coordinator:**
-**Katherine Howitt**
+**Tutor/UTA Coordinator:**  
+Katherine Howitt
 
 **Lab Hours:** There is a dedicated computer laboratory, HN1001E for this course:
-Staffed Hours: Monday-Friday, 9:30am to 9:30pm, when classes are in session.
+Staffed Hours: Monday-Thursday, 9:30am to 6:00pm.
 
 **Lecture & Recitation Instructors:**
 
