@@ -1,13 +1,8 @@
-Programming Problem List, CSci 127, Introduction to Computer Science, Hunter College, CUNY, Summer 2018  li { padding-bottom: 7px ; } 
-
-  
-
 Programming Problem List  
-CSci 127: Introduction to Computer Science  
+CSCI 127: Introduction to Computer Science  
 Hunter College, City University of New York  
-Spring 2018  
+Summer 2018  
   
-
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 ### General Notes
@@ -40,7 +35,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
     _Hint: See [Lab 1](lab1.html)._
     
-2.  **Due Date: 7 February** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+2.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
     Write a program that draws an octagon (8-sided polygon).  
       
@@ -48,7 +43,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
     _Hint: See [Lab 1](lab1.html)._
     
-3.  **Due Date: 8 February** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+3.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
     Write a program that implements the [pseudocode](http://en.wikipedia.org/wiki/Pseudocode) ("informal high-level description of the operating principle of a computer program or other algorithm") below:
     
@@ -60,7 +55,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
     Your output should look similar to:  
     ![](flower.png)
-4.  **Due Date: 9 February** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+4.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
     Write a program that will print the Hunter College motto ("Mihi cura futuri" which translates to: "The care of the future is mine") 15 times.
     
@@ -82,7 +77,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     Mihi cura futuri
     Mihi cura futuri
     
-5.  **Due Date: 13 February** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+5.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
     Write a program that draws a purple decagon (10-sided polygon) with turtle stamped at each corner.
     
@@ -93,7 +88,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
     * * *
     
-6.  **Due Date: 14 February** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+6.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
     Write a Python program that prompts the user for a message, and then prints the message, the message in upper case letters, and the message in lower case letters.
     
@@ -111,7 +106,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     I LOVE PYTHON!
     i love python!
     
-7.  **Due Date: 15 February** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+7.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
     Write a program that prompts the user to enter a phrase and then prints out the ASCII code of each character in the phrase.
     
@@ -136,7 +131,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
     _Hint: If c is a character, ord(c) returns its ASCII code. For example, if c is 'I', then ord(c) returns 73. See [Lab 2](lab2.html)._
     
-8.  **Due Date: 16 February** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+8.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
     Write a program that prompts the user for a DNA string, and then prints the length and GC-content (percent of the string that is C or G, written as a decimal).
     
@@ -148,7 +143,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
     _Hint: See [Lab 2](lab2.html)._
     
-9.  **Due Date: 20 February** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+9.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
     Write a program that prompts the user to enter a word and then prints out the word with each letter **shifted right** by 2. That is, 'a' becomes 'c', 'b' becomes 'd', ... 'x' becomes 'z', and 'y' becomes 'a'.
     
