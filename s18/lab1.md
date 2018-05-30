@@ -1,12 +1,10 @@
 # LAB 1 
 
---------------------------------------------------------------------------------------------------------------------
-
 Today's lab will focus on using the gradescope & Blackboard systems and simple programs in Python.
 
 Software tools needed: web browser and Python IDLE programming environment.
 
-### Computers in CSci 127 Lab
+### Computers in CSCI 127 Lab
 
 CSCI 127 has a laboratory, 1001E North, dedicated for its use. The room has a flexible set-up to encourage group work and laptop computers that can be checked out for use in the room only. When you enter the room, hand your Hunter ID to undergraduate teaching assistant in exchange for a laptop computer. At the end of lab, make sure to return your computer to its docking station so that it can be charged.
 
@@ -42,21 +40,22 @@ To launch IDLE:
     (followed by an enter/return).
 *   A new window will launch for IDLE.
 *   To see that it works, type at the IDLE prompt:
-    
+```    
     print("Hello, World!")
-    
+```    
 
 Instead of using the shell window (where we can try things immediately), let's use a text window, where we can save our program for later and submit it to Gradescope (this is the basis of the first program).
 
 1.  First, open up a text window: on the menu bar, choose "File" and from that menu, choose "New File".
 2.  In that window, type:
-    
+```    
     #Name:  ...your name here...
     #Date: May 30, 2018
     #This program prints: Hello, World!
     
     print("Hello, World!")
     
+```    
 3.  Save the program (using the "Save" under the "File" menu). When you save it, name it something that you will be remember for the future and end it in .py. For example, ps1.py. At the end of lab, save your programs to a USB drive, DropBox, or mail them to yourself.
 4.  Run your program (using the "Run Module" from the "Run" menu).
 5.  If it prints "Hello, World!" to the screen, then log into Gradescope (see notes below):
@@ -81,25 +80,24 @@ Now, let's write the same program in IDLE:
 
 1.  Open up a new file window in IDLE ("File > New File").
 2.  Type (or copy) into your window:
-    
+```    
     import turtle
     tia = turtle.Turtle()
     for i in range(4):
         tia.forward(150)
         tia.right(90)
-    
+```    
 3.  Save your program ("File > Save").  
     _Note: Choose a name for your file that is **not** turtle.py. When executing the "import turtle" statement, the computer first looks in the folder where the file is saved for the turtle module and then in the libraries (and other places on the path). So, it thinks the module is itself, causing all kinds of errors. To avoid this, name your program something like "myTurtle.py" or "program2.py"._
 4.  Run your program (using the "Run Module" from the "Run" menu).
 5.  Change your program so that it draws a octagon (8-sided polygon).
 6.  Test your program and modify until you have a octagon. When you do, add comments at the top of your program:
-    
+```    
     #Name:  ...your name here...
-    #Date: August 25, 2017
+    #Date: May 30, 2018
     #This program draws a octagon.
-    	
-    
-    Run your program after editing to make sure you do not have any typos.
+```
+Run your program after editing to make sure you do not have any typos.
 7.  Log into Gradescope (see notes above). On the left hand menu, choose "Assignments". From the list, choose "2. Octagon". In the file upload, drag the .py file you just created and ran, and click "Submit".
 
 A quick overview of the parts of your second program:
@@ -135,32 +133,32 @@ If you finish the lab early, now is a great time to get a head start on the prog
 The Python programming language and IDLE environment are freely available for many platforms from [python.org](http://www.python.org) or [Anaconda](https://www.continuum.io/downloads). For this class, we are using **Python 3**. Many features of the language (including the syntax of print statements) changed between the second and third version, so, you must use the Python 3 for submitting programs.
 
 If you have a Linux machine and would like to match the environment on the lab machines, at a terminal window, type the following commands:
-
+```
  sudo apt-get update
  sudo apt-get -y upgrade
  sudo apt-get install python3 python3-pip idle3
  pip3 install numpy pandas matplotlib scipy folium image 
  sudo apt-get install spyder3
-
+```
 If you have a Mac or Windows computer, the easiest installation is [Anaconda](https://docs.continuum.io/anaconda/install/#detailed-installation-information). When given the choice, choose to "Install for me only" (this avoids some odd permission problems that occur when choosing the install for everyone).
 
 Almost all the packages we will use are automatically included in the Anaconda default installation. The two that are not, image and folium, can be installed via pip (Python package manager). We won't need these immediately, so, you can wait on installing them. Here are the directions:
 
 *   Check if your machine has pip installed already, by typing:
-    
+```    
     which pip
-    
-    at the terminal window.
+```    
+at the terminal window.
 *   If it prints a line that ends with pip, then it's already on your machine.
 *   If it printed nothing, then you need to add pip your machine. On the Macs, Anaconda installs a program called, easy_install, which we'll use to get pip by typing at the terminal:
-    
+```    
     easy_install pip
-    
-    And then add the packages:
-    
+```    
+And then add the packages:
+```    
     pip install image
     pip install folium
-    
+```    
 *   For Windows, it's very similar ([more details](https://packaging.python.org/tutorials/installing-packages/)).
 
 There are many free on-line versions that you could use via a browser, such as [pythonanywhere](http://pythonanywhere.com).
