@@ -30,7 +30,6 @@ All incidents of cheating will be reported to the Office of Student Conduct in t
 
 *   As the semester progresses, quizzes will include review questions as well as short programming exercises based on the homework.
 *   All quizzes must be taken during class time, and **there are no make-up quizzes.** Instead, your score on the final exam will replace missing quiz grades (the final exam will also replace a quiz grade when you take the quiz but do better on the final exam).
-*   Quizzes alternate between computer-based (using Blackboard) and on paper (echoing the style of the final exam and many programming job interviews).
 *   Computer-based quizzes are open book, open notes, and you may use the Python shell and C++ programming environment.
 *   For the paper-based quizzes, you may not use any notes, books, or any computer device (laptop, phone, calculator, smart watch, etc.).
 *   If you miss your assigned recitation, you may take a quiz during another section before the deadline, subject to availability and instructor's permission.
