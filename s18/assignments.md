@@ -12,16 +12,16 @@ Summer 2018
 ### General Notes
 
 *   Every program should begin with a comment that includes your name and a brief description.
-    
+'''    
     #Name: Thomas Hunter
     #Date: May 30, 2018
     #This program prints: Hello, World!
     
     print("Hello, World!")
-    
+'''    
 *   You are encouraged to submit your assignments early. Below lists the last date on which each assignment will be accepted. Assignments must be **submitted before 9pm** on the date due.
 *   **No credit will be given for an assignment submitted late.**
-*   Before submitting an assignment you are free to ask for help in recitation, during tutoring and office hours, and by e-mail (**hunterCSci127help AT gmail.com**). Please take advantage of this.
+*   Before submitting an assignment you are free to ask for help in recitation, during tutoring and office hours. Please take advantage of this.
 *   For more information on using [gradescope](http://www.gradescope.com), see the [first lab](lab1.html).
 *   While you are encouraged to work with others, **all work submitted must be your own.** As a rule of thumb, **you must do your own typing**. If it is not from the book or class webpage and you did not type it, it is plagiarism. For the first incident, your grade will be a 0 for the assignment (even for cases where you typed the program but others submitted it as their own). For the second incident of cheating or plagiarism, your grade will be a 0 for the homework component of the grade (30% of your overall grade). For the third incident, you will fail the class. We report all incidents to the Office of Student Affairs.
 *   Learning programming is like learning a foreign language: you will learn more (with less work) if you practice every day. Some of the programs below are easy; some will take more time. Set aside a block of time every day to work on programming. If you complete the program for that day, go on to the next with your remaining time.
