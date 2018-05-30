@@ -25,11 +25,11 @@ Staffed Hours: Monday-Friday, 9:30am to 9:30pm, when classes are in session.
 
 Sections: |Time:|Instructor:|E-mail:
 ---|---|---|---
-Lecture|T,Th 1:30-3:04PM, HN510|Genady Maryash|gmaryash AT hunter cuny edu
-1R01|M,W 9AM:50-11:24AM, HN1001E|Ms. Basak Taylan|btaylan AT gradcenter cuny edu
-1R02|M,W 11:40AM-1:14PM, HN1001E|Ms. Katherine Howitt|kghowitt AT gmail com
-1R03|M,W 1:30AM-3:04PM, HN1001E|Ms. Katherine Howitt|kghowitt AT gmail com
-1R04|M,W 3:20PM-12:54PM, HN1001E|Ms. Katherine Howitt|kghowitt AT gmail com
+Lecture|T,Th 1:30 PM - 3:04 PM, HN510|Genady Maryash|gmaryash AT hunter cuny edu
+1R01|M,W 9:50 AM - 11:24 AM, HN1001E|Ms. Basak Taylan|btaylan AT gradcenter cuny edu
+1R02|M,W 11:40 AM - 1:14 PM, HN1001E|Ms. Katherine Howitt|kghowitt AT gmail com
+1R03|M,W 1:30 AM - 3:04 PM, HN1001E|Ms. Katherine Howitt|kghowitt AT gmail com
+1R04|M,W 3:20 PM - 12:54 PM, HN1001E|Ms. Katherine Howitt|kghowitt AT gmail com
 
 ### Useful Links:
 *   [Syllabus](s18/syl.html)
