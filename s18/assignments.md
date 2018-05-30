@@ -1,3 +1,7 @@
+---
+layout: myDefault
+title: Genady Maryash, Hunter College
+---
 Programming Problem List  
 CSCI 127: Introduction to Computer Science  
 Hunter College, City University of New York  
