@@ -32,7 +32,7 @@ Staffed Hours: Monday-Friday, 9:30am to 9:30pm, when classes are in session.
 
 ### Useful Links:
 *   [Syllabus](s18/syllabus.md)
-*   [Programming Assignments](s18/ps.html)
+*   [Programming Assignments](s18/assignments.md)
 *   [Honors Section Information](s18/honors.html) 
 
 ### Book & tutorial pages:
