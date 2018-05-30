@@ -1,10 +1,4 @@
-Lab 1, CSci 127, Introduction to Computer Science, Hunter College, CUNY, Summer 2018 
-
-Lab 1  
-CSci 127: Introduction to Computer Science  
-Hunter College, City University of New York  
-Spring 2018  
-  
+# LAB 1 
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -14,7 +8,7 @@ Software tools needed: web browser and Python IDLE programming environment.
 
 ### Computers in CSci 127 Lab
 
-CSci 127 has a laboratory, 1001E North, dedicated for its use. The room has a flexible set-up to encourage group work and laptop computers that can be checked out for use in the room only. When you enter the room, hand your Hunter ID to undergraduate teaching assistant in exchange for a laptop computer. At the end of lab, make sure to return your computer to its docking station so that it can be charged.
+CSCI 127 has a laboratory, 1001E North, dedicated for its use. The room has a flexible set-up to encourage group work and laptop computers that can be checked out for use in the room only. When you enter the room, hand your Hunter ID to undergraduate teaching assistant in exchange for a laptop computer. At the end of lab, make sure to return your computer to its docking station so that it can be charged.
 
 The laptops run Ubuntu Linux operating system. When you open the laptop, choose the "Computer Science Guest" account (the password is: 1001E!88). On the left hand side is a bar of icons, including icons for a browser (for accessing webpages) and the terminal window (for writing commands and launching programs).
 
@@ -58,7 +52,7 @@ Instead of using the shell window (where we can try things immediately), let's u
 2.  In that window, type:
     
     #Name:  ...your name here...
-    #Date: August 25, 2017
+    #Date: May 30, 2018
     #This program prints: Hello, World!
     
     print("Hello, World!")
