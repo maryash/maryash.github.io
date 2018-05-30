@@ -31,7 +31,7 @@ Staffed Hours: Monday-Friday, 9:30am to 9:30pm, when classes are in session.
  1R04 | M, W  3:20 PM – 12:54 PM, HN1001E | Katherine Howitt | kghowitt AT gmail com
 
 ### Useful Links:
-*   [Syllabus](s18/syl.html)
+*   [Syllabus](s18/syllabus.md)
 *   [Programming Assignments](s18/ps.html)
 *   [Honors Section Information](s18/honors.html) 
 
