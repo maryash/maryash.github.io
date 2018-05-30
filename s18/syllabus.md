@@ -35,16 +35,16 @@ All incidents of cheating will be reported to the Office of Student Conduct in t
 *   If you miss your assigned recitation, you may take a quiz during another section before the deadline, subject to availability and instructor's permission.
 *   As suggested by the name, only in-class quizzes taken in class. Quizzes taken outside of class will be sanctioned with a grade of 0 and reported to the Office of Student Conduct. Repeated quizzes taken outside of class will result in a failing grade as well as sanctions, as outlined in the Academic Integrity Policy.
 
-**Final Exam:** The final exam is required. It is comprehensive, covering all the material of the course. Sample and past exams will be available on the course webpage.
+***Final Exam:*** The final exam is required. It is comprehensive, covering all the material of the course. Sample and past exams will be available on the course webpage.
 
-**Grades:** The grading for the course will be based on:
+***Grades:*** The grading for the course will be based on:
 
 *   Problem Sets: 30%
 *   Quizzes: up to 28% (2% per quiz-- if miss a quiz, or do better on the final exam than on a quiz, your grade on the final will replace that quiz grade).
 *   Participation (Lecture Slips): up to 7% (0.5% per lecture slip-- your grade on the final will replace that missing or incomplete lecture slips).
 *   Final Exam: 35% (up to 70% if you do better on the final exam than on quizzes and lecture slips).
 
-**You must take and pass the final to pass the course.**
+***You must take and pass the final to pass the course.***
 
 #### Materials, Resources and Accommodating Disabilities
 
