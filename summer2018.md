@@ -34,7 +34,8 @@ Staffed Hours: Monday-Friday, 9:30am to 9:30pm, when classes are in session.
 ### Useful Links:
 *   [Syllabus](s18/syl.html)
 *   [Programming Assignments](s18/ps.html)
-*   [Honors Section](s18/honors.html) Information
+*   [Honors Section Information](s18/honors.html) 
+
 ### Book & tutorial pages:
 *   Python: [How to Think Like a Computer Scientist](https://interactivepython.org/runestone/static/thinkcspy/index.html) by Miller _et al_.
 *   Logical Circuits: [Burch's Logic & Circuits](http://www.toves.org/books/logic/), [Explain Logic Gates](http://www.explainthatstuff.com/logicgates.html)
