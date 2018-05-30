@@ -5,9 +5,9 @@ title: Genady Maryash, Hunter College
 ### CSCI 12700 | Introduction to Computer Science  
 Hunter College City University of New York &nbsp;Summer 2018 
 
-## Programming Problem List  
+### Programming Problem List  
 
-### General Notes
+#### General Notes
 
 *   Every program should begin with a comment that includes your name and a brief description.
 ```python    
