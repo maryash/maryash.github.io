@@ -2,7 +2,7 @@
 layout: myDefault
 title: Genady Maryash, Hunter College
 ---
-### CSCI 12700 | Introduction to Computer Science  
+### [CSCI 12700](summer2018.md) | Introduction to Computer Science  
 Hunter College City University of New York &nbsp;Summer 2018  
 
 ---
