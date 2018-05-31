@@ -162,7 +162,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
     _Hint: See the example programs from Lecture 2._
     
-10.  **Due Date: 21 February** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+10.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     Write a program that implements the pseudocode below:
     
         For i = 10, 20, 30, ..., 100:
@@ -170,11 +170,12 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Turn left 94 degrees
     
     Your output should look similar to:  
-    ![](spiral10.png)
+    [Spiral](spiral10.png)
     
     _Hint: See [Lab 2](lab2.html)._
     
     * * *
+
 <!--    
 
 11.  **Due Date: 22 February** **Think CS: [Chapters 4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
