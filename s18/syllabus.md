@@ -1,13 +1,16 @@
 ---
 layout: myDefault
-title: Genady Maryash, Hunter College
+title: SYLLABUS
 ---
-### CSCI 12700 | Introduction to Computer Science  
+### [CSCI 12700](../index.md) | Introduction to Computer Science  
 Hunter College City University of New York &nbsp;Summer 2018    
 
 ---
 
 ### Syllabus
+
+#### THE 2 HOUR FINAL EXAM WILL TAKE PLACE ON WEDNESDAY JULY 11 AT 1:30PM
+#### Please make appropriate arrangements.  
 
 #### General Information
 
