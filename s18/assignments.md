@@ -156,9 +156,9 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
     A sample run of your program should look like:
     
-    Enter a word: hello 
-    Your word in code is: 
-    jgnnq
+        Enter a word: hello 
+        Your word in code is: 
+        jgnnq
     
     _Hint: See the example programs from Lecture 2._
     
@@ -166,11 +166,11 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
    Write a program that implements the pseudocode below:
 
-    For i = 10, 20, 30, ..., 100:
-        Walk forward i steps
-        Turn left 94 degrees
+        For i = 10, 20, 30, ..., 100:
+            Walk forward i steps
+            Turn left 94 degrees
 
-   Your output should look similar to: [Spiral](spiral10.png)
+   Your output should look similar to: ![](spiral10.png)
 
    _Hint: See [Lab 2](lab2.html)._
    
