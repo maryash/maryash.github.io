@@ -162,7 +162,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
     _Hint: See the example programs from Lecture 2._
     
-0.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+10.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
 
     Write a program that implements the pseudocode below:
 
