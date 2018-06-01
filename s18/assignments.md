@@ -164,13 +164,13 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
 10.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
 
-    Write a program that implements the pseudocode below:
+   Write a program that implements the pseudocode below:
 
         For i = 10, 20, 30, ..., 100:
             Walk forward i steps
             Turn left 94 degrees
 
-    Your output should look similar to: ![](spiral10.png)
+   Your output should look similar to: ![](spiral10.png)
 
    _Hint: See [Lab 2](lab2.html)._
    
@@ -178,7 +178,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
 11.  **Due Date: 22 February** **Think CS: [Chapters 4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
-    Write a program that asks the user for a message and then prints the message out, one character per line, in reverse order.
+   Write a program that asks the user for a message and then prints the message out, one character per line, in reverse order.
     
     A sample run of your program should look like:
     
