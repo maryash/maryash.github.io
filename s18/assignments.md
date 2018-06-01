@@ -66,21 +66,21 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
     The output of your program should be:
     
-    Mihi cura futuri
-    Mihi cura futuri
-    Mihi cura futuri
-    Mihi cura futuri
-    Mihi cura futuri
-    Mihi cura futuri
-    Mihi cura futuri
-    Mihi cura futuri
-    Mihi cura futuri
-    Mihi cura futuri
-    Mihi cura futuri
-    Mihi cura futuri
-    Mihi cura futuri
-    Mihi cura futuri
-    Mihi cura futuri
+        Mihi cura futuri
+        Mihi cura futuri
+        Mihi cura futuri
+        Mihi cura futuri
+        Mihi cura futuri
+        Mihi cura futuri
+        Mihi cura futuri
+        Mihi cura futuri
+        Mihi cura futuri
+        Mihi cura futuri
+        Mihi cura futuri
+        Mihi cura futuri
+        Mihi cura futuri
+        Mihi cura futuri
+        Mihi cura futuri
     
 5.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
@@ -99,40 +99,40 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
     A sample run of your program should look like:
     
-    Enter a message:  Mihi cura futuri
-    Mihi cura futuri
-    MIHI CURA FUTURI
-    mihi cura futuri
+        Enter a message:  Mihi cura futuri
+        Mihi cura futuri
+        MIHI CURA FUTURI
+        mihi cura futuri
     
     Another run:
     
-    Enter a message:  I love Python!
-    I love Python!
-    I LOVE PYTHON!
-    i love python!
-    
+        Enter a message:  I love Python!
+        I love Python!
+        I LOVE PYTHON!
+        i love python!
+
 7.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
     Write a program that prompts the user to enter a phrase and then prints out the ASCII code of each character in the phrase.
     
     A sample run of your program should look like:
     
-    Enter a phrase:  I love Python!
-    In ASCII: 
-    73
-    32
-    108
-    111
-    118
-    101
-    32
-    80
-    121
-    116
-    104
-    111
-    110
-    33
+        Enter a phrase:  I love Python!
+        In ASCII: 
+        73
+        32
+        108
+        111
+        118
+        101
+        32
+        80
+        121
+        116
+        104
+        111
+        110
+        33
     
     _Hint: If c is a character, ord(c) returns its ASCII code. For example, if c is 'I', then ord(c) returns 73. See [Lab 2](lab2.html)._
     
@@ -142,9 +142,9 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
     A sample run of your program should look like:
     
-    Enter a DNA string:  ACGCCCGGGATG
-    Length is 12
-    GC-content is 0.75
+        Enter a DNA string:  ACGCCCGGGATG
+        Length is 12
+        GC-content is 0.75
     
     _Hint: See [Lab 2](lab2.html)._
     
@@ -162,15 +162,15 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
     _Hint: See the example programs from Lecture 2._
     
-10.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+0.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
 
-   Write a program that implements the pseudocode below:
+    Write a program that implements the pseudocode below:
 
         For i = 10, 20, 30, ..., 100:
             Walk forward i steps
             Turn left 94 degrees
 
-   Your output should look similar to: ![](spiral10.png)
+    Your output should look similar to: ![](spiral10.png)
 
    _Hint: See [Lab 2](lab2.html)._
    
