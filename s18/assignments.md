@@ -34,145 +34,145 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
 * * *
 
-1.  **Due Date: 7 June** **Think CS: [Chapters 1](https://interactivepython.org/runestone/static/thinkcspy/GeneralIntro/toctree.html) & [2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html)**  
+0001.  **Due Date: 7 June** **Think CS: [Chapters 1](https://interactivepython.org/runestone/static/thinkcspy/GeneralIntro/toctree.html) & [2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html)**  
     
-    Write a program that prints "Hello, World!" to the screen.
+        Write a program that prints "Hello, World!" to the screen.
     
-    _Hint: See [Lab 1](lab1.html)._
+        _Hint: See [Lab 1](lab1.html)._
     
-2.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+0002.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
-    Write a program that draws an octagon (8-sided polygon).  
+        Write a program that draws an octagon (8-sided polygon).  
       
-    _Note: Choose a name for your file that is **not** turtle.py. When executing the "import turtle" statement, the computer first looks in the folder where the file is saved for the turtle module and then in the libraries (and other places on the path). So, it thinks the module is itself, causing all kinds of errors. To avoid this, name your program something like "myTurtle.py" or "program2.py"._
+        _Note: Choose a name for your file that is **not** turtle.py. When executing the "import turtle" statement, the computer first looks in the folder where the file is saved for the turtle module and then in the libraries (and other places on the path). So, it thinks the module is itself, causing all kinds of errors. To avoid this, name your program something like "myTurtle.py" or "program2.py"._
     
-    _Hint: See [Lab 1](lab1.html)._
+        _Hint: See [Lab 1](lab1.html)._
     
-3.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+0003.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
-    Write a program that implements the [pseudocode](http://en.wikipedia.org/wiki/Pseudocode) ("informal high-level description of the operating principle of a computer program or other algorithm") below:
+        Write a program that implements the [pseudocode](http://en.wikipedia.org/wiki/Pseudocode) ("informal high-level description of the operating principle of a computer program or other algorithm") below:
     
-        Repeat 45 times:
-            Walk forward 100 steps
-            Turn right 92 degrees
-            Walk forward 10 steps
-            Turn right 92 degrees
+            Repeat 45 times:
+                Walk forward 100 steps
+                Turn right 92 degrees
+                Walk forward 10 steps
+                Turn right 92 degrees
     
-    Your output should look similar to:  
-    ![](flower.png)
-4.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+        Your output should look similar to:  
+        ![](flower.png)
+0004.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+
+        Write a program that will print the Hunter College motto ("Mihi cura futuri" which translates to: "The care of the future is mine") 15 times.
+
+        The output of your program should be:
+
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
     
-    Write a program that will print the Hunter College motto ("Mihi cura futuri" which translates to: "The care of the future is mine") 15 times.
+0005.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
-    The output of your program should be:
+        Write a program that draws a purple decagon (10-sided polygon) with turtle stamped at each corner.
     
-        Mihi cura futuri
-        Mihi cura futuri
-        Mihi cura futuri
-        Mihi cura futuri
-        Mihi cura futuri
-        Mihi cura futuri
-        Mihi cura futuri
-        Mihi cura futuri
-        Mihi cura futuri
-        Mihi cura futuri
-        Mihi cura futuri
-        Mihi cura futuri
-        Mihi cura futuri
-        Mihi cura futuri
-        Mihi cura futuri
+        Your output should look similar to:  
+        ![](stampedDecagon.png)
     
-5.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
-    
-    Write a program that draws a purple decagon (10-sided polygon) with turtle stamped at each corner.
-    
-    Your output should look similar to:  
-    ![](stampedDecagon.png)
-    
-    _Hint: See Lecture 1._
+        _Hint: See Lecture 1._
     
     * * *
     
-6.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+0006.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
-    Write a Python program that prompts the user for a message, and then prints the message, the message in upper case letters, and the message in lower case letters.
+        Write a Python program that prompts the user for a message, and then prints the message, the message in upper case letters, and the message in lower case letters.
     
-    A sample run of your program should look like:
+        A sample run of your program should look like:
     
-        Enter a message:  Mihi cura futuri
-        Mihi cura futuri
-        MIHI CURA FUTURI
-        mihi cura futuri
+            Enter a message:  Mihi cura futuri
+            Mihi cura futuri
+            MIHI CURA FUTURI
+            mihi cura futuri
     
-    Another run:
-    
-        Enter a message:  I love Python!
-        I love Python!
-        I LOVE PYTHON!
-        i love python!
+        Another run:
 
-7.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
-    
-    Write a program that prompts the user to enter a phrase and then prints out the ASCII code of each character in the phrase.
-    
-    A sample run of your program should look like:
-    
-        Enter a phrase:  I love Python!
-        In ASCII: 
-        73
-        32
-        108
-        111
-        118
-        101
-        32
-        80
-        121
-        116
-        104
-        111
-        110
-        33
-    
-    _Hint: If c is a character, ord(c) returns its ASCII code. For example, if c is 'I', then ord(c) returns 73. See [Lab 2](lab2.html)._
-    
-8.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
-    
-    Write a program that prompts the user for a DNA string, and then prints the length and GC-content (percent of the string that is C or G, written as a decimal).
-    
-    A sample run of your program should look like:
-    
-        Enter a DNA string:  ACGCCCGGGATG
-        Length is 12
-        GC-content is 0.75
-    
-    _Hint: See [Lab 2](lab2.html)._
-    
-9.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
-    
-    Write a program that prompts the user to enter a word and then prints out the word with each letter **shifted right** by 2. That is, 'a' becomes 'c', 'b' becomes 'd', ... 'x' becomes 'z', and 'y' becomes 'a'.
-    
-    Assume that all inputted words are in lower case letters: 'a',...,'z'.
-    
-    A sample run of your program should look like:
-    
-        Enter a word: hello 
-        Your word in code is: 
-        jgnnq
-    
-    _Hint: See the example programs from Lecture 2._
-    
-10.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+            Enter a message:  I love Python!
+            I love Python!
+            I LOVE PYTHON!
+            i love python!
 
-     Write a program that implements the pseudocode below:
+0007.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+    
+        Write a program that prompts the user to enter a phrase and then prints out the ASCII code of each character in the phrase.
+    
+        A sample run of your program should look like:
+    
+            Enter a phrase:  I love Python!
+            In ASCII: 
+            73
+            32
+            108
+            111
+            118
+            101
+            32
+            80
+            121
+            116
+            104
+            111
+            110
+            33
+    
+        _Hint: If c is a character, ord(c) returns its ASCII code. For example, if c is 'I', then ord(c) returns 73. See [Lab 2](lab2.html)._
+    
+0008.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+    
+        Write a program that prompts the user for a DNA string, and then prints the length and GC-content (percent of the string that is C or G, written as a decimal).
+    
+        A sample run of your program should look like:
 
-         For i = 10, 20, 30, ..., 100:
-             Walk forward i steps
-             Turn left 94 degrees
+            Enter a DNA string:  ACGCCCGGGATG
+            Length is 12
+            GC-content is 0.75
 
-     Your output should look similar to: ![](spiral10.png)
+        _Hint: See [Lab 2](lab2.html)._
+    
+0009.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+    
+        Write a program that prompts the user to enter a word and then prints out the word with each letter **shifted right** by 2. That is, 'a' becomes 'c', 'b' becomes 'd', ... 'x' becomes 'z', and 'y' becomes 'a'.
 
-     _Hint: See [Lab 2](lab2.html)._
+        Assume that all inputted words are in lower case letters: 'a',...,'z'.
+
+        A sample run of your program should look like:
+
+            Enter a word: hello 
+            Your word in code is: 
+            jgnnq
+
+        _Hint: See the example programs from Lecture 2._
+    
+0010.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+
+         Write a program that implements the pseudocode below:
+
+             For i = 10, 20, 30, ..., 100:
+                 Walk forward i steps
+                 Turn left 94 degrees
+
+         Your output should look similar to: ![](spiral10.png)
+
+         _Hint: See [Lab 2](lab2.html)._
    
 <!--    
 
