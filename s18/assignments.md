@@ -91,7 +91,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
         _Hint: See Lecture 1._
     
-    * * *
+    ***
     
 0006.  **Due Date: 12 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
