@@ -85,8 +85,7 @@ This course will use the on-line [gradescope](http://www.gradescope.com) system 
 
 Now that you have just submitted your first program, let's try some other Python commands. Here's a quick demo (click the triangle to run the program):  
 
-<iframe src="https://trinket.io/embed/python/22709f8349" width="80%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe>  
-  
+<iframe src="https://trinket.io/embed/python/22709f8349" width="80%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe> <br> 
   
 Now, let's write the same program in IDLE:
 
@@ -167,7 +166,7 @@ Almost all the packages we will use are automatically included in the Anaconda d
     
 	    easy_install pip
 
-	    And then add the packages:
+	And then add the packages:
 
 	    pip install image
 	    pip install folium
