@@ -412,5 +412,4 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Section 7.4](http://interactivepython.org/runestone/static/thinkcspy/Selection/ConditionalExecutionBinarySelection.html) of the Python textbook and Lecture 4 notes._  
 
-
 _(This file was last modified on 4 June 2018.)_
