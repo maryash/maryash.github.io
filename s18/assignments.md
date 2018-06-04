@@ -89,7 +89,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         Your output should look similar to:  
         ![](stampedDecagon.png)
     
-        _Hint: See Lecture 1._
+        _Hint: See Lecture 1._  
 
 06.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
@@ -107,7 +107,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter a message:  I love Python!
             I love Python!
             I LOVE PYTHON!
-            i love python!
+            i love python!  
 
 07.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
@@ -132,7 +132,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             110
             33
     
-        _Hint: If c is a character, ord(c) returns its ASCII code. For example, if c is 'I', then ord(c) returns 73. See [Lab 2](lab2.html)._
+        _Hint: If c is a character, ord(c) returns its ASCII code. For example, if c is 'I', then ord(c) returns 73. See [Lab 2](lab2.html)._  
     
 08.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
@@ -144,7 +144,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Length is 12
             GC-content is 0.75
 
-        _Hint: See [Lab 2](lab2.html)._
+        _Hint: See [Lab 2](lab2.html)._  
     
 09.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
@@ -158,7 +158,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Your word in code is: 
             jgnnq
 
-        _Hint: See the example programs from Lecture 2._
+        _Hint: See the example programs from Lecture 2._ . 
     
 10.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
 
@@ -171,7 +171,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
          Your output should look similar to:  
          ![](spiral10.png)
 
-        _Hint: See [Lab 2](lab2.html)._
+        _Hint: See [Lab 2](lab2.html)._  
    
 11.  **Due Date: 11 June** **Think CS: [Chapters 4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
@@ -195,14 +195,14 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
             I
 
-        _Hint: See [Lab 2](lab2.html) or Lecture 2 notes._
+        _Hint: See [Lab 2](lab2.html) or Lecture 2 notes._  
 
 12.  **Due Date: 11 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
         Modify the program from [Lab 3](lab3.html) to show the shades of green.
 
         Your output should look similar to:  
-        ![](shadesOfGreen.png)
+        ![](shadesOfGreen.png)  
     
 13.  **Due Date: 11 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
@@ -215,7 +215,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         and the output should look similar to:  
         ![](../f17/purplyTurtle.png)
 
-        _Hint: See [Section 4.3](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/InstancesAHerdofTurtles.html) for setting the background color and [Lab 3](lab3.html) for colors._
+        _Hint: See [Section 4.3](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/InstancesAHerdofTurtles.html) for setting the background color and [Lab 3](lab3.html) for colors._  
     
 14.  **Due Date: 11 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
@@ -230,7 +230,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         ![](../f17/csBridge.png) ![](greenH.png)
 
-        Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
+        Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
     
 15.  **Due Date: 11 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
@@ -254,9 +254,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter binary number: 1111
             Your number in decimal is 15
 
-        Note: here's a quick [review](https://www.mathsisfun.com/binary-number-system.html) of binary numbers.
-    
-    * * *
+        Note: here's a quick [review](https://www.mathsisfun.com/binary-number-system.html) of binary numbers.  
     
 16.  **Due Date: 14 June** **Reading: Think CS: [Section 2.7](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/OperatorsandOperands.html)**  
 
@@ -264,7 +262,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         A useful formula: _miles = 0.621371* kilometers_.
 
-        See [Lab 4](lab4.html) for designing Input-Process-Output programs.
+        See [Lab 4](lab4.html) for designing Input-Process-Output programs.  
     
 17.  **Due Date: 14 June** **Reading: Think CS: [Section 2.7](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/OperatorsandOperands.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
@@ -286,7 +284,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Days: 2
             Hours: 4
 
-        _Hint: See [Section 2.7](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/OperatorsandOperands.html)._
+        _Hint: See [Section 2.7](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/OperatorsandOperands.html)._  
     
 18.  **Due Date: 14 June** **Reading: Think CS: [Chapters 4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
 
@@ -301,7 +299,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter a number: 80
 
         and the output should look similar to:  
-        ![](5turns.png)
+        ![](5turns.png)  
     
 19.  **Due Date: 14 June** **Reading: Think CS: [Chapters 4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
     
@@ -313,7 +311,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         and be saved to a file called floodMap.png.
 
-        Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
+        Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
     
 20.  **Due Date: 14 June** **Reading: [Think CS: Section 8.10](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/2DimensionalIterationImageProcessing.html)**  
     
@@ -329,9 +327,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         and be saved to a file called coast.png.
 
-        Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
-    
-    * * *
+        Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
     
 21.  **Due Date: 14 June** **Reading: Think CS: [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
     
@@ -348,7 +344,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Note: for this program, you only need to compute the snow count. Showing the image will confuse the grading script, since it's only expecting the snow count.
 
-        _Hint: See [Lab 5](lab5.html)_.
+        _Hint: See [Lab 5](lab5.html)_.  
     
 22.  **Due Date: 14 June** **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
     
@@ -366,7 +362,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         ![](norGate.png)
 
-        Save your expression to a text file. See [Lab 5](lab5.html) for the format for submitting logical expressions to Gradescope.
+        Save your expression to a text file. See [Lab 5](lab5.html) for the format for submitting logical expressions to Gradescope.  
     
 24.  **Due Date: 14 June** **Reading: Think CS: [Chapters 2](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
@@ -388,7 +384,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         *   'r': turns the turtle 45 degrees to the right
         *   'p': change the pen color to purple
 
-        _Hint: See Lecture 4 notes._
+        _Hint: See Lecture 4 notes._ . 
     
 25.  **Due Date: 14 June** **Think CS: [Chapter 4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [Section 7.4](http://interactivepython.org/runestone/static/thinkcspy/Selection/ConditionalExecutionBinarySelection.html)**
     
@@ -414,7 +410,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         and the output should look similar to:  
         ![](rightTurtle.png)  
 
-        _Hint: See [Section 7.4](http://interactivepython.org/runestone/static/thinkcspy/Selection/ConditionalExecutionBinarySelection.html) of the Python textbook and Lecture 4 notes._
+        _Hint: See [Section 7.4](http://interactivepython.org/runestone/static/thinkcspy/Selection/ConditionalExecutionBinarySelection.html) of the Python textbook and Lecture 4 notes._  
 
 
-_(This file was last modified on 30 May 2018.)_
+_(This file was last modified on 4 June 2018.)_
