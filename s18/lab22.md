@@ -6,7 +6,7 @@ Hunter College City University of New York &nbsp;Summer 2018
 
 ---
 
-### Lab 2  
+### LAB 2  
 
 ---
 
@@ -16,11 +16,11 @@ Software tools needed: web browser and Python IDLE programming environment.
 
 ### In-class Quiz
 
-During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab1.html) for details on using Blackboard).
+During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [LAB 1](lab1.html) for details on using Blackboard).
 
 ### Using Python, Gradescope, and Blackboard
 
-See [Lab 1](lab1.html) for details on using Python, Gradescope, and Blackboard.
+See [LAB 1](lab1.html) for details on using Python, Gradescope, and Blackboard.
 
 ### Strings
 
@@ -60,7 +60,7 @@ For historic reasons, we start counting at 0, instead of 1, in many computer lan
   
   
   
-The find() command gives the location of "ll" which is 2 if you start by counting the first character as 0.
+The find() command gives the location of `"ll"` which is `2` if you start by counting the first character as `0`.
 
 ### Getting Input
 
@@ -68,7 +68,7 @@ Last week, we used the `print()` function to write messages to the user of our p
 
     aString = input("Put a message here to show user: ")
 
-where the string "Put a message..." is replaced by the prompt you would like the user to see and `aString` with the name of the string you are using in your program.
+where the string `"Put a message..."` is replaced by the prompt you would like the user to see and `aString` with the name of the string you are using in your program.
 
 Let's write a program that combines the asking the user for input with the string commands a the beginning of the lab. The program will:
 
@@ -81,7 +81,7 @@ To start, open IDLE and start a new file window. Put a comment (lines that begin
 
 1.  Next, fill in the code that prompt the user for a message and store it in the variable, mess (see the example above).
 2.  Print the message to the screen (also done in the example above).
-3.  To print in all capital letters, you can use the upper() command (see first example in the lab).
+3.  To print in all capital letters, you can use the `upper()` command (see first example in the lab).
 4.  Print the message in all lower case in a similar way.
 
 Save your file as you go, and then run it. Try different messages to make sure it works with different inputs. When it works, see the [Programming Problem List](assignments.html).
@@ -101,19 +101,19 @@ Modify the program to:
 
 When it works, add in your name in a comment, and see the [Programming Problem List](assignments.html).
 
-To go the other direction, there's a function chr() which takes numbers and returns the corresponding character. For example, chr(97) returns 'a'. Let's look at the characters with unicode from 65 to 69:
+To go the other direction, there's a function chr() which takes numbers and returns the corresponding character. For example, `chr(97)` returns `a`. Let's look at the characters with unicode from `65` to `69`:
 
-The range() statement has several different options:
+The `range()` statement has several different options:
 
 *   range(stop): if you have only a single number in the parenthesis, it will generate all the numbers from 0 to stop - 1. For example, range(5) generates the numbers 0, 1, 2, 3, 4.
-*   range(start, stop): if you have only two numbers in the parenthesis, it will generate all the numbers from start to stop - 1. For example, range(65,70) generates the numbers 65, 66, 67, 68, 690 .
-*   range(start, stop, step): if you have three numbers in the parenthesis, it will generate all the numbers from start to stop - 1, increasing by step each time. For example, range(100,200,10) generates the numbers 100, 110, 120, 130, 140, 150, 160, 170, 180, 190.
+*   `range(start, stop)`: if you have only two numbers in the parenthesis, it will generate all the numbers from `start` to `stop - 1`. For example, `range(65,70)` generates the numbers `65`, `66`, `67`, `68`, `690`.
+*   `range(start, stop, step)`: if you have three numbers in the parenthesis, it will generate all the numbers from `start` to `stop - 1`, increasing by `step` each time. For example, `range(100,200,10)` generates the numbers `100`, `110`, `120`, `130`, `140`, `150`, `160`, `170`, `180`, `190`.
 
 ### Biomolecular Sequences
 
 Let's apply what we just learned to some questions from biology. DNA is a molecule that contains instructions for the cell ([wiki](https://en.wikipedia.org/wiki/DNA)). We can represent it as a string of four characters: 'A', 'C', 'G', and 'T' corresponding to the four nucleotides that are the building blocks for the sequences. For example,
 
-insulin = "AGCCCTCCAGGACAGGCTGCATCAGAAGAGGCCATCAAGCAGGTCTGTTCCAAGGGCCTTTGCGTCAGGTGGGCTCAGGATTCCAGGGTGGCTGGACCCCAGGCCCCAGCTCTGCAGCAGGGAGGACGTGGCTGGGCTCGTGAAGCATGTGGGGGTGAGCCCAGGGGCCCCAAGGCAGGGCACCTGGCCTTCAGCCTGCCTCAGCCCTGC"
+        insulin = "AGCCCTCCAGGACAGGCTGCATCAGAAGAGGCCATCAAGCAGGTCTGTTCCAAGGGCCTTTGCGTCAGGTGGGCTCAGGATTCCAGGGTGGCTGGACCCCAGGCCCCAGCTCTGCAGCAGGGAGGACGTGGCTGGGCTCGTGAAGCATGTGGGGGTGAGCCCAGGGGCCCCAAGGCAGGGCACCTGGCCTTCAGCCTGCCTCAGCCCTGC"
 
 is the start of the [DNA sequence for insulin in humans](https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=3630).
 
@@ -128,20 +128,20 @@ We have the tools to compute how long the out sequence is as well as GC-content 
 
 There's another way we can loop through strings, using the index of each character. Let's assume that we have:
 
-greeting = "Hello, World!"
+        greeting = "Hello, World!"
 
 Before, we printed out the whole string with:
 
-print(greeting)
+        print(greeting)
 
 If we wanted to print out only the first letter, we could write:
 
-print(greeting\[0\])
+        print(greeting\[0\])
 
-where the number between the square brackets is the index of the character, in this case, 0, or the very first character of the string.
+where the number between the square brackets is the index of the character, in this case, `0`, or the very first character of the string.
 
 Try guessing what the following code does and then running it:
 
 ### What's Next?
 
-If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](ps.html) has problem descriptions, suggested reading, and due dates next to each problem.
+If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](assignments.html) has problem descriptions, suggested reading, and due dates next to each problem.
