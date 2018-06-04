@@ -123,7 +123,7 @@ The `range()` statement has several different options:
 
 Let's apply what we just learned to some questions from biology. DNA is a molecule that contains instructions for the cell ([wiki](https://en.wikipedia.org/wiki/DNA)). We can represent it as a string of four characters: 'A', 'C', 'G', and 'T' corresponding to the four nucleotides that are the building blocks for the sequences. For example,
 
-        insulin = "AGCCCTCCAGGACAGGCTGCATCAGAAGAGGCCATCAAGCAGGTCTGTTCCAAGGGCCTTTGC
+    insulin = "AGCCCTCCAGGACAGGCTGCATCAGAAGAGGCCATCAAGCAGGTCTGTTCCAAGGGCCTTTGC
 	GTCAGGTGGGCTCAGGATTCCAGGGTGGCTGGACCCCAGGCCCCAGCTCTGCAGCAGGGAGGACGTGGCTGGGC
 	TCGTGAAGCATGTGGGGGTGAGCCCAGGGGCCCCAAGGCAGGGCACCTGGCCTTCAGCCTGCCTCAGCCCTGC"
 
