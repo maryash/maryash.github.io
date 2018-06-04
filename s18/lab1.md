@@ -1,13 +1,13 @@
 ---
 layout: myDefault
-title: PROGRAMMING ASSIGNMENTS
+title: LAB 1
 ---
 ### [CSCI 12700 | Introduction to Computer Science](../summer2018.md)  
 Hunter College City University of New York &nbsp;Summer 2018 
 
 ---
 	
-Lab 1
+LAB 1
 -----
 
 Today's lab will focus on using the gradescope & Blackboard systems and simple programs in Python.
@@ -85,10 +85,9 @@ This course will use the on-line [gradescope](http://www.gradescope.com) system 
 
 Now that you have just submitted your first program, let's try some other Python commands. Here's a quick demo (click the triangle to run the program):  
 
-
 <iframe src="https://trinket.io/embed/python/22709f8349" width="80%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe>  
-
-
+  
+  
 Now, let's write the same program in IDLE:
 
 1.  Open up a new file window in IDLE ("File > New File").
