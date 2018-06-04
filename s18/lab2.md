@@ -50,7 +50,7 @@ Since strings are used everywhere, there are many built-in functions for strings
 *   Guess which each does from its name, then
 *   Click the forward button in the code window below to see if you guess was correct.  
   
-<iframe width="800" height="432" frameborder="10" margin="10" src="https://pythontutor.com/iframe-embed.html#code=greeting%20%3D%20%22Hello,%20World!%22%0A%0A%23Guess%20what%20the%20following%20string%20methods%20do%3A%0A%23%20%20Then%20click%20the%20forward%20button%20to%20see%20how%20you%20did%0A%0Aprint%28greeting.upper%28%29%29%0Aprint%28greeting.lower%28%29%29%0Aprint%28len%28greeting%29%29%0Aprint%28greeting.count%28'o'%29%29%0Aprint%28greeting.count%28'%20'%29%29%0Aprint%28greeting.find%28'll'%29%29%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe><br>
+<iframe width="800" height="432" frameborder="1" margin="10" src="https://pythontutor.com/iframe-embed.html#code=greeting%20%3D%20%22Hello,%20World!%22%0A%0A%23Guess%20what%20the%20following%20string%20methods%20do%3A%0A%23%20%20Then%20click%20the%20forward%20button%20to%20see%20how%20you%20did%0A%0Aprint%28greeting.upper%28%29%29%0Aprint%28greeting.lower%28%29%29%0Aprint%28len%28greeting%29%29%0Aprint%28greeting.count%28'o'%29%29%0Aprint%28greeting.count%28'%20'%29%29%0Aprint%28greeting.find%28'll'%29%29%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe><br>
   
 For historic reasons, we start counting at 0, instead of 1, in many computer languages, including Python. When you use find() command on the string `"Hello, World!"`, the first character is at `0`, the next character at `1`, etc.  
   
@@ -72,7 +72,7 @@ Last week, we used the `print()` function to write messages to the user of our p
 
 where the string `"Put a message..."` is replaced by the prompt you would like the user to see and `aString` with the name of the string you are using in your program.  
 
-<iframe width="800" height="300" frameborder="10" src="https://pythontutor.com/iframe-embed.html#code=mess%20%3D%20input%28'Please%20enter%20a%20message%3A%20'%29%0Aprint%28%22You%20entered%22,%20mess%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22hi%20mom%22%5D&textReferences=false"> </iframe><br>
+<iframe width="800" height="300" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=mess%20%3D%20input%28'Please%20enter%20a%20message%3A%20'%29%0Aprint%28%22You%20entered%22,%20mess%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22hi%20mom%22%5D&textReferences=false"> </iframe><br>
 
 Let's write a program that combines the asking the user for input with the string commands a the beginning of the lab. The program will:
 
@@ -94,13 +94,13 @@ Save your file as you go, and then run it. Try different messages to make sure i
 
 You can also loop through strings. Try running the code below:  
 
-<iframe width="800" height="316" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=myString%20%3D%20%22I%20love%20Python!!%22%0A%0Aprint%28myString%29%0A%0Afor%20c%20in%20myString%3A%0A%20%20%20%20print%28c%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe><br>
+<iframe width="800" height="316" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=myString%20%3D%20%22I%20love%20Python!!%22%0A%0Aprint%28myString%29%0A%0Afor%20c%20in%20myString%3A%0A%20%20%20%20print%28c%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe><br>
 
 Each character has a number assigned to it. When you write a character, it is converted to its number, and that is stored instead to save space. Python uses the standard Unicode encoding (which extends the popular ASCII encoding to new symbols and alphabets). For example, `ord('a')` give the Unicode number for the character, `a`, which is `97`.
 
 Let's look at the Unicode of the characters in our string:
 
-<iframe width="800" height="316" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=myString%20%3D%20%22I%20love%20Python!!%22%0A%0Aprint%28myString%29%0A%0Afor%20c%20in%20myString%3A%0A%20%20%20%20print%28c,%20ord%28c%29%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe><br>
+<iframe width="800" height="316" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=myString%20%3D%20%22I%20love%20Python!!%22%0A%0Aprint%28myString%29%0A%0Afor%20c%20in%20myString%3A%0A%20%20%20%20print%28c,%20ord%28c%29%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe><br>
 
 Modify the program to:
 
@@ -111,7 +111,7 @@ When it works, add in your name in a comment, and see the [Programming Problem L
 
 To go the other direction, there's a function chr() which takes numbers and returns the corresponding character. For example, `chr(97)` returns `a`. Let's look at the characters with unicode from `65` to `69`:
 
-<iframe width="800" height="296" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%0Afor%20i%20in%20range%2865,70%29%3A%0A%20%20%20%20print%28i,%20chr%28i%29%29%0A%20%20%20%20%0Aprint%28%22That's%20it%20for%20now!%22%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe><br>
+<iframe width="800" height="296" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=%0Afor%20i%20in%20range%2865,70%29%3A%0A%20%20%20%20print%28i,%20chr%28i%29%29%0A%20%20%20%20%0Aprint%28%22That's%20it%20for%20now!%22%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe><br>
 
 The `range()` statement has several different options:
 
@@ -136,7 +136,7 @@ We have the tools to compute how long the out sequence is as well as GC-content 
 *   Next, we add the number of 'C' and number of 'G' together, and divide by the length.
 *   Then, we convert to a percentage by multiplying by 100 and print out the answer.
 
-<iframe width="800" height="576" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%23Initial%20fragment%20of%20insulin%20DNA%20%28h.%20sapiens%29%3A%0Ainsulin%20%3D%20%22AGCCCTCCAGGACAGGCTGCATCAGAAGAGGCCATCAAGCAGGTCTGTTCCAAGGGCCTTTGCGTCAGGTGGGCTCAGGATTCCAGGGTGGCTGGACCCCAGGCCCCAGCTCTGCAGCAGGGAGGACGTGGCTGGGCTCGTGAAGCATGTGGGGGTGAGCCCAGGGGCCCCAAGGCAGGGCACCTGGCCTTCAGCCTGCCTCAGCCCTGC%22%0A%0A%23Compute%20the%20length,%20and%20store%20in%20variable%20to%20use%20again%3A%0Al%20%3D%20len%28insulin%29%0Aprint%28%22The%20length%20is%22,%20l%29%0A%0A%23Compute%20amount%20of%20C%20and%20G%20in%20the%20sequence%3A%0AnumC%20%3D%20insulin.count%28'C'%29%0AnumG%20%3D%20insulin.count%28'G'%29%0Aprint%28'Number%20of%20C%20nucleotides',%20numC%29%0Aprint%28'Number%20of%20G%20nucleotides',%20numG%29%0A%0A%23Compute%20the%20GC-content%3A%0Agc%20%3D%20%28numC%20%2B%20numG%29%20/%20l%0A%23Convert%20to%20percentage%20by%20multiplying%20by%20100%3A%0AgcPercent%20%3D%20gc%20*%20100%0Aprint%28'GC-content%20is',%20gcPercent%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe><br>
+<iframe width="800" height="576" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=%23Initial%20fragment%20of%20insulin%20DNA%20%28h.%20sapiens%29%3A%0Ainsulin%20%3D%20%22AGCCCTCCAGGACAGGCTGCATCAGAAGAGGCCATCAAGCAGGTCTGTTCCAAGGGCCTTTGCGTCAGGTGGGCTCAGGATTCCAGGGTGGCTGGACCCCAGGCCCCAGCTCTGCAGCAGGGAGGACGTGGCTGGGCTCGTGAAGCATGTGGGGGTGAGCCCAGGGGCCCCAAGGCAGGGCACCTGGCCTTCAGCCTGCCTCAGCCCTGC%22%0A%0A%23Compute%20the%20length,%20and%20store%20in%20variable%20to%20use%20again%3A%0Al%20%3D%20len%28insulin%29%0Aprint%28%22The%20length%20is%22,%20l%29%0A%0A%23Compute%20amount%20of%20C%20and%20G%20in%20the%20sequence%3A%0AnumC%20%3D%20insulin.count%28'C'%29%0AnumG%20%3D%20insulin.count%28'G'%29%0Aprint%28'Number%20of%20C%20nucleotides',%20numC%29%0Aprint%28'Number%20of%20G%20nucleotides',%20numG%29%0A%0A%23Compute%20the%20GC-content%3A%0Agc%20%3D%20%28numC%20%2B%20numG%29%20/%20l%0A%23Convert%20to%20percentage%20by%20multiplying%20by%20100%3A%0AgcPercent%20%3D%20gc%20*%20100%0Aprint%28'GC-content%20is',%20gcPercent%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe><br>
 
 ### Looping Through Strings, Revisited
 
@@ -156,7 +156,7 @@ where the number between the square brackets is the index of the character, in t
 
 Try guessing what the following code does and then running it:
 
-<iframe width="800" height="640" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=greeting%20%3D%20%22Hello,%20World!%22%0A%0Aprint%28greeting%5B0%5D%29%0Aprint%28greeting%5B1%5D%29%0Aprint%28greeting%5B2%5D%29%0Aprint%28greeting%5B-1%5D%29%0A%0Afor%20j%20in%20range%285%29%3A%0A%20%20%20%20print%28greeting%5Bj%5D%29%0A%20%20%20%20%0Afor%20j%20in%20range%28len%28greeting%29%29%3A%0A%20%20%20%20print%28greeting%5Bj%5D%29%20%20%20%0A%20%20%20%20%0Afor%20j%20in%20range%280,10,2%29%3A%0A%20%20%20%20print%28greeting%5Bj%5D%29%20%20%0A%20%20%20%20%0Afor%20j%20in%20range%2810,0,-1%29%3A%0A%20%20%20%20print%28greeting%5Bj%5D%29%20%20%20%20%20&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe><br>
+<iframe width="800" height="640" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=greeting%20%3D%20%22Hello,%20World!%22%0A%0Aprint%28greeting%5B0%5D%29%0Aprint%28greeting%5B1%5D%29%0Aprint%28greeting%5B2%5D%29%0Aprint%28greeting%5B-1%5D%29%0A%0Afor%20j%20in%20range%285%29%3A%0A%20%20%20%20print%28greeting%5Bj%5D%29%0A%20%20%20%20%0Afor%20j%20in%20range%28len%28greeting%29%29%3A%0A%20%20%20%20print%28greeting%5Bj%5D%29%20%20%20%0A%20%20%20%20%0Afor%20j%20in%20range%280,10,2%29%3A%0A%20%20%20%20print%28greeting%5Bj%5D%29%20%20%0A%20%20%20%20%0Afor%20j%20in%20range%2810,0,-1%29%3A%0A%20%20%20%20print%28greeting%5Bj%5D%29%20%20%20%20%20&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe><br>
 
 ### What's Next?
 
