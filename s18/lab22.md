@@ -1,3 +1,4 @@
+---
 layout: myDefault
 title: LAB 2
 ---
@@ -5,9 +6,8 @@ title: LAB 2
 Hunter College City University of New York &nbsp;Summer 2018 
 
 ---
-
-### LAB 2  
-
+	
+LAB 2
 ---
 
 Today's lab will introduce strings and lists in Python.
@@ -50,10 +50,8 @@ Since strings are used everywhere, there are many built-in functions for strings
 *   Guess which each does from its name, then
 *   Click the forward button in the code window below to see if you guess was correct.  
   
-  
-<iframe width="800" height="400" frameborder="10" margin="10" src="https://pythontutor.com/iframe-embed.html#code=greeting%20%3D%20%22Hello,%20World!%22%0A%0A%23Guess%20what%20the%20following%20string%20methods%20do%3A%0A%23%20%20Then%20click%20the%20forward%20button%20to%20see%20how%20you%20did%0A%0Aprint%28greeting.upper%28%29%29%0Aprint%28greeting.lower%28%29%29%0Aprint%28len%28greeting%29%29%0Aprint%28greeting.count%28'o'%29%29%0Aprint%28greeting.count%28'%20'%29%29%0Aprint%28greeting.find%28'll'%29%29%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>  
-  
-  
+<iframe width="800" height="480" frameborder="10" margin="10" src="https://pythontutor.com/iframe-embed.html#code=greeting%20%3D%20%22Hello,%20World!%22%0A%0A%23Guess%20what%20the%20following%20string%20methods%20do%3A%0A%23%20%20Then%20click%20the%20forward%20button%20to%20see%20how%20you%20did%0A%0Aprint%28greeting.upper%28%29%29%0Aprint%28greeting.lower%28%29%29%0Aprint%28len%28greeting%29%29%0Aprint%28greeting.count%28'o'%29%29%0Aprint%28greeting.count%28'%20'%29%29%0Aprint%28greeting.find%28'll'%29%29%0A&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=false&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>  
+<br>    
   
 For historic reasons, we start counting at 0, instead of 1, in many computer languages, including Python. When you use find() command on the string `"Hello, World!"`, the first character is at `0`, the next character at `1`, etc.  
   
