@@ -26,22 +26,22 @@ See [Lab 1](lab1.html) for details on using Python, Gradescope, and Blackboard.
 
 A sequence of characters (i.e. letters, numbers, symbols) is called a string. To indicate a string, we use quotes (either single or double, just as long as they match up) to indicate the start and end (a fancier way to say that is: quotes deliminate the string). For example, for our first program, we wrote:
 
-print("Hello, World!")
+    print("Hello, World!")
 
-The string, or sequence of characters, Hello, World!, was printed to the screen. We can also store strings to be used again in the program. For example,
+The string, or sequence of characters, `Hello, World!`, was printed to the screen. We can also store strings to be used again in the program. For example,
 
-greeting = "Hello, World!"
-print(greeting)
+    greeting = "Hello, World!"
+    print(greeting)
 
 creates a location in memory that can be accessed by typing the name (or identifier) that we chose: greeting. greeting stores the string Hello, World!. While the quotes are not stored, we will often write "Hello, World!" to make it more clear where the string begins and ends. When we execute the code above, it will create the variable, greeting, and then print out the message:
 
-Hello, World!
+    Hello, World!
 
 We can use the variable any number of times. For example, if we wanted to print the message twice, we could use:
 
-greeting = "Hello, World!"
-print(greeting)
-print(greeting)
+    greeting = "Hello, World!"
+    print(greeting)
+    print(greeting)
 
 ### More Useful String Methods
 
@@ -50,7 +50,7 @@ Since strings are used everywhere, there are many built-in functions for strings
 *   Guess which each does from its name, then
 *   Click the forward button in the code window below to see if you guess was correct.
 
-For historic reasons, we start counting at 0, instead of 1, in many computer languages, including Python. When you use find() command on the string ``Hello, World!'', the first character is at 0, the next character at 1, etc.  
+For historic reasons, we start counting at 0, instead of 1, in many computer languages, including Python. When you use find() command on the string `"Hello, World!"`, the first character is at `0`, the next character at `1`, etc.  
   
   
 | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` 
@@ -74,9 +74,9 @@ The find() command gives the location of "ll" which is 2 if you start by countin
 
 ### Getting Input
 
-Last week, we used the print() function to write messages to the user of our program. This week, we introduce, input(), to get information from the user. Here's the basic format:
+Last week, we used the `print()` function to write messages to the user of our program. This week, we introduce, input(), to get information from the user. Here's the basic format:
 
-aString = input("Put a message here to show user: ")
+    aString = input("Put a message here to show user: ")
 
 where the string "Put a message..." is replaced by the prompt you would like the user to see and aString with the name of the string you are using in your program.
 
