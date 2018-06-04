@@ -6,7 +6,7 @@ Hunter College City University of New York &nbsp;Summer 2018
 
 ---
 
-Lab 2  
+###Lab 2  
 
 ---
 
@@ -52,33 +52,25 @@ Since strings are used everywhere, there are many built-in functions for strings
 
 For historic reasons, we start counting at 0, instead of 1, in many computer languages, including Python. When you use find() command on the string `"Hello, World!"`, the first character is at `0`, the next character at `1`, etc.  
   
+   
   
-| ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` 
+ ` 0 ` | ` 1 ` | ` 2 ` | ` 3 ` | ` 4 ` | ` 5 ` | ` 6 ` | ` 7 ` | ` 8 ` | ` 9 ` | ` 10 ` | ` 11 ` | ` 12 ` 
  
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
  
-| ` H ` | ` e ` | ` l ` | ` l ` | ` o ` | ` , ` | ` W ` | ` o ` | ` r ` | ` l ` | ` d ` | ` ! ` |
+ ` H ` | ` e ` | ` l ` | ` l ` | ` o ` | ` , ` | ` W ` | ` o ` | ` r ` | ` l ` | ` d ` | ` ! ` 
   
   
   
-  
-| ` 0 ` | ` 1 ` | ` 2 ` | ` 3 ` | ` 4 ` | ` 5 ` | ` 6 ` | ` 7 ` | ` 8 ` | ` 9 ` | ` 10 ` | ` 11 ` | ` 12 ` |
- 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
- 
-| ` H ` | ` e ` | ` l ` | ` l ` | ` o ` | ` , ` | ` W ` | ` o ` | ` r ` | ` l ` | ` d ` | ` ! ` |
-
-
-
 The find() command gives the location of "ll" which is 2 if you start by counting the first character as 0.
 
 ### Getting Input
 
-Last week, we used the `print()` function to write messages to the user of our program. This week, we introduce, input(), to get information from the user. Here's the basic format:
+Last week, we used the `print()` function to write messages to the user of our program. This week, we introduce, `input()`, to get information from the user. Here's the basic format:
 
     aString = input("Put a message here to show user: ")
 
-where the string "Put a message..." is replaced by the prompt you would like the user to see and aString with the name of the string you are using in your program.
+where the string "Put a message..." is replaced by the prompt you would like the user to see and `aString` with the name of the string you are using in your program.
 
 Let's write a program that combines the asking the user for input with the string commands a the beginning of the lab. The program will:
 
@@ -87,20 +79,20 @@ Let's write a program that combines the asking the user for input with the strin
 3.  Print the message in all capital letters.
 4.  Print the message in all lower case letters.
 
-To start, open IDLE and start a new file window. Put a comment (lines that begin with '#') that includes your name and a short description of what the program does.
+To start, open IDLE and start a new file window. Put a comment (lines that begin with `#`) that includes your name and a short description of what the program does.
 
 1.  Next, fill in the code that prompt the user for a message and store it in the variable, mess (see the example above).
 2.  Print the message to the screen (also done in the example above).
 3.  To print in all capital letters, you can use the upper() command (see first example in the lab).
 4.  Print the message in all lower case in a similar way.
 
-Save your file as you go, and then run it. Try different messages to make sure it works with different inputs. When it works, see the [Programming Problem List](ps.html).
+Save your file as you go, and then run it. Try different messages to make sure it works with different inputs. When it works, see the [Programming Problem List](assignments.html).
 
 #### Looping Through Strings
 
 You can also loop through strings. Try running the code below:
 
-Each character has a number assigned to it. When you write a character, it is converted to its number, and that is stored instead to save space. Python uses the standard Unicode encoding (which extends the popular ASCII encoding to new symbols and alphabets). For example, ord('a') give the Unicode number for the character, a, which is 97.
+Each character has a number assigned to it. When you write a character, it is converted to its number, and that is stored instead to save space. Python uses the standard Unicode encoding (which extends the popular ASCII encoding to new symbols and alphabets). For example, `ord('a')` give the Unicode number for the character, `a`, which is `97`.
 
 Let's look at the Unicode of the characters in our string:
 
