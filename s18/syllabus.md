@@ -2,7 +2,7 @@
 layout: myDefault
 title: SYLLABUS
 ---
-### [CSCI 12700 | Introduction to Computer Science](../summer2018.md)  
+### [CSCI 12700 | Introduction to Computer Science](../summer2018.html)  
 Hunter College City University of New York &nbsp;Summer 2018    
 
 ---
