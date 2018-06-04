@@ -307,7 +307,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Your resulting map should look like:
 
-        ![](../floodMap2.png)
+        ![](floodMap2.png)
 
         and be saved to a file called floodMap.png.
 
