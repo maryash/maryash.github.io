@@ -8,7 +8,7 @@ Hunter College City University of New York &nbsp;Summer 2018
 ---
 	
 LAB 1
------
+---
 
 Today's lab will focus on using the gradescope & Blackboard systems and simple programs in Python.
 
