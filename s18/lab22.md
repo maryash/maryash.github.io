@@ -51,20 +51,22 @@ Since strings are used everywhere, there are many built-in functions for strings
 *   Click the forward button in the code window below to see if you guess was correct.
 
 For historic reasons, we start counting at 0, instead of 1, in many computer languages, including Python. When you use find() command on the string ``Hello, World!'', the first character is at 0, the next character at 1, etc.  
-
-
- ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` 
+  
+  
+| ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` | ` ddd ` 
  
- --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
  
- ` H ` | ` e ` | ` l ` | ` l ` | ` o ` | ` , ` | ` W ` | ` o ` | ` r ` | ` l ` | ` d ` | ` ! ` 
+| ` H ` | ` e ` | ` l ` | ` l ` | ` o ` | ` , ` | ` W ` | ` o ` | ` r ` | ` l ` | ` d ` | ` ! ` |
+  
+  
+  
+  
+| ` 0 ` | ` 1 ` | ` 2 ` | ` 3 ` | ` 4 ` | ` 5 ` | ` 6 ` | ` 7 ` | ` 8 ` | ` 9 ` | ` 10 ` | ` 11 ` | ` 12 ` |
  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
  
-  ` 0 ` | ` 1 ` | ` 2 ` | ` 3 ` | ` 4 ` | ` 5 ` | ` 6 ` | ` 7 ` | ` 8 ` | ` 9 ` | ` 10 ` | ` 11 ` | ` 12 ` 
- 
- --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
- 
- ` H ` | ` e ` | ` l ` | ` l ` | ` o ` | ` , ` | ` W ` | ` o ` | ` r ` | ` l ` | ` d ` | ` ! ` 
+| ` H ` | ` e ` | ` l ` | ` l ` | ` o ` | ` , ` | ` W ` | ` o ` | ` r ` | ` l ` | ` d ` | ` ! ` |
 
 
 
