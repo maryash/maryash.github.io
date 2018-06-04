@@ -1,21 +1,11 @@
-
 ---
 layout: myDefault
 title: PROGRAMMING ASSIGNMENTS
 ---
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head>
-  <title>LAB 1, CSCI 127, Introduction to Computer Science, Hunter College, CUNY, Summer 2018</title>
-    <link type="text/css" rel="stylesheet" href="../../../lehman.css" />
-</head>
-<body>
-
 ### [CSCI 12700 | Introduction to Computer Science](../summer2018.md)  
 Hunter College City University of New York &nbsp;Summer 2018 
 
----  
+---
 	
 <div id="header">
 
