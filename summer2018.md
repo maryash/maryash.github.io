@@ -32,8 +32,8 @@ Staffed Hours: Monday-Thursday, 9:30am to 6:00pm.
  1R04 | M, W  3:20 PM – 12:54 PM, HN1001E | Katherine Howitt | kghowitt AT gmail com
 
 ### Useful Links:
-*   [Syllabus](s18/syllabus.md)
-*   [Programming Assignments](s18/assignments.md)
+*   [Syllabus](s18/syllabus.html)
+*   [Programming Assignments](s18/assignments.html)
 
 ### Book & tutorial pages:
 *   Python: [How to Think Like a Computer Scientist](https://interactivepython.org/runestone/static/thinkcspy/index.html) by Miller _et al_.
