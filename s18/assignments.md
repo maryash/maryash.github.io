@@ -168,8 +168,8 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
                      Walk forward i steps
                      Turn left 94 degrees
 
-         Your output should look similar to:  
-         ![](spiral10.png)
+        Your output should look similar to:  
+        ![](spiral10.png)
 
         _Hint: See [Lab 2](lab2.html)._  
    
