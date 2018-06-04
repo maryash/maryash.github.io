@@ -83,7 +83,11 @@ This course will use the on-line [gradescope](http://www.gradescope.com) system 
 
 ### More Python: Turtles
 
-Now that you have just submitted your first program, let's try some other Python commands. Here's a quick demo (click the triangle to run the program):
+Now that you have just submitted your first program, let's try some other Python commands. Here's a quick demo (click the triangle to run the program):  
+
+
+<iframe src="https://trinket.io/embed/python/22709f8349" width="80%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe>  
+
 
 Now, let's write the same program in IDLE:
 
