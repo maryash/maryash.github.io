@@ -7,247 +7,168 @@ Hunter College City University of New York &nbsp;Summer 2018
 
 ---
 	
-<div id="header">
+Lab 1
+-----
 
-<h2>Lab 1</h2>
-</div>
+Today's lab will focus on using the gradescope & Blackboard systems and simple programs in Python.
 
-<div>
+Software tools needed: web browser and Python IDLE programming environment.
 
-<p>
-Today's lab will focus on using the gradescope & Blackboard systems and simple programs
-in Python.  
+### Computers in CSCI 127 Lab
 
-<p>Software tools needed:  web browser and Python IDLE programming 
-environment.
+CSCi 127 has a laboratory, 1001E North, dedicated for its use. The room has a flexible set-up to encourage group work and laptop computers that can be checked out for use in the room only. When you enter the room, hand your Hunter ID to undergraduate teaching assistant in exchange for a laptop computer. At the end of lab, make sure to return your computer to its docking station so that it can be charged.
 
-</div>
+The laptops run Ubuntu Linux operating system. When you open the laptop, choose the "Computer Science Guest" account (the password is: 1001E!88). On the left hand side is a bar of icons, including icons for a browser (for accessing webpages) and the terminal window (for writing commands and launching programs).
 
-<div>
-<h3>Computers in CSCI 127 Lab</h3>
+When you launch the browser in the lab, you will see the standard HunterNet webpage. Fill in the form with your Hunter credentials (the same that you would use to access the wifi from your own computer or phone) to access the internet. If you get a message that you are not connected to the internet, click on the internet symbol (empty quarter circle) in the upper right corner of the toolbar. Hover over the "More Networks" and then click on "HunterNet". The wifi symbol will blink with concentric lines. When it stops blinking and becomes solid lines, an internet connection has been established and you can then reload the webpage to type in your Hunter credentials.
 
-<p>CSCi 127 has a laboratory, 1001E North, dedicated for its use.  The room has a flexible set-up to encourage group work and laptop computers that can be checked out for use in the room only.  When you enter the room, hand your Hunter ID to undergraduate teaching assistant in exchange for a laptop computer.  At the end of lab, make sure to return your computer to its docking station so that it can be charged.
+### Using Blackboard
 
-<p>The laptops run Ubuntu Linux operating system. When you open the laptop, choose the "Computer Science Guest" account (the password is:  <tt>1001E!88</tt>).  On the left hand side is a bar of icons, including icons for a browser (for accessing webpages) and the terminal window (for writing commands and launching programs).  
+This course will use the on-line Blackboard system for in-class quizzes and posting grades. Blackboard should be accessible through your CUNY First account (see Hunter [ICIT Blackboard page](http://www.hunter.cuny.edu/it/blackboard/blackboard-information-page) for directions on using the system and how to get help).
 
-<p> When you launch the browser in the lab, you will see the standard HunterNet webpage.  Fill in the form with your Hunter credentials (the same that you would use to access the wifi from your own computer or phone) to access the internet.  If you get a message that you are not connected to the internet, click on the 
-internet symbol (empty quarter circle) in the upper right corner of the toolbar.  Hover over the "More Networks" and then click on "HunterNet".  The wifi symbol will blink with concentric lines.  When it stops blinking and becomes solid lines, an internet connection has been established and you can then reload the
-webpage to type in your Hunter credentials.
-</div>
+Quizzes are done via the Content menu (left hand side of Home screen). Your instructor will provide the password for the quiz.
 
-<div>
-<h3>Using Blackboard</h3>
+**Chrome:** There were known bugs using the previous version of Blackboard with the Chrome browser. In particular, the Chrome browser often would freeze during quizzes. These have reportedly been fixed in the new version.
 
-<p>This course will use the on-line Blackboard system for in-class quizzes and posting grades. Blackboard should be accessible 
-through your CUNY First account (see Hunter <a href="http://www.hunter.cuny.edu/it/blackboard/blackboard-information-page">ICIT Blackboard page</a> for directions on using the system and how to get help).
+**Timing Out:** If the system times out and locks your attempt (happens rarely when the browser or PC crashes), contact the instructor so they can clear the attempt so you can try again.
 
+### In-class Quiz
 
-<p>Quizzes are done via the <tt>Content</tt>
-menu (left hand side of <tt>Home</tt> screen).
-Your instructor will provide the password for the quiz.
+During lab, there is a quiz on the academic integrity policy of City University of New York. The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard.
 
-<p>
-<b>Chrome:</b> There were known bugs using the previous version of Blackboard with the Chrome browser.  In particular, the Chrome browser often would freeze during quizzes.  These have reportedly been fixed in the new version.  
-</p>
+### Using Python
 
+We will be using the IDLE programming environment for Python, since it is very simple and comes with all distributions of Python (if you would prefer to use another programming environment, Spyder is loaded on the lab machines).
 
-<p>
-<b>Timing Out:</b> If the system times out and locks your attempt (happens rarely 
-when the browser or PC crashes), contact the instructor so they
-can clear the attempt so you can try again.
-</p>
-</div>
+To launch IDLE:
 
-<div>
-<h3>In-class Quiz</h3>
+*   Click the icon on the left for the terminal. It will launch a terminal window in which you can type commands.
+*   In the terminal window, type:
+    
+    idle3
+    
+    (followed by an enter/return).
+*   A new window will launch for IDLE.
+*   To see that it works, type at the IDLE prompt:
+    
+    print("Hello, World!")
+    
 
-During lab, there is a quiz on the academic integrity policy of City University of New York.  The password to access the quiz will be given during lab.  To complete the quiz, log on to Blackboard.
+Instead of using the shell window (where we can try things immediately), let's use a text window, where we can save our program for later and submit it to Gradescope (this is the basis of the first program).
 
-</div>
+1.  First, open up a text window: on the menu bar, choose "File" and from that menu, choose "New File".
+2.  In that window, type:
+    
+    #Name:  ...your name here...
+    #Date: August 25, 2017
+    #This program prints: Hello, World!
+    
+    print("Hello, World!")
+    
+3.  Save the program (using the "Save" under the "File" menu). When you save it, name it something that you will be remember for the future and end it in .py. For example, ps1.py. At the end of lab, save your programs to a USB drive, DropBox, or mail them to yourself.
+4.  Run your program (using the "Run Module" from the "Run" menu).
+5.  If it prints "Hello, World!" to the screen, then log into Gradescope (see notes below):
+    *   On the left hand menu, choose "Assignments".
+    *   From the list, choose "1. Hello, World!". In the file upload, drag over the .py file you just created and ran, and
+    *   click "Submit".
 
-<div>
-<h3>Using Python</h3>
+### Using Gradescope
 
-<p>We will be using the <tt>IDLE</tt> programming environment for Python, since it is very simple and comes with all distributions of Python (if you would prefer to use another programming environment, <tt>Spyder</tt> is loaded on the lab machines).
+This course will use the on-line [gradescope](http://www.gradescope.com) system for submitting work electronically. An email invitation to the course was sent to your email address (we used the one saved for you on CUNYFirst as of Friday, 26 January).
 
-<p>To launch <tt>IDLE</tt>: 
+*   Open your email and click the links to set up your account.
+*   Once you have your account, click on the "Assignments" menu (left hand side of window), and then choose the assignment "1. Hello, World."
+*   Drag and drop your program onto the submit box.
+*   Each program can be submitted multiple times up to the deadline.
 
-<ul>
-	<li> Click the icon on the left for the terminal.  It will launch a terminal window in which you can type commands.
-	<li> In the terminal window, type:
-	
-<pre style = "background-color:lavender;width:400px">idle3</pre>
-	(followed by an enter/return).
-	
-	<li> A new window will launch for <tt>IDLE</tt>.
+### More Python: Turtles
 
-	<li> To see that it works, type at the <tt>IDLE</tt> prompt:
+Now that you have just submitted your first program, let's try some other Python commands. Here's a quick demo (click the triangle to run the program):
 
-<pre style = "background-color:lavender;width:400px">
-print("Hello, World!")
-</pre>
+Now, let's write the same program in IDLE:
 
-</ul>
+1.  Open up a new file window in IDLE ("File > New File").
+2.  Type (or copy) into your window:
+    
+    import turtle
+    tia = turtle.Turtle()
+    for i in range(4):
+        tia.forward(150)
+        tia.right(90)
+    
+3.  Save your program ("File > Save").  
+    _Note: Choose a name for your file that is **not** turtle.py. When executing the "import turtle" statement, the computer first looks in the folder where the file is saved for the turtle module and then in the libraries (and other places on the path). So, it thinks the module is itself, causing all kinds of errors. To avoid this, name your program something like "myTurtle.py" or "program2.py"._
+4.  Run your program (using the "Run Module" from the "Run" menu).
+5.  Change your program so that it draws a octagon (8-sided polygon).
+6.  Test your program and modify until you have a octagon. When you do, add comments at the top of your program:
+    
+    #Name:  ...your name here...
+    #Date: August 25, 2017
+    #This program draws a octagon.
+    	
+    
+    Run your program after editing to make sure you do not have any typos.
+7.  Log into Gradescope (see notes above). On the left hand menu, choose "Assignments". From the list, choose "2. Octagon". In the file upload, drag the .py file you just created and ran, and click "Submit".
 
-<p>
-Instead of using
-the shell window (where we can try things immediately), let's use a text window, where
-we can save our program for later and submit it to Gradescope (this is the basis of the first program).
-
-<ol>
-	<li> First, open up a text window:  on the menu bar, choose "File" and from that menu, choose "New File"<!-- (you can also type "&#8984;N")-->.
-	<li> In that window, type:
-<pre style = "background-color:lavender;width:400px">
-#Name:  ...your name here...
-#Date: August 25, 2017
-#This program prints: Hello, World!
-
-print("Hello, World!")</pre>
-	<li> Save the program (using the "Save" under the "File" menu). When you save it, name it something that you will be remember for the future and end it in <tt>.py</tt>.  For example, <tt>ps1.py</tt>.  At the end of lab, save your programs to a USB drive, DropBox, or mail them to yourself.
-	<li> Run your program (using the "Run Module" from the "Run" menu).  
-	<li> If it prints "Hello, World!" to the screen, then log into Gradescope (see notes below):
-	<ul>
-		<li> On the left hand menu, choose "Assignments".  
-		<li> From the list, choose "1. Hello, World!".
-		<lik> In the file upload, drag over the <tt>.py</tt> file you just created and ran, and 
-		<li> click "Submit".
-	</ul>
-</ol>
-</div>
-
-<div>
-<h3>Using Gradescope</h3>
-
-<p>This course will use the on-line <a href="http://www.gradescope.com">gradescope</a> system for submitting 
-work electronically.  An email invitation to the course was sent to your email address (we used the one saved for you on CUNYFirst as of Friday, 26 January).
-
-<ul>
-	<li> Open your email and click the links to set up your account.
-	<li> Once you have your account, click on the "Assignments" menu (left hand side of window), and then choose the assignment "1.  Hello, World."
-	<li> Drag and drop your program onto the submit box.
-	<li> Each program can be submitted multiple times up to the deadline.
-</ul>
-
-
-</div>
-
-<div>
-<h3>More Python:  Turtles</h3>
-
-<p> Now that you have just submitted your first program, let's try some other Python commands.  Here's a quick demo (click the triangle to run the program):
-<p>
-<iframe src="https://trinket.io/embed/python/22709f8349" width="80%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-<p>Now, let's write the same program in <tt>IDLE</tt>:
-<ol>
-	<li>  Open up a new file window in <tt>IDLE</tt> ("File > New File").
-	<li> Type (or copy) into your window:
-<pre style = "background-color:lavender;width:400px">
-import turtle
-tia = turtle.Turtle()
-for i in range(4):
-    tia.forward(150)
-    tia.right(90)
-</pre>	
-	<li> Save your program ("File > Save"). <br>
-	<i>Note:  Choose a name for your file that is <b>not</b> <tt>turtle.py</tt>. 
-		When executing the "import turtle" statement, the computer first looks in the folder where the file is saved for the turtle module and then in the libraries (and other places on the path).  So, it thinks the module is itself, causing all kinds of errors.  To avoid this, name your program something like "myTurtle.py" or "program2.py".</i>
-	<li> Run your program (using the "Run Module" from the "Run" menu).  
-	<li> Change your program so that it draws a octagon (8-sided polygon).
-	<li> Test your program and modify until you have a octagon.  When you do, add comments at the top of your program:
-<pre style = "background-color:lavender;width:400px">
-#Name:  ...your name here...
-#Date: August 25, 2017
-#This program draws a octagon.
-	</pre>
-	Run your program after editing to make sure you do not have any typos.
-	<li> Log into Gradescope (see notes above).  On the left hand menu, choose "Assignments".  From the list, choose "2. Octagon".
-	In the file upload, drag the <tt>.py</tt> file you just created and ran, and click "Submit".
-
-</ol>
-
-<p>
 A quick overview of the parts of your second program:
-<ul>
-	<li> Lines that begin with <tt>#</tt> are ignored by Python-- they are comments for you to remember what you did and others to follow what's going on.
-	<li> The line <tt>import turtle</tt> loads in the built-in turtle graphics drawing package.  It's part of all versions of Python but, to keep programs small, is not included unless you explicitly import it.  In addition to built-in packages, there are many others that have been written to make Python more useful.  We will use both kinds as the semester progresses.
-	<li>  The line <tt>tia = turtle.Turtle()</tt> creates a turtle object called <tt>tia</tt> (you can call your turtles almost any combination of letters (and underscores and numbers)-- we used a name starting with "t" since turtle starts with "t").  
-	<li> The next line:  <tt>for i in range(4):</tt> is the first part of a for-loop that will repeat the commands indented beneath it 4 times.
-	<li> The turtle class has many functions that you can use for your turtle.  The next two lines demonstrate two of them:
-	<ul>
-	    <li> <tt>tia.forward(150)</tt> moves <tt>tia</tt> forward 150 steps.
-    	<li> <tt>tia.right(90)</tt> turns <tt>tia</tt> to the right 90 degrees.
-    </ul>
-</ul>
-</div>
 
-<div>
-<h3>More Turtle Commands</h3>
+*   Lines that begin with # are ignored by Python-- they are comments for you to remember what you did and others to follow what's going on.
+*   The line import turtle loads in the built-in turtle graphics drawing package. It's part of all versions of Python but, to keep programs small, is not included unless you explicitly import it. In addition to built-in packages, there are many others that have been written to make Python more useful. We will use both kinds as the semester progresses.
+*   The line tia = turtle.Turtle() creates a turtle object called tia (you can call your turtles almost any combination of letters (and underscores and numbers)-- we used a name starting with "t" since turtle starts with "t").
+*   The next line: for i in range(4): is the first part of a for-loop that will repeat the commands indented beneath it 4 times.
+*   The turtle class has many functions that you can use for your turtle. The next two lines demonstrate two of them:
+    *   tia.forward(150) moves tia forward 150 steps.
+    *   tia.right(90) turns tia to the right 90 degrees.
 
-<p>To review, we introduced the turtle commands:
-<ul>
-	<li> <tt>forward()</tt>
-	<li> <tt>left()</tt>
-	<li> <tt>right()</tt>
-</ul>
-as well as importing the turtle package (<tt>import turtle</tt>) and creating ("instantiating") a turtle (<tt>thomasH = turtle.Turtle()</tt>).
+### More Turtle Commands
 
-<p>There are many more turtles commands.  Over the next couple of classes, we will use those in the <a href="http://interactivepython.org/courselib/static/thinkcspy/PythonTurtle/toctree.html">turtle chapter</a> from the textbook.  A <a href="https://docs.python.org/3/library/turtle.html">complete list of turtle commands</a> is part of the Python 3 documentation.
+To review, we introduced the turtle commands:
 
-</div>
+*   forward()
+*   left()
+*   right()
 
-<div>
+as well as importing the turtle package (import turtle) and creating ("instantiating") a turtle (thomasH = turtle.Turtle()).
 
-<h3>What's Next?</h3>
+There are many more turtles commands. Over the next couple of classes, we will use those in the [turtle chapter](http://interactivepython.org/courselib/static/thinkcspy/PythonTurtle/toctree.html) from the textbook. A [complete list of turtle commands](https://docs.python.org/3/library/turtle.html) is part of the Python 3 documentation.
 
-<p>Since the lab computers are shared, student files are regularly removed from the computer.  Any of your work that you would like to save, you should email to yourself, put in your dropbox, or save on a USB drive.
+### What's Next?
 
-<p>If you finish the lab early, now is a great time to get a head start on the programming problems due next week.  There's instructors to help you, and you already have Python up and running.  The <a href="assignments.html">Programming Problem List</a> has problem descriptions, suggested reading, and due dates next to each problem.
+Since the lab computers are shared, student files are regularly removed from the computer. Any of your work that you would like to save, you should email to yourself, put in your dropbox, or save on a USB drive.
 
-</div>
+If you finish the lab early, now is a great time to get a head start on the programming problems due next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](assignments.html) has problem descriptions, suggested reading, and due dates next to each problem.
 
-<div>
-<h3>Using Python on Your Computer</h3>
-<a id="install"></a>
+### Using Python on Your Computer
 
-The Python programming language and IDLE environment are freely available
-for many platforms from <a href="http://www.python.org">python.org</a> or
-<a href="https://www.continuum.io/downloads">Anaconda</a>.  
-For this class, we are using <b>Python 3</b>.  Many features of the language
-(including the syntax of <tt>print</tt> statements) changed between the second and third
-version, so, you must use the Python 3 for submitting programs.
+The Python programming language and IDLE environment are freely available for many platforms from [python.org](http://www.python.org) or [Anaconda](https://www.continuum.io/downloads). For this class, we are using **Python 3**. Many features of the language (including the syntax of print statements) changed between the second and third version, so, you must use the Python 3 for submitting programs.
 
-<p>
 If you have a Linux machine and would like to match the environment on the lab machines, at a terminal window, type the following commands:
-<pre style = "background-color:lavender;width:450px"> sudo apt-get update
+
+ sudo apt-get update
  sudo apt-get -y upgrade
  sudo apt-get install python3 python3-pip idle3
  pip3 install numpy pandas matplotlib scipy folium image 
  sudo apt-get install spyder3
-</pre>
 
-<p>
-If you have a Mac or Windows computer, the easiest installation is <a href="https://docs.continuum.io/anaconda/install/#detailed-installation-information">Anaconda</a>.  When given the choice, choose to "Install for me only" (this avoids some odd permission problems that occur when choosing the install for everyone).  
+If you have a Mac or Windows computer, the easiest installation is [Anaconda](https://docs.continuum.io/anaconda/install/#detailed-installation-information). When given the choice, choose to "Install for me only" (this avoids some odd permission problems that occur when choosing the install for everyone).
 
-<p>Almost all the packages we will use are automatically included in the Anaconda default installation.  The two that are not, image and folium, can be installed via <tt>pip</tt> (Python package manager).  We won't need these immediately, so, you can wait on installing them.  Here are the directions:
-<ul>
-	<li> Check if your machine has pip installed already, by typing:
-	<pre style = "background-color:lavender;width:400px">
-which pip</pre>
-	at the terminal window.  
-	<li> If it prints a line that ends with pip, then it's already on your machine.
-	<li> If it printed nothing, then you need to add pip your machine.  On the Macs, Anaconda installs a program called, <tt>easy_install</tt>, which we'll use to get pip by typing at the terminal:
-	<pre style = "background-color:lavender;width:400px">
-easy_install pip</pre>
-	And then add the packages:
-	<pre style = "background-color:lavender;width:400px">
-pip install image
-pip install folium</pre>
-	<li> For Windows, it's very similar (<a href="https://packaging.python.org/tutorials/installing-packages/">more details</a>).
-</ul>
+Almost all the packages we will use are automatically included in the Anaconda default installation. The two that are not, image and folium, can be installed via pip (Python package manager). We won't need these immediately, so, you can wait on installing them. Here are the directions:
 
-<p>
-There are many free on-line versions that you could use via a browser, such as <a href="http://pythonanywhere.com">pythonanywhere</a>. 
+*   Check if your machine has pip installed already, by typing:
+    
+    which pip
+    
+    at the terminal window.
+*   If it prints a line that ends with pip, then it's already on your machine.
+*   If it printed nothing, then you need to add pip your machine. On the Macs, Anaconda installs a program called, easy_install, which we'll use to get pip by typing at the terminal:
+    
+    easy_install pip
+    
+    And then add the packages:
+    
+    pip install image
+    pip install folium
+    
+*   For Windows, it's very similar ([more details](https://packaging.python.org/tutorials/installing-packages/)).
 
-</div>
-</html>
+There are many free on-line versions that you could use via a browser, such as [pythonanywhere](http://pythonanywhere.com).
