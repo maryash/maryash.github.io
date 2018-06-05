@@ -10,13 +10,26 @@ Hunter College City University of New York &nbsp;Summer 2018
 ### Syllabus
 
 #### THE 2 HOUR FINAL EXAM WILL TAKE PLACE ON WEDNESDAY JULY 11 AT 1:30PM
-#### Please make appropriate arrangements.  
+#### Please make appropriate arrangements!  
+  
+---  
+  
+**LAB AND TUTOR HOURS:**  
 
+**There is a dedicated computer laboratory for this course at HUNTER NORTH 1001E.**  
+**It is the same lab where you have your recitation sessions!**   
+
+**It is staffed with tutors, who are there to help you!** 
+
+**MONDAYS and WEDNESDAYS from 9:30am to 6:00pm**  
+**TUESDAYS and THURSDAYS from 3:00PM to 6:00PM**  
+
+**Please take advantage of it!**  
+  
+  
 #### General Information
 
 **Description:** _3 hours, 3 credits:_ This course presents an overview of computer science (CS) with an emphasis on problem-solving and computational thinking through 'coding': computer programming for beginners. Other topics include: organization of hardware, software, and how information is structured on contemporary computing devices. This course is pre-requisite to several introductory core courses in the CS Major. The course is also required for the CS minor. MATH 12500 or higher is strongly recommended as a co-req for intended Majors.
-
-#### Grading Policy
 
 ***Expectations:*** Students are expected to learn both the material covered in class and the material in the textbook and other assigned reading. Completing homework is an essential part of the learning experience. Students should review topics from prior courses as needed using old notes and books.
 
@@ -39,6 +52,8 @@ All incidents of cheating will be reported to the Office of Student Conduct in t
 *   As suggested by the name, only in-class quizzes taken in class. Quizzes taken outside of class will be sanctioned with a grade of 0 and reported to the Office of Student Conduct. Repeated quizzes taken outside of class will result in a failing grade as well as sanctions, as outlined in the Academic Integrity Policy.
 
 ***Final Exam:*** The final exam is required. It is comprehensive, covering all the material of the course. Sample and past exams will be available on the course webpage.
+
+#### Grading Policy
 
 ***Grades:*** The grading for the course will be based on:
 
