@@ -11,8 +11,7 @@ LAB 3
 
 ---
 
-
-Today's lab will focus on image files and colors in Python.
+TTToday's lab will focus on image files and colors in Python.
 
 Software tools needed: terminal (command line), web browser and Python IDLE programming environment.
 
