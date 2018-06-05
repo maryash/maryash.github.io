@@ -7,6 +7,25 @@ Hunter College City University of New York &nbsp;Summer 2018
 
 ---
 
+#### THE 2 HOUR FINAL EXAM WILL TAKE PLACE ON WEDNESDAY JULY 11 AT 1:30PM
+#### Please make appropriate arrangements!  
+  
+---  
+  
+**LAB AND TUTOR HOURS:**  
+
+**There is a dedicated computer laboratory for this course at HUNTER NORTH 1001E.**  
+**It is the same lab where you have your recitation sessions!**   
+
+**It is staffed with tutors, who are there to help you!** 
+
+**MONDAYS and WEDNESDAYS from 9:30am to 6:00pm**  
+**TUESDAYS and THURSDAYS from 3:00PM to 6:00PM**  
+
+**Please take advantage of it!**  
+  
+---
+
 ### Programming Problem List  
 
 
