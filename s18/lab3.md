@@ -50,7 +50,8 @@ Some are obvious, like ("red" or "blue"), others are a bit more obscure (like "m
 As we saw above, the turtle package recognizes many common colors by name. If your favorite color is not on that list, you can make a new color by specifying how much of the red, green, and blue ('RGB') light intensity you would like. The range for each is from 0 (no light) to 255 (100% light). For example, if all the light intensities are 255 (100% of the possible), then the color is white.
 
 Read the code below and guess what color each turtle is. Check your guess by running the program:  
-  
+
+<br><iframe src="https://trinket.io/embed/python/11f1644654" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br>
 
 Let's look at some of the shades of red that are available. Here's our plan (or [pseudocode](http://en.wikipedia.org/wiki/Pseudocode)):
 
