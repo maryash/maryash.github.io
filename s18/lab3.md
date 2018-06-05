@@ -46,7 +46,7 @@ Some are obvious, like ("red" or "blue"), others are a bit more obscure (like "m
 
 #### Colors by Decimals
 
-As we saw above, the turtle package recognizes many common colors by name. If your favorite color is not on that list, you can make a new color by specifying how much of the <span style="color:red">red</span>, <span style="color:green">green</span>, and <span style="color:blue">blue</span> ('RGB') light intensity you would like. The range for each is from 0 (no light) to 255 (100% light). For example, if all the light intensities are 255 (100% of the possible), then the color is white.
+As we saw above, the turtle package recognizes many common colors by name. If your favorite color is not on that list, you can make a new color by specifying how much of the <span style="font-weight:bold; color:red">red</span>, <span style="font-weight:bold; color:green">green</span>, and <span style="font-weight:bold; color:blue">blue</span> ('RGB') light intensity you would like. The range for each is from 0 (no light) to 255 (100% light). For example, if all the light intensities are 255 (100% of the possible), then the color is white.
 
 Read the code below and guess what color each turtle is. Check your guess by running the program:  
 
@@ -67,7 +67,6 @@ Let's change each piece of our "To Do" list into Python code:
     We've done this before. We import the turtle module and set up the turtle. One new thing we need to do, is to tell the turtle library that we would like to represent colors as decimal numbers:
     
     #A program that demonstrates the shades of red
-    #Fall 2017
     
     import turtle			#Import the turtle drawing package
     
