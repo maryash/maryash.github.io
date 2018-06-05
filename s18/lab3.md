@@ -36,11 +36,11 @@ There are several different ways to specify colors. We will use colors:
 
 For common colors, you can give the name of the color, as a string. For example, run the program (click the triangle) to see two turtles, drawing in different colors:
 
-<br><iframe src="https://trinket.io/embed/python/b594e53e4a" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br>  
+<iframe src="https://trinket.io/embed/python/b594e53e4a" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br>  
 
 There are more than 100 colors that we can use by name. Here are the ones available in most web browsers and Python turtle packages:
 
-<br><iframe src="https://en.wikipedia.org/wiki/Web_colors#X11_color_names" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br>  
+<iframe src="https://en.wikipedia.org/wiki/Web_colors#X11_color_names" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br>  
 
 Some are obvious, like ("red" or "blue"), others are a bit more obscure (like "mediumorchid" or "chartreuse"). What color is "mediumorchid"? Change the color of one of the turtles in the coding window above to find out. Add in a new turtle and make it your favorite color. Draw a few lines to demonstrate its color.
 
