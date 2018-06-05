@@ -18,8 +18,18 @@ Genady Maryash
 **Tutor/UTA Coordinator:**  
 Katherine Howitt
 
-**Lab Hours:** There is a dedicated computer laboratory, HN1001E for this course:
-Staffed Hours: Monday-Thursday, 9:30am to 6:00pm.
+**LAB AND TUTOR HOURS:**  
+
+**There is a dedicated computer laboratory for this course at Hunter North 1001E.**  
+**It is the same lab where you have your recitation sessions.**   
+
+**It is staffed with tutors, who are there to help you!** 
+
+**Mondays and Wednesdays from 9:30am to 6:00pm**  
+**Tuesdays and Thursadays from 3:00PM to 6:00PM**  
+
+**Please take advantage of it!**  
+  
 
 **Lecture & Recitation Instructors:**
 
