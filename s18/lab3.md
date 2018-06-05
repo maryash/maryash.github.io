@@ -126,6 +126,8 @@ A common way to represent colors is using hexadecimal numbers. Our traditional d
 A good way to think about it is to think about what the world would be like if everyone had 8 fingers on each hand, instead of 5. When we count, on 10 fingers, we can use the symbols 0, 1, 2, ..., 9 to label each finger:
 
 ![](hands10.png)  
+(from [i-programmer.info](http://www.i-programmer.info/babbages-bag/478-hexadecimal.html))
+(from [i-programmer.info](http://www.i-programmer.info/babbages-bag/478-hexadecimal.html))
 
 Doing the same for 16 fingers, we use 0, 1, 2, ..., 9, and then A, B, ..., E when we run out of the normal symbols for numbers:
 
