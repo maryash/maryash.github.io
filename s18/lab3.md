@@ -81,44 +81,43 @@ Let's change each piece of our "To Do" list into Python code:
     
     This can be done with a for-loop and a range that starts at 10, stops at 255, and steps up by 10 each time:
     
-    for i in range(0,255,10):
+    	for i in range(0,255,10):
     
 3.     Move forward 10 steps
     
-         tess.forward(10)		#Move forward  
+        	tess.forward(10)		#Move forward  
     
 4.     Make the turtle a bit larger each time
     
-         tess.pensize(i)		#Set the drawing size to be i (larger each time)   
+        	tess.pensize(i)		#Set the drawing size to be i (larger each time)   
     
 5.     Make the turtle a bit more red each time
     
-         tess.color(i,0,0)		#Set the red channel to be i (brighter each time)    
+        	tess.color(i,0,0)		#Set the red channel to be i (brighter each time)    
     
 
 Here's the whole program altogether. Copy it over to an idle file window and try running it:
 
-#A program that demonstrates the shades of red
-#Fall 2017
+	#A program that demonstrates the shades of red
 
-import turtle				#Import the turtle drawing package
+	import turtle				#Import the turtle drawing package
 
-turtle.colormode(255)		#Allows colors to be given as 0...255
-tess = turtle.Turtle()		#Create a turtle
-tess.shape("turtle")		#Make it turtle shaped
-tess.backward(100)			#Move her backwards, to give more space to draw
+	turtle.colormode(255)		#Allows colors to be given as 0...255
+	tess = turtle.Turtle()		#Create a turtle
+	tess.shape("turtle")		#Make it turtle shaped
+	tess.backward(100)			#Move her backwards, to give more space to draw
 
-#For 0,10,20,...,250
-for i in range(0,255,10):
-     tess.forward(10)		#Move forward
-     tess.pensize(i)		#Set the drawing size to be i (larger each time)
-     tess.color(i,0,0)		#Set the red channel to be i (brighter each time)    
+	#For 0,10,20,...,250
+	for i in range(0,255,10):
+	     tess.forward(10)		#Move forward
+	     tess.pensize(i)		#Set the drawing size to be i (larger each time)
+	     tess.color(i,0,0)		#Set the red channel to be i (brighter each time)    
 
 The resulting graphics window is:
 
-![](../f17/shadesOfRed.png)
+![](shadesOfRed.png)
 
-How would you show shades of green? When you have figured out the answer, see the [Programming Problem List](ps.html).
+How would you show shades of green? When you have figured out the answer, see the [Programming Problem List](assignments.html).
 
 #### Colors by Hexadecimal
 
@@ -126,12 +125,12 @@ A common way to represent colors is using hexadecimal numbers. Our traditional d
 
 A good way to think about it is to think about what the world would be like if everyone had 8 fingers on each hand, instead of 5. When we count, on 10 fingers, we can use the symbols 0, 1, 2, ..., 9 to label each finger:
 
-![](../f17/hands10.png)  
+![](hands10.png)  
 (from [i-programmer.info](http://www.i-programmer.info/babbages-bag/478-hexadecimal.html))
 
 Doing the same for 16 fingers, we use 0, 1, 2, ..., 9, and then A, B, ..., E when we run out of the normal symbols for numbers:
 
-![](../f17/hands16.png)  
+![](hands16.png)  
 (from [i-programmer.info](http://www.i-programmer.info/babbages-bag/478-hexadecimal.html))
 
 The first 9 numbers are the same in both decimal and hexadecimal, but larger numbers are different. For example, counting to 10 on our 8-fingered hands gives the symbol A. So, the decimal number 10 is the single digit hexadecimal number, A.
@@ -142,7 +141,7 @@ Why does this matter? Our color values range in decimal from 0 to 255. If we wri
 
 For example, here are some shades of blue, given with their name and hexadecimal value:
 
-[![](../f17/blues.png)](http://www.w3schools.com/colors/colors_hex.asp)
+[![](blues.png)](http://www.w3schools.com/colors/colors_hex.asp)
 
 The leading hash sign ('#') is used to indicate that this is a hexadecimal number:
 
