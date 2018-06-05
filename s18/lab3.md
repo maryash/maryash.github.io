@@ -1,12 +1,16 @@
-Lab 3, CSci 127, Introduction to Computer Science, Hunter College, CUNY, Summer 2018 
+---
+layout: myDefault
+title: LAB 3
+---
+### [CSCI 12700 | Introduction to Computer Science](../summer2018.html)  
+Hunter College City University of New York &nbsp;Summer 2018 
 
-Lab 3  
-CSci 127: Introduction to Computer Science  
-Hunter College, City University of New York  
-Summer 2018  
-  
+---
+	
+LAB 3
 
---------------------------------------------------------------------------------------------------------------------
+---
+
 
 Today's lab will focus on image files and colors in Python.
 
