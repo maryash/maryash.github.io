@@ -66,16 +66,16 @@ Let's change each piece of our "To Do" list into Python code:
     
     We've done this before. We import the turtle module and set up the turtle. One new thing we need to do, is to tell the turtle library that we would like to represent colors as decimal numbers:
     
-    #A program that demonstrates the shades of red
-    
-    import turtle			#Import the turtle drawing package
-    
-    turtle.colormode(255)		#Allows colors to be given as 0...255
-    tess = turtle.Turtle()		#Create a turtle
-    
+		#A program that demonstrates the shades of red
+
+		import turtle			#Import the turtle drawing package
+
+		turtle.colormode(255)		#Allows colors to be given as 0...255
+		tess = turtle.Turtle()		#Create a turtle
+
     To keep our drawing from running off the screen, we'll move tess backwards before we start our loop:
-    
-    tess.backward(100)		#Move her backwards, to give more space to draw
+
+	    tess.backward(100)		#Move her backwards, to give more space to draw
     
 2.  For 10, 20, 30, ..., 250,
     
