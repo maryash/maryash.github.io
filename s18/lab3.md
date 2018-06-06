@@ -216,7 +216,7 @@ The [textbook](http://interactivepython.org/runestone/static/thinkcspy/MoreAbout
 
 To specify a given pixel, you give its row, r, and column, c, in the grid. Counting from the upper left hand corner which has index 0,0. This is unlike standard Cartesian (math) coordinates but echos how matrices are often accessed.
 
-<div style="text-align: right">![](sic-imageplanes.png)</div> Each pixel is represented by its the percentage of red, green, and blue ("RGB") values. Images are stored as a grid of red values, a grid of green values, and a grid of blue values.
+![](sic-imageplanes.png) Each pixel is represented by its the percentage of red, green, and blue ("RGB") values. Images are stored as a grid of red values, a grid of green values, and a grid of blue values.
 
 For example, if we stored our image in the variable, img, we could access the red value by:
 
@@ -234,7 +234,7 @@ Any point can be accessed via its coordinates (i,j) and the color channel (0 for
 
 	img[r,c,chan]
 
-where the r is the row and c is the column of the pixel and chan is the color channel (0 for red, 1 for green, and 2 for blue). Note that when we are accessing parts of our images, we use the square brackets ('\[' and '\]'), just as we did for lists. The round parenthesis ('(' and ')') are used for functions (like `print()` and `right())`.
+where the r is the row and c is the column of the pixel and chan is the color channel (0 for red, 1 for green, and 2 for blue). Note that when we are accessing parts of our images, we use the square brackets ('[' and ']'), just as we did for lists. The round parenthesis ('(' and ')') are used for functions (like `print()` and `right())`.
 
 Let's write a program that manipulates an image. Read through the code first, and then try on your computer. What does it do? Note: this program assumes that you have a file called [csBridge.png](csBridge.png) in the same directory. You can use that file, or substitute one of your own.
 
