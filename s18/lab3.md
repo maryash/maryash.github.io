@@ -253,7 +253,7 @@ Let's write a program that manipulates an image. Read through the code first, an
 
 	img2 = img.copy()        #make a copy of our image          
 	img2\[:,:,1\] = 0          #Set the green channel to 0
-	img2\[:,:,2\] = 0          #Set the blue channel to 0 
+	img2[:,:,2] = 0          #Set the blue channel to 0 
 
 	plt.imshow(img2)         #Load our new image into pyplot
 	plt.show()               #Show the image (waits until closed to continue)
