@@ -216,7 +216,7 @@ The [textbook](http://interactivepython.org/runestone/static/thinkcspy/MoreAbout
 
 To specify a given pixel, you give its row, r, and column, c, in the grid. Counting from the upper left hand corner which has index 0,0. This is unlike standard Cartesian (math) coordinates but echos how matrices are often accessed.
 
-![](sic-imageplanes.png) Each pixel is represented by its the percentage of red, green, and blue ("RGB") values. Images are stored as a grid of red values, a grid of green values, and a grid of blue values.
+<img align="right" src="sic-imageplanes.png"> Each pixel is represented by its the percentage of red, green, and blue ("RGB") values. Images are stored as a grid of red values, a grid of green values, and a grid of blue values.
 
 For example, if we stored our image in the variable, img, we could access the red value by:
 
