@@ -66,12 +66,12 @@ Let's change each piece of our "To Do" list into Python code:
     
     We've done this before. We import the turtle module and set up the turtle. One new thing we need to do, is to tell the turtle library that we would like to represent colors as decimal numbers:
     
-		#A program that demonstrates the shades of red
+	#A program that demonstrates the shades of red
 
-		import turtle			#Import the turtle drawing package
+	import turtle			#Import the turtle drawing package
 
-		turtle.colormode(255)		#Allows colors to be given as 0...255
-		tess = turtle.Turtle()		#Create a turtle
+	turtle.colormode(255)		#Allows colors to be given as 0...255
+	tess = turtle.Turtle()		#Create a turtle
 
     To keep our drawing from running off the screen, we'll move tess backwards before we start our loop:
 
@@ -127,7 +127,6 @@ A good way to think about it is to think about what the world would be like if e
 
 ![](hands10.png)  
 (from [i-programmer.info](http://www.i-programmer.info/babbages-bag/478-hexadecimal.html))
-(from [i-programmer.info](http://www.i-programmer.info/babbages-bag/478-hexadecimal.html))
 
 Doing the same for 16 fingers, we use 0, 1, 2, ..., 9, and then A, B, ..., E when we run out of the normal symbols for numbers:
 
@@ -154,11 +153,11 @@ The first color on the list has 00 or 0% red, 00 or 0% green, and 00 or 0% red, 
 
 We can set the color of turtles using hexcodes. For example, to create a turtle, named thea, and set her color to the medium blue (using the hex code from the above list), we can:
 
-import turtle
+	import turtle
 
-thea = turtle.Turtle()
-thea.shape("turtle")
-thea.color("#0000CD")
+	thea = turtle.Turtle()
+	thea.shape("turtle")
+	thea.color("#0000CD")
 
 producing a graphics window with:
 
@@ -172,7 +171,7 @@ The terminal has its own set of commands (separate from Python) that we can use 
 
 We have already used the shell in the previous two labs. When you typed:
 
-idle3
+	idle3
 
 you were asking the operating system to launch the program idle3. The laptop was configured to first look in folders containing applications, and then to check your home folder, and then to check the current folder you are using to find an application by that name.
 
@@ -181,25 +180,25 @@ Let's create a new **directory**, or folder, to hold your images (using the shel
 *   Open a new terminal window (go to the upper left menu icon, search for terminal and click, or if you already have terminal, you can click on its menu to create a new window).
 *   In the terminal window, type:
     
-    pwd
-    
+	    pwd
+
     This tell you the **path**, or location, of your current working directory. To see what is in the folder, you request a 'listing':
     
-    ls
+	    ls
     
 *   To add a new directory, we type:
     
-    mkdir thomasH
+	    mkdir thomasH
     
     (replace thomasH with your name to create a directory for you!).
     
     Now, when we list the current directory, we should new item (namely the directory with your name):
     
-    ls
+	    ls
     
 *   Let's change directories:
     
-    cd thomasH
+	    cd thomasH
     
     If we ask for a listing (ls), we will now see the contents of your directory.
 
@@ -213,60 +212,59 @@ There are many different formats to store images. Some store the information abo
 
 The [textbook](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/2DimensionalIterationImageProcessing.html) has a lovely visualization and explanation:
 
-![](../f17/thinkGrid.png)
+![](thinkGrid.png)
 
 To specify a given pixel, you give its row, r, and column, c, in the grid. Counting from the upper left hand corner which has index 0,0. This is unlike standard Cartesian (math) coordinates but echos how matrices are often accessed.
 
-![](../f17/sic-imageplanes.png) Each pixel is represented by its the percentage of red, green, and blue ("RGB") values. Images are stored as a grid of red values, a grid of green values, and a grid of blue values.
+![](sic-imageplanes.png) Each pixel is represented by its the percentage of red, green, and blue ("RGB") values. Images are stored as a grid of red values, a grid of green values, and a grid of blue values.
 
 For example, if we stored our image in the variable, img, we could access the red value by:
 
-print "Upper left has red:", img\[0,0,0\]
+	print "Upper left has red:", img\[0,0,0\]
 
-and the amount of green:
+	and the amount of green:
 
-print "Upper left has green:", img\[0,0,1\]
+	print "Upper left has green:", img\[0,0,1\]
 
-and the amount of blue:
+	and the amount of blue:
 
-print "Upper left has blue:", img\[0,0,2\]
+	print "Upper left has blue:", img\[0,0,2\]
 
 Any point can be accessed via its coordinates (i,j) and the color channel (0 for red, 1 for green, and 2 for blue). In our example above, with the picture stored in the variable, img:
 
-img\[r,c,chan\]
+	img\[r,c,chan\]
 
-where the r is the row and c is the column of the pixel and chan is the color channel (0 for red, 1 for green, and 2 for blue). Note that when we are accessing parts of our images, we use the square brackets ('\[' and '\]'), just as we did for lists. The round parenthesis ('(' and ')') are used for functions (like print() and right()).
+where the r is the row and c is the column of the pixel and chan is the color channel (0 for red, 1 for green, and 2 for blue). Note that when we are accessing parts of our images, we use the square brackets ('\[' and '\]'), just as we did for lists. The round parenthesis ('(' and ')') are used for functions (like `print()` and `right())`.
 
-Let's write a program that manipulates an image. Read through the code first, and then try on your computer. What does it do? Note: this program assumes that you have a file called [csBridge.png](../f17/csBridge.png) in the same directory. You can use that file, or substitute one of your own.
+Let's write a program that manipulates an image. Read through the code first, and then try on your computer. What does it do? Note: this program assumes that you have a file called [csBridge.png](csBridge.png) in the same directory. You can use that file, or substitute one of your own.
 
-#Name:  CSci 127 Teaching Staff
-#Date:  Fall 2017
-#This program loads an image, displays it, and then creates, displays,
-\#    and saves a new image that has only the red channel displayed.
+	#Name:  CSci 127 Teaching Staff
+	#Date:  Fall 2017
+	#This program loads an image, displays it, and then creates, displays,
+	\#    and saves a new image that has only the red channel displayed.
 
-#Import the packages for images and arrays:
-import matplotlib.pyplot as plt  
-import numpy as np
+	#Import the packages for images and arrays:
+	import matplotlib.pyplot as plt  
+	import numpy as np
 
+	img = plt.imread('csBridge.png')   #Read in image from csBridge.png
+	plt.imshow(img)		           #Load image into pyplot
+	plt.show()                         #Show the image (waits until closed to continue)
 
-img = plt.imread('csBridge.png')   #Read in image from csBridge.png
-plt.imshow(img)		           #Load image into pyplot
-plt.show()                         #Show the image (waits until closed to continue)
+	img2 = img.copy()        #make a copy of our image          
+	img2\[:,:,1\] = 0          #Set the green channel to 0
+	img2\[:,:,2\] = 0          #Set the blue channel to 0 
 
-img2 = img.copy()        #make a copy of our image          
-img2\[:,:,1\] = 0          #Set the green channel to 0
-img2\[:,:,2\] = 0          #Set the blue channel to 0 
+	plt.imshow(img2)         #Load our new image into pyplot
+	plt.show()               #Show the image (waits until closed to continue)
 
-plt.imshow(img2)         #Load our new image into pyplot
-plt.show()               #Show the image (waits until closed to continue)
+	plt.imsave('reds.png', img2)  #Save the image we created to the file: reds.png
 
-plt.imsave('reds.png', img2)  #Save the image we created to the file: reds.png
-
-The code above always produces an image with only the red channel displayed. How would you modify the program to display only the green channel? When you have figured out the answer, see the [Programming Problem List](ps.html).
+The code above always produces an image with only the red channel displayed. How would you modify the program to display only the green channel? When you have figured out the answer, see the [Programming Problem List](assignments.html).
 
 ### What's Next?
 
-If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](ps.html) has problem descriptions, suggested reading, and due dates next to each problem.
+If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](assignments.html) has problem descriptions, suggested reading, and due dates next to each problem.
 
 ### Using Python on Your Computer
 
@@ -274,8 +272,8 @@ Today's lab introduced several packages that are freely available but do not alw
 
 If you have a Linux machine and would like to match the environment on the lab machines, at a terminal window, type the following commands:
 
-sudo apt-get update
-sudo apt-get -y upgrade
-sudo apt-get install python3 python3-pip idle3
-pip3 install numpy pandas folium image matplotlib scipy
-sudo apt-get install spyder3
+	sudo apt-get update
+	sudo apt-get -y upgrade
+	sudo apt-get install python3 python3-pip idle3
+	pip3 install numpy pandas folium image matplotlib scipy
+	sudo apt-get install spyder3
