@@ -232,7 +232,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter a hex string:  #A922A9
 
         and the output should look similar to:  
-        ![](../f17/purplyTurtle.png)
+        ![](purplyTurtle.png)
 
         _Hint: See [Section 4.3](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/InstancesAHerdofTurtles.html) for setting the background color and [Lab 3](lab3.html) for colors._  
     
