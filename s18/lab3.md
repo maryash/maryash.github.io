@@ -8,7 +8,6 @@ Hunter College City University of New York &nbsp;Summer 2018
 ---
 	
 LAB 3
-
 ---
 
 Today's lab will focus on image files and colors in Python.
