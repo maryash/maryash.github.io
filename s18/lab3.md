@@ -218,17 +218,17 @@ To specify a given pixel, you give its row, r, and column, c, in the grid. Count
 
 <img align="right" src="sic-imageplanes.png"> Each pixel is represented by its the percentage of red, green, and blue ("RGB") values. Images are stored as a grid of red values, a grid of green values, and a grid of blue values.
 
-For example, if we stored our image in the variable, img, we could access the red value by:
+For example, if we stored our image in the variable, `img`, we could access the red value by:
 
-		print "Upper left has red:", img[0,0,0]
+	print "Upper left has red:", img[0,0,0]
 
-	and the amount of green:
+and the amount of green:
 
-		print "Upper left has green:", img[0,0,1]
+	print "Upper left has green:", img[0,0,1]
 
-	and the amount of blue:
+and the amount of blue:
 
-		print "Upper left has blue:", img[0,0,2]
+	print "Upper left has blue:", img[0,0,2]
 
 Any point can be accessed via its coordinates (i,j) and the color channel (0 for red, 1 for green, and 2 for blue). In our example above, with the picture stored in the variable, img:
 
