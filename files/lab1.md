@@ -2,8 +2,8 @@
 layout: myDefault
 title: LAB 1
 ---
-### [CSCI 12700 | Introduction to Computer Science](../summer2018.html)  
-Hunter College City University of New York &nbsp;Summer 2018 
+### [CSCI 12700 | Introduction to Computer Science](../main.html)  
+<span style="font-size:larger;"></span>Hunter College, City University of New York</span>   
 
 ---
 	
@@ -14,7 +14,7 @@ Today's lab will focus on using the gradescope & Blackboard systems and simple p
 
 Software tools needed: web browser and Python IDLE programming environment.
 
-### Computers in CSCI 127 Lab
+#### Computers in CSCI 127 Lab
 
 CSCi 127 has a laboratory, 1001E North, dedicated for its use. The room has a flexible set-up to encourage group work and laptop computers that can be checked out for use in the room only. When you enter the room, hand your Hunter ID to undergraduate teaching assistant in exchange for a laptop computer. At the end of lab, make sure to return your computer to its docking station so that it can be charged.
 
