@@ -3,7 +3,7 @@ layout: myDefault
 title: LAB 1
 ---
 ### [CSCI 12700 | Introduction to Computer Science](../main.html)  
-<span style="font-size:larger;"></span>Hunter College, City University of New York</span>   
+<span style="font-size:larger;">Hunter College, City University of New York</span>   
 
 ---
 	
