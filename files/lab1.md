@@ -2,8 +2,8 @@
 layout: myDefault
 title: LAB 1
 ---
-### [CSCI127 Introduction to Computer Science](../main.html)  
-<span style="line-height: 0.1; font-size:21px">Hunter College | City University of New York</span>   
+### <span style="line-height:0.1>[CSCI127 Introduction to Computer Science](../main.html)</span>  
+<span style="line-height:0.1; font-size:21px">Hunter College | City University of New York</span>   
 
 ---
 	
