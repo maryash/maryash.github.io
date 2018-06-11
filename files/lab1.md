@@ -3,7 +3,7 @@ layout: myDefault
 title: LAB 1
 ---
 
-### [<span style="line-height:1; font-family:Arial">CSCI 127 &nbsp; Introduction to Computer Science</span>](../main.html)  
+### [<span style="font-family:Arial">CSCI 127 &nbsp; Introduction to Computer Science</span>](../main.html)  
 <span style="line-height:0.1; font-family:Arial; font-size:21.8px">Hunter College &nbsp; City University of New York</span>  
 
 ---  
