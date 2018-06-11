@@ -2,7 +2,7 @@
 layout: myDefault
 title: MAIN COURSE PAGE
 ---
-### [CSCI 12700 | Introduction to Computer Science](../summer2018.html)
+### [CSCI 12700 | Introduction to Computer Science](../2018summer.html)
 Hunter College City University of New York &nbsp;Summer 2018  
 
 ---
@@ -48,7 +48,7 @@ Katherine Howitt
  1R04 | M, W  3:20 PM – 12:54 PM, HN1001E | Katherine Howitt | kghowitt AT gmail com
 
 ### Useful Links:
-*   [Syllabus](files/syllabus.html)
+*   [Syllabus](files/syllabus2018summer.html)
 *   [Programming Assignments](files/assignments.html)
 
 ### Book & tutorial pages:
