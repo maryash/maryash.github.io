@@ -1,11 +1,15 @@
-Quizzes, CSci 127, Introduction to Computer Science, Hunter College, CUNY, Spring 2018 
-  
-Quiz Information  
-CSCI 127: Introduction to Computer Science  
-Hunter College, City University of New York  
-Summer 2018  
+---
+layout: myDefault
+title: QUIZZES
+---
 
-----------------------------------------------------------------------------------------------------------------------------------
+### [<span style="font-family:Arial">CSCI 127 &nbsp; Introduction to Computer Science</span>](../127_2018_summer.html)  
+[<span style="line-height:0.1; font-family:Arial; font-size:21.8px">Hunter College &nbsp; City University of New York</span>](../127_2018_summer.html)  
+
+---  
+  	
+QUIZZES
+---
 
 At every recitation, there will be an in-class quiz on the lecture notes, reading, submitted programs, and laboratory exercises.
 
