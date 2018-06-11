@@ -1,6 +1,6 @@
 ---
 layout: myDefault
-title: SYLLABUS
+title: SYLLABUS  
 ---
 
 ### [<span style="font-family:Arial">CSCI 127 &nbsp; Introduction to Computer Science</span>](../127_2018_summer.html)  
