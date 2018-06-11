@@ -4,7 +4,7 @@ title: PROGRAMMING ASSIGNMENTS
 ---
 
 ### [<span style="font-family:Arial">CSCI 127 &nbsp; Introduction to Computer Science</span>](../127_2018_summer.html)  
-[<span style="line-height:0.1; font-family:Arial; font-size:21.8px">Hunter College &nbsp; City University of New York</span>](../127_2018_summer.html)  
+<span style="line-height:0.1; font-family:Arial; font-size:21.8px">Hunter College &nbsp; City University of New York</span> 
 
 ---  
 
