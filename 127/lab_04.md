@@ -17,17 +17,17 @@ Software tools needed: terminal (command line), web browser and Python IDLE prog
 
 ### Using Python, Gradescope, and Blackboard
 
-See [Lab 1](lab1.html) for details on using Python, Gradescope, and Blackboard.
+See [Lab 1](lab_01.html) for details on using Python, Gradescope, and Blackboard.
 
 ### Getting Numbers as Input
 
-The simplest way to get input for our programs is via the console. In [Lab 2](lab2.html), we used the input() command to get string input from the command line.
+The simplest way to get input for our programs is via the console. In [Lab 2](lab_02.html), we used the input() command to get string input from the command line.
 
 Since Python doesn't know what you will be entering (number, words, etc.), it stores everything as a string, and leaves it to the user to convert it to what they want. For example, if we wanted a number, we need to convert the letters the user used into a number. The basic conversion functions are:
 
-*   int(): converts a string (series of letters) into the corresponding integer (whole number).
-*   float(): converts a string (series of letters) into the corresponding floating point number (real number).
-*   str(): converts a number into the corresponding sequence of letters.
+*   `int()`: converts a string (series of letters) into the corresponding integer (whole number).
+*   `float()`: converts a string (series of letters) into the corresponding floating point number (real number).
+*   `str()`: converts a number into the corresponding sequence of letters.
 
 Work through the examples in [2.3 Type conversion functions](http://interactivepython.org/courselib/static/thinkcspy/SimplePythonData/Typeconversionfunctions.html) and [2.4 Variables](http://interactivepython.org/courselib/static/thinkcspy/SimplePythonData/Variables.html). Try the quizzes at the end of the section to test your understanding.
 
@@ -43,15 +43,15 @@ In a text window in IDLE, write out what the input is, what the process is, and 
 
 Here is one possible design:
 
-1\. Input the distance in kilometers (call it km)
-2\. Calculate the distance in miles as ?
-3\. Output miles
+	#1\. Input the distance in kilometers (call it km)
+	#2\. Calculate the distance in miles as ?
+	#3\. Output miles
 
 Above, we are missing an important part-- the formula to calculate miles from kilometers. By typing 1 km = miles into google, we find that 1 km = 0.621371 miles. So, we can add that to our file:
 
-#1\. Input the distance in kilometers (call it km)
-#2\. Calculate the distance in miles as 0.621371*km
-#3\. Output miles
+	#1\. Input the distance in kilometers (call it km)
+	#2\. Calculate the distance in miles as 0.621371*km
+	#3\. Output miles
 
 Note that we're preceding the items in our outline by '#', so they can be used as comments for our final program.
 
@@ -59,41 +59,41 @@ If you have not done so already, now would be a good time to save your work as t
 
 Now, we are ready to convert our outline of the algorithm to Python. Begin by adding a comment to the beginning of the file:
 
-#Name:  your name 
-#Date:  September 2017
-#Converter example program from Lab 4
-
-
-#1\. Input the distance in kilometers (call it km)
-#2\. Calculate the distance in miles as 0.621371*km
-#3\. Output miles
+	#Name:  your name 
+	#Date:  September 2017
+	#Converter example program from Lab 4
+	
+	
+	#1\. Input the distance in kilometers (call it km)
+	#2\. Calculate the distance in miles as 0.621371*km
+	#3\. Output miles
 
 Next, let's print a welcome message:
 
-#Name:  your name 
-#Date:  September 2017
-#Converter example program from Lab 4
-
-
-print("Welcome to Daniel's calculator!")
-#1\. Input the distance in kilometers (call it km)
-#2\. Calculate the distance in miles as 0.621371*km
-#3\. Output miles
+	#Name:  your name 
+	#Date:  September 2017
+	#Converter example program from Lab 4
+	
+	
+	print("Welcome to Daniel's calculator!")
+	#1\. Input the distance in kilometers (call it km)
+	#2\. Calculate the distance in miles as 0.621371*km
+	#3\. Output miles
 
 Make sure that there are no typos by saving and running your program (F5 or 'Run Module' in the Run menu).
 
 Next, fill in the program line by line. First, ask the user for their input:
 
-#Name:  your name 
-#Date:  September 2017
-#Converter example program from Lab 4
+	#Name:  your name 
+	#Date:  September 2017
+	#Converter example program from Lab 4
 
 
-print("Welcome to Daniel's calculator!")
-#1\. Input the distance in kilometers (call it km)
-km = float(input('Enter distance in kilometers: '))
-#2\. Calculate the distance in miles as 0.621371*km
-#3\. Output miles
+	print("Welcome to Daniel's calculator!")
+	#1\. Input the distance in kilometers (call it km)
+	km = float(input('Enter distance in kilometers: '))
+	#2\. Calculate the distance in miles as 0.621371*km
+	#3\. Output miles
 
 Test to make sure that the program runs. Note that it will ask for the input but since no messages after that (we still need to fill those in).
 
@@ -101,34 +101,34 @@ Python cares about spacing and distinguishes between spaces and tabs. If you get
 
 Now, process the input (i.e. do the conversion):
 
-#Name:  your name 
-#Date:  September 2017
-#Converter example program from Lab 4
+	#Name:  your name 
+	#Date:  September 2017
+	#Converter example program from Lab 4
 
 
-print("Welcome to Daniel's calculator!")
-#1\. Input the distance in kilometers (call it km)
-km = float(input('Enter distance in kilometers: '))
-#2\. Calculate the distance in miles as 0.621371*km
-miles = 0.621371*km
-#3\. Output miles
+	print("Welcome to Daniel's calculator!")
+	#1\. Input the distance in kilometers (call it km)
+	km = float(input('Enter distance in kilometers: '))
+	#2\. Calculate the distance in miles as 0.621371*km
+	miles = 0.621371*km
+	#3\. Output miles
 
 Save and run your program again. It will ask for input but does not yet produce output.
 
 Finally, add the print statement that shows the output:
 
-#Name:  your name 
-#Date:  September 2017
-#Converter example program from Lab 4
+	#Name:  your name 
+	#Date:  September 2017
+	#Converter example program from Lab 4
 
 
-print("Welcome to Daniel's calculator!")
-#1\. Input the distance in kilometers (call it km)
-km = float(input('Enter distance in kilometers: '))
-#2\. Calculate the distance in miles as 0.621371*km
-miles = 0.621371*km
-#3\. Output miles
-print("The miles are", miles)
+	print("Welcome to Daniel's calculator!")
+	#1\. Input the distance in kilometers (call it km)
+	km = float(input('Enter distance in kilometers: '))
+	#2\. Calculate the distance in miles as 0.621371*km
+	miles = 0.621371*km
+	#3\. Output miles
+	print("The miles are", miles)
 
 Save and run your program again. This time, it will produce output. Try it with some simple values to make sure that it gets the right answer. For example, if you input 0 km, the output should also be 0. If you input 1 km, you should output 0.621371 miles.
 
@@ -149,18 +149,20 @@ Let's do an example to illustrate a decision, or if-statement in Python. In [Lab
 
 Since if the nucleotide is an A, we don't need to check if it's also a C, G, or T (and similarly for the other possible values), we can rewrite this as:
 
-  if nucleotide == "A":
-      newNucleotide = "T"
-  elif nucleotide == "C":
-      newNucleotide = "G"
-  elif nucleotide == "G":
-      newNucleotide = "C"
-  elif nucleotide == "T":
-      newNucleotide = "A"    
-  else:
-      print("Error:  not a valid value!")
+	  if nucleotide == "A":
+	      newNucleotide = "T"
+	  elif nucleotide == "C":
+	      newNucleotide = "G"
+	  elif nucleotide == "G":
+	      newNucleotide = "C"
+	  elif nucleotide == "T":
+	      newNucleotide = "A"    
+	  else:
+	      print("Error:  not a valid value!")
 
 Here's a demonstration of our code:
+
+<iframe width="800" height="500" frameborder="1" src="https://pythontutor.com/iframe-embed.html#code=nucleotide%20%3D%20input%28'Enter%20a%20nucleotide%3A%20'%29%0Aif%20nucleotide%20%3D%3D%20%22A%22%3A%0A%20%20%20%20newNucleotide%20%3D%20%22T%22%0Aelif%20nucleotide%20%3D%3D%20%22C%22%3A%0A%20%20%20%20newNucleotide%20%3D%20%22G%22%0Aelif%20nucleotide%20%3D%3D%20%22G%22%3A%0A%20%20%20%20newNucleotide%20%3D%20%22C%22%0Aelif%20nucleotide%20%3D%3D%20%22T%22%3A%0A%20%20%20%20newNucleotide%20%3D%20%22A%22%20%20%20%20%0Aelse%3A%0A%20%20%20%20print%28%22Error%3A%20%20not%20a%20valid%20value!%22%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=1&heapPrimitives=false&origin=opt-frontend.js&py=2&rawInputLstJSON=%5B%22A%22%5D&textReferences=false"></iframe><br>  
 
 ### Elevation Data & Flood Maps
 
