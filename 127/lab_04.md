@@ -201,7 +201,7 @@ Using numpy, we can look at the data with a default 'color map' that assigns blu
 
 Comparing the NOAA image with the one you created:
 
-![](gridExtract.png =350x) ![](elevColorMap.png)
+![](gridExtract.png) ![](elevColorMap.png)
 
 you can see the Hudson River and New York Harbor (bright blue) and the ridges of the Palisades along the Hudson and mountains in Staten Island and western New Jersey in yellow and red.
 
