@@ -172,36 +172,36 @@ We used their grid extract option on the New York City region:
 
 ![](gridExtract.png)
 
-to download the elevations for the box bounded by the red dotted line (in 3-second resolution mode). We then removed the top lines of metadata to create a file, [elevationsNYC.txt](../f17/elevationsNYC.txt) of 417 rows with 469 values in each row.
+to download the elevations for the box bounded by the red dotted line (in 3-second resolution mode). We then removed the top lines of metadata to create a file, [elevationsNYC.txt](elevationsNYC.txt) of 417 rows with 469 values in each row.
 
 Using numpy, we can look at the data with a default 'color map' that assigns blue to smaller values in the grid (or array) and red to the larger values:
 
-1.  Create a folder to hold your work (see [Lab 2](lab2.html) for directions for doing so from the command line).
+1.  Create a folder to hold your work (see [Lab 2](lab_02.html) for directions for doing so from the command line).
 2.  Download [elevationsNYC.txt](elevationsNYC.txt) and save to your folder (you may need to move it from your Downloads folder).
 3.  Open IDLE, and create the following short program:
     
-    \# Name:  ... your name here ...
-    \# Date:  September 2017
-    \# Takes elevation data of NYC and displays using the default color map
-    
-    #Import the libraries for arrays and displaying images:
-    import numpy as np
-    import matplotlib.pyplot as plt
-    
-    #Read in the data to an array, called elevations:
-    elevations = np.loadtxt('elevationsNYC.txt')
-    #Load the array into matplotlib.pyplot:
-    plt.imshow(elevations)
-    #Display the plot:
-    plt.show()
-    	
+		\# Name:  ... your name here ...
+		\# Date:  September 2017
+		\# Takes elevation data of NYC and displays using the default color map
+
+		#Import the libraries for arrays and displaying images:
+		import numpy as np
+		import matplotlib.pyplot as plt
+
+		#Read in the data to an array, called elevations:
+		elevations = np.loadtxt('elevationsNYC.txt')
+		#Load the array into matplotlib.pyplot:
+		plt.imshow(elevations)
+		#Display the plot:
+		plt.show()
+
     
     Save the file in your folder.
 4.  Run your program. A graphics window should appear showing the data stored in elevations.
 
 Comparing the NOAA image with the one you created:
 
-![](../f17/gridExtract.png) ![](../f17/elevColorMap.png)
+![](gridExtract.png = 350x) ![](elevColorMap.png)
 
 you can see the Hudson River and New York Harbor (bright blue) and the ridges of the Palisades along the Hudson and mountains in Staten Island and western New Jersey in yellow and red.
 
@@ -228,69 +228,69 @@ To give us complete control of the coloring, we will create a new array that wil
 
 We'll use a very simple (but a bit garish) color scheme, with our "blue" being 0% red, 0% green, and 100% blue. And similarly, the "red" and the "green" we'll use will be 100% of each, 0% of the others, giving a map like:
 
-![](../f17/floodMap.png)
+![](floodMap.png)
 
-Here's the code, implementing our outline below. Copy it into an IDLE window and run it. It expects that the file [elevationsNYC.txt](../f17/elevationsNYC.txt) is in the same directory as your program.
+Here's the code, implementing our outline below. Copy it into an IDLE window and run it. It expects that the file [elevationsNYC.txt](elevationsNYC.txt) is in the same directory as your program.
 
-\# Name:  ... your name here ...
-\# Date:  September 2017
-\# Takes elevation data of NYC and displays using the default color map
-
-
-#Import the libraries for arrays and displaying images:
-import numpy as np
-import matplotlib.pyplot as plt
+	\# Name:  ... your name here ...
+	\# Date:  September 2017
+	\# Takes elevation data of NYC and displays using the default color map
 
 
-#Read in the data to an array, called elevations:
-elevations = np.loadtxt('elevationsNYC.txt')
+	#Import the libraries for arrays and displaying images:
+	import numpy as np
+	import matplotlib.pyplot as plt
 
-#Take the shape (dimensions) of the elevations
-\#  and add another dimension to hold the 3 color channels:
-mapShape = elevations.shape + (3,)
 
-#Create a blank image that's all zeros:
-floodMap = np.zeros(mapShape)
+	#Read in the data to an array, called elevations:
+	elevations = np.loadtxt('elevationsNYC.txt')
 
-for row in range(mapShape\[0\]):
-    for col in range(mapShape\[1\]):
-        if elevations\[row,col\] <= 0: 
-            #Below sea level
-           floodMap\[row,col,2\] = 1.0     #Set the blue channel to 100%
-        elif elevations\[row,col\] <= 6:
-            #Below the storm surge of Hurricane Sandy (flooding likely)
-           floodMap\[row,col,0\] = 1.0     #Set the red channel to 100%
-        else:
-            #Above the 6 foot storm surge and didn't flood
-            floodMap\[row,col,1\] = 1.0   #Set the green channel to 100%
-     
-#Load the flood map image into matplotlib.pyplot:
-plt.imshow(floodMap)
+	#Take the shape (dimensions) of the elevations
+	\#  and add another dimension to hold the 3 color channels:
+	mapShape = elevations.shape + (3,)
 
-#Display the plot:
-plt.show()
+	#Create a blank image that's all zeros:
+	floodMap = np.zeros(mapShape)
 
-#Save the image:
-plt.imsave('floodMap.png', floodMap)
+	for row in range(mapShape\[0\]):
+	    for col in range(mapShape\[1\]):
+		if elevations\[row,col\] <= 0: 
+		    #Below sea level
+		   floodMap\[row,col,2\] = 1.0     #Set the blue channel to 100%
+		elif elevations\[row,col\] <= 6:
+		    #Below the storm surge of Hurricane Sandy (flooding likely)
+		   floodMap\[row,col,0\] = 1.0     #Set the red channel to 100%
+		else:
+		    #Above the 6 foot storm surge and didn't flood
+		    floodMap\[row,col,1\] = 1.0   #Set the green channel to 100%
 
-What would you change to make a more fine-grained map? Namely, modify your program to color the region just above the Sandy storm surge (6 feet) and less than or equal to 20 feet the color grey (50% red, 50% green, 50% blue). Also, modify your program to not show any graphics windows (plt.show()) but instead just compute and save the map to floodMap.png. See [Programming Problem List](ps.html).
+	#Load the flood map image into matplotlib.pyplot:
+	plt.imshow(floodMap)
 
-![](../f17/floodMap2.png)
+	#Display the plot:
+	plt.show()
+
+	#Save the image:
+	plt.imsave('floodMap.png', floodMap)
+
+What would you change to make a more fine-grained map? Namely, modify your program to color the region just above the Sandy storm surge (6 feet) and less than or equal to 20 feet the color grey (50% red, 50% green, 50% blue). Also, modify your program to not show any graphics windows (plt.show()) but instead just compute and save the map to floodMap.png. See [Programming Problem List](assignments.html).
+
+![](floodMap2.png)
 
 ### More on the Command Line Interface: Relative Paths
 
-[Last lab](lab3.html), we introduced the Unix shell commands:
+[Last lab](lab_03.html), we introduced the Unix shell commands:
 
-*   cd: change directories (or folders),
+*   `cd`: change directories (or folders),
 *   mkdir: make a directory,
-*   ls: list the contents of a directory, and
-*   pwd: show the path (location) of the current working directory.
+*   `ls`: list the contents of a directory, and
+*   `pwd`: show the path (location) of the current working directory.
 
 We'll expand a bit on the change directory (cd) command. At a terminal window, we had typed:
 
-    mkdir thomasH
-    cd thomasH
-    pwd
+    `mkdir thomasH`
+    `cd thomasH`
+    `pwd`
 
 which created a new directory, changed the current directory to it, and shows us what directory we were in.
 
@@ -313,7 +313,7 @@ This simple cd ../ gives a powerful way to navigate the directories (especially 
 
 ### In-class Quiz
 
-During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab1.html) for details on using Blackboard).
+During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab_01.html) for details on using Blackboard).
 
 ### What's Next?
 
