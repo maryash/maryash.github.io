@@ -43,15 +43,15 @@ In a text window in IDLE, write out what the input is, what the process is, and 
 
 Here is one possible design:
 
-	#1\. Input the distance in kilometers (call it km)
-	#2\. Calculate the distance in miles as ?
-	#3\. Output miles
+	#1. Input the distance in kilometers (call it km)
+	#2. Calculate the distance in miles as ?
+	#3. Output miles
 
 Above, we are missing an important part-- the formula to calculate miles from kilometers. By typing 1 km = miles into google, we find that 1 km = 0.621371 miles. So, we can add that to our file:
 
-	#1\. Input the distance in kilometers (call it km)
-	#2\. Calculate the distance in miles as 0.621371*km
-	#3\. Output miles
+	#1. Input the distance in kilometers (call it km)
+	#2. Calculate the distance in miles as 0.621371*km
+	#3. Output miles
 
 Note that we're preceding the items in our outline by '#', so they can be used as comments for our final program.
 
@@ -64,9 +64,9 @@ Now, we are ready to convert our outline of the algorithm to Python. Begin by ad
 	#Converter example program from Lab 4
 	
 	
-	#1\. Input the distance in kilometers (call it km)
-	#2\. Calculate the distance in miles as 0.621371*km
-	#3\. Output miles
+	#1. Input the distance in kilometers (call it km)
+	#2. Calculate the distance in miles as 0.621371*km
+	#3. Output miles
 
 Next, let's print a welcome message:
 
@@ -76,9 +76,9 @@ Next, let's print a welcome message:
 	
 	
 	print("Welcome to Daniel's calculator!")
-	#1\. Input the distance in kilometers (call it km)
-	#2\. Calculate the distance in miles as 0.621371*km
-	#3\. Output miles
+	#1. Input the distance in kilometers (call it km)
+	#2. Calculate the distance in miles as 0.621371*km
+	#3. Output miles
 
 Make sure that there are no typos by saving and running your program (F5 or 'Run Module' in the Run menu).
 
@@ -90,10 +90,10 @@ Next, fill in the program line by line. First, ask the user for their input:
 
 
 	print("Welcome to Daniel's calculator!")
-	#1\. Input the distance in kilometers (call it km)
+	#1. Input the distance in kilometers (call it km)
 	km = float(input('Enter distance in kilometers: '))
-	#2\. Calculate the distance in miles as 0.621371*km
-	#3\. Output miles
+	#2. Calculate the distance in miles as 0.621371*km
+	#3. Output miles
 
 Test to make sure that the program runs. Note that it will ask for the input but since no messages after that (we still need to fill those in).
 
@@ -107,11 +107,11 @@ Now, process the input (i.e. do the conversion):
 
 
 	print("Welcome to Daniel's calculator!")
-	#1\. Input the distance in kilometers (call it km)
+	#1. Input the distance in kilometers (call it km)
 	km = float(input('Enter distance in kilometers: '))
-	#2\. Calculate the distance in miles as 0.621371*km
+	#2. Calculate the distance in miles as 0.621371*km
 	miles = 0.621371*km
-	#3\. Output miles
+	#3. Output miles
 
 Save and run your program again. It will ask for input but does not yet produce output.
 
@@ -123,11 +123,11 @@ Finally, add the print statement that shows the output:
 
 
 	print("Welcome to Daniel's calculator!")
-	#1\. Input the distance in kilometers (call it km)
+	#1. Input the distance in kilometers (call it km)
 	km = float(input('Enter distance in kilometers: '))
-	#2\. Calculate the distance in miles as 0.621371*km
+	#2. Calculate the distance in miles as 0.621371*km
 	miles = 0.621371*km
-	#3\. Output miles
+	#3. Output miles
 	print("The miles are", miles)
 
 Save and run your program again. This time, it will produce output. Try it with some simple values to make sure that it gets the right answer. For example, if you input 0 km, the output should also be 0. If you input 1 km, you should output 0.621371 miles.
@@ -170,14 +170,14 @@ For the last part of the lab, let's combine what we have learned about images an
 
 We used their grid extract option on the New York City region:
 
-![](../f17/gridExtract.png)
+![](gridExtract.png)
 
 to download the elevations for the box bounded by the red dotted line (in 3-second resolution mode). We then removed the top lines of metadata to create a file, [elevationsNYC.txt](../f17/elevationsNYC.txt) of 417 rows with 469 values in each row.
 
 Using numpy, we can look at the data with a default 'color map' that assigns blue to smaller values in the grid (or array) and red to the larger values:
 
 1.  Create a folder to hold your work (see [Lab 2](lab2.html) for directions for doing so from the command line).
-2.  Download [elevationsNYC.txt](../f17/elevationsNYC.txt) and save to your folder (you may need to move it from your Downloads folder).
+2.  Download [elevationsNYC.txt](elevationsNYC.txt) and save to your folder (you may need to move it from your Downloads folder).
 3.  Open IDLE, and create the following short program:
     
     \# Name:  ... your name here ...
