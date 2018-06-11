@@ -75,7 +75,7 @@ Additional readings and tutorials are available on the course webpage.
 
 ***Technology:*** This course uses multiple software tools and languages. All are available on the lab computers.
 
-*   Python: a programming language that is freely available across multiple platforms. See [Lab 1](lab1.html) for details on obtaining it for your home computer.
+*   Python: a programming language that is freely available across multiple platforms. See [Lab 1](lab_01.html) for details on obtaining it for your home computer.
 *   Unix: an operating system that underlies Ubuntu Linux (what the lab computers run) as well as MacIntosh OSX.
 *   Blackboard: the learning management system used throughout CUNY. Accounts are provided automatically to all enrolled students. In this course, in-class quizzes will be given via Blackboard.
 *   Gradescope: an automatic grading program from UC Berkeley. All programming assignments will be submitted to gradescope. An email with access information will be sent to your email of record on Blackboard two days before the semester starts.
