@@ -180,9 +180,9 @@ Using numpy, we can look at the data with a default 'color map' that assigns blu
 2.  Download [elevationsNYC.txt](elevationsNYC.txt) and save to your folder (you may need to move it from your Downloads folder).
 3.  Open IDLE, and create the following short program:
     
-		\# Name:  ... your name here ...
-		\# Date:  September 2017
-		\# Takes elevation data of NYC and displays using the default color map
+		# Name:  ... your name here ...
+		# Date:  September 2017
+		# Takes elevation data of NYC and displays using the default color map
 
 		#Import the libraries for arrays and displaying images:
 		import numpy as np
@@ -201,7 +201,7 @@ Using numpy, we can look at the data with a default 'color map' that assigns blu
 
 Comparing the NOAA image with the one you created:
 
-![](gridExtract.png = 350x) ![](elevColorMap.png)
+![](gridExtract.png =350x) ![](elevColorMap.png)
 
 you can see the Hudson River and New York Harbor (bright blue) and the ridges of the Palisades along the Hudson and mountains in Staten Island and western New Jersey in yellow and red.
 
@@ -232,9 +232,9 @@ We'll use a very simple (but a bit garish) color scheme, with our "blue" being 0
 
 Here's the code, implementing our outline below. Copy it into an IDLE window and run it. It expects that the file [elevationsNYC.txt](elevationsNYC.txt) is in the same directory as your program.
 
-	\# Name:  ... your name here ...
-	\# Date:  September 2017
-	\# Takes elevation data of NYC and displays using the default color map
+	# Name:  ... your name here ...
+	# Date:  September 2017
+	# Takes elevation data of NYC and displays using the default color map
 
 
 	#Import the libraries for arrays and displaying images:
@@ -246,7 +246,7 @@ Here's the code, implementing our outline below. Copy it into an IDLE window and
 	elevations = np.loadtxt('elevationsNYC.txt')
 
 	#Take the shape (dimensions) of the elevations
-	\#  and add another dimension to hold the 3 color channels:
+	#  and add another dimension to hold the 3 color channels:
 	mapShape = elevations.shape + (3,)
 
 	#Create a blank image that's all zeros:
@@ -286,7 +286,7 @@ What would you change to make a more fine-grained map? Namely, modify your progr
 *   `ls`: list the contents of a directory, and
 *   `pwd`: show the path (location) of the current working directory.
 
-We'll expand a bit on the change directory (cd) command. At a terminal window, we had typed:
+We'll expand a bit on the change directory (`cd`) command. At a terminal window, we had typed:
 
     `mkdir thomasH`
     `cd thomasH`
@@ -317,4 +317,4 @@ During lab, there is a [quiz](quizzes.html). The password to access the quiz wil
 
 ### What's Next?
 
-If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](ps.html) has problem descriptions, suggested reading, and due dates next to each problem.
+If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](assignments.html) has problem descriptions, suggested reading, and due dates next to each problem.
