@@ -543,8 +543,8 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         A sample run of the program:
 
-            Enter name of input file:  DHS\_2015\_2016.csv
-            Enter name of output file:  dhsPlot.png
+            Enter name of input file:  DHS\_2015\_2016.csv  
+            Enter name of output file:  dhsPlot.png  
 
         which produces an output:
 
@@ -581,14 +581,14 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         _Implement (and test!) each part and then go on to the next._  
     
 34.  **Due Date: 21 Juneh** **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
-    
-    Write a logical expression that takes a single input, in1, and **always** returns True. Your expression must only use in1 and the logical operators, and, or, and not
-    
-    See [Lab 5](lab_05.html) for the format for submitting logical expressions to Gradescope.
-    
-    _Hint: Think about the circuit below:_
-    
-    ![](PorNotP.png)
+
+        Write a logical expression that takes a single input, in1, and **always** returns True. Your expression must only use in1 and the logical operators, and, or, and not
+
+        See [Lab 5](lab_05.html) for the format for submitting logical expressions to Gradescope.
+
+        _Hint: Think about the circuit below:_
+
+        ![](PorNotP.png)
     
 35.  **Due Date: 21 June**
     
@@ -601,7 +601,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         which would have as input and output:
 
-        ![](hunterLogo2.png) ![](logoLL.png | width=100)
+        ![](hunterLogo2.png) ![](logoLL.png =250x100)
 
         _Hint: See sample programs from Lectures 4 and 6._
 
