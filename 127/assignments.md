@@ -506,7 +506,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
          Inputs | x | x | Outputs | x | x | x 
          
-         --- | --- | --- | --- | --- | --- | ---- 
+         ---|---|---|---|---|---|--- 
 
          Decimal Number | in1 | in2 | Decimal Number | out1 | out2 | out3
 
