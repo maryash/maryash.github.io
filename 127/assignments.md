@@ -704,7 +704,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             4.         Turn t left 120 degrees.
             5.         Call nestedTriangle with t and length/2.
 
-        A template program, nestingTrianges.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead tests your function separately ('unit tests') to determine correctness. As such, the function names must match exactly (else, the scripts cannot find it). Make sure to use the function names from the github program (it is expecting `triangle()` and `nestedTriangle()`).
+        A template program, nestingTrianges.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead tests your function separately ('unit tests') to determine correctness. As such, the function names must match exactly (else, the scripts cannot find it). Make sure to use the function names from the github program -- it is expecting `triangle()` and `nestedTriangle()`.
 
         A sample run:
 
