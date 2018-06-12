@@ -79,7 +79,8 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
                 Turn right 92 degrees
 
         Your output should look similar to:  
-        ![](flower.png)
+        ![](flower.png)  
+  
 04.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
 
         Write a program that will print the Hunter College motto ("Mihi cura futuri" which translates to: "The care of the future is mine") 15 times.
@@ -595,7 +596,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         which would have as input and output:
 
-        ![](hunterLogo2.png) ![](logoLL.png =250x100)
+        ![](hunterLogo2.png) ![](logoLL.png)
 
         _Hint: See sample programs from Lectures 4 and 6._
 
