@@ -58,7 +58,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Write a program that prints "Hello, World!" to the screen.
 
-        _Hint: See [Lab 1](lab1.html)._
+        _Hint: See [Lab 1](lab_01.html)._
 
 02.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
@@ -66,7 +66,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Note: Choose a name for your file that is **not** turtle.py. When executing the "import turtle" statement, the computer first looks in the folder where the file is saved for the turtle module and then in the libraries (and other places on the path). So, it thinks the module is itself, causing all kinds of errors. To avoid this, name your program something like "myTurtle.py" or "program2.py"._
 
-        _Hint: See [Lab 1](lab1.html)._
+        _Hint: See [Lab 1](lab_01.html)._
     
 03.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
@@ -152,7 +152,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             110
             33
     
-        _Hint: If c is a character, ord(c) returns its ASCII code. For example, if c is 'I', then ord(c) returns 73. See [Lab 2](lab2.html)._  
+        _Hint: If c is a character, ord(c) returns its ASCII code. For example, if c is 'I', then ord(c) returns 73. See [Lab 2](lab_02.html)._  
     
 08.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
@@ -164,7 +164,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Length is 12
             GC-content is 0.75
 
-        _Hint: See [Lab 2](lab2.html)._  
+        _Hint: See [Lab 2](lab_02.html)._  
     
 09.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
@@ -191,7 +191,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         Your output should look similar to:  
         ![](spiral10.png)
 
-        _Hint: See [Lab 2](lab2.html)._  
+        _Hint: See [Lab 2](lab_02.html)._  
    
 11.  **Due Date: 11 June** **Think CS: [Chapters 4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
@@ -215,11 +215,11 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
             I
 
-        _Hint: See [Lab 2](lab2.html) or Lecture 2 notes._  
+        _Hint: See [Lab 2](lab_02.html) or Lecture 2 notes._  
 
 12.  **Due Date: 11 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
-        Modify the program from [Lab 3](lab3.html) to show the shades of green.
+        Modify the program from [Lab 3](lab_03.html) to show the shades of green.
 
         Your output should look similar to:  
         ![](shadesOfGreen.png)  
@@ -235,7 +235,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         and the output should look similar to:  
         ![](purpleTurtle.png)
 
-        _Hint: See [Section 4.3](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/InstancesAHerdofTurtles.html) for setting the background color and [Lab 3](lab3.html) for colors._  
+        _Hint: See [Section 4.3](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/InstancesAHerdofTurtles.html) for setting the background color and [Lab 3](lab_03.html) for colors._  
     
 14.  **Due Date: 11 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
@@ -248,7 +248,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Sample input and resulting output files:
 
-        ![](../f17/csBridge.png) ![](greenH.png)
+        ![](csBridge.png) ![](greenH.png)
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
     
@@ -282,7 +282,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         A useful formula: _miles = 0.621371* kilometers_.
 
-        See [Lab 4](lab4.html) for designing Input-Process-Output programs.  
+        See [Lab 4](lab_04.html) for designing Input-Process-Output programs.  
     
 17.  **Due Date: 14 June** **Reading: Think CS: [Section 2.7](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/OperatorsandOperands.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
@@ -323,7 +323,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
 19.  **Due Date: 14 June** **Reading: Think CS: [Chapters 4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
     
-        Modify the flood map of NYC from [Lab 4](lab4.html) to color the region of the map with elevation greater than 6 feet and less than or equal 20 feet above sea level the color grey (50% red, 50% green, and 50% blue).
+        Modify the flood map of NYC from [Lab 4](lab_04.html) to color the region of the map with elevation greater than 6 feet and less than or equal 20 feet above sea level the color grey (50% red, 50% green, and 50% blue).
 
         Your resulting map should look like:
 
@@ -335,7 +335,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
 20.  **Due Date: 14 June** **Reading: [Think CS: Section 8.10](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/2DimensionalIterationImageProcessing.html)**  
     
-        Modify the map-mapking program from [Lab 4](lab4.html) to create a map that outlines the coastline. Your program should create a new image, called coast.png with the pixels colored as follows:
+        Modify the map-mapking program from [Lab 4](lab_04.html) to create a map that outlines the coastline. Your program should create a new image, called coast.png with the pixels colored as follows:
 
         *   If the elevation is less than or equal to 0, color the pixel 50% blue (and 0% red and 0% green).
         *   If the elevation is exactly 1, color the pixel 75% red, 75% green, and 75% blue.
@@ -355,7 +355,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         For example, if your file was of the snow pack in the Sierra Nevada mountains in California in February 2014:
 
-        ![](../f17/CaliforniaDrought_02232014_md.png)
+        ![](CaliforniaDrought_02232014_md.png)
 
         then a sample run would be:
 
@@ -364,7 +364,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Note: for this program, you only need to compute the snow count. Showing the image will confuse the grading script, since it's only expecting the snow count.
 
-        _Hint: See [Lab 5](lab5.html)_.  
+        _Hint: See [Lab 5](lab_05.html)_.  
     
 22.  **Due Date: 14 June** **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
     
@@ -373,7 +373,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         *   If two or more of the inputs are True, then your expression should evaluate to True.
         *   Otherwise (two or more of the inputs are False), then your expression should evaluate to False.
 
-        ![](../f17/maj7.png)
+        ![](maj7.png)
 
         Save your expression to a text file. See [Lab 5](lab5.html) for the format for submitting logical expressions to Gradescope.
     
@@ -434,9 +434,9 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
       
 
-26.  **Due Date: 16 March** **Reading: [Numpy tutorial (DataCamp)](https://www.datacamp.com/community/tutorials/python-numpy-tutorial)**  
+26.  **Due Date: 18 June** **Reading: [Numpy tutorial (DataCamp)](https://www.datacamp.com/community/tutorials/python-numpy-tutorial)**  
     
-        Modify the program from [Lab 6](lab6.html) that displays the [NYC historical population data](../f17/nycHistPop.csv). Your program should ask the user for the borough, an name for the output file, and then display the fraction of the population that has lived in that borough, over time.
+        Modify the program from [Lab 6](lab6.html) that displays the [NYC historical population data](nycHistPop.csv). Your program should ask the user for the borough, an name for the output file, and then display the fraction of the population that has lived in that borough, over time.
 
         A sample run of the program:
 
@@ -445,13 +445,13 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
             The file qFraction.png:
 
-            ![](../f17/qFraction.png)
+            ![](qFraction.png)
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
     
-27.  **Due Date: 19 March** **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+27.  **Due Date: 18 June** **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
     
-        Write a program that computes the average and maximum population over time for a borough (entered by the user). Your program should assume that the NYC historical population data file, [nycHistPop.csv](../f17/nycHistPop.csv) is in the same directory.
+        Write a program that computes the average and maximum population over time for a borough (entered by the user). Your program should assume that the NYC historical population data file, [nycHistPop.csv](nycHistPop.csv) is in the same directory.
 
             A sample run of your program:
 
@@ -465,9 +465,9 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Average population:  1252437.5384615385
             Maximum population:  2738175
 
-        _Hint: See [Lab 6](lab6.html)_.
+        _Hint: See [Lab 6](lab_06.html)_.
     
-28.  **Due Date: 20 March** **Reading: Think CS [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
+28.  **Due Date: 18 June** **Reading: Think CS [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
     
         Write a program that asks the user for the hour of the day (in 24 hour time), and prints
 
@@ -490,185 +490,123 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter hour (in 24 hour time):  15
             Good Afternoon
     
-29.  **Due Date: 21 March** **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
-    
-    Write an Unix shell script that prints Hello, World to the screen.
-    
-    Submit a single text file containing your shell commands. See [Lab 6](lab6.html).
-    
-30.  **Due Date: 22 March** **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
-    
-    Logical gates can be used to do arithmetic on binary numbers. For example, we can write a logical circuit whose output is one more than the inputted number. Our inputs are in1 and in2 and the outputs are stored in out1, out2, and out3.
-    
-    [![](../f17/incrementCircuit.png)  
-    (click to launch new window with circuit)](http://www.neuroproductions.be/logic-lab/index.php?id=80507)
-    
-    Here is a table of the inputs and outputs:
-    
-    Inputs
-    
-    Outputs
-    
-    Decimal  
-    Number
-    
-    in1
-    
-    in2
-    
-    Decimal  
-    Number
-    
-    out1
-    
-    out2
-    
-    out3
-    
-    0
-    
-    0
-    
-    0
-    
-    1
-    
-    0
-    
-    0
-    
-    1
-    
-    1
-    
-    0
-    
-    1
-    
-    2
-    
-    0
-    
-    1
-    
-    0
-    
-    2
-    
-    1
-    
-    0
-    
-    3
-    
-    0
-    
-    1
-    
-    1
-    
-    3
-    
-    1
-    
-    1
-    
-    4
-    
-    1
-    
-    0
-    
-    0
-    
-    Submit a text file with each of the outputs on a separate line:
-    
-    #Name:  YourNameHere
-    #Date:  April 2017
-    #Logical expressions for a 4-bit incrementer
-    
-    out1 = ...
-    out2 = ...
-    out3 = ...
-    
-    Where "..." is replaced by your logical expression (see [Lab 5](lab5.html)).
-    
-    * * *
-    
-31.  **Due Date: 23 March** **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
-    
-    Modify the program from [Lab 7](lab7.html) to:
-    
-    *   asks the user to specify the input file,
-    *   asks the user to specify the output file,
-    *   makes a plot of the fraction of the total population that are children over time from the data in input file, and
-    *   stores the plot in the output file the user specified.
-    
-    A sample run of the program:
-    
-    Enter name of input file:  DHS\_2015\_2016.csv
-    Enter name of output file:  dhsPlot.png
-    
-    which produces an output:
-    
-    ![](../f17/dhsPlot.png)
-    
-    Note: The grading script is expecting that the label (i.e. name of your new column) is "Fraction Children".
-    
-32.  **Due Date: 26 March** **Reading: Think CS [Section 6.7](http://interactivepython.org/runestone/static/thinkcspy/Functions/mainfunction.html)**  
-    
-    Write a program, using a function main() that prints "Hello, World!" to the screen. See [Lab 7](lab7.html).
-    
-33.  **Due Date: 27 March** **Reading: Think CS [Chapter 9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
-    
-    Write a program that asks the user for a list of nouns (separated by spaces) and approximates the fraction that are plural by counting the fraction that end in "s". Your program should output the total number of words and the fraction that end in "s". You may assume that words are separated by spaces (and ignore the possibility of tabs and punctuation between words.)
-    
-    A sample run of the program:
-    
-    Enter nouns: apple bananas cantalopes durian 
-    Number of words:  4
-    Fraction of your list that is plural is 0.5
-    
-    And another sample run of the program:
-    
-    Enter nouns: hats gloves coats glasses scarves
-    Number of words:  5
-    Fraction of your list that is plural is 1.0 
-    
-    _Hint: Break this problem into pieces:_
-    
-    _*   First, count the number of words in the string the user entered (hint: count the number of spaces). Print out the number of words. Make sure this works before going onto the next part.
-    *   Next, ignoring the last word (which is a special case and can be dealt with separately), count the number of words ending in 's' (hint: count the number of "s "). Test that this part works before going on to the next step.
-    *   Last, check the last word to see if it ends in "s"-- since it's the last word, the "s" will always occur at the same index in the string._
-    
-    _Implement (and test!) each part and then go on to the next._  
-    
-34.  **Due Date: 29 March** **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
+29.  **Due Date: 18 June** **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
+    
+        Write an Unix shell script that prints Hello, World to the screen.
+
+        Submit a single text file containing your shell commands. See [Lab 6](lab_06.html).
+    
+30.  **Due Date: 18 June** **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
+    
+        Logical gates can be used to do arithmetic on binary numbers. For example, we can write a logical circuit whose output is one more than the inputted number. Our inputs are in1 and in2 and the outputs are stored in out1, out2, and out3.
+
+        [![](incrementCircuit.png)  
+        (click to launch new window with circuit)](http://www.neuroproductions.be/logic-lab/index.php?id=80507)
+
+        Here is a table of the inputs and outputs:
+
+         Inputs | x | x | Outputs | x | x | x 
+         
+         --- | --- | --- | --- | --- | --- | ---- 
+
+         Decimal Number | in1 | in2 | Decimal Number | out1 | out2 | out3
+
+         0 | 0 | 0 | 1 | 0 | 0 | 1 
+
+         1 | 0 | 1 | 2 | 0 | 1 | 0 
+
+         2 | 1 | 0 | 3 | 0 | 1 | 1 
+
+         3 | 1 | 1 | 4 | 1 | 0 | 0 
+  
+        Submit a text file with each of the outputs on a separate line:
+
+        #Name:  YourNameHere
+        #Date:  April 2017
+        #Logical expressions for a 4-bit incrementer
+
+        out1 = ...
+        out2 = ...
+        out3 = ...
+
+        Where "..." is replaced by your logical expression (see [Lab 5](lab5.html)).
+
+
+    
+31.  **Due Date: 21 June** **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+    
+        Modify the program from [Lab 7](lab7.html) to:
+
+        *   asks the user to specify the input file,
+        *   asks the user to specify the output file,
+        *   makes a plot of the fraction of the total population that are children over time from the data in input file, and
+        *   stores the plot in the output file the user specified.
+
+        A sample run of the program:
+
+            Enter name of input file:  DHS\_2015\_2016.csv
+            Enter name of output file:  dhsPlot.png
+
+        which produces an output:
+
+        ![](dhsPlot.png)
+
+        Note: The grading script is expecting that the label (i.e. name of your new column) is "Fraction Children".
+    
+32.  **Due Date: 21 June** **Reading: Think CS [Section 6.7](http://interactivepython.org/runestone/static/thinkcspy/Functions/mainfunction.html)**  
+
+        Write a program, using a function `main()` that prints `Hello, World!` to the screen. See [Lab 7](lab_07.html).
+    
+33.  **Due Date: 21 June** **Reading: Think CS [Chapter 9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+    
+        Write a program that asks the user for a list of nouns (separated by spaces) and approximates the fraction that are plural by counting the fraction that end in `s`. Your program should output the total number of words and the fraction that end in `s`. You may assume that words are separated by spaces (and ignore the possibility of tabs and punctuation between words.)
+
+        A sample run of the program:
+
+            Enter nouns: apple bananas cantalopes durian 
+            Number of words:  4
+            Fraction of your list that is plural is 0.5
+
+        And another sample run of the program:
+
+            Enter nouns: hats gloves coats glasses scarves
+            Number of words:  5
+            Fraction of your list that is plural is 1.0 
+
+        _Hint: Break this problem into pieces:_
+
+        _*   First, count the number of words in the string the user entered (hint: count the number of spaces). Print out the number of words. Make sure this works before going onto the next part.
+        *   Next, ignoring the last word (which is a special case and can be dealt with separately), count the number of words ending in 's' (hint: count the number of "s "). Test that this part works before going on to the next step.
+        *   Last, check the last word to see if it ends in "s"-- since it's the last word, the "s" will always occur at the same index in the string._
+
+        _Implement (and test!) each part and then go on to the next._  
+    
+34.  **Due Date: 21 Juneh** **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
     
     Write a logical expression that takes a single input, in1, and **always** returns True. Your expression must only use in1 and the logical operators, and, or, and not
     
-    See [Lab 5](lab5.html) for the format for submitting logical expressions to Gradescope.
+    See [Lab 5](lab_05.html) for the format for submitting logical expressions to Gradescope.
     
     _Hint: Think about the circuit below:_
     
-    ![](../f17/PorNotP.png)
+    ![](PorNotP.png)
     
-35.  **Due Date: 10 April**
+35.  **Due Date: 21 June**
     
-    Write a program that asks the user for the name of an image, the name of an output file. Your program should then save the lower left quarter of the image to the output file specified by the user.
-    
-    A sample run of your program should look like:
-    
-    Enter image file name: hunterLogo.png
-    Enter output file: logoLL.png
-    
-    which would have as input and output:
-    
-    ![](hunterLogo2.png) ![](logoLL.png)
-    
-    _Hint: See sample programs from Lectures 4 and 6._
-    
-    Note: before submitting your program for grading, remove any commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
+        Write a program that asks the user for the name of an image, the name of an output file. Your program should then save the lower left quarter of the image to the output file specified by the user.
+
+        A sample run of your program should look like:
+
+            Enter image file name: hunterLogo.png
+            Enter output file: logoLL.png
+
+        which would have as input and output:
+
+        ![](hunterLogo2.png) ![](logoLL.png)
+
+        _Hint: See sample programs from Lectures 4 and 6._
+
+        Note: before submitting your program for grading, remove any commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
 
 
 _(This file was last modified on 4 June 2018.)_
