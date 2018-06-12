@@ -443,7 +443,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter borough name:  Queens
             Enter output file name:  qFraction.png
 
-            The file qFraction.png:
+        The file qFraction.png:
 
         ![](qFraction.png)
 
