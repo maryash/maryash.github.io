@@ -506,19 +506,19 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         Here is a table of the inputs and outputs:  
           
           
- Inputs | x | x | Outputs | x | x | x 
+       Inputs | x | x | Outputs | x | x | x 
 
----|---|---|---|---|---|--- 
+       ---|---|---|---|---|---|--- 
 
- Decimal Number | in1 | in2 | Decimal Number | out1 | out2 | out3
+       Decimal Number | in1 | in2 | Decimal Number | out1 | out2 | out3
 
- 0 | 0 | 0 | 1 | 0 | 0 | 1 
+       0 | 0 | 0 | 1 | 0 | 0 | 1 
 
- 1 | 0 | 1 | 2 | 0 | 1 | 0 
+       1 | 0 | 1 | 2 | 0 | 1 | 0 
 
- 2 | 1 | 0 | 3 | 0 | 1 | 1 
+       2 | 1 | 0 | 3 | 0 | 1 | 1 
 
- 3 | 1 | 1 | 4 | 1 | 0 | 0 
+       3 | 1 | 1 | 4 | 1 | 0 | 0 
    
   
         Submit a text file with each of the outputs on a separate line:
@@ -532,7 +532,6 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         out3 = ...
 
         Where "..." is replaced by your logical expression (see [Lab 5](lab5.html)).
-
 
     
 31.  **Due Date: 21 June** **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
