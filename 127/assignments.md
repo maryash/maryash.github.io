@@ -646,12 +646,13 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 37.  **Due Date: 12 April** **Reading: [Github Guide](https://guides.github.com/activities/hello-world/)**  
     
         In [Lab 8](lab_08.html), you created a github account. Submit a text file with the name of your account. The grading script is expecting a file with the format:
-
+  
             #Name:  Your name 
             #Date:  April 2017
             #Account name for my github account
 
             AccountNameGoesHere  
+  
 #### Note: it takes a few minutes for a newly created github account to be visible. If you submit to gradescope and get a message that the account doesn't exist, wait a few minutes and try again.
     
 38.  **Due Date: 13 April** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
@@ -688,20 +689,20 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         Write two functions, triangle() and nestedTriangle(). Both functions take two parameters: a turtle and an edge length. The pseudocode for triangle() is:
 
             triangle(t, length):
-            1\.  If length > 10:
-            2\.     Repeat 3 times:
-            3\.         Move t, the turtle, forward length steps.
-            4\.         Turn t left 120 degrees.
-            5\.     Call triangle with t and length/2.
+            1.  If length > 10:
+            2.     Repeat 3 times:
+            3.         Move t, the turtle, forward length steps.
+            4.         Turn t left 120 degrees.
+            5.     Call triangle with t and length/2.
 
         The pseudocode for nestedTriangle() is very similar:
 
             nestedTriangle(t, length):
-            1\.  If length > 10:
-            2\.     Repeat 3 times:
-            3\.         Move t, the turtle, forward length steps.
-            4\.         Turn t left 120 degrees.
-            5\.         Call nestedTriangle with t and length/2.
+            1.  If length > 10:
+            2.     Repeat 3 times:
+            3.         Move t, the turtle, forward length steps.
+            4.         Turn t left 120 degrees.
+            5.         Call nestedTriangle with t and length/2.
 
         A template program, nestingTrianges.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead tests your function separately ('unit tests') to determine correctness. As such, the function names must match exactly (else, the scripts cannot find it). Make sure to use the function names from the github program (it is expecting triangle() and nestedTriangle()).
 
@@ -710,7 +711,6 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter edge length:  160
 
         which would produce:
-
         ![](triangles.png) 
         
   
