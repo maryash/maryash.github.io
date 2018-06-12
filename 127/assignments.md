@@ -499,32 +499,32 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
 30.  **Due Date: 18 June** **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
     
-        Logical gates can be used to do arithmetic on binary numbers. For example, we can write a logical circuit whose output is one more than the inputted number. Our inputs are in1 and in2 and the outputs are stored in out1, out2, and out3.
+        Logical gates can be used to do arithmetic on binary numbers. For example, we can write a logical circuit whose output is one more than the inputted number. Our inputs are in1 and in2 and the outputs are stored in `out1`, `out2`, and `out3`.
 
         [![](incrementCircuit.png)  
         (click to launch new window with circuit)](http://www.neuroproductions.be/logic-lab/index.php?id=80507)
 
         Here is a table of the inputs and outputs:  
   
-        | | Inputs | || | Outputs 
-        Decimal<br/>Number | in1 | in2 || Decimal<br/>Number | out1 | out2 | out3
-        ---|---|---||---|---|---|--- 
-        0 | 0 | 0 || 1 | 0 | 0 | 1 
-        1 | 0 | 1 || 2 | 0 | 1 | 0 
-        2 | 1 | 0 || 3 | 0 | 1 | 1 
-        3 | 1 | 1 || 4 | 1 | 0 | 0 
+            | | Inputs | || | Outputs 
+            Decimal<br/>Number | in1 | in2 || Decimal<br/>Number | out1 | out2 | out3
+            ---|---|---||---|---|---|--- 
+            0 | 0 | 0 || 1 | 0 | 0 | 1 
+            1 | 0 | 1 || 2 | 0 | 1 | 0 
+            2 | 1 | 0 || 3 | 0 | 1 | 1 
+            3 | 1 | 1 || 4 | 1 | 0 | 0 
   
         Submit a text file with each of the outputs on a separate line:
 
-        #Name:  YourNameHere
-        #Date:  April 2017
-        #Logical expressions for a 4-bit incrementer
+            #Name:  YourNameHere
+            #Date:  April 2017
+            #Logical expressions for a 4-bit incrementer
 
-        out1 = ...
-        out2 = ...
-        out3 = ...
+            out1 = ...
+            out2 = ...
+            out3 = ...
 
-        Where "..." is replaced by your logical expression (see [Lab 5](lab5.html)).
+        Where `...` is replaced by your logical expression (see [Lab 5](lab5.html)).
 
     
 31.  **Due Date: 21 June** **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
@@ -545,7 +545,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         ![](dhsPlot.png)
 
-        Note: The grading script is expecting that the label (i.e. name of your new column) is "Fraction Children".
+        Note: The grading script is expecting that the label (i.e. name of your new column) is `"Fraction Children"`.
     
 32.  **Due Date: 21 June** **Reading: Think CS [Section 6.7](http://interactivepython.org/runestone/static/thinkcspy/Functions/mainfunction.html)**  
 
@@ -570,8 +570,8 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         _Hint: Break this problem into pieces:_
 
         _*   First, count the number of words in the string the user entered (hint: count the number of spaces). Print out the number of words. Make sure this works before going onto the next part.
-        *   Next, ignoring the last word (which is a special case and can be dealt with separately), count the number of words ending in 's' (hint: count the number of "s "). Test that this part works before going on to the next step.
-        *   Last, check the last word to see if it ends in "s"-- since it's the last word, the "s" will always occur at the same index in the string._
+        *   Next, ignoring the last word (which is a special case and can be dealt with separately), count the number of words ending in `s` (hint: count the number of `s`). Test that this part works before going on to the next step.
+        *   Last, check the last word to see if it ends in `s`-- since it's the last word, the `s` will always occur at the same index in the string._
 
         _Implement (and test!) each part and then go on to the next._  
     
@@ -600,7 +600,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See sample programs from Lectures 4 and 6._
 
-        Note: before submitting your program for grading, remove any commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
+        Note: before submitting your program for grading, remove any commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the `plt.show()` commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
     
 36.  **Due Date: 11 April** **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
 
@@ -657,7 +657,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
 38.  **Due Date: 13 April** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
     
-        Fill in the missing function, monthString(), in the program, months.py (available at: [https://github.com/stjohn/csci127](https://github.com/stjohn/csci127)). The function should take number between 1 and 12 as a parameter and returns the corresponding month as a string. For example, if the parameter is 1, your function should return "January". If the parameter is 2, your function should return out "February", etc.
+        Fill in the missing function, monthString(), in the program, months.py (available at: [https://github.com/stjohn/csci127](https://github.com/stjohn/csci127)). The function should take number between 1 and 12 as a parameter and returns the corresponding month as a string. For example, if the parameter is 1, your function should return `"January"`. If the parameter is `2`, your function should return out `"February"`, etc.
 
         Note: The grading scripts are expecting that your function is called monthString(). You need to use that name, since instead of running the entire program, the scripts are "unit testing" the function-- that is, calling that function, in isolation, with differrent inputs to verify that it performs correctly.
 
@@ -665,7 +665,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
 39.  **Due Date: 16 April** **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
     
-        Write a program that asks the user for a CSV of collision data (see note below about obtaining reported collisions from NYC OpenData). Your program should then list the top three contributing factors for the primary vehichle of collisions ("CONTRIBUTING FACTOR VEHICLE 1") in the file.
+        Write a program that asks the user for a CSV of collision data (see note below about obtaining reported collisions from NYC OpenData). Your program should then list the top three contributing factors for the primary vehichle of collisions `"CONTRIBUTING FACTOR VEHICLE 1"` in the file.
 
         A sample run:
 
@@ -686,7 +686,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
 40.  **Due Date: 17 April** **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**
     
-        Write two functions, triangle() and nestedTriangle(). Both functions take two parameters: a turtle and an edge length. The pseudocode for triangle() is:
+        Write two functions, `triangle()` and `nestedTriangle()`. Both functions take two parameters: a turtle and an edge length. The pseudocode for triangle() is:
 
             triangle(t, length):
             1.  If length > 10:
@@ -704,7 +704,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             4.         Turn t left 120 degrees.
             5.         Call nestedTriangle with t and length/2.
 
-        A template program, nestingTrianges.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead tests your function separately ('unit tests') to determine correctness. As such, the function names must match exactly (else, the scripts cannot find it). Make sure to use the function names from the github program (it is expecting triangle() and nestedTriangle()).
+        A template program, nestingTrianges.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead tests your function separately ('unit tests') to determine correctness. As such, the function names must match exactly (else, the scripts cannot find it). Make sure to use the function names from the github program (it is expecting `triangle()` and `nestedTriangle()`).
 
         A sample run:
 
