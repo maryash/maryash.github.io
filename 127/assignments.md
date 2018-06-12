@@ -505,13 +505,13 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Here is a table of the inputs and outputs:  
   
-        | | Inputs | | | Outputs 
+        | | Inputs | || | Outputs 
         Decimal<br/>Number | in1 | in2 | Decimal<br/>Number | out1 | out2 | out3
-        ---|---|---|---|---|---|--- 
-        0 | 0 | 0 | 1 | 0 | 0 | 1 
-        1 | 0 | 1 | 2 | 0 | 1 | 0 
-        2 | 1 | 0 | 3 | 0 | 1 | 1 
-        3 | 1 | 1 | 4 | 1 | 0 | 0 
+        ---|---|---||---|---|---|--- 
+        0 | 0 | 0 || 1 | 0 | 0 | 1 
+        1 | 0 | 1 || 2 | 0 | 1 | 0 
+        2 | 1 | 0 || 3 | 0 | 1 | 1 
+        3 | 1 | 1 || 4 | 1 | 0 | 0 
   
         Submit a text file with each of the outputs on a separate line:
 
