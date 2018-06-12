@@ -503,8 +503,9 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         [![](incrementCircuit.png)  
         (click to launch new window with circuit)](http://www.neuroproductions.be/logic-lab/index.php?id=80507)
 
-        Here is a table of the inputs and outputs:
-
+        Here is a table of the inputs and outputs:  
+          
+          
  Inputs | x | x | Outputs | x | x | x 
 
 ---|---|---|---|---|---|--- 
@@ -518,6 +519,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
  2 | 1 | 0 | 3 | 0 | 1 | 1 
 
  3 | 1 | 1 | 4 | 1 | 0 | 0 
+   
   
         Submit a text file with each of the outputs on a separate line:
 
