@@ -29,88 +29,35 @@ Last week, we introduced decisions (if-statements). These relied on the "test" w
 
 We can build up more complicated logical expressions using built-in operators, and, or, and not. A standard way to summaries these operators is with **truth tables**. A truth table lists all the possible inputs and gives the output for each combination.
 
-For example, here is the truth table for the and operator:
+For example, here is the truth table for the **AND** operator:
 
-in1
-
-in2
-
-in1 and in2
-
-True
-
-True
-
-True
-
-False
-
-True
-
-False
-
-True
-
-False
-
-False
-
-False
-
-False
-
-False
+ in1 | in2 | in1 AND in2 
+ ---|---|--- 
+ True | True | True 
+ False | True | False 
+ True | False | False 
+ False | False | False 
 
 It lists all the possible combinations of values for the inputs, in1 and in2 and what and would give as output. For example, if in1 is True and in2 is False, the value of in1 and in2 can be read off the last column of the third line of the truth table as False.
 
-Similarly here is the truth table for or:
+Similarly here is the truth table for **OR**:
 
-in1
-
-in2
-
-in1 or in2
-
-True
-
-True
-
-True
-
-False
-
-True
-
-True
-
-True
-
-False
-
-True
-
-False
-
-False
-
-False
+ in1 | in2 | in1 OR in2 
+ ---|---|--- 
+ True | True | True 
+ False | True | True 
+ True | False | True 
+ False | False | False 
 
 For example, if in1 is True and in2 is False, the value of in1 or in2 can be read off the last column of the third line of the truth table as True.
 
 The not operator changes the input from false to true, or true to false. That is, not True is false and not False is true. We can write this in the table format above:
 
-in1
-
-not in1
-
-True
-
-False
-
-False
-
-True
-
+ in1 | NOT in1 
+ ---|---
+ True | False 
+ False | True 
+   
 These logical operators are useful building complex tests for our if-statements (as well as other control structures that will be introduced later).
 
 #### Snow Pack in California
@@ -123,17 +70,17 @@ Landsat Satellite Program is a joint program of USGS and NASA that has provided 
 
 The [snow pack in the Sierra Nevada mountains](https://earthobservatory.nasa.gov/IOTD/view.php?id=89738) provide almost a third of the water used by California. As a first estimate of snow pack, the number of pixels that are (nearly) white are counted. How much change has their been in the Sierra Nevada snowpack during the past drought in California? Here are images from before and during the worst years of the drought:
 
-![](../f17/CaliforniaDrought_02232011_md.png)
+![](CaliforniaDrought_02232011_md.png)
 
-![](../f17/CaliforniaDrought_02122013_md.png)
+![](CaliforniaDrought_02122013_md.png)
 
-![](../f17/CaliforniaDrought_02232014_md.png)
+![](CaliforniaDrought_02232014_md.png)
 
-[February 2011](../f17/CaliforniaDrought_02232011_md.png)
+[February 2011](CaliforniaDrought_02232011_md.png)
 
-[February 2013](../f17/CaliforniaDrought_02122013_md.png)
+[February 2013](CaliforniaDrought_02122013_md.png)
 
-[February 2014](../f17/CaliforniaDrought_02232014_md.png)
+[February 2014](CaliforniaDrought_02232014_md.png)
 
 How much snow is there? We will use the number of pixels that are nearly white as an estimate of the snow. We can add in a new variable, countSnow to keep track of each time a pixel is nearly white. Here's an outline of our program:
 
