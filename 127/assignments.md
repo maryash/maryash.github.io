@@ -445,7 +445,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
             The file qFraction.png:
 
-            ![](qFraction.png)
+        ![](qFraction.png)
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
     
