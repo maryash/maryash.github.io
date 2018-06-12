@@ -601,6 +601,118 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         _Hint: See sample programs from Lectures 4 and 6._
 
         Note: before submitting your program for grading, remove any commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
+    
+36.  **Due Date: 11 April** **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
 
+        Modify the parking ticket program from [Lab 8](lab_08.html) to do the following:
 
-_(This file was last modified on 4 June 2018.)_
+        *   Ask the user for the name of the input file.
+        *   Ask the user for the attribute (column header) to search by.
+
+        A sample run:
+
+            Enter file name:  Parking\_Violations\_Jan_2016.csv
+            Enter attribute:  Vehicle Color
+            The 10 worst offenders are:
+            WHITE    2801
+            WH       2695
+            GY       1420
+            BK       1153
+            BLACK    1054
+            BROWN     727
+            BL        656
+            GREY      574
+            SILVE     450
+            BLUE      412
+            Name: Vehicle Color, dtype: int64
+
+        And another run:
+
+            Enter file name:  Parking\_Violations\_Jan_2016.csv
+            Enter attribute:  Vehicle Year
+            The 10 worst offenders are:
+            0       3927
+            2015    1265
+            2014    1143
+            2013    1105
+            2012     772
+            2011     666
+            2007     643
+            2008     559
+            2010     509
+            2006     499
+            Name: Vehicle Year, dtype: int64
+    
+37.  **Due Date: 12 April** **Reading: [Github Guide](https://guides.github.com/activities/hello-world/)**  
+    
+        In [Lab 8](lab_08.html), you created a github account. Submit a text file with the name of your account. The grading script is expecting a file with the format:
+
+            #Name:  Your name 
+            #Date:  April 2017
+            #Account name for my github account
+
+            AccountNameGoesHere  
+#### Note: it takes a few minutes for a newly created github account to be visible. If you submit to gradescope and get a message that the account doesn't exist, wait a few minutes and try again.
+    
+38.  **Due Date: 13 April** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
+    
+        Fill in the missing function, monthString(), in the program, months.py (available at: [https://github.com/stjohn/csci127](https://github.com/stjohn/csci127)). The function should take number between 1 and 12 as a parameter and returns the corresponding month as a string. For example, if the parameter is 1, your function should return "January". If the parameter is 2, your function should return out "February", etc.
+
+        Note: The grading scripts are expecting that your function is called monthString(). You need to use that name, since instead of running the entire program, the scripts are "unit testing" the function-- that is, calling that function, in isolation, with differrent inputs to verify that it performs correctly.
+
+        _Hint: See notes from Lecture 7 and [Lab 8](lab_08.html)._
+    
+39.  **Due Date: 16 April** **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+    
+        Write a program that asks the user for a CSV of collision data (see note below about obtaining reported collisions from NYC OpenData). Your program should then list the top three contributing factors for the primary vehichle of collisions ("CONTRIBUTING FACTOR VEHICLE 1") in the file.
+
+        A sample run:
+
+            Enter CSV file name:  collisionsNewYears2016.csv
+            Top three contributing factors for collisions:
+            Driver Inattention/Distraction    136
+            Unspecified                       119
+            Following Too Closely              37
+            Name: CONTRIBUTING FACTOR VEHICLE 1, dtype: int64
+
+        This assignment uses collision data collected and made publicly by [New York City Open Data](https://nycopendata.socrata.com), and can be found at:
+
+        > [https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95](https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95).
+
+        Since the files are quite large, use the "Filter" option and choose your birthday in 2016 and "Export" (in CSV format) all collisions for that day. We will use this data set for future programs, so, instead of downloading the test files multiple times, save a copy for future use.
+
+        _Hint: See [Lab 8](lab_08.html) for accessing and analyzing structured data._
+    
+40.  **Due Date: 17 April** **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**
+    
+        Write two functions, triangle() and nestedTriangle(). Both functions take two parameters: a turtle and an edge length. The pseudocode for triangle() is:
+
+            triangle(t, length):
+            1\.  If length > 10:
+            2\.     Repeat 3 times:
+            3\.         Move t, the turtle, forward length steps.
+            4\.         Turn t left 120 degrees.
+            5\.     Call triangle with t and length/2.
+
+        The pseudocode for nestedTriangle() is very similar:
+
+            nestedTriangle(t, length):
+            1\.  If length > 10:
+            2\.     Repeat 3 times:
+            3\.         Move t, the turtle, forward length steps.
+            4\.         Turn t left 120 degrees.
+            5\.         Call nestedTriangle with t and length/2.
+
+        A template program, nestingTrianges.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead tests your function separately ('unit tests') to determine correctness. As such, the function names must match exactly (else, the scripts cannot find it). Make sure to use the function names from the github program (it is expecting triangle() and nestedTriangle()).
+
+        A sample run:
+
+            Enter edge length:  160
+
+        which would produce:
+
+        ![](triangles.png) 
+        
+  
+  
+_(This file was last modified on 12 June 2018.)_
