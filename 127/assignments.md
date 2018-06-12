@@ -500,8 +500,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
         Logical gates can be used to do arithmetic on binary numbers. For example, we can write a logical circuit whose output is one more than the inputted number. Our inputs are in1 and in2 and the outputs are stored in out1, out2, and out3.
 
-        [![](incrementCircuit.png)  
-        (click to launch new window with circuit)](http://www.neuroproductions.be/logic-lab/index.php?id=80507)
+        [![](incrementCircuit.png)(click to launch new window with circuit)](http://www.neuroproductions.be/logic-lab/index.php?id=80507)
 
         Here is a table of the inputs and outputs:
 
@@ -602,7 +601,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         which would have as input and output:
 
-        ![](hunterLogo2.png) ![](logoLL.png)
+        ![](hunterLogo2.png) ![](logoLL.png | width=100)
 
         _Hint: See sample programs from Lectures 4 and 6._
 
