@@ -38,7 +38,9 @@ A simple, but very powerful, technique is "binning data"-- that is grouping data
 
 CSV files store tabular information in readable text files. The files downloaded above have information separated by commas (using tabs as delimiters is also common). Here is a sample line:
 
-    1335632335,L040HZ,FL,PAS,06/09/2015,46,SUBN,NISSA,X,35430,14510,15710,0,0020,20,74,921167,E074,0000,1213P,1207P,NY,O,4,WEST 83 ST,,0,408,C,,BBBBBBB,ALL,ALL,RED,0,0,-,0,,,,,
+    1335632335,L040HZ,FL,PAS,06/09/2015,46,SUBN,NISSA,X,35430,
+    14510,15710,0,0020,20,74,921167,E074,0000,1213P,1207P,NY,
+    O,4,WEST 83 ST,,0,408,C,,BBBBBBB,ALL,ALL,RED,0,0,-,0,,,,,
 
 All lines are formatted similarly: they start with the summons number, then the license plate, registration state, plate Type, date, and continue with the information about the location and type of violation, and sometimes additional information such as the who issued the ticket and the color of the car. The first line of the file gives the entries in the order they occur in the rows.
 
