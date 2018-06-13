@@ -63,7 +63,7 @@ See [Lab 1](lab_01.html) for details on using Python, Gradescope, and Blackboard
 
   which makes a graphical display of all of the data series in the variable pop with the series corresponding to the column "Year" as the x-axis. Your output should look something like:
 
-  ![](nycHist.png)
+   ![](nycHist.png)
 
   To recap: our program is:
 
@@ -131,7 +131,7 @@ See [Lab 1](lab_01.html) for details on using Python, Gradescope, and Blackboard
 
   shown in the following plot:
 
-![](bronxFraction.png)
+  ![](bronxFraction.png)
 
   Putting this altogether, we have a program:
 
