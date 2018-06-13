@@ -405,7 +405,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         *   'r': turns the turtle 45 degrees to the right
         *   'p': change the pen color to purple
 
-        _Hint: See Lecture 4 notes._ . 
+        _Hint: See Lecture 4 notes._  
     
 25.  **Due Date: 14 June** **Think CS: [Chapter 4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [Section 7.4](http://interactivepython.org/runestone/static/thinkcspy/Selection/ConditionalExecutionBinarySelection.html)**
     
@@ -653,7 +653,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
             AccountNameGoesHere  
   
-**Note: it takes a few minutes for a newly created github account to be visible. If you submit to gradescope and get a message that the account doesn't exist, wait a few minutes and try again.**  
+        _**Note: it takes a few minutes for a newly created github account to be visible. If you submit to gradescope and get a message that the account doesn't exist, wait a few minutes and try again.**_  
     
 38.  **Due Date: 13 April** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
     
