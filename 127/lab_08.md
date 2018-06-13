@@ -1,12 +1,15 @@
-Lab 8, CSci 127, Introduction to Computer Science, Hunter College, CUNY, Spring 2018 
+---
+layout: myDefault
+title: LAB 8
+---
 
-Lab 8  
-CSci 127: Introduction to Computer Science  
-Hunter College, City University of New York  
-Spring 2018  
-  
+### [<span style="font-family:Arial">CSCI 127 &nbsp; Introduction to Computer Science</span>](../127_2018_summer.html)  
+<span style="line-height:0.1; font-family:Arial; font-size:21.8px">Hunter College &nbsp; City University of New York</span> 
 
---------------------------------------------------------------------------------------------------------------------
+---  
+  	
+LAB 8
+---
 
 Today's lab will focus on mapping data, using pandas, numpy, and folium, and using Python from the command line.
 
@@ -14,11 +17,11 @@ Software tools needed: web browser and Python IDLE programming environment with 
 
 ### In-class Quiz
 
-During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab1.html) for details on using Blackboard).
+During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab_)1.html) for details on using Blackboard).
 
 ### Using Python, Gradescope, and Blackboard
 
-See [Lab 1](lab1.html) for details on using Python, Gradescope, and Blackboard.
+See [Lab 1](lab_01.html) for details on using Python, Gradescope, and Blackboard.
 
 ### Binning Data: Parking Tickets
 
@@ -35,13 +38,13 @@ A simple, but very powerful, technique is "binning data"-- that is grouping data
 
 CSV files store tabular information in readable text files. The files downloaded above have information separated by commas (using tabs as delimiters is also common). Here is a sample line:
 
-1335632335,L040HZ,FL,PAS,06/09/2015,46,SUBN,NISSA,X,35430,14510,15710,0,0020,20,74,921167,E074,0000,1213P,1207P,NY,O,4,WEST 83 ST,,0,408,C,,BBBBBBB,ALL,ALL,RED,0,0,-,0,,,,,
+    1335632335,L040HZ,FL,PAS,06/09/2015,46,SUBN,NISSA,X,35430,14510,15710,0,0020,20,74,921167,E074,0000,1213P,1207P,NY,O,4,WEST 83 ST,,0,408,C,,BBBBBBB,ALL,ALL,RED,0,0,-,0,,,,,
 
 All lines are formatted similarly: they start with the summons number, then the license plate, registration state, plate Type, date, and continue with the information about the location and type of violation, and sometimes additional information such as the who issued the ticket and the color of the car. The first line of the file gives the entries in the order they occur in the rows.
 
 The sample entry above gives details for a ticket issues on June 9, 2015 to a passenger car with Florida plates, L040HZ. The red Nissan SUV received the ticket on West 83rd Street. Each entry also begins with a unique identifier that can be used to look up the parking ticket.
 
-Since there were over 196,000 tickets for the FY 2016 for the 20th precinct, the file for today's classwork is the first 1000 lines: [tickets.csv](../f17/tickets.csv).
+Since there were over 196,000 tickets for the FY 2016 for the 20th precinct, the file for today's classwork is the first 1000 lines: [tickets.csv](tickets.csv).
 
 Here are some questions we can ask about the data:
 
@@ -56,72 +59,72 @@ For each of these questions, we can traverse the file and count the occurrences 
 
 How can tell which car got the most tickets? First, we need to figure out a unique way to identify different cars. Luckily, cars almost always have license plates-- with each state having a unique number. (For this simple exercise, we'll assume that each license plate is unique on its own-- not an unreasonable assumption since every state has a different schema for assigning numbers, but to be more accurate we should keep track of license plate number and issuing state.)
 
-Open up the CSV file and look at the columns. Which column contains the license plate number? Here's all the column names (first line of [tickets.csv](../f17/tickets.csv)):
+Open up the CSV file and look at the columns. Which column contains the license plate number? Here's all the column names (first line of [tickets.csv](tickets.csv)):
 
-Summons Number,Plate ID,Registration State,Plate Type,Issue Date,Violation Code,Vehicle Body Type,Vehicle Make,Issuing Agency,Street Code1,Street Code2,Street Code3,Vehicle Expiration Date,Violation Location,Violation Precinct,Issuer Precinct,Issuer Code,Issuer Command,Issuer Squad,Violation Time,Time First Observed,Violation County,Violation In Front Of Or Opposite,House Number,Street Name,Intersecting Street,Date First Observed,Law Section,Sub Division,Violation Legal Code,Days Parking In Effect    ,From Hours In Effect,To Hours In Effect,Vehicle Color,Unregistered Vehicle?,Vehicle Year,Meter Number,Feet From Curb,Violation Post Code,Violation Description,No Standing or Stopping Violation,Hydrant Violation,Double Parking Violation
+    Summons Number,Plate ID,Registration State,Plate Type,Issue Date,Violation Code,Vehicle Body Type,Vehicle Make,Issuing Agency,Street Code1,Street Code2,Street Code3,Vehicle Expiration Date,Violation Location,Violation Precinct,Issuer Precinct,Issuer Code,Issuer Command,Issuer Squad,Violation Time,Time First Observed,Violation County,Violation In Front Of Or Opposite,House Number,Street Name,Intersecting Street,Date First Observed,Law Section,Sub Division,Violation Legal Code,Days Parking In Effect    ,From Hours In Effect,To Hours In Effect,Vehicle Color,Unregistered Vehicle?,Vehicle Year,Meter Number,Feet From Curb,Violation Post Code,Violation Description,No Standing or Stopping Violation,Hydrant Violation,Double Parking Violation
 
 It's the second column: Plate ID. Scanning the CSV file, it looks like most cars got one or two tickets. How can we get the worst offenders (i.e. those cars that got the most parking tickets)?
 
-Let's use Pandas to read in the CSV file, following the same pattern as last lab:
+Let's use `Pandas` to read in the CSV file, following the same pattern as last lab:
 
-#CSci 127 Teaching Staff
-#October 2017
-#Count which cars got the most parking tickets
+    #CSci 127 Teaching Staff
+    #October 2017
+    #Count which cars got the most parking tickets
 
-#Import pandas for reading and analyzing CSV data:
-import pandas as pd
+    #Import pandas for reading and analyzing CSV data:
+    import pandas as pd
 
-csvFile = "tickets.csv"			#Name of the CSV file
-tickets = pd.read_csv(csvFile)		#Read in the file to a dataframe
-print(tickets) 				#Print out the dataframe
+    csvFile = "tickets.csv"			#Name of the CSV file
+    tickets = pd.read_csv(csvFile)		#Read in the file to a dataframe
+    print(tickets) 				#Print out the dataframe
 
 Run your program. That printed out all the information about all the tickets issued. Let's focus in on just licence plates. Change the last line of your program to be:
 
-print(tickets\["Plate ID"\])	#Print out licence plates 
+    print(tickets["Plate ID"])	#Print out licence plates 
 
 When you run the program again, you should just see the row number and licence plates.
 
-We want to refine this further to print how many tickets each car got. Pandas has a function just for counting occurrences, called value_counts(). Let's modify our last line again to use it:
+We want to refine this further to print how many tickets each car got. Pandas has a function just for counting occurrences, called `value_counts()`. Let's modify our last line again to use it:
 
-print(tickets\["Plate ID"\].value_counts())	#Print out plates & number of tickets each got
+    print(tickets["Plate ID"].value_counts())	#Print out plates & number of tickets each got
 
-Rerunning the program, there are a lot of cars that got only a single ticket. If you scroll back up the Python shell, you will see the cars with the most tickets are listed first. Let's just print out the 10 cars that got the most tickets. We can do this by slicing to \[:10\]:
+Rerunning the program, there are a lot of cars that got only a single ticket. If you scroll back up the Python shell, you will see the cars with the most tickets are listed first. Let's just print out the 10 cars that got the most tickets. We can do this by slicing to [:10]:
 
-print(tickets\["Plate ID"\].value_counts()\[:10\])	#Print 10 worst & number of tickets 
+    print(tickets["Plate ID"].value_counts()[:10])	#Print 10 worst & number of tickets 
 
-Even with only 1000 lines of ticket information, there is a car (with plate TOPHAT5) that got more than 5 tickets.
+Even with only 1000 lines of ticket information, there is a car (with plate `TOPHAT5`) that got more than 5 tickets.
 
 Let's make our program a bit more general, to allow the user to enter their own file name:
 
-#CSci 127 Teaching Staff
-#October 2017
-#Count which cars got the most parking tickets
+    #CSci 127 Teaching Staff
+    #October 2017
+    #Count which cars got the most parking tickets
 
-#Import pandas for reading and analyzing CSV data:
-import pandas as pd
+    #Import pandas for reading and analyzing CSV data:
+    import pandas as pd
 
-csvFile = input('Enter CSV file name: ')         #Name of the CSV file
-tickets = pd.read_csv(csvFile)     #Read in the file to a dataframe
-print("The 10 worst offenders are:")
-print(tickets\["Plate ID"\].value_counts()\[:10\]) #Print out the dataframe
+    csvFile = input('Enter CSV file name: ')         #Name of the CSV file
+    tickets = pd.read_csv(csvFile)     #Read in the file to a dataframe
+    print("The 10 worst offenders are:")
+    print(tickets["Plate ID"].value_counts()[:10]) #Print out the dataframe
 
-And run it on all tickets for the 20th precinct for January 2016 (14,000 tickets): [Parking\_Violations\_Jan_2016.csv](../f17/Parking_Violations_Jan_2016.csv).
+And run it on all tickets for the 20th precinct for January 2016 (14,000 tickets): [Parking\_Violations\_Jan_2016.csv](Parking_Violations_Jan_2016.csv).
 
 You should see output:
 
-Enter CSV file name: Parking\_Violations\_Jan_2016.csv
-The 10 worst offenders are:
-63044JM    52
-63277JM    46
-63540JM    42
-93503JT    36
-42816JM    35
-97223JE    35
-62150JM    35
-31420MG    32
-23246MA    31
-AP113R     30
-Name: Plate ID, dtype: int64
+    Enter CSV file name: Parking\_Violations\_Jan_2016.csv
+    The 10 worst offenders are:
+    63044JM    52
+    63277JM    46
+    63540JM    42
+    93503JT    36
+    42816JM    35
+    97223JE    35
+    62150JM    35
+    31420MG    32
+    23246MA    31
+    AP113R     30
+    Name: Plate ID, dtype: int64
 
 For just the month of January 2016, there were 9 cars that got more than a ticket a day.
 
@@ -139,85 +142,82 @@ Now that you have a program to use as a basic template, answer the following que
 
 Functions are used to design programs and provide an elegant way to divide work among several programmers. A standard technique, called **top-down design**, consists of breaking a program into multiple function calls (covered in more detail in Chapter 8). Each function is written separately and then tested, before the next function is written.
 
-![](../f17/herd.png)
+![](herd.png)
 
 In today's lab, we will write a program to draw images using turtles. We will focus on breaking down the problem into functions, and then implementing (and testing!) each function separately. Here's a basic outline of our program:
 
-#Intro Programming Lab:  A program with a herd of turtles
+    #Intro Programming Lab:  A program with a herd of turtles
 
-import turtle
+    import turtle
 
-def main():
-    welcomeMessage()            #Writes a welcome message to the shell
-    numTurtles = getInput()     #Ask for number of turles
-    w = setUpScreen()           #Set up a green turtle window
-    turtleList = setUpTurtles(numTurtles) #Make a list of turtles, different colors
-    for i in range(10):
-        moveForward(turtleList) #Move each turtle in the list forward
-        stamp(turtleList)       #Stamp where the turtle stopped
-    
+    def main():
+        welcomeMessage()            #Writes a welcome message to the shell
+        numTurtles = getInput()     #Ask for number of turles
+        w = setUpScreen()           #Set up a green turtle window
+        turtleList = setUpTurtles(numTurtles) #Make a list of turtles, different colors
+        for i in range(10):
+            moveForward(turtleList) #Move each turtle in the list forward
+            stamp(turtleList)       #Stamp where the turtle stopped
 
-if \_\_name\_\_ == "\_\_main\_\_":
-    main()
+    if \_\_name\_\_ == "\_\_main\_\_":
+        main()
 
 We will fill in each function, one-by-one, using the comments as guidance. The first function should welcome the user to the program:
 
-def welcomeMessage():
-    print()
-    print("Welcome to our herd of turtles demonstration!")
-    print()
+    def welcomeMessage():
+        print()
+        print("Welcome to our herd of turtles demonstration!")
+        print()
 
 Add it to the program above and run it to make sure there are no typos or errors.
 
 Next, let's ask the user for the number of turtles. Since the function call is on the right hand side of an equals sign, it returns a value (namely, the number of turtles) that we will use later in the program. So, our function will ask the user for the number and then use a return statement to send that value back to the calling function:
 
-def getInput():
-    n = eval(input("Please enter the number of turtles: "))
-    return n
+    def getInput():
+        n = eval(input("Please enter the number of turtles: "))
+        return n
 
 When we add these in, we now have the program:
 
 #Intro Programming Lab:  A program with herd of turtles
 
-import turtle
+    import turtle
 
+    def welcomeMessage():
+        print()
+        print("Welcome to our herd of turtles demonstration!")
+        print()
 
-def welcomeMessage():
-    print()
-    print("Welcome to our herd of turtles demonstration!")
-    print()
+    def getInput():
+        n = eval(input("Please enter the number of turtles: "))
+        return n
 
-def getInput():
-    n = eval(input("Please enter the number of turtles: "))
-    return n
+    def main():
+        welcomeMessage()            #Writes a welcome message to the shell
+        numTurtles = getInput()     #Ask for number of turles
+        w = setUpScreen()           #Set up a green turtle window
+        turtleList = setUpTurtles(numTurtles) #Make a list of turtles, different colors
+        for i in range(10):
+            moveForward(turtleList) #Move each turtle in the list forward
+            stamp(turtleList)       #Stamp where the turtle stopped
 
-def main():
-    welcomeMessage()            #Writes a welcome message to the shell
-    numTurtles = getInput()     #Ask for number of turles
-    w = setUpScreen()           #Set up a green turtle window
-    turtleList = setUpTurtles(numTurtles) #Make a list of turtles, different colors
-    for i in range(10):
-        moveForward(turtleList) #Move each turtle in the list forward
-        stamp(turtleList)       #Stamp where the turtle stopped
-    
-
-if \_\_name\_\_ == "\_\_main\_\_":
-    main()
+    if \_\_name\_\_ == "\_\_main\_\_":
+        main()
 
 We still need to set up the turtle window and make it green. The turtle command to change the background color is bgcolor and colors can be referred by their names or the percentage of red, green, and blue ('RGB') in the color. Let's use the name to change the window color:
 
-def setUpScreen():
-    w = turtle.Screen()
-    w.bgcolor("green")
-    return w
+    def setUpScreen():
+        w = turtle.Screen()
+        w.bgcolor("green")
+        return w
 
 Next, we need to set up a list of turtles. From the function invocation in the main() we know it has the outline:
 
-def setUpTurtles(n):
-    #Create a list of turtles
-    #Make each turtle appear turtle-shaped
-    #Change the color and default direction (so they don't run over each other)
-    return tList
+    def setUpTurtles(n):
+        #Create a list of turtles
+        #Make each turtle appear turtle-shaped
+        #Change the color and default direction (so they don't run over each other)
+        return tList
 
 To set up our list, we will follow our outline from the strings and lists chapter:
 
@@ -226,102 +226,99 @@ To set up our list, we will follow our outline from the strings and lists chapte
 
 For our turtles, this looks like:
 
-def setUpTurtles(n):
-    tList = \[\]
-    #Create turtles:
-    for i in range(n):
-        t = turtle.Turtle()
-        t.shape("turtle")       #Make the turtle appear turtle-shaped
-        tList.append(t)
-        
-    return tList
+    def setUpTurtles(n):
+        tList = []
+        #Create turtles:
+        for i in range(n):
+            t = turtle.Turtle()
+            t.shape("turtle")       #Make the turtle appear turtle-shaped
+            tList.append(t)
+    
+        return tList
 
 Lastly for this function, we need to change the color and direction. We will use the \`red-blue-green' (\`RGB') values to give each turtle a different color. To keep the turtle color from clashing with the green background, we will set the red and green parts of the color to 0, and just allow the blue to change from 50% to 100%. To spread the turtles out, we'll divide the circle into even angles:
 
-def setUpTurtles(n):
-    tList = \[\]
-    #Create turtles:
-    for i in range(n):
-        t = turtle.Turtle()
-        t.shape("turtle")       #Make the turtle appear turtle-shaped
-        tList.append(t)
-        
+    def setUpTurtles(n):
+        tList = []
+        #Create turtles:
+        for i in range(n):
+            t = turtle.Turtle()
+            t.shape("turtle")       #Make the turtle appear turtle-shaped
+            tList.append(t)
+
     #Change their color from the blue default and default direction
     for i in range(n):
-        tList\[i\].color(0,0,i/(2*n)+.5)
-        tList\[i\].right(i*360/n)
+        tList[i].color(0,0,i/(2*n)+.5)
+        tList[i].right(i*360/n)
      
     return tList
 
 If you run your program, you will see the turtles arranged pointing outwards from a center point, in different shapes of blue.
 
-The next functions of the program are straightforward. We will move each turtle forward using a for-loop. We chose 30 by experimenting with window size. If it does not fit well on your screen, change the forward distance to something that does. To make a stamp of where the turtle has been, we use the Turtle graphics function, stamp()
+The next functions of the program are straightforward. We will move each turtle forward using a `for` loop. We chose 30 by experimenting with window size. If it does not fit well on your screen, change the forward distance to something that does. To make a stamp of where the turtle has been, we use the `Turtle` graphics function, `stamp()`
 
-def moveForward(tList):
-    for t in tList:
-        t.forward(30)
+    def moveForward(tList):
+        for t in tList:
+            t.forward(30)
 
-def stamp(tList):
-    for t in tList:
-        t.stamp()
+    def stamp(tList):
+        for t in tList:
+            t.stamp()
 
 Putting all the pieces together, we get:
 
-#Intro Programming Lab:  A program with herd of turtles
+    #Intro Programming Lab:  A program with herd of turtles
 
-import turtle
+    import turtle
 
+    def welcomeMessage():
+        print()
+        print("Welcome to our herd of turtles demonstration!")
+        print()
 
-def welcomeMessage():
-    print()
-    print("Welcome to our herd of turtles demonstration!")
-    print()
+    def getInput():
+        n = eval(input("Please enter the number of turtles: "))
+        return n
 
-def getInput():
-    n = eval(input("Please enter the number of turtles: "))
-    return n
+    def setUpScreen():
+        w = turtle.Screen()
+        w.bgcolor("green")
+        return w
 
-          
-def setUpScreen():
-    w = turtle.Screen()
-    w.bgcolor("green")
-    return w
+    def setUpTurtles(n):
+        tList = []
+        #Create turtles:
+        for i in range(n):
+            t = turtle.Turtle()
+            t.shape("turtle")       #Make the turtle appear turtle-shaped
+            tList.append(t)
 
-def setUpTurtles(n):
-    tList = \[\]
-    #Create turtles:
-    for i in range(n):
-        t = turtle.Turtle()
-        t.shape("turtle")       #Make the turtle appear turtle-shaped
-        tList.append(t)
-        
-    #Change their color from the blue default and default direction
-    for i in range(n):
-        tList\[i\].color(0,0,i/(2*n)+.5)
-        tList\[i\].right(i*360/n)
-     
-    return tList
+        #Change their color from the blue default and default direction
+        for i in range(n):
+            tList[i].color(0,0,i/(2*n)+.5)
+            tList[i].right(i*360/n)
 
-def moveForward(tList):
-    for t in tList:
-        t.forward(30)
+        return tList
 
-def stamp(tList):
-    for t in tList:
-        t.stamp()
+    def moveForward(tList):
+        for t in tList:
+            t.forward(30)
 
-def main():
-    welcomeMessage()            #Writes a welcome message to the shell
-    numTurtles = getInput()     #Ask for number of turles
-    w = setUpScreen()           #Set up a green turtle window
-    turtleList = setUpTurtles(numTurtles) #Make a list of turtles, different colors
-    for i in range(10):
-        moveForward(turtleList) #Move each turtle in the list forward
-        stamp(turtleList)       #Stamp where the turtle stopped
-    
+    def stamp(tList):
+        for t in tList:
+            t.stamp()
 
-if \_\_name\_\_ == "\_\_main\_\_":
-    main()
+    def main():
+        welcomeMessage()            #Writes a welcome message to the shell
+        numTurtles = getInput()     #Ask for number of turles
+        w = setUpScreen()           #Set up a green turtle window
+        turtleList = setUpTurtles(numTurtles) #Make a list of turtles, different colors
+        for i in range(10):
+            moveForward(turtleList) #Move each turtle in the list forward
+            stamp(turtleList)       #Stamp where the turtle stopped
+
+    if \_\_name\_\_ == "\_\_main\_\_":
+        main()
 
 Try running your program. What happens? How could you modify it to make green turtles on a blue background? What would you need to modify to make the turtles make a circle each time?
 
@@ -337,8 +334,8 @@ From Program #35 onward, all sample programs are available at the class reposito
 
 > [https://github.com/stjohn/csci127](https://github.com/stjohn/csci127)
 
-You can access programs by going to the website, or, using the command line (see [Lab 9](lab9.html) for details).
+You can access programs by going to the website, or, using the command line (see [Lab 9](lab_09.html) for details).
 
 ### What's Next?
 
-If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](ps.html) has problem descriptions, suggested reading, and due dates next to each problem.
+If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](assignments.html) has problem descriptions, suggested reading, and due dates next to each problem.
