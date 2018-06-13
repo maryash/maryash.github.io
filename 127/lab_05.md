@@ -236,7 +236,7 @@ In addition the and, or, and not gates, there are several other standard gates. 
 
 What does a nor gate do?
 
-![](norGate.png)
+    ![](norGate.png)
 
 [Toggle the inputs](http://www.neuroproductions.be/logic-lab/index.php?id=85202) to figure out what the gate does.
 
