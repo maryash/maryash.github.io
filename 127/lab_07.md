@@ -17,7 +17,7 @@ Software tools needed: web browser and Python IDLE programming environment with 
 
 ### In-class Quiz
 
-During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab1.html) for details on using Blackboard).
+During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab_01.html) for details on using Blackboard).
 
 ### Using Python, Gradescope, and Blackboard
 
@@ -53,12 +53,12 @@ Move your CSV file to the directory that you save your programs. Open with Excel
 
 Now, we can write a (short) program to display daily counts:
 
-import pandas as pd
-import matplotlib.pyplot as plt
+    import pandas as pd
+    import matplotlib.pyplot as plt
 
-homeless = pd.read\_csv("DHS\_Daily_Report.csv")
-homeless.plot(x = "Date of Census", y = "Total Individuals in Shelter")
-plt.show()
+    homeless = pd.read\_csv("DHS\_Daily_Report.csv")
+    homeless.plot(x = "Date of Census", y = "Total Individuals in Shelter")
+    plt.show()
 
 Save your program and try on your dataset.
 
@@ -66,7 +66,7 @@ Save your program and try on your dataset.
 
 *   What happens if you leave off the y = "Total Individuals in Shelter"?
 *   Display a plot that shows the fraction of the total population that is familes, over time. Is it increasing or decreasing?
-*   How can you save your plot to file? (Hint: See [Lab 6](lab6.html).)
+*   How can you save your plot to file? (Hint: See [Lab 6](lab_06.html).)
 
 See the [Programming Problem List](assignments.html).
 
@@ -76,24 +76,24 @@ Python allows you to write programs as scripts: basically, a list of commands th
 
 To define function in Python, we use the def command, which has the basic form:  
   
-def myFunction(input1, input2, ...):
-    command1
-    command2 
-    ...
+    def myFunction(input1, input2, ...):
+        command1
+        command2 
+        ...
   
 Note that everything indented below the def line is considered part of the function. When you type the function name (followed by parenthesis), it calls (or "invokes") the function, which means it executes all the commands, one after another, that are part of the function.
 
 Let's rewrite our first program, using functions. By tradition (and since it matches the naming protoccol of C & C++), we will call our function main() (see [Section 6.7: Using a Main Function](https://interactivepython.org/runestone/static/thinkcspy/Functions/mainfunction.html)):
 
-#Name:  your name here
-#Date:  October 2017
-#This program, uses functions, says hello to the world!
+    #Name:  your name here
+    #Date:  October 2017
+    #This program, uses functions, says hello to the world!
 
-def main():
-    print("Hello, World!") 
+    def main():
+        print("Hello, World!") 
 
-if \_\_name\_\_ == "\_\_main\_\_":
-    main()
+    if \_\_name\_\_ == "\_\_main\_\_":
+        main()
 
 In Python, we have the option of running our programs as a standalone program, or included as module as part of another program. Since it's common to do either, we include the last two lines of the file, which say if the program is being run directly (which we can test to see if the variable `\_\_name\_\_` that is set by Python is `\_\_main\_\_`), then we call `main()`. If it's not, then the file is being included in something else, and leaves it to that program to call it.
 
@@ -113,14 +113,14 @@ In [Lab 1](lab_01.html), we launched IDLE from the terminal by typing:
 
 idle3
 
-We can use Python in a similar fashion. In a terminal window, change directories to where you stored your hello program above (see [Lab 4](lab4.html) for changing directories at the command line).
+We can use Python in a similar fashion. In a terminal window, change directories to where you stored your hello program above (see [Lab 4](lab_04.html) for changing directories at the command line).
 
 Let's run your hello program from the command line. If your program is called hello.py, you would type at the command line:
 
-python3 hello.py
+    python3 hello.py
 
 Notice that the output goes directly to the terminal window. Try running other programs you have written from the command line.
 
 ### What's Next?
 
-If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](ps.html) has problem descriptions, suggested reading, and due dates next to each problem.
+If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](assignments.html) has problem descriptions, suggested reading, and due dates next to each problem.
