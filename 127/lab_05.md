@@ -190,7 +190,7 @@ Adjust your circuit until it only lights up when two switches are on.
 #### Translating Logical Circuits to Logical Expressions
 
 How do we represent this as a logical expression? Let's work backwards from the output light:  
-![](maj7.png)
+    ![](maj7.png)
 
 Our last gate is an or, so we will write down an or
 
