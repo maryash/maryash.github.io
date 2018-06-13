@@ -97,8 +97,7 @@ Let's translate that into Python. Open up a new IDLE window and copy over the ou
 
 	#Name:  CSci 127 Teaching Staff
 	#Date:  Fall 2017
-	#This program loads an image, counts the number of pixels that are
-	\#    nearly white as an estimate for snow pack.
+	#This program loads an image, counts the number of pixels that are nearly white as an estimate for snow pack.
 
 	#Import the packages for images and arrays:
 	import matplotlib.pyplot as plt  
@@ -149,21 +148,21 @@ Try making a circuit with an or gate:
 
 #### Majority of 3 Inputs
 
-Now, let's build a circuit, or collection of gates, that takes majority of 3 inputs, called in1, in2, in3:
+Now, let's build a circuit, or collection of gates, that takes majority of 3 inputs, called `in1`, `in2`, `in3`:
 
-*   If two or more of the inputs are True, then your expression should evaluate to True.
-*   Otherwise (two or more of the inputs are False), then your expression should evaluate to False.
+*   If two or more of the inputs are True, then your expression should evaluate to `True`.
+*   Otherwise (two or more of the inputs are False), then your expression should evaluate to `False`.
 
 [Here's a window](http://www.neuroproductions.be/logic-lab/) for building your circuit (if running from home, you may need to allow the browser to run flash-- what the circuit app uses for graphics). Directions (with images) are below:
 
 Build your circuit as you read the instructions below:
 
 1.  The question asks for 3 inputs -- let's use switches since those are easy to test out whether it works.
-2.  We are going to need to check if any pair of inputs is True. An easy way to do this is to check that:
+2.  We are going to need to check if any pair of inputs is `True`. An easy way to do this is to check that:
     
-    *   in1 and in2 are both true, or
-    *   in1 and in3 are both true, or
-    *   in3 and in3 are both true
+    *   `in1` and `in2` are both `True`, or
+    *   `in1` and `in3` are both `True`, or
+    *   `in3` and `in3` are both `True`
     
     An easy way to do this is to "split the signal" of each input, so, we can use it in multiple places.  
     Go to the "Extras" menu (may need to scroll down) and pick up 3 splitters (has 1 input, 3 outputs) and hook one up to each of the inputs:  
