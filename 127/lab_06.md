@@ -129,8 +129,7 @@ See [Lab 1](lab_01.html) for details on using Python, Gradescope, and Blackboard
     fig = plt.gcf()
     fig.savefig('fractionBX.png')
 
-  shown in the following plot:
-
+  shown in the following plot:  
   ![](bronxFraction.png)
 
   Putting this altogether, we have a program:
