@@ -54,13 +54,13 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
 * * *
 
-01.  **Due Date: 7 June** **Think CS: [Chapters 1](https://interactivepython.org/runestone/static/thinkcspy/GeneralIntro/toctree.html) & [2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html)**  
+01.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 1](https://interactivepython.org/runestone/static/thinkcspy/GeneralIntro/toctree.html) & [2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html)**  
 
         Write a program that prints "Hello, World!" to the screen.
 
         _Hint: See [Lab 1](lab_01.html)._
 
-02.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+02.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
         Write a program that draws an octagon (8-sided polygon).  
 
@@ -68,7 +68,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 1](lab_01.html)._
     
-03.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+03.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
         Write a program that implements the [pseudocode](http://en.wikipedia.org/wiki/Pseudocode) ("informal high-level description of the operating principle of a computer program or other algorithm") below:
 
@@ -81,7 +81,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         Your output should look similar to:  
         ![](flower.png)  
   
-04.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+04.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
 
         Write a program that will print the Hunter College motto ("Mihi cura futuri" which translates to: "The care of the future is mine") 15 times.
 
@@ -103,7 +103,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Mihi cura futuri
             Mihi cura futuri
     
-05.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+05.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
         Write a program that draws a purple decagon (10-sided polygon) with turtle stamped at each corner.
     
@@ -112,7 +112,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
         _Hint: See Lecture 1._  
 
-06.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+06.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
         Write a Python program that prompts the user for a message, and then prints the message, the message in upper case letters, and the message in lower case letters.
     
@@ -130,7 +130,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             I LOVE PYTHON!
             i love python!  
 
-07.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+07.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
         Write a program that prompts the user to enter a phrase and then prints out the ASCII code of each character in the phrase.
     
@@ -155,7 +155,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
         _Hint: If c is a character, ord(c) returns its ASCII code. For example, if c is 'I', then ord(c) returns 73. See [Lab 2](lab_02.html)._  
     
-08.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+08.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
         Write a program that prompts the user for a DNA string, and then prints the length and GC-content (percent of the string that is C or G, written as a decimal).
     
@@ -167,7 +167,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 2](lab_02.html)._  
     
-09.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+09.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
         Write a program that prompts the user to enter a word and then prints out the word with each letter **shifted right** by 2. That is, 'a' becomes 'c', 'b' becomes 'd', ... 'x' becomes 'z', and 'y' becomes 'a'.
 
@@ -181,7 +181,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See the example programs from Lecture 2._ . 
     
-10.  **Due Date: 7 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+10.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
 
         Write a program that implements the pseudocode below:
 
@@ -194,7 +194,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 2](lab_02.html)._  
    
-11.  **Due Date: 11 June** **Think CS: [Chapters 4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+11.  **Due Date: 11 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
         Write a program that asks the user for a message and then prints the message out, one character per line, in reverse order.
 
@@ -218,14 +218,14 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 2](lab_02.html) or Lecture 2 notes._  
 
-12.  **Due Date: 11 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+12.  **Due Date: 11 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
         Modify the program from [Lab 3](lab_03.html) to show the shades of green.
 
         Your output should look similar to:  
         ![](shadesOfGreen.png)  
     
-13.  **Due Date: 11 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+13.  **Due Date: 11 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
         Write a program that asks the user for the hexcode of a color and then displays a turtle that color.
 
@@ -238,7 +238,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Section 4.3](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/InstancesAHerdofTurtles.html) for setting the background color and [Lab 3](lab_03.html) for colors._  
     
-14.  **Due Date: 11 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+14.  **Due Date: 11 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
         Write a program that asks the user for a name of an image .png file and the name of an output file. Your program should create a new image that has only the green channel of the original image.
 
@@ -253,9 +253,9 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
     
-15.  **Due Date: 11 June** **Think CS: [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+15.  **Due Date: 11 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
-        Write a program that implements the pseudcode below. Your program should ask the user for a binary number and print out the corresponding decimal number.
+        Write a program that implements the pseudocode below. Your program should ask the user for a binary number and print out the corresponding decimal number.
 
         Ask user for input, and store in the string, binString.  
         
@@ -277,7 +277,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Note: here's a quick [review](https://www.mathsisfun.com/binary-number-system.html) of binary numbers.  
     
-16.  **Due Date: 14 June** **Reading: Think CS: [Section 2.7](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/OperatorsandOperands.html)**  
+16.  **Due Date: 14  June** &nbsp; &nbsp; **Reading: Think CS [Section 2.7](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/OperatorsandOperands.html)**  
 
         Write a program that converts kilometers to miles. Your program should prompt the user for the number of kilometers and then print out the number of miles.
 
@@ -285,7 +285,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         See [Lab 4](lab_04.html) for designing Input-Process-Output programs.  
     
-17.  **Due Date: 14 June** **Reading: Think CS: [Section 2.7](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/OperatorsandOperands.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+17.  **Due Date: 14  June** &nbsp; &nbsp; **Reading: Think CS [Section 2.7](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/OperatorsandOperands.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
         Write a program that implements the pseudocode below:
 
@@ -307,7 +307,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Section 2.7](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/OperatorsandOperands.html)._  
     
-18.  **Due Date: 14 June** **Reading: Think CS: [Chapters 4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
+18.  **Due Date: 14  June** &nbsp; &nbsp; **Reading: Think CS [Chapters 4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
 
         Write a program that asks the user for 5 whole (integer) numbers. For each number, turn the turtle left the degrees entered and then the turtle should move forward 100.
 
@@ -322,7 +322,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         and the output should look similar to:  
         ![](5turns.png)  
     
-19.  **Due Date: 14 June** **Reading: Think CS: [Chapters 4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
+19.  **Due Date: 14  June** &nbsp; &nbsp; **Reading: Think CS [Chapters 4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
     
         Modify the flood map of NYC from [Lab 4](lab_04.html) to color the region of the map with elevation greater than 6 feet and less than or equal 20 feet above sea level the color grey (50% red, 50% green, and 50% blue).
 
@@ -334,9 +334,9 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
     
-20.  **Due Date: 14 June** **Reading: [Think CS: Section 8.10](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/2DimensionalIterationImageProcessing.html)**  
+20.  **Due Date: 14 June** &nbsp; &nbsp; **Reading: [Think CS: Section 8.10](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/2DimensionalIterationImageProcessing.html)**  
     
-        Modify the map-mapking program from [Lab 4](lab_04.html) to create a map that outlines the coastline. Your program should create a new image, called coast.png with the pixels colored as follows:
+        Modify the map-making program from [Lab 4](lab_04.html) to create a map that outlines the coastline. Your program should create a new image, called coast.png with the pixels colored as follows:
 
         *   If the elevation is less than or equal to 0, color the pixel 50% blue (and 0% red and 0% green).
         *   If the elevation is exactly 1, color the pixel 75% red, 75% green, and 75% blue.
@@ -350,7 +350,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
     
-21.  **Due Date: 14 June** **Reading: Think CS: [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
+21.  **Due Date: 14  June** &nbsp; &nbsp; **Reading: Think CS [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
     
         Write a program that asks the user for the name of a png file and print the number of pixels that are nearly white (the fraction of red, the fraction of green, and the fraction of blue are all above 0.75).
 
@@ -367,9 +367,9 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 5](lab_05.html)_.  
     
-22.  **Due Date: 14 June** **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
+22.  **Due Date: 14 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
     
-        Write a logical epxression that is equivalent to the circuit that computes the majority of 3 inputs, called in1, in2, in3:
+        Write a logical expression that is equivalent to the circuit that computes the majority of 3 inputs, called in1, in2, in3:
 
         *   If two or more of the inputs are True, then your expression should evaluate to True.
         *   Otherwise (two or more of the inputs are False), then your expression should evaluate to False.
@@ -378,14 +378,14 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Save your expression to a text file. See [Lab 5](lab5.html) for the format for submitting logical expressions to Gradescope.
     
-23.  **Due Date: 14 June** **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
+23.  **Due Date: 14 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
         Build a circuit that has the same behavior as a nor gate (i.e. for the same inputs, gives identical output) using only and, or, and not gates.
 
         ![](norGate.png)
 
         Save your expression to a text file. See [Lab 5](lab5.html) for the format for submitting logical expressions to Gradescope.  
     
-24.  **Due Date: 14 June** **Reading: Think CS: [Chapters 2](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+24.  **Due Date: 14  June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
         The program [turtleString.py](turtleString.py) takes a string as input and uses that string to control what the turtle draws on the screen (inspired by [code.org's graph paper programming](https://code.org/curriculum/course2/1/Teacher)). Currently, the program processes the following commands:
 
@@ -407,7 +407,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See Lecture 4 notes._  
     
-25.  **Due Date: 14 June** **Think CS: [Chapter 4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [Section 7.4](http://interactivepython.org/runestone/static/thinkcspy/Selection/ConditionalExecutionBinarySelection.html)**
+25.  **Due Date: 14 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [Section 7.4](http://interactivepython.org/runestone/static/thinkcspy/Selection/ConditionalExecutionBinarySelection.html)**
     
         Write a program that uses the turtle package to implement the following pseudocode:
 
@@ -435,7 +435,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
       
 
-26.  **Due Date: 18 June** **Reading: [Numpy tutorial (DataCamp)](https://www.datacamp.com/community/tutorials/python-numpy-tutorial)**  
+26.  **Due Date: 18 June** &nbsp; &nbsp; **Reading: [Numpy tutorial (DataCamp)](https://www.datacamp.com/community/tutorials/python-numpy-tutorial)**  
     
         Modify the program from [Lab 6](lab6.html) that displays the [NYC historical population data](nycHistPop.csv). Your program should ask the user for the borough, an name for the output file, and then display the fraction of the population that has lived in that borough, over time.
 
@@ -450,7 +450,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
     
-27.  **Due Date: 18 June** **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+27.  **Due Date: 18 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
     
         Write a program that computes the average and maximum population over time for a borough (entered by the user). Your program should assume that the NYC historical population data file, [nycHistPop.csv](nycHistPop.csv) is in the same directory.
 
@@ -468,7 +468,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 6](lab_06.html)_.
     
-28.  **Due Date: 18 June** **Reading: Think CS [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
+28.  **Due Date: 18 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
     
         Write a program that asks the user for the hour of the day (in 24 hour time), and prints
 
@@ -491,13 +491,13 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter hour (in 24 hour time):  15
             Good Afternoon
     
-29.  **Due Date: 18 June** **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
+29.  **Due Date: 18 June** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
     
         Write an Unix shell script that prints Hello, World to the screen.
 
         Submit a single text file containing your shell commands. See [Lab 6](lab_06.html).
     
-30.  **Due Date: 18 June** **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
+30.  **Due Date: 18 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
     
         Logical gates can be used to do arithmetic on binary numbers. For example, we can write a logical circuit whose output is one more than the inputted number. Our inputs are in1 and in2 and the outputs are stored in `out1`, `out2`, and `out3`.
 
@@ -527,7 +527,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         Where `...` is replaced by your logical expression (see [Lab 5](lab5.html)).
 
     
-31.  **Due Date: 21 June** **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+31.  **Due Date: 21 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
     
         Modify the program from [Lab 7](lab7.html) to:
 
@@ -547,17 +547,17 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Note: The grading script is expecting that the label (i.e. name of your new column) is `"Fraction Children"`.
     
-32.  **Due Date: 21 June** **Reading: Think CS [Section 6.7](http://interactivepython.org/runestone/static/thinkcspy/Functions/mainfunction.html)**  
+32.  **Due Date: 21 June** &nbsp; &nbsp; **Reading: Think CS [Section 6.7](http://interactivepython.org/runestone/static/thinkcspy/Functions/mainfunction.html)**  
 
         Write a program, using a function `main()` that prints `Hello, World!` to the screen. See [Lab 7](lab_07.html).
     
-33.  **Due Date: 21 June** **Reading: Think CS [Chapter 9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+33.  **Due Date: 21 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
         Write a program that asks the user for a list of nouns (separated by spaces) and approximates the fraction that are plural by counting the fraction that end in `s`. Your program should output the total number of words and the fraction that end in `s`. You may assume that words are separated by spaces (and ignore the possibility of tabs and punctuation between words.)
 
         A sample run of the program:
 
-            Enter nouns: apple bananas cantalopes durian 
+            Enter nouns: apple bananas cantaloupes durian 
             Number of words:  4
             Fraction of your list that is plural is 0.5
 
@@ -575,7 +575,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Implement (and test!) each part and then go on to the next._  
     
-34.  **Due Date: 21 Juneh** **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
+34.  **Due Date: 21 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
 
         Write a logical expression that takes a single input, in1, and **always** returns True. Your expression must only use in1 and the logical operators, and, or, and not
 
@@ -602,7 +602,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Note: before submitting your program for grading, remove any commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the `plt.show()` commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
     
-36.  **Due Date: 11 April** **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+36.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
 
         Modify the parking ticket program from [Lab 8](lab_08.html) to do the following:
 
@@ -643,7 +643,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             2006     499
             Name: Vehicle Year, dtype: int64
     
-37.  **Due Date: 12 April** **Reading: [Github Guide](https://guides.github.com/activities/hello-world/)**  
+37.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [Github Guide](https://guides.github.com/activities/hello-world/)**  
     
         In [Lab 8](lab_08.html), you created a github account. Submit a text file with the name of your account. The grading script is expecting a file with the format:
   
@@ -655,7 +655,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             
         Note: It takes a few minutes for a newly created github account to be visible. If you submit to gradescope and get a message that the account doesn't exist, wait a few minutes and try again.  
     
-38.  **Due Date: 13 April** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
+38.  **Due Date: 25  June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
     
         Fill in the missing function, monthString(), in the program, months.py (available at: [https://github.com/stjohn/csci127](https://github.com/stjohn/csci127)). The function should take number between 1 and 12 as a parameter and returns the corresponding month as a string. For example, if the parameter is 1, your function should return `"January"`. If the parameter is `2`, your function should return out `"February"`, etc.
 
@@ -663,9 +663,9 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See notes from Lecture 7 and [Lab 8](lab_08.html)._
     
-39.  **Due Date: 16 April** **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+39.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
     
-        Write a program that asks the user for a CSV of collision data (see note below about obtaining reported collisions from NYC OpenData). Your program should then list the top three contributing factors for the primary vehichle of collisions `"CONTRIBUTING FACTOR VEHICLE 1"` in the file.
+        Write a program that asks the user for a CSV of collision data (see note below about obtaining reported collisions from NYC OpenData). Your program should then list the top three contributing factors for the primary vehicle of collisions `"CONTRIBUTING FACTOR VEHICLE 1"` in the file.
 
         A sample run:
 
@@ -684,7 +684,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 8](lab_08.html) for accessing and analyzing structured data._
     
-40.  **Due Date: 17 April** **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**
+40.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**
     
         Write two functions, `triangle()` and `nestedTriangle()`. Both functions take two parameters: a turtle and an edge length. The pseudocode for triangle() is:
 
