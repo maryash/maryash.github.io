@@ -190,7 +190,7 @@ Adjust your circuit until it only lights up when two switches are on.
 #### Translating Logical Circuits to Logical Expressions
 
 How do we represent this as a logical expression? Let's work backwards from the output light:  
-![](../f17/maj7.png)
+![](maj7.png)
 
 Our last gate is an or, so we will write down an or
 
@@ -222,13 +222,13 @@ Similarly, we can replace lotsOfStuff2 with:
 
 Save this line to a text file (you can use any text editor, just make sure to save it as plain text, with no formatting):
 
-#Name: Your name here
-#Date: 16 October 2017
-#Program #23:  Computes the majority of 3 inputs
+	#Name: Your name here
+	#Date: 16 October 2017
+	#Program #23:  Computes the majority of 3 inputs
 
-out = ((in1 and in2) or (in1 and in3)) or (in2 and in3)
+	out = ((in1 and in2) or (in1 and in3)) or (in2 and in3)
 
-(your expression, preceded by out = ). For the logical expressions homework, you submit just a text file with the logical expressions. The grading script evaluates the expression, testing it with different inputs. See the [Programming Problem List](ps.html).
+(your expression, preceded by out = ). For the logical expressions homework, you submit just a text file with the logical expressions. The grading script evaluates the expression, testing it with different inputs. See the [Programming Problem List](assignments.html).
 
 #### More Exotic Gates
 
@@ -240,21 +240,21 @@ What does a nor gate do?
 
 [Toggle the inputs](http://www.neuroproductions.be/logic-lab/index.php?id=85202) to figure out what the gate does.
 
-Now, build a circuit that has the same behavior as a nor gate (i.e. for the same inputs, both give identical output) using only and, or, and not gates.
+Now, build a circuit that has the same behavior as a nor gate (i.e. for the same inputs, both give identical output) using only `and`, `or`, and `not` gates.
 
 When you have the answer, label your inputs in1 and in2, save the answer in a file:
 
-#Name: Your name here
-#Date: 16 October 2017
-#Program #23:  Computes NOR of two inputs, using only AND, OR, and NOT gates
+	#Name: Your name here
+	#Date: 16 October 2017
+	#Program #23:  Computes NOR of two inputs, using only AND, OR, and NOT gates
 
-out = ...
+	out = ...
 
-(where ... is replaced by your answer). See the [Programming Problem List](ps.html).
+(where ... is replaced by your answer). See the [Programming Problem List](assignments.html).
 
 ### More on the Command Line Interface: Absolute Paths
 
-[Last lab](lab4.html), we introduced relative paths for navigating the directories via the shell. Relative paths (e.g. cd ../) used the current location when executing. We can also use _absolute paths_ that are independent of your location. For example,
+[Last lab](lab_04.html), we introduced relative paths for navigating the directories via the shell. Relative paths (e.g. `cd ../`) used the current location when executing. We can also use _absolute paths_ that are independent of your location. For example,
 
     cd /usr/bin
     pwd
@@ -262,7 +262,7 @@ out = ...
 
 will change your working directory to one of the machine's standard bin directories which is filled with programs, or binaries. The next two commands show the path to the working directory and list its contents. These binaries are in a central location to make them easier to find and use.
 
-Since it is nice to be able to return to your default, or home directory, there is a built-in short-cut for home (~). Try
+Since it is nice to be able to return to your default, or home directory, there is a built-in short-cut for home `~`. Try
 
     cd ~
     pwd
@@ -274,4 +274,4 @@ Next lab, we will introduce scripts, or files of shell commands, that we can exe
 
 ### What's Next?
 
-If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](ps.html) has problem descriptions, suggested reading, and due dates next to each problem.
+If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](assignments.html) has problem descriptions, suggested reading, and due dates next to each problem.
