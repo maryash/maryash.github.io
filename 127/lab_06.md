@@ -182,7 +182,7 @@ Looking at this script line-by-line:
         ls  # list files
     
 
-    In the shell, the different types of quotes have similar, but different, [meanings](https://www.gnu.org/software/bash/manual/html_node/Double-Quotes.html). We'll use the double quotes since strings in double quotes will have special characters (like `\\n` for newline) interpreted as in Python and C++.
+    In the shell, the different types of quotes have similar, but different, [meanings](https://www.gnu.org/software/bash/manual/html_node/Double-Quotes.html). We'll use the double quotes since strings in double quotes will have special characters (like `\n` for newline) interpreted as in Python and C++.
 
     Use gEdit (you can launch it from the menu bar or by typing gedit at a terminal window) to modify the above script to say `"Hello, World"`. We're leaving off the `!` since it is a bit confusing to print due to its special meaning in the shell (it lists the history, or previous commands, you have typed -- `!!` gives all commands in the history, `!cd` will repeat the most recent command you gave that starts with `cd`).
 
