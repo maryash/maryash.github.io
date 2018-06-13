@@ -17,11 +17,11 @@ Software tools needed: web browser and Python IDLE programming environment with 
 
 ### In-class Quiz
 
-During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab1.html) for details on using Blackboard).
+During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab_01.html) for details on using Blackboard).
 
 ### Using Python, Gradescope, and Blackboard
 
-See [Lab 1](lab1.html) for details on using Python, Gradescope, and Blackboard.
+See [Lab 1](lab_01.html) for details on using Python, Gradescope, and Blackboard.
 
 ### Logical Expressions
 
@@ -109,17 +109,17 @@ Let's translate that into Python. Open up a new IDLE window and copy over the ou
 	t = 0.75                 #Threshold for almost white-- can adjust between 0.0 and 1.0
 
 	#For every pixel:
-	for i in range(ca.shape\[0\]):
-	     for j in range(ca.shape\[1\]):
+	for i in range(ca.shape[0]):
+	     for j in range(ca.shape[1]):
 		  #Check if red, green, and blue are > t:
-		  if (ca\[i,j,0\] > t) and (ca\[i,j,1\] > t) and (ca\[i,j,2\] > t):
+		  if (ca[i,j,0] > t) and (ca[i,j,1] > t) and (ca[i,j,2] > t):
 		       countSnow = countSnow + 1
 
 	print("Snow count is", countSnow)
 
 This program assumes that you have downloaded and saved [CaliforniaDrought\_02232011\_md.png](CaliforniaDrought_02232011_md.png) to the same directory as your program.
 
-How can you modify your program to let the user specify the input file? See [Programming Problem List](ps.html).
+How can you modify your program to let the user specify the input file? See [Programming Problem List](assignments.html).
 
 ### Logical Circuits
 
