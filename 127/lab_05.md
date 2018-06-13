@@ -42,21 +42,21 @@ It lists all the possible combinations of values for the inputs, in1 and in2 and
 
 Similarly here is the truth table for **OR**:
 
-	 in1 | in2 | in1 OR in2 
-	 :---:|:---:|:---: 
-	 True | True | True 
-	 False | True | True 
-	 True | False | True 
-	 False | False | False 
+ in1 | in2 | in1 OR in2 
+ :---:|:---:|:---: 
+ True | True | True 
+ False | True | True 
+ True | False | True 
+ False | False | False 
 
 For example, if in1 is True and in2 is False, the value of in1 or in2 can be read off the last column of the third line of the truth table as True.
 
 The not operator changes the input from false to true, or true to false. That is, not True is false and not False is true. We can write this in the table format above:
 
-	 in1 | NOT in1 
-	 :---:|:---:
-	 True | False 
-	 False | True 
+ in1 | NOT in1 
+ :---:|:---:
+ True | False 
+ False | True 
    
 These logical operators are useful building complex tests for our if-statements (as well as other control structures that will be introduced later).
 
@@ -70,62 +70,52 @@ Landsat Satellite Program is a joint program of USGS and NASA that has provided 
 
 The [snow pack in the Sierra Nevada mountains](https://earthobservatory.nasa.gov/IOTD/view.php?id=89738) provide almost a third of the water used by California. As a first estimate of snow pack, the number of pixels that are (nearly) white are counted. How much change has their been in the Sierra Nevada snowpack during the past drought in California? Here are images from before and during the worst years of the drought:
 
-![](CaliforniaDrought_02232011_md.png)
-
-![](CaliforniaDrought_02122013_md.png)
-
-![](CaliforniaDrought_02232014_md.png)
-
-[February 2011](CaliforniaDrought_02232011_md.png)
-
-[February 2013](CaliforniaDrought_02122013_md.png)
-
-[February 2014](CaliforniaDrought_02232014_md.png)
+![](CaliforniaDrought_02232011_md.png) ![](CaliforniaDrought_02122013_md.png) ![](CaliforniaDrought_02232014_md.png)  
+[February 2011](CaliforniaDrought_02232011_md.png) [February 2013](CaliforniaDrought_02122013_md.png) [February 2014](CaliforniaDrought_02232014_md.png)  
 
 How much snow is there? We will use the number of pixels that are nearly white as an estimate of the snow. We can add in a new variable, countSnow to keep track of each time a pixel is nearly white. Here's an outline of our program:
 
-1.  Import the libraries to manipulate and display arrays.
-2.  Read in the California image and store in the variable, ca
-3.  Create a new variable, countSnow, to keep track of the number of pixels that are nearly white.
-4.  For each element in elevations,
-5.          If the pixel is nearly white
-6.                  countSnow = countSnow + 1
-7.  Print out countSnow.
+	1.  Import the libraries to manipulate and display arrays.
+	2.  Read in the California image and store in the variable, ca
+	3.  Create a new variable, countSnow, to keep track of the number of pixels that are nearly white.
+	4.  For each element in elevations,
+	5.          If the pixel is nearly white
+	6.                  countSnow = countSnow + 1
+	7.  Print out countSnow.
 
 When is a pixel white? It's when the red, green, and blue values are close to 100%. In code, we would have:
 
-t = 0.75    #Threshold for almost white-- can adjust between 0.0 and 1.0 
+	t = 0.75    #Threshold for almost white-- can adjust between 0.0 and 1.0 
 
-...
-for i in range(ca.shape\[0\]):
-    for j in range(ca.shape\[1\]):
-        if (ca\[i,j,0\] > t) and (ca\[i,j,1\] > t) and (ca\[i,j,2\] > t):
-             countSnow = countSnow + 1
+	...
+	for i in range(ca.shape\[0\]):
+	    for j in range(ca.shape\[1\]):
+		if (ca\[i,j,0\] > t) and (ca\[i,j,1\] > t) and (ca\[i,j,2\] > t):
+		     countSnow = countSnow + 1
 
-Let's translate that into Python. Open up a new IDLE window and copy over the outline. Using the image programs from [last lab](lab4.html) as a template, fill in as much as possible before looking at the program below:
+Let's translate that into Python. Open up a new IDLE window and copy over the outline. Using the image programs from [last lab](lab_04.html) as a template, fill in as much as possible before looking at the program below:
 
-#Name:  CSci 127 Teaching Staff
-#Date:  Fall 2017
-#This program loads an image, counts the number of pixels that are
-\#    nearly white as an estimate for snow pack.
+	#Name:  CSci 127 Teaching Staff
+	#Date:  Fall 2017
+	#This program loads an image, counts the number of pixels that are
+	\#    nearly white as an estimate for snow pack.
 
-#Import the packages for images and arrays:
-import matplotlib.pyplot as plt  
-import numpy as np
+	#Import the packages for images and arrays:
+	import matplotlib.pyplot as plt  
+	import numpy as np
 
+	ca = plt.imread('CaliforniaDrought\_02232011\_md.png')   #Read in image
+	countSnow = 0            #Number of pixels that are almost white
+	t = 0.75                 #Threshold for almost white-- can adjust between 0.0 and 1.0
 
-ca = plt.imread('CaliforniaDrought\_02232011\_md.png')   #Read in image
-countSnow = 0            #Number of pixels that are almost white
-t = 0.75                 #Threshold for almost white-- can adjust between 0.0 and 1.0
+	#For every pixel:
+	for i in range(ca.shape\[0\]):
+	     for j in range(ca.shape\[1\]):
+		  #Check if red, green, and blue are > t:
+		  if (ca\[i,j,0\] > t) and (ca\[i,j,1\] > t) and (ca\[i,j,2\] > t):
+		       countSnow = countSnow + 1
 
-#For every pixel:
-for i in range(ca.shape\[0\]):
-     for j in range(ca.shape\[1\]):
-          #Check if red, green, and blue are > t:
-          if (ca\[i,j,0\] > t) and (ca\[i,j,1\] > t) and (ca\[i,j,2\] > t):
-               countSnow = countSnow + 1
-
-print("Snow count is", countSnow)
+	print("Snow count is", countSnow)
 
 This program assumes that you have downloaded and saved [CaliforniaDrought\_02232011\_md.png](../f17/CaliforniaDrought_02232011_md.png) to the same directory as your program.
 
