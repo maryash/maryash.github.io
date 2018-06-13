@@ -387,7 +387,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
 24.  **Due Date: 14 June** **Reading: Think CS: [Chapters 2](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
-        The program [turtleString.py](../f17/turtleString.py) takes a string as input and uses that string to control what the turtle draws on the screen (inspired by [code.org's graph paper programming](https://code.org/curriculum/course2/1/Teacher)). Currently, the program processes the following commands:
+        The program [turtleString.py](turtleString.py) takes a string as input and uses that string to control what the turtle draws on the screen (inspired by [code.org's graph paper programming](https://code.org/curriculum/course2/1/Teacher)). Currently, the program processes the following commands:
 
         *   'F': moves the turtle forward 50 steps
         *   'L': turns the turtle 90 degrees to the left
