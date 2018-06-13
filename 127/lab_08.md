@@ -63,7 +63,18 @@ How can tell which car got the most tickets? First, we need to figure out a uniq
 
 Open up the CSV file and look at the columns. Which column contains the license plate number? Here's all the column names (first line of [tickets.csv](tickets.csv)):
 
-    Summons Number,Plate ID,Registration State,Plate Type,Issue Date,Violation Code,Vehicle Body Type,Vehicle Make,Issuing Agency,Street Code1,Street Code2,Street Code3,Vehicle Expiration Date,Violation Location,Violation Precinct,Issuer Precinct,Issuer Code,Issuer Command,Issuer Squad,Violation Time,Time First Observed,Violation County,Violation In Front Of Or Opposite,House Number,Street Name,Intersecting Street,Date First Observed,Law Section,Sub Division,Violation Legal Code,Days Parking In Effect    ,From Hours In Effect,To Hours In Effect,Vehicle Color,Unregistered Vehicle?,Vehicle Year,Meter Number,Feet From Curb,Violation Post Code,Violation Description,No Standing or Stopping Violation,Hydrant Violation,Double Parking Violation
+    Summons Number,Plate ID,Registration State,Plate Type,Issue Date,
+    Violation Code,Vehicle Body Type,Vehicle Make,Issuing Agency,
+    Street Code1,Street Code2,Street Code3,Vehicle Expiration Date,
+    Violation Location,Violation Precinct,Issuer Precinct,Issuer Code,
+    Issuer Command,Issuer Squad,Violation Time,Time First Observed,
+    Violation County,Violation In Front Of Or Opposite,House Number,
+    Street Name,Intersecting Street,Date First Observed,Law Section,
+    Sub Division,Violation Legal Code,Days Parking In Effect,From Hours 
+    In Effect,To Hours In Effect,Vehicle Color,Unregistered Vehicle?,
+    Vehicle Year,Meter Number,Feet From Curb,Violation Post Code,
+    Violation Description,No Standing or Stopping Violation,Hydrant 
+    Violation,Double Parking Violation
 
 It's the second column: Plate ID. Scanning the CSV file, it looks like most cars got one or two tickets. How can we get the worst offenders (i.e. those cars that got the most parking tickets)?
 
@@ -94,7 +105,7 @@ Rerunning the program, there are a lot of cars that got only a single ticket. If
 
     print(tickets["Plate ID"].value_counts()[:10])	#Print 10 worst & number of tickets 
 
-Even with only 1000 lines of ticket information, there is a car (with plate `TOPHAT5`) that got more than 5 tickets.
+Even with only 1000 lines of ticket information, there is a car (with plate "TOPHAT5") that got more than 5 tickets.
 
 Let's make our program a bit more general, to allow the user to enter their own file name:
 
@@ -326,7 +337,8 @@ Try running your program. What happens? How could you modify it to make green tu
 
 ### github
 
-[![](Octocat.png)](https://github.com) [github](https://github.com) is the standard way to share and collaborate on code. It functions much as Google docs does for documents. We will use it as a place (**repository** or "repo") for programs and lab exercises.
+[![](Octocat.png)](https://github.com)  
+[github](https://github.com) is the standard way to share and collaborate on code. It functions much as Google docs does for documents. We will use it as a place (**repository** or "repo") for programs and lab exercises.
 
 1.  If you do not already have an account, create an account on [github](https://github.com). github will be used in future classes (and by employers), so, choose an account name that you can use for years to come.
 2.  Work through the [github for beginners](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1) tutorial.
