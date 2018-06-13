@@ -70,8 +70,8 @@ Landsat Satellite Program is a joint program of USGS and NASA that has provided 
 
 The [snow pack in the Sierra Nevada mountains](https://earthobservatory.nasa.gov/IOTD/view.php?id=89738) provide almost a third of the water used by California. As a first estimate of snow pack, the number of pixels that are (nearly) white are counted. How much change has their been in the Sierra Nevada snowpack during the past drought in California? Here are images from before and during the worst years of the drought:
 
-![](CaliforniaDrought_02232011_md.png) ![](CaliforniaDrought_02122013_md.png) ![](CaliforniaDrought_02232014_md.png)  
-[February 2011](CaliforniaDrought_02232011_md.png) [February 2013](CaliforniaDrought_02122013_md.png) [February 2014](CaliforniaDrought_02232014_md.png)  
+![](CaliforniaDrought_02232011_md.png) | ![](CaliforniaDrought_02122013_md.png) | ![](CaliforniaDrought_02232014_md.png)  
+[February 2011](CaliforniaDrought_02232011_md.png) | [February 2013](CaliforniaDrought_02122013_md.png) | [February 2014](CaliforniaDrought_02232014_md.png)  
 
 How much snow is there? We will use the number of pixels that are nearly white as an estimate of the snow. We can add in a new variable, countSnow to keep track of each time a pixel is nearly white. Here's an outline of our program:
 
@@ -88,9 +88,9 @@ When is a pixel white? It's when the red, green, and blue values are close to 10
 	t = 0.75    #Threshold for almost white-- can adjust between 0.0 and 1.0 
 
 	...
-	for i in range(ca.shape\[0\]):
-	    for j in range(ca.shape\[1\]):
-		if (ca\[i,j,0\] > t) and (ca\[i,j,1\] > t) and (ca\[i,j,2\] > t):
+	for i in range(ca.shape[0]):
+	    for j in range(ca.shape[1]):
+		if (ca[i,j,0] > t) and (ca[i,j,1] > t) and (ca[i,j,2] > t):
 		     countSnow = countSnow + 1
 
 Let's translate that into Python. Open up a new IDLE window and copy over the outline. Using the image programs from [last lab](lab_04.html) as a template, fill in as much as possible before looking at the program below:
@@ -117,7 +117,7 @@ Let's translate that into Python. Open up a new IDLE window and copy over the ou
 
 	print("Snow count is", countSnow)
 
-This program assumes that you have downloaded and saved [CaliforniaDrought\_02232011\_md.png](../f17/CaliforniaDrought_02232011_md.png) to the same directory as your program.
+This program assumes that you have downloaded and saved [CaliforniaDrought\_02232011\_md.png](CaliforniaDrought_02232011_md.png) to the same directory as your program.
 
 How can you modify your program to let the user specify the input file? See [Programming Problem List](ps.html).
 
@@ -127,7 +127,7 @@ The logical expressions above are useful not only in designing decisions and sel
 
 Here is a simulator for circuits. Let's see an and gate in action:
 
-[![](../f17/andGate.png)  
+[![](andGate.png)  
 (click to launch new window with circuit builder)](http://www.neuroproductions.be/logic-lab/index.php?id=78962)
 
 *   Try toggling (clicking on) the switches on the left of the canvas. What happens?
@@ -158,7 +158,7 @@ Now, let's build a circuit, or collection of gates, that takes majority of 3 inp
 
 Build your circuit as you read the instructions below:
 
-1.  The question asks for 3 inputs-- let's use switches since those are easy to test out whether it works.
+1.  The question asks for 3 inputs -- let's use switches since those are easy to test out whether it works.
 2.  We are going to need to check if any pair of inputs is True. An easy way to do this is to check that:
     
     *   in1 and in2 are both true, or
@@ -167,19 +167,19 @@ Build your circuit as you read the instructions below:
     
     An easy way to do this is to "split the signal" of each input, so, we can use it in multiple places.  
     Go to the "Extras" menu (may need to scroll down) and pick up 3 splitters (has 1 input, 3 outputs) and hook one up to each of the inputs:  
-    ![](../f17/maj1.png).
+    ![](maj1.png).
 3.  We'll build up our circuits in stages:
     
     *   To check that in1 and in2 are both true, hook both of them up to an and gate (in the Logic ports menu).
     *   To check that in1 and in3 are both true, hook both of them up to an and gate (in the Logic ports menu).
     *   To check that in2 and in3 are both true, hook both of them up to an and gate (in the Logic ports menu).
     
-    ![](../f17/maj2.png) ![](../f17/maj3.png) ![](../f17/maj4.png)  
+    ![](maj2.png) ![](maj3.png) ![](maj4.png)  
     You can check the wiring by toggling any two switches-- when you toggle the first and the second, the wires going to the first and gate should be highlighted in green. Check the first and the third, and second and third as well, to make sure all is connected right.
 4.  We have each of the three things done in our to-do list above. The list is connected by "or", so, we need to do the same with our outputs:  
-    ![](../f17/maj5.png) ![](../f17/maj6.png).
+    ![](maj5.png) ![](maj6.png).
 5.  And lastly, let's add an output light that will glow when true:  
-    ![](../f17/maj7.png)
+    ![](maj7.png)
 
 Test the circuit you just built:
 
