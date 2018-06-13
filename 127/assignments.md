@@ -710,7 +710,8 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
             Enter edge length:  160
 
-        which would produce:
+        which would produce:  
+        
         ![](triangles.png) 
         
   
