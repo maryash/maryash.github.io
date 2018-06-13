@@ -53,12 +53,12 @@ Move your CSV file to the directory that you save your programs. Open with Excel
 
 Now, we can write a (short) program to display daily counts:
 
-	import pandas as pd
-	import matplotlib.pyplot as plt
-	
-	homeless = pd.read\_csv("DHS\_Daily_Report.csv")
-	homeless.plot(x = "Date of Census", y = "Total Individuals in Shelter")
-	plt.show()
+import pandas as pd
+import matplotlib.pyplot as plt
+
+homeless = pd.read\_csv("DHS\_Daily_Report.csv")
+homeless.plot(x = "Date of Census", y = "Total Individuals in Shelter")
+plt.show()
 
 Save your program and try on your dataset.
 
