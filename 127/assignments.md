@@ -350,7 +350,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
     
-21.  **Due Date: 14  June** &nbsp; &nbsp; **Reading: Think CS [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
+21.  **Due Date: 17  June** &nbsp; &nbsp; **Reading: Think CS [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
     
         Write a program that asks the user for the name of a png file and print the number of pixels that are nearly white (the fraction of red, the fraction of green, and the fraction of blue are all above 0.75).
 
@@ -367,7 +367,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 5](lab_05.html)_.  
     
-22.  **Due Date: 14 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
+22.  **Due Date: 17 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
     
         Write a logical expression that is equivalent to the circuit that computes the majority of 3 inputs, called in1, in2, in3:
 
@@ -378,14 +378,14 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Save your expression to a text file. See [Lab 5](lab5.html) for the format for submitting logical expressions to Gradescope.
     
-23.  **Due Date: 14 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
+23.  **Due Date: 17 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
         Build a circuit that has the same behavior as a nor gate (i.e. for the same inputs, gives identical output) using only and, or, and not gates.
 
         ![](norGate.png)
 
         Save your expression to a text file. See [Lab 5](lab5.html) for the format for submitting logical expressions to Gradescope.  
     
-24.  **Due Date: 14  June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+24.  **Due Date: 17  June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](http://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](http://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
         The program [turtleString.py](turtleString.py) takes a string as input and uses that string to control what the turtle draws on the screen (inspired by [code.org's graph paper programming](https://code.org/curriculum/course2/1/Teacher)). Currently, the program processes the following commands:
 
@@ -407,7 +407,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See Lecture 4 notes._  
     
-25.  **Due Date: 14 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [Section 7.4](http://interactivepython.org/runestone/static/thinkcspy/Selection/ConditionalExecutionBinarySelection.html)**
+25.  **Due Date: 17 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html) & [Section 7.4](http://interactivepython.org/runestone/static/thinkcspy/Selection/ConditionalExecutionBinarySelection.html)**
     
         Write a program that uses the turtle package to implement the following pseudocode:
 
@@ -435,7 +435,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
       
 
-26.  **Due Date: 18 June** &nbsp; &nbsp; **Reading: [Numpy tutorial (DataCamp)](https://www.datacamp.com/community/tutorials/python-numpy-tutorial)**  
+26.  **Due Date: 19 June** &nbsp; &nbsp; **Reading: [Numpy tutorial (DataCamp)](https://www.datacamp.com/community/tutorials/python-numpy-tutorial)**  
     
         Modify the program from [Lab 6](lab6.html) that displays the [NYC historical population data](nycHistPop.csv). Your program should ask the user for the borough, an name for the output file, and then display the fraction of the population that has lived in that borough, over time.
 
@@ -450,7 +450,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
     
-27.  **Due Date: 18 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+27.  **Due Date: 19 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
     
         Write a program that computes the average and maximum population over time for a borough (entered by the user). Your program should assume that the NYC historical population data file, [nycHistPop.csv](nycHistPop.csv) is in the same directory.
 
@@ -468,7 +468,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 6](lab_06.html)_.
     
-28.  **Due Date: 18 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
+28.  **Due Date: 19 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
     
         Write a program that asks the user for the hour of the day (in 24 hour time), and prints
 
@@ -491,13 +491,13 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter hour (in 24 hour time):  15
             Good Afternoon
     
-29.  **Due Date: 18 June** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
+29.  **Due Date: 19 June** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
     
         Write an Unix shell script that prints Hello, World to the screen.
 
         Submit a single text file containing your shell commands. See [Lab 6](lab_06.html).
     
-30.  **Due Date: 18 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
+30.  **Due Date: 19 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
     
         Logical gates can be used to do arithmetic on binary numbers. For example, we can write a logical circuit whose output is one more than the inputted number. Our inputs are in1 and in2 and the outputs are stored in `out1`, `out2`, and `out3`.
 
