@@ -32,7 +32,7 @@ We can build up more complicated logical expressions using built-in operators, a
 For example, here is the truth table for the **AND** operator:
 
  in1 | in2 | in1 AND in2 
- ---|---|--- 
+ :---:|:---:|:---: 
  True | True | True 
  False | True | False 
  True | False | False 
@@ -42,21 +42,21 @@ It lists all the possible combinations of values for the inputs, in1 and in2 and
 
 Similarly here is the truth table for **OR**:
 
- in1 | in2 | in1 OR in2 
- ---|---|--- 
- True | True | True 
- False | True | True 
- True | False | True 
- False | False | False 
+	 in1 | in2 | in1 OR in2 
+	 :---:|:---:|:---: 
+	 True | True | True 
+	 False | True | True 
+	 True | False | True 
+	 False | False | False 
 
 For example, if in1 is True and in2 is False, the value of in1 or in2 can be read off the last column of the third line of the truth table as True.
 
 The not operator changes the input from false to true, or true to false. That is, not True is false and not False is true. We can write this in the table format above:
 
- in1 | NOT in1 
- ---|---
- True | False 
- False | True 
+	 in1 | NOT in1 
+	 :---:|:---:
+	 True | False 
+	 False | True 
    
 These logical operators are useful building complex tests for our if-statements (as well as other control structures that will be introduced later).
 
