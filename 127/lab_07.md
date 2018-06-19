@@ -56,7 +56,7 @@ Now, we can write a (short) program to display daily counts:
     import pandas as pd
     import matplotlib.pyplot as plt
 
-    homeless = pd.read\_csv("DHS\_Daily_Report.csv")
+    homeless = pd.read_csv("DHS_Daily_Report.csv")
     homeless.plot(x = "Date of Census", y = "Total Individuals in Shelter")
     plt.show()
 
@@ -92,10 +92,10 @@ Let's rewrite our first program, using functions. By tradition (and since it mat
     def main():
         print("Hello, World!") 
 
-    if \_\_name\_\_ == "\_\_main\_\_":
+    if __name__ == "__main__":
         main()
 
-In Python, we have the option of running our programs as a standalone program, or included as module as part of another program. Since it's common to do either, we include the last two lines of the file, which say if the program is being run directly (which we can test to see if the variable `\_\_name\_\_` that is set by Python is `\_\_main\_\_`), then we call `main()`. If it's not, then the file is being included in something else, and leaves it to that program to call it.
+In Python, we have the option of running our programs as a standalone program, or included as module as part of another program. Since it's common to do either, we include the last two lines of the file, which say if the program is being run directly (which we can test to see if the variable `__name__` that is set by Python is `__main__`), then we call `main()`. If it's not, then the file is being included in something else, and leaves it to that program to call it.
 
 Save your program and try running it in IDLE.
 
