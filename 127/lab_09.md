@@ -1,12 +1,15 @@
-Lab 9, CSci 127, Introduction to Computer Science, Hunter College, CUNY, Spring 2018 
+---
+layout: myDefault
+title: LAB 9
+---
 
-Lab 9  
-CSci 127: Introduction to Computer Science  
-Hunter College, City University of New York  
-Spring 2018  
-  
+### [<span style="font-family:Arial">CSCI 127 &nbsp; Introduction to Computer Science</span>](../127_2018_summer.html)  
+<span style="line-height:0.1; font-family:Arial; font-size:21.8px">Hunter College &nbsp; City University of New York</span> 
 
---------------------------------------------------------------------------------------------------------------------
+---  
+  	
+LAB 9
+---
 
 Today's lab will focus on mapping data, using pandas, numpy, and folium.
 
@@ -14,7 +17,7 @@ Software tools needed: web browser and Python IDLE programming environment with 
 
 ### In-class Quiz
 
-During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab1.html) for details on using Blackboard).
+During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab_01.html) for details on using Blackboard).
 
 ### World Maps
 
@@ -128,7 +131,7 @@ To view your map, open a browser. From the browser, open the file: cunyLocations
 
 ### Command Line git
 
-In [Lab 8](lab8.html), we introduced github which can be used to share and store code, websites, etc. (roughly, a "Google Docs" for programs). The website for this course as well as all the programs are stored in repositories (or "repos") at github.
+In [Lab 8](lab_08.html), we introduced github which can be used to share and store code, websites, etc. (roughly, a "Google Docs" for programs). The website for this course as well as all the programs are stored in repositories (or "repos") at github.
 
 The github site has both a web browser interface (which we used last lab), and the option to use the command line interface to interact with the site. For this course, we will only retrieve code from existing repos (in future courses, they will introduce how to share your code and merge your changes with others).
 
@@ -148,4 +151,4 @@ git fetch https://github.com/stjohn/csci127
 
 ### What's Next?
 
-If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](ps.html) has problem descriptions, suggested reading, and due dates next to each problem.
+If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](assignments.html) has problem descriptions, suggested reading, and due dates next to each problem.
