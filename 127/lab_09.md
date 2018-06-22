@@ -36,7 +36,7 @@ In the trinket below, map the following cities (GIS coordinates are rounded to t
 *   Tokyo, Japan (longitude: 140, latitude: 35), and
 *   Rio de Janeiro, Brazil (longitude: -43, latitude: -23) .
 
-<iframe width="800" height="500" frameborder="1" src="https://trinket.io/embed/python/7705126110?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br>  
+<iframe width="800" height="600" frameborder="1" src="https://trinket.io/embed/python/7705126110?start=result"></iframe><br>  
 
 ### Folium
 
@@ -50,6 +50,8 @@ pip install folium
 and the package will download and install.)
 
 #### Our First Map
+
+<iframe width="800" height="400" frameborder="1" src="world.html"></iframe><br>  
 
 To make a map in folium, the process is:
 
