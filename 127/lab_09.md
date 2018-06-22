@@ -36,39 +36,39 @@ In the trinket below, map the following cities (GIS coordinates are rounded to t
 *   Tokyo, Japan (longitude: 140, latitude: 35), and
 *   Rio de Janeiro, Brazil (longitude: -43, latitude: -23) .
 
-<iframe width="800" height="600" frameborder="1" src="https://trinket.io/embed/python/7705126110?start=result"></iframe><br>  
+<iframe width="100%" height="600" frameborder="1" src="https://trinket.io/embed/python/7705126110?start=result"></iframe><br>  
 
 ### Folium
 
 [Folium](https://pypi.python.org/pypi/folium) is a Python package that uses the javascript [Leaflet.js](http://leafletjs.com) library to make beautiful interactive maps. Instead of popping up a matplotlib window, folium creates an **.html** file that you can open (and view interactively) with a browser. After the program runs, open the corresponding html file in a web browser to see your map.
 
-(Folium is installed on the lab machines, To check to see if your home machine has it, type at the Python prompt: import folium  
+(Folium is installed on the lab machines, To check to see if your home machine has it, type at the Python prompt: `import folium`  
 If you get an error, go to the terminal, and download it:
 
-pip install folium
+    pip install folium
 
 and the package will download and install.)
 
 #### Our First Map
 
-<iframe width="800" height="400" frameborder="1" src="world.html"></iframe><br>  
+<iframe width="100%" height="400" frameborder="1" src="world.html"></iframe><br>  
 
 To make a map in folium, the process is:
 
 *   Write a program in Python, using folium.
-*   Run the program, which outputs an .html file.
-*   Open the .html file in a browser.
+*   Run the program, which outputs an `.html` file.
+*   Open the `.html` file in a browser.
 
 Here's our first program:
 
-#Import the folium package for making maps
-import folium
+    #Import the folium package for making maps
+    import folium
 
-#Create a map, centered (0,0), and zoomed out a bit:
-mapWorld = folium.Map(location=\[0, 0\],zoom_start=3)
+    #Create a map, centered (0,0), and zoomed out a bit:
+    mapWorld = folium.Map(location=\[0, 0\],zoom_start=3)
 
-#Save the map:
-mapWorld.save(outfile='tempMap.html')
+    #Save the map:
+    mapWorld.save(outfile='tempMap.html')
 
 Save this file and run it. It will create a file called tempMap.html. Open your favorite browser (Chrome, Firefox, IE, etc.) and choose "Open File" and then choose the file tempMap.html. You should see a map of the world.
 
@@ -76,17 +76,17 @@ Save this file and run it. It will create a file called tempMap.html. Open your 
 
 Let's make another map, focused on New York City. To do that, when we set up the map object, we need to reset the location to New York City and the increase the zoom level:
 
-import folium
+    import folium
 
-mapCUNY = folium.Map(location=\[40.75, -74.125\], zoom_start=10)
+    mapCUNY = folium.Map(location=\[40.75, -74.125\], zoom_start=10)
 
 Let's add in a marker for Hunter College:
 
-folium.Marker(location = \[40.768731, -73.964915\], popup = "Hunter College").add_to(mapCUNY)
+    folium.Marker(location = \[40.768731, -73.964915\], popup = "Hunter College").add_to(mapCUNY)
 
-and create the .html file:
+and create the `.html` file:
 
-mapCUNY.save(outfile='nycMap.html')
+    mapCUNY.save(outfile='nycMap.html')
 
 Save your commands to a file and run via IDLE. Your program will create an HTML file called, nycMap.html. Open it in your favorite browser to make sure it creates a map of NYC with a marker for Hunter College. When you have a running program, see the [Programming Problem List](assignments.html).
 
@@ -94,7 +94,7 @@ Save your commands to a file and run via IDLE. Your program will create an HTML 
 
 We can combine the mapping of folium with the tools we have used for CSV files.
 
-<iframe width="800" height="400" frameborder="1" src="cunyLocations.html"></iframe><br>  
+<iframe width="100%" height="400" frameborder="1" src="cunyLocations.html"></iframe><br>  
 
 Let's make an interactive map of the CUNY campuses. We can download a CSV file from data.ny.gov:
 
@@ -102,36 +102,36 @@ Let's make an interactive map of the CUNY campuses. We can download a CSV file f
 
 (Export as a **.csv** file and save in the same directory as your programs. ) Open the file to make sure you have all the lines (should be 23) and to check if the column headings occur in the first row (they do, so no need to skip rows when reading in the file).
 
-Let's use Pandas to read in the file. We will need to import pandas and folium:
+Let's use Pandas to read in the file. We will need to import `pandas` and `folium`:
 
-import folium
-import pandas as pd
+    import folium
+    import pandas as pd
 
 To read in the CSV file, we'll use pandas' CSV reader. We'll print out the campus locations to make sure that all were read in:
 
-cuny = pd.read_csv('cunyLocations.csv')
-print (cuny\["Campus"\])
+    cuny = pd.read_csv('cunyLocations.csv')
+    print (cuny\["Campus"\])
 
-Note: we saved our CSV file to 'cunyLocations.csv'. If you saved it to a different name, change the input parameters for read_csv() to the name of your file.
+Note: we saved our CSV file to `cunyLocations.csv`. If you saved it to a different name, change the input parameters for `read_csv()` to the name of your file.
 
 Next, let's set up a map, centered on Hunter College:
 
-mapCUNY = folium.Map(location=\[40.768731, -73.964915\])
+    mapCUNY = folium.Map(location=\[40.768731, -73.964915\])
 
 We need to add markers for each campus. We're going to iterate through the rows of dataframe to create the markers:
 
-for index,row in cuny.iterrows():
-    lat = row\["Latitude"\]
-    lon = row\["Longitude"\]
-    name = row\["Campus"\]
-    newMarker = folium.Marker(\[lat, lon\], popup=name)
-    newMarker.add_to(mapCUNY)
+    for index,row in cuny.iterrows():
+        lat = row\["Latitude"\]
+        lon = row\["Longitude"\]
+        name = row\["Campus"\]
+        newMarker = folium.Marker(\[lat, lon\], popup=name)
+        newMarker.add_to(mapCUNY)
 
 For each row in the file, we find the latitude, longitude, and name of the campus, and use those to create a new marker which we add to our map. We repeat for each row, until we have made markers for all 23 campuses in the file.
 
 Lastly, let's save our map:
 
-mapCUNY.save(outfile='cunyLocations.html')
+    mapCUNY.save(outfile='cunyLocations.html')
 
 To view your map, open a browser. From the browser, open the file: cunyLocations.html.
 
