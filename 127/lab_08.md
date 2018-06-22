@@ -17,7 +17,7 @@ Software tools needed: web browser and Python IDLE programming environment with 
 
 ### In-class Quiz
 
-During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab_)1.html) for details on using Blackboard).
+During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab_01.html) for details on using Blackboard).
 
 ### Using Python, Gradescope, and Blackboard
 
@@ -172,7 +172,7 @@ In today's lab, we will write a program to draw images using turtles. We will fo
             moveForward(turtleList) #Move each turtle in the list forward
             stamp(turtleList)       #Stamp where the turtle stopped
 
-    if \_\_name\_\_ == "\_\_main\_\_":
+    if __name__ == "__main__":
         main()
 
 We will fill in each function, one-by-one, using the comments as guidance. The first function should welcome the user to the program:
@@ -214,7 +214,7 @@ When we add these in, we now have the program:
             moveForward(turtleList) #Move each turtle in the list forward
             stamp(turtleList)       #Stamp where the turtle stopped
 
-    if \_\_name\_\_ == "\_\_main\_\_":
+    if __name__ == "__main__":
         main()
 
 We still need to set up the turtle window and make it green. The turtle command to change the background color is bgcolor and colors can be referred by their names or the percentage of red, green, and blue ('RGB') in the color. Let's use the name to change the window color:
@@ -330,7 +330,7 @@ Putting all the pieces together, we get:
             moveForward(turtleList) #Move each turtle in the list forward
             stamp(turtleList)       #Stamp where the turtle stopped
 
-    if \_\_name\_\_ == "\_\_main\_\_":
+    if __name__ == "__main__":
         main()
 
 Try running your program. What happens? How could you modify it to make green turtles on a blue background? What would you need to modify to make the turtles make a circle each time?
