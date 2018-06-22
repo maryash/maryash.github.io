@@ -88,7 +88,7 @@ and create the .html file:
 
 mapCUNY.save(outfile='nycMap.html')
 
-Save your commands to a file and run via IDLE. Your program will create an HTML file called, nycMap.html. Open it in your favorite browser to make sure it creates a map of NYC with a marker for Hunter College. When you have a running program, see the [Programming Problem List](ps.html).
+Save your commands to a file and run via IDLE. Your program will create an HTML file called, nycMap.html. Open it in your favorite browser to make sure it creates a map of NYC with a marker for Hunter College. When you have a running program, see the [Programming Problem List](assignments.html).
 
 ### Plotting from Files
 
