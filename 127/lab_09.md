@@ -94,6 +94,8 @@ Save your commands to a file and run via IDLE. Your program will create an HTML 
 
 We can combine the mapping of folium with the tools we have used for CSV files.
 
+<iframe width="800" height="400" frameborder="1" src="cunyLocations.html"></iframe><br>  
+
 Let's make an interactive map of the CUNY campuses. We can download a CSV file from data.ny.gov:
 
 *   [CUNY Campuses](https://data.ny.gov/Education/City-University-of-New-York-CUNY-University-Campus/i5b5-imzn/data)
