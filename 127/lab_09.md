@@ -36,6 +36,8 @@ In the trinket below, map the following cities (GIS coordinates are rounded to t
 *   Tokyo, Japan (longitude: 140, latitude: 35), and
 *   Rio de Janeiro, Brazil (longitude: -43, latitude: -23) .
 
+<iframe width="800" height="500" frameborder="1" src="https://trinket.io/embed/python/7705126110?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br>  
+
 ### Folium
 
 [Folium](https://pypi.python.org/pypi/folium) is a Python package that uses the javascript [Leaflet.js](http://leafletjs.com) library to make beautiful interactive maps. Instead of popping up a matplotlib window, folium creates an **.html** file that you can open (and view interactively) with a browser. After the program runs, open the corresponding html file in a web browser to see your map.
