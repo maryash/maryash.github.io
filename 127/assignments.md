@@ -730,8 +730,8 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter output file:  thMap.html
 
         which would produce the html file:  
-        
-        <iframe width="100%" height="600" frameborder="1" src="th.html"></iframe><br>  
+  
+        <iframe width="100%" height="600" frameborder="1" src="https://stjohn.github.io/teaching/csci127/f17/th.html"></iframe><br>  
 
         (The demo above is for October 18, 2016 using the time the collision occurred ("TIME") to label each marker and changed the underlying map with the option: tiles="Cartodb Positron" when creating the map.)
 
@@ -790,7 +790,8 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter current longitude: -73.9708
             Enter output file: closestCUNY.html
 
-        which would produce the html file:
+        which would produce the html file:  
+        <iframe width="100%" height="600" frameborder="1" src="https://stjohn.github.io/teaching/csci127/f17/closestCUNY.html"></iframe><br>  
 
         Another sample run to find the closest recycling bin to Roosevelt Island (using the list of recycling bins from [https://data.cityofnewyork.us/Environment/Litter-Basket-Inventory/es7t-6u8y](https://data.cityofnewyork.us/Environment/Litter-Basket-Inventory/es7t-6u8y)):
 
@@ -802,6 +803,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter output file: recyc.html
 
         which would produce the html file:
+        <iframe width="100%" height="600" frameborder="1" src="https://stjohn.github.io/teaching/csci127/f17/recyc.html"></iframe><br>  
 
         A template program, closestPoint.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead runs each of your functions separately ('unit tests') to determine correctness. As such, the names of the functions must match exactly the ones listed above (else, the scripts cannot find them).
 
