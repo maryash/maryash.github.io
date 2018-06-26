@@ -731,7 +731,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         which would produce the html file:  
         
-<iframe src="../f17/th.html" width="600" height="400" frameborder="0" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br>  
+<iframe src="th.html" width="600" height="400" frameborder="0" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br>  
 
   (The demo above is for October 18, 2016 using the time the collision occurred ("TIME") to label each marker and changed the underlying map with the option: tiles="Cartodb Positron" when creating the map.)
 
@@ -767,7 +767,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter the ticket type (peak/off-peak): peak
             The fare is 13.5
 
-        _Hint: See [Lab 8](lab8.html)._
+        _Hint: See [Lab 8](lab_08.html)._
 
 44.  **Due Date: 23 April** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
     
