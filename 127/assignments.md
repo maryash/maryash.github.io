@@ -731,13 +731,13 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         which would produce the html file:  
         
-<iframe src="th.html" width="600" height="400" frameborder="0" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br>  
+<iframe width="100%" height="600" frameborder="1" src="th.html"></iframe><br>  
 
-  (The demo above is for October 18, 2016 using the time the collision occurred ("TIME") to label each marker and changed the underlying map with the option: tiles="Cartodb Positron" when creating the map.)
+        (The demo above is for October 18, 2016 using the time the collision occurred ("TIME") to label each marker and changed the underlying map with the option: tiles="Cartodb Positron" when creating the map.)
 
-  This assignment uses collision data collected and made publicly by [New York City Open Data](https://nycopendata.socrata.com). See Programming Problem #39 for details on this data set. When creating datasets to test your program, you will need to filter for both date (to keep the files from being huge) and that there's a location entered. The former is explained above; to check the latter, add the additional filter condition of "LONGITUDE is not blank".
+        This assignment uses collision data collected and made publicly by [New York City Open Data](https://nycopendata.socrata.com). See Programming Problem #39 for details on this data set. When creating datasets to test your program, you will need to filter for both date (to keep the files from being huge) and that there's a location entered. The former is explained above; to check the latter, add the additional filter condition of "LONGITUDE is not blank".
 
-  _Hint: For this data set, the names of the columns are "LATITUDE" and "LONGITUDE" (unlike the previous map problem, where the data was stored with "Latitude" and "Longitude")._
+        _Hint: For this data set, the names of the columns are "LATITUDE" and "LONGITUDE" (unlike the previous map problem, where the data was stored with "Latitude" and "Longitude")._
 
 43.  **Due Date: 20 April** **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
 
