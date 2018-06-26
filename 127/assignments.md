@@ -714,6 +714,120 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         
         ![](triangles.png) 
         
+41.  **Due Date: 18 April** **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+    
+        Write a program that uses folium to make a map of New York City. Your map should be centered at (40.75, -74.125) and include a marker for the main campus of Hunter College. The HTML file your program creates should be called: nycMap.html
+
+        _Hint: See [Lab 9](lab9.html)._
+    
+42.  **Due Date: 19 April** **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+    
+        Using folium (see [Lab 9](lab9.html)), write a program that asks the user for the name of a CSV file, name of the output file, and creates a map with markers for all the traffic collisions from the input file.
+
+        A sample run:
+
+            Enter CSV file name:  collisionsThHunterBday.csv
+            Enter output file:  thMap.html
+
+        which would produce the html file:  
+        
+<iframe src="../f17/th.html" width="600" height="400" frameborder="0" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br>  
+
+  (The demo above is for October 18, 2016 using the time the collision occurred ("TIME") to label each marker and changed the underlying map with the option: tiles="Cartodb Positron" when creating the map.)
+
+  This assignment uses collision data collected and made publicly by [New York City Open Data](https://nycopendata.socrata.com). See Programming Problem #39 for details on this data set. When creating datasets to test your program, you will need to filter for both date (to keep the files from being huge) and that there's a location entered. The former is explained above; to check the latter, add the additional filter condition of "LONGITUDE is not blank".
+
+  _Hint: For this data set, the names of the columns are "LATITUDE" and "LONGITUDE" (unlike the previous map problem, where the data was stored with "Latitude" and "Longitude")._
+
+43.  **Due Date: 20 April** **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
+    
+    Write a function, computeFare(), that takes as two parameters: the zone and the ticket type, and returns the Long Island Railroad fare.
+    
+    *   If the zone is 1 and the ticket type is "peak", the fare is 8.75.
+    *   If the zone is 1 and the ticket type is "off-peak", the fare is 6.25.
+    *   If the zone is 2 or 3 and the ticket type is "peak", the fare is 10.25.
+    *   If the zone is 2 or 3 and the ticket type is "off-peak", the fare is 7.50.
+    *   If the zone is 4 and the ticket type is "peak", the fare is 12.00.
+    *   If the zone is 4 and the ticket type is "off-peak", the fare is 8.75.
+    *   If the zone is 5, 6, or 7 and the ticket type is "peak", the fare is 13.50.
+    *   If the zone is 5, 6, or 7 and the ticket type is "off-peak", the fare is 9.75.
+    *   If the zone is greater than 8, return a negative number (since your calculator does not handle inputs that high).
+    
+    A template program, LIRRtransit.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead tests your function separately ('unit tests') to determine correctness. As such, the name of the function must match exactly (else, the scripts cannot find it).
+    
+    A sample run:
+    
+    Enter the number of zones: 4
+    Enter the ticket type (peak/off-peak): off-peak
+    The fare is 8.75
+    
+    And another:
+    
+    Enter the number of zones: 6
+    Enter the ticket type (peak/off-peak): peak
+    The fare is 13.5
+    
+    _Hint: See [Lab 8](lab8.html)._
+    
+44.  **Due Date: 23 April** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+    
+    Fill in the following functions in a program that maps GIS data from NYC OpenData CSV files and marks the current location and closest point:
+    
+    *   getData() that asks the user for the name of the CSV and returns a dataframe of the contents.
+    *   getColumnNames() that asks the user for the exact name of the columns that contains the latitude and longitude and returns those values as a tuple. Since the NYC OpenData files use different names for the columns in different datasets (such as "Lat", "Latitude", "LATITUDE" for latitude), the program asks for the name of the column as well as the name of the data file.
+    *   getLocale() asks the user for latitude and longitude of the user's current location and returns those floating points numbers.
+    *   computeDist() that computes the squared distance between two points (x1,y1) and (x2,y2):
+        
+        > (x1-x2)2 \+ (y1-y2)2
+        
+    
+    A sample run to find the closest CUNY campus to the Brooklyn Navy Yard:
+    
+    Enter CSV file name: cunyLocations.csv
+    Enter column name for latitude: Latitude
+    Enter column name for longitude: Longitude
+    Enter current latitude: 40.7021
+    Enter current longitude: -73.9708
+    Enter output file: closestCUNY.html
+    
+    which would produce the html file:
+    
+    Another sample run to find the closest recycling bin to Roosevelt Island (using the list of recycling bins from [https://data.cityofnewyork.us/Environment/Litter-Basket-Inventory/es7t-6u8y](https://data.cityofnewyork.us/Environment/Litter-Basket-Inventory/es7t-6u8y)):
+    
+    Enter CSV file name: recyclingBins.csv
+    Enter column name for latitude: Latitude
+    Enter column name for longitude: Longitude
+    Enter current latitude: 40.7605
+    Enter current longitude: -73.951
+    Enter output file: recyc.html
+    
+    which would produce the html file:
+    
+    A template program, closestPoint.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead runs each of your functions separately ('unit tests') to determine correctness. As such, the names of the functions must match exactly the ones listed above (else, the scripts cannot find them).
+    
+    _Hint: See [Lab 9](lab9.html)._
+    
+45.  **Due Date: 24 April** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
+    
+    Fill in the missing functions:
+    
+    *   average(region): Takes a region of an image and returns the average red, green, and blue values across the region.
+    *   setRegion(region,r,g,b): Takes a region of an image and red, green, and blue values, r, g, b. Sets the region so that all points have red values of r, green values of g, and blue values of b.
+    
+    The functions are part of a program that averages smaller and smaller regions of an image until the underlying scene is visible (inspired by the elegant [koalas to the max](http://koalastothemax.com)).
+    
+    For example, if you inputted our favorite image, you would see (left to right):
+    
+    ![](../f17/refined1.png) ![](../f17/refined2.png) ![](../f17/refined3.png) ![](../f17/refined4.png) ![](../f17/refined5.png) ![](../f17/refined6.png) ![](../f17/refined7.png) ![](../f17/refined8.png)
+    
+    and finally:
+    
+    ![](../f17/csBridge.png)
+    
+    A template program, averageImage.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead runs each of your functions separately ('unit tests') to determine correctness. As such, the names of the functions must match exactly the ones listed above (else, the scripts cannot find them).
+    
+    _Hint: See notes from Lecture 9._
+    
   
   
 _(This file was last modified on 12 June 2018.)_
