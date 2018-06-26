@@ -731,7 +731,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         which would produce the html file:  
         
-<iframe width="100%" height="600" frameborder="1" src="th.html"></iframe><br>  
+        <iframe width="100%" height="600" frameborder="1" src="th.html"></iframe><br>  
 
         (The demo above is for October 18, 2016 using the time the collision occurred ("TIME") to label each marker and changed the underlying map with the option: tiles="Cartodb Positron" when creating the map.)
 
