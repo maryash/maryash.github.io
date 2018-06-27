@@ -793,7 +793,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         which would produce the html file:  
         <iframe width="100%" height="600" frameborder="1" src="https://stjohn.github.io/teaching/csci127/f17/closestCUNY.html"></iframe>  
 
-        Another sample run to find the closest recycling bin to Roosevelt Island (using the list of recycling bins from [recyclingBins.csv](recyclingBins.csv)):
+        Another sample run to find the closest recycling bin to Roosevelt Island, using the list of recycling bins  [recyclingBins.csv](recyclingBins.csv):
 
             Enter CSV file name: recyclingBins.csv
             Enter column name for latitude: Latitude
