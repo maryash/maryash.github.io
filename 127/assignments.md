@@ -602,7 +602,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Note: before submitting your program for grading, remove any commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the `plt.show()` commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
     
-36.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+36.  **Due Date: 28 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
 
         Modify the parking ticket program from [Lab 8](lab_08.html) to do the following:
 
@@ -643,7 +643,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             2006     499
             Name: Vehicle Year, dtype: int64
     
-37.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [Github Guide](https://guides.github.com/activities/hello-world/)**  
+37.  **Due Date: 28 June** &nbsp; &nbsp; **Reading: [Github Guide](https://guides.github.com/activities/hello-world/)**  
     
         In [Lab 8](lab_08.html), you created a github account. Submit a text file with the name of your account. The grading script is expecting a file with the format:
   
@@ -655,7 +655,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             
         Note: It takes a few minutes for a newly created github account to be visible. If you submit to gradescope and get a message that the account doesn't exist, wait a few minutes and try again.  
     
-38.  **Due Date: 25  June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
+38.  **Due Date: 28  June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
     
         Fill in the missing function, monthString(), in the program, months.py (available at: [https://github.com/stjohn/csci127](https://github.com/stjohn/csci127)). The function should take number between 1 and 12 as a parameter and returns the corresponding month as a string. For example, if the parameter is 1, your function should return `"January"`. If the parameter is `2`, your function should return out `"February"`, etc.
 
@@ -663,7 +663,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See notes from Lecture 7 and [Lab 8](lab_08.html)._
     
-39.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+39.  **Due Date: 28 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
     
         Write a program that asks the user for a CSV of collision data (see note below about obtaining reported collisions from NYC OpenData). Your program should then list the top three contributing factors for the primary vehicle of collisions `"CONTRIBUTING FACTOR VEHICLE 1"` in the file.
 
@@ -684,7 +684,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 8](lab_08.html) for accessing and analyzing structured data._
     
-40.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**
+40.  **Due Date: 28 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**
     
         Write two functions, `triangle()` and `nestedTriangle()`. Both functions take two parameters: a turtle and an edge length. The pseudocode for triangle() is:
 
@@ -714,13 +714,13 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         
         ![](triangles.png) 
         
-41.  **Due Date: 18 April** **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+41.  **Due Date: 28 June** **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
     
         Write a program that uses folium to make a map of New York City. Your map should be centered at (40.75, -74.125) and include a marker for the main campus of Hunter College. The HTML file your program creates should be called: `nycMap.html`
 
         _Hint: See [Lab 9](lab9.html)._
     
-42.  **Due Date: 19 April** **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+42.  **Due Date: 28 June** **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
     
         Using folium (see [Lab 9](lab9.html)), write a program that asks the user for the name of a CSV file, name of the output file, and creates a map with markers for all the traffic collisions from the input file.
 
@@ -739,7 +739,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: For this data set, the names of the columns are "LATITUDE" and "LONGITUDE" (unlike the previous map problem, where the data was stored with "Latitude" and "Longitude")._
 
-43.  **Due Date: 20 April** **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
+43.  **Due Date: 28 June** **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
 
         Write a function, `computeFare()`, that takes as two parameters: the zone and the ticket type, and returns the Long Island Railroad fare.
 
@@ -769,7 +769,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 8](lab_08.html)._
 
-44.  **Due Date: 23 April** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+44.  **Due Date: 28 June** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
     
         Fill in the following functions in a program that maps GIS data from NYC OpenData CSV files and marks the current location and closest point:
 
@@ -809,7 +809,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 9](lab9.html)._
     
-45.  **Due Date: 24 April** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
+45.  **Due Date: 28 June** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
     
         Fill in the missing functions:
 
