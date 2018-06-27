@@ -793,7 +793,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         which would produce the html file:  
         <iframe width="100%" height="600" frameborder="1" src="https://stjohn.github.io/teaching/csci127/f17/closestCUNY.html"></iframe>  
 
-        Another sample run to find the closest recycling bin to Roosevelt Island (using the list of recycling bins from [https://data.cityofnewyork.us/Environment/Litter-Basket-Inventory/es7t-6u8y](https://data.cityofnewyork.us/Environment/Litter-Basket-Inventory/es7t-6u8y)):
+        Another sample run to find the closest recycling bin to Roosevelt Island (using the list of recycling bins from [recyclingBins.csv](recyclingBins.csv)):
 
             Enter CSV file name: recyclingBins.csv
             Enter column name for latitude: Latitude
@@ -805,9 +805,9 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         which would produce the html file:
         <iframe width="100%" height="600" frameborder="1" src="https://stjohn.github.io/teaching/csci127/f17/recyc.html"></iframe>  
 
-        A template program, closestPoint.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead runs each of your functions separately ('unit tests') to determine correctness. As such, the names of the functions must match exactly the ones listed above (else, the scripts cannot find them).
+        A template program, is available here: [closestPoint.py](closestPoint.py). The grading script does not run the whole program, but instead runs each of your functions separately ('unit tests') to determine correctness. As such, the names of the functions must match exactly the ones listed above (else, the scripts cannot find them).
 
-        _Hint: See [Lab 9](lab9.html)._
+        _Hint: See [Lab 9](lab_09.html)._
     
 45.  **Due Date: 28 June** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
     
