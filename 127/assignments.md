@@ -773,8 +773,8 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
         Fill in the following functions in a program that maps GIS data from NYC OpenData CSV files and marks the current location and closest point:
 
-        *   getData() that asks the user for the name of the CSV and returns a dataframe of the contents.
-        *   getColumnNames() that asks the user for the exact name of the columns that contains the latitude and longitude and returns those values as a tuple. Since the NYC OpenData files use different names for the columns in different datasets (such as "Lat", "Latitude", "LATITUDE" for latitude), the program asks for the name of the column as well as the name of the data file.
+        *   `getData()` that asks the user for the name of the CSV and returns a dataframe of the contents.
+        *   `getColumnNames()` that asks the user for the exact name of the columns that contains the latitude and longitude and returns those values as a tuple. Since the NYC OpenData files use different names for the columns in different datasets (such as "Lat", "Latitude", "LATITUDE" for latitude), the program asks for the name of the column as well as the name of the data file.
         *   getLocale() asks the user for latitude and longitude of the user's current location and returns those floating points numbers.
         *   computeDist() that computes the squared distance between two points (x1,y1) and (x2,y2):
 
