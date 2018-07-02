@@ -261,8 +261,101 @@ Let's create a simple shell script with vi:
 
 If you hate vi, just edit using gEdit (the Linux version of TextEdit) or IDLE.
 
-When done, see the [Programming Problem List](assignments.html).
+### More on Unix: Using Pipes
 
-### What's Next?
+In [Lab 6](lab_06.html), we introduced making short programs, or scripts, of Unix commands. In this lab, we introduce a very useful construct to let you glue together simple commands to perform more complex actions.
 
-If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](assignments.html) has problem descriptions, suggested reading, and due dates next to each problem.
+The command `|` is called a **pipe** since it takes the data flowing out of a command and directs it to flow into the next command, much like a pipe directing the flow of water.
+
+For example, if you type:
+
+    ls -l
+
+at the prompt, you will see the 'long' listing for every file in your current directory. (Note that it's the letter "L", not the number "1" that it looks like on some browsers). For example, if I ran this command in my directory for Program 20, I get:
+
+![](lsScreenshot.png)
+
+showing 7 files, 6 of which were created in October. Names with '/' after them are directories or folders. '*' indicates files that can be executed (see [Lab 6](lab_06.html) for how to change the permissions of a file).
+
+Let's use a pipe to count the number of files from October. First, we need to take the output from ls and direct it into a program that can find patterns. A popular one on Unix is called grep (it searches for patterns, which are also called regular expressions or 're'-- the name comes from global search for regular expressions program). Let's have it look for 'Oct':
+
+    ls -l | grep "Oct"
+
+Note that between the ls -l and the grep "Oct" is a pipe (`|`) that directs the outflow from the ls command to the inflow of the grep command:
+
+![](lsGrep.png)
+
+We can use the pipe to take the output of the grep command and send it to a program that counts the number of lines. This program, `wc`, counts characters, words, and lines. We'll use the `-l` option to count lines:
+
+    ls -l | grep "Oct" | wc -l
+
+which gives:
+
+![](lsGrepWC.png)
+
+the number of files in the directory that were last modified.
+
+How could you make a script that counted the number of `.py` files in the directory?
+
+When you have the answer, put the single line into a script. Remember to use Unix end-of-lines, since gradescope will run what you submit as a Unix script and will be very confused if you have non-Unix (i.e. Windows-style) end-of-lines. See [Programming Problem List](assignments.html).
+
+### More Useful Unix Commands
+
+Now that we are creating executable programs, it's often useful to figure out what kind of file is in your directory. For example, if you were not sure what type of file, hello is, you could type at the command line:
+
+  file hello
+
+`file` is the name of the command, and `hello` is the input parameter to the command. If you would like to find out the type of several files, you could type each separately:
+
+    file hello hello.cpp hello.py
+
+(assuming all of those files are your working directory).
+
+Or, you could use a "wildcard" that matches all files whose names match a pattern. For example:
+
+  file hello*
+
+will tell you all type of every file that begins with the hello followed by 0 or more other characters.
+
+Similarly,
+
+  file *
+
+will tell you all type of every file in your current working directory.
+
+It's often useful to figure out which version of a program you're using (since there could be multiple copies on your computer. To do that, there's a command, which that will tell which version of the program it's using by default. For example,
+
+  which g++
+
+will show the location of the g++ program.
+
+### And Even More Useful Unix Commands!
+
+Here are a few more commands, especially useful when you're using a public machine, and trying to figure out where things are and what is installed:
+
+*   **which**: Will tell which version of the program it's using by default. For example,
+    
+        which g++
+    
+    will show the location of the g++ program.
+*   **man**: This gives the built-in help pages for the current system. It can be quite useful if you don't remember all the options for a Unix command. For example,
+    
+        man sort
+    
+    will print out information about the command line sort.
+*   **w**: This command was designed for multi-user machines and tells you who is logged in and what they are doing. While you are the only one on your laptop, this command is still useful in that summarizes all the activity on the machine in a short table as well as how long the system has been running ('uptime'). So, if the machine seems sluggish or you're wondering how much else is going on, it will give a concise summary.
+*   **more**: Allow you to look at output or a file, one screenful at a time. This is incredibly useful when you are trying to read information that scrolls off the screen. Here's a sample of looking at all programs (from `/usr/bin\-\-` a common place to keep them) :
+    
+        ls /usr/bin | more
+        
+    Say we're trying to figure out what GNU C/C++ compilers are on the machine, and as a start want to see all the possible programs that contain "cc" (anywhere in their name):
+    
+        ls /usr/bin | grep cc | sort | more
+    
+    We don't see g++ in the list, so, let's also look for all that start with g:
+    
+        ls /usr/bin | grep ^g | sort | more
+    
+    The `grep ^g` asks for all names that start with "g".  
+  
+    When done, see the [Programming Problem List](assignments.html).
