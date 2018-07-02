@@ -874,5 +874,70 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         See [Lab 11](lab_11.html) for details on submitting the simplified machine language programs.
     
   
-  
+51.  **Due Date: 2 May** **Reading: [Chapter 8](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/toctree.html)**  
+    
+        Write a program that asks the user to enter a string. If the user enters an empty string, your program should continue prompting the user for a new string until they enter a non-empty string. Your program should then print out the string entered.
+
+        A sample run of your program:
+
+            Enter a non-empty string: 
+            That was empty.  Try again.
+            Enter a non-empty string: 
+            That was empty.  Try again.
+            Enter a non-empty string: Mihi cura futuri
+            You entered: Mihi cura futuri
+
+        _Hint: See [Lab 10](lab_10.html)._
+    
+52.  **Due Date: 3 May** **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
+    
+        Using Unix shell commands, write a script that counts the number of `.py` files in current working directory.
+
+        _Hint: See [Lab 11](lab_11.html)._
+    
+    
+53.  **Due Date: 7 May** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+    
+        Write a **C++ program** that prints `Hello, World!` to the screen.
+
+        _Hint: See [Lab 12](lab_12.html) for getting started with C++._
+    
+54.  **Due Date: 8 May** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+    
+        Write a **C++ program** that will print "I love Python!" 20 times.
+
+        The output of your program should be:
+
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+            I love Python!
+
+        _Hint: See [Lab 12](lab_12.html) for getting started with C++._
+    
+55.  **Due Date: 9 May** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+    
+        Write a **C++ program** that converts kilometers to miles. Your program should prompt the user for the number of kilometers and then print out the number of miles.
+
+        A useful formula: _miles = 0.621371* kilometers_.
+
+        See [Lab 4](lab_4.html) for designing Input-Process-Output programs and [Lab 12](lab_12.html) for getting started with C++.
+
+
 _(This file was last modified on 2 July 2018.)_
