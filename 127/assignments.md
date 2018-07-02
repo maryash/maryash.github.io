@@ -8,10 +8,9 @@ title: PROGRAMMING ASSIGNMENTS
 
 ---  
 
-#### <span style="color:red">!!! THE LAST LECTURE</span> WILL TAKE PLACE ON <span style="color:red">TUESDAY JULY 10 AT NORMAL TIME IN HUNTER WEST 714 !!!</span>  
-#### <span style="color:red">!!! THE 2 HOUR FINAL EXAM</span> WILL TAKE PLACE ON <span style="color:red">WEDNESDAY JULY 11 AT 1:30PM IN HUNTER NORTH 603 !!!</span>  
-#### Please make appropriate arrangements!!!  
-  
+#### !!! <span style="color:red">THE LAST LECTURE</span> WILL TAKE PLACE ON <span style="color:red">TUESDAY JULY 10 AT NORMAL TIME IN HUNTER WEST 714</span> !!!  
+#### !!! <span style="color:red">THE 2 HOUR FINAL EXAM</span> WILL TAKE PLACE ON <span style="color:red">WEDNESDAY JULY 11 AT 1:30PM IN HUNTER NORTH 603</span> !!!  
+#### Please make appropriate arrangements!!!      
 ---  
   
 **LAB AND TUTOR HOURS:**  
