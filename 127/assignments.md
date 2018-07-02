@@ -8,7 +8,8 @@ title: PROGRAMMING ASSIGNMENTS
 
 ---  
 
-#### THE 2 HOUR FINAL EXAM WILL TAKE PLACE ON WEDNESDAY JULY 11 AT 1:30PM
+#### <span style="color:red">THE LAST LECTURE</span> WILL TAKE PLACE ON TUESDAY JULY 10 AT NORMAL TIME <span style="color:red">IN HUNTER WEST 714</span>  
+#### <span style="color:red">THE 2 HOUR FINAL EXAM</span> WILL TAKE PLACE ON <span style="color:red">WEDNESDAY JULY 11 AT 1:30PM IN HUNTER NORTH 603</span>  
 #### Please make appropriate arrangements!  
   
 ---  
