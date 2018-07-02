@@ -1036,7 +1036,6 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter a number: -1
             111111
 
-***  
         Here's [xkcd](http://xkcd.com) on the simplicity of Python:
         ![](http://imgs.xkcd.com/comics/python.png)  
 
