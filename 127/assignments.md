@@ -860,7 +860,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
 50.  **Removed**  
 
-51.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Chapter 8](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/toctree.html)**  
+51.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [Chapter 8](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/toctree.html)**  
     
         Write a program that asks the user to enter a string. If the user enters an empty string, your program should continue prompting the user for a new string until they enter a non-empty string. Your program should then print out the string entered.
 
@@ -875,7 +875,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 10](lab_10.html)._
     
-52.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
+52.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
     
         Using Unix shell commands, write a script that counts the number of `.py` files in current working directory.
 
