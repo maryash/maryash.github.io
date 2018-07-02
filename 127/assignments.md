@@ -856,24 +856,6 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         _Hint: See [Lab 10](lab_10.html)._
     
     
-49.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
-    
-        Write a **simplified machine language program** that prints: `I love Python`
-
-        See [Lab 11](lab_11.html) for details on submitting the simplified machine language programs.
-
-        _Hint: You may find the following table useful:_
-
-        ![](ASCIITable.png)  
-        _(Image from wikimedia commons)_
-    
-50.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
-    
-        Write a **simplified machine language program** that has register $s0 loop through the numbers 10, 8, 6, ..., 2, 0.
-
-        See [Lab 11](lab_11.html) for details on submitting the simplified machine language programs.
-    
-  
 51.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Chapter 8](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/toctree.html)**  
     
         Write a program that asks the user to enter a string. If the user enters an empty string, your program should continue prompting the user for a new string until they enter a non-empty string. Your program should then print out the string entered.
