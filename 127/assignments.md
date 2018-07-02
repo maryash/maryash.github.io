@@ -832,7 +832,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
     
 46.  **Due Date: 25 April** **Reading: Think CS: [Chapter 3](http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html#)**  
     
-        Modify the program from [Lab 10](lab_10.html) that makes a turtle walk 100 times. Each "walk" is 10 steps forward and the turtle can turn 0,1,2,...,359 degrees (chosen randomly) at the beginning of each walk.
+        Modify the program from [Lab 10](lab_10.html) that makes a turtle walk 100 times. Each "walk" is 10 steps forward and the turtle can turn 0, 1, 2, ..., 359 degrees (chosen randomly) at the beginning of each walk.
 
         A sample run of your program:
 
@@ -864,7 +864,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: You may find the following table useful:_
 
-        ![]ASCIITable.png)  
+        ![](ASCIITable.png)  
         _(Image from wikimedia commons)_
     
 50.  **Due Date: 1 May** **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
