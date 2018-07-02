@@ -830,6 +830,49 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See notes from Lecture 9._
     
+46.  **Due Date: 25 April** **Reading: Think CS: [Chapter 3](http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html#)**  
+    
+        Modify the program from [Lab 10](lab_10.html) that makes a turtle walk 100 times. Each "walk" is 10 steps forward and the turtle can turn 0,1,2,...,359 degrees (chosen randomly) at the beginning of each walk.
+
+        A sample run of your program:
+
+        ![](randomWalk.png)
+    
+47.  **Due Date: 26 April** **Reading: Think CS: [Debugging Code](http://interactivepython.org/runestone/static/thinkcspy/toctree.html)**  
+    
+        The program, [errorsHex.py](errorsHex.py), has lots of errors. Fix the errors and submit the modified program.
+
+        _Hint: See [Lab 10](lab_10.html)._
+    
+48.  **Due Date: 27 April** **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
+    
+        Write an Unix shell script that does the following:
+
+        *   Creates a directory, `projectFiles`.
+        *   Creates 3 additional directories (as subdirectories of `projectFiles`): `source`, `data`, and `results`.
+
+        Submit a single text file containing your shell commands. See [Lab 10](lab_10.html).
+
+        _Hint: See [Lab 10](lab_10.html)._
+    
+    
+49.  **Due Date: 30 April** **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
+    
+        Write a **simplified machine language program** that prints: `I love Python`
+
+        See [Lab 11](lab_11.html) for details on submitting the simplified machine language programs.
+
+        _Hint: You may find the following table useful:_
+
+        ![]ASCIITable.png)  
+        _(Image from wikimedia commons)_
+    
+50.  **Due Date: 1 May** **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
+    
+        Write a **simplified machine language program** that has register $s0 loop through the numbers 10, 8, 6, ..., 2, 0.
+
+        See [Lab 11](lab_11.html) for details on submitting the simplified machine language programs.
+    
   
   
-_(This file was last modified on 12 June 2018.)_
+_(This file was last modified on 2 July 2018.)_
