@@ -1,4 +1,4 @@
-Lab 10, CSci 127, Introduction to Computer Science, Hunter College, CUNY, Spring 2018 
+Lab 10, CSci 127, Introduction to Computer Science, Hunter College, CUNY, Spring 2018  
 
 Lab 10  
 CSci 127: Introduction to Computer Science  
