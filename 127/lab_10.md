@@ -1,12 +1,15 @@
-Lab 10, CSci 127, Introduction to Computer Science, Hunter College, CUNY, Spring 2018  
+---
+layout: myDefault
+title: LAB 10
+---
 
-Lab 10  
-CSci 127: Introduction to Computer Science  
-Hunter College, City University of New York  
-Spring 2018  
-  
+### [<span style="font-family:Arial">CSCI 127 &nbsp; Introduction to Computer Science</span>](../127_2018_summer.html)  
+<span style="line-height:0.1; font-family:Arial; font-size:21.8px">Hunter College &nbsp; City University of New York</span> 
 
----------------------------------------------------------------------------------------------------------------------
+---  
+  	
+LAB 10
+---
 
 Today's lab will focus on random numbers, indefinite loops, and finding errors.
 
@@ -14,7 +17,7 @@ Software tools needed: web browser and Python IDLE programming environment with 
 
 ### In-class Quiz
 
-During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab1.html) for details on using Blackboard).
+During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab_01.html) for details on using Blackboard).
 
 ### Random Range
 
@@ -81,7 +84,7 @@ main()
 
 Instead, a dialog box pops up and says "invalid syntax":  
   
-![](../../cmp/cmp230/f14/errorWindow1.jpg)  
+![](errorWindow1.jpg)  
 
 The red line indicates where the intepreter has found an error. Can you tell what it is? Syntax is another word for grammar, so, it most likely missing `punctuation' or a misspelling of some sort. We have spelled def correctly and have the right number of parenthesis, so, what else is missing?
 
@@ -93,7 +96,7 @@ and try to run the program again.
 
 Again, we get a dialog box:  
   
-![](../../cmp/cmp230/f14/errorWindow2.jpg)  
+![](errorWindow2.jpg)  
   
 Instead of the whole line being highlighted, only the word year is. The Python intepreter was not expecting year and says there is a grammatical mistake. Since year does not include any grammatical constructs, we need to look _before_ the message to see where the error is. Do you see it?
 
@@ -105,7 +108,7 @@ and try to run the program again.
 
 Once more we get a dialog box:  
   
-![](../../cmp/cmp230/f14/errorWindow3.jpg)  
+![](errorWindow3.jpg)  
 
 It has highlighted the first item, date1 on the line. That is a name and looks fine. So, as above, let's look before the highlighted error to see if there's a problem. The line above it is:
 
@@ -121,7 +124,7 @@ and try to run the program again.
 
 Again, we get a dialog box:  
   
-![](../../cmp/cmp230/f14/errorWindow4.jpg)  
+![](errorWindow4.jpg)  
 
 The intepreter does not understand the second " on the line. Why? What is this line doing? It's constructing a string and storing it in the variable date1. How do you build a string out of smaller strings?
 
@@ -133,7 +136,7 @@ and try to run the program again.
 
 Again, we get a dialog box, but this one has a different message:  
   
-![](../../cmp/cmp230/f14/errorWindow5.jpg)  
+![](errorWindow5.jpg)  
 
 EOL means "End of the line", so, the message says that the end of the line was reached before you finished defining the string. How can you fix this?
 
@@ -145,7 +148,7 @@ and try to run the program again.
 
 Our familiar dialog box returns:  
   
-![](../../cmp/cmp230/f14/errorWindow6.jpg)  
+![](errorWindow6.jpg)  
 
 We have seen this type of error before. How do you fix it?
 
@@ -162,8 +165,8 @@ Please enter day, month, and year numbers: 31, 12, 2014
 Uh oh, instead of output, we get the following messages:
 
 Traceback (most recent call last):
-  File "/Users/stjohn/public_html/teaching/cmp/cmp230/f14/errors.py", line 18, in main()
-  File "/Users/stjohn/public_html/teaching/cmp/cmp230/f14/errors.py", line 13, in main
+  File "/Users/gmaryash/Desktop/errors.py", line 18, in main()
+  File "/Users/gmaryash/Desktop/errors.py", line 13, in main
     monthStr = months\[month+1\]
 IndexError: list index out of range 
 
@@ -213,7 +216,7 @@ We have removed all the errors, and the program now runs correctly!
 
 ### More on Command Line Scripts
 
-In [Lab 6](lab6.html), we wrote a simple script that prints: Hello, World. We can write scripts that take the shell commands we have learned and store them in a file to be used later. In [Lab 3](lab3.html), we introduced the shell, or command line, commands to create new directories (folders) and how to list the contents of those folders (and expanded on this with relative paths in [Lab 4](lab4.html) and absolute paths in [Lab 5](lab5.html)).
+In [Lab 6](lab6.html), we wrote a simple script that prints: Hello, World. We can write scripts that take the shell commands we have learned and store them in a file to be used later. In [Lab 3](lab_03.html), we introduced the shell, or command line, commands to create new directories (folders) and how to list the contents of those folders (and expanded on this with relative paths in [Lab 4](lab_04.html) and absolute paths in [Lab 5](lab_05.html)).
 
 It's a bit archaic, but we can create the file with the vi editor. It dates back to the early days of the Unix operating system. It has the advantage that it's integrated into the Unix operating system and guaranteed to be there. It is worth trying at least once (so if you're in a bind and need to edit Unix files remotely, you can), but if you hate it (which is likely), use the graphical gEdit (you can find it via the search icon on the left hand menu bar).
 
@@ -255,8 +258,8 @@ Let's create a simple shell script with vi:
 
 If you hate vi, just edit using gEdit (the Linux version of TextEdit) or IDLE.
 
-When done, see the [Programming Problem List](ps.html).
+When done, see the [Programming Problem List](assignments.html).
 
 ### What's Next?
 
-If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](ps.html) has problem descriptions, suggested reading, and due dates next to each problem.
+If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](assignments.html) has problem descriptions, suggested reading, and due dates next to each problem.
