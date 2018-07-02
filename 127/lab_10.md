@@ -32,7 +32,7 @@ The random library includes a function that's similar to range, called randrange
 *   `random.randrange(360) returns one of 0,1,2,...,359`
 
 Let's use that last example to have our turtle make a random walk:  
-<iframe width="80%" height="400" frameborder="1" src="https://trinket.io/embed/python/ab6cddc880"></iframe><br>  
+<iframe width="100%" height="400" frameborder="1" src="https://trinket.io/embed/python/ab6cddc880"></iframe><br>  
 
 Notice that our turtle turns a degrees, where a is chosen at random between 0 and 359 degrees. What if your turtle was in a city and had to stay on a grid of streets (and not ramble through buildings)? How can you change the randrange() to choose only from the numbers: 0,90,180,270 (submit your answer as Problem #10).
 
@@ -49,7 +49,7 @@ We have been using for-loops to repeat tasks a fixed number of times (often call
 While the condition is true, the block of commands nested under the while statement are repeated.
 
 For example, let's have a turtles continue their random walk as long as their x and y values are within 50 of the starting point (to keep them from wandering off the screen):  
-<iframe width="80%" height="400" frameborder="1" src="https://trinket.io/embed/python/6738c47304"></iframe><br>  
+<iframe width="100%" height="400" frameborder="1" src="https://trinket.io/embed/python/6738c47304"></iframe><br>  
 
 Indefinite loops are useful for simulations (like our simple random walk above) and checking input. For example, the following code fragment:
 
@@ -63,10 +63,10 @@ will ask the user for their age, and continue asking until the number they enter
 
 ### Finding Errors
 
-Finding, and fixing errors, in your programs is a very useful skill. Let's look at a program with lots of errors and work through how to identify the issues and fix them. If you cloned the repo above, you will have a copy of [errors.py](https://github.com/stjohn/csci127/blob/master/errors.py) on your computer (you can also download from the webpage). When loaded into IDLE, it does not run:
+Finding, and fixing errors, in your programs is a very useful skill. Let's look at a program with lots of errors and work through how to identify the issues and fix them. If you cloned the repo above, you will have a copy of [errors.py](https://github.com/maryash/127/errors.py) on your computer (you can also download from the webpage). When loaded into IDLE, it does not run:
 
-    \# errors.py is based on dateconvert2.py from Chapter 5 of the Zelle textbook
-    \#     Converts day month and year numbers into two date formats
+    # errors.py is based on dateconvert2.py from Chapter 5 of the Zelle textbook
+    #     Converts day month and year numbers into two date formats
 
     def main()
         # get the day month and year
@@ -74,10 +74,10 @@ Finding, and fixing errors, in your programs is a very useful skill. Let's look 
 
         date1 = str(month)"/"+str(day)+"/"+str(year)
 
-        months = \["January", "February", "March", "April", 
+        months = ["January", "February", "March", "April", 
                   "May", "June", "July", "August", 
-                  "September", "October", "November", "December"\]
-        monthStr = months\[-1\]
+                  "September", "October", "November", "December"]
+        monthStr = months[-1]
         date2 = monthStr+" " + str(day) + ",  + str(year)
 
         print("The date is" date1, "or", date2+".")
@@ -144,7 +144,7 @@ EOL means "End of the line", so, the message says that the end of the line was r
 
 The answer is to end the string, using quotation marks. The line is missing a quotation mark at the very end. Add the quotation mark :
 
-    ...\+ ",  \+ str(year)"
+    ...+ ",  + str(year)"
 
 and try to run the program again.
 
@@ -177,15 +177,15 @@ When you see messages like this, go to the very last line:
 
     IndexError: list index out of range
 
-It says that the index for our list is out of range. An index is the item of the list that we're accessing. For example, months\[1\] has index 1 and will give us February. The range of the index for a list is 0 to one less than the length of the list. In the case of months, the range is \[0,1,2,...,11\]. What went wrong when we entered 12 for our month?
+It says that the index for our list is out of range. An index is the item of the list that we're accessing. For example, months[1] has index 1 and will give us February. The range of the index for a list is 0 to one less than the length of the list. In the case of months, the range is [0,1,2,...,11]. What went wrong when we entered 12 for our month?
 
 The answer is we used month+1 = 12 + 1 = 13 as the index:
 
-    monthStr = months\[month+1\]
+    monthStr = months[month+1]
 
 which is out of range. What do we want instead? Instead of adding 1, we should subtract 1. Change it in the program:
 
-    monthStr = months\[month-1\]
+    monthStr = months[month-1]
 
 and try to run the program again.
 
