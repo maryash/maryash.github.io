@@ -714,13 +714,13 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         
         ![](triangles.png) 
         
-41.  **Due Date: 28 June** **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+41.  **Due Date: 28 June** &nbsp; &nbsp; **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
     
         Write a program that uses folium to make a map of New York City. Your map should be centered at (40.75, -74.125) and include a marker for the main campus of Hunter College. The HTML file your program creates should be called: `nycMap.html`
 
         _Hint: See [Lab 9](lab9.html)._
     
-42.  **Due Date: 28 June** **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+42.  **Due Date: 28 June** &nbsp; &nbsp; **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
     
         Using folium (see [Lab 9](lab9.html)), write a program that asks the user for the name of a CSV file, name of the output file, and creates a map with markers for all the traffic collisions from the input file.
 
@@ -739,7 +739,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: For this data set, the names of the columns are "LATITUDE" and "LONGITUDE" (unlike the previous map problem, where the data was stored with "Latitude" and "Longitude")._
 
-43.  **Due Date: 28 June** **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
+43.  **Due Date: 28 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
 
         Write a function, `computeFare()`, that takes as two parameters: the zone and the ticket type, and returns the Long Island Railroad fare.
 
@@ -769,7 +769,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 8](lab_08.html)._
 
-44.  **Due Date: 28 June** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+44.  **Due Date: 28 June** &nbsp; &nbsp; **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
     
         Fill in the following functions in a program that maps GIS data from NYC OpenData CSV files and marks the current location and closest point:
 
@@ -809,7 +809,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 9](lab_09.html)._
     
-45.  **Due Date: 28 June** **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
+45.  **Due Date: 28 June** &nbsp; &nbsp; **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
     
         Fill in the missing functions:
 
@@ -830,7 +830,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See notes from Lecture 9._
     
-46.  **Due Date: 25 April** **Reading: Think CS: [Chapter 3](http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html#)**  
+46.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS: [Chapter 3](http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html#)**  
     
         Modify the program from [Lab 10](lab_10.html) that makes a turtle walk 100 times. Each "walk" is 10 steps forward and the turtle can turn 0, 1, 2, ..., 359 degrees (chosen randomly) at the beginning of each walk.
 
@@ -838,13 +838,13 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         ![](randomWalk.png)
     
-47.  **Due Date: 26 April** **Reading: Think CS: [Debugging Code](http://interactivepython.org/runestone/static/thinkcspy/toctree.html)**  
+47.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS: [Debugging Code](http://interactivepython.org/runestone/static/thinkcspy/toctree.html)**  
     
         The program, [errorsHex.py](errorsHex.py), has lots of errors. Fix the errors and submit the modified program.
 
         _Hint: See [Lab 10](lab_10.html)._
     
-48.  **Due Date: 27 April** **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
+48.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
     
         Write an Unix shell script that does the following:
 
@@ -856,7 +856,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         _Hint: See [Lab 10](lab_10.html)._
     
     
-49.  **Due Date: 30 April** **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
+49.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
     
         Write a **simplified machine language program** that prints: `I love Python`
 
@@ -867,14 +867,14 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         ![](ASCIITable.png)  
         _(Image from wikimedia commons)_
     
-50.  **Due Date: 1 May** **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
+50.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
     
         Write a **simplified machine language program** that has register $s0 loop through the numbers 10, 8, 6, ..., 2, 0.
 
         See [Lab 11](lab_11.html) for details on submitting the simplified machine language programs.
     
   
-51.  **Due Date: 2 May** **Reading: [Chapter 8](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/toctree.html)**  
+51.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Chapter 8](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/toctree.html)**  
     
         Write a program that asks the user to enter a string. If the user enters an empty string, your program should continue prompting the user for a new string until they enter a non-empty string. Your program should then print out the string entered.
 
@@ -889,20 +889,20 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 10](lab_10.html)._
     
-52.  **Due Date: 3 May** **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
+52.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
     
         Using Unix shell commands, write a script that counts the number of `.py` files in current working directory.
 
         _Hint: See [Lab 11](lab_11.html)._
     
     
-53.  **Due Date: 7 May** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+53.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
     
         Write a **C++ program** that prints `Hello, World!` to the screen.
 
         _Hint: See [Lab 12](lab_12.html) for getting started with C++._
     
-54.  **Due Date: 8 May** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+54.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
     
         Write a **C++ program** that will print "I love Python!" 20 times.
 
@@ -931,7 +931,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: See [Lab 12](lab_12.html) for getting started with C++._
     
-55.  **Due Date: 9 May** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+55.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
     
         Write a **C++ program** that converts kilometers to miles. Your program should prompt the user for the number of kilometers and then print out the number of miles.
 
