@@ -856,9 +856,21 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         _Hint: See [Lab 10](lab_10.html)._
     
     
-49.  **Removed**  
+49.  **Due Date: 11 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
 
-50.  **Removed**  
+        Write a simplified machine language program that prints: I love Python
+
+        See [Lab 11](lab_11.html) for details on submitting the simplified machine language programs.
+
+        Hint: You may find the following table useful:
+        ![](https://stjohn.github.io/teaching/csci127/f17/ASCIITable.png)  
+
+
+50.  **Due Date: 11 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
+
+        Write a simplified machine language program that has register $s0 loop through the numbers 10, 8, 6, ..., 2, 0.
+
+        See [Lab 11](lab_11.html) for details on submitting the simplified machine language programs.
 
 51.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [Chapter 8](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/toctree.html)**  
     
@@ -925,7 +937,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         See [Lab 4](lab_4.html) for designing Input-Process-Output programs and [Lab 12](lab_12.html) for getting started with C++.
 
-56.  **Due Date: 10 May** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+56.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
     
         Write a **C++ program** program that asks the user for a number and draws a triangle of that height and width using 'character graphics'.
 
@@ -946,7 +958,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             **
             *
     
-57.  **Due Date: 11 May** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+57.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
     
         Write a **C++ program** that asks the user for the month of the year (as a number), and prints
 
@@ -970,7 +982,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Enter month (as a number):  11
             Happy Fall
     
-58.  **Due Date: 14 May** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+58.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
     
         Write a **C++ program** that asks the user for the starting amount, and prints out the yearly balance of a savings account, assuming 10% interest, for the first five years.
 
@@ -983,7 +995,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Year 4  1464.10
             Year 5  1610.51
     
-59.  **Due Date: 15 May** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+59.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
     
         Write a **C++ program** that asks the user for their age, and continue asking until the number entered positive (that is, greater than 0). That is, write the [Python program](http://pythontutor.com/visualize.html#code=age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Awhile%20age%20%3C%200%3A%0A%20%20%20%20print%28'Entered%20a%20negative%20number.'%29%0A%20%20%20%20age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Aprint%28'You%20entered%20your%20age%20as%3A',%20age%29&cumulative=false&curInstr=0&heapPrimitives=false&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22-3%22,%223%22%5D&textReferences=false) from [Lab 10](lab10.html) in C++.
 
@@ -998,7 +1010,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         _Hint: Rewrite the [Python program](http://pythontutor.com/visualize.html#code=age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Awhile%20age%20%3C%200%3A%0A%20%20%20%20print%28'Entered%20a%20negative%20number.'%29%0A%20%20%20%20age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Aprint%28'You%20entered%20your%20age%20as%3A',%20age%29&cumulative=false&curInstr=0&heapPrimitives=false&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22-3%22,%223%22%5D&textReferences=false) from [Lab 10](lab10.html) in C++._
     
-60.  **Due Date: 16 May** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+60.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
     
         Write a **C++ program** that asks the user for a whole number between -31 and 31 and prints out the number in "[two's complement](https://en.wikipedia.org/wiki/Two%27s_complement)" notation, using the following algorithm:
 
