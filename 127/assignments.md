@@ -863,6 +863,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         See [Lab 11](lab_11.html) for details on submitting the simplified machine language programs.
 
         Hint: You may find the following table useful:  
+  
 ![](https://stjohn.github.io/teaching/csci127/f17/ASCIITable.png)  
 
 
