@@ -11,218 +11,117 @@ title: LAB 11
 LAB 11
 ---
 
-Today's lab will introduce C++.
+Today's lab will introduce a simplified machine language.
 
-Software tools needed: web browser and the C++ compiler, g++ and a graphical editor, such as gEdit.
+Software tools needed: web browser and a graphical editor, such as gEdit.
+
+References:
+
+*   [WeMIPS Emulator](http://rivoire.cs.sonoma.edu/cs351/wemips/)
+*   [U Idaho reference sheet](http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html)
+*   [Setia's slides](https://cs.gmu.edu/~setia/cs365-S02/class3.pdf)
+*   [Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)
 
 ### In-class Quiz
 
-During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab1.html) for details on using Blackboard).
+During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab_01.html) for details on using Blackboard).
 
-### Using gcc
+### Simplified Machine Language
 
-We will be using the 'Gnu Compiler Collection' (aka 'Gnu C Compiler'), or gcc, for our C++ programs. Originally designed for C programs, it was extended to include C++ programs and is one of the most common compilers for C/C++. The command, [g++](https://gcc.gnu.org/onlinedocs/gcc/Invoking-G_002b_002b.html) calls gcc and automatically specifies the C++ library and treats all files as C++ (instead of the default as C files).
+In today's lab, we will explore a programming language that is very "low level" in that it maps very closely to the actual commands that are used by the computer's processor.
 
-For C/C++ programs, we will do the following steps, at the command line:
+We will use an emulator, [WeMIPS](http://rivoire.cs.sonoma.edu/cs351/wemips/), to emulate what a machine-level language would do for a popular class of computer processors, MIPS. Processors with MIPS are a Reduced Instructor Set Computer (RISC), meaning they have fewer different types of instructions that the processor knows (and thus fewer that have to be implemented, leading to faster processors).
 
-*   gedit hello.cpp
-    
-      
-    Opens the gEdit editor with the file hello.cpp
-*   g++ hello.cpp -o hello
-    
-      
-    Compiles hello.cpp and store the executable in the ouput file hello
-*   ./hello
-    
-      
-    Runs the executable file, hello
+Let's start by looking at a program that will print "Hello World":
 
-### Hello World
+![](mipsHello.png)
 
-Let's write our first program that will say "Hello, World!". You can copy or type the program below into a editor window (either launch gEdit from the command line or open via the menu). Text after the '//' is a comment (just like the '#' in Python). You should keep the first 3 lines of comments for gradescope:
+If you would like to follow along, using the [emulator](http://rivoire.cs.sonoma.edu/cs351/wemips/), open the window and toggle the "Show/Hide Demos" button and then click on the "Hello World" demo.
 
-//Name:  Your name here
-//Date:  November 2017
-//My first program in C++
+Just as we did with PythonTutor, we can "step" or go through the code line-by-line to see what it does:
 
-#include <iostream>  //The built-in library for input/output
-using namespace std; //The names of standard definitions
+*   The first line is a comment. Like in Python, everything after a '#' on a line is ignored by the simulator.
+*   The next line says to add -13 to $sp, which stands for the stack pointer. The stack is a region of memory where we can store information (it is very common-- more details in future computer science courses).  
+    We are using 13, because to allow enough room to store the message "Hello World" (plus a null character to signal the end of the string).
+*   The next line, SB $t0, 0($sp) moves the number we stored to the register $t0 to the stack pointer address (with 0 offset). Since it is moving a byte of information, SB stands for "Store Byte".
+*   We repeat with each letter in our message, loading it to register $t0 and then moving the contents of that register to the next empty memory location. This contninues until the entire message is loaded.
+*   Next, we place 4 into the register $t0. That register is used to tell the simulator what type of system call we would like to make. 4 is used for printing strings.
+*   Next, we place the location of the start of our message in $a0 (that's where the system looks for the location of the string to print).
+*   Lastly, we call syscall. Since we have loaded 4 into $t0, it will print whatever string starts at the memory location in $a0.
+*   If the messages are not displaying, toggle to the "Log". You will see the message in green on the stack.
 
-int main ()          //C++ programs all have a main() function
-{
-  cout << "Hello, World!";  
-                     //Print "Hello, World!" to the terminal
-  return 0;          //Standard way to end function 
-}
+Try changing the program in the WeMIPS window to print out "Mihi cura futuri". Once it does, copy the program into a text window:
 
-Let's go through line-by-line:
+    #YOUR NAME HERE
+    #My first MIPS program that prints: Mihi cura futuri
 
-*   //Name:  Your name here
-    //Date:  November 2017
-    //My first program in C++
-    
-    These three lines are comments, containing information about the program.
-*   #include <iostream>  //The built-in library for input/output
-    using namespace std; //The names of standard definitions
-    
-    These two lines include commands that allow you to print to the screen and read input that the user has entered, using standard names and defintions. The #include statement is similar in functionality to the import statements in Python.
-*   int main ()          //C++ programs all have a main() function
-    
-    Code in C++ programs occurs in functions. Each program is expected to have a main() function that is called (invoked) when the program is run. The int before the function name is what type of data is returned when the function ends. In this case, the function will return an int or integer value.
-*   {
-    
-    C++ uses the curly brackets ('{' and '}') to indicate blocks of code, instead of indenting. Indenting code is considered good style, but you have more freedom to decide how much to indent versus Python. For function definitions and multiple lines of code in a block, the use of the brackets is required.
-*     cout << "Hello, World!";  
-                         //Print "Hello, World!" to the terminal
-    
-    cout << is used for printing to the terminal. Note that, as a general rule, command line in C++ ends in a semi-colon.
-*     return 0;          //Standard way to end function 
-    
-    When this function ends, it returns the integer 0, a common value for a program ending normally.
-*   }
-    
-    The closing bracket for the definition of the function, main(). All opening brackets must have a matching closing bracket.
+    ... put your machine language program here ....
 
-Once you have it typed in, try compiling the program:
+and see the [Programming Problem List](assignments.html).
 
-g++ hello.cpp -o hello
+#### Loops in Machine Language
 
-When it returns without an error, you can run it by typing:
+To create loops in our machine language, we use two additional instructions:
 
-./hello
+*   `BEQ` or "Branch When Equal" which, when two values are equal, lets you go to a different part of the program (which you specify), and
+*   `J` or "Jump" which always go to a different part of the program, and is incredibly useful for setting up loops.
 
-When it compiles, and runs correctly (i.e. printing "Hello, World!" to the screen), see the [Programming Problem List](ps.html).
+Here is a sample of setting up loops in the MIPS machine language (you can copy it into the emulator to step through the code):
 
-### Simple I/O & Variables in C++
+    #Sample program that loops from 10 down to 0
+    ADDI $s0, $zero, 10 #set s0 to 10
+    ADDI $s1, $zero, 1  #use to decrement counter, $s0
+    AGAIN: SUB $s0, $s0, $s1
+    BEQ $s0, $zero, DONE
+    J AGAIN
+    DONE:  #To break out of the loop
 
-Unlike Python, you must declare variables before using them. For example, if you want a variable to hold the year, you would first declare it (i.e. request space for it):
+Here's a translation of the code into pseudocode:
 
-int year;
+1.  Set `$s0` to 10.
+2.  Set `$s1` to 1.
+3.  Subtract `$s1` from `$s0` and store result in `$s0` (i.e. `$s0 = $s0 - $s1`).
+4.  If `$s0` equals 0, go to line 6.
+5.  Else, go back to Line 3 and repeat.
+6.  Program ends here.
 
-//Another C++ program, demonstrating variables
-#include <iostream>
-using namespace std;
+This program counts down from 10 to 0. How could you modify it to count from 1 to 10? When you have it running, see the [Programming Problem List](assignments.html).
 
-int main () 
-{
-  int year;
-  cout << "Enter a number: ";
-  cin >> year;
-  cout << "Hello" << year << "!!\\n\\n";
-  return 0; 
-}
+(Hint: store the value 10 in a register to use in the comparison)
 
-For each variable, we need to specify what type of variable it is (whole number, real number, character, etc.) before we use it. For real numbers, we can use float, as in Python. We will introduce more data types next lab, but if you are curious, here is a [chart](https://www.tutorialspoint.com/cplusplus/cpp_variable_types.htm) of some common types. Our program above:
+#### Challenge
 
-*   Declares the variable year to be a whole number (integer).
-*   Asks the user for a number.
-*   Reads in the number the user entered and stores it in year.
-*   Prints out a messsage with that number.
-*   Ends the function (returning 0).
+![](mipsInteractive.png)
 
-To summarize: cin is for input to the program, and cout is output from the program.
+As a final machine language challenge, modify the "Interactive" demo (the first lines are in the image above) to use the _current year_ when computing the ages. When you have it running, see the [Programming Problem List](ps.html).
 
-How could you modify this program to ask the user for a real (floating-point number)? Most arithmetic works the same in C++ as it does in Python. With this in mind, modify the above program to convert kilometers to miles. (Hint: see the [Programming Problem List](ps.html).)
+### A Note on Grading Simplified Machine Language
 
-### Definite Loops in C++
+We're going to use just a few commands that move values into registers (physical memory locations), do simple arithmetic, and jump (or branch) to another part of our program.
 
-C++ has for-loops that have are similar, but not identical to for-loops in Python. The basic format is:
+Explain stack pointer
 
-int i;
+To print out numbers from 10 to 0, loop with sub, plus print
 
-for (i = 0; i < 10; i++)
-{
-   command1
-   command2
-   ...
-}
+There are many commands that can be used in the full MIPS machine language. We are working with only a few of them:
 
-For the loop above,
+> `ADD`, `ADDI`, `ADDIU`, `BEQ`, `J`, `SB`, `SUB`, `SUBU`, `syscall`
 
-1.  The variable i first takes on the value 0.
-2.  Next, check if the variable i < 10?
-3.  If no, leave the loop.
-4.  If yes, do the commands in the body of the loop.
-5.  Add one to the variable i (abbreviated: i++).
-6.  Go to #2.
+As such, the grading script only recognizes the commands above and the '#' style comments. Anything else will confuse it greatly.
 
-Let's use a loop to write "Hello, World!" to the screen 10 times:
+The general format for simplified machine language programs is:
 
-//Name:  Your name here
-//Date:  November 2017
-//Prints "Hello, World!" 10 times, using a loop
+#YOUR NAME HERE
+#My first MIPS program that prints: Mihi cura futuri
 
-#include <iostream>            
-using namespace std; 
+Code goes here...
 
-int main ()          
-{
-  int i;   //The index variable for the loop
-  
-  //Loop will repeat 10 times:
-  for (i = 0; i < 10; i++)
-  {
-    cout << "Hello, World!\\n";  
-  }       
-  return 0;          
-}
+To submit your program for grading:
 
-Note that cout doesn't automatically put output on a newline, so, we need to include the new line character ("\\n") at the end of the line.
-
-Follow the steps above to compile and run your program.
-
-Next, modify the program so that it will print 10 times: the Hunter College motto ("Mihi cura futuri" which translates to: "The care of the future is mine") .
-
-When it compiles, and runs correctly, see the [Programming Problem List](ps.html).
-
-### More Useful Unix Commands
-
-Now that we are creating executable programs, it's often useful to figure out what kind of file is in your directory. For example, if you were not sure what type of file, hello is, you could type at the command line:
-
-file hello
-
-file is the name of the command, and hello is the input parameter to the command. If you would like to find out the type of several files, you could type each separately:
-
-file hello hello.cpp hello.py
-
-(assuming all of those files are your working directory).
-
-Or, you could use a "wildcard" that matches all files whose names match a pattern. For example:
-
-file hello*
-
-will tell you all type of every file that begins with the hello followed by 0 or more other characters.
-
-Similarly,
-
-file *
-
-will tell you all type of every file in your current working directory.
-
-It's often useful to figure out which version of a program you're using (since there could be multiple copies on your computer. To do that, there's a command, which that will tell which version of the program it's using by default. For example,
-
-which g++
-
-will show the location of the g++ program.
-
-### Getting g++ on Your Machine
-
-We are using the gcc compiler for the C/C++ programming languages, which is freely available. We include directions below for downloading on your machine:
-
-*   **Linux**: To get the most up-to-date version, first type:
-    
-    sudo apt-get update
-    
-    to update the package list, and then
-    
-    sudo apt-get install g++
-    
-    to install g++ and associated libraries and packages.
-*   **Mac OSX**: The compiler comes with the Mac's XCode tools package. You can download XCode from the [Mac App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12).
-*   **Windows**: A popular distribution of gcc for Windows is [Minimalist GNU for Windows](http://www.mingw.org) (see [GNU List](https://gcc.gnu.org/install/binaries.html) for other distributions).
-*   **On-line**: The on-line version used in lecture is [OnlineGDB](https://www.onlinegdb.com).
+*   Run and debug your program using [WeMIPS](http://rivoire.cs.sonoma.edu/cs351/wemips/)
+*   Once it works, copy the text into a text editor and save. Make sure your file has a comment at the top with your name.
+*   Drag and drop the text file onto the [gradescope](http://gradescope.com) page for the given program.
 
 ### What's Next?
 
-If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](ps.html) has problem descriptions, suggested reading, and due dates next to each problem.
+If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](assignments.html) has problem descriptions, suggested reading, and due dates next to each problem.
