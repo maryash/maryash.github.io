@@ -124,4 +124,4 @@ To submit your program for grading:
 
 ### What's Next?
 
-If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](assignments.html) has problem descriptions, suggested reading, and due dates next to each problem.
+You must now complete programs 49 and 50 in the [Programming Problem List](assignments.html).  They are due tomorrow at 1pm!  
