@@ -131,7 +131,7 @@ C++ has for-loops that have are similar, but not identical to for-loops in Pytho
 For the loop above,
 
 1.  The variable i first takes on the value 0.
-2.  Next, check if the variable i < 10?
+2.  Next, check if the variable `i < 10`?
 3.  If no, leave the loop.
 4.  If yes, do the commands in the body of the loop.
 5.  Add one to the variable i (abbreviated: i++).
