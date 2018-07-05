@@ -8,13 +8,17 @@ title: LAB 12
 
 ---  
   	
+LAB 12
+---
+
+  	
 Today's lab will introduce C++.
 
 Software tools needed: web browser and the C++ compiler, g++ and a graphical editor, such as gEdit.
 
 ### In-class Quiz
 
-During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab1.html) for details on using Blackboard).
+During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab_01.html) for details on using Blackboard).
 
 ### Using gcc
 
