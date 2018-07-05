@@ -864,8 +864,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 
         Hint: You may find the following table useful:  
   
-![](https://stjohn.github.io/teaching/csci127/f17/ASCIITable.png)  
-
+        ![](https://stjohn.github.io/teaching/csci127/f17/ASCIITable.png)
 
 50.  **Due Date: 11 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
 
