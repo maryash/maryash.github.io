@@ -63,7 +63,7 @@ will ask the user for their age, and continue asking until the number they enter
 
 ### Finding Errors
 
-Finding, and fixing errors, in your programs is a very useful skill. Let's look at a program with lots of errors and work through how to identify the issues and fix them. If you cloned the repo above, you will have a copy of [errors.py](https://github.com/maryash/127/errors.py) on your computer (you can also download from the webpage). When loaded into IDLE, it does not run:
+Finding, and fixing errors, in your programs is a very useful skill. Let's look at a program with lots of errors and work through how to identify the issues and fix them. If you cloned the repo above, you will have a copy of [errors.py](errors.py) on your computer. When loaded into IDLE, it does not run:
 
     # errors.py is based on dateconvert2.py from Chapter 5 of the Zelle textbook
     #     Converts day month and year numbers into two date formats
