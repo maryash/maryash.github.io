@@ -43,8 +43,7 @@ Let's write our first program that will say "Hello, World!". You can copy or typ
 
 	int main ()          //C++ programs all have a main() function
 	{
-	  cout << "Hello, World!";  
-			     //Print "Hello, World!" to the terminal
+	  cout << "Hello, World!";    //Print "Hello, World!" to the terminal
 	  return 0;          //Standard way to end function 
 	}
 
@@ -52,30 +51,34 @@ Let's go through line-by-line:
 
 	//Name:  Your name here
 	//Date:  November 2017
-	//My first program in C++
-   These three lines are comments, containing information about the program.  
+	//My first program in C++  
+	
+These three lines are comments, containing information about the program.  
    
 	#include <iostream>  //The built-in library for input/output
-	using namespace std; //The names of standard definitions
-   These two lines include commands that allow you to print to the screen and read input that the user has entered, using standard names and defintions. The #include statement is similar in functionality to the import statements in Python.  
+	using namespace std; //The names of standard definitions  
+	
+These two lines include commands that allow you to print to the screen and read input that the user has entered, using standard names and defintions. The #include statement is similar in functionality to the import statements in Python.  
    
 	int main ()          //C++ programs all have a main() function
     
-   Code in C++ programs occurs in functions. Each program is expected to have a main() function that is called (invoked) when the program is run. The int before the function name is what type of data is returned when the function ends. In this case, the function will return an int or integer value.  
+Code in C++ programs occurs in functions. Each program is expected to have a main() function that is called (invoked) when the program is run. The int before the function name is what type of data is returned when the function ends. In this case, the function will return an int or integer value.  
    
 	{
     
-   C++ uses the curly brackets ('{' and '}') to indicate blocks of code, instead of indenting. Indenting code is considered good style, but you have more freedom to decide how much to indent versus Python. For function definitions and multiple lines of code in a block, the use of the brackets is required.  
+C++ uses the curly brackets ('{' and '}') to indicate blocks of code, instead of indenting. Indenting code is considered good style, but you have more freedom to decide how much to indent versus Python. For function definitions and multiple lines of code in a block, the use of the brackets is required.  
    
 	cout << "Hello, World!";  
 	//Print "Hello, World!" to the terminal
     
-`  cout <<` is used for printing to the terminal. Note that, as a general rule, command line in C++ ends in a semi-colon.  
+`cout <<` is used for printing to the terminal. Note that, as a general rule, command line in C++ ends in a semi-colon.  
 
-	return 0;          //Standard way to end function 
-   When this function ends, it returns the integer 0, a common value for a program ending normally.  
+	return 0;          //Standard way to end function  
+
+When this function ends, it returns the integer 0, a common value for a program ending normally.  
    
-	}
+	}  
+	
 The closing bracket for the definition of the function, `main()`. All opening brackets must have a matching closing bracket.
 
 Once you have it typed in, try compiling the program:
@@ -92,8 +95,6 @@ When it compiles, and runs correctly (i.e. printing `Hello, World!` to the scree
 
 Unlike Python, you must declare variables before using them. For example, if you want a variable to hold the year, you would first declare it (i.e. request space for it):
 
-	int year;
-
 	//Another C++ program, demonstrating variables
 	#include <iostream>
 	using namespace std;
@@ -103,7 +104,7 @@ Unlike Python, you must declare variables before using them. For example, if you
 	  int year;
 	  cout << "Enter a number: ";
 	  cin >> year;
-	  cout << "Hello" << year << "!!\\n\\n";
+	  cout << "Hello" << year << "!!\n\n";
 	  return 0; 
 	}
 
@@ -157,7 +158,7 @@ Let's use a loop to write "Hello, World!" to the screen 10 times:
 	  //Loop will repeat 10 times:
 	  for (i = 0; i < 10; i++)
 	  {
-	    cout << "Hello, World!\\n";  
+	    cout << "Hello, World!\n";  
 	  }       
 	  return 0;          
 	}
