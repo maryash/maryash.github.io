@@ -74,11 +74,11 @@ Here's a sample program. Read through it first, and guess what it does:
 	  cin >> num;
 	  if (num % 2 == 0)
 	  {
-	    cout << "Even number!\\n";
+	    cout << "Even number!\n";
 	  }
 	  else
 	  {
-	    cout << "Odd number\\n";
+	    cout << "Odd number\n";
 	  }
 	  return 0;
 	}
@@ -98,11 +98,11 @@ Much of the arithmetic carries over from Python. The code above uses the modulo,
     
 	if (num % 2 == 0)
 	{
-	    cout << "Even number!\\n";
+	    cout << "Even number!\n";
 	}
 	else
 	{
-	    cout << "Odd number\\n";
+	    cout << "Odd number\n";
 	}
     
 Note that C++ uses the curly brackets for blocks of code, but that it is 'good programming style' to indent your code to make it readable. As a rule of thumb, if you would be required to indent in Python, you should indent in C++ (not required for the code to run, but 'good style').
