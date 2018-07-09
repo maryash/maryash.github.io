@@ -944,17 +944,17 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
         A sample run:
 
             Enter a number:  6
-            \*\*\*\*\*\*
-            \*\*\*\*\*
-            \*\*\*\*
-            \*\*\*
+            ******
+            *****
+            ****
+            ***
             **
             *
 
         Another sample run:
 
             Enter a number:  3
-            \*\*\*
+            ***
             **
             *
     
