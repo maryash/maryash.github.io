@@ -96,7 +96,7 @@ If you have it setup, this is all you need for most of the course.
 ### Each program should be submitted through Gradescope.
 
 Write separate programs for each part of the assignment.    
-Submit only the source code (.cpp) files, not the compiled executables.    
+Submit only the source code `.cpp` files, not the compiled executables.    
 Each program should start with a comment that contains your name and a short program description, for example:
 
 ```c++
