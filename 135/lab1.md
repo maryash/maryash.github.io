@@ -1,7 +1,8 @@
 
-<title>CSCI 136 - Lab 1</title>
-
-
+---
+layout: myDefault
+title: LAB 1
+---
 
 # Lab 1. Introduction to Linux and C++.
 
