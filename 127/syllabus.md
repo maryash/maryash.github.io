@@ -60,8 +60,8 @@ All incidents of cheating will be reported to the Office of Student Conduct in t
 ***Grades:*** The grading for the course will be based on:
 
 *   Problem Sets: 30%
-*   Quizzes: up to 28% (2% per quiz-- if miss a quiz, or do better on the final exam than on a quiz, your grade on the final will replace that quiz grade).
-*   Participation (Lecture Slips): up to 7% (0.5% per lecture slip-- your grade on the final will replace that missing or incomplete lecture slips).
+*   Quizzes: up to 28%
+*   Participation (Lecture Slips): up to 7%
 *   Final Exam: 35% (up to 70% if you do better on the final exam than on quizzes and lecture slips).
 
 ***You must take and pass the final to pass the course.***
