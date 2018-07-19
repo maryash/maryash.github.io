@@ -1,10 +1,10 @@
----
-layout: myDefault
-title: Genady Maryash, Hunter College
----
-Hello there.
-
-
+---  
+layout: myDefault  
+title: Genady Maryash, Hunter College  
+---  
+Hello there.  
+  
+  
 # Lab 1. Introduction to Linux and C++.
 
 _**Making sure that all have Gradescope invite (and resend to the ones that do not using their EMPLID and email that they actually use), and have everyone create their Gradescope account.**_
