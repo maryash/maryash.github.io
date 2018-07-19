@@ -1,6 +1,6 @@
 
 ---
-layout: myDefault
+layout: ../myDefault
 title: LAB 1
 ---
 
