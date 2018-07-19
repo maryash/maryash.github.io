@@ -1,8 +1,9 @@
+---
+layout: myDefault
+title: Genady Maryash, Hunter College
+---
+Hello there.
 
----
-layout: ../myDefault
-title: LAB 1
----
 
 # Lab 1. Introduction to Linux and C++.
 
