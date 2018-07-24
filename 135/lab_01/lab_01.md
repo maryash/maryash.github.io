@@ -44,7 +44,7 @@ A brief summary:
 
 Try this [Unix tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html) for more information.
 
-## Compiling C++ code with `g++`.
+## Compiling C++ code with `g++`.  
 
 Consider the following program that asks for your current age and
 prints it on the screen:
