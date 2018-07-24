@@ -1,6 +1,6 @@
 ---  
 layout: myDefault  
-title: Genady Maryash, Hunter College  
+title: LAB 1  
 ---  
   
   
