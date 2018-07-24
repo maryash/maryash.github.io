@@ -1,7 +1,14 @@
+<link rel="stylesheet" href="../css/style.css">  
+<link rel="stylesheet" href="../css/normalize.css"> 
+<link rel="stylesheet" href="../css/syntax.css"> 
+<link rel="import" href="../template/header1.html">
+<link rel="import" href="../template/header2.html">
+<link rel="import" href="../template/footer.html">    
+
 ---  
 layout: myDefault  
 title: LAB 1  
----  
+---      
   
   
 # Lab 1. Introduction to Linux and C++.
