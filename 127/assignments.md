@@ -7,25 +7,12 @@ title: PROGRAMMING ASSIGNMENTS
 <span style="line-height:0.1; font-family:Arial; font-size:21.8px">Hunter College &nbsp; City University of New York</span> 
 
 ---  
-
-#### !!! <span style="color:red">THE LAST LECTURE</span> WILL TAKE PLACE ON TUESDAY JULY 10 AT NORMAL TIME <span style="color:red">IN HUNTER WEST 714</span> !!!  
-#### !!! <span style="color:red">THE 2 HOUR FINAL EXAM</span> WILL TAKE PLACE ON WEDNESDAY JULY 11 AT 1:30PM <span style="color:red">IN HUNTER NORTH 603</span> !!!  
-#### Please make appropriate arrangements!!!  
----  
   
-**LAB AND TUTOR HOURS:**  
+### Lab and Tutor Hours:  
+There is a dedicated computer laboratory for this course at HUNTER NORTH 1001E.  It is the same lab where you have your recitation sessions!  It is staffed with tutors, who are there to help you.  Please take advantage of it.  
+MONDAYS and WEDNESDAYS from 9:30am to 6:00pm  
+TUESDAYS and THURSDAYS from 3:00PM to 6:00PM  
 
-**There is a dedicated computer laboratory for this course at HUNTER NORTH 1001E.**  
-**It is the same lab where you have your recitation sessions!**   
-
-**It is staffed with tutors, who are there to help you!** 
-
-**MONDAYS and WEDNESDAYS from 9:30am to 6:00pm**  
-**TUESDAYS and THURSDAYS from 3:00PM to 6:00PM**  
-
-**Please take advantage of it!**  
-  
----
 
 ### Programming Problem List  
 
@@ -46,7 +33,6 @@ title: PROGRAMMING ASSIGNMENTS
 *   For more information on using [gradescope](http://www.gradescope.com), see the [first lab](lab1.html).
 *   While you are encouraged to work with others, **all work submitted must be your own.** As a rule of thumb, **you must do your own typing**. If it is not from the book or class webpage and you did not type it, it is plagiarism. For the first incident, your grade will be a 0 for the assignment (even for cases where you typed the program but others submitted it as their own). For the second incident of cheating or plagiarism, your grade will be a 0 for the homework component of the grade (30% of your overall grade). For the third incident, you will fail the class. We report all incidents to the Office of Student Affairs.
 *   Learning programming is like learning a foreign language: you will learn more (with less work) if you practice every day. Some of the programs below are easy; some will take more time. Set aside a block of time every day to work on programming. If you complete the program for that day, go on to the next with your remaining time.
-    
 
 * * *
 
