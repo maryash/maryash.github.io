@@ -10,24 +10,7 @@ title: SYLLABUS
 
 ### Syllabus
 
-#### !!! <span style="color:red">THE LAST LECTURE</span> WILL TAKE PLACE ON TUESDAY JULY 10 AT NORMAL TIME <span style="color:red">IN HUNTER WEST 714</span> !!!  
-#### !!! <span style="color:red">THE 2 HOUR FINAL EXAM</span> WILL TAKE PLACE ON WEDNESDAY JULY 11 AT 1:30PM <span style="color:red">IN HUNTER NORTH 603</span> !!!  
-#### Please make appropriate arrangements!!! 
-
 ---  
-  
-**LAB AND TUTOR HOURS:**  
-
-**There is a dedicated computer laboratory for this course at HUNTER NORTH 1001E.**  
-**It is the same lab where you have your recitation sessions!**   
-
-**It is staffed with tutors, who are there to help you!** 
-
-**MONDAYS and WEDNESDAYS from 9:30am to 6:00pm**  
-**TUESDAYS and THURSDAYS from 3:00PM to 6:00PM**  
-
-**Please take advantage of it!**  
-  
   
 #### General Information
 
@@ -85,7 +68,12 @@ Additional readings and tutorials are available on the course webpage.
 
 ***Computer Access:*** Part of this course will use university computer laboratories. These machines are for work related to this course only and a code of conduct applies to computer use in the department and on-campus. Misusing university computers could result in losing your computer access for the rest of the term, making it exceedingly difficult to complete this course.
 
-***Tutoring:*** The CSci 127 course has a dedicated laboratory, 1001E North, and a staff of undergraduate teaching assistants to provide tutoring and assistance with the course.
+***Tutoring:*** The CSci 127 course has a dedicated laboratory, 1001E North, and a staff of undergraduate teaching assistants to provide tutoring and assistance with the course.  
+
+***Lab and Tutor Hours:***  
+There is a dedicated computer laboratory for this course at HUNTER NORTH 1001E.  It is the same lab where you have your recitation sessions!  It is staffed with tutors, who are there to help you.  Please take advantage of it.  
+MONDAYS and WEDNESDAYS from 9:30am to 6:00pm  
+TUESDAYS and THURSDAYS from 3:00PM to 6:00PM  
 
 ***Accommodating Disabilities:*** In compliance with the American Disability Act of 1990 (ADA) and with Section 504 of the Rehabilitation Act of 1973, Hunter College is committed to ensuring educational parity and accommodations for all students with documented disabilities and/or medical conditions. It is recommended that all students with documented disabilities (Emotional, Medical, Physical, and/or Learning) consult the Office of AccessABILITY, located in Room E1214B, to secure necessary academic accommodations. For further information and assistance, please call: (212) 772- 4857 or (212) 650-3230.
 
