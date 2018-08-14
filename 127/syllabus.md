@@ -84,7 +84,7 @@ TUESDAYS and THURSDAYS from 3:00PM to 6:00PM
 
 #### Course Objectives
 
->The successful student will be prepared with competencies and knowledge required for subsequent courses required for the Computer Science Major or Minor. At the end of the course, students should:  
+The successful student will be prepared with competencies and knowledge required for subsequent courses required for the Computer Science Major or Minor. At the end of the course, students should:
 1.  be able to design and implement a computer program in Python of realistic complexity that includes functions, list/array data structures, user and file I/O, loops and conditionals.
 2.  be able to design and implement a simple C++ program using command line tools in a Linux environment, including navigating the Linux file system.
 3.  understand the basic architecture of a digital computer to the extent that they can write a simple machine language program for a virtual architecture.
