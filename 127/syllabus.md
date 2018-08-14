@@ -78,14 +78,13 @@ TUESDAYS and THURSDAYS from 3:00PM to 6:00PM
 >***Accommodating Disabilities:*** In compliance with the American Disability Act of 1990 (ADA) and with Section 504 of the Rehabilitation Act of 1973, Hunter College is committed to ensuring educational parity and accommodations for all students with documented disabilities and/or medical conditions. It is recommended that all students with documented disabilities (Emotional, Medical, Physical, and/or Learning) consult the Office of AccessABILITY, located in Room E1214B, to secure necessary academic accommodations. For further information and assistance, please call: (212) 772- 4857 or (212) 650-3230.
 
 >***Hunter College Policy on Sexual Misconduct:*** In compliance with the CUNY Policy on Sexual Misconduct, Hunter College reaffirms the prohibition of any sexual misconduct, which includes sexual violence, sexual harassment, and gender-based harassment retaliation against students, employees, or visitors, as well as certain intimate relationships. Students who have experienced any form of sexual violence on or off campus (including CUNY-sponsored trips and events) are entitled to the rights outlined in the Bill of Rights for Hunter College.
-*   Sexual Violence: Students are strongly encouraged to immediately report the incident by calling 911, contacting NYPD Special Victims Division Hotline (646-610-7272) or their local police precinct, or contacting the College's Public Safety Office (212-772-4444).
-*   All Other Forms of Sexual Misconduct: Students are also encouraged to contact the College's Title IX Campus Coordinator, Dean John Rose (jtrose@hunter.cuny.edu or 212-650-3262) or Colleen Barry (colleen.barry@hunter.cuny.edu or 212-772-4534) and seek complimentary services through the Counseling and Wellness Services Office, Hunter East 1123.
-See [CUNY Policy on Sexual Misconduct Link](http://www.cuny.edu/about/administration/offices/la/Policy-on-Sexual-).
+>*   Sexual Violence: Students are strongly encouraged to immediately report the incident by calling 911, contacting NYPD Special Victims Division Hotline (646-610-7272) or their local police precinct, or contacting the College's Public Safety Office (212-772-4444).
+>*   All Other Forms of Sexual Misconduct: Students are also encouraged to contact the College's Title IX Campus Coordinator, Dean John Rose (jtrose@hunter.cuny.edu or 212-650-3262) or Colleen Barry (colleen.barry@hunter.cuny.edu or 212-772-4534) and seek complimentary services through the Counseling and Wellness Services Office, Hunter East 1123.  
+>See [CUNY Policy on Sexual Misconduct Link](http://www.cuny.edu/about/administration/offices/la/Policy-on-Sexual-).
 
 #### Course Objectives
 
-The successful student will be prepared with competencies and knowledge required for subsequent courses required for the Computer Science Major or Minor. At the end of the course, students should:
-
+>The successful student will be prepared with competencies and knowledge required for subsequent courses required for the Computer Science Major or Minor. At the end of the course, students should:  
 1.  be able to design and implement a computer program in Python of realistic complexity that includes functions, list/array data structures, user and file I/O, loops and conditionals.
 2.  be able to design and implement a simple C++ program using command line tools in a Linux environment, including navigating the Linux file system.
 3.  understand the basic architecture of a digital computer to the extent that they can write a simple machine language program for a virtual architecture.
