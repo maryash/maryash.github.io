@@ -325,8 +325,7 @@ legend {
   color: inherit; /* 2 */
   display: table; /* 1 */
   max-width: 100%; /* 1 */
-  padding: 5px; /* 3 */
-  border: 1px; 
+  padding: 0px; /* 3 */
   white-space: normal; /* 1 */
 }
 
@@ -472,9 +471,7 @@ img.centered {
     float: none!important;
 }
 .highlight table td { padding: 5px; }
-.highlight table td { margin: 5px; }
-.highlight table td { border: 1px; }
-.highlight table pre { margin: 5px; }
+.highlight table pre { margin: 0px; }
 .highlight .cm {
   color: #999988;
   font-style: italic;
