@@ -20,6 +20,11 @@ tr:nth-child(odd) {background-color: #ffffff;}
 ### [<span style="font-family:Arial">CSCI 135 &nbsp; Analysis & Design I</span>](../135_2018_fall.html)  
 <span style="line-height:0.1; font-family:Arial; font-size:21.8px">Hunter College &nbsp; City University of New York</span>  
   
+---  	
+MAIN COURSE PAGE  
+
+---  
+  
 Mondays 12:45 - 2:45 PM Hunter North 1001C.  
 Instructor: Genady Maryash (gmaryash@hunter.cuny.edu)  
 Office hours: Mondays 9:30 – 11:30 PM in Hunter North 1090-D.
