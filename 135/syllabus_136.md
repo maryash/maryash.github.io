@@ -17,11 +17,11 @@ tr:nth-child(even) {background-color: #fafafa;}
 tr:nth-child(odd) {background-color: #ffffff;}
 </style>
  
-### [<span style="font-family:Arial">CSCI 135 &nbsp; Analysis & Design I</span>](../135_2018_fall.html)  
+### [<span style="font-family:Arial">CSCI 136 &nbsp; Analysis & Design I</span>](../135_2018_fall.html)  
 <span style="line-height:0.1; font-family:Arial; font-size:21.8px">Hunter College &nbsp; City University of New York</span>  
   
 ---  	
-MAIN COURSE PAGE  
+CSCI 136 SYLLABUS  
 
 ---  
   
