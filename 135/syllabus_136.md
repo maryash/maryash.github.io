@@ -1,6 +1,6 @@
-Fridays 1:10 - 3:00 PM Hunter North 1001C.  
+Mondays 12:45 - 2:45 PM Hunter North 1001C.  
 Instructor: Genady Maryash (gmaryash@hunter.cuny.edu)  
-Office hours: Wednesdays 12:00 – 2:00 PM in Hunter North 1001B.
+Office hours: Mondays 9:30 – 11:30 PM in Hunter North 1090-D.
 
 This course provides a ’first step’ towards the following department’s learning goals:  
 – Have a deep practical knowledge of one widely used programming language.  
@@ -8,7 +8,7 @@ This course provides a ’first step’ towards the following department’s lea
 – Be able to apply principles of design and analysis in creating substantial programs and have experience working in teams on projects of moderately realistic scope.
 
 TEXT  
-Same as CSCI 135 Walter Savitch, Absolute C++, 6th Edition, ISBN 0-13-397078-7
+Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText/loose-leaf bundle. Purchase at the negotiated discounted price of $47.95 through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html)  
 
 You may also use any other less expensive print or electronic edition, as long as you can find corresponding topics on different pages.
 
