@@ -1,6 +1,6 @@
 ---
 layout: myDefault 
-title: MAIN COURSE PAGE 
+title: CSCI 136 SYLLABUS 
 ---
 
 <style>  
@@ -15,20 +15,45 @@ table, td, th {
 }
 tr:nth-child(even) {background-color: #fafafa;}
 tr:nth-child(odd) {background-color: #ffffff;}
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
 </style>
- 
-### [<span style="font-family:Arial">CSCI 136 &nbsp; Analysis & Design I</span>](../135_2018_fall.html)  
-<span style="line-height:0.1; font-family:Arial; font-size:21.8px">Hunter College &nbsp; City University of New York</span>  
+  
+[<span style="font-family:Arial; font-size:28.9px">CSCI 135 / 136 &nbsp; Analysis & Design I</span>](../135_2018_fall.html)  
+<span style="line-height:0.1; font-family:Arial; font-size:24px">Hunter College &nbsp; City University of New York</span>  
   
 ---  	
+
 CSCI 136 SYLLABUS  
 
----  
+ Sections | Time | Instructor | E-mail 
+ :---: | :---: | :---: | :---: 
+ 136.01 Lab | Mo 12:45-2:35PM HN1001C | Genady Maryash | gmaryash@hunter.cuny.edu 
+ 136.02 Lab | We 8:10-10:00AM HN1001C | Subhadarshi Panda | spanda@gradcenter.cuny.edu 
+ 136.03 Lab | Tu 2:10-4:00PM HN1001C | Gwenael Gatto | ggatto2@gmail.com 
+ 136.04 Lab | We 10:10-12:00PM HN1001C | Subhadarshi Panda | spanda@gradcenter.cuny.edu 
+ 136.06 Lab | We 2:10-4:00PM HN1001C | Minh Nguyen | mn1233@hunter.cuny.edu 
+ 136.07 Lab | We 12:10-2:00PM HN1001C | Minh Nguyen | mn1233@hunter.cuny.edu 
+ 136.08 Lab | Th 12:45-2:35PM HN1001C | Gwenael Gatto | ggatto2@gmail.com 
+ 136.09 Lab | Th 7:00-8:50PM HN1001C | Abdul Khan | rafae015@gmail.com 
   
-Mondays 1 2:45 - 2:45 PM Hunter North 1001C.  
-Instructor: Genady Maryash (gmaryash@hunter.cuny.edu)  
-Office hours: Mondays 9:30 – 11:30 PM in Hunter North 1090-D.
-
 This course provides a ’first step’ towards the following department’s learning goals:  
 * Have a deep practical knowledge of one widely used programming language.  
 * Be experienced in working in at least two widely used operating system environments.  
