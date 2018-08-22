@@ -30,9 +30,10 @@ Instructor: Genady Maryash (gmaryash@hunter.cuny.edu)
 Office hours: Mondays 9:30 – 11:30 PM in Hunter North 1090-D.
 
 This course provides a ’first step’ towards the following department’s learning goals:  
-– Have a deep practical knowledge of one widely used programming language.  
-– Be experienced in working in at least two widely used operating system environments.  
-– Be able to apply principles of design and analysis in creating substantial programs and have experience working in teams on projects of moderately realistic scope.
+
+* Have a deep practical knowledge of one widely used programming language.  
+* Be experienced in working in at least two widely used operating system environments.  
+* Be able to apply principles of design and analysis in creating substantial programs and have experience working in teams on projects of moderately realistic scope.  
 
 TEXT  
 Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText/loose-leaf bundle. Purchase at the negotiated discounted price of $47.95 through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html)  
