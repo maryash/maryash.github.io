@@ -25,7 +25,7 @@ CSCI 136 SYLLABUS
 
 ---  
   
-Mondays 12:45 - 2:45 PM Hunter North 1001C.  
+Mondays 1 2:45 - 2:45 PM Hunter North 1001C.  
 Instructor: Genady Maryash (gmaryash@hunter.cuny.edu)  
 Office hours: Mondays 9:30 – 11:30 PM in Hunter North 1090-D.
 
