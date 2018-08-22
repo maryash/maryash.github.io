@@ -30,7 +30,6 @@ Instructor: Genady Maryash (gmaryash@hunter.cuny.edu)
 Office hours: Mondays 9:30 – 11:30 PM in Hunter North 1090-D.
 
 This course provides a ’first step’ towards the following department’s learning goals:  
-
 * Have a deep practical knowledge of one widely used programming language.  
 * Be experienced in working in at least two widely used operating system environments.  
 * Be able to apply principles of design and analysis in creating substantial programs and have experience working in teams on projects of moderately realistic scope.  
