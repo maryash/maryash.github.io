@@ -47,7 +47,7 @@ Office hours: Mondays 9:30 – 11:00 PM in Hunter North 1090-D.
 
 Pre-/Co-requisites:
 The prerequisite is CSCI 127 or instructor’s permission. At the very least, you should have written, compiled, and
-run a greater than one page long program containing iteration (while/for) and selection (if) statements.
+run a greater than one page long program containing iteration `while`, `for` and selection `if` statements.
 CSCI 136 is a co-requisite, and you will receive a 0 in 135 if you don’t take 136. If you have already passed 136,
 you must contact me before the 2nd class, so that you can be added to a BlackBoard section and your work can be
 graded.
