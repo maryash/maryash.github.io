@@ -42,11 +42,6 @@ a:active {
 LAB 13  
 ---  
 
-### [<span style="font-family:Arial">CSCI 127 &nbsp; Introduction to Computer Science</span>](../127_2018_summer.html)  
-<span style="line-height:0.1; font-family:Arial; font-size:21.8px">Hunter College &nbsp; City University of New York</span> 
-
----  
-
 Today's lab will introduce C++.
 
 Software tools needed: web browser and the C++ compiler, gcc and a graphical editor, such as gEdit.
