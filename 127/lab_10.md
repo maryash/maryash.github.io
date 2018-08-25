@@ -1,15 +1,46 @@
 ---
-layout: myDefault
-title: LAB 10
----
-
-### [<span style="font-family:Arial">CSCI 127 &nbsp; Introduction to Computer Science</span>](../127_2018_summer.html)  
-<span style="line-height:0.1; font-family:Arial; font-size:21.8px">Hunter College &nbsp; City University of New York</span> 
-
+layout: myDefault 
+title: LAB 10  
 ---  
-  	
-LAB 10
+<style>  
+table {
+    border-collapse: collapse;
+}
+table, td, th {
+    text-align: left;
+    padding: 8px;
+    padding-bottom: 6px;
+    border: 1px solid #dee1e4;
+}
+tr:nth-child(even) {background-color: #fafafa;}
+tr:nth-child(odd) {background-color: #ffffff;}
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+</style>  
+[<span style="font-family:Arial; font-size:23.5px">CSCI 127 &nbsp; Introduction to Computer Science</span><br/>
+<span style="line-height:0.1; font-family:Arial; font-size:24px">Hunter College &nbsp; City University of New York</span>](2018_summer.html)  
+  
 ---
+
+LAB 10  
+---  
 
 Today's lab will focus on random numbers, indefinite loops, and finding errors.
 
