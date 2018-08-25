@@ -37,7 +37,7 @@ a:active {
 [<span style="font-family:Arial; font-size:23.5px">CSCI 127 &nbsp; Introduction to Computer Science</span><br/>
 <span style="line-height:0.1; font-family:Arial; font-size:24px">Hunter College &nbsp; City University of New York</span>](2018_summer.html)  
 ---  
-LAB 1
+LAB 1  
 ---
 
 Today's lab will focus on using the gradescope & Blackboard systems and simple programs in Python.
