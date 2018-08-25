@@ -1,8 +1,7 @@
 ---
 layout: myDefault 
 title: LAB 2  
----
-
+---  
 <style>  
 table {
     border-collapse: collapse;
@@ -34,14 +33,14 @@ a:hover {
 a:active {
     text-decoration: none;
 }
-</style>
-  
+</style>  
 [<span style="font-family:Arial; font-size:23.5px">CSCI 127 &nbsp; Introduction to Computer Science</span><br/>
-<span style="line-height:0.1; font-family:Arial; font-size:24px">Hunter College &nbsp; City University of New York</span>](2018_summer.html)    
+<span style="line-height:0.1; font-family:Arial; font-size:24px">Hunter College &nbsp; City University of New York</span>](2018_summer.html)  
   
----   	
-LAB 2
 ---
+
+LAB 2  
+---  
 
 Today's lab will introduce strings and lists in Python.
 
