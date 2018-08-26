@@ -53,6 +53,10 @@ The prerequisite is CSCI 127 or instructor’s permission. At the very least, yo
 TEXT  
 Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText/loose-leaf bundle. Purchase at the negotiated discounted price of $47.95 through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html)  
   
+TUTORING 
+There are dedicated computer labs for this course (HUNTER NORTH 1001C, 1000E, and 1000B) staffed with tutors, who are there to help you.  Please take advantage of it.  You can ask for help with labs, projects, and general course material 
+Monday through Fridays from 9:30 AM to 9:30 PM  
+
 SOFTWARE  
 You may use 1001C (in CSCI 136) or 1001B to do your work for this course. The standard Linux/Unix/MacOS C++ compiler is g++. If you wish to use a home computer, there are several free Linux OSs which you can install for dual-booting with Windows, including http://www.ubuntu.com . If you want a Linux-style environment for windows that doesn’t require installing Linux, http://cygwin.com is an alternative.  
 
@@ -70,11 +74,9 @@ C: You understand all basic C++ concepts, but have trouble implementing a comple
 F: You do not understand basic C++ concepts, or are unable to implement programs.  
   
 DEPARTMENT LEARNING GOALS  
-• Have a deep practical knowledge of one widely used programming language  
-
-• Be experienced in working in at least two widely used operating system environments  
-
-• Be able to apply principles of design and analysis in creating substantial programs and have experience working
+- Have a deep practical knowledge of one widely used programming language  
+- Be experienced in working in at least two widely used operating system environments  
+- Be able to apply principles of design and analysis in creating substantial programs and have experience working
 in teams on projects of moderately realistic scope  
   
 HOW TO LEARN  
@@ -85,30 +87,34 @@ HOW TO LEARN
 • There will be three programming projects. By far, the main cause for an unsatisfactory final grade is falling behind on the projects. Exams are largely based on the programming projects. If you don’t do the projects, on time, you will almost certainly not pass the exams.  
   
 QUESTIONS  
-Ask many in lecture!  Outside of lecture our 136 instructor is the first point of contact for any questions.  Questions may also be asked on Piazza, office hours, or to your 136 instructor (especially for those needing hands-on assistance). The beginning of each 136 class is also devoted to answering questions.  The department also offers tutoring (in the Tutoring Center).  
+Ask many in lecture!  Outside of lecture go to the tutoring labs.  The department hired additional tutors especially for students taking this course.  Your CSCI 136 instructor is the first point of contact for any questions that a tutor cannot answer.  The beginning of each 136 lab is also devoted to answering questions.  
 
 THIS COURSE IS...  
-• An introduction to software development, using the C++ programming language. Software development is a skill involving understanding the problem being modeled, as well as expressing a solution using a programming language. Thus, it has both conceptual and technical components. The successful student will be able to clearly and logically transform a problem, while being comfortable with C++ to express the transformed problem. 
+• An introduction to software development, using the C++ programming language. Software development is a skill involving understanding the problem being modeled, as well as expressing a solution using a programming language. Thus, it has both conceptual and technical components. A successful student will be able to clearly and logically transform a problem, while being comfortable with C++ to express the transformed problem. 
 
 • A preparation for further courses in computer science. This course comprises the ABCs of computer science, and you’re not allowed to forget it anymore than you can forget the alphabet after kindergarten. Students who expect to take more advanced courses in computer science need to go beyond “understanding” the material presented in this course – they need to master it.  
 
-• Time consuming, very, very time consuming. Any programming course takes up a lot of a student’s time. In addition to the time spent in class, most students will need to spend between 10 and 20 hours a week at a computer. That makes for a total of 15-25 hours a week.  
-
-• Will require you to dedicate JUST FOR THIS COURSE 15-25 hours a week of sitting in front of a computer actually writing and debugging programs, no kidding!
+• Time consuming, very, very time consuming. Any programming course takes up a lot of a student’s time. In addition to the time spent in class, most students will need to spend between 10 and 20 hours a week at a computer. That makes for a total of 15-25 hours a week actually writing and debugging programs, no kidding!  
 
 THIS COURSE IS NOT...  
-• An introduction to computers in general. We will not cover: Linux, networks, databases, etc. This course teaches a specialized skill – programming – and only programming. You should already possess basic computer skills such as compiling simple computer programs, editing files, manipulating files, etc.  
+• An introduction to computers in general. We will not cover: operating systems, networks, databases, etc. This course teaches a specialized skill – programming – and only programming. You should already possess basic computer skills such as compiling simple computer programs, editing files, manipulating files, etc.  
 
 • An overview of the C++ language. C++ is a huge language with a lot of highly technical details. We will cover the fundamentals of C++, but the focus is on designing algorithms and solving problems.  
 
-• A good idea to take if you are working full time and taking a full course load, or, for any other reason(s) you don’t have a lot of free time to devote to CSCI 135. Although much of the material isn’t especially difficult, it usually requires many, many hours to master (see above). Be honest with yourself. Make sure this course is for you, – now – at this point in your academic life. If you would like to discuss the time requirements further please feel free to come talk with me.  
+• A good idea to take if you are working full time and taking a full course load, or, for any other reason(s) you don’t have a lot of free time to devote to CSCI 135. The course material requires many, many hours to master (see above). Be honest with yourself. Make sure this course is for you now at this point in your academic life. If you would like to discuss the time requirements further please feel free to come talk with me.  
 
-Bulletin Board:
-You should check the Blackboard ( http://bb.hunter.cuny.edu ) sites for both 135 and 136 regularly, since all class material will be posted there. We will use Piazza ( https://piazza.com/hunter.cuny/spring2018/csci13500/home ) for class discussion. Please make sure you have configured BlackBoard to use your preferred email address (your Hunter email address, by default), since you are responsible for any email I might send there.  
+MAIN COURSE PAGE (THIS WEB PAGE)  
+You should check this page regularly, since **all** class materials will be gradually posted here.  
 
-• I ask that all cell phones be put away in class. • All course material (including lectures, solutions, etc) is owned by me and protected by copyright. You may use material for yourself, but any other use (including posting on websites, whether free or not) is illegal without my express written permission.  
+BLACKBOARD  
+Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default), since you are responsible for any email I might send there.  You will also need to be able to connect to BlackBoard from some device (a phone, a tablet, or a laptop) during lectures: lecture quizzes will be administered through BlackBoard.  
 
-• We take academic honesty very seriously, and any violation results in an automatic F for the course along with sanctions in accordance with Hunter College procedure. 
+GRADESCOPE  
+You will submitt all labs and projects electronicaly through Gradescope.  You will see your grades (including exam grades) on Gradescope as well.  An invite email was sent to you before the first lecture.  If you have not received it, ask your lab instructor to send you another one right away: you will neeed to email them your full name, EMPL ID, and a **good** email address.  
+
+Other than during lecture quizzes I ask that all cell phones be put away in class. 
+
+We take academic honesty very seriously, and any violation results in an automatic F for the course along with sanctions in accordance with Hunter College procedure. 
 
 • Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. The College is committed to enforcing the CUNY Policy on Academic Integrity and will pursue cases of academic dishonesty according to the Hunter College Academic Integrity Procedures.  
 
