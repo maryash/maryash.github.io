@@ -59,10 +59,10 @@ This course provides a ’first step’ towards the following department’s lea
 * Be experienced in working in at least two widely used operating system environments.  
 * Be able to apply principles of design and analysis in creating substantial programs and have experience working in teams on projects of moderately realistic scope.  
 
-###TEXT  
+TEXT  
 Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText/loose-leaf bundle. Purchase at the negotiated discounted price of $47.95 through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html)  
 
-###LABS  
+LABS  
 Lab Assignments will be posted on Blackboard. You submit your solutions through Gradescope. The assignments will be posted in advance, approximately at four hours before the class starts. Please read the tasks before you come to class. All labs should be finished and submitted by the end of the class. The instructor can extend the submission deadline by up to 24 hours if they find it necessary.
 
 GRADES  
