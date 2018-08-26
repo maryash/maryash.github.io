@@ -51,7 +51,7 @@ PRE- AND CO-REQUISITES
 The prerequisite is CSCI 127 or instructor’s permission. At the very least, you should have written, compiled, and run a greater than one page long program containing iteration `while`, `for` and selection `if` statements.  CSCI 136 is a co-requisite, and you will receive a 0 in 135 if you don’t take 136. If you have already passed 136, you must contact me before the 2nd class, so that you can be added to a BlackBoard section and your work can be graded.  
 
 TEXT  
-Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText/loose-leaf bundle. Purchase at the negotiated discounted price of $47.95 through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html)  
+Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText/loose-leaf bundle. Purchase at the negotiated discounted price of $47.95 through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html)  This is a new text – different from the previous semester.  It is also better and less expensive.  The eText portion contains useful interactive features.  
   
 [MAIN COURSE PAGE](2018_fall.html){:target="_blank"}  
 You should check this page regularly, since **all** class materials will be gradually posted here.  
