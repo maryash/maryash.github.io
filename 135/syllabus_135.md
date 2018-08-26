@@ -40,12 +40,13 @@ a:active {
 <span style="line-height:0.1; font-family:Arial; font-size:24px">Hunter College &nbsp; City University of New York</span>](2018_fall.html)   
   
 ---  	
-CSCI 135 SOFTWARE ANALYSIS & DESIGN I FALL 2018
-Sections 01 & CSH1: Monday, Thursday 8:10 – 9:25 AM, Hunter North 118
-Instructor: Genady Maryash (gmaryash@hunter.cuny.edu)
-Office hours: Hunter North 1090-D  
-Mondays 9:25 – 10:10 PM, 2:35 - 3:05
-Thursdays 9:25 – 10:10 PM  
+CSCI 135 SOFTWARE ANALYSIS & DESIGN I FALL 2018  
+Sections 01 & CSH1: Monday, Thursday 8:10 – 9:25 AM, Hunter North 118  
+
+INSTRUCTOR Genady Maryash (gmaryash@hunter.cuny.edu)  
+
+OFFICE HOURS  
+Hunter North 1090-D on Mondays 9:25 – 10:10 PM, 2:35 - 3:05 and Thursdays 9:25 – 10:10 PM  
   
 PRE- AND CO-REQUISITES  
 The prerequisite is CSCI 127 or instructor’s permission. At the very least, you should have written, compiled, and run a greater than one page long program containing iteration `while`, `for` and selection `if` statements.  CSCI 136 is a co-requisite, and you will receive a 0 in 135 if you don’t take 136. If you have already passed 136, you must contact me before the 2nd class, so that you can be added to a BlackBoard section and your work can be graded.  
