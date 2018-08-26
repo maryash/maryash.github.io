@@ -43,62 +43,46 @@ a:active {
 CSCI 135 SOFTWARE ANALYSIS & DESIGN I FALL 2018
 Sections 01 & CSH1: Monday, Thursday 8:10 – 9:25 AM, Hunter North 118
 Instructor: Genady Maryash (gmaryash@hunter.cuny.edu)
-Office hours: Mondays 9:30 – 11:00 PM in Hunter North 1090-D.
+Office hours: Hunter North 1090-D  
+Mondays 9:25 – 10:10 PM, 2:35 - 3:05
+Thursdays 9:25 – 10:10 PM  
+  
+Pre-/co-requisites:  
+The prerequisite is CSCI 127 or instructor’s permission. At the very least, you should have written, compiled, and run a greater than one page long program containing iteration `while`, `for` and selection `if` statements.  CSCI 136 is a co-requisite, and you will receive a 0 in 135 if you don’t take 136. If you have already passed 136, you must contact me before the 2nd class, so that you can be added to a BlackBoard section and your work can be graded.  
 
-Pre-/Co-requisites:
-The prerequisite is CSCI 127 or instructor’s permission. At the very least, you should have written, compiled, and
-run a greater than one page long program containing iteration `while`, `for` and selection `if` statements.
-CSCI 136 is a co-requisite, and you will receive a 0 in 135 if you don’t take 136. If you have already passed 136,
-you must contact me before the 2nd class, so that you can be added to a BlackBoard section and your work can be
-graded.
-Text:
-Walter Savitch, Absolute C++, 6th Edition, ISBN 0-13-397078-7
-You may also use any other less expensive print or electronic edition, as long as you can find corresponding topics
-on different pages. You are responsible for all the material on the reading list whether or not covered in lectures.
-Software:
-You may use 1001C (in CSCI 136) or 1001B to do your work for this course. The standard Linux/Unix/MacOS
-C++ compiler is g++. If you wish to use a home computer, there are several free Linux OSs which you can install
-for dual-booting with Windows, including http://www.ubuntu.com . If you want a Linux-style environment for
-windows that doesn’t require installing Linux, http://cygwin.com is an alternative.
-Grading:
-5% Mid-lecture quizzes. Two lowest quiz scores will be dropped to account for unavoidable absences.
-25% Programming Projects (3-4) This may not seem like a lot, but beware that many exam questions will be
-based directly on these programs.
-35% each Midterm and Final Exams.
-Your 136 instructor also acts as your grader and is thus the first point of contact for any grading questions.
+TEXT  
+Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText/loose-leaf bundle. Purchase at the negotiated discounted price of $47.95 through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html)  
+  
+SOFTWARE  
+You may use 1001C (in CSCI 136) or 1001B to do your work for this course. The standard Linux/Unix/MacOS C++ compiler is g++. If you wish to use a home computer, there are several free Linux OSs which you can install for dual-booting with Windows, including http://www.ubuntu.com . If you want a Linux-style environment for windows that doesn’t require installing Linux, http://cygwin.com is an alternative.  
+
+GRADING  
+5% mid-lecture quizzes. 5% programming project I, 10% each projects II and III (this may not seem like a lot, but beware that many exam questions will be based directly on these programs), 30% midterm exam and 40% final exams. However, if you do better on the final exam than on the midterm, your final exam grade will count for 70% of your final grade.  
+  
+Late and make up policy:  
+There will be absolutely no late project or lab submissions.  No exceptions.  
+Make-up exams will not be given under any circumstances.  No exceptions.  
+  
 Guidelines for final grades:
-A: You understand the concepts well enough to successfully understand and solve a problem by implementing a
-C++ program on your own.
+A: You understand the concepts well enough to successfully understand and solve a problem by implementing a C++ program on your own.
 B: Between the above and below.
-C: You understand all basic C++ concepts, but have trouble implementing a complete correct program.
-F: You do not understand basic C++ concepts, or are unable to implement programs.
-Late Policy:
-Late project submissions lose 10% of the grade per 24 hours of lateness – proportionally to the time passed .
-Make-up exams are not given under any circumstances.Department’s learning goals:
-* Have a deep practical knowledge of one widely used programming language
-* Be experienced in working in at least two widely used operating system environments
+C: You understand all basic C++ concepts, but have trouble implementing a complete correct program.  
+F: You do not understand basic C++ concepts, or are unable to implement programs.  
+  
+Department’s learning goals:  
+* Have a deep practical knowledge of one widely used programming language  
+* Be experienced in working in at least two widely used operating system environments  
 * Be able to apply principles of design and analysis in creating substantial programs and have experience working
-in teams on projects of moderately realistic scope.
-How to Learn:
-* From the beginning, students will be expected to work independently outside of the lectures. There will be very
-little “hand holding” in the course – you are expected to find your way around your computer on your own . For
-example, the way each of you will save your work, compile/debug an assignment, etc. will vary. These techniques
-will not be covered in class. Get started NOW (especially if you are going to install your own compiler and/or OS
-software). The first programming project is due soon.
-* There will be many obstacles to overcome, both in absorbing the many examples of C++ programs and in doing
-the assignments. It is difficult to understand software development concepts without sitting in front of a computer
-many hours a week actually writing and debugging programs. Attacking the obstacles head on, outside of class
-time, in front of a computer, is the key to success. Keep trying, if your program is not working, try again. Still not
-working? Try again. And again. And again. When it comes to programming, the learning is in the doing. There is
-no substitute for spending many hours in front of a computer – trying and failing, trying and failing, trying and
-failing – until you finally get your program up and running correctly. Every time you fail, you actually learn quite
-a bit, and to pass the course, you will repeat this trying-failing cycle many times, every week of every month
-during the entire semester. There are virtually no “slow points” during the semester.
-* There will be approximately three programming projects. By far, the main cause for an unsatisfactory final
-grade is falling behind on the assignments. Exams are largely based on the programming assignments. If you
-don’t do the assignments, on time, you will almost certainly not pass the tests.
-Questions:
-Ask many in class! Questions may also be asked on Piazza, office hours, or to your 136 instructor (especially for
+in teams on projects of moderately realistic scope  
+  
+How to Learn:  
+* From the beginning, you will be expected to work independently outside of the lectures. There will be very
+little “hand holding” in the course – you are expected to find your way around your computer on your own – the way each of you will save your work, compile/debug assignments, etc.  Get started NOW – especially if you are going to install your own compiler and/or operating system. The first programming project is due soon.
+* There will be many obstacles to overcome, both in absorbing the material and in doing the assignments. It is difficult to understand software development concepts without sitting in front of a computer many hours a week actually writing and debugging programs. Attacking the obstacles head on, outside of class time, in front of a computer, is the key to success. Keep trying, if your program is not working, try again. Still not working? Try again. And again. And again. When it comes to programming, the learning is in the doing. There is no substitute for spending many hours in front of a computer – trying and failing, trying and failing, trying and failing – until you finally get your program up and running correctly. Every time you fail, you actually learn quite a bit, and to pass the course, you will repeat this trying-failing cycle many times, every week during the entire semester. There are no “slow points” during the semester.  
+* There will be three programming projects. By far, the main cause for an unsatisfactory final grade is falling behind on the projects. Exams are largely based on the programming projects. If you don’t do the projects, on time, you will almost certainly not pass the exams.  
+  
+Questions:  
+Ask many in lecture!  Outside of lecture our 136 instructor is the first point of contact for any questions.  Questions may also be asked on Piazza, office hours, or to your 136 instructor (especially for
 those needing hands-on assistance). The beginning of each 136 class is also devoted to answering questions.
 The department also offers tutoring (in the Tutoring Center).
 Course Goals:
@@ -156,4 +140,7 @@ rights outlined in the Bill of Rights for Hunter College.
 Campus Coordinator, Dean John Rose (jtrose@hunter.cuny.edu or 212-650-3262) or Colleen Barry
 (colleen.barry@hunter.cuny.edu or 212-772-4534) and seek complimentary services through the Counseling and
 Wellness Services Office, Hunter East 1123. CUNY Policy on Sexual Misconduct Link:
-http://www.cuny.edu/about/administration/offices/la/Policy-on-SexualMisconduct-12-1-14-with-links.pdf
+http://www.cuny.edu/about/administration/offices/la/Policy-on-SexualMisconduct-12-1-14-with-links.pdf  
+
+
+
