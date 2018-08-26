@@ -47,15 +47,27 @@ Office hours: Hunter North 1090-D
 Mondays 9:25 – 10:10 PM, 2:35 - 3:05
 Thursdays 9:25 – 10:10 PM  
   
-PRE-/CO-REQUISITES  
+PRE- AND CO-REQUISITES  
 The prerequisite is CSCI 127 or instructor’s permission. At the very least, you should have written, compiled, and run a greater than one page long program containing iteration `while`, `for` and selection `if` statements.  CSCI 136 is a co-requisite, and you will receive a 0 in 135 if you don’t take 136. If you have already passed 136, you must contact me before the 2nd class, so that you can be added to a BlackBoard section and your work can be graded.  
 
 TEXT  
 Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText/loose-leaf bundle. Purchase at the negotiated discounted price of $47.95 through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html)  
   
-TUTORING 
+[MAIN COURSE PAGE](2018_fall.html){:target="_blank"}  
+You should check this page regularly, since **all** class materials will be gradually posted here.  
+
+TUTORING  
 There are dedicated computer labs for this course (HUNTER NORTH 1001C, 1000E, and 1000B) staffed with tutors, who are there to help you.  Please take advantage of it.  You can ask for help with labs, projects, and general course material 
 Monday through Fridays from 9:30 AM to 9:30 PM  
+
+QUESTIONS  
+Ask many in lecture!  Outside of lecture go to the tutoring labs.  The department hired additional tutors especially for students taking this course.  Your CSCI 136 instructor is the first point of contact for any questions that a tutor cannot answer.  The beginning of each 136 lab is also devoted to answering questions.  
+
+GRADESCOPE  
+You will submit all labs and projects electronicaly through Gradescope.  You will see your grades (including exam grades) on Gradescope as well.  An invite email was sent to you before the first lecture.  If you have not received it, ask your lab instructor to send you another one right away: you will neeed to email them your full name, EMPL ID, and a **good** email address.  
+
+BLACKBOARD  
+Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default), since you are responsible for any email I might send there.  You will also need to be able to connect to BlackBoard from some device (a phone, a tablet, or a laptop) during lectures: lecture quizzes will be administered through BlackBoard.  
 
 SOFTWARE  
 You may use 1001C (in CSCI 136) or 1001B to do your work for this course. The standard Linux/Unix/MacOS C++ compiler is g++. If you wish to use a home computer, there are several free Linux OSs which you can install for dual-booting with Windows, including http://www.ubuntu.com . If you want a Linux-style environment for windows that doesn’t require installing Linux, http://cygwin.com is an alternative.  
@@ -86,9 +98,6 @@ HOW TO LEARN
 
 • There will be three programming projects. By far, the main cause for an unsatisfactory final grade is falling behind on the projects. Exams are largely based on the programming projects. If you don’t do the projects, on time, you will almost certainly not pass the exams.  
   
-QUESTIONS  
-Ask many in lecture!  Outside of lecture go to the tutoring labs.  The department hired additional tutors especially for students taking this course.  Your CSCI 136 instructor is the first point of contact for any questions that a tutor cannot answer.  The beginning of each 136 lab is also devoted to answering questions.  
-
 THIS COURSE IS...  
 • An introduction to software development, using the C++ programming language. Software development is a skill involving understanding the problem being modeled, as well as expressing a solution using a programming language. Thus, it has both conceptual and technical components. A successful student will be able to clearly and logically transform a problem, while being comfortable with C++ to express the transformed problem. 
 
@@ -103,22 +112,12 @@ THIS COURSE IS NOT...
 
 • A good idea to take if you are working full time and taking a full course load, or, for any other reason(s) you don’t have a lot of free time to devote to CSCI 135. The course material requires many, many hours to master (see above). Be honest with yourself. Make sure this course is for you now at this point in your academic life. If you would like to discuss the time requirements further please feel free to come talk with me.  
 
-MAIN COURSE PAGE (THIS WEB PAGE)  
-You should check this page regularly, since **all** class materials will be gradually posted here.  
-
-BLACKBOARD  
-Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default), since you are responsible for any email I might send there.  You will also need to be able to connect to BlackBoard from some device (a phone, a tablet, or a laptop) during lectures: lecture quizzes will be administered through BlackBoard.  
-
-GRADESCOPE  
-You will submitt all labs and projects electronicaly through Gradescope.  You will see your grades (including exam grades) on Gradescope as well.  An invite email was sent to you before the first lecture.  If you have not received it, ask your lab instructor to send you another one right away: you will neeed to email them your full name, EMPL ID, and a **good** email address.  
-
 Other than during lecture quizzes I ask that all cell phones be put away in class. 
 
 We take academic honesty very seriously, and any violation results in an automatic F for the course along with sanctions in accordance with Hunter College procedure. 
+Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. The College is committed to enforcing the CUNY Policy on Academic Integrity and will pursue cases of academic dishonesty according to the Hunter College Academic Integrity Procedures.  
 
-• Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. The College is committed to enforcing the CUNY Policy on Academic Integrity and will pursue cases of academic dishonesty according to the Hunter College Academic Integrity Procedures.  
-
-• In compliance with the American Disability Act of 1990 (ADA) and with Section 504 of the Rehabilitation Act of 1973, Hunter College is committed to ensuring educational parity and accommodations for all students with documented disabilities and/or medical conditions. It is recommended that all students with documented disabilities (Emotional, Medical, Physical and/ or Learning) consult the Office of Accessability located in Room E1124 to secure necessary academic accommodations. For further information and assistance please call (212-772-4857)/TTY (212-650-3230).  
+In compliance with the American Disability Act of 1990 (ADA) and with Section 504 of the Rehabilitation Act of 1973, Hunter College is committed to ensuring educational parity and accommodations for all students with documented disabilities and/or medical conditions. It is recommended that all students with documented disabilities (Emotional, Medical, Physical and/ or Learning) consult the Office of Accessability located in Room E1124 to secure necessary academic accommodations. For further information and assistance please call (212-772-4857)/TTY (212-650-3230).  
 
 In compliance with the CUNY Policy on Sexual Misconduct, Hunter College reaffirms the prohibition of any sexual misconduct, which includes sexual violence, sexual harassment, and gender-based harassment retaliation against students, employees, or visitors, as well as certain intimate relationships. Students who have experienced any form of sexual violence on or off campus (including CUNY-sponsored trips and events) are entitled to the rights outlined in the Bill of Rights for Hunter College.  
 a. Sexual Violence: Students are strongly encouraged to immediately report the incident by calling 911, contacting NYPD Special Victims Division Hotline (646-610-7272) or their local police precinct, or contacting the College's Public Safety Office (212-772-4444).  
