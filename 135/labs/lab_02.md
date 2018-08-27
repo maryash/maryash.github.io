@@ -1,6 +1,8 @@
-
-<title>CSCI 136 - Lab 2</title>
-
+---  
+layout: myDefault  
+title: LAB 2  
+---      
+  
 # Lab 2. Loops, Arrays, and Number Sequences.
 
 ![\[Illustration\]](https://i.imgur.com/FqNnAhM.jpg){: .centered}
