@@ -166,7 +166,7 @@ In the **modern Gregorian calendar**, a year is a *leap year* if it is divisible
 > **else if** (year is not divisible by 400) **then** (it is a common year)   
 > **else** (it is a leap year)
 
-This means that 2010, 2016, 2020, and 2040 are all leap years.  
+This means that 2012, 2016, 2020, and 2040 are all leap years.  
 However, the century years 1800, 1900, 2100, 2200, 2300 and 2500 are NOT.  
 Yet, 2000, 2400, 2800 are still leap years.  
 
