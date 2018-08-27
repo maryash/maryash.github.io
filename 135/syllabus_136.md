@@ -52,7 +52,7 @@ CSCI 136 SYLLABUS
  136.06 Lab | We 2:10-4:00PM HN1001C | Minh Nguyen | mn1233@hunter.cuny.edu 
  136.07 Lab | We 12:10-2:00PM HN1001C | Minh Nguyen | mn1233@hunter.cuny.edu 
  136.08 Lab | Th 12:45-2:35PM HN1001C | Gwenael Gatto | ggatto2@gmail.com 
- 136.09 Lab | Th 7:00-8:50PM HN1001C | Abdul Khan | rafae015@gmail.com 
+ 136.09 Lab | Th 7:00-8:50PM HN1001C | Abdul Khan | akhan4@gradcenter.cuny.edu 
   
 This course provides a ’first step’ towards the following department’s learning goals:  
 * Have a deep practical knowledge of one widely used programming language.  
