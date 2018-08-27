@@ -42,17 +42,6 @@ a:active {
 ---  	
 
 CSCI 136 SYLLABUS  
-
- Sections | Time | Instructor | E-mail 
- :---: | :---: | :---: | :---: 
- 136.01 Lab | Mo 12:45-2:35PM HN1001C | Genady Maryash | gmaryash@hunter.cuny.edu 
- 136.02 Lab | We 8:10-10:00AM HN1001C | Subhadarshi Panda | spanda@gradcenter.cuny.edu 
- 136.03 Lab | Tu 2:10-4:00PM HN1001C | Gwenael Gatto | ggatto2@gmail.com 
- 136.04 Lab | We 10:10-12:00PM HN1001C | Subhadarshi Panda | spanda@gradcenter.cuny.edu 
- 136.06 Lab | We 2:10-4:00PM HN1001C | Minh Nguyen | mn1233@hunter.cuny.edu 
- 136.07 Lab | We 12:10-2:00PM HN1001C | Minh Nguyen | mn1233@hunter.cuny.edu 
- 136.08 Lab | Th 12:45-2:35PM HN1001C | Gwenael Gatto | ggatto2@gmail.com 
- 136.09 Lab | Th 7:00-8:50PM HN1001C | Abdul Khan | akhan4@gradcenter.cuny.edu 
   
 This course provides a ’first step’ towards the following department’s learning goals:  
 * Have a deep practical knowledge of one widely used programming language.  
