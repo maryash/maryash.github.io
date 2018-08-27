@@ -75,7 +75,7 @@ SOFTWARE
 You may use 1001C (in CSCI 136) or 1001B to do your work for this course. The standard Linux/Unix/MacOS C++ compiler is g++. If you wish to use a home computer, there are several free Linux OSs which you can install for dual-booting with Windows, including http://www.ubuntu.com . If you want a Linux-style environment for windows that doesn’t require installing Linux, http://cygwin.com is an alternative.  
 
 GRADING  
-5% mid-lecture quizzes. 5% programming project I, 10% each projects II and III (this may not seem like a lot, but beware that many exam questions will be based directly on these programs), 30% midterm exam and 40% final exams. However, if you do better on the final exam than on the midterm, your final exam grade will count for 70% of your final grade.  
+5% mid-lecture quizzes. 10% each of the three programming projects (this may not seem like a lot, but beware that many exam questions will be based directly on these programs), 30% midterm exam and 40% final exams. However, if you do better on the final exam than on the midterm, your final exam grade will count for 70% of your final grade.  
   
 LATE AND MAKE UP POLICY  
 There will be absolutely no late project or lab submissions.  No exceptions.  
