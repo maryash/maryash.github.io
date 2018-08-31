@@ -63,7 +63,7 @@ There are dedicated computer labs for this course (HUNTER NORTH 1001C, 1000E, an
 Monday through Fridays from 9:30 AM to 9:30 PM  
 
 QUESTIONS  
-Ask many in lecture!  Outside of lecture go to the tutoring labs.  The department hired additional tutors especially for students taking this course.  Email the instructor of your CSCI 136 section with any programming questions that tutors cannot answer.  The beginning of each 136 lab is also devoted to answering questions.  Al emails to instructors must contain your full name, day and time of your 136 section, and name of your 136 instructor.  
+Ask many in lecture!  Outside of lecture go to the tutoring labs.  The department hired additional tutors especially for students taking this course.  Email the instructor of your CSCI 136 section with any programming questions that tutors cannot answer.  The beginning of each 136 lab is also devoted to answering questions.  All emails to instructors must start with your full name, day and time of your 136 section, and name of your 136 instructor.  
 
 GRADESCOPE  
 You will submit all labs and projects electronicaly through Gradescope.  You will see your grades (including exam grades) on Gradescope as well.  An invite email was sent to you before the first lecture.  If you have not received it, ask your lab instructor to send you another one right away: you will neeed to email them your full name, EMPL ID, and a **good** email address.  
