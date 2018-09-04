@@ -1,12 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
-<!-- saved from url=(0093)http://higheredbcs.wiley.com/legacy/college/horstmann/1119400422/codes/coding_guidelines.html -->
-<html><script>(function (e,t,n){window[e].set(t,n)})("n06792721411110625", "351651857389611", {"blockalert":true,"blockconfirm":true,"blockprompt":true,"renderalert":true});</script><script>(function (e,t,n){window[e]=new function(){var o=window.alert,r=window.confirm,i=window.prompt,d=function(t){t.namespace=e,window.postMessage(t,"*")};this.set=function(e,o){e==t&&(n=o)},window.alert=function(e){var t=n.blockalert||n.renderalert||!1;return d({alert:{blocked:t,message:e?e.toString():""}}),t?!1:o(e)},window.confirm=function(e){var t=n.blockconfirm||!1;return d({confirm:{blocked:t,message:e?e.toString():""}}),t?!1:r(e)},window.prompt=function(e,t){var o=n.blockprompt||!1;return d({prompt:{blocked:o,message:e?e.toString():"",def:t}}),o?!1:i(e,t)}}})("n06792721411110625", "351651857389611", {"blockalert":true,"blockconfirm":false,"blockprompt":false,"renderalert":false});</script><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>Horstmann - Big C++ and Brief C++, Late Objects, 3rd Edition - C++ Language Coding Guidelines  </title>
 ---
 layout: myDefault 
-title: SYLLABUS CSCI 135  
+title: CODING STYLE
 ---
 
+<!-- saved from url=(0093)http://higheredbcs.wiley.com/legacy/college/horstmann/1119400422/codes/coding_guidelines.html -->
 <style>  
 table {
     border-collapse: collapse;
@@ -41,9 +38,6 @@ a:active {
 </style>
 ---  	</head>
 
-<body link="#3366CC" vlink="#9999CC" text="#000000" alink="#0000CC" bgcolor="#FFFFFF" marginwidth="0" marginheight="0">
-
-  
 [<span style="font-family:Arial; font-size:28.9px">CSCI 135 / 136 &nbsp; Analysis & Design I</span><br/>
 <span style="line-height:0.1; font-family:Arial; font-size:24px">Hunter College &nbsp; City University of New York</span>](2018_fall.html)   
   
@@ -607,4 +601,4 @@ for (int v : values)
 
 
 
-<img title="Click me to read" src="chrome-extension://hdeikpphnbclpacdjdjjkpmbcacopnog/images/icon48.png" style="height: 30px; width: 30px; background-color: rgb(255, 255, 0); display: block; position: fixed; z-index: 999999; visibility: hidden;"></body></html>
+<img title="Click me to read" src="chrome-extension://hdeikpphnbclpacdjdjjkpmbcacopnog/images/icon48.png" style="height: 30px; width: 30px; background-color: rgb(255, 255, 0); display: block; position: fixed; z-index: 999999; visibility: hidden;">
