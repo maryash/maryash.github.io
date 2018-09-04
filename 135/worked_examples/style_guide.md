@@ -37,8 +37,6 @@ a:active {
 }
 </style>
 
-[<span style="font-family:Arial; font-size:28.9px">CSCI 135 / 136 &nbsp; Analysis & Design I</span><br/>
-<span style="line-height:0.1; font-family:Arial; font-size:24px">Hunter College &nbsp; City University of New York</span>](../2018_fall.html)<hr/>
 <h1>
   C++ Language Coding Guidelines
 </h1>
@@ -51,7 +49,7 @@ style guide may be modified for such use, provided that the modifications are
 clearly marked.</p>
 
 <h2>
-  <font color="#003366" face="Times, TimesNewRoman, serif">Introduction</font>
+  Introduction
 </h2>
 
 
@@ -103,7 +101,7 @@ clearly marked.</p>
 
 
 <h2>
-   <font color="#003366" face="Times, TimesNewRoman, serif">Source Files</font>
+   Source Files
 </h2>
 
 
@@ -191,7 +189,7 @@ clearly marked.</p>
 
 
 <h2>
-   <font color="#003366" face="Times, TimesNewRoman, serif">Functions</font>
+   Functions
 </h2>
 
 
@@ -261,7 +259,7 @@ clearly marked.</p>
 
 
 <h2>
-   <font color="#003366" face="Times, TimesNewRoman, serif">Local Variables </font>
+   Local Variables
 </h2>
 
 
@@ -323,7 +321,7 @@ over</p>
 
 
 <h2>
-   <font color="#003366" face="Times, TimesNewRoman, serif">Constants </font>
+   Constants
 </h2>
 
 
@@ -367,7 +365,7 @@ over</p>
 
 
 <h2>
-   <font color="#003366" face="Times, TimesNewRoman, serif">Classes </font>
+   Classes
 </h2>
 
 
@@ -391,12 +389,12 @@ over</p>
 
 
 <h2>
-   <font color="#003366" face="Times, TimesNewRoman, serif">Control Flow </font>
+   Control Flow
 </h2>
 
 
 <h3>
-   <font color="#003366" face="Times, TimesNewRoman, serif">The <tt>for</tt> Statement </font>
+   The <tt>for</tt> Statement
 </h3>
 
 
@@ -445,7 +443,7 @@ for (int v : values)
 
 
 <h3>
-   <font color="#003366" face="Times, TimesNewRoman, serif">Nonlinear Control Flow </font>
+   Nonlinear Control Flow
 </h3>
 
 
@@ -460,12 +458,12 @@ for (int v : values)
 
 
 <h2>
-   <font color="#003366" face="Times, TimesNewRoman, serif">Lexical Issues </font>
+   Lexical Issues
 </h2>
 
 
 <h3>
-  <font color="#003366" face="Times, TimesNewRoman, serif">Naming Conventions </font>
+  Naming Conventions
 </h3>
 
 
@@ -485,7 +483,7 @@ for (int v : values)
 
 
 <h3>
-   <font color="#003366" face="Times, TimesNewRoman, serif">Indentation and White Space </font>
+   Indentation and White Space
 </h3>
 
 
@@ -522,7 +520,7 @@ for (int v : values)
 
 
 <h3>
-   <font color="#003366" face="Times, TimesNewRoman, serif">Braces </font>
+   Braces
 </h3>
 
 
@@ -562,7 +560,7 @@ for (int v : values)
     </pre>
 
 <h3>
-   <font color="#003366" face="Times, TimesNewRoman, serif">Unstable Layout </font>
+   Unstable Layout
 </h3>
 
 
