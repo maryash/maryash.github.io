@@ -36,10 +36,9 @@ a:active {
     text-decoration: none;
 }
 </style>
---- 
 
 [<span style="font-family:Arial; font-size:28.9px">CSCI 135 / 136 &nbsp; Analysis & Design I</span><br/>
-<span style="line-height:0.1; font-family:Arial; font-size:24px">Hunter College &nbsp; City University of New York</span>](2018_fall.html)   
+<span style="line-height:0.1; font-family:Arial; font-size:24px">Hunter College &nbsp; City University of New York</span>](../2018_fall.html)   
   
 <h1>
   <font color="#003366" face="Times, TimesNewRoman, serif">C++ Language Coding Guidelines</font>
