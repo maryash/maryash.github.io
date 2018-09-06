@@ -1,7 +1,8 @@
-
-<title>CSCI 136 - Project 1</title>
-
-# Project 1. Streams and calculators.
+---  
+layout: myDefault  
+title: PROJECT 1  
+---      
+  # Project 1. Streams and calculators.
 
 ## Introduction: Input redirection.
 
