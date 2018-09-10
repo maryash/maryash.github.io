@@ -5,6 +5,7 @@ table {
 table, td, th {
     text-align: left;
     padding: 5px;
+    spacing: 0px;
     border: 1px solid #dee1e4;
 }
 tr:nth-child(even) {background-color: #fafafa;}
