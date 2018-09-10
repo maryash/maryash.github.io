@@ -10,7 +10,7 @@ table, td, th {
     border-style: solid;
 }
 tr:nth-child(even) {
-    background-color: #fafafa;
+    background-color: #efefef;
 }
 tr:nth-child(odd) {
     background-color: #ffffff;
