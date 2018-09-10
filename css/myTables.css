@@ -1,10 +1,10 @@
 <style type="text/css">  
-table, td, th {
+table, tr, td, th {
     border-collapse: collapse;
     text-align: left;
     padding: 5px;
     spacing: 0px;
-    border: 1px solid #000000;
+    border: 1px solid black;
 }
 tr:nth-child(even) {
     background-color: #fafafa;
