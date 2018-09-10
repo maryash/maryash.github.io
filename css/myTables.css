@@ -1,12 +1,13 @@
 <style type="text/css">  
-table, tr, td, th {
+table, td, th {
+    border-color: #dee1e4;
     border-collapse: collapse;
     text-align: left;
+    vertical-align: text-top;
     padding: 5px;
     spacing: 0px;
     border-width: 1px;
     border-style: solid;
-    border-color: #dee1e4;
 }
 tr:nth-child(even) {
     background-color: #fafafa;
