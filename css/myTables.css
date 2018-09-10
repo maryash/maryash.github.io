@@ -2,7 +2,7 @@
 table {
     border-collapse: collapse;
 }
-table, td, th {
+table, tr, td, th {
     text-align: left;
     padding: 5px;
     spacing: 0px;
