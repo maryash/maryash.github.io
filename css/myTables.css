@@ -4,7 +4,7 @@ table {
 }
 table, td, th {
     text-align: left;
-    padding: 6px;
+    padding: 5px;
     border: 1px solid #dee1e4;
 }
 tr:nth-child(even) {background-color: #fafafa;}
@@ -17,11 +17,11 @@ hr {
 }
 a:link {
     text-decoration: none;
-    color: #0000CF
+    color: #0000BF
 }
 a:visited {
     text-decoration: none;
-    color: #0000CF;
+    color: #0000BF;
 }
 a:hover {
     text-decoration: none;
