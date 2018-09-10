@@ -6,13 +6,6 @@ table, td, th {
     spacing: 0px;
     border: 1px solid #dee1e4;
 }
-th {
-    border-collapse: collapse;
-    text-align: left;
-    padding: 5px;
-    spacing: 0px;
-    border: 1px solid #dee1e4;
-}
 tr:nth-child(even) {
     border-collapse: collapse;
     text-align: left;
@@ -24,13 +17,6 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     border-collapse: collapse;
     background-color: #ffffff;
-    text-align: left;
-    padding: 5px;
-    spacing: 0px;
-    border: 1px solid #dee1e4;
-}
-td {
-    border-collapse: collapse;
     text-align: left;
     padding: 5px;
     spacing: 0px;
