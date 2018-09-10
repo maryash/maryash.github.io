@@ -9,10 +9,10 @@ table, td, th {
     border-width: 1px;
     border-style: solid;
 }
-tr:nth-child(even) {
-    background-color: #f7f7f7;
-}
 tr:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+tr:nth-child(even) {
     background-color: #ffffff;
 }
 hr {
