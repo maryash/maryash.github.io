@@ -7,20 +7,10 @@ table, td, th {
     border: 1px solid #dee1e4;
 }
 tr:nth-child(even) {
-    border-collapse: collapse;
-    text-align: left;
-    padding: 5px;
-    spacing: 0px;
-    border: 1px solid #dee1e4;
     background-color: #fafafa;
 }
 tr:nth-child(odd) {
-    border-collapse: collapse;
     background-color: #ffffff;
-    text-align: left;
-    padding: 5px;
-    spacing: 0px;
-    border: 1px solid #dee1e4;
 }
 hr {
     border: 0;
