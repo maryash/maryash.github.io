@@ -3,38 +3,7 @@ layout: myDefault
 title: SYLLABUS CSCI 135  
 ---
 
-<style>  
-table {
-    border-collapse: collapse;
-}
-table, td, th {
-    text-align: left;
-    padding: 8px;
-    padding-bottom: 6px;
-    border: 1px solid #dee1e4;
-}
-tr:nth-child(even) {background-color: #fafafa;}
-tr:nth-child(odd) {background-color: #ffffff;}
-hr.style-six {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
-a:link {
-    text-decoration: none;
-}
-a:visited {
-    text-decoration: none;
-    color: blue;
-}
-a:hover {
-    text-decoration: none;
-}
-a:active {
-    text-decoration: none;
-}
-</style>
+<link rel="stylesheet" href="../css/myTables.css">
   
 [<span style="font-family:Arial; font-size:28.9px">CSCI 135 / 136 &nbsp; Analysis & Design I</span><br/>
 <span style="line-height:0.1; font-family:Arial; font-size:24px">Hunter College &nbsp; City University of New York</span>](2018_fall.html)   
