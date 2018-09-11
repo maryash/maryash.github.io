@@ -9,8 +9,7 @@ table {
 }
 table, td, th {
     text-align: left;
-    padding: 8px;
-    padding-bottom: 6px;
+    padding: 5px;
     border: 1px solid #dee1e4;
 }
 tr:nth-child(even) {background-color: #fafafa;}
@@ -23,16 +22,17 @@ hr.style-six {
 }
 a:link {
     text-decoration: none;
+    color: #0000BF;
 }
 a:visited {
     text-decoration: none;
-    color: blue;
+    color: #0000BF;
 }
 a:hover {
-    text-decoration: none;
+    text-decoration: #0000FF;
 }
 a:active {
-    text-decoration: none;
+    text-decoration: #00007F;
 }
 </style>
   
