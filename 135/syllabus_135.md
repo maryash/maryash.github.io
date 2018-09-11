@@ -38,7 +38,7 @@ a:active {
 }
 </style>
   
-[<span style="font-family:Arial; font-size:19.1px">CSCI 135 / 136 &nbsp; Analysis & Design 1 &nbsp; &nbsp; Hunter College &nbsp; City University of New York</span>](2018_fall.html)    
+[<span style="font-family:Arial; font-size:19px">CSCI 135 / 136 &nbsp; Analysis & Design 1 &nbsp; &nbsp; Hunter College &nbsp; City University of New York</span>](2018_fall.html)    
 ---  	
 CSCI 135 SOFTWARE ANALYSIS & DESIGN 1 FALL 2018  
 Sections 01 & CSH1: Monday, Thursday 8:10 – 9:25 AM, Hunter North 118  
