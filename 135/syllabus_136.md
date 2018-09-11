@@ -29,14 +29,16 @@ a:visited {
     color: #0000BF;
 }
 a:hover {
-    text-decoration: #0000FF;
+    text-decoration: none;
+    color: #0000FF;
 }
 a:active {
-    text-decoration: #00007F;
+    text-decoration: none;
+    color: #00007F;
 }
 </style>
   
-[<span style="font-family:Arial; font-size:18px">CSCI 135 / 136 &nbsp; Analysis & Design I &nbsp; &nbsp; Hunter College &nbsp; City University of New York</span>](2018_fall.html)  
+[<span style="font-family:Arial; font-size:19.4px">CSCI 135 / 136 &nbsp; Analysis & Design I &nbsp; &nbsp; Hunter College &nbsp; City University of New York</span>](2018_fall.html)  
   
 ---  	
 
