@@ -2,7 +2,6 @@
 layout: myDefault 
 title: 135 SYLLABUS  
 ---
-
 <style>  
 table {
     border-collapse: collapse;
@@ -37,7 +36,6 @@ a:active {
     color: #00007F;
 }
 </style>
-  
 [<span style="font-family:Arial; font-size:17.2px">CSCI 135 / 136 &nbsp; Analysis & Design 1 &nbsp; &nbsp; Hunter College &nbsp; City University of New York</span>](2018_fall.html)    
 ---
 CSCI 135 SOFTWARE ANALYSIS & DESIGN 1 FALL 2018  
