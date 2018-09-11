@@ -38,10 +38,9 @@ a:active {
 }
 </style>
   
-[<span style="font-family:Arial; font-size:19.4px">CSCI 135 / 136 &nbsp; Analysis & Design I &nbsp; &nbsp; Hunter College &nbsp; City University of New York</span>](2018_fall.html)  
+[<span style="font-family:Arial; font-size:19px">CSCI 135 / 136 &nbsp; Analysis & Design I &nbsp; &nbsp; Hunter College &nbsp; City University of New York</span>](2018_fall.html)  
   
----  	
-
+  
 CSCI 136 SYLLABUS  
   
 This course provides a ’first step’ towards the following department’s learning goals:  
