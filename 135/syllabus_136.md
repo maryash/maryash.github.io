@@ -36,7 +36,7 @@ a:active {
 }
 </style>
   
-[<span style="font-family:Arial; font-size:20px">CSCI 135 / 136 &nbsp; Analysis & Design I &nbsp; &nbsp; Hunter College &nbsp; City University of New York</span>](2018_fall.html)  
+[<span style="font-family:Arial; font-size:18px">CSCI 135 / 136 &nbsp; Analysis & Design I &nbsp; &nbsp; Hunter College &nbsp; City University of New York</span>](2018_fall.html)  
   
 ---  	
 
