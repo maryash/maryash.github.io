@@ -1,6 +1,6 @@
 ---
 layout: myDefault 
-title: SYLLABUS CSCI 135  
+title: 135 SYLLABUS  
 ---
 
 <style>  
