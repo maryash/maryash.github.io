@@ -24,13 +24,13 @@ Please follow these instructions to download the dataset:
 1. Follow the link NYC Open Data [Current Reservoir Levels](https://data.cityofnewyork.us/Environment/Current-Reservoir-Levels/zkky-n5j3){:target="_blank"}.
 1. Choose the **View Data** menu option (it will reload the page).
   ![\[Illustration\]](https://i.imgur.com/bj2uhhb.png){: .centered}
-<!---  
+<!--
 1. Disable unnecessary columns. To do that:
     - Click the brown button **Manage** 
     - In the submenu **Show & Hide Columns**, unselect all columns except the first five
     - Click **Apply**
   ![\[Illustration\]](https://i.imgur.com/gSqFRIY.png){: .centered}
---->  
+-->  
 1. Filter data including only the year 2016. To do that:
     - Click the blue button **Filter**
     - In its submenu **Filter**, click **Add a New Filter Condition**
