@@ -13,7 +13,7 @@ Formed by the damming of the Esopus Creek, which eventually flows northeast and 
 Consisting of **two basins** separated by a concrete dividing weir and roadway, it **holds 122.9 billion gallons** 
 at full capacity and was placed into service in 1915.
 
-[The Ashokan](http://www.nyc.gov/html/dep/html/watershed_protection/ashokan.shtml) is one of two reservoirs in the City's Catskill Water Supply System. 
+[The Ashokan](http://www.nyc.gov/html/dep/html/watershed_protection/ashokan.shtml){:target="_blank"} is one of two reservoirs in the City's Catskill Water Supply System. 
 The other is the Schoharie, located 27 miles to the north, whose water flows into the Ashokan via the Shandaken Tunnel and the Esopus Creek. 
 Including the water it receives from the Schoharie Reservoir, the Ashokan supplies about **40% of New York City’s daily drinking water** needs in non-drought periods.
 
