@@ -21,7 +21,7 @@ Including the water it receives from the Schoharie Reservoir, the Ashokan suppli
 In this lab, we will be studying the Ashokan water levels for the year 2016. It is available from *NYC Open Data*. 
 Please follow these instructions to download the dataset:
 
-1. Follow the link NYC Open Data [Current Reservoir Levels](https://data.cityofnewyork.us/Environment/Current-Reservoir-Levels/zkky-n5j3).
+1. Follow the link NYC Open Data [Current Reservoir Levels](https://data.cityofnewyork.us/Environment/Current-Reservoir-Levels/zkky-n5j3){:target="_blank"}.
 1. Choose the **View Data** menu option (it will reload the page).
   ![\[Illustration\]](https://i.imgur.com/bj2uhhb.png){: .centered}
 1. Disable unnecessary columns. To do that:
