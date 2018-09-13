@@ -2,7 +2,6 @@
 layout: myDefault  
 title: LAB 3  
 ---      
-  
 # Lab 3. File I/O and Data Processing
 
 ![\[Ashokan Reservoir Illustration\]](https://i.imgur.com/u51pFWF.jpg){: .centered}
