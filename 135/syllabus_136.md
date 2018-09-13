@@ -37,9 +37,7 @@ a:active {
     color: #00007F;
 }
 </style>
-  
-[<span style="font-family:Arial; font-size:19.3px">CSCI 135 / 136 &nbsp; Analysis & Design I &nbsp; &nbsp; Hunter College &nbsp; City University of New York</span>](2018_fall.html)  
-  
+**[CSCI 135/136&nbsp; ANALYSIS & DESIGN 1 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2018_fall.html)**  
   
 CSCI 136 SYLLABUS  
   
