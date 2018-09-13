@@ -1,6 +1,8 @@
-
-<title>CSCI 136 - Lab 5</title>
-
+---  
+layout: myDefault  
+title: LAB 5  
+---      
+  
 # Lab 5. Functions and Prime Numbers
 
 ![](https://i.imgur.com/xCJ6OFq.jpg){: .centered}
