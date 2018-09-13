@@ -1,6 +1,8 @@
-
-<title>CSCI 136 - Lab 4</title>
-
+---  
+layout: myDefault  
+title: LAB 4  
+---      
+  
 # Lab 4. Printing Shapes
 
 ![](https://i.imgur.com/mbfkIep.gif){: .centered}
