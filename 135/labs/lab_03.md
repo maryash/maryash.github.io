@@ -74,9 +74,11 @@ After that, the file can be read line by line. The most idiomatic C++ way to rea
 
 ```c++
 while(fin >> date >> eastSt >> eastEl >> westSt >> westEl) { 
-    fin.ignore(9999, '\n');
     // this loop reads the file line-by-line
     // extracting 5 values on each iteration 
+    
+    fin.ignore(INT_MAX, '\n'); //skips to the end of line, 
+                          //ignorring the remaining columns 
 
     // for example, to print the date and East basin storage:
     cout << date << " " << eastSt << endl;
@@ -94,8 +96,9 @@ The above code is using a new function `exit` and a stream class `ifstream`. To 
 we have to include two new **headers** at the beginning of the program:
 
 ```c++
-#include <cstdlib>
 #include <fstream>
+#include <cstdlib>
+#include <climits>
 ```
 
 ## Task A
