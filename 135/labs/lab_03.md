@@ -74,6 +74,7 @@ After that, the file can be read line by line. The most idiomatic C++ way to rea
 
 ```c++
 while(fin >> date >> eastSt >> eastEl >> westSt >> westEl) { 
+    fin.ignore(9999, '\n');
     // this loop reads the file line-by-line
     // extracting 5 values on each iteration 
 
