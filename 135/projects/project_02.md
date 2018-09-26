@@ -1,7 +1,6 @@
-
 ---  
 layout: myDefault  
-title: PROJECT 1  
+title: PROJECT 2  
 ---  
 
 # Project 2. A Pronunciation Dictionary App
