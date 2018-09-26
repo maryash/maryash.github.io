@@ -1,5 +1,8 @@
 
-<title>CSCI 135 - Project 2</title>
+---  
+layout: myDefault  
+title: PROJECT 1  
+---  
 
 # Project 2. A Pronunciation Dictionary App
 
