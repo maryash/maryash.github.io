@@ -285,31 +285,6 @@ Not found
 
 ```
 
-## Phase I 
-
-### User enters a word, and the program only reports pronunciation as a list of phonemes.  Example:
-
-```
-
-> donut
-
-Pronunciation    : D OW1 N AH2 T
-
-```
-  
-  
-## Phase II
-## . . .   
-  
-## Phase III
-## . . .   
-  
-## Phase IV
-## . . .   
-  
-## Phase V
-## . . .   
-  
 ## Hint
 
 For dividing a string into words, we can give you a helper function, which receives a string argument&nbsp;`s`, and 
@@ -356,6 +331,31 @@ after splitting on the first space character, the second space is preserved in t
 If you wan to cut off that leading space, you can either write your own function for that, or actually, 
 you can call the same splitting function again on `afterSpace`.
 
+## Phase I 
+
+### User enters a word, and the program only reports pronunciation as a list of phonemes.  Example:
+
+```
+
+> donut
+
+Pronunciation    : D OW1 N AH2 T
+
+```
+  
+  
+## Phase II
+## . . .   
+  
+## Phase III
+## . . .   
+  
+## Phase IV
+## . . .   
+  
+## Phase V
+## . . .   
+  
 ## How to submit your programs
 
 ### Everything should be submitted through Gradescope.
