@@ -285,6 +285,22 @@ Not found
 
 ```
 
+## Phase I 
+
+### User enters a word, and the program only reports pronunciation as a list of phonemes.  Example:
+
+```
+
+> donut
+
+Pronunciation    : D OW1 N AH2 T
+
+```
+
+## Phase II
+  
+## . . .   
+  
 ## Hint
 
 For dividing a string into words, we can give you a helper function, which receives a string argument&nbsp;`s`, and 
