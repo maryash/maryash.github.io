@@ -301,6 +301,15 @@ Pronunciation    : D OW1 N AH2 T
 ## Phase II
 ## . . .   
   
+## Phase III
+## . . .   
+  
+## Phase IV
+## . . .   
+  
+## Phase V
+## . . .   
+  
 ## Hint
 
 For dividing a string into words, we can give you a helper function, which receives a string argument&nbsp;`s`, and 
