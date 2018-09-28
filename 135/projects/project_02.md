@@ -344,8 +344,20 @@ Pronunciation    : D OW1 N AH2 T
 ```
   
   
-## Phase II
-## . . .   
+## Phase II 
+
+### User enters a word, and the program only reports pronunciation as a list of phonemes AND a list of words that sound the same (is made up of exactly the same sequence of phonemes).  Example:
+
+```
+
+> donut
+
+Pronunciation    : D OW1 N AH2 T
+
+Identical        : DOUGHNUT
+
+```
+  
   
 ## Phase III
 ## . . .   
