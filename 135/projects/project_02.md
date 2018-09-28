@@ -346,7 +346,7 @@ Pronunciation    : D OW1 N AH2 T
   
 ## Phase II 
 
-### User enters a word &emdash; the program reports pronunciation as a list of phonemes AND a list of words that sound the same (is made up of exactly the same sequence of phonemes).  Example:
+### User enters a word &mdash; the program reports pronunciation as a list of phonemes AND a list of words that sound the same (is made up of exactly the same sequence of phonemes).  Example:
 
 ```
 
