@@ -21,7 +21,7 @@ and generally works pretty snappy, so don't judge it by its old interface.
 ## Basic debugging
 
 To debug a program, it must be compiled using the `-g` flag, 
-which tells the compiler to include appropriate debugging information in the produced executable file:
+which tells the compiler to include appropriate debugging information in the produced executable file:  
 
 ```
 g++ -g program.cpp
@@ -29,10 +29,11 @@ g++ -g program.cpp
 Then, you can run DDD:
 
 ```
-ddd a.out
+ddd a.out 
 ```
-
 Please see DDD manual for detailed information.
+
+Follow the ReadMe.txt instructions and provided .cpp files in [DB_Files.zip](DB_Files.zip).  
 
 ### Breakpoints.
 
