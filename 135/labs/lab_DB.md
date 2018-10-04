@@ -1,7 +1,9 @@
-
-<title>CSCI 136 - Lab 6</title>
-
-# Lab 6. Debugger
+---  
+layout: myDefault  
+title: DEBUGGER LAB  
+---      
+  
+# Lab on Debugger Use. 
 
 **Due:** by the end of the class, no 24 hours deadline extension.
 
