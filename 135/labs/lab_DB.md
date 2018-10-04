@@ -33,7 +33,7 @@ ddd a.out
 ```
 Please see DDD manual for detailed information.
 
-Follow the ReadMe.txt instructions and provided .cpp files in [DB_Files.zip](DB_Files.zip).  
+Follow the ReadMe.txt instructions and provided .cpp files in [DB Files.zip](DB_Files.zip)  
 
 ### Breakpoints.
 
