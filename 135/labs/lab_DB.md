@@ -3,7 +3,7 @@ layout: myDefault
 title: DEBUGGER LAB  
 ---      
   
-# Lab on Debugger Use. 
+# Lab on Debugger Use 
 
 **Due:** by the end of the class, no 24 hours deadline extension.
 
