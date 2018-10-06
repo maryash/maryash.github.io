@@ -21,9 +21,9 @@ uses a pronunciation dictionary for finding words with similar pronunciation.
 Pronunciation    : D OW1 N AH2 T
 
 Identical        : DOUGHNUT
+Replace phoneme  : DONAT DONATE
 Add phoneme      : DONUTS DONUTS' DOUGHNUTS
 Remove phoneme   : DON'T
-Replace phoneme  : DONAT DONATE
 
 ```
 
@@ -93,9 +93,9 @@ Write a program `pronounce.cpp` that
 - If the word is not found in the dictionary, print "**Not found**". Otherwise, report:
    - `Pronunciation    :` the pronunciation of the word _W_ (as given in the dictionary),
    - `Identical        :` other words from the dictionary with **the same** pronunciation as _W_,
+   - `Replace phoneme  :` words that can be obtained from _W_ by **replacing** one phoneme.
    - `Add phoneme      :` words that can be obtained from _W_ by **adding** one phoneme,
    - `Remove phoneme   :` words that can be obtained from _W_ by **removing** one phoneme,
-   - `Replace phoneme  :` words that can be obtained from _W_ by **replacing** one phoneme.
 
 When listing words, include _all words from the dictionary_ that meet the criteria, the order of listed words should be the same as
 they appear in the dictionary.
@@ -121,9 +121,9 @@ For strings, you can use only the operations mentioned in class.
 Pronunciation    : AH0 K AO1 R D
 
 Identical        : ACORD
+Replace phoneme  : ABOARD ADORED AFFORD AWARD SCORED
 Add phoneme      : ACCORD'S ACCORDS MCCORD RECORD
 Remove phoneme   : CHORD CORD
-Replace phoneme  : ABOARD ADORED AFFORD AWARD SCORED
 
 
 ```
@@ -135,10 +135,10 @@ Replace phoneme  : ABOARD ADORED AFFORD AWARD SCORED
 Pronunciation    : AE1 K ER0 M AH0 N
 
 Identical        : ACKERMANN AKERMAN AKKERMAN
-Add phoneme      :
-Remove phoneme   : ACKMAN
 Replace phoneme  : ACKERSON ADERMAN AKERSON AMERMAN AMMERMAN 
 ANGERMAN ATTERMANN AUKERMAN ECKERMAN OCKERMAN
+Add phoneme      :
+Remove phoneme   : ACKMAN
 
 ```
 
@@ -149,9 +149,9 @@ ANGERMAN ATTERMANN AUKERMAN ECKERMAN OCKERMAN
 Pronunciation    : D R AE1 F T
 
 Identical        : DRAUGHT
+Replace phoneme  : CRAFT DRIFT GRAFT KRAFFT KRAFT
 Add phoneme      : DRAFT'S DRAFTEE DRAFTER DRAFTS DRAFTY DRAUGHTS
 Remove phoneme   : DAFT RAFT
-Replace phoneme  : CRAFT DRIFT GRAFT KRAFFT KRAFT
 
 ```
 
@@ -162,9 +162,9 @@ Replace phoneme  : CRAFT DRIFT GRAFT KRAFFT KRAFT
 Pronunciation    : K ER1 N AH0 L Z
 
 Identical        : COLONELS KERNELS
+Replace phoneme  : CANALES JOURNAL'S JOURNALS KENNELS
 Add phoneme      : 
 Remove phoneme   : COLONEL KERNEL
-Replace phoneme  : CANALES JOURNAL'S JOURNALS KENNELS
 
 ```
 
@@ -175,9 +175,9 @@ Replace phoneme  : CANALES JOURNAL'S JOURNALS KENNELS
 Pronunciation    : F L AW1 ER0 Z
 
 Identical        : FLOURS FLOWERS
+Replace phoneme  : CLOWERS FLIERS FLOWERED FLOWERY FLUOR'S FLYERS
 Add phoneme      :
 Remove phoneme   : FLOUR FLOWER FOWERS
-Replace phoneme  : CLOWERS FLIERS FLOWERED FLOWERY FLUOR'S FLYERS
 
 ```
 
@@ -188,9 +188,9 @@ Replace phoneme  : CLOWERS FLIERS FLOWERED FLOWERY FLUOR'S FLYERS
 Pronunciation    : G ER0 IH1 L AH0
 
 Identical        : GUERILLA GUERRILLA
+Replace phoneme  : CHURILLA GUILLA KURILLA
 Add phoneme      : GORILLAS GUERILLAS GUERRILLAS GUERRILLAS'
 Remove phoneme   : 
-Replace phoneme  : CHURILLA GUILLA KURILLA
 
 ```
 
@@ -201,9 +201,9 @@ Replace phoneme  : CHURILLA GUILLA KURILLA
 Pronunciation    : AH0 L AY1 N D
 
 Identical        :
+Replace phoneme  : AFFINED ALIGNS ALINES ASSIGNED BLIND
 Add phoneme      : MALIGNED UNLINED
 Remove phoneme   : ALIGN ALINE ALLIED LINED
-Replace phoneme  : AFFINED ALIGNS ALINES ASSIGNED BLIND
 
 ```
 
@@ -214,9 +214,9 @@ Replace phoneme  : AFFINED ALIGNS ALINES ASSIGNED BLIND
 Pronunciation    : AH0 L UW1 ZH AH0 N
 
 Identical        :
+Replace phoneme  : ALEUTIAN ILLUSION
 Add phoneme      : ALLUSIONS COLLUSION OCCLUSION
 Remove phoneme   :
-Replace phoneme  : ALEUTIAN ILLUSION
 
 ```
 
@@ -228,9 +228,9 @@ Replace phoneme  : ALEUTIAN ILLUSION
 Pronunciation    : D IH0 Z AY1 N
 
 Identical        : 
+Replace phoneme  : DEFINE DESIRE DIVINE RESIGN
 Add phoneme      : DESIGNED DESIGNER DESIGNS
 Remove phoneme   : 
-Replace phoneme  : DEFINE DESIRE DIVINE RESIGN
 
 ```
 
@@ -242,9 +242,9 @@ Replace phoneme  : DEFINE DESIRE DIVINE RESIGN
 Pronunciation    : D R AE1 F T IY0
 
 Identical        : 
+Replace phoneme  : CRAFTY DRAFT'S DRAFTEE DRAFTER DRAFTS DRAUGHTS
 Add phoneme      : 
 Remove phoneme   : DRAFT DRAUGHT RAFFETY
-Replace phoneme  : CRAFTY DRAFT'S DRAFTEE DRAFTER DRAFTS DRAUGHTS
 
 ```
 
@@ -255,9 +255,9 @@ Replace phoneme  : CRAFTY DRAFT'S DRAFTEE DRAFTER DRAFTS DRAUGHTS
 Pronunciation    : D IH0 F ER1
 
 Identical        :
+Replace phoneme  : DEFOE DEFY DEMUR DETER DUFUR
 Add phoneme      : DEFERRED DEFERS DEFLEUR
 Remove phoneme   :
-Replace phoneme  : DEFOE DEFY DEMUR DETER DUFUR
 
 ```
 
@@ -350,17 +350,30 @@ Pronunciation    : D OW1 N AH2 T
 
 ```
 
-> donut
+> FLOWERS'
 
-Pronunciation    : D OW1 N AH2 T
+Pronunciation    : F L AW1 ER0 Z
 
-Identical        : DOUGHNUT
+Identical        : FLOURS FLOWERS
 
 ```
   
   
-## Phase III
-## . . .   
+## Phase III 
+
+### In addition to the functionality of phases 1 and II, print a list of words that can be obtained by **replacing** just one phoneme &emdash; words made up of exactly the same sequence of phonemes with just one of them different.  Example:
+
+```
+
+> accord
+
+Pronunciation    : AH0 K AO1 R D
+
+Identical        : ACORD
+Replace phoneme  : ABOARD ADORED AFFORD AWARD SCORED
+
+```
+  
   
 ## Phase IV
 ## . . .   
