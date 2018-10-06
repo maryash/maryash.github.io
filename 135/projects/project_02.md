@@ -361,7 +361,7 @@ Identical        : FLOURS FLOWERS
   
 ## Phase III 
 
-### In addition to the functionality of phases 1 and II, print a list of words that can be obtained by **replacing** just one phoneme &mdash; words made up of exactly the same sequence of phonemes with just one of them different.  Example:
+### In addition to the functionality of phases I and II, print a list of words that can be obtained by **replacing** just one phoneme &mdash; words made up of exactly the same sequence of phonemes with just one of them different.  Example:
 
 ```
 
