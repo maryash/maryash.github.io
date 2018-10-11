@@ -1,8 +1,9 @@
-
-<title>CSCI 136 - Lab 7</title>
-
-# Lab 7. Strings and Ciphers
-
+---  
+layout: myDefault  
+title: LAB 6  
+---      
+  
+# Lab 6. Strings and Ciphers
 
 [Cryptography](https://en.wikipedia.org/wiki/Cryptography) 
 is the practice and study of techniques for secure communication in the presence of third parties called adversaries.
