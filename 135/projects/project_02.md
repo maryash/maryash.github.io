@@ -333,7 +333,7 @@ you can call the same splitting function again on `afterSpace`.
 
 ## Phase I 
 
-### User enters a word, and the program only reports pronunciation as a list of phonemes.  Example:
+User enters a word, and the program only reports pronunciation as a list of phonemes.  Example:
 
 ```
 
@@ -346,7 +346,7 @@ Pronunciation    : D OW1 N AH2 T
   
 ## Phase II 
 
-### User enters a word &mdash; the program reports pronunciation as a list of phonemes AND a list of words that sound the same (is made up of exactly the same sequence of phonemes).  Example:
+User enters a word &mdash; the program reports pronunciation as a list of phonemes AND a list of words that sound the same (is made up of exactly the same sequence of phonemes).  Example:
 
 ```
 
@@ -361,7 +361,7 @@ Identical        : FLOURS FLOWERS
   
 ## Phase III 
 
-### In addition to the functionality of phases I and II, print a list of words that can be obtained by **replacing** just one phoneme &mdash; words made up of exactly the same sequence of phonemes with just one of them different.  Example:
+In addition to the functionality of phases I and II, print a list of words that can be obtained by **replacing** just one phoneme &mdash; words made up of exactly the same sequence of phonemes with just one of them different.  Example:
 
 ```
 
@@ -377,7 +377,7 @@ Replace phoneme  : ABOARD ADORED AFFORD AWARD SCORED
   
 ## Phase IV
 
-### In addition to the functionality of phases I, II and III, print a list of words that can be obtained by **adding** just one phoneme &mdash; words made up of exactly the same sequence of phonemes with just one additional one &mdash; anywhere in the original sequence of phonemes.  Example:
+In addition to the functionality of phases I, II and III, print a list of words that can be obtained by **adding** just one phoneme &mdash; words made up of exactly the same sequence of phonemes with just one additional one &mdash; anywhere in the original sequence of phonemes.  Example:
 
 ```
   
@@ -390,7 +390,7 @@ Replace phoneme  : CRAFT DRIFT GRAFT KRAFFT KRAFT
 Add phoneme      : DRAFT'S DRAFTEE DRAFTER DRAFTS DRAFTY DRAUGHTS
 
 ```
-#### Also, start reviewing all of your code and making necessary changes in order to meaningfully organize it into functions. "Check Identical", "Check Replace Phoneme", and "Check Add Phoneme" should ideally be independent functions, called on each dictionary entry, as the dictionary is traversed after the original pronounciation has been determined.     
+Also, start reviewing all of your code and making necessary changes in order to meaningfully organize it into functions. "Check Identical", "Check Replace Phoneme", and "Check Add Phoneme" should ideally be independent functions, called on each dictionary entry, as the dictionary is traversed after the original pronounciation has been determined.     
   
 ## Phase V
 ## . . .   
