@@ -390,7 +390,7 @@ Replace phoneme  : CRAFT DRIFT GRAFT KRAFFT KRAFT
 Add phoneme      : DRAFT'S DRAFTEE DRAFTER DRAFTS DRAFTY DRAUGHTS
 
 ```
-Also, start reviewing all of your code and making necessary changes in order to meaningfully organize it into functions. "Check Identical", "Check Replace Phoneme", and "Check Add Phoneme" should ideally be independent functions, called on each dictionary entry, as the dictionary is traversed after the original pronounciation has been determined.     
+#### Also, start reviewing all of your code and making necessary changes in order to meaningfully organize it into functions. "Check Identical", "Check Replace Phoneme", and "Check Add Phoneme" should ideally be independent functions, called on each dictionary entry, as the dictionary is traversed after the original pronounciation has been determined.     
   
 ## Phase V
 ## . . .   
