@@ -12,14 +12,14 @@ It will have some limitations, but it will be able to cover a significant subset
 Specifically, given a file with messed up indentation style:
 
 ```c++
-                int main(){ 
-           // Hi, I'm a program!
-int x = 1; 
+int main(){ 
+// Hi, I'm a program!
+    int x = 1; 
     for(int i = 0; i < 10; i++) {
-cout << i;
-          cout << endl;
- }
+        cout << i;
+        cout << endl;
     }
+}
 ```
 
 It will output a well-formatted program: 
@@ -59,25 +59,25 @@ Write a program `unindent.cpp` that reads input from `cin` and prints out each i
 
 To test, create a badly indented file, for instance, called `bad-code.cpp`:
 ```c++
-                int main(){
-           // Hi, I'm a program!
+int main(){
+// Hi, I'm a program!
 int x = 1; 
     for(int i = 0; i < 10; i++) {
-cout << i;
-          cout << endl;
- }
+        cout << i;
+        cout << endl;
     }
+}
 ```
 Since our `unindent` program reads its input from `cin`, the badly indented text can be fed into it using standard input redirection:
 ```
 $ ./unindent < bad-code.cpp
 int main(){
 // Hi, I'm a program!
-int x = 1; 
-for(int i = 0; i < 10; i++) {
-cout << i;
-cout << endl;
-}
+    int x = 1; 
+    for(int i = 0; i < 10; i++) {
+        cout << i;
+        cout << endl;
+    }
 }
 ```
 
@@ -99,25 +99,25 @@ In the listing below, the number of open blocks is shown on the left:
 ```
 0   int main(){
 1   // Hi, I'm a program!
-1   int x = 1; 
-1   for(int i = 0; i < 10; i++) {
-2   cout << i;
-2   cout << endl;
-2   }
+1       int x = 1; 
+1       for(int i = 0; i < 10; i++) {
+2           cout << i;
+2           cout << endl;
+2       }
 1   }
 ```
 
 Then instead of printing the number of open blocks, add that number of tabs `'\t'` at the beginning of each line, and you will get:
 
-```c++
+```c++ 
 int main(){
     // Hi, I'm a program!
     int x = 1; 
     for(int i = 0; i < 10; i++) {
         cout << i;
         cout << endl;
-        } // <-- closing for loop
-    }     // <-- closing main
+    } // <-- closing for loop
+}     // <-- closing main
 ```
 Notice that the closing curly braces are indented one level further than what they should be. 
 
@@ -146,7 +146,7 @@ if (c == 'A')
 will be incorrectly indented as 
 ```c++
 if (c == 'A')
-s = s + c;
+    s = s + c;
 ```
 - No support for `//` and  `/* */`. Commented out curly braces should not affect indentation
 
@@ -154,14 +154,14 @@ s = s + c;
 
 ```c++
 if (true) {
-    s = "{{";
+    s = "\{\{";
     t = "ABC";
 }
 ```
 will be incorrectly indented as 
 ```c++
 if (true) {
-    s = "{{";
+    s = "\{\{";
     t = "ABC";
 }
 ```
