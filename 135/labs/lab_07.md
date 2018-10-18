@@ -154,14 +154,14 @@ s = s + c;
 
 ```c++
 if (true) {
-    s = " &#123; &#123; ";
+    s = "\{{";
     t = "ABC";
 }
 ```
 will be incorrectly indented as 
 ```c++
 if (true) {
-    s = " &#123; &#123; ";
+    s = "\{{";
             t = "ABC";
         }
 ```
