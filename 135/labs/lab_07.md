@@ -3,7 +3,7 @@ layout: myDefault
 title: LAB 7  
 ---      
   
-# Lab 7. A Pretty-printing / Automatic Style Program
+# Lab 7. A Pretty-printing / Automatic Style Program  
 
 ![](https://i.imgur.com/mzGdpPJ.png){: .centered}
 
