@@ -10,7 +10,7 @@ title: LAB 7
 In this lab, we will develop a small utility program that can fix indentation in C or C++ source code files.
 It will have some limitations, but it will be able to cover a significant subset of valid C++ programs.
 Specifically, given a file with messed up indentation style:
-&#123;&#123;
+  
 ```c++
                 int main(){ 
            // Hi, I'm a program!
@@ -154,14 +154,14 @@ s = s + c;
 
 ```c++
 if (true) {
-    s = "&#123;&#123;";
+    s = " &#123; &#123; ";
     t = "ABC";
 }
 ```
 will be incorrectly indented as 
 ```c++
 if (true) {
-    s = "&#123;&#123;";
+    s = " &#123; &#123; ";
             t = "ABC";
         }
 ```
