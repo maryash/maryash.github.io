@@ -162,8 +162,8 @@ will be incorrectly indented as
 ```c++
 if (true) {
     s = "{{";
-            t = "ABC";
-        }
+    t = "ABC";
+}
 ```
 
 ## How to submit your programs
