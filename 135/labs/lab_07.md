@@ -154,7 +154,7 @@ s = s + c;
 
 ```c++
 if (true) {
-    s = "`{{`"; 
+    s = "`{{`"; < span style="color:white" > " ` }} ` " </span>
     t = "ABC";
 }
 ```
