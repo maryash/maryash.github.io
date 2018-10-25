@@ -1,46 +1,50 @@
-
-<title>CSCI 136 - Lab 10</title>
-
-# Lab 10. Structs, enums, and movies
+---  
+layout: myDefault  
+title: LAB 9  
+---      
+  
+# Lab 9. Classes, enums, and movies
 
 ![](https://i.imgur.com/xbGfs3t.jpg){: .centered}
 
 ## Introduction
 
-Structs in C++ are *user-defined* compound datatypes that can be used for grouping together several related variables.
-These 'variables' inside a struct are called
-fields (or members) of the struct.
+Classes in C++ are *user-defined* compound datatypes that can be used for grouping together several related variables.
+These 'variables' inside a classes are called
+fields (or members) of the classes.  
+Variables of of these class types are refered to as **objects**.  
 
-**>>** **For a good informal introduction to structs, watch this video:** [Intro to C++ Structs](https://www.youtube.com/watch?v=DBQzxCHk9uI).
+**>>** **For a good informal introduction to structs (old name for classes in C), watch this video:** [Intro to C++ Structs](https://www.youtube.com/watch?v=DBQzxCHk9uI).
 Please watch until around minute 10, stop when he starts talking about constructors. 
 He also puts struct declarations and function prototypes in a separate header file,
 we keep them in the .cpp program file before `main()` function for now. 
 
-### Let's define a datatype for storing time HH:MM
+### Let's define a datatype (class) for storing time HH:MM
 
-We want to create this new datatype for representing time in the 24-hour format. It is reasonable to define it to have two integer fields:
+We want to create this new class/datatype for representing time in the 24-hour format. It is reasonable to define it to have two integer fields:
 - `h` for the number of hours, and 
 - `m` for the number of minutes.
 
 Notice the semicolon after the closing `}`, it is necessary:
 ```c++
-struct Time {
+class Time { 
+public:
     int h;
     int m;
 };
 ```
 
-Alright, let's try to use this new fancy type. There are several ways for creating variables of this type `Time`.
-The most explicit one is to create a variable and then update its fields individually:
+Alright, let's try to use this new fancy type. There are several ways for creating objects (or variables) of this type `Time`.
+The most explicit one is to create an object (a variable) and then update its fields individually:
 
 ```c++
-Time now;    // creates a new variable
+Time now;    // creates a new variable (or object)
 now.h = 17;  // assigns its hours field
 now.m = 45;  // assigns its minutes field 
 ```
-The variable is called `now`, and it is storing 5:45 PM. The fields of `now` can be accessed as `now.h` ans `now.m`.
+The object/variable is called `now`, and it is storing 5:45 PM. The fields of `now` can be accessed as `now.h` ans `now.m`.
 
-Alternatively, we can create a variable and immediately initialize all its fields with the following literal syntax 
+Alternatively, we can create an object and immediately initialize all its fields with the following literal syntax 
 (the order of values in curly braces is important):
 ```c++
 Time t = { 17, 45 };
@@ -55,49 +59,23 @@ void printTime(Time time) {
 ```
 
 One convenient feature, which you might not need but should be aware of, is that
-the assignment operator works for structs, it is copying the all elements of the struct, field by field:
+the assignment operator works for objects, it copies all the elements of the object, field by field:
 
 ```c++
-Time morningClass = {8, 10};
+Time morningLecture = {8, 10};
 
 Time myAlarm;              // make another variable
 
-myAlarm = morningClass;    // copying
+myAlarm = morningLecture;    // copying
 
-printTime(morningClass);   // will print 8:10
+printTime(morningLecture);   // will print 8:10
 printTime(myAlarm);        // will print 8:10 as well
                            // You may be late for the class tho
 ```
 
-### A remark on C++ 11 and using C++ stuct literals
-Prior to C++ 2011 standard, to use a struct, one first had to create a variable of the struct type, like in the examples above.
-The curly brace syntax for struct literals, such as `{8, 10}`,
-**was allowed only when initilizing** a struct **variable**, not at an arbitrary place in the program. 
-
-Thus, for instance, one couldn't create a struct object on the fly and pass it into a function, or return it from a function:
-```c++
-printTime({8, 10});    // was illegal 
-return {17, 45};       // was illegal 
-``` 
-You had to write explicitly:
-```c++
-Time t1 = {8, 10};    // first, had to create and initialize
-printTime(t1);        // then call the function
-
-Time t2 = {17, 45};   // create 
-return t2;            // then return
-```
-The C++ 11 standard allows creating and initializing struct objects on the fly without making a variable to store it, so the previously illegal
-code is now accepted and valid.
-To compile your program according to the C++11 standard, use an additional command line option `-std=c++11`:
-```
-g++ -std=c++11 program.cpp
-```
-(Gradescope is configured to compile this way.)
-
 ## Task A. Simple functions for time
 
-Create a new program `time.cpp`. (Copy the struct `Time` declaration in your program, it should be placed before `main()` function.)
+Create a new program `time.cpp`. (Copy the class `Time` declaration in your program, it should be placed before `main()` function.)
 
 Implement two new functions:
 ```c++
@@ -158,13 +136,15 @@ enum Genre {ACTION, COMEDY, DRAMA, ROMANCE, THRILLER};
 (Enum types work as sets of named values. A variable of type `Genre` can assume any of the values 
 listed in the curly braces, example: `Genre myFavorite = COMEDY;`)
 ```c++
-struct Movie {
+class Movie { 
+public: 
     string title;
     Genre genre;     // only one genre per movie
     int duration;    // in minutes
 };
 
-struct TimeSlot {
+class TimeSlot { 
+public: 
     Movie movie;     // what movie
     Time startTime;  // when it starts
 };
