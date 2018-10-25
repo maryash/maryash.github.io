@@ -1,7 +1,9 @@
-
-<title>CSCI 136 - Lab 9</title>
-
-# Lab 9. Image Processing
+---  
+layout: myDefault  
+title: LAB 8  
+---      
+  
+# Lab 8. Image Processing
 
 In this lab, we are going to do image manipulation and image filtering. 
 Since the pixel data of the images is
