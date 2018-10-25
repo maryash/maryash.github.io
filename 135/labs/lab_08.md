@@ -12,7 +12,9 @@ going to be stored in a 2D array, we will also learn how to use 2D arrays.
 ## Preliminaries & PGM graphical format
 
 We will be using simple [Portable graymap (PGM)](https://en.wikipedia.org/wiki/Netpbm_format) format for our images today,
-because the code to read and write such images is super simple (much simpler than it is for JPEG or PNG).
+because the code to read and write such images is super simple (much simpler than it is for JPEG or PNG). 
+
+Please download [inImage.pgm](inImage.pgm)
 
 To view an image file, use the program `eog` (Eye of Gnome):
 
@@ -38,7 +40,7 @@ convert outImage.pgm output-dog.png
 ![](https://i.imgur.com/IwJC5NP.png){: .centered}
 
 ## Preliminary Task. Reading and writing pictures. (Don't submit this one) 
-The supplied program `lab-images.cpp` provides two helper functions for reading and writing images:
+The supplied program [`lab-images.cpp`](lab-images.cpp) provides two helper functions for reading and writing images:
 ```c++
 // Reads file 'inImage.pgm' into a 2D array
 void readImage(int image[MAX_H][MAX_W], int &height, int &width);
