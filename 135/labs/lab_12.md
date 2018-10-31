@@ -1,7 +1,9 @@
-
-<title>CSCI 136 - Lab 13</title>
-
-# Lab 13. Classes and Programming a Social Network
+---  
+layout: myDefault  
+title: LAB 12  
+---      
+  
+# Lab 12. Classes and Programming a Social Network
 ![](https://i.imgur.com/MoWaZlX.png){: .centered}
 
 ## Introducing Object-Oriented Programming
