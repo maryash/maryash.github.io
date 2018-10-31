@@ -1,9 +1,9 @@
 ---  
 layout: myDefault  
-title: LAB 9  
+title: LAB 10  
 ---      
   
-# Lab 9. Classes, enums, and movies
+# Lab 10. Classes, enums, and movies
 
 ![](https://i.imgur.com/xbGfs3t.jpg){: .centered}
 
