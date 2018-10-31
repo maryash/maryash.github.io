@@ -1,7 +1,9 @@
-
-<title>CSCI 136 - Lab 12</title>
-
-# Lab 12. Recursion
+---  
+layout: myDefault  
+title: LAB 11  
+---      
+  
+# Lab 11. Recursion
 
 ## Introduction
 
@@ -243,7 +245,7 @@ A usage example:
   cout << nestedParens("a(b)c") << endl;       // false (0)
 ```
 
-## Task F. Fair division
+## Task F (Bonus). Fair division
 
 ![](https://i.imgur.com/IW54TTq.jpg){:.centered}
 
