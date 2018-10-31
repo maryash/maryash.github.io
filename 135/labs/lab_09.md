@@ -1,7 +1,9 @@
-
-<title>CSCI 136 - Lab 11</title>
-
-# Lab 11. Pointers
+---  
+layout: myDefault  
+title: LAB 9  
+---      
+  
+# Lab 9. Pointers
 
 ## Introduction
 
