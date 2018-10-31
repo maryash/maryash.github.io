@@ -4,9 +4,7 @@ title: LAB 9
 ---      
   
 # Lab 9. Pointers
-
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDoKLlHq2iNaHmGkCPmfYGdmrlgRQ0yOAsuIZDvdbSpRoVXHie){: .centered}
-## Introduction
+## ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDoKLlHq2iNaHmGkCPmfYGdmrlgRQ0yOAsuIZDvdbSpRoVXHie){: .centered}<br/>Introduction
 
 **Pointer variables** are a feature of systems programming languages, such as C++ or C,
 that are able to store the **memory addresses** of other variables and objects used by the program.
