@@ -3,7 +3,7 @@ layout: myDefault
 title: LAB 9  
 ---      
   
-# Lab 9. Pointers![] <br/>(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDoKLlHq2iNaHmGkCPmfYGdmrlgRQ0yOAsuIZDvdbSpRoVXHie){: .centered}
+# Lab 9. Pointers <br/>![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDoKLlHq2iNaHmGkCPmfYGdmrlgRQ0yOAsuIZDvdbSpRoVXHie){: .centered}
 
 ## Introduction
 
