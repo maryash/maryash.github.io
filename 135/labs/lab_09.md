@@ -4,6 +4,7 @@ title: LAB 9
 ---      
   
 # Lab 9. Pointers
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDoKLlHq2iNaHmGkCPmfYGdmrlgRQ0yOAsuIZDvdbSpRoVXHie){: .centered}
 
 ## Introduction
 
