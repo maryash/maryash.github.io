@@ -72,7 +72,7 @@ public:
 };
 ```
 
-Write a program `3d-space.cpp`, in which you define  a function `length` that receives the coordinates of a point _P_ passed as a pointer,
+Write a program `3d-space.cpp`, in which you define  a function `length()` that receives the coordinates of a point _P_ passed as a pointer,
 and computes the distance from the origin to the point _P_:
 
 ```c++
