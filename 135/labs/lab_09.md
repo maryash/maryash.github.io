@@ -61,10 +61,11 @@ the length of the vector _OP_ can be computed using the euclidean distance formu
 
 $$ \text{Length of the vector } OP = \sqrt{x^2 + y^2 + z^2} $$
 
-We are provided with a struct type that represents coordinates in 3D:
+We are provided with a class type that represents coordinates in 3D:
 
 ```c++
-struct Coord3D {
+class Coord3D {
+public:
     double x;
     double y;
     double z;
@@ -86,7 +87,7 @@ int main() {
     cout << length(&pointP) << endl; // would print 37.4166
 }
 ```
-Notice that we pass the memory address `&pointP`, where the struct object is located. The function should *dereference* this address
+Notice that we pass the memory address `&pointP`, where the object of this class is located. The function should *dereference* this address
 to get the corresponding fields `x`, `y`, and `z` for computing the length.
 
 ## Task B. Farther from the origin?
@@ -146,7 +147,7 @@ which gets the position and the velocity of an object and has to compute object'
 The function does not return any values, instead, it should **update** the object's position `ppos` with its new position coordinates.
 
 Because we pass the coordinates `Coord3D * ppos` as a **pointer**, 
-all changes to the fields of the struct pointed by `ppos`, will affect the original structure you pass into the function, not its local copy. 
+all changes to the fields of the class pointed by `ppos`, will affect the original object you pass into the function, not its local copy. 
 Example:
 
 ```c++
@@ -154,12 +155,12 @@ int main() {
     Coord3D pos = {0, 0, 100.0};
     Coord3D vel = {1, -5, 0.2};
 
-    move(&pos, &vel, 2.0); // struct pos gets changed
+    move(&pos, &vel, 2.0); // object pos gets changed
     cout << pos.x << " " << pos.y << " " << pos.z << endl;
     // prints: 2 -10 100.4
 }
 ```
-Notice that we are not passing anything by reference: We pass the *address*, `&pos`, and the function manipulates the original struct `pos`,
+Notice that we are not passing anything by reference: We pass the *address*, `&pos`, and the function manipulates the original object `pos`,
 because it knows its address in the memory.
 
 ## On dynamic memory allocation
@@ -312,7 +313,7 @@ Fix this program `poem.cpp`. It should still keep creating poems, but all dynami
 
 ## Task E. Creating and deleting objects dynamically
 
-In the program `3d-space.cpp`, add functions that create and delete coordinate structs dynamically:
+In the program `3d-space.cpp`, add functions that create, delete, and coordinate objects dynamically:
 
 ```c++
 // allocate memory and initialize
@@ -351,12 +352,12 @@ Enter velocity: 5.5 -1.4 7.77
 Coordinates after 10 seconds: 65 6 107.7
 ```
 
-## Task F. Making your own struct `Particle`
+## Task F. Making your own class `Particle`
 ![](https://i.imgur.com/Jb6FVCj.jpg){: .centered}
 
 Write a new program `particle.cpp` (you may copy anything you want from `3d-space.cpp` if need be).
 
-The program should declare a new `struct Particle`, which
+The program should declare a new `class Particle`, which
 - stores **position** and **velocity** of the particle, and
 - provides the following programming interface:
 
@@ -375,7 +376,7 @@ void deleteParticle(Particle *p);
 ```
 Implement these five functions. `deleteParticle` must delete all dynamically allocated memory that is created by `createParticle` function.
 
-Here is a usage example of the structure and its programming interface. It models accelerated motion of a particle,
+Here is a usage example of the class and its programming interface. It models accelerated motion of a particle,
 which is done by making the velocity of the particle increase on each time step.
 
 ```c++
