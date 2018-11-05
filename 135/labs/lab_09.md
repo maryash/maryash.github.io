@@ -352,7 +352,7 @@ Enter velocity: 5.5 -1.4 7.77
 Coordinates after 10 seconds: 65 6 107.7
 ```
 
-## Task F. Making your own class `Particle`
+## Task F (Bonus Task). Making your own class `Particle`
 ![](https://i.imgur.com/Jb6FVCj.jpg){: .centered}
 
 Write a new program `particle.cpp` (you may copy anything you want from `3d-space.cpp` if need be).
