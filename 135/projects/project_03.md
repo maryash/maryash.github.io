@@ -49,8 +49,8 @@ or **fast-forward**. See the screenshot below:
 Please open the file `bot.cpp` in your text editor and inspect its code. This is **the only file you are allowed to edit and submit**
 in this project, don't change the other files. 
 
-This file provides defines two functions, `onStart` and `onAction`, which are used to control the dwarves. 
-The first of them is called when the game starts, while the second is called when an idle dwarf is choosing their next actions,
+This file defines two functions, `onStart` and `onAction`, which are used to control the dwarves. 
+The first of them is called when the game starts, and the second is called when an idle dwarf is choosing their next actions,
 this is the main logic function of the game.
 Your goal in this project is to improve these functions making the dwarves accomplish their goals. 
 
@@ -61,7 +61,8 @@ void onStart(int rows, int cols, int num, std::ostream &log);
 This function is called in the beginning of the game, and receives the following four arguments:
 * `rows` is the number of rows of the map,
 * `cols` is the number of columns of the map,
-* `num` is the number of dwarves you control,
+* `num` is the number of dwarves you control,   
+    We save this three values in the global variables `ROWS`, `COLS`, and `NUM` so they can be used in the future if need be.
 * `log` is an output stream resembling `cout`, you can write in it, for example:
 ```c++
 log << "Hello! " << 100 << " " << 200 << endl;
@@ -70,7 +71,7 @@ Please, use this `log` stream instead of `cout` for any sort of output you want 
 Everything your print in it will be shown in the log window below the main game map.
 Never use `cout`, because it might break visual output of the game, always use `log` instead.
 
-The main purpose of the function `onStart` is no initialize global variables if you need to do so.
+The main purpose of the function `onStart` is to initialize global variables if you need to do so.
 
 ### Funciton `onAction`
 ```c++
@@ -81,7 +82,7 @@ It is called every time a dwarf is idle and is choosing their new action, the pa
 * `dwarf` is a `Dwarf` object, which allows you inspect the map and schedule actions for the dwarf,
 it will be described in more detail below,
 * `day` (1+), `hours` (0-23), `minutes` (0-59) is the current time,
-* `log` is the output log stream already discussed above.
+* `log` is the output log stream already explained above.
 
 ![](https://i.imgur.com/35Eeyza.png){: .centered}
 
@@ -96,8 +97,10 @@ The return type is the enumeration type `Place` and its possible values include:
     - `DWARF`
     - `PINE_TREE`
     - `APPLE_TREE`
+    - `PUMPKIN`  
     - `FENCE`  
-    This is not an exhaustive list of what you might encounter in the map, you will learn more in Part C,
+    This is not an exhaustive list of what you might encounter in the map.  
+    You will learn more about it in Part C.
 * `int dwarf.name()` - returns the name of the dwarf, for convenience, it is an integer number (0, 1, 2, ...) uniquely identifying the dwarf,
 * `int dwarf.lumber()` - returns the current amount of lumber the dwarves have.
 
@@ -120,7 +123,100 @@ If there is no trees or fences, the dwarf becomes idle.
 ![](https://i.imgur.com/YgsCm8I.png){: .centered}
 
 All of these action-scheduling functions have no immediate effect when they are called, however the dwarf remember your order and will start performing 
-that action after the function `onAction` ends. 
+that action after the function `onAction` ends. <title>CSCI 135 - Project 3</title>
+
+<br />
+
+![](https://i.imgur.com/8bJSbkJ.png){: .centered}
+
+<br />
+
+![](https://i.imgur.com/s6shb7B.png){: .centered}
+
+> *"Since they were to come in the days of the power of Melkor, Aulë made the dwarves strong to endure. Therefore they are stone-hard, stubborn, fast in friendship and in enmity, and they suffer toil and hunger and hurt of body more hardily than all other speaking peoples; and they live long, far beyond the span of Men, yet not forever."*    
+> --  The Silmarillion
+
+In this project, you will be helping a group of dwarves to establish a small outpost in a dangerous magical forest.
+You are provided with a mostly complete program (download the file `dwarves.zip`) that simulates the forest and the dwarves.
+Your task is to improve the code controlling the actions of the dwarves. 
+The assignment consists of three parts, A, B, and C, you will have to submit solution for each part independently as
+three separate submissions.
+
+Let us explain how the provided program works.
+
+Copy the supplied file `dwarves.zip` and extract it:
+```
+unzip dwarves.zip
+```
+you will get a new directory `dwarves`. To compile the program, go to that directory, and while inside of it, type:
+```
+make
+```
+Building this software requires development files for "ncurses" library. *They are already installed on the Linux Lab computers*.
+To setup your own computer: On Ubuntu, this is package `libncurses5-dev`.
+On Cygwin, this is `libncurses-devel`. On Mac OS, this is `ncurses` package (`brew install ncurses`).
+
+After building the software, you get an executable file `dwarves`. To run it with the default parameters, type:
+```
+./dwarves
+```
+There are three sections in the program window: the map, the information panel, and the game log.   
+By pressing the keys `[Q]`, `[P]`, `[S]`, and `[F]` on the keyboard, you can **quit**, **play**, **pause**, **step**, 
+or **fast-forward**. See the screenshot below:
+
+![](https://i.imgur.com/bSuMCi2.png){: .centered}
+
+
+## Basics of the program file `bot.cpp`
+Please open the file `bot.cpp` in your text editor and inspect its code. This is **the only file you are allowed to edit and submit**
+in this project, don't change the other files. 
+
+This file defines two functions, `onStart` and `onAction`, which are used to control the dwarves. 
+The first of them is called when the game starts, and the second is called when an idle dwarf is choosing their next actions,
+this is the main logic function of the game.
+Your goal in this project is to improve these functions making the dwarves accomplish their goals. 
+
+### Function `onStart`
+```c++
+void onStart(int rows, int cols, int num, std::ostream &log);
+```
+This function is called in the beginning of the game, and receives the following four arguments:
+* `rows` is the number of rows of the map,
+* `cols` is the number of columns of the map,
+* `num` is the number of dwarves you control,   
+    We save this three values in the global variables `ROWS`, `COLS`, and `NUM` so they can be used in the future if need be.
+* `log` is an output stream resembling `cout`, you can write in it, for example:
+```c++
+log << "Hello! " << 100 << " " << 200 << endl;
+```
+Please, use this `log` stream instead of `cout` for any sort of output you want to do. 
+Everything your print in it will be shown in the log window below the main game map.
+Never use `cout`, because it might break visual output of the game, always use `log` instead.
+
+The main purpose of the function `onStart` is to initialize global variables if you need to do so.
+
+### Funciton `onAction`
+```c++
+void onAction(Dwarf &dwarf, int day, int hours, int minutes, 
+              ostream &log);
+```
+It is called every time a dwarf is idle and is choosing their new action, the parameters are:
+* `dwarf` is a `Dwarf` object, which allows you inspect the map and schedule actions for the dwarf,
+it will be described in more detail below,
+* `day` (1+), `hours` (0-23), `minutes` (0-59) is the current time,
+* `log` is the output log stream already explained above.
+
+![](https://i.imgur.com/35Eeyza.png){: .centered}
+
+### The `dwarf` object
+It provides you with the following programming interface:
+
+* `int dwarf.row()` - returns the row coordinate of the dwarf,
+* `int dwarf.col()` - returns the column coordinate of the dwarf,
+* `Place dwarf.look(int row, int col)` - returns what is in the map at the location *(row, col)*.
+The return type is the enumeration type `Place` and its possible values include:
+    - `EMPTY`
+    - `DWARF`
 When they complete the action, or if the action cannot be performed, they become idle and the function `onAction` will is called again for them,
 then you can change their order.
 
@@ -182,7 +278,7 @@ The program starts simulation at 6:00 in the morning of the day 1. It stops 18 h
 **Your goal** is to collect **at least 100 of lumber** in these 18 hours.
 The amount of collected lumber is shown in the top-left corner of the window.
 
-Reminding that to compile code:
+To compile your code:
 ```
 make
 ```
@@ -191,7 +287,9 @@ To run:
 ./dwarves
 ```
 
-Submit your `bot.cpp` code through Gradescope.
+Submit your `bot.cpp` code through Gradescope. Don't attach any other files.
+
+You will get **85 pts** for completing the goal, or partial credit for partial completion. **15 pts** is allocated for documentation and comments.
 
 Start the file with a comment that contains your name and a short program description, for example:
 
@@ -212,8 +310,8 @@ One suggestion for part A is to implement a helper function
 ```c++
 bool isNextToATree(Dwarf & dwarf, int r, int c);
 ```
-which should return `true` if there is at least one tree adjacent to the location *(r,c)*, that is, there is a `PINE_TREE` or an `APPLE_TREE`
-at *(r+1,c)*, *(r-1,c)*, *(r,c+1)*, or *(r,c-1)*. Otherwise, return `false`.
+which should return `true` if there is at least one tree adjacent to the location *(r, c)*, that is, there is a `PINE_TREE` or an `APPLE_TREE`
+at *(r+1, c)*, *(r-1, c)*, *(r, c+1)*, or *(r, c-1)*. Otherwise, return `false`.
 
 Then the main `onAction` function can work as follows:
 - If the dwarf is already adjacent to a tree, they should chop in its direction. 
@@ -222,8 +320,9 @@ Then the main `onAction` function can work as follows:
 
 Feel free to define more helper functions when you feel they can be helpful to express your program in a more concise and clear fashion.
 
-Also, note that the `dwarf.start_walk` action will not work if the destination point is non-empty (blocked by a tree or by another dwarf). 
-So, when you start this action, the destination point should be empty, and in this task, adjacent to a tree.
+Also, note that the `dwarf.start_walk` action will not work if the destination point is non-empty (blocked by a tree or by another dwarf),
+or if no possible path exists.
+So, when you start this action, the destination point should be empty. (In this task, aim for empty locations that are adjacent to trees.)
 
 ## Part B. Build an outpost
 ![](https://i.imgur.com/QY8l2L1.jpg){: .centered}
@@ -240,9 +339,11 @@ You will see that you get 6 dwarves this time.
 The `bot.cpp` file works the same way as before, but now it schedules the actions of all 6 dwarves.
 
 In this part, you will practice building a defensive fence structure. 
-Use the action `dwarf.start_build(dir)` to schedule construction in the direction `dir`. The cost of one fence is 10 lumber.
+Use the action `dwarf.start_build(dir)` to schedule construction in the direction `dir`.
+(Four possible directions are `NORTH`, `SOUTH`, `EAST`, and `WEST`.)
+The cost of one fence is 10 lumber.
 If you start building without having enough lumber or the place where you build is not empty, the dwarf will become idle
-and no lumber will be spent. You can call function `dwarf.lumber()` to find how much lumber your dwarves.
+and no lumber will be spent. You can call function `dwarf.lumber()` to find how much lumber your dwarves have.
 
 **The goal** of this part is to **build a contiguous defensive structure of 30 or more fences**, for example, a rectangle 5x6 would work:
 ```
@@ -274,13 +375,22 @@ However, fences touching diagonally don't count as a contiguous structure. For e
 # # #       # # #
 ```
 
-If your structure is smaller than 30, you will be getting partial credit proportional to the size of the largest structure you have. 
+You will get **85 pts** for completing the goal. **15 pts** is allocated for documentation and comments.
+
+If your structure is smaller than 30, you will get partial credit proportional to the size of the largest built structure. 
 For example, the structure above with fences touching diagonally will give you only
-(9/30) of the maximum number of points, because the largest structure is size 9.
+(9/30)&times;85 pts = 25.5 pts.
 
 The total amount of lumber you will need for this task is 30 x 10 = 300. 
 
 Submit your program `bot.cpp` through Gradescope. Start the file with the same preamble comment as in Part A.
+
+### Example animation:
+<div align='center'>
+<script id="asciicast-E9COV2YQTDnlLJZuZhj44A7Ab" src="https://asciinema.org/a/E9COV2YQTDnlLJZuZhj44A7Ab.js" 
+data-theme="tango" data-cols="74" data-rows="27" data-loop="1"  
+async></script>
+</div>
 
 ## Part C. Survive seven days
 ![](https://i.imgur.com/oFKf5qw.jpg){: .centered}
@@ -288,13 +398,13 @@ Submit your program `bot.cpp` through Gradescope. Start the file with the same p
 Before you start this part, we again recommend you make a new copy of the `dwarves` directory. 
 We expect that your `bot.cpp` file for this part will be different from the versions you wrote in Parts A and B. 
 
-### How to run the program and custom map dimensions
+### Running the program for part C with custom map dimensions
 
 To run the program for part C, use option `c`:
 ```
 ./dwarves c
 ```
-There is also a more advanced way to start the program with custom map size:
+There is also a more advanced way to start it with custom map size:
 ```
 ./dwarves c ROWS COLS
 ```
@@ -302,9 +412,10 @@ Replace `ROWS` and `COLS` in the above command with actual numbers, like this:
 ```
 ./dwarves c 27 33
 ```
-We will be testing your code on maps of size between 25 and 35.
-The number of dwarves in this part is also randomized and can be equal to 6, 7, or 8.
-Your program must work correctly for these map dimensions and dwarf numbers.
+**In part C, we will be testing your code for map dimensions between 25 and 35.** 
+So use this advanced style of running the program, choosing the number of rows and columns in the range from 25 to 35.
+Additionally, as you can see, the number of dwarves in this part is randomized and can be equal to 6, 7, or 8.
+Your program must work correctly for the specified map dimensions and dwarf numbers.
 
 ### Days, nights, and zombies
 
@@ -315,33 +426,53 @@ Each day consists of two parts:
 - **Nighttime** from 21:00 to 6:00 of the next day.
 
 At nighttime, zombies come. 
-There are two types of them: `ZOMBIE` and `PUMKIN_ZOMBIE`. 
+There are two types of them: `ZOMBIE` and `PUMPKIN_ZOMBIE`. 
 You cannot attack them, but they cannot go through fences, so it can be a good idea to build a shelter. 
 In the morning, all zombies quickly die, and pumpkin zombies leave pumpkins that can be picked up. 
 
 Zombies can be identified using the function `dwarf.look(row, col)`. It will return `ZOMBIE` or `PUMPKIN_ZOMBIE` if they are at the location *(row, col)*.
 
-Use the action `dwarf.start_pick(dir)` to pick up a pumpkin. The same command can be used to pick apples from apple trees.
+Use the action `dwarf.start_pick(dir)` to pick up a pumpkin. The same command can be used to pick apples from apple trees. 
+For these actions to work, you need to stand next to a pumpkin or an apple tree and pick in their direction.
 
 If at any time you will need to remove a fence segment, it can be done with the chopping action, `dwarf.start_chop(dir)`. 
 This will give you 10 lumber back, which you can use later to build a new fence.
 
-**The goals** (checked at the end of the 7th day):
-- (20%) All dwarves must survive,
-- (20%) Must build a contiguous fence structure of size 30 or more,
-- (20%) Must collect at least 35 pumpkins,
-- (20%) Must collect at least 1000 apples.
+Make use of the `day`, `hours`, and `minutes` variable, as well as the dwarf name `dwarf.name()` to do more precise control over the dwarves' actions.
 
-Partial completion of the goals give partial credit (proportional to the degree of completion).
+**The goals** (checked at the end of the 7th day):
+- (21 pts) All dwarves must survive,
+- (21 pts) Must build a contiguous fence structure of size 30 or more,
+- (21 pts) Must collect at least 30 pumpkins,
+- (21 pts) Must collect at least 1000 apples.   
+(Additionally, 16 pts is reserved for documentation and comments.)
+
+Partial completion of the goals gives partial credit (proportional to the degree of completion).
 
 Exceeding the required goal (e.g. by building a bigger structure or collecting more apples and pumpkins) will give small extra credit.
 
 Submit your program `bot.cpp` through Gradescope. Start the file with the same preamble comment as in Parts A and B.
 
-## Competing with your classmates / Leaderboard
+### Running the program deterministically with the same random seed
+
+To debug your code, you might want to run the program with the same random seed, which will start the game with the same initial conditions, and all random
+choices made by the dwarves will be exactly the same each time, which might help you debug the dwarves' behavior.
+
+For that, run the program as follows:
+```
+./dwarves c ROWS COLS NUM SEED
+```
+Where replace `ROWS`, `COLS`, `NUM`, and `SEED` with the number of rows (25-35), number of columns (25-35), number of dwarves (6-8), and the `SEED` can be any
+non-negative integer number. For example:
+```
+./dwarves c 27 31 8 55555 
+```
+will run the game on the map 27&times;31, with 8 dwarves, and using the random seed 55555.
+
+### Competing with your classmates and the Leaderboard
 ![](https://i.imgur.com/tmMF7rm.jpg){: .centered}
 
-This project is more open-ended than the previous ones. To encourage clever solutions and ingenuity on your part,
+Part C of the project is more open-ended than the previous tasks. To encourage clever solutions and ingenuity on your part,
 in addition to the normal grade, we also run a tournament, ranking your programs' performance. The authors of the best programs
 will receive **additional prizes** (in the form of extra grade bonus), as well as bragging rights, of course, if you will.
 
