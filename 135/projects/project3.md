@@ -1,7 +1,9 @@
+---  
+layout: myDefault  
+title: PROJECT 3  
+---  
 
-<title>CSCI 135 - Project 3</title>
-
-<br />
+# Project 3. 
 
 ![](https://i.imgur.com/8bJSbkJ.png){: .centered}
 
