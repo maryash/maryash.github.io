@@ -3,7 +3,7 @@ layout: myDefault
 title: PROJECT 3  
 ---  
 
-# Project 3. 
+# Project 3 
 
 ![](https://i.imgur.com/8bJSbkJ.png){: .centered}
 
