@@ -3,7 +3,7 @@ layout: myDefault
 title: PROJECT 3  
 ---  
 
-# Project 3 
+# Project 3  
 
 ![](https://i.imgur.com/8bJSbkJ.png){: .centered}
 
@@ -123,100 +123,7 @@ If there is no trees or fences, the dwarf becomes idle.
 ![](https://i.imgur.com/YgsCm8I.png){: .centered}
 
 All of these action-scheduling functions have no immediate effect when they are called, however the dwarf remember your order and will start performing 
-that action after the function `onAction` ends. <title>CSCI 135 - Project 3</title>
-
-<br />
-
-![](https://i.imgur.com/8bJSbkJ.png){: .centered}
-
-<br />
-
-![](https://i.imgur.com/s6shb7B.png){: .centered}
-
-> *"Since they were to come in the days of the power of Melkor, Aulë made the dwarves strong to endure. Therefore they are stone-hard, stubborn, fast in friendship and in enmity, and they suffer toil and hunger and hurt of body more hardily than all other speaking peoples; and they live long, far beyond the span of Men, yet not forever."*    
-> --  The Silmarillion
-
-In this project, you will be helping a group of dwarves to establish a small outpost in a dangerous magical forest.
-You are provided with a mostly complete program (download the file `dwarves.zip`) that simulates the forest and the dwarves.
-Your task is to improve the code controlling the actions of the dwarves. 
-The assignment consists of three parts, A, B, and C, you will have to submit solution for each part independently as
-three separate submissions.
-
-Let us explain how the provided program works.
-
-Copy the supplied file `dwarves.zip` and extract it:
-```
-unzip dwarves.zip
-```
-you will get a new directory `dwarves`. To compile the program, go to that directory, and while inside of it, type:
-```
-make
-```
-Building this software requires development files for "ncurses" library. *They are already installed on the Linux Lab computers*.
-To setup your own computer: On Ubuntu, this is package `libncurses5-dev`.
-On Cygwin, this is `libncurses-devel`. On Mac OS, this is `ncurses` package (`brew install ncurses`).
-
-After building the software, you get an executable file `dwarves`. To run it with the default parameters, type:
-```
-./dwarves
-```
-There are three sections in the program window: the map, the information panel, and the game log.   
-By pressing the keys `[Q]`, `[P]`, `[S]`, and `[F]` on the keyboard, you can **quit**, **play**, **pause**, **step**, 
-or **fast-forward**. See the screenshot below:
-
-![](https://i.imgur.com/bSuMCi2.png){: .centered}
-
-
-## Basics of the program file `bot.cpp`
-Please open the file `bot.cpp` in your text editor and inspect its code. This is **the only file you are allowed to edit and submit**
-in this project, don't change the other files. 
-
-This file defines two functions, `onStart` and `onAction`, which are used to control the dwarves. 
-The first of them is called when the game starts, and the second is called when an idle dwarf is choosing their next actions,
-this is the main logic function of the game.
-Your goal in this project is to improve these functions making the dwarves accomplish their goals. 
-
-### Function `onStart`
-```c++
-void onStart(int rows, int cols, int num, std::ostream &log);
-```
-This function is called in the beginning of the game, and receives the following four arguments:
-* `rows` is the number of rows of the map,
-* `cols` is the number of columns of the map,
-* `num` is the number of dwarves you control,   
-    We save this three values in the global variables `ROWS`, `COLS`, and `NUM` so they can be used in the future if need be.
-* `log` is an output stream resembling `cout`, you can write in it, for example:
-```c++
-log << "Hello! " << 100 << " " << 200 << endl;
-```
-Please, use this `log` stream instead of `cout` for any sort of output you want to do. 
-Everything your print in it will be shown in the log window below the main game map.
-Never use `cout`, because it might break visual output of the game, always use `log` instead.
-
-The main purpose of the function `onStart` is to initialize global variables if you need to do so.
-
-### Funciton `onAction`
-```c++
-void onAction(Dwarf &dwarf, int day, int hours, int minutes, 
-              ostream &log);
-```
-It is called every time a dwarf is idle and is choosing their new action, the parameters are:
-* `dwarf` is a `Dwarf` object, which allows you inspect the map and schedule actions for the dwarf,
-it will be described in more detail below,
-* `day` (1+), `hours` (0-23), `minutes` (0-59) is the current time,
-* `log` is the output log stream already explained above.
-
-![](https://i.imgur.com/35Eeyza.png){: .centered}
-
-### The `dwarf` object
-It provides you with the following programming interface:
-
-* `int dwarf.row()` - returns the row coordinate of the dwarf,
-* `int dwarf.col()` - returns the column coordinate of the dwarf,
-* `Place dwarf.look(int row, int col)` - returns what is in the map at the location *(row, col)*.
-The return type is the enumeration type `Place` and its possible values include:
-    - `EMPTY`
-    - `DWARF`
+that action after the function `onAction` ends. 
 When they complete the action, or if the action cannot be performed, they become idle and the function `onAction` will is called again for them,
 then you can change their order.
 
