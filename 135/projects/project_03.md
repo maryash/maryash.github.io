@@ -15,7 +15,7 @@ title: PROJECT 3
 > --  The Silmarillion
 
 In this project, you will be helping a group of dwarves to establish a small outpost in a dangerous magical forest.
-You are provided with a mostly complete program (download the file `dwarves.zip`) that simulates the forest and the dwarves.
+You are provided with a mostly complete program (download the file [`dwarves.zip`](dwarves.zip){:target="_blank"}) that simulates the forest and the dwarves.
 Your task is to improve the code controlling the actions of the dwarves. 
 The assignment consists of three parts, A, B, and C, you will have to submit solution for each part independently as
 three separate submissions.
