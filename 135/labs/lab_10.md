@@ -10,14 +10,9 @@ title: LAB 10
 ## Introduction
 
 Classes in C++ are *user-defined* compound datatypes that can be used for grouping together several related variables.
-These 'variables' inside a classes are called
+These 'variables' inside a class are called
 fields (or members) of the classes.  
 Variables of of these class types are refered to as **objects**.  
-
-**>>** **For a good informal introduction to structs (old name for classes in C), watch this video:** [Intro to C++ Structs](https://www.youtube.com/watch?v=DBQzxCHk9uI).
-Please watch until around minute 10, stop when he starts talking about constructors. 
-He also puts struct declarations and function prototypes in a separate header file,
-we keep them in the .cpp program file before `main()` function for now. 
 
 ### Let's define a datatype (class) for storing time HH:MM
 
