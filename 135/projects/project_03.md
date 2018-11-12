@@ -22,7 +22,7 @@ three separate submissions.
 
 Let us explain how the provided program works.
 
-Copy the supplied file `dwarves.zip` and extract it:
+Copy the supplied file [`dwarves.zip`](dwarves.zip){:target="_blank"} and extract it:
 ```
 unzip dwarves.zip
 ```
