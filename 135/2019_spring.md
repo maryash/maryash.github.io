@@ -36,7 +36,7 @@ a:active {
     color: #00007F;
 }
 </style>
-**[CSCI 135/136&nbsp; ANALYSIS & DESIGN 1 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2018_fall.html)**  
+**[CSCI 135/136&nbsp; ANALYSIS & DESIGN 1 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2019_spring.html)**  
   
 In these two courses, both of which are required to graduate with a computer science major, you will learn principles of programming, analysis, and design and gain a deep practical knowledge of C++.  
   
@@ -46,18 +46,21 @@ In these two courses, both of which are required to graduate with a computer sci
   
 **Tutoring:** The labs for this course are staffed with tutors Monday through Fridays: **HN1000B 2:00 – 6:00 PM**, and **1000E 9:30 AM – 9:30 PM**. The tutors are there to help you.    
   
-**Lecture:** Mo, Th 8:10 – 9:25 AM in HN118, ***Genady Maryash***, office hours in HN1047 on Mondays from 9:25 to 9:55 AM and from 2:35 to 3:05 PM and Thursdays from 9:25 to 10:25. 
+**Lecture:** Mo, W, Th 12:10 – 1:00 PM in HN118, ***Genady Maryash***, office hours on Mondays and Thursdays from 1:00 to 2:00 PM in HN1047. 
   
  :---: | :---: | :---: | :---: 
  Section &nbsp; &nbsp; &nbsp; | Lab in HN 1001C &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
- 136.01 | Mo 12:45 – 2:35 PM | *Genady Maryash* | gmaryash@hunter.cuny.edu 
- 136.02 | We 8:10 – 10:00 AM | *Subhadarshi Panda* | spanda@gradcenter.cuny.edu 
+ 136.x2-4 | Mo 1:10 – 3:00 PM | *Abdul Khan* | akhan4@gradcenter.cuny.edu 1:10pm-3:00pm
+ 136.02 | Mo 3:10 – 5:00 PM | *Abdul Khan* | akhan4@gradcenter.cuny.edu 
+ 136.06 | Mo 5:35 – 7:25 PM | *Minh Nguyen* | mn1233@hunter.cuny.edu 
+ 136.14 | We 5:35 – 7:25 PM | *Minh Nguyen* | mn1233@hunter.cuny.edu 
  136.03 | Tu 2:10 – 4:00 PM | *Gwenael Gatto* | ggatto2@gmail.com 
- 136.04 | We 10:10 – 12:00 PM | *Subhadarshi Panda* | spanda@gradcenter.cuny.edu 
- 136.06 | We 2:10 – 4:00 PM | *Minh Nguyen* | mn1233@hunter.cuny.edu 
- 136.07 | We 12:10 – 2:00 PM | *Minh Nguyen* | mn1233@hunter.cuny.edu 
- 136.08 | Th 12:45 – 2:35 PM | *Gwenael Gatto* | ggatto2@gmail.com 
- 136.09 | Th 7:00 – 8:50 PM | *Abdul Khan* | akhan4@gradcenter.cuny.edu 
+ 136.05 | We 3:10 – 5:00 PM | *Gwenael Gatto* | ggatto2@gmail.com 
+ 136.08 | We 8:10 – 10:00 AM | *Subhadarshi Panda* | spanda@gradcenter.cuny.edu 
+ 136.11 | We 1:10 – 3:00 PM | *Genady Maryash* | gmaryash@hunter.cuny.edu 
+ 136.09 | We 10:10 – 12:00 PM | *Alvin Lam* | Alvin.Lam16@myhunter.cuny.edu 
+ 136.10 | We 1:10 – 3:00 PM | *Anoop Aroor* | aa2070@hunter.cuny.edu; anoop.a.rao@gmail.com 
+ 136.07 | Th 7:00 – 28:50 PM | *Jack Chan* | chen.jack.cs@gmail.com 
   
 **COURSE OUTLINE**  
   
