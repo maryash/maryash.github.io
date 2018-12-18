@@ -58,7 +58,7 @@ In these two courses, both of which are required to graduate with a computer sci
  136.05 | We 3:10 – 5:00 PM | *Gwenael Gatto* | ggatto2@gmail.com 
  136.08 | We 8:10 – 10:00 AM | *Subhadarshi Panda* | spanda@gradcenter.cuny.edu 
  136.09 | We 10:10 – 12:00 PM | *Alvin Lam* | Alvin.Lam16@myhunter.cuny.edu 
- 136.10 | We 1:10 – 3:00 PM | *Anoop Aroor* | aa2070@hunter.cuny.edu; anoop.a.rao@gmail.com 
+ 136.10 | We 1:10 – 3:00 PM | *Anoop Aroor* | anoop.a.rao@gmail.com 
  136.07 | Th 7:00 – 28:50 PM | *Jack Chan* | chen.jack.cs@gmail.com 
  136.11 | We 1:10 – 3:00 PM | *Genady Maryash* | gmaryash@hunter.cuny.edu 
   
