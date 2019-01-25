@@ -42,11 +42,14 @@ In these two courses, both of which are required to graduate with a computer sci
   
 [**CSCI 135 Syllabus**](syllabus_135.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**CSCI 136 Syllabus**](syllabus_136.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Gradescope**](https://www.gradescope.com/courses/20712){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Coding Style Guide**](worked_examples/style_guide.html){:target="_blank"}
  
-**Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText direct-to-student bundle, $47.95](https://www.wiley.com/WileyCDA/Section/id-830954.html){:target="_blank"} – must buy it here.  
+**Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText direct-to-student or bundle](https://www.wiley.com/WileyCDA/Section/id-830954.html){:target="_blank"} – must buy it from here.  
   
 **Tutoring:** The labs for this course are staffed with tutors Monday through Fridays: **HN1000B 2:00 – 6:00 PM**, and **1000E 9:30 AM – 9:30 PM**. The tutors are there to help you.    
   
-**Lecture:** Mo, W, Th 12:10 – 1:00 PM in HN118, ***Genady Maryash***, office hours on Mondays and Thursdays from 1:00 to 2:00 PM in HN1047. 
+**Lecture: Mo, W, Th 12:10 – 1:00 PM in HN118**  
+
+**Instructor: *Genady Maryash* **  
+**Office hours: Tuesdays 12:30 – 2 PM, Mondays and Thursdays from 1:00 – 1:15 PM in HN1047. 
   
  :---: | :---: | :---: | :---: 
  Section &nbsp; &nbsp; &nbsp; | Lab in HN 1001C &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
