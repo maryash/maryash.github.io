@@ -44,12 +44,12 @@ In these two courses, both of which are required to graduate with a computer sci
  
 **Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText direct-to-student or bundle](https://www.wiley.com/WileyCDA/Section/id-830954.html){:target="_blank"} – must buy it from here.  
   
-**Tutoring:** The labs for this course are staffed with tutors Monday through Fridays: **HN1000B 2:00 – 6:00 PM**, and **1000E 9:30 AM – 9:30 PM**. The tutors are there to help you.    
+**Tutoring:** The labs for this course are staffed with tutors Monday through Fridays: **HN1000B 2:00 – 6:00 PM**, and **1000C 9:30 AM – 9:30 PM**. The tutors are there to help you!    
   
-**Lecture: Mo, W, Th 12:10 – 1:00 PM in HN118**  
+**Lecture: Monday, Wednesday, Thursday 12:10 – 1:00 PM in HN118**  
 
-**Instructor: *Genady Maryash* **  
-**Office hours: Tuesdays 12:30 – 2 PM, Mondays and Thursdays from 1:00 – 1:15 PM in HN1047. 
+**Instructor: *Genady Maryash* **   HN1047. 
+**Office hours: Tuesdays 12:30 – 2:00 PM, Mondays and Thursdays from 1:00 – 1:15 PM.  
   
  :---: | :---: | :---: | :---: 
  Section &nbsp; &nbsp; &nbsp; | Lab in HN 1001C &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
