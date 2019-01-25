@@ -48,8 +48,8 @@ In these two courses, both of which are required to graduate with a computer sci
   
 **Lecture: Monday, Wednesday, Thursday 12:10 – 1:00 PM in HN118**  
 
-**Instructor: *Genady Maryash* **   HN1047. 
-**Office hours: Tuesdays 12:30 – 2:00 PM, Mondays and Thursdays from 1:00 – 1:15 PM.  
+**Instructor: *Genady Maryash*  HN1047** 
+**Office hours: Tuesdays 12:30 – 2:00 PM, Mondays and Thursdays from 1:00 – 1:15 PM**  
   
  :---: | :---: | :---: | :---: 
  Section &nbsp; &nbsp; &nbsp; | Lab in HN 1001C &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
