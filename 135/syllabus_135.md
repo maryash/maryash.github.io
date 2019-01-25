@@ -38,8 +38,9 @@ a:active {
 </style>
 **[CSCI 135/136&nbsp; ANALYSIS & DESIGN 1 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2018_fall.html)**  
   
-CSCI 135 SOFTWARE ANALYSIS & DESIGN 1 FALL 2018  
-Sections 01 & CSH1: Monday, Thursday 8:10 – 9:25 AM, Hunter North 118  
+CSCI 135 SOFTWARE ANALYSIS & DESIGN
+Sections 01, CSH1, X2-4 
+Monday, Wednesday, Thursday 12:10 – 1:00, Hunter North 118  
 
 INSTRUCTOR Genady Maryash (gmaryash@hunter.cuny.edu)  
 
@@ -73,11 +74,20 @@ SOFTWARE
 You may use 1001C (in CSCI 136) or 1001B to do your work for this course. The standard Linux/Unix/MacOS C++ compiler is g++. If you wish to use a home computer, there are several free Linux OSs which you can install for dual-booting with Windows, including http://www.ubuntu.com . If you want a Linux-style environment for windows that doesn’t require installing Linux, http://cygwin.com is an alternative.  
 
 GRADING  
-5% mid-lecture quizzes, 9% homeworks, 6% programming project one, 10% each projects two and three (this may not seem like a lot, but beware that many exam questions will be based directly on these programs), 30% midterm exam, and 35% final exams. However, if you do better on the final exam than on the midterm, your final exam grade will count for 65% of your final grade.  
+The composition od the course grade is as follows: 
+5% mid-lecture quizzes 
+6% homeworks 
+5% programming project one 
+8% projects two and three 
+**Note**: many test and exam questions will be directly based on homeworks and projects. 
+17% each of the two midterm tets 
+**Note**: if you do better on the second midterm test than on the first one, the second grade will count for both.  
+34% final exam  
+**However**: no matter the total score, **if you fail the final exam, you fail the course**.  
   
 LATE AND MAKE UP POLICY  
-There will be absolutely no late project or lab submissions.  No exceptions.  
-Make-up exams will not be given under any circumstances.  No exceptions.  
+There will be **absolutely no project, quiz, homework, or lab submittions**.  **No exceptions**.  
+**Make-up tests or exams will not be given under any circumstances**.  **No exceptions**.  
   
 GUIDELINES FOR FINAL GRADES  
 A: You understand the concepts well enough to successfully understand and solve a problem by implementing a C++ program on your own.
@@ -123,6 +133,3 @@ In compliance with the CUNY Policy on Sexual Misconduct, Hunter College reaffirm
 a. Sexual Violence: Students are strongly encouraged to immediately report the incident by calling 911, contacting NYPD Special Victims Division Hotline (646-610-7272) or their local police precinct, or contacting the College's Public Safety Office (212-772-4444).  
 b. All Other Forms of Sexual Misconduct: Students are also encouraged to contact the College's Title IX Campus Coordinator, Dean John Rose (jtrose@hunter.cuny.edu or 212-650-3262) or Colleen Barry (colleen.barry@hunter.cuny.edu or 212-772-4534) and seek complimentary services through the Counseling and Wellness Services Office, Hunter East 1123. CUNY Policy on Sexual Misconduct Link:
 [http://www.cuny.edu/about/administration/offices/la/Policy-on-SexualMisconduct-12-1-14-with-links.pdf](http://www.cuny.edu/about/administration/offices/la/Policy-on-SexualMisconduct-12-1-14-with-links.pdf)  
-
-
-
