@@ -51,7 +51,7 @@ In these two courses, both of which are required to graduate with a computer sci
 **Instructor: *Genady Maryash*  HN1047**  
 **Office hours: Tuesdays 12:30 – 2:00 PM, Mondays and Thursdays following lecture**  
 
-**Lab Coordinator: *Gwenael Gatto | ggatto2@gmail.com* **
+**Lab Coordinator: *Gwenael Gatto | ggatto2@gmail.com***
   
  :---: | :---: | :---: | :---: 
  Section &nbsp; &nbsp; &nbsp; | Lab in HN 1001C &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
