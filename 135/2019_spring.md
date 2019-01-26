@@ -49,8 +49,9 @@ In these two courses, both of which are required to graduate with a computer sci
 **Lecture: Monday, Wednesday, Thursday 12:10 – 1:00 PM in HN118**  
 
 **Instructor: *Genady Maryash*  HN1047**  
+**Office hours: Tuesdays 12:30 – 2:00 PM, Mondays and Thursdays following lecture**  
 
-**Office hours: Tuesdays 12:30 – 2:00 PM, Mondays and Thursdays from 1:00 – 1:15 PM**  
+**Lab Coordinator: *Gwenael Gatto | ggatto2@gmail.com* **
   
  :---: | :---: | :---: | :---: 
  Section &nbsp; &nbsp; &nbsp; | Lab in HN 1001C &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
@@ -64,7 +65,7 @@ In these two courses, both of which are required to graduate with a computer sci
  136.09 | We 10:10 – 12:00 PM | *Alvin Lam* | Alvin.Lam16@myhunter.cuny.edu 
  136.10 | Th 1:10 – 3:00 PM | *Anoop Aroor* | anoop.a.rao@gmail.com 
  136.07 | Th 7:00 – 28:50 PM | *Jack Chen* | chen.jack.cs@gmail.com 
- 136.11 | Wednesday 1:10 – 3:00 PM | *Genady Maryash* | gmaryash@hunter.cuny.edu 
+ 136.11 | We 1:10 – 3:00 PM | *Genady Maryash* | gmaryash@hunter.cuny.edu 
   
 **COURSE OUTLINE**  
   
