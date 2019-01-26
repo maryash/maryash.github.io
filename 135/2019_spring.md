@@ -55,7 +55,7 @@ In these two courses, both of which are required to graduate with a computer sci
   
  :---: | :---: | :---: | :---: 
  Section &nbsp; &nbsp; &nbsp; | Lab in HN 1001C &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
- 136.x2-4 | Mo 1:10 – 3:00 PM | *Abdul Khan* | akhan4@gradcenter.cuny.edu 
+ 136.17 | Mo 1:10 – 3:00 PM | *Abdul Khan* | akhan4@gradcenter.cuny.edu 
  136.02 | Mo 3:10 – 5:00 PM | *Abdul Khan* | akhan4@gradcenter.cuny.edu 
  136.06 | Mo 5:35 – 7:25 PM | *Minh Nguyen* | mn1233@hunter.cuny.edu 
  136.14 | We 5:35 – 7:25 PM | *Minh Nguyen* | mn1233@hunter.cuny.edu 
