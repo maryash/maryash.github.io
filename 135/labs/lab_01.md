@@ -21,12 +21,13 @@ A brief summary:
 `ls path/to/a/directory` &emsp; | list files in the directory    
 `cd path/to/a/directory` &emsp; | change directory     
 
-> These are some useful directory shortcuts:     
-> &emsp; `.` &nbsp; the current directory <br />
-> &emsp; `..` &nbsp; the parent directory of the current <br />
-> &emsp; `~` &nbsp; the home directory. <br />
->    
-> And these:    
+> These are some useful directory shortcuts:  
+
+`.` &nbsp; 			|the current directory 
+`..` &nbsp; 			|the parent directory of the current 
+`~` &nbsp; 			|the home directory 
+    
+> And these additional unix commands:    
 
 `cd ..` &emsp; 			| go to the parent directory (one level up)
 `mkdir newdirectoryname` 	| create new directory 
