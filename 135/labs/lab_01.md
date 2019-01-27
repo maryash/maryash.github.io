@@ -29,7 +29,8 @@ A brief summary:
 > For example:    
 > &emsp; `cd ..` &nbsp; go to the parent directory (one level up)
   
-`mkdir newdirectoryname` &emsp; | create new directory    
+`mkdir new_directory_name` &emsp; | create new directory    
+`touch new_file_name` &emsp; 	| create new file    
 `cp file1 file2`                | copy `file1` and call the copy `file2`    
 `mv file1 file2`                | rename (move) `file1` to `file2`    
 `rmdir directoryname`           | remove empty directory    
