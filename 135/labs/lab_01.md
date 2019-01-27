@@ -20,26 +20,26 @@ A brief summary:
 `ls` &emsp;                     | list files in the current directory    
 `ls path/to/a/directory` &emsp; | list files in the directory    
 `cd path/to/a/directory` &emsp; | change directory     
+`cd ..` &emsp; 			| go to the parent directory (one level up)
+`mkdir newdirectoryname` 	| create new directory 
+`cp file1 file2` &emsp; 	| copy `file1` and call the copy `file2` 
+`mv file1 file2` &emsp; 	| rename (move) `file1` to `file2` 
+`rmdir directoryname` &emsp; 	| remove empty directory 
+`rm file` &emsp; 		| remove `file` 
 
-> These are some useful directory shortcuts:  
+These are some useful directory shortcuts:  
 
 `.` &nbsp; 			|the current directory 
 `..` &nbsp; 			|the parent directory of the current 
 `~` &nbsp; 			|the home directory 
     
-> And these additional unix commands:    
+And these additional unix commands:    
 
-`cd ..` &emsp; 			| go to the parent directory (one level up)
-`mkdir newdirectoryname` 	| create new directory 
 `touch newfilename` &emsp;	| create new file 
-`cp file1 file2` &emsp; 	| copy `file1` and call the copy `file2` 
-`mv file1 file2` &emsp; 	| rename (move) `file1` to `file2` 
-`rmdir directoryname` &emsp; 	| remove empty directory 
-`rm file` &emsp; 		| remove `file` 
 `chmod <options> file` &emsp; 	| change file permissions (read `+r`, write `+w`, execute `+x`) 
 `man command` &emsp;  		| documentation about the `command` 
 
-  > **Also read this article and watch its videos:**      
+**Also read this article and watch its videos:**      
   [Become a Command Line Ninja With These Time-Saving Shortcuts](http://lifehacker.com/5743814/become-a-command-line-ninja-with-these-time-saving-shortcuts)
 
 Try this [Unix tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html) for more information.
