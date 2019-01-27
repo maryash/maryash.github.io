@@ -44,6 +44,12 @@ Try this [Unix tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html) fo
 
 ## Compiling C++ code with `g++`.  
 
+First, get acquainted with teh `gedit` Text Editor, which you will be using to write your C++ programs.  
+
+Regarding coding style: remember that it is of paramount importance that all of your code is correctly indented.  You must always use tabs to indent lines of code.  Never use spaces to indent!  In addition to automatic grading by Gradescope, we will spot check your code manually and will reduce your grade, if the indentation is not correct or if spaces are used instead of tabs. 
+
+Now, lets set the default tab width on your Text Editor to `3`.  Once you open it, click on `Text Editor` in the upper left corner of the screen and select `Preferences` from the drop down menu.  Click the `Editor` tab and set `Tab width` to `3`.  Done!  
+
 Consider the following program that asks for your current age and
 prints it on the screen:
 
