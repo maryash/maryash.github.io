@@ -61,7 +61,7 @@ GRADESCOPE
 You will submit all labs and projects electronicaly through Gradescope.  You will see your grades (including exam grades) on Gradescope as well.  An invite email was sent to you before the first lecture.  If you have not received it, ask your lab instructor to send you another one right away: you will neeed to email them your full name, EMPL ID, and a **good** email address.  
 
 BLACKBOARD  
-Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default), since you are responsible for any email I might send there.  You will also need to be able to connect to BlackBoard from some device (a phone, a tablet, or a laptop) during lectures: lecture quizzes will be administered through BlackBoard.  
+Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default), since you are responsible for any email I might send there.  You will also need to be able to connect to BlackBoard from some connected device (a phone, a tablet, or a laptop) during labs and lectures: lab and lecture quizzes will be administered through BlackBoard.  
 
 SOFTWARE  
 You may use 1001C (in CSCI 136) or 1001B to do your work for this course. The standard Linux/Unix/MacOS C++ compiler is g++. If you wish to use a home computer, there are several free Linux OSs which you can install for dual-booting with Windows, including http://www.ubuntu.com . If you want a Linux-style environment for windows that doesn’t require installing Linux, http://cygwin.com is an alternative.  
