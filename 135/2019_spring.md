@@ -56,10 +56,9 @@ The tutors are there to help you with all of your labs, assignments, and project
   
 **Lecture: Monday, Wednesday, Thursday 12:10 – 1:00 PM in HN118**  
 
-**Instructor**: Genady Maryash | HN1047 | Office hours: Tuesdays 12:30 – 2:00 PM, Mondays and Thursdays following lecture | gmaryash@hunter.cuny.edu   
+**Instructor**: Genady Maryash &nbsp; HN1047 &nbsp; Office hours: Tuesdays 12:30 – 2:00 PM, Mondays and Thursdays following lecture &nbsp; gmaryash@hunter.cuny.edu   
 
-**CSCI 136 Coordinator**: Gwenael Gatto | ggatto2@gmail.com  
-  
+**CSCI 136 Coordinator**: Gwenael Gatto &nbsp; ggatto2@gmail.com  
   
 **Email Questions** You must get hands-on programing help in person during your lab period and from tutors in labs B and C outside of it.  Instructors will never debug your code over email.  You should ask questions during the lab and the lecture.  All other email questions must be sent to your lab instructor listed below.  You must always include your lab section and time, name of your lab instructor, your name, and EMPLID in all emails.   
 
