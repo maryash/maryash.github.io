@@ -44,13 +44,13 @@ In these two courses, both of which are required to graduate with a computer sci
  
 **Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText direct-to-student or bundle](https://www.wiley.com/WileyCDA/Section/id-830954.html){:target="_blank"} – must buy it from here – do not buy from Amazon or Kindle store – you will not get access to the necessary interactive material!  
   
-**Tutoring:** The labs for this course are staffed with tutors in labs **HN1001 B and/or HN1001 C** on:  
+**Tutoring:** The labs for this course are staffed with tutors in labs **HN1001 B and/or HN1001 C**  
 
-**Mondays: 11:00 AM – 7:00 PM  (lab B untill 3:00 PM)  
+Mondays: 11:00 AM – 7:00 PM  (lab B untill 3:00 PM)  
 Tuesdays: 9:30 AM – 5:00 PM    (lab B untill 5:00 PM)  
 Wednesdays: 9:00 AM – 7:00 PM    (lab B untill 5:00 PM)  
 Thursdays: 1:00 PM – 9:00 PM    (lab B untill 6:00 PM)  
-Fridays: 11:00 AM – 5:00 PM    (lab B untill 5:00 PM)**  
+Fridays: 11:00 AM – 5:00 PM    (lab B untill 5:00 PM)  
 The tutors are there to help you with all of your labs, assignments, and projects!  
   
 **Lecture: Monday, Wednesday, Thursday 12:10 – 1:00 PM in HN118**  
@@ -58,9 +58,9 @@ The tutors are there to help you with all of your labs, assignments, and project
 **Instructor: *Genady Maryash* | HN1047** | *gmaryash@hunter.cuny.edu*
 **Office hours: Tuesdays 12:30 – 2:00 PM, Mondays and Thursdays following lecture**  
 
-**Lab Coordinator: *Gwenael Gatto*  ** | *ggatto2@gmail.com*  
+**Lab Coordinator: *Gwenael Gatto*** | *ggatto2@gmail.com*  
   
-**Email Questions** You must get hands-on programing help in person during your lab period and from tutors in labs B and C outside of it.  Instructors will never debug your code over email.  You should ask questions during the lab and the lecture.  All other email questions must be sent to your lab instructor listed below.  You must always include your lab section and time, your name, and EMPLID in all emails.   
+**Email Questions** You must get hands-on programing help in person during your lab period and from tutors in labs B and C outside of it.  Instructors will never debug your code over email.  You should ask questions during the lab and the lecture.  All other email questions must be sent to your lab instructor listed below.  You must always include your lab section and time, name of your lab instructor, your name, and EMPLID in all emails.   
 
  :---: | :---: | :---: | :---: 
  Section &nbsp; &nbsp; | Lab in HN 1001C &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
