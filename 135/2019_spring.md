@@ -46,12 +46,12 @@ In these two courses, both of which are required to graduate with a computer sci
   
 **Tutoring:** The labs for this course are staffed with tutors in labs **HN1001 B and/or HN1001 C** on:  
 
-**Mondays: 11:00 AM – 7:00 PM  (lab B untill 3:00 PM)
-Tuesdays: 9:30 AM – 5:00 PM    (lab B untill 5:00 PM)
-Wednesdays: 9:00 AM – 7:00 PM    (lab B untill 5:00 PM)
-Thursdays: 1:00 PM – 9:00 PM    (lab B untill 6:00 PM)
-Fridays: 11:00 AM – 5:00 PM    (lab B untill 5:00 PM)**
-The tutors are there to help you with all of your labs, assignments, and projects!    
+**Mondays: 11:00 AM – 7:00 PM  (lab B untill 3:00 PM)  
+Tuesdays: 9:30 AM – 5:00 PM    (lab B untill 5:00 PM)  
+Wednesdays: 9:00 AM – 7:00 PM    (lab B untill 5:00 PM)  
+Thursdays: 1:00 PM – 9:00 PM    (lab B untill 6:00 PM)  
+Fridays: 11:00 AM – 5:00 PM    (lab B untill 5:00 PM)**  
+The tutors are there to help you with all of your labs, assignments, and projects!  
   
 **Lecture: Monday, Wednesday, Thursday 12:10 – 1:00 PM in HN118**  
 
