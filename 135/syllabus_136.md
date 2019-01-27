@@ -37,7 +37,7 @@ a:active {
     color: #00007F;
 }
 </style>
-**[CSCI 135/136&nbsp; ANALYSIS & DESIGN 1 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2018_fall.html)**  
+**[CSCI 135/136&nbsp; ANALYSIS & DESIGN 1 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2019_spring.html)**  
   
 CSCI 136 SYLLABUS  
   
@@ -47,14 +47,16 @@ This course provides a ’first step’ towards the following department’s lea
 * Be able to apply principles of design and analysis in creating substantial programs and have experience working in teams on projects of moderately realistic scope.  
 
 TEXT  
-Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText/loose-leaf bundle. Purchase at the negotiated discounted price of $47.95 through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html)  
+Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText only or eText/loose-leaf bundle. Purchase at the negotiated discounted price through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html) - not from Amazon or Kindle store.  
 
 LABS  
-Lab Assignments will be posted on Blackboard. You submit your solutions through Gradescope. The assignments will be posted in advance, approximately at four hours before the class starts. Please read the tasks before you come to class. All labs should be finished and submitted by the end of the class. The instructor can extend the submission deadline by up to 24 hours if they find it necessary.
+Lab Assignments will be posted in te Outline of the Main Course Page. You submit your solutions through Gradescope. The labs will be posted in advance. Please read the tasks before you come to class. You should try to finish and submitt all lab tasks by the end of the lab period. 
 
-GRADES  
+LAB QUIZZES  
+There will be a lab quiz during each lab period.  The **quizzes will count for 14%** of your CSCI 136 course grade.  If you already took and passed CSCI 136, you should not take these quizzes.  
+
 All CSCI 135 programming projects and exams contribute to your CSCI 135 grade. Whereas all labs contribute only to your CSCI 136 grade. Both classes follow the same grading criteria.  
-For more detailed information, see your CSCI 135 syllabus.
+For more detailed information, see your CSCI 135 syllabus.  
 
 LINKS & INFO  
 [Basic Linux command line commands](https://a-nikolaev.github.io/cs136/linux/)  
