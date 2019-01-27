@@ -26,17 +26,17 @@ A brief summary:
 > &emsp; `..` &nbsp; the parent directory of the current <br />
 > &emsp; `~` &nbsp; the home directory. <br />
 >    
-> For example:    
-> &emsp; `cd ..` &nbsp; go to the parent directory (one level up)
+> And these:    
 
-`mkdir new_directory_name` &emsp; 	| create new directory 
-`touch new_file_name` &emsp; 		| create new file 
-`cp file1 file2` &emsp; 		| copy `file1` and call the copy `file2` 
-`mv file1 file2` &emsp; 		| rename (move) `file1` to `file2` 
-`rmdir directoryname` &emsp; 		| remove empty directory 
-`rm file` &emsp; 			| remove `file` 
-`chmod <options> file` &emsp; 		| change file permissions (read `+r`, write `+w`, execute `+x`) 
-`man command` &emsp;  			| documentation about the `command` 
+`cd ..` &emsp; 			| go to the parent directory (one level up)
+`mkdir newdirectoryname` 	| create new directory 
+`touch newfilename` &emsp;	| create new file 
+`cp file1 file2` &emsp; 	| copy `file1` and call the copy `file2` 
+`mv file1 file2` &emsp; 	| rename (move) `file1` to `file2` 
+`rmdir directoryname` &emsp; 	| remove empty directory 
+`rm file` &emsp; 		| remove `file` 
+`chmod <options> file` &emsp; 	| change file permissions (read `+r`, write `+w`, execute `+x`) 
+`man command` &emsp;  		| documentation about the `command` 
 
   > **Also read this article and watch its videos:**      
   [Become a Command Line Ninja With These Time-Saving Shortcuts](http://lifehacker.com/5743814/become-a-command-line-ninja-with-these-time-saving-shortcuts)
