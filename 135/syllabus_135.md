@@ -46,15 +46,13 @@ PRE- AND CO-REQUISITES
 The prerequisite is CSCI 127 or instructor’s permission. At the very least, you should have written, compiled, and run a greater than one page long program containing iteration `while`, `for` and selection `if` statements.  CSCI 136 is a co-requisite, and you will receive a 0 in 135 if you don’t take 136. If you have already passed 136, you must contact me before the 2nd class, so that you can be added to a BlackBoard section and your work can be graded.  
 
 TEXT  
-Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText/loose-leaf bundle. Purchase at the negotiated discounted price of $47.95 through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html)  
-This is a new text – different from the previous semester.  It is also better and less expensive.  The eText portion contains useful interactive features.  
+Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText only or eText/loose-leaf bundle. Purchase at the negotiated discounted price through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html) – do not buy from Amazon or Kindle store – you will not get access to the necessary interactive material!
   
 [MAIN COURSE PAGE](2018_fall.html){:target="_blank"}  
 You should check this page regularly, since **all** class materials will be gradually posted here.  
 
 TUTORING  
-There are dedicated computer labs for this course (HUNTER NORTH 1001C, 1000E, and 1000B) staffed with tutors, who are there to help you.  Please take advantage of it.  You can ask for help with labs, projects, and general course material 
-Monday through Fridays from 9:30 AM to 9:30 PM  
+There are dedicated computer labs for this course (HUNTER NORTH 1001B and 1001C) staffed with tutors, who are there to help you.  Please take advantage of it.  You can ask for help with labs, projects, and general course material.  
 
 QUESTIONS  
 Ask many in lecture!  Outside of lecture go to the tutoring labs.  The department hired additional tutors especially for students taking this course.  Email the instructor of your CSCI 136 section with any programming questions that tutors cannot answer.  The beginning of each 136 lab is also devoted to answering questions.  All emails to instructors must start with your full name, day and time of your 136 section, and name of your 136 instructor.  
@@ -76,8 +74,9 @@ The composition od the course grade is as follows:
 8% projects two and three 
 **Note**: many test and exam questions will be directly based on homeworks and projects. 
 17% each of the two midterm tets 
-**Note**: if you do better on the second midterm test than on the first one, the second grade will count for both.  
+**Note**: if you do better on the second midterm test than on the first one, the second midterm's grade will count for both.  
 34% final exam  
+**Note**: final exam score will override lover quiz and homework scores, as well as the lowest of the three project scores
 **However**: no matter the total score, **if you fail the final exam, you fail the course**.  
   
 LATE AND MAKE UP POLICY  
@@ -97,7 +96,7 @@ DEPARTMENT LEARNING GOALS
 in teams on projects of moderately realistic scope  
   
 HOW TO LEARN  
-• From the beginning, you will be expected to work independently outside of the lectures. There will be very little “hand holding” in the course – you are expected to find your way around your computer on your own – the way each of you will save your work, compile/debug assignments, etc.  Get started NOW – especially if you are going to install your own compiler and/or operating system. The first programming project is due soon.  
+• From the beginning, you will be expected to work independently outside of the lectures. There will be very little hand holding in the course – you are expected to find your way around your computer on your own – the way each of you will save your work, compile/debug assignments, etc.  Get started NOW – especially if you are going to install your own compiler and/or operating system. The first programming project is due soon.  
 
 • There will be many obstacles to overcome, both in absorbing the material and in doing the assignments. It is difficult to understand software development concepts without sitting in front of a computer many hours a week actually writing and debugging programs. Attacking the obstacles head on, outside of class time, in front of a computer, is the key to success. Keep trying, if your program is not working, try again. Still not working? Try again. And again. And again. When it comes to programming, the learning is in the doing. There is no substitute for spending many hours in front of a computer – trying and failing, trying and failing, trying and failing – until you finally get your program up and running correctly. Every time you fail, you actually learn quite a bit, and to pass the course, you will repeat this trying-failing cycle many times, every week during the entire semester. There are no “slow points” during the semester.  
 
