@@ -50,7 +50,7 @@ TEXT
 Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText only or eText/loose-leaf bundle. Purchase at the negotiated discounted price through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html) - not from Amazon or Kindle store.  
 
 LABS  
-Lab Assignments will be posted in te Outline of the Main Course Page. You submit your solutions through Gradescope. The labs will be posted in advance. Please read the tasks before you come to class. You should try to finish and submitt all lab tasks by the end of the lab period. 
+Lab Assignments will be posted on the [Main Course Page](2019_spring.html){:target="_blank"}. You submit your solutions through Gradescope. The labs will be posted in advance. Please read the tasks before you come to class. You should try to finish and submitt all lab tasks by the end of the lab period. 
 
 LAB QUIZZES  
 There will be a lab quiz during each lab period.  The **quizzes will count for 14%** of your CSCI 136 course grade.  If you already took and passed CSCI 136, you should not take these quizzes.  
