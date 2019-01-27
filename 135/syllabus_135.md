@@ -36,7 +36,7 @@ a:active {
     color: #00007F;
 }
 </style>
-**[CSCI 135/136&nbsp; ANALYSIS & DESIGN 1 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2018_fall.html)**  
+**[CSCI 135/136&nbsp; ANALYSIS & DESIGN 1 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2019_spring.html)**  
   
 CSCI 135 SOFTWARE ANALYSIS & DESIGN
 Sections 01, CSH1, X2-4 
@@ -48,7 +48,7 @@ The prerequisite is CSCI 127 or instructor’s permission. At the very least, yo
 TEXT  
 Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText only or eText/loose-leaf bundle. Purchase at the negotiated discounted price through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html) – do not buy from Amazon or Kindle store – you will not get access to the necessary interactive material!
   
-[MAIN COURSE PAGE](2018_fall.html){:target="_blank"}  
+[MAIN COURSE PAGE](2019_spring.html){:target="_blank"}  
 You should check this page regularly, since **all** class materials will be gradually posted here.  
 
 TUTORING  
