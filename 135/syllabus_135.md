@@ -70,15 +70,11 @@ GRADING
 The composition of the course grade is as follows: 
 
 5% mid-lecture quizzes 
-
-6% homeworks 
-
-5% programming project one 
-
-8% projects two and three 
-**Note**: many test and exam questions will be directly based on homeworks and projects. 
-
-17% each of the two midterm tets 
+6% homeworks <br/>
+5% programming project one <br/>
+8% projects two and three <br/>
+**Note**: many test and exam questions will be directly based on homeworks and projects. <br/>
+17% each of the two midterm tets <br/>
 **Note**: if you do better on the second midterm test than on the first one, the second midterm's grade will count for both.  
 34% final exam  
 **Note**: final exam score will override lover quiz and homework scores, as well as the lowest of the three project scores
