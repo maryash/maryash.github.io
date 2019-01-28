@@ -43,7 +43,7 @@ Sections 01, CSH1, X2-4
 Monday, Wednesday, Thursday 12:10 – 1:00, Hunter North 118  
 
 PRE- AND CO-REQUISITES  
-The prerequisite is CSCI 127 or instructor’s permission. At the very least, you should have written, compiled, and run a greater than one page long program containing iteration `while`, `for` and selection `if` statements.  CSCI 136 is a co-requisite, and you will receive a 0 in 135 if you don’t take 136. If you have already passed 136, you must contact me before the 2nd class, so that you can be added to a BlackBoard section and your work can be graded.  
+The prerequisite is CSCI 127 or instructor’s permission. At the very least, you should have written, compiled, and run a greater than one page long program containing iteration `while`, `for` and selection `if` statements.  CSCI 136 is a co-requisite, and you will receive a 0 in 135 if you don’t take 136. 
 
 TEXT  
 Same as CSCI 135: Cay Horstmann, **Brief C++**, 3rd Edition eText only or eText/loose-leaf bundle. Purchase at the negotiated discounted price through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html) – do not buy from Amazon or Kindle store – you will not get access to the necessary interactive material!
@@ -67,12 +67,17 @@ SOFTWARE
 You may use 1001C (in CSCI 136) or 1001B to do your work for this course. The standard Linux/Unix/MacOS C++ compiler is g++. If you wish to use a home computer, there are several free Linux OSs which you can install for dual-booting with Windows, including http://www.ubuntu.com . If you want a Linux-style environment for windows that doesn’t require installing Linux, http://cygwin.com is an alternative.  
 
 GRADING  
-The composition od the course grade is as follows: 
+The composition of the course grade is as follows: 
+
 5% mid-lecture quizzes 
+
 6% homeworks 
+
 5% programming project one 
+
 8% projects two and three 
 **Note**: many test and exam questions will be directly based on homeworks and projects. 
+
 17% each of the two midterm tets 
 **Note**: if you do better on the second midterm test than on the first one, the second midterm's grade will count for both.  
 34% final exam  
