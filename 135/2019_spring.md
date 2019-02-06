@@ -56,7 +56,7 @@ The tutors are there to help you with all of your labs, assignments, and project
   
 **Lecture: Monday, Wednesday, Thursday 12:10 – 1:00 PM in HN118**  
 
-**Lecture Instructor**: Genady Maryash &nbsp; HN1047 &nbsp; Office hours: Tuesdays 12:30 – 2:00 PM, Mondays and Thursdays following lecture &nbsp; gmaryash@hunter.cuny.edu   
+**Lecture Instructor**: Genady Maryash &nbsp; HN1047 &nbsp; Office hours: Tuesdays 12:30 – 2:30 PM, &nbsp; gmaryash@hunter.cuny.edu   
 
 **CSCI 136 Coordinator**: Gwenael Gatto &nbsp; ggatto2@gmail.com  
   
