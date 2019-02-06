@@ -95,7 +95,10 @@ The tutors are there to help you with all of your labs, assignments, and project
  2/27 |  |  |  | **[E5.14](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/280!/4/4/100/2@0.00:0){:target="_blank"}&nbsp;&nbsp;[E5.15](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/280!/4/4/114/2@0.00:0){:target="_blank"}&nbsp;&nbsp;&nbsp;3/7** 
  2/28 |  |  |  |  
  3/4 |  | **MIDTERM EXAM 1** |  | **[Project&nbsp;2:&nbsp;Phase&nbsp;I](projects/project_02.html){:target="_blank"}**<br/>**[Pseudocode&nbsp;I](projects/project_02.html){:target="_blank"}&nbsp;&nbsp;&nbsp;3/7**<br/>**[Program&nbsp;I](projects/project_02.html){:target="_blank"}&nbsp;&nbsp;&nbsp;3/7**<br/>**[LAB&nbsp;5&nbsp; Functions and Prime Numbers](labs/lab_05.html){:target="_blank"} &nbsp; 3/3** 
- 3/6 | **Arrays** | [6.2 Common Array Algorithms](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/296!/4/2/2/2@0.00:0){:target="_blank"}<br/>[6.3 Arrays and Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/320!/4/2/2/2@0.00:0){:target="_blank"}<br/>**[Project&nbsp;2:&nbsp;Phase&nbsp;II](projects/project_02.html){:target="_blank"}** | [6.2](slides/6.2 Common Array Algorithms.pdf){:target="_blank"}<br/>[6.3](slides/6.3 Arrays and Functions.pdf){:target="_blank"} | **[E6.7](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/362!/4/4/52/2@0.00:0){:target="_blank"} &nbsp; 3/7**<br/>**[Pseudocode&nbsp;II](projects/project_02.html){:target="_blank"}&nbsp;&nbsp;&nbsp;3/7**<br/>**[Program&nbsp;II](projects/project_02.html){:target="_blank"}&nbsp;&nbsp;&nbsp;3/11** 
+
+<!---  
+
+3/6 | **Arrays** | [6.2 Common Array Algorithms](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/296!/4/2/2/2@0.00:0){:target="_blank"}<br/>[6.3 Arrays and Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/320!/4/2/2/2@0.00:0){:target="_blank"}<br/>**[Project&nbsp;2:&nbsp;Phase&nbsp;II](projects/project_02.html){:target="_blank"}** | [6.2](slides/6.2 Common Array Algorithms.pdf){:target="_blank"}<br/>[6.3](slides/6.3 Arrays and Functions.pdf){:target="_blank"} | **[E6.7](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/362!/4/4/52/2@0.00:0){:target="_blank"} &nbsp; 3/7**<br/>**[Pseudocode&nbsp;II](projects/project_02.html){:target="_blank"}&nbsp;&nbsp;&nbsp;3/7**<br/>**[Program&nbsp;II](projects/project_02.html){:target="_blank"}&nbsp;&nbsp;&nbsp;3/11** 
  3/7 |  | **[Project&nbsp;2:&nbsp;Phase&nbsp;III](projects/project_02.html){:target="_blank"}**<br/>[6.4 PS: *Adapting Algorithms*](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/324!/4/2/2/2@0.00:0){:target="_blank"} | [6.4-5](slides/6.4 PS Adapting Algorithms _ 6.5 Discovering Algorithms.pdf){:target="_blank"} | **[Pseudocode&nbsp;III](projects/project_02.html){:target="_blank"}&nbsp;&nbsp;&nbsp;3/11**<br/>**[Program&nbsp;III](projects/project_02.html){:target="_blank"}&nbsp;&nbsp;&nbsp;3/11**<br/>[PS 6.4](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/324!/4/2/2/2@0.00:0){:target="_blank"} 
  3/11 |  | [6.5 PS: *Discovering Algorithms by Manipulating Phisical Objects*](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/330!/4/4/2/2@0.00:0){:target="_blank"}<br/>[6.6 Two-Dimensional Arrays](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/332!/4/2/2/2@0.00:0){:target="_blank"} | [6.6](slides/6.6 2D Arrays.pdf){:target="_blank"} | [WE&nbsp;6.1](worked_examples/ch6_WE1.pdf){:target="_blank"}<br/>[PS 6.5](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/330!/4/4/2/2@0.00:0){:target="_blank"}<br/>[WE&nbsp;6.2](worked_examples/ch6_WE2.pdf){:target="_blank"}<br/>**[LAB&nbsp;6&nbsp; Strings and Ciphers](labs/lab_06.html){:target="_blank"} &nbsp; 10/18** 
  3/13 |  | **Midterm Exam** |  | 
@@ -126,6 +129,8 @@ The tutors are there to help you with all of your labs, assignments, and project
  5/9 |  |  |  | 
  5/13 |  |  |  | 
  **12/20** | **FINAL EXAM** | **THURSDAY 12/20 &nbsp; 9:00 — 11:00 AM** | **HN118** | 
+  
+  --->  
   
   
 **Past Exams:**  
