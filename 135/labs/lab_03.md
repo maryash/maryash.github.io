@@ -24,10 +24,10 @@ Please follow these instructions to download the dataset:
 1. Follow the link NYC Open Data [Current Reservoir Levels](https://data.cityofnewyork.us/Environment/Current-Reservoir-Levels/zkky-n5j3){:target="_blank"}.
 1. Choose the **View Data** menu option (it will reload the page).
   ![\[Illustration\]](https://i.imgur.com/bj2uhhb.png){: .centered}
-1. Filter data including only the year 2016. To do that:
+1. Filter data including only the year 2018. To do that:
     - Click the blue button **Filter**
     - In its submenu **Filter**, click **Add a New Filter Condition**
-    - Choose **Date is between** `January 1, 2016` and `December 31, 2018`
+    - Choose **Date is between** `January 1, 2018` and `December 31, 2018`
   ![\[Illustration\]](https://i.imgur.com/i68wEOm.png){: .centered}
 1. Sort entries *by Date* in the *Ascending* order.
 1. Export the data:
@@ -109,7 +109,7 @@ and prints out the **East basin storage** on that day.
 ### Example
 ```
 $ ./east-storage
-Enter date: 05/20/2016
+Enter date: 05/20/2018
 East basin storage: 79.88 billion gallons
 ```
 
@@ -137,8 +137,8 @@ by printing "**East**" or "**West**", or print "**Equal**" if both basins are at
 ### Example:
 ```
 $ ./compare
-Enter starting date: 09/13/2016
-Enter ending date: 09/17/2016
+Enter starting date: 09/13/2018
+Enter ending date: 09/17/2018
 
 09/13/2018 East
 09/14/2018 East
@@ -173,8 +173,8 @@ The program should report the **West basin elevation** for all days in the inter
 ### Example:
 ```
 $ ./reverse-order
-Enter earlier date: 05/29/2016
-Enter later date: 06/02/2016
+Enter earlier date: 05/29/2018
+Enter later date: 06/02/2018
 
 06/02/2018  587.66 ft
 06/01/2018  587.81 ft
