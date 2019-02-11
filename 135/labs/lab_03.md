@@ -18,7 +18,7 @@ The other is the Schoharie, located 27 miles to the north, whose water flows int
 Including the water it receives from the Schoharie Reservoir, the Ashokan supplies about **40% of New York City’s daily drinking water** needs in non-drought periods.
 
 ## Data on Ashokan water levels
-In this lab, we will be studying the Ashokan water levels for the year 2016. It is available from *NYC Open Data*. 
+In this lab, we will be studying the Ashokan water levels for the year 2018. It is available from *NYC Open Data*. 
 Please follow these instructions to download the dataset:
 
 1. Follow the link NYC Open Data [Current Reservoir Levels](https://data.cityofnewyork.us/Environment/Current-Reservoir-Levels/zkky-n5j3){:target="_blank"}.
