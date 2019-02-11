@@ -27,7 +27,7 @@ Please follow these instructions to download the dataset:
 1. Filter data including only the year 2016. To do that:
     - Click the blue button **Filter**
     - In its submenu **Filter**, click **Add a New Filter Condition**
-    - Choose **Date is between** `January 1, 2016` and `December 31, 2016`
+    - Choose **Date is between** `January 1, 2016` and `December 31, 2018`
   ![\[Illustration\]](https://i.imgur.com/i68wEOm.png){: .centered}
 1. Sort entries *by Date* in the *Ascending* order.
 1. Export the data:
@@ -47,10 +47,10 @@ Each row has five fields: *Date*, *Storage* (in billions of gallons) and *Elevat
 
 <pre style="font-size:80%;">
 Date             EastStorage    EastElevation    WestStorage    WestElevation
-01/01/2016          71.99           581.8           39.87           582.48
-01/02/2016          71.97           581.79          39.82           582.44
-01/03/2016          71.93           581.76          39.76           582.36
-01/04/2016          71.93           581.76          39.67           582.27
+01/01/2018          71.99           581.8           39.87           582.48
+01/02/2018          71.97           581.79          39.82           582.44
+01/03/2018          71.93           581.76          39.76           582.36
+01/04/2018          71.93           581.76          39.67           582.27
 ...
 </pre>
 
@@ -113,9 +113,9 @@ Enter date: 05/20/2016
 East basin storage: 79.88 billion gallons
 ```
 
-## Task B. Minimum and maximum storage in 2016
+## Task B. Minimum and maximum storage in 2018
 
-Write a program `minmax.cpp` that finds the minimum and maximum storage in East basin in 2016.
+Write a program `minmax.cpp` that finds the minimum and maximum storage in East basin in 2018.
 
 ### Example (using made up numbers):
 ```
@@ -140,11 +140,11 @@ $ ./compare
 Enter starting date: 09/13/2016
 Enter ending date: 09/17/2016
 
-09/13/2016 East
-09/14/2016 East
-09/15/2016 Equal
-09/16/2016 West
-09/17/2016 West
+09/13/2018 East
+09/14/2018 East
+09/15/2018 Equal
+09/16/2018 West
+09/17/2018 West
 ```
 
 ### Explanation:
@@ -157,11 +157,11 @@ td{ padding-left: 2em; padding-right:2em }
 
 Date       |  East (ft) | West (ft)  |
 -----------|------------|------------|------------
-09/13/2016 | **576.28** |   575.93   |  East is higher
-09/14/2016 | **576.06** |   575.79   |  East is higher
-09/15/2016 | **575.75** | **575.75** |  Equal elevation
-09/16/2016 |   575.51	  | **575.61** |  West is higher
-09/17/2016 |   575.32   | **575.4**  |  West is higher
+09/13/2018 | **576.28** |   575.93   |  East is higher
+09/14/2018 | **576.06** |   575.79   |  East is higher
+09/15/2018 | **575.75** | **575.75** |  Equal elevation
+09/16/2018 |   575.51	  | **575.61** |  West is higher
+09/17/2018 |   575.32   | **575.4**  |  West is higher
 
 ## Task D. Reverse chronological order
 
@@ -176,11 +176,11 @@ $ ./reverse-order
 Enter earlier date: 05/29/2016
 Enter later date: 06/02/2016
 
-06/02/2016  587.66 ft
-06/01/2016  587.81 ft
-05/31/2016  587.93 ft
-05/30/2016  588.02 ft
-05/29/2016  588.17 ft
+06/02/2018  587.66 ft
+06/01/2018  587.81 ft
+05/31/2018  587.93 ft
+05/30/2018  588.02 ft
+05/29/2018  588.17 ft
 ```
 
 **Hint:** If for the previous tasks you did not use arrays, here you really have to read the data into arrays first, and only then report them in the 
