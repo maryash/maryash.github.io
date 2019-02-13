@@ -48,8 +48,8 @@ Each row has five fields: *Date*, *Storage* (in billions of gallons) and *Elevat
 <pre style="font-size:80%;">
 Date             EastStorage    EastElevation    WestStorage    WestElevation
 01/01/2018          59.94           574             32.67           574.33
-01/02/2018          59.89	          573.99          32.57           574.29
-01/03/2018          59.89	          573.97          32.44           574.24
+01/02/2018          59.89           573.99          32.57           574.29
+01/03/2018          59.89           573.97          32.44           574.24
 01/04/2018          59.9            573.97          32.22           574.07
 ...
 </pre>
