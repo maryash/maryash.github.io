@@ -28,7 +28,7 @@ Please follow these instructions to download the dataset:
     - Click the blue button **Filter**
     - In its submenu **Filter**, click **Add a New Filter Condition**
     - Choose **Date is between** `January 1, 2018` and `December 31, 2018`
-  ![\[Illustration\]](pic_0301.png){: .centered}
+  ![\[Illustration\]](./pic_0301.png){: .centered}
 1. Sort entries *by Date* in the *Ascending* order.
 1. Export the data:
     - Click the light blue button **Export**
