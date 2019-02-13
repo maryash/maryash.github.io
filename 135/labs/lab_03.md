@@ -157,11 +157,11 @@ td{ padding-left: 2em; padding-right:2em }
 
 Date       |  East (ft) | West (ft)  |
 -----------|------------|------------|------------
-09/13/2018 |   576.28   | **575.93** |  West is higher
-09/14/2018 |   576.06   | **575.79** |  West is higher
-09/15/2018 |   575.75   | **575.75** |  West is higher
-09/16/2018 |   575.51	  | **575.61** |  West is higher
-09/17/2018 |   575.32   | **575.4**  |  West is higher
+09/13/2018 |   581.94   | **582.66** |  West is higher
+09/14/2018 |   581.8    | **582.32** |  West is higher
+09/15/2018 |   581.62   | **581.94** |  West is higher
+09/16/2018 |   581.42	  | **581.55** |  West is higher
+09/17/2018 |   581.16   | **581.2**  |  West is higher
 
 ## Task D. Reverse chronological order
 
