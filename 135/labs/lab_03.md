@@ -48,9 +48,9 @@ Each row has five fields: *Date*, *Storage* (in billions of gallons) and *Elevat
 <pre style="font-size:80%;">
 Date             EastStorage    EastElevation    WestStorage    WestElevation
 01/01/2018          59.94           574             32.67           574.33
-01/02/2018          59.89	          573.99      	  32.57	          574.29
-01/03/2018	        59.89           573.97	        32.44	          574.24
-01/04/2018	        59.9	          573.97	        32.22	          574.07
+01/02/2018          59.89	          573.99          32.57           574.29
+01/03/2018          59.89	          573.97          32.44           574.24
+01/04/2018          59.9            573.97          32.22           574.07
 ...
 </pre>
 
@@ -110,7 +110,7 @@ and prints out the **East basin storage** on that day.
 ```
 $ ./east-storage
 Enter date: 05/20/2018
-East basin storage: 79.88 billion gallons
+East basin storage: 80.96 billion gallons
 ```
 
 ## Task B. Minimum and maximum storage in 2018
@@ -120,8 +120,8 @@ Write a program `minmax.cpp` that finds the minimum and maximum storage in East 
 ### Example (using made up numbers):
 ```
 $ ./minmax
-minimum storage in East basin: 61.13 billion gallons
-MAXimum storage in East basin: 69.22 billion gallons
+minimum storage in East basin: 59.88 billion gallons
+MAXimum storage in East basin: 81.07 billion gallons
 ```
 
 ### Hint: 
@@ -142,9 +142,9 @@ Enter ending date: 09/17/2018
 
 09/13/2018 East
 09/14/2018 East
-09/15/2018 Equal
-09/16/2018 West
-09/17/2018 West
+09/15/2018 East
+09/16/2018 East
+09/17/2018 East
 ```
 
 ### Explanation:
