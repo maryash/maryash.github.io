@@ -140,11 +140,11 @@ $ ./compare
 Enter starting date: 09/13/2018
 Enter ending date: 09/17/2018
 
-09/13/2018 East
-09/14/2018 East
-09/15/2018 East
-09/16/2018 East
-09/17/2018 East
+09/13/2018 West
+09/14/2018 West
+09/15/2018 West
+09/16/2018 West
+09/17/2018 West
 ```
 
 ### Explanation:
