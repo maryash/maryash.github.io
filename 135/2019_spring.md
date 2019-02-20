@@ -98,7 +98,7 @@ The tutors are there to help you with all of your labs, assignments, and project
   |  |  |  |  
  4/8 |  | **MIDTERM EXAM 2** |  |  
   |  |  |  |  
- 5/22 |  | **FINAL EXAM** | 11:30 - 1:30 pm | 
+ 5/22 |  | **FINAL EXAM 11:30 AM - 1:30 PM** |  | 
  
   
 <!---  
