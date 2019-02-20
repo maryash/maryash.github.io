@@ -97,7 +97,8 @@ The tutors are there to help you with all of your labs, assignments, and project
  3/4 |  | **MIDTERM EXAM 1** |  | **[Project&nbsp;2:&nbsp;Phase&nbsp;I](projects/project_02.html){:target="_blank"}**<br/>**[Pseudocode&nbsp;I](projects/project_02.html){:target="_blank"}&nbsp;&nbsp;&nbsp;3/7**<br/>**[Program&nbsp;I](projects/project_02.html){:target="_blank"}&nbsp;&nbsp;&nbsp;3/7**<br/>**[LAB&nbsp;5&nbsp; Functions and Prime Numbers](labs/lab_05.html){:target="_blank"} &nbsp; 3/3**  
   |  |  |  |  
  4/8 |  | **MIDTERM EXAM 2** |  |  
-   
+  |  |  |  |  
+ 5/22 |  | **FINAL EXAM** | 11:30 - 1:30 pm | 
  
   
 <!---  
