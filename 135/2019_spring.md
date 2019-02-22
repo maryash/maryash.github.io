@@ -158,5 +158,6 @@ The tutors are there to help you with all of your labs, assignments, and project
   
   
 **Past Exams:**  
- [Last semester's midterm](OldMidterm.pdf){:target="_blank"}   
- [Last semester's final](OldFinal.pdf){:target="_blank"}   
+ [New Sample Midterm 1](Sample135Midterm1.pdf){:target="_blank"}     
+ [Old midterm](OldMidterm.pdf){:target="_blank"}   
+ [Old final](OldFinal.pdf){:target="_blank"}   
