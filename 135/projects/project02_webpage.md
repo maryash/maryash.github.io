@@ -1,9 +1,9 @@
 ---  
 layout: myDefault  
-title: Project 2  
----      
+title: PROJECT 2  
+---  
 
-# Project 2. Protein Synthesis
+# Project 2 A. Protein Synthesis
 
 
 ![](https://www.acpsd.net/cms/lib/SC02209457/Centricity/Domain/5698/central%20dogma.png){: .centered }
