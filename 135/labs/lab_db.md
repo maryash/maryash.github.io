@@ -59,7 +59,7 @@ More documentation is available in [DDD manual](https://www.gnu.org/software/ddd
 
 ## Lab Assignment
 
-1) There are two programs attached, ['prog.cpp'](prog.cpp) and ['buggy.cpp'](buggy.cpp).  Using 'prog.cpp' example we will use DDD to set breakpoints, use commands `Run`, `Continue`, `Next`, `Step`, `Finish`, and how to inspect expressions.
+1) There are two programs attached, ['prog.cpp'](prog.cpp) and ['buggy.cpp'](buggy.cpp).  Using ['prog.cpp'](prog.cpp) example we will use DDD to set breakpoints, use commands `Run`, `Continue`, `Next`, `Step`, `Finish`, and how to inspect expressions.
 
 Make sure that _all of you_ follow the instructor, and no one falls behind. The instructor will demonstrate all the features mentioned in the section above.  You will **follow along with the instructor**, debugging a simple program.  You must be able to repeat their steps. DDD uses old Motif UI, and it takes time to learn how to adjust to it.  the instructor will explain you how to use the debugger program DDD.  When you feel that your are falling behind, ask for help right away.  
 
@@ -74,7 +74,7 @@ Make sure that _all of you_ follow the instructor, and no one falls behind. The 
         if condition should be (number > 9) instead of (number>10).
 
 
-2) After you fix 'prog.cpp', proceed to debugging another more complex program 'buggy.cpp'.  You must now start debugging on your own.  Collaborate with your neighbors and ask the instructor and UTAs for help.  The instructor will check your work at the end of the class, no Gradescope submission required. 
+2) After you fix 'prog.cpp', proceed to debugging another more complex program ['buggy.cpp'](buggy.cpp).  You must now start debugging on your own.  Collaborate with your neighbors and ask the instructor and UTAs for help.  The instructor will check your work at the end of the class, no Gradescope submission required. 
 <br />
 <br />
 
