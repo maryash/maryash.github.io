@@ -1,0 +1,180 @@
+
+
+No Gradescope submission 
+========================
+
+>>> Correctness for Lab 6 is 1 or 0, depending on the student's attendance. <<<
+
+In other words, correctness is the same as the style check. Even if they 
+don't finish debugging the program on time, this is fine. They learn and do their best.
+Students don't have to finish all five parts, just let them work until the end of 
+the lab session. (You can tell them that they will get full grade even if they don't 
+complete it, but you may delay this announcement, don't tell it right away.)
+
+
+There are two programs attached, 'prog.cpp' and 'buggy.cpp'. 
+
+It is suggested to upload the HTML file 24 hours before the class, but not the 
+buggy programs. Instead, upload the programs to Blackboard right before the class starts. 
+
+Posting programs too early may spoil the purpose of the lab, because many will
+try to find all bugs before coming to class, probably without using any debugger.
+So, not posing the programs (especially the second one) is advised.
+
+If students use their laptops, make sure they are aware that they will need DDD today, 
+and should switch to using their Linux accounts for this class.
+
+
+
+Also, please feel free to use other buggy programs instead of the suggested ones, 
+if you have better examples.
+
+
+
+In Class
+========
+
+(Before going to class, you do the tutorial on how to use DDD if you never used it before:
+http://heather.cs.ucdavis.edu/~matloff/ddd.html )
+
+
+1) Show students how to use DDD, using 'prog.cpp' example. Make sure to explain
+how to set breakpoints, how to use commands Run, Continue, Next, Step, Finish, and how to inspect
+expressions.
+
+Make sure they _all_ follow you, and no one is left behind. Show how you debug the program,
+make sure everyone is able to repeat your steps. DDD is using old Motif UI, so it takes time
+to learn how to adjust to it.
+
+      Bug in the program prog.cpp
+      ---------------------------
+      Observations:
+        - incorrectly computed number of digits for 1057 and 10155.
+        - inside the function call, when 'number' reduces to 10, the function stops counting,
+        ends the loop and returns the answer, while it still could divide by 10 one more time.
+
+      Cause:
+        if condition should be (number > 9) instead of (number>10).
+
+
+2) After 'prog.cpp' is fixed by everyone, proceed to debugging 'buggy.cpp'.
+Students should start debugging on their own. If they sit for very long not being able to find a bug,
+once one student identifies it, let the student explain it to the class (or explain it yourself).
+Make sure everyone fixes it. It is good if everyone progress together through the tasks 
+(maybe except a few very best students).
+
+We tried to make bugs that are not very easily discoverable by eye-balling, but most are discoverable, 
+unfortunately. 
+(Some nice category of bugs where you subtract 1 from unsigned int 0 could not be effectively employed,
+because we don't know neither vectors, nor strings yet. We also don't use functions a lot,
+because passing arrays into a function is not explained previously, although it still gets into one 
+of the tasks at the very end.)
+
+
+
+Bugs in the program buggy.cpp
+=============================
+
+Part 1. Maximum
+---------------
+
+1)  Observation: for loop stops immediately
+    Cause:
+      Loop condition 
+        i > CAPACITY 
+      should be
+        i < CAPACITY
+
+2)  Observation: if condition does not affect execution (maximum gets updated
+    for every next element of the array regardless).
+    Cause:
+      Semicolon after if condition and before { }
+
+
+
+Part 2. Minimum
+---------------
+
+3)  Observation: Minimum remains equal to its initial value 0 and never changes.
+
+    Cause:
+      Initialization 
+        int min_val = 0;
+      should be
+        int min_val = arr[min_i];
+
+4)  Observation: After fixing the previous bug, the index of the minimum element 
+    is still not found correctly (reported 0, while should be 5).
+
+    Cause: In the body of the loop, variable min_i is not updated.
+      Instead of 
+        max_i = i;
+      should be
+        min_i = i;
+
+
+Part 3. Maximum difference
+--------------------------
+
+5)  Observations: 
+    - Reported difference is a huge random number, and the corresponding index is often 8.
+    - Loop iterates beyond the array bounds and compares arr[7] with arr[8], which 
+    is out of bounds.
+
+    Cause:
+      Instead of 
+        for(int i = 0; i < CAPACITY; i++) {
+      should be 
+        for(int i = 0; i < CAPACITY-1; i++) {
+
+6)  Observation: 
+    - Reported difference is still not correct
+    - max_diff turns out to be updating on every iteration
+
+    Cause: 
+      Wrongly placed curly braces
+      
+      Correct would be:
+
+        for(int i = 0; i < CAPACITY; i++) {
+          int diff = arr[i+1] - arr[i];
+          if (diff > max_diff) {    <-------- here
+            max_diff_i = i;      
+            max_diff = diff; 
+          }
+        }                           <-------- and here
+
+
+Part 4. Mean value
+------------------
+
+7)  Observations: 
+    - Average value is too small (3.5 is reported, while it should be several thousand)
+    - Function call to addUp() returns a wrong value
+    - Inside that function, sum is not computed correctly
+    
+    Cause: The function is adding up indexes, not the elements of the array.
+      Instead of 
+        sum += i;
+      should be 
+        sum += arr[i];
+
+
+Part 5. Maximum (revisited)
+---------------------------
+
+8)  Observation: 
+    - Segmentation fault 
+    - index max_i does not get updated correctly
+    
+    Cause: We update the maximum index with the value of the array at the index i
+      Instead of 
+        max_i = arr[i];
+      should be
+        max_i = i;
+
+
+      
+
+
+
