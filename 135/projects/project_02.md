@@ -43,7 +43,7 @@ Recall that to read from a file, the following code snipet can be used:
 The best way to do this is in two steps. First create a function that gives the complement of a base, and then write another function that uses it iteratively over a whole strand.
 For example, we could have `char DNAbase_to_mRNAbase(char)` to return the complement of a base and `string DNA_to_mRNA(string)` that uses it for each base in the strand. Note that the output must be in capital letters, regardless of how the input is formatted. To do this, you may include the `<cstdlib>` and use `int toupper(int c)`, which returns the upper case of any alpha character passed to it.
 Below is a sample run of the program output:
-
+![](./2a_example.png){: .centered}
 
 ## Task B: Translation
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Peptide_syn.png/350px-Peptide_syn.png){: .centered}
