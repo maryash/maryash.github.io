@@ -5,7 +5,7 @@ title: DEBUGGER LAB
   
 # Lab on the Use of the Debugger  
 
-**Due:** by the end of the class. No Gradecope submission. Lab instructor checks your program before you leave.
+**Due:** by the end of the class. No Gradecope submission. Lab instructor will check your programs before you leave class.
 
 ## Introduction
 
@@ -59,7 +59,7 @@ More documentation is available in [DDD manual](https://www.gnu.org/software/ddd
 
 ## Lab Assignment
 
-1) There are two programs attached, ['prog.cpp'](prog.cpp) and ['buggy.cpp'](buggy.cpp).  Using ['prog.cpp'](prog.cpp) example we will use DDD to set breakpoints, use commands `Run`, `Continue`, `Next`, `Step`, `Finish`, and how to inspect expressions.
+1) There are two programs attached, ['prog.cpp'](prog.cpp){:target="_blank"} and ['buggy.cpp'](buggy.cpp){:target="_blank"}.  Using ['prog.cpp'](prog.cpp){:target="_blank"} example we will use DDD to set breakpoints, use commands `Run`, `Continue`, `Next`, `Step`, `Finish`, and how to inspect expressions.
 
 Make sure that _all of you_ follow the instructor, and no one falls behind. The instructor will demonstrate all the features mentioned in the section above.  You will **follow along with the instructor**, debugging a simple program.  You must be able to repeat their steps. DDD uses old Motif UI, and it takes time to learn how to adjust to it.  the instructor will explain you how to use the debugger program DDD.  When you feel that your are falling behind, ask for help right away.  
 
@@ -74,112 +74,8 @@ Make sure that _all of you_ follow the instructor, and no one falls behind. The 
         if condition should be (number > 9) instead of (number>10).
 
 
-2) After you fix 'prog.cpp', proceed to debugging another more complex program ['buggy.cpp'](buggy.cpp).  You must now start debugging on your own.  Collaborate with your neighbors and ask the instructor and UTAs for help.  The instructor will check your work at the end of the class, no Gradescope submission required. 
+2) After you fix 'prog.cpp', proceed to debugging another more complex program ['buggy.cpp'](buggy.cpp){:target="_blank"}.  You must now start debugging on your own.  Collaborate with your neighbors and ask the instructor and UTAs for help.  The instructor will check your work at the end of the class, no Gradescope submission required. 
 <br />
 <br />
 
 [![](https://i.imgur.com/hBXW5NO.png){: .centered }](https://rubberduckdebugging.com/)
-
-
-
-
-
-Bugs in the program buggy.cpp
-=============================
-
-Part 1. Maximum
----------------
-
-1)  Observation: for loop stops immediately
-    Cause:
-      Loop condition 
-        i > CAPACITY 
-      should be
-        i < CAPACITY
-
-2)  Observation: if condition does not affect execution (maximum gets updated
-    for every next element of the array regardless).
-    Cause:
-      Semicolon after if condition and before { }
-
-
-Part 2. Minimum
----------------
-
-3)  Observation: Minimum remains equal to its initial value 0 and never changes.
-
-    Cause:
-      Initialization 
-        int min_val = 0;
-      should be
-        int min_val = arr[min_i];
-
-4)  Observation: After fixing the previous bug, the index of the minimum element 
-    is still not found correctly (reported 0, while should be 5).
-
-    Cause: In the body of the loop, variable min_i is not updated.
-      Instead of 
-        max_i = i;
-      should be
-        min_i = i;
-
-
-Part 3. Maximum difference
---------------------------
-
-5)  Observations: 
-    - Reported difference is a huge random number, and the corresponding index is often 8.
-    - Loop iterates beyond the array bounds and compares arr[7] with arr[8], which 
-    is out of bounds.
-
-    Cause:
-      Instead of 
-        for(int i = 0; i < CAPACITY; i++) {
-      should be 
-        for(int i = 0; i < CAPACITY-1; i++) {
-
-6)  Observation: 
-    - Reported difference is still not correct
-    - max_diff turns out to be updating on every iteration
-
-    Cause: 
-      Wrongly placed curly braces
-      
-      Correct would be:
-
-        for(int i = 0; i < CAPACITY; i++) {
-          int diff = arr[i+1] - arr[i];
-          if (diff > max_diff) {    <-------- here
-            max_diff_i = i;      
-            max_diff = diff; 
-          }
-        }                           <-------- and here
-
-
-Part 4. Mean value
-------------------
-
-7)  Observations: 
-    - Average value is too small (3.5 is reported, while it should be several thousand)
-    - Function call to addUp() returns a wrong value
-    - Inside that function, sum is not computed correctly
-    
-    Cause: The function is adding up indexes, not the elements of the array.
-      Instead of 
-        sum += i;
-      should be 
-        sum += arr[i];
-
-
-Part 5. Maximum (revisited)
----------------------------
-
-8)  Observation: 
-    - Segmentation fault 
-    - index max_i does not get updated correctly
-    
-    Cause: We update the maximum index with the value of the array at the index i
-      Instead of 
-        max_i = arr[i];
-      should be
-        max_i = i;
