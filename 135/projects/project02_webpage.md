@@ -61,7 +61,7 @@ e. g.
 `tacaacact` would produce `Met-Leu`.
 
 ## Task C: Mutations
-![](https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/110/2016/06/06154820/dna_mutations_point_mutation_yourgenome-1024x548.png) {: .centered}
+![](https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/110/2016/06/06154820/dna_mutations_point_mutation_yourgenome-1024x548.png){: .centered}
 Many factors, such as environmental condition, random chance, and errors in handling, can result in a change, or **mutation**, in the DNA sequence. These changes can range from benign to catastrophic depending on their effects. There are four kinds of mutations.
 **Substitution:** a base pair is replaced with another (e. g. aac -> agc).
 **Insertion:** a new base pair is added somewhere in the DNA strand.
