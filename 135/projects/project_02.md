@@ -38,10 +38,11 @@ AAGAUGCCG
 AUGCCGUAAGAUGCCGUAAGAUGC
 CCGUAAGAUGCCGUA
 . . . 
-```
-
-
-Recall that to read from a file, the following code snipet can be used:
+```  
+  
+  
+Recall that to read from a file, the following code snipet can be used:  
+  
 ```
     ifstream fin("dna.txt");
     if (fin.fail()) {
