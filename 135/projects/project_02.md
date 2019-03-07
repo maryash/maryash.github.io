@@ -26,9 +26,9 @@ Each gene codes for a protein, and transcription is the first step of gene expre
 
 Your task is to write a program called `transcriptase.cpp` that reads a text file called `dna.txt` that contains one DNA strand per line, which looks as follows:
 ```
-AAGATGCCG
-ATGCCGTAAGATGCCGTAAGATGC
-CCGTAAGATGCCGTA
+AaGATgCCG
+ATGCcGTAAGATgCcGtAaGATGC
+CcGTaAGATGccGTA
 . . . 
 ```
 and outputs to the console (terminal) the corresponding mRNA strands. Each output line must contain exactly one mRNA strand. This is a sample output of the program:
