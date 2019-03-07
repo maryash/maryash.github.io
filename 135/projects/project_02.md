@@ -22,7 +22,7 @@ All living organism store their genetic information in chains of nucleic acid. A
 
 
 ## Task A: Transcription
-Each gene codes for a protein, and transcription is the first step of gene expression. Most protein synthesis occurs in organelles known as ribosomes, which are located outside of the nucleus where DNA is stored. To relay information to a ribosome, the cell makes a copy of the relevant gene from DNA and sends that copy out of the nucleus. The copy is called a **m**essenger **r**ibonucleic **a**cid, or **mRNA**. Like DNA, mRNA is made of the same nucleobases, except for one: it does not contain **t**hymine **[T]**, but instead contains **u**racil **[U]**. That means that the complement of **[A]** in mRNA is **[U]**. The rules of complementation in mRNA are as follows:
+Each gene codes for a protein, and transcription is the first step of gene expression. Most protein synthesis occurs in organelles known as ribosomes, which are located outside of the nucleus where DNA is stored. To relay information to a ribosome, the cell makes a copy of the relevant gene from DNA and sends that copy out of the nucleus. The copy is called a **m**essenger **r**ibonucleic **a**cid, or **mRNA**. Like DNA, mRNA is made of the same nucleobases, except for one: it does not contain **t**hymine **[T]**, but instead contains **u**racil **[U]**. That means that the complement of **[A]** in mRNA is **[U]**. As such, the rules of complementation in mRNA are as follows:
 * [A] becomes [U]
 * [T] becomes [A]
 * [C] becomes [G]
