@@ -22,9 +22,24 @@ All living organism store their genetic information in chains of nucleic acid. A
 
 
 ## Task A: Transcription
-Each gene codes for a protein, and transcription is the first step of gene expression. Most protein synthesis occurs in organelles known as ribosomes, which are located outside of the nucleus where DNA is stored. To relay information to a ribosome, the cell makes a copy of the relevant gene from DNA and sends that copy out of the nucleus. The copy is called a **m**essenger **r**ibonucleic **a**cid, or **mRNA**. Like DNA, mRNA is made of nucleobases, except it does not contain **t**hymine **[T]**, but **u**racil **[U]** instead.
+Each gene codes for a protein, and transcription is the first step of gene expression. Most protein synthesis occurs in organelles known as ribosomes, which are located outside of the nucleus where DNA is stored. To relay information to a ribosome, the cell makes a copy of the relevant gene from DNA and sends that copy out of the nucleus. The copy is called a **m**essenger **r**ibonucleic **a**cid, or **mRNA**. Like DNA, mRNA is made of the same nucleobases, except for one: it does not contain **t**hymine **[T]**, but instead contains **u**racil **[U]**. It is thymine's mRNA counterpart.  
 
-Your task is to write a program called `transcriptase.cpp` that reads a text file called `dna.txt` that contains one DNA strand per line, and outputs to the console (terminal) the corresponding mRNA strands. Each output line must contain exactly one mRNA strand.
+Your task is to write a program called `transcriptase.cpp` that reads a text file called `dna.txt` that contains one DNA strand per line, which looks as follows:
+```
+AAGATGCCG
+ATGCCGTAAGATGCCGTAAGATGC
+CCGTAAGATGCCGTA
+. . . 
+```
+and outputs to the console (terminal) the corresponding mRNA strands. Each output line must contain exactly one mRNA strand. This is a sample output of the program:
+```
+$ ./transcriptase
+AAGAUGCCG
+AUGCCGUAAGAUGCCGUAAGAUGC
+CCGUAAGAUGCCGUA
+. . . 
+```
+
 
 Recall that to read from a file, the following code snipet can be used:
 ```
@@ -42,8 +57,6 @@ Recall that to read from a file, the following code snipet can be used:
 
 The best way to do this is in two steps. First create a function that gives the complement of a base, and then write another function that uses it iteratively over a whole strand.
 For example, we could have `char DNAbase_to_mRNAbase(char)` to return the complement of a base and `string DNA_to_mRNA(string)` that uses it for each base in the strand. Note that the output must be in capital letters, regardless of how the input is formatted. To do this, you may include the `<cstdlib>` and use `int toupper(int c)`, which returns the upper case of any alpha character passed to it.
-Below is a sample run of the program output:
-![](./2a_example.png){: .centered}
 
 ## Task B: Translation
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Peptide_syn.png/350px-Peptide_syn.png){: .centered}
