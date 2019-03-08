@@ -28,7 +28,7 @@ Each gene codes for a protein, and transcription is the first step of gene expre
 * [C] becomes [G]
 * [G] becomes [C]
 
-Your task is to write a program called `transcriptase.cpp` that reads a text file called `dna.txt` that contains one DNA strand per line, which looks as follows:
+Your task is to write a program called `transcriptase.cpp` that reads a text file called [`dna.txt`](./dna.txt){:target="_blank"} that contains one DNA strand per line, which looks as follows:
 ```
 AAGATGCCG
 ATGCCGTAAGATGCGGTAAGATGC
@@ -67,7 +67,7 @@ For example, we could have `char DNAbase_to_mRNAbase(char)` to return the comple
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Peptide_syn.png/350px-Peptide_syn.png){: .centered}
 While a nucleotide is the basic unit of information, three nucleotides, or **codon**, is the basic unit of storage. The reason for this is that each gene codes for a protein, and all proteins are made from 20 amino acids. Recall that there are 4 different bases that make up dna. Thus, three bases can encode for 4x4x4 = 64 different symbols. Two base pairs can only encode for 4x4 = 16 symbols, which is not enough.
 ![](http://session.masteringgenetics.com/problemAsset/1479555/6/MG_1479555_001.jpg){: .centered}
-For this task, you will need the following dictionary file: codon.tsv. 
+For this task, you will need the following dictionary file: [`codon.tsv'](./codons.tsv){:target="_blank"}. 
 It contains 64 lines, each with two columns. In the first column are the codons, and in the second are the corresponding amino acid.
 Your task is to write a program called `Translatase.cpp` that given strands of DNA (such as those in Task A), outputs to the console the corresponding amino-acid chain. Feel free to use your code from Task A to convert the DNA into mRNA to match the codons in the dictionary. Notice that there are 4 special codons: "Met", which stands for Methionine, and 3 "Stop" codons. Methionine is the first amino acid in every protein chain and as such serves as the "Start" codon. This means that translation does not begin until the "AUG" codon, which encodes for methionine, has been read. The three Stop codons, UAA, UGA, and UAG, are not included in the protein chain and simply signify the end of translation.
 The rules of formatting are as follows:
