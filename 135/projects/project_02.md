@@ -78,13 +78,15 @@ The rules of formatting are as follows:
 e. g.
 `tacaacact` would produce `Met-Leu`.
 
-## Task C: Mutations
+## Background Information: Mutations
 ![](https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/110/2016/06/06154820/dna_mutations_point_mutation_yourgenome-1024x548.png){: .centered}
 Many factors, such as environmental condition, random chance, and errors in handling, can result in a change, or **mutation**, in the DNA sequence. These changes can range from benign to catastrophic depending on their effects. There are four kinds of mutations.
-**Substitution:** a base pair is replaced with another (e. g. aac -> agc).
-**Insertion:** a new base pair is added somewhere in the DNA strand.
-**Deletion:** a base pair is removed from the sequence.
-**Frameshift:** any of the above mutation, or combination thereof, that causes codons to be parsed incorrectly.
+* **Substitution:** a base pair is replaced with another (e. g. aac -> agc).
+* **Insertion:** a new base pair is added somewhere in the DNA strand.
+* **Deletion:** a base pair is removed from the sequence.
+* **Frameshift:** any of the above mutation, or combination thereof, that causes codons to be parsed incorrectly.
+
+## Task C: Substitutions and Hamming Distance
 For this task, we will explore mutations that occur by substitution. Your task is to write a program called `Hamming.cpp` that calculates the **Hamming distance** between two strings. Given two strings of equal length, the Hamming distance is the number of positions at which the two strings differ.
 e. g.: `Hamming("aactgc", "atcaga")` would output 3.
 Notice that certain amino acids are encoded by multiple codons. Therefore, not all substitutions result in a change of structure. The file `mutations.txt` contains an even number of lines (zero-indexed). The even-numbered lines contain the original DNA sequence, and the odd-numbered lines contain that same sequence with substitution mutations. For each pair in `mutations.txt`, output to the console the Hamming distance followed by "yes" or "no" whether the substitution caused a change in structure. 
