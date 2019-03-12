@@ -78,6 +78,20 @@ The rules of formatting are as follows:
 e. g.
 `tacaacact` would produce `Met-Leu`.
 
+For this task, you will need to have two ifstream objects open. One for the dna file, and one for the dictionary of codons file. The same code segment from Task A can be adapted to read `dna2b.txt` since we only read it once. However, for each codon in each of the DNA strand, we need to perform a dictionary lookup. It would not be very efficient to open, read, and close the file each time. The reason is because repetitive file access can become expensive and slow in the long run. The better alternative is to open the file once with one `ifstream` object, pass it by reference, and reset the file pointer to the beginning for each look up. This can be done with `seekg(0)`. Below is an example that shows how to read from a file that has two fields per line where the delimiter is a space. You can modify this code to perform a look-up in `codons.tsv`.
+
+```
+void dictionary_read(ifstream &dict) {
+    string key, value;
+    dict.clear(); // reset error state
+    dict.seekg(0); // return file pointer to the beginning
+    while (dict >> key >> value) {
+        cout << "key: " << key << endl;
+        cout << "value: " << value << endl;
+    }
+}
+```
+
 ## Background Information: Mutations
 ![](https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/110/2016/06/06154820/dna_mutations_point_mutation_yourgenome-1024x548.png){: .centered}
 Many factors, such as environmental condition, random chance, and errors in handling, can result in a change, or **mutation**, in the DNA sequence. These changes can range from benign to catastrophic depending on their effects. There are four kinds of mutations.
