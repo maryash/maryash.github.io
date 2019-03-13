@@ -109,9 +109,9 @@ The tutors are there to help you with all of your labs, assignments, and project
  4/01 | **Enum** | Enumerated types: [bool](https://onlinegdb.com/SyunJ1Rn7){:target="_blank"}, [switch](https://onlinegdb.com/SkBzlk02X){:target="_blank"}, [MyBool](https://onlinegdb.com/SkKBlJ02X){:target="_blank"}, [LIKELY](https://onlinegdb.com/rJoKx1Ah7){:target="_blank"}, [Color](https://onlinegdb.com/SJf6e1AnQ){:target="_blank"}, [Colors](https://onlinegdb.com/BkSWbyR37){:target="_blank"} | [Enums](slides/Enums.pdf){:target="_blank"} | 
  4/03 | **Objects** | [7.7 Classes of Objects](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/410!/4/2/2/2@0.00:0){:target="_blank"} | [7.7-8](slides/7.7-8 Classes of Objects _ Pointers and Objects.pdf){:target="_blank"} | **[LAB&nbsp;9&nbsp; Pointers](labs/lab_09.html){:target="_blank"} &nbsp; 4/10** 
  4/4 |  |  |  | 
- 4/8 |  | **MIDTERM EXAM 2** |  |  
- 4/10 |  | **[Introduction to Project&nbsp;3](projects/){:target="_blank"}** |  |  
-  |  |  |  |
+ 4/8 |  |  |  |  
+ 4/10 |  | **MIDTERM EXAM 2** |  |  
+ 4/11 |  | **[Introduction to Project&nbsp;3](projects/){:target="_blank"}** |  |
   |  |  |  |
   |  |  |  |
  5/22 |  | **FINAL EXAM 11:30 AM - 1:30 PM** |  | 
