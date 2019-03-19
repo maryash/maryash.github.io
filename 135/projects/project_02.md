@@ -101,9 +101,16 @@ Many factors, such as environmental condition, random chance, and errors in hand
 * **Frameshift:** any of the above mutation, or combination thereof, that causes codons to be parsed incorrectly.
 
 ## Task C: Substitution and Hamming Distance
-For this task, we will explore mutations that occur by substitution. Your task is to write a program called `Hamming.cpp` that calculates the **Hamming distance** between two strings. Given two strings of equal length, the Hamming distance is the number of positions at which the two strings differ.
+For this task, we will explore mutations that occur by substitution. Your task is to write a program called `hamming.cpp` that calculates the **Hamming distance** between two strings. Given two strings of equal length, the Hamming distance is the number of positions at which the two strings differ.
 e. g.: `Hamming("aactgc", "atcaga")` would output 3.
-Notice that certain amino acids are encoded by multiple codons. Therefore, not all substitutions result in a change of structure. The file `mutations.txt` contains an even number of lines (zero-indexed). The even-numbered lines contain the original DNA sequence, and the odd-numbered lines contain that same sequence with substitution mutations. For each pair in `mutations.txt`, output to the console the Hamming distance followed by "yes" or "no" whether the substitution caused a change in structure. 
+Notice that certain amino acids are encoded by multiple codons. Therefore, not all substitutions result in a change of structure. The file [`mutations.txt`](./mutations.tsv){:target="_blank"} contains an even number of lines (zero-indexed). The even-numbered lines contain the original DNA sequence, and the odd-numbered lines contain that same sequence with substitution mutations. For each pair in `mutations.txt`, output to the console the Hamming distance followed by "yes" or "no" whether the substitution caused a change in structure.
+Example:
+```
+$ ./hamming
+0 yes
+17 yes
+4 no
+```
 
 ## Task D: Insertion, Deletion, and Framshift
 The worst type of mutation is the frameshift mutation, as it causes the DNA sequence to be parsed incorrectly. This is often created by a deletion or insertion that causes the sequence to be read in a dfferent multiple of three. This abnormal reading often results in an earlier or later "Stop" codon, which causes the protein to be abnormally short or long, thus rendering it not functional.
