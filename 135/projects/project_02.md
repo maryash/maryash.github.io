@@ -103,7 +103,7 @@ Many factors, such as environmental condition, random chance, and errors in hand
 ## Task C: Substitution and Hamming Distance
 For this task, we will explore mutations that occur by substitution. Your task is to write a program called `hamming.cpp` that calculates the **Hamming distance** between two strings. Given two strings of equal length, the Hamming distance is the number of positions at which the two strings differ.
 e. g.: `Hamming("aactgc", "atcaga")` would output 3.
-Notice that certain amino acids are encoded by multiple codons. Therefore, not all substitutions result in a change of structure. The file [`mutations.txt`](./mutations.tsv){:target="_blank"} contains an even number of lines (zero-indexed). The even-numbered lines contain the original DNA sequence, and the odd-numbered lines contain that same sequence with substitution mutations. For each pair in `mutations.txt`, output to the console the Hamming distance followed by "yes" or "no" whether the substitution caused a change in structure.
+Notice that certain amino acids are encoded by multiple codons. Therefore, not all substitutions result in a change of protein structure. The file [`mutations.txt`](./mutations.txt){:target="_blank"} contains an even number of lines (zero-indexed). The even-numbered lines contain the original DNA sequence, and the odd-numbered lines contain that same sequence with substitution mutations. For each pair in [`mutations.txt`](./mutations.txt){:target="_blank"}, output to the console the Hamming distance followed by "yes" or "no" whether the substitution caused a change in structure.
 Example:
 ```
 $ ./hamming
