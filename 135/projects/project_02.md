@@ -107,7 +107,7 @@ Notice that certain amino acids are encoded by multiple codons. Therefore, not a
 Example:
 ```
 $ ./hamming
-0 yes
+0 no
 17 yes
 4 no
 ```
