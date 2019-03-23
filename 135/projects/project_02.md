@@ -92,6 +92,8 @@ void dictionary_read(ifstream &dict) {
 }
 ```
 
+**N. B.** To make this task a bit easier, the DNA strands are multiples of 3, and must be read as such. This means that you do not need to scan a strand one base at a time until the first AUG. Rather, scan it three bases at a time from the begining of the strand, and start translation at the first AUG encountered in this manner.
+
 ## Background Information: Mutations
 ![](https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/110/2016/06/06154820/dna_mutations_point_mutation_yourgenome-1024x548.png){: .centered}
 Many factors, such as environmental condition, random chance, and errors in handling, can result in a change, or **mutation**, in the DNA sequence. These changes can range from benign to catastrophic depending on their effects. There are four kinds of mutations.
