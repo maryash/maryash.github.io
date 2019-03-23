@@ -109,7 +109,7 @@ Example:
 $ ./hamming
 0 no
 17 yes
-4 no
+4 yes
 ```
 
 ## Task D: Insertion, Deletion, and Framshift
