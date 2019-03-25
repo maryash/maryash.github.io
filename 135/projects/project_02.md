@@ -122,6 +122,7 @@ To do this, you will need to parse the strands one nucleotide at a time as the "
 Your output should be the original protein on the even lines, and the mutated protein on the odd lines.
 Example:
 ```
+$ ./frameshit
 Met-Thr-Pro-Tyr-Val-Val
 Met-Thr-Pro
 Met-Gly-Thr-Ala-Ala-Asp-Pro-Arg
