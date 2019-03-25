@@ -117,6 +117,13 @@ $ ./hamming
 ## Task D: Insertion, Deletion, and Framshift
 The worst type of mutation is the frameshift mutation, as it causes the DNA sequence to be parsed incorrectly. This is often created by a deletion or insertion that causes the sequence to be read in a dfferent multiple of three. This abnormal reading often results in an earlier or later "Stop" codon, which causes the protein to be abnormally short or long, thus rendering it not functional.
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Frameshift_mutation.jpg/700px-Frameshift_mutation.jpg){: .centered}
-So far, the codons in DNA sequences have been multiples of 3. the file `dna2.txt` contains the same DNA sequences of Task B, but with *at most* one insertion or one deletion. Your task is to write a program called `Frameshift.cpp` that compares the results of Task B with the mutated strands.
+So far, the codons in DNA sequences have been multiples of 3. The file [`frameshift_mutations.txt`](./frameshift_mutations.txt){:target="_blank"} contains the same DNA sequences of Task B on the even lines, with frameshift mutations on the odd lines (0-indexed). Each mutation has *at most* one insertion or one deletion. Your task is to write a program called `frameshift.cpp` that compares the results of Task B with the mutated strands.
 To do this, you will need to parse the strands one nucleotide at a time as the "Start" codon is not a guaranteed multiple of 3 from the begining.
 Your output should be the original protein on the even lines, and the mutated protein on the odd lines.
+Example:
+```
+Met-Thr-Pro-Tyr-Val-Val
+Met-Thr-Pro
+Met-Gly-Thr-Ala-Ala-Asp-Pro-Arg
+Met-Gly-Thr-Ala-Ala-Asp-Pro-Arg-Arg-Gly
+```
