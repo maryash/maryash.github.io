@@ -113,6 +113,7 @@ $ ./hamming
 17 yes
 4 yes
 ```
+Remember that translation to proteins does not begin until the first "Start" codon, and stops at the first "Stop" codon, and unlike the "Start" codon, the "Stop" codon is not included in the protein chain translation; it simply signifies the end of translation.
 
 ## Task D: Insertion, Deletion, and Framshift
 The worst type of mutation is the frameshift mutation, as it causes the DNA sequence to be parsed incorrectly. This is often created by a deletion or insertion that causes the sequence to be read in a dfferent multiple of three. This abnormal reading often results in an earlier or later "Stop" codon, which causes the protein to be abnormally short or long, thus rendering it not functional.
