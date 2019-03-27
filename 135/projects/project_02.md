@@ -122,7 +122,7 @@ So far, the codons in DNA sequences have been multiples of 3. The file [`framesh
 To do this, you will need to parse the strands one nucleotide at a time as the "Start" codon is not a guaranteed multiple of 3 from the begining.
 Your output should be the original protein on the even lines, and the mutated protein on the odd lines.
 Example:
-```
+```  
 $ ./frameshit
 Met-Thr-Pro-Tyr-Val-Val
 Met-Thr-Pro
@@ -132,3 +132,5 @@ Met-Gly-Thr-Ala-Ala-Asp-Pro-Arg-Arg-Gly
   
   
   
+```  
+```  
