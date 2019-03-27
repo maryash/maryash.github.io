@@ -128,4 +128,7 @@ Met-Thr-Pro-Tyr-Val-Val
 Met-Thr-Pro
 Met-Gly-Thr-Ala-Ala-Asp-Pro-Arg
 Met-Gly-Thr-Ala-Ala-Asp-Pro-Arg-Arg-Gly
-```
+```  
+  
+  
+  
