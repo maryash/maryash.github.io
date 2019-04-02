@@ -126,11 +126,10 @@ Example:
 $ ./frameshit
 Met-Thr-Pro-Tyr-Val-Val
 Met-Thr-Pro
-Met-Gly-Thr-Ala-Ala-Asp-Pro-Arg
+Met-Gly-Gly-Leu-Tyr
+Met-Gly-Gly-Leu-Tyr
 Met-Gly-Thr-Ala-Ala-Asp-Pro-Arg-Arg-Gly
+Met-Gly-Thr-Ala-Ala-Asp-Ala-Lys-Ala-Gly-Leu
 ```  
   
-  
-  
-```  
-```  
+
