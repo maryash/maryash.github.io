@@ -1,9 +1,9 @@
 ---  
 layout: myDefault  
-title: LAB 11  
+title: LAB 12  
 ---      
   
-# Lab 11. Recursion
+# Lab 12. Recursion
 
 ## Introduction
 
