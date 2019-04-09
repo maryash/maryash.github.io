@@ -1,9 +1,9 @@
 ---  
 layout: myDefault  
-title: LAB 12  
+title: LAB 11  
 ---      
   
-# Lab 12. Classes and Programming a Social Network
+# Lab 11. Classes and Programming a Social Network
 ![](https://i.imgur.com/MoWaZlX.png){: .centered}
 
 ## Introducing Object-Oriented Programming
