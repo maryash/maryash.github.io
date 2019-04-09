@@ -110,10 +110,13 @@ The tutors are there to help you with all of your labs, assignments, and project
  4/3 |  |  | [Viz](https://is.gd/GkBSPA){:target="_blank"} | **[LAB&nbsp;9&nbsp; Pointers](labs/lab_09.html){:target="_blank"} &nbsp; 4/12** 
  4/4 | **Enum** | [The `switch` Statement](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/138!/4/2/2@0.00:0){:target="_blank"}<br/>Enumerated types: [bool](https://onlinegdb.com/SyunJ1Rn7){:target="_blank"}, [switch](https://onlinegdb.com/SkBzlk02X){:target="_blank"}, [MyBool](https://onlinegdb.com/SkKBlJ02X){:target="_blank"}, [LIKELY](https://onlinegdb.com/rJoKx1Ah7){:target="_blank"}, [Color](https://onlinegdb.com/SJf6e1AnQ){:target="_blank"}, [Colors](https://onlinegdb.com/BkSWbyR37){:target="_blank"} | [Enums](slides/Enums.pdf){:target="_blank"} | 
  4/8 |  | ***REVIEW*** |  | 
- 4/10 |  | **MIDTERM EXAM 2** |  | **[LAB&nbsp;10&nbsp; Objects, enums](labs/lab_10.html){:target="_blank"} &nbsp; 4/17** 
+ 4/10 |  | **MIDTERM EXAM 2** |  | **[LAB&nbsp;10&nbsp; Objects, Enums](labs/lab_10.html){:target="_blank"} &nbsp; 4/17** 
  4/11 |  | **[Introduction to Project&nbsp;3](projects/){:target="_blank"}** |  |
  4/15 |  |  |  |
  4/17 |  |  |  | **[LAB&nbsp;11&nbsp; Classes and Programming](labs/lab_11.html){:target="_blank"} &nbsp; 5/1** 
+ 4/18 |  |  |  |
+ | **SPRING** | **RECESS** |  |
+ 5/1 |  |  |  | **[LAB&nbsp;12&nbsp; Recursion](labs/lab_11.html){:target="_blank"} &nbsp; 5/8** 
  5/22 |  | **FINAL EXAM 11:30 AM - 1:30 PM** |  | 
  
   
