@@ -145,7 +145,7 @@ public:
 };
 ```
 
-![](https://i.imgur.com/sVbbw80.png){: .centered}
+![](./lab_10_1.png){: .centered}
 
 A usage example:
 
