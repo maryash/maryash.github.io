@@ -111,10 +111,10 @@ The tutors are there to help you with all of your labs, assignments, and project
  4/4 | **Enum** | [The `switch` Statement](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/138!/4/2/2@0.00:0){:target="_blank"}<br/>Enumerated types: [bool](https://onlinegdb.com/SyunJ1Rn7){:target="_blank"}, [switch](https://onlinegdb.com/SkBzlk02X){:target="_blank"}, [MyBool](https://onlinegdb.com/SkKBlJ02X){:target="_blank"}, [LIKELY](https://onlinegdb.com/rJoKx1Ah7){:target="_blank"}, [Color](https://onlinegdb.com/SJf6e1AnQ){:target="_blank"}, [Colors](https://onlinegdb.com/BkSWbyR37){:target="_blank"} | [Enums](slides/Enums.pdf){:target="_blank"} | 
  4/8 |  | ***REVIEW*** |  | 
  4/10 |  | **MIDTERM EXAM 2** |  | **[LAB&nbsp;10&nbsp; Objects, Enums](labs/lab_10.html){:target="_blank"} &nbsp; 4/17** 
- 4/11 |  | **[Introduction to Project&nbsp;3](projects/){:target="_blank"}** |  |
- 4/15 |  |  |  |
- 4/17 |  |  |  | **[LAB&nbsp;11&nbsp; Classes and Programming](labs/lab_11.html){:target="_blank"} &nbsp; 5/1** 
- 4/18 |  |  |  |
+ 4/11 |  | [9.1 Object-Oriented Programming](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/484!/4/4/2/2@0:0){:target="_blank"}<br/>[9.2 Implementing a Simple Class](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/488!/4/2/2/2@0.00:0){:target="_blank"} | [9.1-2](slides/9.1-2 Object Oriented Programming _ Implementing a Simple Class.pdf){:target="_blank"} | [WE&nbsp;9.1](worked_examples/ch9_WE1.pdf){:target="_blank"} 
+ 4/15 |  | [9.3 Specifying the Public Interface](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/490!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.4 Designing the Data Representation](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/494!/4/2/2/2@0.00:0){:target="_blank"} | [9.3-5](slides/9.3-5 Specifying the Public Interface _ Designing the Data Representation _ Member Functions.pdf){:target="_blank"} |
+ 4/17 |  | **[Introduction to Project&nbsp;3](projects/){:target="_blank"}** |  | **[LAB&nbsp;11&nbsp; Classes and Programming](labs/lab_11.html){:target="_blank"} &nbsp; 5/1** 
+ 4/18 |  | [9.5 Member Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/496!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.6 Constructors](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/504!/4/2/2/2@0.00:0){:target="_blank"} | [9.6](slides/9.6 Constructors.pdf){:target="_blank"} | [WE&nbsp;9.1](worked_examples/ch9_WE1.pdf){:target="_blank"} |
  | **SPRING** | **RECESS** |  |
  5/1 |  |  |  | **[LAB&nbsp;12&nbsp; Recursion](labs/lab_11.html){:target="_blank"} &nbsp; 5/8** 
  5/22 |  | **FINAL EXAM 11:30 AM - 1:30 PM** |  | 
