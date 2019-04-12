@@ -166,4 +166,4 @@ The tutors are there to help you with all of your labs, assignments, and project
  [Answers to Sample Midterm 1](Answers Sample Midterm 1.pdf){:target="_blank"}   
  [Sample Midterm 2](Sample135Midterm2.pdf){:target="_blank"}     
  [Answers to Sample Midterm 2](AnswersSample135Midterm2.pdf){:target="_blank"}     
- [Old final](OldFinal.pdf){:target="_blank"}   
+ [Sample Final Exam](OldFinal.pdf){:target="_blank"}   
