@@ -115,14 +115,14 @@ The tutors are there to help you with all of your labs, assignments, and project
  4/17 |  | **[Introduction to Project&nbsp;3](projects/){:target="_blank"}** |  | **[LAB&nbsp;11&nbsp; Classes and Programming](labs/lab_11.html){:target="_blank"} &nbsp; 5/1** 
  4/18 |  | [9.5 Member Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/496!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.6 Constructors](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/504!/4/2/2/2@0.00:0){:target="_blank"} | [9.6](slides/9.6 Constructors.pdf){:target="_blank"} | [WE&nbsp;9.1](worked_examples/ch9_WE1.pdf){:target="_blank"} |
  | **SPRING** | **RECESS** |  |
- 4/29 | **Recursion** | [5.10 Recursive Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/270!/4/2/2/2@0.00:0){:target="_blank"} | [9.7](slides/9.7 PS Tracing Objects.pdf){:target="_blank"}<br/>[5.10](slides/5.10 Recursive Functions.pdf){:target="_blank"} | **[E5.21](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/280!/4/4/142@0:0){:target="_blank"} &nbsp; 5/8**
+ 4/29 | **Recursion** | [5.10 Recursive Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/270!/4/2/2/2@0.00:0){:target="_blank"} | [9.7](slides/9.7 PS Tracing Objects.pdf){:target="_blank"}<br/>[5.10](slides/5.10 Recursive Functions.pdf){:target="_blank"} | **[E5.21](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/280!/4/4/142@0:0){:target="_blank"} &nbsp; 5/1**
  5/1 |  |  |  | **[LAB&nbsp;12&nbsp; Recursion](labs/lab_12.html){:target="_blank"} &nbsp; 5/8** 
- 5/2 |  |  |  | 
- 5/6 |  |  |  | 
+ 5/2 | **More Classes** | **[Project&nbsp;3:&nbsp;Part&nbsp;B](projects/project_03.html){:target="_blank"}**<br/>[9.7 Problem Solving: Tracing Objects](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/508!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.8 P S: Discovering Classes](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/516!/4/4/2/2@0.00:0){:target="_blank"}<br/>[9.9 Separate Compilation](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/520!/4/2/2/2@0.00:0){:target="_blank"} | [9.8](slides/9.8 PS Discovering Classes.pdf){:target="_blank"}<br/>[9.9](slides/9.9 Separate Compilation.pdf){:target="_blank"} | 
+ 5/6 |  | [9.10 Pointers to Objects](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/522!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.11 Problem Solving: Patterns for Object Data](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/528!/4/2/2/2@0.00:0){:target="_blank"} | [9.10-11](slides/9.10-11 Pointers to Objects _ PS Patterns for Object Data.pdf){:target="_blank"} | 
  5/8 |  |  |  |  **[LAB&nbsp;13&nbsp; Vectors](labs/lab_13.html){:target="_blank"} &nbsp; 5/15** 
  5/9 |  |  |  | 
  5/13 |  |  |  | 
- 5/15 | **REVIEW** |  |  | [**LAB on How to Use the Debugger**](labs/lab_DB.html){:target="_blank"} 
+ 5/15 |  | **REVIEW** |  | [**LAB on How to Use the Debugger**](labs/lab_DB.html){:target="_blank"} 
  5/22 |  | **FINAL EXAM 11:30 AM - 1:30 PM** |  | 
  
   
