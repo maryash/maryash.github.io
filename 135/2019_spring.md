@@ -116,13 +116,13 @@ The tutors are there to help you with all of your labs, assignments, and project
  4/18 |  | [9.5 Member Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/496!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.6 Constructors](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/504!/4/2/2/2@0.00:0){:target="_blank"} | [9.6](slides/9.6 Constructors.pdf){:target="_blank"} | [WE&nbsp;9.1](worked_examples/ch9_WE1.pdf){:target="_blank"} |
  | **SPRING** | **RECESS** |  |
  4/29 | **Recursion** | [5.10 Recursive Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/270!/4/2/2/2@0.00:0){:target="_blank"} | [9.7](slides/9.7 PS Tracing Objects.pdf){:target="_blank"}<br/>[5.10](slides/5.10 Recursive Functions.pdf){:target="_blank"} | **[E5.21](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/280!/4/4/142@0:0){:target="_blank"} &nbsp; 5/8**
- 5/1 |  |  |  | **[LAB&nbsp;11&nbsp; Recursion](labs/lab_11.html){:target="_blank"} &nbsp; 5/8**  
+ 5/1 |  |  |  | **[LAB&nbsp;12&nbsp; Recursion](labs/lab_12.html){:target="_blank"} &nbsp; 5/8** 
  5/2 |  |  |  | 
  5/6 |  |  |  | 
- 5/8 |  |  |  | 
+ 5/8 |  |  |  |  **[LAB&nbsp;13&nbsp; Vectors](labs/lab_13.html){:target="_blank"} &nbsp; 5/15** 
  5/9 |  |  |  | 
  5/13 |  |  |  | 
- 5/15 | **REVIEW** |  |  | **[LAB on How to Use the Debugger](labs/lab_DB.html){:target="_blank"} 
+ 5/15 | **REVIEW** |  |  | [**LAB on How to Use the Debugger**](labs/lab_DB.html){:target="_blank"} 
  5/22 |  | **FINAL EXAM 11:30 AM - 1:30 PM** |  | 
  
   
@@ -143,8 +143,6 @@ The tutors are there to help you with all of your labs, assignments, and project
  4/01 | **Dynamic Memory** | [7.4 Dynamic Memory Allocation](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/396!/4/4/2/2@0.00:0){:target="_blank"}<br/>[7.5 Arrays of Pointers](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/400!/4/2/2/2@0.00:0.00){:target="_blank"}<br/>[7.6 PS Draw a Picture](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/402!/4/2/2/2@0.00:0){:target="_blank"} | [7.4](slides/7.4 Dynamic Memory Allocation.pdf){:target="_blank"}<br/>[7.5-6](slides/7.5-6 Arrays of Pointers _ PS Draw a Picture.pdf){:target="_blank"} | **[LAB&nbsp;9&nbsp; Pointers](labs/lab_09.html){:target="_blank"} &nbsp; 11/08**<br/>**[E7.15](https://bookshelf.vitalsource.com/?#/books/9781119400424/cfi/6/432!/4/4/64/6@0:21.0){:target="_blank"} &nbsp; 11/05** 
  4/03 | **Objects<br/>!!!Add HW** | Enumerated types: [bool](https://onlinegdb.com/SyunJ1Rn7){:target="_blank"}, [switch](https://onlinegdb.com/SkBzlk02X){:target="_blank"}, [MyBool](https://onlinegdb.com/SkKBlJ02X){:target="_blank"}, [LIKELY](https://onlinegdb.com/rJoKx1Ah7){:target="_blank"}, [Color](https://onlinegdb.com/SJf6e1AnQ){:target="_blank"}, [Colors](https://onlinegdb.com/BkSWbyR37){:target="_blank"}<br/>[7.7 Classes of Objects](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/410!/4/2/2/2@0.00:0){:target="_blank"} | [Enums](slides/Enums.pdf){:target="_blank"}<br/>[7.7-8](slides/7.7-8 Classes of Objects _ Pointers and Objects.pdf){:target="_blank"} | 
  4/4 |  |  |  | 
- 
- 
  4/8 |  | [7.8 Pointers and Objects](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/422!/4/2/2/2@0.00:0){:target="_blank"} |  | **[LAB&nbsp;10&nbsp; Objects, enums](labs/lab_10.html){:target="_blank"} &nbsp; 11/15** 
  4/10 | **Classes<br/>!!!Add HW** | **[Project&nbsp;3:&nbsp;Introduction,&nbsp;Part&nbsp;A](projects/project_03.html){:target="_blank"}**<br/>[9.1 Object-Oriented Programming](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/484!/4/4/2/2@0:0){:target="_blank"}<br/>[9.2 Implementing a Simple Class](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/488!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.3 Specifying the Public Interface](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/490!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.4 Designing the Data Representation](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/494!/4/2/2/2@0.00:0){:target="_blank"} | [9.1-2](slides/9.1-2 Object Oriented Programming _ Implementing a Simple Class.pdf){:target="_blank"}<br/>[9.3-5](slides/9.3-5 Specifying the Public Interface _ Designing the Data Representation _ Member Functions.pdf){:target="_blank"} | **[Project&nbsp;3&nbsp;&nbsp;Part&nbsp;A](projects/project_03.html){:target="_blank"}&nbsp;&nbsp;&nbsp;11/21**
  4/11 |  |  |  | 
