@@ -116,7 +116,7 @@ The tutors are there to help you with all of your labs, assignments, and project
  4/18 |  | [9.5 Member Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/496!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.6 Constructors](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/504!/4/2/2/2@0.00:0){:target="_blank"} | [9.6](slides/9.6 Constructors.pdf){:target="_blank"} | [WE&nbsp;9.1](worked_examples/ch9_WE1.pdf){:target="_blank"} |
  | **SPRING** | **RECESS** |  |
  4/29 | **Recursion** | [5.10 Recursive Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/270!/4/2/2/2@0.00:0){:target="_blank"} | [9.7](slides/9.7 PS Tracing Objects.pdf){:target="_blank"}<br/>[5.10](slides/5.10 Recursive Functions.pdf){:target="_blank"} | **[E5.21](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/280!/4/4/142@0:0){:target="_blank"} &nbsp; 5/8**
- 5/1 |  |  |  | 
+ 5/1 |  |  |  | **[LAB&nbsp;11&nbsp; Recursion](labs/lab_11.html){:target="_blank"} &nbsp; 5/8**  
  5/2 |  |  |  | 
  5/6 |  |  |  | 
  5/8 |  |  |  | 
