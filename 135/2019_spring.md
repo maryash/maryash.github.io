@@ -67,7 +67,6 @@ The tutors are there to help you with all of your labs, assignments, and project
  136.17 | Mo 1:10 – 3:00 PM | *Abdul Khan* | akhan4@gradcenter.cuny.edu 
  136.02 | Mo 3:10 – 5:00 PM | *Abdul Khan* | akhan4@gradcenter.cuny.edu 
  136.06 | Mo 5:35 – 7:25 PM | *Minh Nguyen* | mn1233@hunter.cuny.edu 
- 136.14 | We 5:35 – 7:25 PM | *Minh Nguyen* | mn1233@hunter.cuny.edu 
  136.03 | Tu 2:10 – 4:00 PM | *Gwenael Gatto* | ggatto2@gmail.com 
  136.05 | We 3:10 – 5:00 PM | *Gwenael Gatto* | ggatto2@gmail.com 
  136.08 | We 8:10 – 10:00 AM | *Subhadarshi Panda* | spanda@gradcenter.cuny.edu 
@@ -116,7 +115,14 @@ The tutors are there to help you with all of your labs, assignments, and project
  4/17 |  | **[Introduction to Project&nbsp;3](projects/){:target="_blank"}** |  | **[LAB&nbsp;11&nbsp; Classes and Programming](labs/lab_11.html){:target="_blank"} &nbsp; 5/1** 
  4/18 |  | [9.5 Member Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/496!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.6 Constructors](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/504!/4/2/2/2@0.00:0){:target="_blank"} | [9.6](slides/9.6 Constructors.pdf){:target="_blank"} | [WE&nbsp;9.1](worked_examples/ch9_WE1.pdf){:target="_blank"} |
  | **SPRING** | **RECESS** |  |
- 5/1 |  |  |  | **[LAB&nbsp;12&nbsp; Recursion](labs/lab_11.html){:target="_blank"} &nbsp; 5/8** 
+ 4/29 | **SPRING** |  |  |
+ 5/1 | **SPRING** |  |  |
+ 5/2 | **SPRING** |  |  |
+ 5/6 | **SPRING** |  |  |
+ 5/8 | **SPRING** |  |  |
+ 5/9 | **Recursion** | [5.10 Recursive Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/270!/4/2/2/2@0.00:0){:target="_blank"} | [9.7](slides/9.7 PS Tracing Objects.pdf){:target="_blank"}<br/>[5.10](slides/5.10 Recursive Functions.pdf){:target="_blank"} | **[E5.21](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/280!/4/4/142@0:0){:target="_blank"} &nbsp; 11/26**
+ 5/13 |  |  |  | **[LAB&nbsp;12&nbsp; Recursion](labs/lab_11.html){:target="_blank"} &nbsp; 5/8** 
+ 5/15 | **REVIEW** |  |  | **[LAB on How to Use the Debugger](labs/lab_DB.html){:target="_blank"} 
  5/22 |  | **FINAL EXAM 11:30 AM - 1:30 PM** |  | 
  
   
@@ -145,7 +151,7 @@ The tutors are there to help you with all of your labs, assignments, and project
  4/15 |  | [9.5 Member Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/496!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.6 Constructors](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/504!/4/2/2/2@0.00:0){:target="_blank"} | [9.6](slides/9.6 Constructors.pdf){:target="_blank"} | [WE&nbsp;9.1](worked_examples/ch9_WE1.pdf){:target="_blank"}<br/>**[LAB&nbsp;11&nbsp; Recursion](labs/lab_11.html){:target="_blank"} &nbsp; 11/25** 
  4/17 | **Recursion** | [5.10 Recursive Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/270!/4/2/2/2@0.00:0){:target="_blank"} | [9.7](slides/9.7 PS Tracing Objects.pdf){:target="_blank"}<br/>[5.10](slides/5.10 Recursive Functions.pdf){:target="_blank"} | **[E5.21](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/280!/4/4/142@0:0){:target="_blank"} &nbsp; 11/26** 
  4/18 |  |  |  | 
- 4/22 | **More Classes** | **[Project&nbsp;3:&nbsp;Part&nbsp;B](projects/project_03.html){:target="_blank"}**<br/>[9.7 Problem Solving: Tracing Objects](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/508!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.8 PS: Discovering Classes](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/516!/4/4/2/2@0.00:0){:target="_blank"}<br/>[9.9 Separate Compilation](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/520!/4/2/2/2@0.00:0){:target="_blank"} | [9.8](slides/9.8 PS Discovering Classes.pdf){:target="_blank"}<br/>[9.9](slides/9.9 Separate Compilation.pdf){:target="_blank"} | **[Project&nbsp;3&nbsp;&nbsp;Part&nbsp;B](projects/project_03.html){:target="_blank"}&nbsp;&nbsp;&nbsp;12/03**<br/>**[LAB on How to Use the Debugger](labs/lab_DB.html){:target="_blank"} &nbsp;** 
+ 4/22 | **More Classes** | **[Project&nbsp;3:&nbsp;Part&nbsp;B](projects/project_03.html){:target="_blank"}**<br/>[9.7 Problem Solving: Tracing Objects](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/508!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.8 PS: Discovering Classes](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/516!/4/4/2/2@0.00:0){:target="_blank"}<br/>[9.9 Separate Compilation](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/520!/4/2/2/2@0.00:0){:target="_blank"} | [9.8](slides/9.8 PS Discovering Classes.pdf){:target="_blank"}<br/>[9.9](slides/9.9 Separate Compilation.pdf){:target="_blank"} | **[Project&nbsp;3&nbsp;&nbsp;Part&nbsp;B](projects/project_03.html){:target="_blank"}&nbsp;&nbsp;&nbsp;12/03**<br/>**[LAB on How to Use the Debugger](labs/lab_DB.html){:target="_blank"}** 
  4/24 |  | [9.10 Pointers to Objects](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/522!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.11 Problem Solving: Patterns for Object Data](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/528!/4/2/2/2@0.00:0){:target="_blank"} | [9.10-11](slides/9.10-11 Pointers to Objects _ PS Patterns for Object Data.pdf){:target="_blank"} | **[LAB&nbsp;12&nbsp; Classes and Programming](labs/lab_12.html){:target="_blank"} &nbsp; 12/06** 
  4/25 |  |  |  | 
  4/29 | **Destructors<br/>Static&nbsp;Variables<br/>Static&nbsp;Members** |  **[Project&nbsp;3:&nbsp;&nbsp;Part&nbsp;C](projects/project_03.html){:target="_blank"}**<br/>[Destructors](https://www.geeksforgeeks.org/destructors-c/){:target="_blank"}<br/>[Static Variables](https://www.learncpp.com/cpp-tutorial/43-static-duration-variables/){:target="_blank"}<br/>[Static Member Variables](https://www.learncpp.com/cpp-tutorial/811-static-member-variables/){:target="_blank"} | [Destruc](slides/Destructors.pdf){:target="_blank"}<br/>[StatVar](slides/Static Variables.pdf){:target="_blank"}<br/>[StatMV](slides/Static Member Variables.pdf){:target="_blank"} | **[Project&nbsp;3&nbsp;&nbsp;Part&nbsp;C](projects/project_03.html){:target="_blank"}&nbsp;&nbsp;&nbsp;12/12**
