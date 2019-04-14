@@ -115,13 +115,13 @@ The tutors are there to help you with all of your labs, assignments, and project
  4/17 |  | **[Introduction to Project&nbsp;3](projects/){:target="_blank"}** |  | **[LAB&nbsp;11&nbsp; Classes and Programming](labs/lab_11.html){:target="_blank"} &nbsp; 5/1** 
  4/18 |  | [9.5 Member Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/496!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.6 Constructors](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/504!/4/2/2/2@0.00:0){:target="_blank"} | [9.6](slides/9.6 Constructors.pdf){:target="_blank"} | [WE&nbsp;9.1](worked_examples/ch9_WE1.pdf){:target="_blank"} |
  | **SPRING** | **RECESS** |  |
- 4/29 |  |  |  |
- 5/1 |  |  |  |
- 5/2 |  |  |  |
- 5/6 |  |  |  |
- 5/8 |  |  |  |
- 5/9 | **Recursion** | [5.10 Recursive Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/270!/4/2/2/2@0.00:0){:target="_blank"} | [9.7](slides/9.7 PS Tracing Objects.pdf){:target="_blank"}<br/>[5.10](slides/5.10 Recursive Functions.pdf){:target="_blank"} | **[E5.21](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/280!/4/4/142@0:0){:target="_blank"} &nbsp; 11/26**
- 5/13 |  |  |  | **[LAB&nbsp;12&nbsp; Recursion](labs/lab_11.html){:target="_blank"} &nbsp; 5/8** 
+ 4/29 | **Recursion** | [5.10 Recursive Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/270!/4/2/2/2@0.00:0){:target="_blank"} | [9.7](slides/9.7 PS Tracing Objects.pdf){:target="_blank"}<br/>[5.10](slides/5.10 Recursive Functions.pdf){:target="_blank"} | **[E5.21](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/280!/4/4/142@0:0){:target="_blank"} &nbsp; 5/8**
+ 5/1 |  |  |  | 
+ 5/2 |  |  |  | 
+ 5/6 |  |  |  | 
+ 5/8 |  |  |  | 
+ 5/9 |  |  |  | 
+ 5/13 |  |  |  | 
  5/15 | **REVIEW** |  |  | **[LAB on How to Use the Debugger](labs/lab_DB.html){:target="_blank"} 
  5/22 |  | **FINAL EXAM 11:30 AM - 1:30 PM** |  | 
  
