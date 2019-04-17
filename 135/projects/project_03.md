@@ -124,8 +124,7 @@ If there is no trees or fences, the dwarf becomes idle.
 
 All of these action-scheduling functions have no immediate effect when they are called, however the dwarf remembers your order and will start performing 
 that action after the function `onAction` ends. 
-When they complete the action, or if the action cannot be performed, they become idle and the function `onAction` will is called again for them,
-then you can change their order.
+When they complete the action, or if the action cannot be performed, they become idle and the function `onAction` will be called again for each dwarf, then you can specify their nex action.
 
 You **cannot schedule multiple actions** for a dwarf. Every time `onAction` is called, you can schedule only one action, multiple calls to
 `start_walk`, `start_chop`, `start_build`, and `start_pick` will be ignored, and only the first of them will be executed by the dwarf.
