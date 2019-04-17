@@ -122,7 +122,7 @@ If there is no trees or fences, the dwarf becomes idle.
 
 ![](https://i.imgur.com/YgsCm8I.png){: .centered}
 
-All of these action-scheduling functions have no immediate effect when they are called, however the dwarf remember your order and will start performing 
+All of these action-scheduling functions have no immediate effect when they are called, however the dwarf remembers your order and will start performing 
 that action after the function `onAction` ends. 
 When they complete the action, or if the action cannot be performed, they become idle and the function `onAction` will is called again for them,
 then you can change their order.
