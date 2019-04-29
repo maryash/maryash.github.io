@@ -1,9 +1,9 @@
 ---  
 layout: myDefault  
-title: LAB 13  
+title: LAB 12  
 ---      
   
-# Lab 13. &nbsp; Vectors: A Song of Push and Pop
+# Lab 12. &nbsp; Vectors: A Song of Push and Pop
 
 
 ![](https://assets.wired.com/photos/w_1164/wp-content/uploads/2017/01/Vector-495300389-2-1.jpg){: .centered }
