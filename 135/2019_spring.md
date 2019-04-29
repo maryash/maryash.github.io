@@ -122,7 +122,7 @@ The tutors are there to help you with all of your labs, assignments, and project
  5/8 | NO LECTURE | (because of an event in the auditorium) |  | **[LAB&nbsp;13&nbsp; Recursion](labs/lab_13.html){:target="_blank"} &nbsp; 5/15** 
  5/9 |  | [9.10 Pointers to Objects](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/522!/4/2/2/2@0.00:0){:target="_blank"}<br/>[9.11 PS: Patterns for Object Data](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/528!/4/2/2/2@0.00:0){:target="_blank"} | [9.10-11](slides/9.10-11 Pointers to Objects _ PS Patterns for Object Data.pdf){:target="_blank"} | 
  5/13 |  **Destructors<br/>Static&nbsp;Variables<br/>Static&nbsp;Members** | [Destructors](https://www.geeksforgeeks.org/destructors-c/){:target="_blank"}<br/>[Static Variables](https://www.learncpp.com/cpp-tutorial/43-static-duration-variables/){:target="_blank"}<br/>[Static Member Variables](https://www.learncpp.com/cpp-tutorial/811-static-member-variables/){:target="_blank"} | [Destruc](slides/Destructors.pdf){:target="_blank"}<br/>[StatVar](slides/Static Variables.pdf){:target="_blank"}<br/>[StatMV](slides/Static Member Variables.pdf){:target="_blank"} | 
- 5/15 |  | **REVIEW** |  | [**LAB on How to Use the Debugger**](labs/lab_DB.html){:target="_blank"} 
+ 5/15 |  | **MOCK FINAL** |  | [**LAB on How to Use the Debugger**](labs/lab_DB.html){:target="_blank"} 
  5/22 |  | **FINAL EXAM 11:30 AM - 1:30 PM** |  | 
  
   
