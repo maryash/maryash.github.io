@@ -3,7 +3,7 @@ layout: myDefault
 title: LAB 13  
 ---      
   
-# Lab 13. @nbsp; Recursion
+# Lab 13. &nbsp; Recursion
 
 ## Introduction
 
