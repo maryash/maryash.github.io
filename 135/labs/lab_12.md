@@ -16,7 +16,9 @@ Arrays are important and versatile data structures. They are very useful to hold
 #### Initialization
 To use vector, the program must contain the `#include <vector>` preprocessor directive.
 The simplest way to initialize a vector is to declare an object of that type:
-` vector<int> v; // creates a vector of int called v`
+```
+vector<int> v; // creates a vector of int called v
+```
 For all intents and purposes, think of a vector as an array that can resize itself. In practice, this means we do not need to specify a size when creating a vector. To add an element to a vector, use the `push_back(element)` method, where element is a value of the same type as the vector.
 Example:
 ```
