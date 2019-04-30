@@ -33,7 +33,6 @@ v.push_back(30);
 Vectors can also be initialized with list initialization syntax. The same vector could have been created as follows:
 ```
 vector<int> v{10, 20, 30};
-
 // v now contains elements[10, 20, 30]
 ```
 
