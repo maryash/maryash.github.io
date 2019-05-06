@@ -164,7 +164,10 @@ The tutors are there to help you with all of your labs, assignments, and project
   --->  
   
   
-**Past Exams:**  
+**Answers to all past quizzes**
+ [Answers to Past Quizzes](AllQuizzes.pdf){:target="_blank"}   
+ 
+**Past exams:**  
  [***REVIEW SHEET***](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/16!/4/2/4@0:0){:target="_blank"}     
  [Sample Midterm 1](Sample135Midterm1.pdf){:target="_blank"}     
  [Answers to Sample Midterm 1](Answers Sample Midterm 1.pdf){:target="_blank"}   
