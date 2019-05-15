@@ -168,11 +168,9 @@ The tutors are there to help you with all of your labs, assignments, and project
   
   --->  
   
-  
-**Answers to all past quizzes**
- [Answers to Past Quizzes](AllQuizzes.pdf){:target="_blank"}   
  
 **Past exams:**  
+ [**Answers to all past quizzes**](old_exams/AllQuizzes.pdf){:target="_blank"}   
  [***REVIEW SHEET***](old_exams/Review Sheet.pdf){:target="_blank"}     
  [Sample Midterm 1](old_exams/Sample Midterm 1.pdf){:target="_blank"}     
  [Sample Midterm 1 Answers](old_exams/Sample Midterm 1 Answers.pdf.pdf){:target="_blank"}   
