@@ -170,7 +170,6 @@ The tutors are there to help you with all of your labs, assignments, and project
   
  
 **Past exams:**  
- [Mock Final Exam](old_exams/2019 Spring Mock Final.pdf){:target="_blank"}   
  [**Answers to all past quizzes**](old_exams/all_quizzes.pdf){:target="_blank"}   
  [***REVIEW SHEET***](old_exams/Review Sheet.pdf){:target="_blank"}     
  [Sample Midterm 1](old_exams/Sample Midterm 1.pdf){:target="_blank"}     
@@ -181,4 +180,5 @@ The tutors are there to help you with all of your labs, assignments, and project
  [Sample Midterm 2 Answers](old_exams/Sample Midterm 2 Answers.pdf){:target="_blank"}     
  [2019 Spring Midterm 2](old_exams/2019 Spring Midterm 2.pdf){:target="_blank"}     
  [2019 Spring Midterm 2 Answers](old_exams/2019 Spring Midterm 2 Answers.pdf){:target="_blank"}     
+ [Mock Final Exam](old_exams/2019 Spring Mock Final.pdf){:target="_blank"}   
  
