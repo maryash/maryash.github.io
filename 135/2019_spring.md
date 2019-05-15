@@ -174,7 +174,7 @@ The tutors are there to help you with all of your labs, assignments, and project
  [**Answers to all past quizzes**](old_exams/AllQuizzes.pdf){:target="_blank"}   
  [***REVIEW SHEET***](old_exams/Review Sheet.pdf){:target="_blank"}     
  [Sample Midterm 1](old_exams/Sample Midterm 1.pdf){:target="_blank"}     
- [Sample Midterm 1 Answers](old_exams/Sample Midterm 1 Answers.pdf.pdf){:target="_blank"}   
+ [Sample Midterm 1 Answers](old_exams/Sample Midterm 1 Answers.pdf){:target="_blank"}   
  [2019 Spring Midterm 1](old_exams/2019 Spring Midterm 1.pdf){:target="_blank"}     
  [2019 Spring Midterm 1 Answers](old_exams/2019 Spring Midterm 1 Answers.pdf){:target="_blank"}     
  [Sample Midterm 2](old_exams/Sample Midterm 2.pdf){:target="_blank"}     
