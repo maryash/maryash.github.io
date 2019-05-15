@@ -178,4 +178,4 @@ The tutors are there to help you with all of your labs, assignments, and project
  [Answers to Sample Midterm 1](/old_finals/Sample Midterm 1 Answers.pdf.pdf){:target="_blank"}   
  [Sample Midterm 2](/old_finals/Sample Midterm 2.pdf){:target="_blank"}     
  [Answers to Sample Midterm 2](/old_finals/Sample Midterm 2 Answers.pdf){:target="_blank"}     
- [Mock Final Exam](/old_finals/Mock Final S2019.pdf.pdf){:target="_blank"}   
+ [Mock Final Exam](/old_finals/2019 Spring Mock Final.pdf){:target="_blank"}   
