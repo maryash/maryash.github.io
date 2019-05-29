@@ -145,7 +145,11 @@ The output of your program should be:
             13
             14
 
-   _Hint: Use a loop and print out the index or loop variable._
+_Hint: Use a loop and print out the index or loop variable._
+
+
+
+
 
 07.  **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
