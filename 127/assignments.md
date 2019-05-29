@@ -145,7 +145,7 @@ The output of your program should be:
             13
             14
 
-Hint: Use a loop and print out the index or loop variable.
+Hint: Use a loop and print out the index or loop variable.  
 
 07.  **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
@@ -164,7 +164,7 @@ Hint: Use a loop and print out the index or loop variable.
             I love Python!
             I LOVE PYTHON!
             i love python!  
-
+  
 08.  **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
         Write a program that prompts the user to enter a phrase and then prints out the ASCII code of each character in the phrase.
@@ -189,7 +189,7 @@ Hint: Use a loop and print out the index or loop variable.
             33
     
         _Hint: If c is a character, ord(c) returns its ASCII code. For example, if c is 'I', then ord(c) returns 73. See [Lab 2](lab_02.html)._  
-    
+  
 09.  **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
  
 ![](https://stjohn.github.io/teaching/csci127/f18/ciphrdsk.gif)
@@ -205,8 +205,8 @@ A sample run of your program should look like:
             Your word in code is:
             mroen
             
-Hint: See the example programs from Lecture 2.
-
+Hint: See the example programs from Lecture 2.  
+  
 10.  **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
 Write a program that implements the pseudocode below:
 
@@ -218,7 +218,7 @@ Your output should look similar to:
 ![](https://stjohn.github.io/teaching/csci127/s19/twistingSquare.png)
 Hint: See examples of range(start,stop,step) in Lecture 2 notes.  
 
-<--
+<!---
 
 05.  **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
@@ -1117,4 +1117,4 @@ Here's [xkcd](http://xkcd.com) on the simplicity of Python:
 
 _(This file was last modified on 2 July 2018.)_ 
 
--->
+--->
