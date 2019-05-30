@@ -43,12 +43,7 @@ a:active {
 	
 
   
-### Programming Problem List  
-#### Lab and Tutor Hours  
-There is a dedicated computer laboratory for this course at HUNTER NORTH 1001E.  It is the same lab where you have your recitation sessions!  It is staffed with tutors, who are there to help you.  Please take advantage of it.  
-MONDAYS and WEDNESDAYS from 9:30am to 6:00pm  
-TUESDAYS and THURSDAYS from 3:00PM to 6:00PM  
-
+## Programming Problem List  
 
 #### General Notes
 
