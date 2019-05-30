@@ -1,6 +1,6 @@
 ---
 layout: myDefault 
-title: CSCI 127 MAIN PAGE 
+title: CSCI 127 ASSIGNMENTS 
 ---
 
 <style>  
@@ -39,7 +39,8 @@ a:active {
 [<span style="font-family:Arial; font-size:23.5px">CSCI 127 &nbsp; Introduction to Computer Science</span><br/>
 <span style="line-height:0.1; font-family:Arial; font-size:24px">Hunter College &nbsp; City University of New York</span>](2019_summer.html)    
   
----  	
+---  
+	
 
   
 ### Programming Problem List  
