@@ -148,6 +148,8 @@ The output of your program should be:
             
 _Hint: Use a loop and print out the index or loop variable._
 
+<!---
+
 07.  **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
         Write a Python program that prompts the user for a message, and then prints the message, the message in upper case letters, and the message in lower case letters.
@@ -220,3 +222,4 @@ Your output should look similar to:
 ![](https://stjohn.github.io/teaching/csci127/s19/twistingSquare.png)
         _Hint: See examples of range(start,stop,step) in Lecture 2 notes._  
 
+--->
