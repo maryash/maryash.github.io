@@ -124,30 +124,31 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
 Copy the program from [Section 4.3](http://interactivepython.org/courselib/static/thinkcspy/PythonTurtle/InstancesAHerdofTurtles.html) into a file on your computer and modify the program (with turtles alex and tess) to have a purple background color and have tess draw white lines:
 ![](https://stjohn.github.io/teaching/csci127/s19/purpleBG.png)
 
-06.  **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS: [Chapter 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) and and [Section 4.7](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)
-Write a program that prints out the numbers from 0 to 14.
-
-The output of your program should be:
-
-      0
-      1
-      2
-      3
-      4
-      5
-      6
-      7
-      8
-      9
-      10
-      11
-      12
-      13
-      14
-            
-  _Hint: Use a loop and print out the index or loop variable._    
-        _Hint: See Lecture 1._  
-
+06.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+    
+        Write a program that prompts the user to enter a phrase and then prints out the ASCII code of each character in the phrase.
+    
+        A sample run of your program should look like:
+    
+            Enter a phrase:  I love Python!
+            In ASCII: 
+            73
+            32
+            108
+            111
+            118
+            101
+            32
+            80
+            121
+            116
+            104
+            111
+            110
+            33
+    
+        _Hint: If c is a character, ord(c) returns its ASCII code. For example, if c is 'I', then ord(c) returns 73. See [Lab 2](lab_02.html)._  
+  
 07.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
         Write a Python program that prompts the user for a message, and then prints the message, the message in upper case letters, and the message in lower case letters.
