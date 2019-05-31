@@ -190,24 +190,21 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             33
     
         _Hint: If c is a character, ord(c) returns its ASCII code. For example, if c is 'I', then ord(c) returns 73. See [Lab 2](lab_02.html)._  
-  
-09.  **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
- 
-![](https://stjohn.github.io/teaching/csci127/f18/ciphrdsk.gif)
-(The cipher disk above shifts 'A' to 'N', 'B' to 'O', ... 'Z' to 'M', or a shift of 13. From secretcodebreaker.com.)
+    
+09.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+    
+        Write a program that prompts the user to enter a word and then prints out the word with each letter **shifted right** by 2. That is, 'a' becomes 'c', 'b' becomes 'd', ... 'x' becomes 'z', and 'y' becomes 'a'.
 
-Write a program that prompts the user to enter a word and then prints out the word with each letter shifted right by 13. That is, 'a' becomes 'n', 'b' becomes 'o', ... 'y' becomes 'l', and 'z' becomes 'm'.
+        Assume that all inputted words are in lower case letters: 'a',...,'z'.
 
-Assume that all inputted words are in lower case letters: 'a',...,'z'.
+        A sample run of your program should look like:
 
-A sample run of your program should look like:
+            Enter a word: hello 
+            Your word in code is: 
+            jgnnq
 
-            Enter a word: zebra
-            Your word in code is:
-            mroen
-            
-        _Hint: See the example programs from Lecture 2._  
-  
+        _Hint: See the example programs from Lecture 2._ . 
+    
 10.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
 
         Write a program that implements the pseudocode below:
