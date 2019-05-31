@@ -120,16 +120,35 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             Mihi cura futuri
             Mihi cura futuri
     
-05.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
-    
-        Write a program that draws a purple decagon (10-sided polygon) with turtle stamped at each corner.
-    
-        Your output should look similar to:  
-        ![](stampedDecagon.png)
-    
+05.  **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)
+Copy the program from [Section 4.3](http://interactivepython.org/courselib/static/thinkcspy/PythonTurtle/InstancesAHerdofTurtles.html) into a file on your computer and modify the program (with turtles alex and tess) to have a purple background color and have tess draw white lines:
+![](https://stjohn.github.io/teaching/csci127/s19/purpleBG.png)
+
+06.  **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS: [Chapter 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) and and [Section 4.7](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)
+Write a program that prints out the numbers from 0 to 14.
+
+The output of your program should be:
+
+      0
+      1
+      2
+      3
+      4
+      5
+      6
+      7
+      8
+      9
+      10
+      11
+      12
+      13
+      14
+            
+  _Hint: Use a loop and print out the index or loop variable._    
         _Hint: See Lecture 1._  
 
-06.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
+07.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
     
         Write a Python program that prompts the user for a message, and then prints the message, the message in upper case letters, and the message in lower case letters.
     
@@ -147,7 +166,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             I LOVE PYTHON!
             i love python!  
 
-07.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+08.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
         Write a program that prompts the user to enter a phrase and then prints out the ASCII code of each character in the phrase.
     
@@ -171,33 +190,24 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
             33
     
         _Hint: If c is a character, ord(c) returns its ASCII code. For example, if c is 'I', then ord(c) returns 73. See [Lab 2](lab_02.html)._  
-    
-08.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
-    
-        Write a program that prompts the user for a DNA string, and then prints the length and GC-content (percent of the string that is C or G, written as a decimal).
-    
-        A sample run of your program should look like:
+  
+09.  **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+ 
+![](https://stjohn.github.io/teaching/csci127/f18/ciphrdsk.gif)
+(The cipher disk above shifts 'A' to 'N', 'B' to 'O', ... 'Z' to 'M', or a shift of 13. From secretcodebreaker.com.)
 
-            Enter a DNA string:  ACGCCCGGGATG
-            Length is 12
-            GC-content is 0.75
+Write a program that prompts the user to enter a word and then prints out the word with each letter shifted right by 13. That is, 'a' becomes 'n', 'b' becomes 'o', ... 'y' becomes 'l', and 'z' becomes 'm'.
 
-        _Hint: See [Lab 2](lab_02.html)._  
-    
-09.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
-    
-        Write a program that prompts the user to enter a word and then prints out the word with each letter **shifted right** by 2. That is, 'a' becomes 'c', 'b' becomes 'd', ... 'x' becomes 'z', and 'y' becomes 'a'.
+Assume that all inputted words are in lower case letters: 'a',...,'z'.
 
-        Assume that all inputted words are in lower case letters: 'a',...,'z'.
+A sample run of your program should look like:
 
-        A sample run of your program should look like:
-
-            Enter a word: hello 
-            Your word in code is: 
-            jgnnq
-
-        _Hint: See the example programs from Lecture 2._ . 
-    
+            Enter a word: zebra
+            Your word in code is:
+            mroen
+            
+        _Hint: See the example programs from Lecture 2._  
+  
 10.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
 
         Write a program that implements the pseudocode below:
