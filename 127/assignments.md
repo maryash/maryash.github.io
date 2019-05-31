@@ -193,7 +193,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
     
 09.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
-        ![](https://stjohn.github.io/teaching/csci127/f18/ciphrdsk.gif)
+        ![](https://stjohn.github.io/teaching/csci127/f18/ciphrdsk.gif)  
         (The cipher disk above shifts 'A' to 'N', 'B' to 'O', ... 'Z' to 'M', or a shift of 13. From secretcodebreaker.com.)
         Write a program that prompts the user to enter a word and then prints out the word with each letter shifted right by 13. That is, 'a' becomes 'n', 'b' becomes 'o', ... 'y' becomes 'l', and 'z' becomes 'm'.
 
