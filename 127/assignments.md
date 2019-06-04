@@ -100,10 +100,14 @@ Submit the following programs via [Gradescope:](http://gradescope.com)
   
 04.  **Due Date: 7 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://interactivepython.org/runestone/static/thinkcspy/SimplePythonData/toctree.html) & [4](https://interactivepython.org/runestone/static/thinkcspy/PythonTurtle/toctree.html)**  
 
-        Write a program that will print the Hunter College motto ("Mihi cura futuri" which translates to: "The care of the future is mine") 15 times.
+        Write a program that will print the Hunter College motto ("Mihi cura futuri" which translates to: "The care of the future is mine") 19 times.
 
         The output of your program should be:
 
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
+            Mihi cura futuri
             Mihi cura futuri
             Mihi cura futuri
             Mihi cura futuri
