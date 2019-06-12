@@ -557,7 +557,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         Where `...` is replaced by your logical expression (see [Lab 5](lab5.html)).
 
     
-31.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+31.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
     
         Modify the program from [Lab 7](lab7.html) to:
 
@@ -577,11 +577,11 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         Note: The grading script is expecting that the label (i.e. name of your new column) is `"Fraction Children"`.
     
-32.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: Think CS [Section 6.7](http://interactivepython.org/runestone/static/thinkcspy/Functions/mainfunction.html)**  
+32.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: Think CS [Section 6.7](http://interactivepython.org/runestone/static/thinkcspy/Functions/mainfunction.html)**  
 
         Write a program, using a function `main()` that prints `Hello, World!` to the screen. See [Lab 7](lab_07.html).
     
-33.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+33.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
         Write a program that asks the user for a list of nouns (separated by spaces) and approximates the fraction that are plural by counting the fraction that end in `s`. Your program should output the total number of words and the fraction that end in `s`. You may assume that words are separated by spaces (and ignore the possibility of tabs and punctuation between words.)
 
@@ -605,7 +605,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Implement (and test!) each part and then go on to the next._  
     
-34.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
+34.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
 
         Write a logical expression that takes a single input, in1, and **always** returns True. Your expression must only use in1 and the logical operators, and, or, and not
 
@@ -615,7 +615,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         ![](PorNotP.png)
     
-35.  **Due Date: 25 June**
+35.  **Due Date: 27 June**
     
         Write a program that asks the user for the name of an image, the name of an output file. Your program should then save the lower left quarter of the image to the output file specified by the user.
 
