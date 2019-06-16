@@ -465,7 +465,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
       
 
-26.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [Numpy tutorial (DataCamp)](https://www.datacamp.com/community/tutorials/python-numpy-tutorial)**  
+26.  **Due Date: 23 June** &nbsp; &nbsp; **Reading: [Numpy tutorial (DataCamp)](https://www.datacamp.com/community/tutorials/python-numpy-tutorial)**  
     
         Modify the program from [Lab 6](lab6.html) that displays the [NYC historical population data](nycHistPop.csv). Your program should ask the user for the borough, an name for the output file, and then display the fraction of the population that has lived in that borough, over time.
 
@@ -480,7 +480,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
     
-27.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+27.  **Due Date: 23 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
     
         Write a program that computes the average and maximum population over time for a borough (entered by the user). Your program should assume that the NYC historical population data file, [nycHistPop.csv](nycHistPop.csv) is in the same directory.
 
@@ -498,7 +498,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 6](lab_06.html)_.
     
-28.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
+28.  **Due Date: 23 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
     
         Write a program that asks the user for the hour of the day (in 24 hour time), and prints
 
@@ -521,13 +521,13 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Enter hour (in 24 hour time):  15
             Good Afternoon
     
-29.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
+29.  **Due Date: 23 June** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
     
         Write an Unix shell script that prints Hello, World to the screen.
 
         Submit a single text file containing your shell commands. See [Lab 6](lab_06.html).
     
-30.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
+30.  **Due Date: 23 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
     
         Logical gates can be used to do arithmetic on binary numbers. For example, we can write a logical circuit whose output is one more than the inputted number. Our inputs are in1 and in2 and the outputs are stored in `out1`, `out2`, and `out3`.
 
@@ -557,7 +557,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         Where `...` is replaced by your logical expression (see [Lab 5](lab5.html)).
 
     
-31.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+31.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
     
         Modify the program from [Lab 7](lab7.html) to:
 
@@ -577,11 +577,11 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         Note: The grading script is expecting that the label (i.e. name of your new column) is `"Fraction Children"`.
     
-32.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: Think CS [Section 6.7](http://interactivepython.org/runestone/static/thinkcspy/Functions/mainfunction.html)**  
+32.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: Think CS [Section 6.7](http://interactivepython.org/runestone/static/thinkcspy/Functions/mainfunction.html)**  
 
         Write a program, using a function `main()` that prints `Hello, World!` to the screen. See [Lab 7](lab_07.html).
     
-33.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
+33.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 9](http://interactivepython.org/runestone/static/thinkcspy/Strings/toctree.html)**  
     
         Write a program that asks the user for a list of nouns (separated by spaces) and approximates the fraction that are plural by counting the fraction that end in `s`. Your program should output the total number of words and the fraction that end in `s`. You may assume that words are separated by spaces (and ignore the possibility of tabs and punctuation between words.)
 
@@ -605,7 +605,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Implement (and test!) each part and then go on to the next._  
     
-34.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
+34.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
 
         Write a logical expression that takes a single input, in1, and **always** returns True. Your expression must only use in1 and the logical operators, and, or, and not
 
@@ -615,7 +615,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         ![](PorNotP.png)
     
-35.  **Due Date: 27 June**
+35.  **Due Date: 25 June**
     
         Write a program that asks the user for the name of an image, the name of an output file. Your program should then save the lower left quarter of the image to the output file specified by the user.
 
