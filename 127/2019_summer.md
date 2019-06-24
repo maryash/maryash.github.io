@@ -106,7 +106,7 @@ Sections: |Time:|Instructor:|E-mail:
  Thursday&nbsp;7/4 | 4TH OF JULY | COLLEGE IS CLOSED | 
  Monday&nbsp;7/8 Recitation | Using gcc <br>C++ control structures | [LAB 12](lab_12.html) <br>[LAB 13](lab_13.html) | Quiz at the end: <br>[Introduction to C++](https://stjohn.github.io/teaching/csci127/s18/quizzes.html#Q13) 
  Tuesday&nbsp;7/9<br>Lecture | Machine language overview <br>Simplified machine language | [WeMIPS Emulator]() <br>[LAB 11](lab_11.html) <br>[Lecture notes 11](127_11.pdf) | [U of Idaho reference sheet]() <br>[MIPS Wikibooks]() 
- Wednesday&nbsp;7/10 | **!!! FINAL EXAM !!!** | <span style="color:red">**IN&nbsp;HUNTER&nbsp;NORTH&nbsp;603**</span> | **AT 1:30PM** 
+ Wednesday&nbsp;7/10 | **FINAL** | **EXAM** | **AT 1:30PM** 
  
   
   
