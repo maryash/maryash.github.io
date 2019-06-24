@@ -632,11 +632,6 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         Note: before submitting your program for grading, remove any commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the `plt.show()` commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
         
----
-  
-  
-<!---
-    
 36.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
 
         Modify the parking ticket program from [Lab 8](lab_08.html) to do the following:
@@ -749,13 +744,13 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         
         ![](triangles.png) 
         
-41.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+41.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
     
         Write a program that uses folium to make a map of New York City. Your map should be centered at (40.75, -74.125) and include a marker for the main campus of Hunter College. The HTML file your program creates should be called: `nycMap.html`
 
         _Hint: See [Lab 9](lab9.html)._
     
-42.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+42.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
     
         Using folium (see [Lab 9](lab9.html)), write a program that asks the user for the name of a CSV file, name of the output file, and creates a map with markers for all the traffic collisions from the input file.
 
@@ -774,7 +769,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: For this data set, the names of the columns are "LATITUDE" and "LONGITUDE" (unlike the previous map problem, where the data was stored with "Latitude" and "Longitude")._
 
-43.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
+43.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
 
         Write a function, `computeFare()`, that takes as two parameters: the zone and the ticket type, and returns the Long Island Railroad fare.
 
@@ -804,7 +799,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 8](lab_08.html)._
 
-44.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+44.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
     
         Fill in the following functions in a program that maps GIS data from NYC OpenData CSV files and marks the current location and closest point:
 
@@ -844,7 +839,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 9](lab_09.html)._
     
-45.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
+45.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
     
         Fill in the missing functions:
 
@@ -864,6 +859,11 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         A template program, averageImage.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead runs each of your functions separately ('unit tests') to determine correctness. As such, the names of the functions must match exactly the ones listed above (else, the scripts cannot find them).
 
         _Hint: See notes from Lecture 9._
+    
+---
+  
+  
+<!---
     
 46.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: Think CS: [Chapter 3](http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html#)**  
     
