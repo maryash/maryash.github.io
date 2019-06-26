@@ -42,8 +42,6 @@ a:active {
 LAB 13  
 ---  
 
-Today's lab will introduce C++.
-
 Software tools needed: web browser and the C++ compiler, gcc and a graphical editor, such as gEdit.
 
 ### In-class Quiz
