@@ -859,13 +859,8 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         A template program, averageImage.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead runs each of your functions separately ('unit tests') to determine correctness. As such, the names of the functions must match exactly the ones listed above (else, the scripts cannot find them).
 
         _Hint: See notes from Lecture 9._
-    
----
   
-  
-<!---
-    
-46.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: Think CS: [Chapter 3](http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html#)**  
+46.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS: [Chapter 3](http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html#)**  
     
         Modify the program from [Lab 10](lab_10.html) that makes a turtle walk 100 times. Each "walk" is 10 steps forward and the turtle can turn 0, 1, 2, ..., 359 degrees (chosen randomly) at the beginning of each walk.
 
@@ -873,13 +868,13 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         ![](randomWalk.png)
     
-47.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: Think CS: [Debugging Code](http://interactivepython.org/runestone/static/thinkcspy/toctree.html)**  
+47.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS: [Debugging Code](http://interactivepython.org/runestone/static/thinkcspy/toctree.html)**  
     
         The program, [errorsHex.py](errorsHex.py), has lots of errors. Fix the errors and submit the modified program.
 
         _Hint: See [Lab 10](lab_10.html)._
     
-48.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
+48.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
     
         Write an Unix shell script that does the following:
 
@@ -891,7 +886,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         _Hint: See [Lab 10](lab_10.html)._
     
     
-49.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
+49.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
 
         Write a simplified machine language program that prints: I love Python
 
@@ -901,11 +896,17 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
   
         ![](https://stjohn.github.io/teaching/csci127/f17/ASCIITable.png)
 
-50.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
+50.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
 
         Write a simplified machine language program that has register $s0 loop through the numbers 10, 8, 6, ..., 2, 0.
 
         See [Lab 11](lab_11.html) for details on submitting the simplified machine language programs.
+    
+---
+  
+  
+<!---
+    
 
 51.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Chapter 8](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/toctree.html)**  
     
