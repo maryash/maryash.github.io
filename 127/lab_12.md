@@ -36,7 +36,9 @@ a:active {
 </style>  
   
 ---
+
 LAB 12  
+
 ---  
  	
 Today's lab will introduce C++.
