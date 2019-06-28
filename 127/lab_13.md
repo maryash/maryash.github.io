@@ -35,8 +35,6 @@ a:active {
 }
 </style>  
   
----
-
 ## LAB 13  
 
 ---  
