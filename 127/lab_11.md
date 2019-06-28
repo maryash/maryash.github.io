@@ -43,10 +43,10 @@ Software tools needed: web browser and a graphical editor, such as gEdit.
 
 References:
 
-*   [WeMIPS Emulator](http://rivoire.cs.sonoma.edu/cs351/wemips/)
-*   [U Idaho reference sheet](http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html)
-*   [Setia's slides](https://cs.gmu.edu/~setia/cs365-S02/class3.pdf)
-*   [Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)
+*   [WeMIPS Emulator](http://rivoire.cs.sonoma.edu/cs351/wemips/){:target="_blank"}
+*   [U Idaho reference sheet](http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html){:target="_blank"}
+*   [Setia's slides](https://cs.gmu.edu/~setia/cs365-S02/class3.pdf){:target="_blank"}
+*   [Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats){:target="_blank"}
 
 ### In-class Quiz
 
@@ -56,13 +56,13 @@ During lab, there is a [quiz](quizzes.html). The password to access the quiz wil
 
 In today's lab, we will explore a programming language that is very "low level" in that it maps very closely to the actual commands that are used by the computer's processor.
 
-We will use an emulator, [WeMIPS](http://rivoire.cs.sonoma.edu/cs351/wemips/), to emulate what a machine-level language would do for a popular class of computer processors, MIPS. Processors with MIPS are a Reduced Instructor Set Computer (RISC), meaning they have fewer different types of instructions that the processor knows (and thus fewer that have to be implemented, leading to faster processors).
+We will use an emulator, [WeMIPS](http://rivoire.cs.sonoma.edu/cs351/wemips/){:target="_blank"}, to emulate what a machine-level language would do for a popular class of computer processors, MIPS. Processors with MIPS are a Reduced Instructor Set Computer (RISC), meaning they have fewer different types of instructions that the processor knows (and thus fewer that have to be implemented, leading to faster processors).
 
 Let's start by looking at a program that will print "Hello World":
 
 ![](mipsHello.png)
 
-If you would like to follow along, using the [emulator](http://rivoire.cs.sonoma.edu/cs351/wemips/), open the window and toggle the "Show/Hide Demos" button and then click on the "Hello World" demo.
+If you would like to follow along, using the [emulator](http://rivoire.cs.sonoma.edu/cs351/wemips/){:target="_blank"}, open the window and toggle the "Show/Hide Demos" button and then click on the "Hello World" demo.
 
 Just as we did with PythonTutor, we can "step" or go through the code line-by-line to see what it does:
 
@@ -83,7 +83,7 @@ Try changing the program in the WeMIPS window to print out "Mihi cura futuri". O
 
     ... put your machine language program here ....
 
-and see the [Programming Problem List](assignments.html).
+and see the [Programming Problem List](assignments.html){:target="_blank"}.
 
 #### Loops in Machine Language
 
@@ -111,7 +111,7 @@ Here's a translation of the code into pseudocode:
 5.  Else, go back to Line 3 and repeat.
 6.  Program ends here.
 
-This program counts down from 10 to 0. How could you modify it to count from 1 to 10? When you have it running, see the [Programming Problem List](assignments.html).
+This program counts down from 10 to 0. How could you modify it to count from 1 to 10? When you have it running, see the [Programming Problem List](assignments.html){:target="_blank"}.
 
 (Hint: store the value 10 in a register to use in the comparison)
 
@@ -119,7 +119,7 @@ This program counts down from 10 to 0. How could you modify it to count from 1 t
 
 ![](mipsInteractive.png)
 
-As a final machine language challenge, modify the "Interactive" demo (the first lines are in the image above) to use the _current year_ when computing the ages. When you have it running, see the [Programming Problem List](ps.html).
+As a final machine language challenge, modify the "Interactive" demo (the first lines are in the image above) to use the _current year_ when computing the ages. When you have it running, see the [Programming Problem List](assignments.html){:target="_blank"}.
 
 ### A Note on Grading Simplified Machine Language
 
@@ -144,10 +144,10 @@ Code goes here...
 
 To submit your program for grading:
 
-*   Run and debug your program using [WeMIPS](http://rivoire.cs.sonoma.edu/cs351/wemips/)
+*   Run and debug your program using [WeMIPS](http://rivoire.cs.sonoma.edu/cs351/wemips/){:target="_blank"}
 *   Once it works, copy the text into a text editor and save. Make sure your file has a comment at the top with your name.
-*   Drag and drop the text file onto the [gradescope](http://gradescope.com) page for the given program.
+*   Drag and drop the text file onto the [gradescope](http://gradescope.com){:target="_blank"} page for the given program.
 
 ### What's Next?
 
-You must now complete programs 49 and 50 in the [Programming Problem List](assignments.html).  They are due tomorrow at 1pm!  
+You must now complete programs 49 and 50 in the [Programming Problem List](assignments.html){:target="_blank"}.  They are due tomorrow at 1pm!  
