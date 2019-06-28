@@ -632,7 +632,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         Note: before submitting your program for grading, remove any commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the `plt.show()` commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
         
-36.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+36.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html){:target="_blank"}, [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik){:target="_blank"}**  
 
         Modify the parking ticket program from [Lab 8](lab_08.html) to do the following:
 
@@ -673,9 +673,9 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             2006     499
             Name: Vehicle Year, dtype: int64
     
-37.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: [Github Guide](https://guides.github.com/activities/hello-world/)**  
+37.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: [Github Guide](https://guides.github.com/activities/hello-world/){:target="_blank"}**  
     
-        In [Lab 8](lab_08.html), you created a github account. Submit a text file with the name of your account. The grading script is expecting a file with the format:
+        In [Lab 8](lab_08.html){:target="_blank"}, you created a github account. Submit a text file with the name of your account. The grading script is expecting a file with the format:
   
             #Name:  Your name 
             #Date:  April 2017
@@ -685,15 +685,15 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             
         Note: It takes a few minutes for a newly created github account to be visible. If you submit to gradescope and get a message that the account doesn't exist, wait a few minutes and try again.  
     
-38.  **Due Date: 27  June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
+38.  **Due Date: 27  June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html){:target="_blank"}**  
     
-        Fill in the missing function, monthString(), in the program, months.py (available at: [https://github.com/stjohn/csci127](https://github.com/stjohn/csci127)). The function should take number between 1 and 12 as a parameter and returns the corresponding month as a string. For example, if the parameter is 1, your function should return `"January"`. If the parameter is `2`, your function should return out `"February"`, etc.
+        Fill in the missing function, monthString(), in the program, months.py (available at: [https://github.com/stjohn/csci127](https://github.com/stjohn/csci127)){:target="_blank"}. The function should take number between 1 and 12 as a parameter and returns the corresponding month as a string. For example, if the parameter is 1, your function should return `"January"`. If the parameter is `2`, your function should return out `"February"`, etc.
 
         Note: The grading scripts are expecting that your function is called monthString(). You need to use that name, since instead of running the entire program, the scripts are "unit testing" the function-- that is, calling that function, in isolation, with differrent inputs to verify that it performs correctly.
 
-        _Hint: See notes from Lecture 7 and [Lab 8](lab_08.html)._
+        _Hint: See notes from Lecture 7 and [Lab 8](lab_08.html){:target="_blank"}._
     
-39.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html), [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik)**  
+39.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html){:target="_blank"}, [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik){:target="_blank"}**  
     
         Write a program that asks the user for a CSV of collision data (see note below about obtaining reported collisions from NYC OpenData). Your program should then list the top three contributing factors for the primary vehicle of collisions `"CONTRIBUTING FACTOR VEHICLE 1"` in the file.
 
@@ -706,15 +706,15 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Following Too Closely              37
             Name: CONTRIBUTING FACTOR VEHICLE 1, dtype: int64
 
-        This assignment uses collision data collected and made publicly by [New York City Open Data](https://nycopendata.socrata.com), and can be found at:
+        This assignment uses collision data collected and made publicly by [New York City Open Data](https://nycopendata.socrata.com){:target="_blank"}, and can be found at:
 
-        > [https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95](https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95).
+        > [https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95](https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95){:target="_blank"}.
 
         Since the files are quite large, use the "Filter" option and choose your birthday in 2016 and "Export" (in CSV format) all collisions for that day. We will use this data set for future programs, so, instead of downloading the test files multiple times, save a copy for future use.
 
-        _Hint: See [Lab 8](lab_08.html) for accessing and analyzing structured data._
+        _Hint: See [Lab 8](lab_08.html){:target="_blank"} for accessing and analyzing structured data._
     
-40.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**
+40.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html){:target="_blank"}**
     
         Write two functions, `triangle()` and `nestedTriangle()`. Both functions take two parameters: a turtle and an edge length. The pseudocode for triangle() is:
 
@@ -744,15 +744,15 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         
         ![](triangles.png) 
         
-41.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+41.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started){:target="_blank"}**  
     
         Write a program that uses folium to make a map of New York City. Your map should be centered at (40.75, -74.125) and include a marker for the main campus of Hunter College. The HTML file your program creates should be called: `nycMap.html`
 
-        _Hint: See [Lab 9](lab9.html)._
+        _Hint: See [Lab 9](lab9.html){:target="_blank"}._
     
-42.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+42.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started){:target="_blank"}**  
     
-        Using folium (see [Lab 9](lab9.html)), write a program that asks the user for the name of a CSV file, name of the output file, and creates a map with markers for all the traffic collisions from the input file.
+        Using folium (see [Lab 9](lab9.html){:target="_blank"}), write a program that asks the user for the name of a CSV file, name of the output file, and creates a map with markers for all the traffic collisions from the input file.
 
         A sample run:
 
@@ -765,11 +765,11 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         (The demo above is for October 18, 2016 using the time the collision occurred ("TIME") to label each marker and changed the underlying map with the option: tiles="Cartodb Positron" when creating the map.)
 
-        This assignment uses collision data collected and made publicly by [New York City Open Data](https://nycopendata.socrata.com). See Programming Problem #39 for details on this data set. When creating datasets to test your program, you will need to filter for both date (to keep the files from being huge) and that there's a location entered. The former is explained above; to check the latter, add the additional filter condition of "LONGITUDE is not blank".
+        This assignment uses collision data collected and made publicly by [New York City Open Data](https://nycopendata.socrata.com){:target="_blank"}. See Programming Problem #39 for details on this data set. When creating datasets to test your program, you will need to filter for both date (to keep the files from being huge) and that there's a location entered. The former is explained above; to check the latter, add the additional filter condition of "LONGITUDE is not blank".
 
         _Hint: For this data set, the names of the columns are "LATITUDE" and "LONGITUDE" (unlike the previous map problem, where the data was stored with "Latitude" and "Longitude")._
 
-43.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html)**  
+43.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html){:target="_blank"} and [Chapter 7](http://interactivepython.org/runestone/static/thinkcspy/Selection/toctree.html){:target="_blank"}**  
 
         Write a function, `computeFare()`, that takes as two parameters: the zone and the ticket type, and returns the Long Island Railroad fare.
 
@@ -783,7 +783,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         *   If the zone is 5, 6, or 7 and the ticket type is "off-peak", the fare is 9.75.
         *   If the zone is greater than 8, return a negative number (since your calculator does not handle inputs that high).
 
-        A template program, `LIRRtransit.py`, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead tests your function separately ('unit tests') to determine correctness. As such, the name of the function must match exactly (else, the scripts cannot find it).
+        A template program, `LIRRtransit.py`, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127){:target="_blank"}. The grading script does not run the whole program, but instead tests your function separately ('unit tests') to determine correctness. As such, the name of the function must match exactly (else, the scripts cannot find it).
 
         A sample run:
 
@@ -797,9 +797,9 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Enter the ticket type (peak/off-peak): peak
             The fare is 13.5
 
-        _Hint: See [Lab 8](lab_08.html)._
+        _Hint: See [Lab 8](lab_08.html){:target="_blank"}._
 
-44.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html) and [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started)**  
+44.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html){:target="_blank"} and [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started){:target="_blank"}**  
     
         Fill in the following functions in a program that maps GIS data from NYC OpenData CSV files and marks the current location and closest point:
 
@@ -837,16 +837,16 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         A template program, is available here: [closestPoint.py](closestPoint.py). The grading script does not run the whole program, but instead runs each of your functions separately ('unit tests') to determine correctness. As such, the names of the functions must match exactly the ones listed above (else, the scripts cannot find them).
 
-        _Hint: See [Lab 9](lab_09.html)._
+        _Hint: See [Lab 9](lab_09.html){:target="_blank"}._
     
-45.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html)**  
+45.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS: [Chapter 6](http://interactivepython.org/runestone/static/thinkcspy/Functions/toctree.html){:target="_blank"}**  
     
         Fill in the missing functions:
 
         *   `average(region)`: Takes a region of an image and returns the average red, green, and blue values across the region.
         *   `setRegion(region,r,g,b)`: Takes a region of an image and red, green, and blue values, r, g, b. Sets the region so that all points have red values of r, green values of g, and blue values of b.
 
-        The functions are part of a program that averages smaller and smaller regions of an image until the underlying scene is visible (inspired by the elegant [koalas to the max](http://koalastothemax.com)).
+        The functions are part of a program that averages smaller and smaller regions of an image until the underlying scene is visible (inspired by the elegant [koalas to the max](http://koalastothemax.com){:target="_blank"}).
 
         For example, if you inputted our favorite image, you would see (left to right):
 
@@ -856,11 +856,11 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         ![](csBridge.png)
 
-        A template program, averageImage.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127). The grading script does not run the whole program, but instead runs each of your functions separately ('unit tests') to determine correctness. As such, the names of the functions must match exactly the ones listed above (else, the scripts cannot find them).
+        A template program, averageImage.py, is available on the [CSci 127 repo on github](https://github.com/stjohn/csci127){:target="_blank"}. The grading script does not run the whole program, but instead runs each of your functions separately ('unit tests') to determine correctness. As such, the names of the functions must match exactly the ones listed above (else, the scripts cannot find them).
 
         _Hint: See notes from Lecture 9._
   
-46.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS: [Chapter 3](http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html#)**  
+46.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS: [Chapter 3](http://interactivepython.org/runestone/static/thinkcspy/Debugging/toctree.html#){:target="_blank"}**  
     
         Modify the program from [Lab 10](lab_10.html) that makes a turtle walk 100 times. Each "walk" is 10 steps forward and the turtle can turn 0, 1, 2, ..., 359 degrees (chosen randomly) at the beginning of each walk.
 
@@ -868,39 +868,39 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         ![](randomWalk.png)
     
-47.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS: [Debugging Code](http://interactivepython.org/runestone/static/thinkcspy/toctree.html)**  
+47.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS: [Debugging Code](http://interactivepython.org/runestone/static/thinkcspy/toctree.html){:target="_blank"}**  
     
         The program, [errorsHex.py](errorsHex.py), has lots of errors. Fix the errors and submit the modified program.
 
-        _Hint: See [Lab 10](lab_10.html)._
+        _Hint: See [Lab 10](lab_10.html){:target="_blank"}._
     
-48.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
+48.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal){:target="_blank"}**  
     
         Write an Unix shell script that does the following:
 
         *   Creates a directory, `projectFiles`.
         *   Creates 3 additional directories (as subdirectories of `projectFiles`): `source`, `data`, and `results`.
 
-        Submit a single text file containing your shell commands. See [Lab 10](lab_10.html).
+        Submit a single text file containing your shell commands. See [Lab 10](lab_10.html){:target="_blank"}.
 
-        _Hint: See [Lab 10](lab_10.html)._
+        _Hint: See [Lab 10](lab_10.html){:target="_blank"}._
     
     
-49.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
+49.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats){:target="_blank"}**  
 
         Write a simplified machine language program that prints: I love Python
 
-        See [Lab 11](lab_11.html) for details on submitting the simplified machine language programs.
+        See [Lab 11](lab_11.html){:target="_blank"} for details on submitting the simplified machine language programs.
 
         Hint: You may find the following table useful:  
   
-        ![](https://stjohn.github.io/teaching/csci127/f17/ASCIITable.png)
+        ![](https://stjohn.github.io/teaching/csci127/f17/ASCIITable.png){:target="_blank"}
 
-50.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)**  
+50.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats){:target="_blank"}**  
 
         Write a simplified machine language program that has register $s0 loop through the numbers 10, 8, 6, ..., 2, 0.
 
-        See [Lab 11](lab_11.html) for details on submitting the simplified machine language programs.
+        See [Lab 11](lab_11.html){:target="_blank"} for details on submitting the simplified machine language programs.
     
 ---
   
@@ -908,7 +908,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 <!---
     
 
-51.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Chapter 8](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/toctree.html)**  
+51.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Chapter 8](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/toctree.html){:target="_blank"}**  
     
         Write a program that asks the user to enter a string. If the user enters an empty string, your program should continue prompting the user for a new string until they enter a non-empty string. Your program should then print out the string entered.
 
@@ -921,22 +921,22 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Enter a non-empty string: Mihi cura futuri
             You entered: Mihi cura futuri
 
-        _Hint: See [Lab 10](lab_10.html)._
+        _Hint: See [Lab 10](lab_10.html){:target="_blank"}._
     
-52.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal)**  
+52.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal){:target="_blank"}**  
     
         Using Unix shell commands, write a script that counts the number of `.py` files in current working directory.
 
-        _Hint: See [Lab 11](lab_11.html)._
+        _Hint: See [Lab 11](lab_11.html){:target="_blank"}._
     
     
-53.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+53.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that prints `Hello, World!` to the screen.
 
-        _Hint: See [Lab 12](lab_12.html) for getting started with C++._
+        _Hint: See [Lab 12](lab_12.html){:target="_blank"} for getting started with C++._
     
-54.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+54.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that will print "I love Python!" 20 times.
 
@@ -963,17 +963,17 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             I love Python!
             I love Python!
 
-        _Hint: See [Lab 12](lab_12.html) for getting started with C++._
+        _Hint: See [Lab 12](lab_12.html){:target="_blank"} for getting started with C++._
     
-55.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+55.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that converts kilometers to miles. Your program should prompt the user for the number of kilometers and then print out the number of miles.
 
         A useful formula: _miles = 0.621371* kilometers_.
 
-        See [Lab 4](lab_4.html) for designing Input-Process-Output programs and [Lab 12](lab_12.html) for getting started with C++.
+        See [Lab 4](lab_4.html){:target="_blank"} for designing Input-Process-Output programs and [Lab 12](lab_12.html){:target="_blank"} for getting started with C++.
 
-56.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+56.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** program that asks the user for a number and draws a triangle of that height and width using 'character graphics'.
 
@@ -994,7 +994,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             **
             *
     
-57.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+57.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that asks the user for the month of the year (as a number), and prints
 
@@ -1018,7 +1018,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Enter month (as a number):  11
             Happy Fall
     
-58.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+58.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that asks the user for the starting amount, and prints out the yearly balance of a savings account, assuming 10% interest, for the first five years.
 
@@ -1031,9 +1031,9 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Year 4  1464.10
             Year 5  1610.51
     
-59.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+59.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
-        Write a **C++ program** that asks the user for their age, and continue asking until the number entered positive (that is, greater than 0). That is, write the [Python program](http://pythontutor.com/visualize.html#code=age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Awhile%20age%20%3C%200%3A%0A%20%20%20%20print%28'Entered%20a%20negative%20number.'%29%0A%20%20%20%20age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Aprint%28'You%20entered%20your%20age%20as%3A',%20age%29&cumulative=false&curInstr=0&heapPrimitives=false&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22-3%22,%223%22%5D&textReferences=false) from [Lab 10](lab10.html) in C++.
+        Write a **C++ program** that asks the user for their age, and continue asking until the number entered positive (that is, greater than 0). That is, write the [Python program](http://pythontutor.com/visualize.html#code=age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Awhile%20age%20%3C%200%3A%0A%20%20%20%20print%28'Entered%20a%20negative%20number.'%29%0A%20%20%20%20age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Aprint%28'You%20entered%20your%20age%20as%3A',%20age%29&cumulative=false&curInstr=0&heapPrimitives=false&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22-3%22,%223%22%5D&textReferences=false) from [Lab 10](lab10.html){:target="_blank"} in C++.
 
         A sample run:
 
@@ -1044,11 +1044,11 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Please enter age: 100
             You entered your age as: 100
 
-        _Hint: Rewrite the [Python program](http://pythontutor.com/visualize.html#code=age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Awhile%20age%20%3C%200%3A%0A%20%20%20%20print%28'Entered%20a%20negative%20number.'%29%0A%20%20%20%20age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Aprint%28'You%20entered%20your%20age%20as%3A',%20age%29&cumulative=false&curInstr=0&heapPrimitives=false&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22-3%22,%223%22%5D&textReferences=false) from [Lab 10](lab10.html) in C++._
+        _Hint: Rewrite the [Python program](http://pythontutor.com/visualize.html#code=age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Awhile%20age%20%3C%200%3A%0A%20%20%20%20print%28'Entered%20a%20negative%20number.'%29%0A%20%20%20%20age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Aprint%28'You%20entered%20your%20age%20as%3A',%20age%29&cumulative=false&curInstr=0&heapPrimitives=false&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22-3%22,%223%22%5D&textReferences=false){:target="_blank"} from [Lab 10](lab10.html){:target="_blank"} in C++._
     
-60.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf)**  
+60.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
-        Write a **C++ program** that asks the user for a whole number between -31 and 31 and prints out the number in "[two's complement](https://en.wikipedia.org/wiki/Two%27s_complement)" notation, using the following algorithm:
+        Write a **C++ program** that asks the user for a whole number between -31 and 31 and prints out the number in "[two's complement](https://en.wikipedia.org/wiki/Two%27s_complement){:target="_blank"}" notation, using the following algorithm:
 
         1.  Ask the user for a number, n.
         2.  If the number is negative, print a 1 and let x = 32 + n.
@@ -1072,7 +1072,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
 ---
 
-Here's [xkcd](http://xkcd.com) on the simplicity of Python:  
+Here's [xkcd](http://xkcd.com){:target="_blank"} on the simplicity of Python:  
 
 ![](http://imgs.xkcd.com/comics/python.png)  
 
