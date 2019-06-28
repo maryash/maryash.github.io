@@ -47,7 +47,7 @@ During lab, there is a [quiz](quizzes.html). The password to access the quiz wil
 
 ### Using gcc
 
-We will be using the 'Gnu Compiler Collection' (aka 'Gnu C Compiler'), or gcc, for our C++ programs. Originally designed for C programs, it was extended to include C++ programs and is one of the most common compilers for C/C++. The command, [g++](https://gcc.gnu.org/onlinedocs/gcc/Invoking-G_002b_002b.html) calls gcc and automatically specifies the C++ library and treats all files as C++ (instead of the default as C files).
+We will be using the 'Gnu Compiler Collection' (aka 'Gnu C Compiler'), or gcc, for our C++ programs. Originally designed for C programs, it was extended to include C++ programs and is one of the most common compilers for C/C++. The command, [g++](https://gcc.gnu.org/onlinedocs/gcc/Invoking-G_002b_002b.html){:target="_blank"} calls gcc and automatically specifies the C++ library and treats all files as C++ (instead of the default as C files).
 
 For C/C++ programs, we will do the following steps, at the command line:
 
@@ -114,7 +114,7 @@ When it returns without an error, you can run it by typing:
 
 `./hello`
 
-When it compiles, and runs correctly (i.e. printing `Hello, World!` to the screen), see the [Programming Problem List](assignments.html) and work on problems 52.
+When it compiles, and runs correctly (i.e. printing `Hello, World!` to the screen), see the [Programming Problem List](assignments.html){:target="_blank"} and work on problems 52.
 
 ### Simple I/O & Variables in C++
 
@@ -133,7 +133,7 @@ Unlike Python, you must declare variables before using them. For example, if you
 	  return 0; 
 	}
 
-For each variable, we need to specify what type of variable it is (whole number, real number, character, etc.) before we use it. For real numbers, we can use float, as in Python. We will introduce more data types next lab, but if you are curious, here is a [chart](https://www.tutorialspoint.com/cplusplus/cpp_variable_types.htm) of some common types. Our program above:
+For each variable, we need to specify what type of variable it is (whole number, real number, character, etc.) before we use it. For real numbers, we can use float, as in Python. We will introduce more data types next lab, but if you are curious, here is a [chart](https://www.tutorialspoint.com/cplusplus/cpp_variable_types.htm){:target="_blank"} of some common types. Our program above:
 
 *   Declares the variable year to be a whole number (integer).
 *   Asks the user for a number.
@@ -143,7 +143,7 @@ For each variable, we need to specify what type of variable it is (whole number,
 
 To summarize: `cin` is for input to the program, and `cout` is output from the program.
 
-How could you modify this program to ask the user for a real (floating-point number)? Most arithmetic works the same in C++ as it does in Python. With this in mind, modify the above program to convert kilometers to miles. (Hint: see the [Programming Problem List](assignments.html).)
+How could you modify this program to ask the user for a real (floating-point number)? Most arithmetic works the same in C++ as it does in Python. With this in mind, modify the above program to convert kilometers to miles. (Hint: see the [Programming Problem List](assignments.html){:target="_blank"}.)
 
 ### Definite Loops in C++
 
@@ -194,7 +194,7 @@ Follow the steps above to compile and run your program.
 
 Next, modify the program so that it will print 10 times: the Hunter College motto ("Mihi cura futuri" which translates to: "The care of the future is mine") .
 
-When it compiles, and runs correctly, see the [Programming Problem List](assignments.html).
+When it compiles, and runs correctly, see the [Programming Problem List](assignments.html){:target="_blank"}.
 
 ### Getting g++ on Your Machine
 
@@ -214,10 +214,10 @@ We are using the gcc compiler for the C/C++ programming languages, which is free
 	    
     will show the location of the g++ program.  
 	    
-*   **Mac OSX**: The compiler comes with the Mac's XCode tools package. You can download XCode from the [Mac App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12).
-*   **Windows**: A popular distribution of gcc for Windows is [Minimalist GNU for Windows](http://www.mingw.org) (see [GNU List](https://gcc.gnu.org/install/binaries.html) for other distributions).
-*   **On-line**: The on-line version used in lecture is [OnlineGDB](https://www.onlinegdb.com).
+*   **Mac OSX**: The compiler comes with the Mac's XCode tools package. You can download XCode from the [Mac App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12){:target="_blank"}.
+*   **Windows**: A popular distribution of gcc for Windows is [Minimalist GNU for Windows](http://www.mingw.org){:target="_blank"} (see [GNU List](https://gcc.gnu.org/install/binaries.html){:target="_blank"} for other distributions).
+*   **On-line**: The on-line version used in lecture is [OnlineGDB](https://www.onlinegdb.com){:target="_blank"}.
 
 ### What's Next?
 
-If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](assignments.html) has problem descriptions, suggested reading, and due dates next to each problem.
+If you finish the lab early, now is a great time to get a head start on the programming problems due early next week. There's instructors to help you, and you already have Python up and running. The [Programming Problem List](assignments.html){:target="_blank"} has problem descriptions, suggested reading, and due dates next to each problem.
