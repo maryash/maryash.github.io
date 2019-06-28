@@ -41,7 +41,7 @@ Software tools needed: web browser and the C++ compiler, gcc and a graphical edi
 
 ### In-class Quiz
 
-During lab, there is a [quiz](quizzes.html). The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab1.html) for details on using Blackboard).
+During lab, there is a [quiz](quizzes.html){:target="_blank"}. The password to access the quiz will be given during lab. To complete the quiz, log on to Blackboard (see [Lab 1](lab1.html){:target="_blank"} for details on using Blackboard).
 
 ### Variables in C++
 
@@ -58,7 +58,7 @@ There are many types of variables availabe in C++. Here are a few that we will u
 *   `bool`: Stands for 'Boolean' and holds a value of either true or false.
 *   `char`: To hold a single character value. 
 
-Note: we won't discuss strings in C++, but see the reading if you're interested (will be covered in detail in CSCI 135/156).  Here is a [chart](https://www.tutorialspoint.com/cplusplus/cpp_variable_types.htm) with a few more common types.
+Note: we won't discuss strings in C++, but see the reading if you're interested (will be covered in detail in CSCI 135/156).  Here is a [chart](https://www.tutorialspoint.com/cplusplus/cpp_variable_types.htm){:target="_blank"} with a few more common types.
 
 ### Decisions in C++
 
@@ -130,7 +130,7 @@ Much of the arithmetic carries over from Python. The code above uses the modulo,
     
 Note that C++ uses the curly brackets for blocks of code, but that it is 'good programming style' to indent your code to make it readable. As a rule of thumb, if you would be required to indent in Python, you should indent in C++ (not required for the code to run, but 'good style').
 
-How would you modify this program to print out a different message based on the time of the day? For example, if the user entered the hour (in 24-hour time), you should print out "Good Morning" if it before 12, "Good Afternoon" for 12 until 17, and "Good Evening " otherwise. See [Programming Problem List](assignments.html).
+How would you modify this program to print out a different message based on the time of the day? For example, if the user entered the hour (in 24-hour time), you should print out "Good Morning" if it before 12, "Good Afternoon" for 12 until 17, and "Good Evening " otherwise. See [Programming Problem List](assignments.html){:target="_blank"}.
 
 ### Indefinite Loops in C++
 
@@ -166,7 +166,7 @@ Take the Python code from [Lab 10](lab_10.html) that asks the user to enter thei
 
 	main()
 
-and translate it into C++. An easy way to approach this is to start with the C++ program above that demonstrates if statements and modify it to handle tbe indefinite loop for checking ages. See [Programming Problem List](assignments.html).
+and translate it into C++. An easy way to approach this is to start with the C++ program above that demonstrates if statements and modify it to handle tbe indefinite loop for checking ages. See [Programming Problem List](assignments.html){:target="_blank"}.
 
 ### What's Next?
 
