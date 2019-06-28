@@ -33,10 +33,8 @@ a:hover {
 a:active {
     text-decoration: none;
 }
-</style>  
-  
+</style>   
 ## LAB 13  
-
 ---  
 
 Software tools needed: web browser and the C++ compiler, gcc and a graphical editor, such as gEdit.
