@@ -33,10 +33,8 @@ a:hover {
 a:active {
     text-decoration: none;
 }
-</style>  
-  
+</style>   
 ## LAB 12  
-
 ---  
  	
 Today's lab will introduce C++.
