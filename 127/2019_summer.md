@@ -120,8 +120,9 @@ Sections: |Time:|Instructor:|E-mail:
 ---> 
   
 **Past Final Exams:**  
-[Past Final Exam 1](PastFinal1.pdf){:target="_blank"}  [Answer Key Exam 1](https://stjohn.github.io/teaching/csci127/s18/final/mockKey.pdf){:target="_blank"}  
-[Past Final Exam 2](PastFinal2.pdf){:target="_blank"}  [Answer Key Exam 2](https://stjohn.github.io/teaching/csci127/s18/final/finalF17V3Key.pdf){:target="_blank"}  
+[Mock Final Exam](PastFinal1.pdf){:target="_blank"}  [Answer Key Mock Exam](https://stjohn.github.io/teaching/csci127/s18/final/mockKey.pdf){:target="_blank"}  
+[Past Final Exam](PastFinal2.pdf){:target="_blank"}  [Answer Key Exam](https://stjohn.github.io/teaching/csci127/s18/final/finalF17V3Key.pdf){:target="_blank"}  
+[Mock Final Exam 2019](https://stjohn.github.io/teaching/csci127/s19/final/mockS19.pdf){:target="_blank"}  [Answer Key Mock Exam 2019](https://stjohn.github.io/teaching/csci127/s19/final/mockS19_key.pdf){:target="_blank"}  
 
 ---    
   
