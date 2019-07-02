@@ -35,7 +35,7 @@ a:active {
     text-decoration: none;
 }
 </style>
-## Syllabus
+## CSCI 127 Syllabus
 ---
 #### General Information
 
