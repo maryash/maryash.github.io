@@ -37,7 +37,7 @@ a:active {
 </style>
 ---  	
   
-### Syllabus
+## Syllabus
 
 ---  
   
