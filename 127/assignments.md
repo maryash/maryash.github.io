@@ -881,7 +881,6 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 10](lab_10.html){:target="_blank"}._
     
-    
 49.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats){:target="_blank"}**  
 
         Write a simplified machine language program that prints: I love Python
@@ -891,19 +890,13 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         Hint: You may find the following table useful:  
   
         ![](https://stjohn.github.io/teaching/csci127/f17/ASCIITable.png){:target="_blank"}
-
+  
 50.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats){:target="_blank"}**  
 
         Write a simplified machine language program that has register $s0 loop through the numbers 10, 8, 6, ..., 2, 0.
 
         See [Lab 11](lab_11.html){:target="_blank"} for details on submitting the simplified machine language programs.
     
----
-  
-  
-<!---
-    
-
 51.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Chapter 8](http://interactivepython.org/runestone/static/thinkcspy/MoreAboutIteration/toctree.html){:target="_blank"}**  
     
         Write a program that asks the user to enter a string. If the user enters an empty string, your program should continue prompting the user for a new string until they enter a non-empty string. Your program should then print out the string entered.
@@ -926,13 +919,13 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         _Hint: See [Lab 11](lab_11.html){:target="_blank"}._
     
     
-53.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+53.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that prints `Hello, World!` to the screen.
 
         _Hint: See [Lab 12](lab_12.html){:target="_blank"} for getting started with C++._
     
-54.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+54.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that will print "I love Python!" 20 times.
 
@@ -961,7 +954,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 12](lab_12.html){:target="_blank"} for getting started with C++._
     
-55.  **Due Date: 9 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+55.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that converts kilometers to miles. Your program should prompt the user for the number of kilometers and then print out the number of miles.
 
@@ -969,7 +962,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         See [Lab 4](lab_4.html){:target="_blank"} for designing Input-Process-Output programs and [Lab 12](lab_12.html){:target="_blank"} for getting started with C++.
 
-56.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+56.  **Due Date: 10 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** program that asks the user for a number and draws a triangle of that height and width using 'character graphics'.
 
@@ -990,7 +983,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             **
             *
     
-57.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+57.  **Due Date: 10 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that asks the user for the month of the year (as a number), and prints
 
@@ -1014,7 +1007,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Enter month (as a number):  11
             Happy Fall
     
-58.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+58.  **Due Date: 10 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that asks the user for the starting amount, and prints out the yearly balance of a savings account, assuming 10% interest, for the first five years.
 
@@ -1027,7 +1020,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Year 4  1464.10
             Year 5  1610.51
     
-59.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+59.  **Due Date: 10 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that asks the user for their age, and continue asking until the number entered positive (that is, greater than 0). That is, write the [Python program](http://pythontutor.com/visualize.html#code=age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Awhile%20age%20%3C%200%3A%0A%20%20%20%20print%28'Entered%20a%20negative%20number.'%29%0A%20%20%20%20age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Aprint%28'You%20entered%20your%20age%20as%3A',%20age%29&cumulative=false&curInstr=0&heapPrimitives=false&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22-3%22,%223%22%5D&textReferences=false) from [Lab 10](lab10.html){:target="_blank"} in C++.
 
@@ -1042,7 +1035,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: Rewrite the [Python program](http://pythontutor.com/visualize.html#code=age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Awhile%20age%20%3C%200%3A%0A%20%20%20%20print%28'Entered%20a%20negative%20number.'%29%0A%20%20%20%20age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Aprint%28'You%20entered%20your%20age%20as%3A',%20age%29&cumulative=false&curInstr=0&heapPrimitives=false&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22-3%22,%223%22%5D&textReferences=false){:target="_blank"} from [Lab 10](lab10.html){:target="_blank"} in C++._
     
-60.  **Due Date: 11 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+60.  **Due Date: 10 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that asks the user for a whole number between -31 and 31 and prints out the number in "[two's complement](https://en.wikipedia.org/wiki/Two%27s_complement){:target="_blank"}" notation, using the following algorithm:
 
@@ -1073,7 +1066,13 @@ Here's [xkcd](http://xkcd.com){:target="_blank"} on the simplicity of Python:
 ![](http://imgs.xkcd.com/comics/python.png)  
 
 
-_(This file was last modified on 2 July 2018.)_
+_(This file was last modified on 2 July 2019.)_
+
+---
+  
+  
+<!---
+    
 
   
 --->
