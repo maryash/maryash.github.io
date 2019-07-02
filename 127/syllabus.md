@@ -36,9 +36,7 @@ a:active {
 }
 </style>
 ---  	
-  
 ## Syllabus
-
 ---  
   
 #### General Information
