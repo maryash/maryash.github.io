@@ -962,7 +962,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         See [Lab 4](lab_4.html){:target="_blank"} for designing Input-Process-Output programs and [Lab 12](lab_12.html){:target="_blank"} for getting started with C++.
 
-56.  **Due Date: 10 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+56.  **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** program that asks the user for a number and draws a triangle of that height and width using 'character graphics'.
 
@@ -983,7 +983,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             **
             *
     
-57.  **Due Date: 10 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+57.  **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that asks the user for the month of the year (as a number), and prints
 
@@ -1007,7 +1007,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Enter month (as a number):  11
             Happy Fall
     
-58.  **Due Date: 10 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+58.  **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that asks the user for the starting amount, and prints out the yearly balance of a savings account, assuming 10% interest, for the first five years.
 
@@ -1020,7 +1020,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Year 4  1464.10
             Year 5  1610.51
     
-59.  **Due Date: 10 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+59.  **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that asks the user for their age, and continue asking until the number entered positive (that is, greater than 0). That is, write the [Python program](http://pythontutor.com/visualize.html#code=age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Awhile%20age%20%3C%200%3A%0A%20%20%20%20print%28'Entered%20a%20negative%20number.'%29%0A%20%20%20%20age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Aprint%28'You%20entered%20your%20age%20as%3A',%20age%29&cumulative=false&curInstr=0&heapPrimitives=false&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22-3%22,%223%22%5D&textReferences=false) from [Lab 10](lab10.html){:target="_blank"} in C++.
 
@@ -1035,7 +1035,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: Rewrite the [Python program](http://pythontutor.com/visualize.html#code=age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Awhile%20age%20%3C%200%3A%0A%20%20%20%20print%28'Entered%20a%20negative%20number.'%29%0A%20%20%20%20age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Aprint%28'You%20entered%20your%20age%20as%3A',%20age%29&cumulative=false&curInstr=0&heapPrimitives=false&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22-3%22,%223%22%5D&textReferences=false){:target="_blank"} from [Lab 10](lab10.html){:target="_blank"} in C++._
     
-60.  **Due Date: 10 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+60.  **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that asks the user for a whole number between -31 and 31 and prints out the number in "[two's complement](https://en.wikipedia.org/wiki/Two%27s_complement){:target="_blank"}" notation, using the following algorithm:
 
