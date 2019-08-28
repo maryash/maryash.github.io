@@ -39,7 +39,6 @@ a:active {
 **[CSCI 135/136&nbsp; ANALYSIS & DESIGN 1 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2019_spring.html)**  
   
 CSCI 135 SOFTWARE ANALYSIS & DESIGN
-Sections 01, CSH1, X2-4 
 Monday, Wednesday, Thursday 12:10 – 1:00, Hunter North 118  
 
 COURSE DESCRIPTION  
@@ -60,11 +59,10 @@ TEXT
 Cay Horstmann, Brief C++, 3rd Edition eText. Purchase at the negotiated discounted price of $36.95 through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html) An eText / loose-leaf bundle is also available.  
 
 MAIN COURSE PAGE  
-[https://maryash.github.io/135/2019_spring.html](https://maryash.github.io/135/2019_spring.html)
 You should check this page regularly, since all class materials will be gradually posted here. 
 
 TUTORING  
-There are dedicated computer labs for this course (HUNTER NORTH 1001C, 1000E, and 1000B) staffed with tutors, who are there to help you. Please take advantage of them. You can ask for help with labs, projects, and general course material Monday through Friday from 10:30 AM to 6:30 PM.
+There are dedicated computer lab for this course: HUNTER NORTH 1001B. It is staffed with tutors, who are there to help you. Please take advantage of them. You can ask for help with labs, projects, and general course material Monday through Friday from 11:00 AM to 6:00 PM.
 
 QUESTIONS  
 Ask many in lecture! Outside of lecture go to the tutoring labs. The department hired additional tutors especially for students taking this course. Email the instructor of your recitation section with any programming questions that the tutors cannot answer. The beginning of each recitation is also devoted to answering questions. All emails to instructors must start with your full name, day and time of your recitation section, and name of your recitation instructor. 
