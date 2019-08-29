@@ -42,15 +42,17 @@ CSCI 135 SOFTWARE ANALYSIS & DESIGN
 Monday, Wednesday, Thursday 12:10 – 1:00, Hunter North 118  
 
 COURSE DESCRIPTION  
-This course is:  
-• An introduction to software development, using the C++ programming language. Software development is a skill that involves solving real-world problems by developing computer programs.  Breaking a problem down, then creating a series of logical steps (an algorithm) that solves the problem is the conceptual part of the course. The technical component involves translating the solution into a working computer program. A successful student will be able to clearly and logically develop an algorithmic solution to a problem, while being comfortable enough with C++ to transform the the algorithm into a working computer program.  
-• A preparation for further courses in computer science. This course is one of the “ABCs” of computer science. Students who expect to succeed in more advanced courses in computer science need to go beyond understanding the material presented in this course – they need to master it. It’s sort of like the fact that you need to master the alphabet in kindergarten in order to be a successful reader in first grade.
+This course is: 
+• An introduction to software development, using the C++ programming language. Software development is a skill that involves solving real-world problems by developing computer programs.  Breaking a problem down, then creating a series of logical steps (an algorithm) that solves the problem is the conceptual part of the course. The technical component involves translating the solution into a working computer program. A successful student will be able to clearly and logically develop an algorithmic solution to a problem, while being comfortable enough with C++ to transform the the algorithm into a working computer program . 
+• A preparation for further courses in computer science. This course is one of the “ABCs” of computer science. Students who expect to succeed in more advanced courses in computer science need to go beyond understanding the material presented in this course – they need to master it. It’s sort of like the fact that you need to master the alphabet in kindergarten in order to be a successful reader in first grade.  
 • Time consuming, very, very time consuming. Any programming course takes up a lot of a student’s time. In addition to the time spent in class, most students will need to spend between 10 and 15 hours a week at a computer. That makes for a total of 15-20 hours a week actually developing algorithms, and writing and debugging programs, no kidding!
+ 
+This course is not: 
+• An introduction to computers in general. We will not cover: operating systems, networks, databases, etc. This course teaches a specialized skill – developing solutions using computer programming – and only that. You should already possess basic computer skills such as compiling simple computer programs, editing files, manipulating files, etc. If you don’t feel comfortable with these sort of basic computer skills you should come talk to me.  
+• An overview of the C++ language. C++ is a huge language with a lot of highly technical details. We will cover the fundamentals of C++, but the focus is on designing algorithms and solving problems.  
+• A good idea to take if you are working full time and taking a full course load, or, for any other reason(s) you don’t have a lot of free time to devote to CSCI 13500. The course material requires many hours to master (see above). Be honest with yourself. Make sure this course is for you, now, at this point in your academic life. If you would like to discuss the time requirements further please feel free to come talk with me.  
 
-This course is not:  
-• An introduction to computers in general. We will not cover: operating systems, networks, databases, etc. This course teaches a specialized skill – developing solutions using computer programming – and only that. You should already possess basic computer skills such as compiling simple computer programs, editing files, manipulating files, etc. If you don’t feel comfortable with these sort of basic computer skills you should come talk to me.
-• An overview of the C++ language. C++ is a huge language with a lot of highly technical details. We will cover the fundamentals of C++, but the focus is on designing algorithms and solving problems.
-• A good idea to take if you are working full time and taking a full course load, or, for any other reason(s) you don’t have a lot of free time to devote to CSCI 13500. The course material requires many hours to master (see above). Be honest with yourself. Make sure this course is for you, now, at this point in your academic life. If you would like to discuss the time requirements further please feel free to come talk with me.
+Other than during lecture quizzes I ask that all cell phones be put away in class.
 
 PRE-REQUISITES  
 The prerequisite is CSCI 12700 or instructor’s permission. At the very least, you should have written, compiled, and run a program containing iteration `while`, `for` and selection `if` statements. 
@@ -73,8 +75,12 @@ You will submit all labs, homeworks, quizzes, and projects electronically throug
 BLACKBOARD  
 Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default), since you are responsible for any email I might send there.  
 
+https://okunhardt.github.io/documents/Installing_WSL.pdf
+
 SOFTWARE  
-This course it taught in Linux and your programs must be able to run on a Linux platform. On campus, you may use the 1001C and 1001B labs to do your work for this course. The standard Linux/Unix/Mac OS C++ compiler is g++. If you wish to use a home computer, there are several free Linux OSs which you can install for dual-booting with Windows, including http://www.ubuntu.com. If you want a Linux-style environment for Windows that doesn’t require installing Linux, http://cygwin.com is an alternative. If you will work at home on a Windows-based machine, please install either ubuntu or cygwin. We have had problems in the past with students programming in a native Windows environment at home, and their programs don’t work in the Linux labs and might be incompatible with Gradescope.
+This course it taught in Linux and your programs must be able to run on a Linux platform. On campus, you may use the 1001C and 1001B labs to do your work for this course. The standard Linux/Unix/Mac OS C++ compiler is g++. If you wish to use a home computer, you can use a Mac.  Macs have Unix command line and g++.  You can install [Ubuntu Linux](http://www.ubuntu.com). If you want a Linux environment on Windows without installing Linux, follow this excellent tutorial: [okunhardt.github.io/documents/Installing_WSL.pdf
+](https://okunhardt.github.io/documents/Installing_WSL.pdf
+). We have had problems in the past with students programming in a native Windows environment at home, and their programs don’t work in the Linux labs and might be incompatible with Gradescope.
 
 GRADING  
 5% mid-lecture quizzes, 6% homeworks, 5% programming project one, 8% each projects two and three (this may not seem like a lot, but beware that many exam questions will be based directly on these programs), 17% each of two midterm exams, and 34% final exam.  If you do better on the final exam, your final exam grade may also replace your quiz and homework grades, as well as the lowest of the three project scores.  However, if you do not pass the final exam, you cannot pass the course.  
