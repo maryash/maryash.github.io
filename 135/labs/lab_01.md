@@ -89,15 +89,13 @@ executable file will be called `a.out`, which you can execute the same way:
 
 ### How to compile and run programs on your own computer?
 
-Here are the **[instructions for Linux, Mac OS, and Windows](https://a-nikolaev.github.io/cs136/setup/)** users.
 There are three components you should make sure you have installed:
-
   * `g++` compiler, 
   * a functioning terminal application, and 
   * a good plain text editor (Gedit, Emacs, Vim, or Sublime Text) to write programs. 
 
-If you have it setup, this is all you need for most of the course.
-
+If your computer OS is Linux or Mac OS, you already have everything!  If it is Windows, please follow this excellent tutorial: [Linux on Windows Tutorial](https://okunhardt.github.io/documents/Installing_WSL.pdf) . 
+OSX. You already have everything. It may come with g++ pre-installed. If you have it setup, this is all you need for most of the course.  
 
 ## How to submit your programs.
 
