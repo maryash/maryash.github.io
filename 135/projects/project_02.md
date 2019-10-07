@@ -300,11 +300,17 @@ void splitOnSpace(string s, string & before, string & after) {
   after = "";
   // accumulate before space
   int i = 0;
-  while (i < s.size() && not isspace(s[i])) { before += s[i]; i++; }
+  while (i < s.size() && not isspace(s[i])) { 
+    before = before + s[i]; 
+    i++; 
+  }
   // skip the space
   i++;
   // accumulate after space
-  while (i < s.size()) { after += s[i]; i++; }
+  while (i < s.size()) { 
+    after = after + s[i]; 
+    i++; 
+  }
 }
 ```
 The two arguments passed by reference, `before` and `after`, will contain the two resulting halves of the string: before and after the space.
