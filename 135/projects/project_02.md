@@ -296,21 +296,21 @@ splits it **into two strings on the very first space** it finds within the strin
 ```c++
 void splitOnSpace(string s, string & before, string & after) {
   // reset strings
-  before = ""; 
-  after = "";
+    before = ""; 
+    after = "";
   // accumulate before space
-  int i = 0;
-  while (i < s.size() && not isspace(s[i])) { 
-    before = before + s[i]; 
-    i++; 
-  }
+    int i = 0;
+    while (i < s.size() && not isspace(s[i])) { 
+        before = before + s[i]; 
+        i++; 
+    }
   // skip the space
-  i++;
-  // accumulate after space
-  while (i < s.size()) { 
-    after = after + s[i]; 
-    i++; 
-  }
+    i++;
+    // accumulate after space
+    while (i < s.size()) { 
+        after = after + s[i]; 
+        i++; 
+    }
 }
 ```
 The two arguments passed by reference, `before` and `after`, will contain the two resulting halves of the string: before and after the space.
