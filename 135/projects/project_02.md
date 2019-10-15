@@ -28,7 +28,7 @@ Remove phoneme   : DON'T
 ```
 
 We are going to use [The CMU Pronouncing Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict) as our reference.
-It is available as a simply formatted plain text file, a direct link to it is: [cmudict.0.7a](http://svn.code.sf.net/p/cmusphinx/code/trunk/cmudict/cmudict.0.7a)
+It is available as a simply formatted plain text file, a direct link to it is: [cmudict.0.7a](http://svn.code.sf.net/p/cmusphinx/code/trunk/cmudict/cmudict.0.7a) or the local copy here: [cmudict.0.7a](cmudict.0.7a)
 
 An excerpt from it is shown below:
 
