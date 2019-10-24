@@ -130,14 +130,14 @@ as its displacement per second in the coordinates x, y, and z:
 Coord3D vel = {5, -3, 1}; // x, y, z components of the velocity
 ```
 
-When moving at constant velocity $$v$$, the object's new position after the elapsed time $$dt$$ can be computed as
+When moving at constant velocity $$v$$, the object's new position after the elapsed time `dt` can be computed as 
+```
+x' = x + vel.x * dt;
 
-$$ x^{\prime} = x + v_x \cdot dt, $$
+y' = y + vel.x * dt;
 
-$$ y^{\prime} = y + v_y \cdot dt, $$
-
-$$ z^{\prime} = z + v_z \cdot dt.  $$
-
+z' = z + vel.x * dt;
+```
 Let's implement it. In the same program, write a function
 
 ```c++
