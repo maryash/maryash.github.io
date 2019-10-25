@@ -384,7 +384,6 @@ Replace phoneme  : ABOARD ADORED AFFORD AWARD SCORED
 ## Phase IV
 
 In addition to the functionality of phases I, II and III, print a list of words that can be obtained by **adding** just one phoneme &mdash; words made up of exactly the same sequence of phonemes with just one additional one &mdash; anywhere in the original sequence of phonemes.  Example:
-
 ```
   
 > DRAFT
@@ -396,11 +395,26 @@ Replace phoneme  : CRAFT DRIFT GRAFT KRAFFT KRAFT
 Add phoneme      : DRAFT'S DRAFTEE DRAFTER DRAFTS DRAFTY DRAUGHTS
 
 ```
-Also, start reviewing all of your code and making necessary changes in order to meaningfully organize it into functions. "Check Identical", "Check Replace Phoneme", and "Check Add Phoneme" should ideally be independent functions, called on each dictionary entry, as the dictionary is traversed after the original pronounciation has been determined.     
+Also, start reviewing all of your code and making necessary changes in order to meaningfully organize it into functions. "Check Identical", "Check Replace Phoneme", and "Check Add Phoneme" should ideally be independent functions, called on each dictionary entry, as the dictionary is traversed after the original pronounciation has been determined.       
   
 ## Phase V
-## . . .   
-  
+
+In addition to the functionality of phases I, II, III and IV, print a list of words that can be obtained by **removing** just one phoneme &mdash; words made up of exactly the same sequence of phonemes with just one missing &mdash; anywhere in the original sequence of phonemes.  Example:
+
+```
+
+> colonel's
+
+Pronunciation    : K ER1 N AH0 L Z
+
+Identical        : COLONELS KERNELS
+Replace phoneme  : CANALES JOURNAL'S JOURNALS KENNELS
+Add phoneme      : 
+Remove phoneme   : COLONEL KERNEL
+
+```
+Please make sure that your code is now meaningfully organize into functions. "Check Identical", "Check Replace Phoneme", "Check Add Phoneme" and "Check Remove Phoneme" should be independent functions, called on each dictionary entry, as the dictionary is traversed after the original pronounciation has been determined.     
+
 ## How to submit your programs
 
 ### Everything should be submitted through Gradescope.
