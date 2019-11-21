@@ -53,7 +53,7 @@ the same operations are carried with higher accuracy and take `80` units of time
 
 ## Day 2. Building and running mission control software
 
-To run Mission Control software on your computer, copy the supplied file `mcc.zip` and extract it:
+To run Mission Control software on your computer, copy the supplied file [`mcc.zip`](./mcc.zip){:target="_blank"} and extract it:
 ```
 unzip mcc.zip
 ```
