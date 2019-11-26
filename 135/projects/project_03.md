@@ -1,5 +1,7 @@
-
-<title>CSCI 135 - Project 3</title>
+---  
+layout: myDefault  
+title: Project 3  
+---      
 
 # Project 3. Space debris collection 
 
