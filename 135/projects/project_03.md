@@ -73,11 +73,17 @@ After building the software, you get an executable file `mission`. To run it wit
 ```
 There are three sections in the program window: the map, the information panel, and the game log.   
 By pressing the keys `[Q]`, `[P]`, `[S]`, and `[F]` on the keyboard, you can **quit**, **play**, **pause**, **step**, 
-or **fast-forward**. See the recording below:
+or **fast-forward**. 
+
+  
+
+<!---  
+See the recording below:
 <div align="center">
 <script src="https://asciinema.org/a/lQG03ix32oJ1Z0pcyPQ0vqGgy.js" id="asciicast-lQG03ix32oJ1Z0pcyPQ0vqGgy"
         data-theme="tango" data-cols="74" data-rows="37" data-loop="1"  async></script>
-</div>
+</div>  
+--->  
 
 The program can be also run with advanced options varying the map size, the number of robots,
 the amount of debris, the probability of robots crashing, and the random seed:
