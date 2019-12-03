@@ -288,7 +288,7 @@ Robots' performance is measured as their **debris collection rate**, the amount 
 For convenience, we adjusted this value **to the range from 0 to 1000**. You will get maximum score if you get 1000 collection rate, and 
 the result above 1000 would be your extra bonus.
 
-To **measure the debris collection rate** of your robots, you are provided with a testing script `test.rb`. It is a Ruby script that can be run as follows:
+To **measure the debris collection rate** of your robots, you are provided with a testing script [`test.rb`](./test.rb){:target="_blank"}. It is a Ruby script that can be run as follows:
 ```
 ./test.rb ./mission
 ```
