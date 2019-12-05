@@ -58,7 +58,7 @@ To make this easier to understand, think of the vector as a container, say a bot
 A big benefit of vectors is their ability to be returned from functions. For this task, program a function called `vector<int> makeVector(int n)` that returns a vector of n integers that range from 0 to n-1. Call your program `vectors.cpp`. Your function *must* be implemented outside the main function and must return a vector.
  
 ## Task B: A Happy Filter
-Make a program called `optimism.cpp` that implements the function `vector<int>  goodVibes(vector<int> v);` that, given a vector of integers, returns a vector with only the positive integers in the same order. 
+Make a program called `optimism.cpp` that implements the function `vector<int>  goodVibes(const & vector<int> v);` that, given a vector of integers, returns a vector with only the positive integers in the same order. 
 ```
 vector<int> v{1,2,-1,3,4,-1,6};
 
@@ -75,7 +75,7 @@ gogeta(v1, v2); // v1 is now [1,2,3,4,5] and v2 is empty.
 ```
 
 ## Task D: Pairwise sum
-Write a program called `pairwise.cpp` that implements the function `vector<int> sumPairWise(vector<int> &v1, vector<int> &v2)` that returns a vector of integers whose elements are the pairwise sum of the elements from the two vectors passed as arguments. If a vector has a smaller size that the other, consider extra entries from the shorter vectors as 0.
+Write a program called `pairwise.cpp` that implements the function `vector<int> sumPairWise(const vector<int> &v1, const vector<int> &v2)` that returns a vector of integers whose elements are the pairwise sum of the elements from the two vectors passed as arguments. If a vector has a smaller size than the other, consider extra entries from the shorter vectors as 0.
 Example:
 ```
 vector<int> v1{1,2,3};
@@ -83,3 +83,6 @@ vector<int> v2{4,5};
 
 sumPairWise(v1, v2); // returns [5, 7, 3]
 ``` 
+  
+---
+  
