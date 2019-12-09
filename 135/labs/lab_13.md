@@ -219,7 +219,7 @@ The idea is to take the first letter, reverse the rest of the string, and add th
 (Think about what should be the base case for this function?)
 -->
 
-## Task E. Nested parentheses
+## Task E (Bonus). Nested parentheses
 
 Add a new function
 
