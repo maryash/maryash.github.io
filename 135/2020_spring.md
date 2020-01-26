@@ -141,7 +141,7 @@ Please note that this exam does follows the material covevered this semester les
  [Mock Final Exam](old_exams/2019 Spring Mock Final.pdf){:target="_blank"}   
  [Fixed Typos: Mock Final Exam Answers](old_exams/2019 Spring Mock Final Answers.pdf){:target="_blank"}   
  
-**NO LECTURE** | because of Convocation in HN118
+**NO LECTURE** | because of National Chorale High School Choral Festival in HN118
 --->  
   
 ---
