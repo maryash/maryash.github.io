@@ -36,7 +36,7 @@ a:active {
     color: #00007F;
 }
 </style>
-**[CSCI 135/136&nbsp; ANALYSIS & DESIGN 1 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2019_spring.html)**  
+**[CSCI 135/136&nbsp; ANALYSIS & DESIGN 1 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2020_spring.html)**  
   
 CSCI 135 SOFTWARE ANALYSIS & DESIGN
 Monday, Wednesday, Thursday 12:10 – 1:00, Hunter North 118  
@@ -83,7 +83,7 @@ This course it taught in Linux and your programs must be able to run on a Linux 
 ). We have had problems in the past with students programming in a native Windows environment at home, and their programs don’t work in the Linux labs and might be incompatible with Gradescope.
 
 GRADING  
-5% mid-lecture quizzes, 6% homeworks, 5% programming project one, 8% each projects two and three (this may not seem like a lot, but beware that many exam questions will be based directly on these programs), 17% each of two midterm exams, and 34% final exam.  If you do better on the final exam, your final exam grade may also replace your quiz and homework grades, as well as the lowest of the three project scores.  However, if you do not pass the final exam, you cannot pass the course.  
+5% mid-lecture quizzes, 6% homeworks, 7% for each of the three projects (this may not seem like a lot, but beware that many exam questions will be based directly on homeworks and projects), 17% each of two midterm exams, and 34% final exam.  If you do better on the final exam, your final exam grade may also replace your quiz and homework grades, as well as the lowest of the three project scores.  However, if you do not pass the final exam, you cannot pass the course.  
 
 LATE AND MAKE UP POLICY  
 Ample time will be given to complete labs and projects.  However, because of the logistics of running a large lecture course, there will be no late project or lab submissions. 
