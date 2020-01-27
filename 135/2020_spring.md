@@ -31,7 +31,7 @@ The tutors are there to help you with all of your labs, assignments, and project
  136.03 | Mo 5:35 – 7:25 PM | *Minh Nguyen* | minh.nguyen@hunter.cuny.edu 
  136.05 | We 8:10 - 10:00AM | *Subhadarshi Panda* | spanda@gradcenter.cuny.edu 
  136.06 | We 10:10 - 12:00N | *Subhadarshi Panda* | spanda@gradcenter.cuny.edu 
- 136.07 | We 3:10 – 5:00 PM | *Shadman Quazi* | sq18@hunter.cuny.edu 
+ 136.07 | We 3:10 – 5:00 PM | *Shadman Quazi* | Shadman.Quazi62@myhunter.cuny.edu 
  136.08 | We 5:35 – 7:25 PM | *Jaspal Singh* | Jaspal.Singh62@myhunter.cuny.edu  
  136.09 | Th 1:10 – 3:00 PM | *Melissa Lynch* | lynch.melissat@gmail.com 
  136.10 | Th 3:10 – 5:00 PM | *Melissa Lynch* | lynch.melissat@gmail.com 
