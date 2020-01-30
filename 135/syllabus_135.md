@@ -58,7 +58,7 @@ PRE-REQUISITES
 The prerequisite is CSCI 12700 or instructor’s permission. At the very least, you should have written, compiled, and run a program containing iteration `while`, `for` and selection `if` statements. 
 
 TEXT  
-Cay Horstmann, Brief C++, 3rd Edition eText. Purchase at the negotiated discounted price of $36.95 through this direct-to-student page:  [https://www.wiley.com/WileyCDA/Section/id-830954.html](https://www.wiley.com/WileyCDA/Section/id-830954.html) An eText / loose-leaf bundle is also available.  
+Please see the [main course page](2020_spring.html) for instructions.  
 
 MAIN COURSE PAGE  
 You should check this page regularly, since all class materials will be gradually posted here. 
