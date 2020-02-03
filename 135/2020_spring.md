@@ -11,7 +11,7 @@ In these two courses, both of which are required to graduate with a computer sci
  
 **Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.wiley.com/en-us/Brief+C%2B%2B%3A+Late+Objects%2C+3rd+Edition-p-9781119400424){:target="_blank"} – please rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material!  
 
-**Linux on Windows Tutorial:** &npsp; [https://okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf)  
+**Linux on Windows Tutorial:** &nbsp; [https://okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf)  
     
 **Tutoring:** The tutors for this course are available in lab **HN1001 B** Monday Through Friday 11:00 AM – 6:00 PM.  
 
