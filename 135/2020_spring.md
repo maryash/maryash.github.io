@@ -58,6 +58,8 @@ The tutors are there to help you with all of your labs, assignments, and project
  3/5 |  |  |  | *[Project&nbsp;2A](//projects/project_02.html){:target="_blank"}&nbsp;&nbsp;&nbsp;_/_* 
  |  |  |  | 
  
+ [ChetSheet like the one that will be given to you on the exam](slides/CheatSheet.pdf){:target="_blank"} 
+ 
  [2019 Fall Midterm 1](old_exams/2019 Fall Midterm 1.pdf){:target="_blank"}     
 
 
