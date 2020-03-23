@@ -13,12 +13,12 @@ In these two courses, both of which are required to graduate with a computer sci
 
 **Linux on Windows Tutorial:** &nbsp; [https://okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf)  
     
-**Tutoring:** The tutors for this course are available in the Open Lab Session on BlackBoard Collaborate of CSCI 135.  This session runs all week: 
-
-Mondays: 11:00 AM -- 7:00 PM 
-Wednesdays: 8:00 AM -- 7:00 PM 
-Tuesdays, Thursdays, and Fridays: 11:00 AM -- 6:00 PM 
-
+**Tutoring:** The tutors for this course are available in the Open Lab Session on BlackBoard Collaborate of CSCI 135.  This session runs all week:  
+  
+Mondays: 11:00 AM -- 7:00 PM  
+Wednesdays: 8:00 AM -- 7:00 PM  
+Tuesdays, Thursdays, and Fridays: 11:00 AM -- 6:00 PM  
+  
 The tutors are there to help you with all of your labs, assignments, and projects!  Get as much help as you need.  
   
 **Lecture: Monday, Wednesday, Thursday 12:10 – 1:00 PM on BlackBoard Collaborate**  
