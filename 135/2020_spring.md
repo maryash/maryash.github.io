@@ -23,7 +23,7 @@ The tutors are there to help you with all of your labs, assignments, and project
   
 **Lecture: Monday, Wednesday, Thursday 12:10 – 1:00 PM on BlackBoard Collaborate**  
 
-**Lecture Instructor**: Genady Maryash &nbsp; HN1047 &nbsp; Office hours: Wednesdays 1:00 – 3:00 PM, &nbsp; gmaryash@hunter.cuny.edu   
+**Lecture Instructor**: Genady Maryash &nbsp; HN1047 &nbsp; Office hours: Wednesdays 1:00 – 3:00 PM on BlackBoard Collaborate, &nbsp; gmaryash@hunter.cuny.edu   
   
 **Email Questions** You must get hands-on programing help in person during your lab or from tutors in lab B. We will never debug your code over email. You should ask questions during the lab and the lecture.  All other email questions must be sent to your lab instructor listed below. You must always include your section, name of lab instructor, your name and EMPLID.   
 
