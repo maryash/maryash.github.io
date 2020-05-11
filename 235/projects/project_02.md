@@ -1,5 +1,6 @@
 <h1 style="text-align: center;">Project 2: Dynamically Resizable Array</h1>
 <h2 style="text-align: center;">Due TBD</h2>
+  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your objective for this project is to implement a dynamically resizable array data structure in order to effectively store objects of the classes that you created in the previous project. As you did in Project 1, you will use separate compilation with g++ to link multiple classes into one executable. In order to successfully complete this project, you **must** understand the prerequisite material from Project 1 and you **must** understand the concept of an abstract data type, how template classes work, the steps of the quicksort algorithm, dynamic memory allocation, recursion, friend functions, and operator overloads. If you are not absolutely comfortable with all of this, please seek help immediately (contact me or our UTA, Nigel).
 
