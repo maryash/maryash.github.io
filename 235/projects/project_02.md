@@ -133,7 +133,8 @@ void sortAlphabetically(DynamicArray<T> an_array)
 which is a wrapper for the next function (and thus the code body of sortAlphabetically should only contain the call to the next function).  
   
 ### ii)
-```template<class T>
+```
+template<class T>
 void quicksort(DynamicArray<T> &an_array, int left_index, int right_index)
 ```
 which is meant to operate over a dynamic array of Produce, Fruit, or Vegetable objects (from Project 1) - within this function implement quicksort to sort the dynamic array by the names of each item (use the getName function from the Produce class) - you can use the last element of every subarray as the pivot.  
@@ -158,15 +159,15 @@ You must always implement and test you programs **INCREMENTALLY!!!**
 Write your own main() function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally (i.e. implement mutator functions before accessor functions). Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible. 
   
 ### Grading Rubric
- • **Correctness 80%** (distributed across unit testing of your submission)
+**Correctness 80%** (distributed across unit testing of your submission)
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-A submission that implements all required classes and/or functions but does not compile will receive 40 points total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(including documentation and design). 
- • **Documentation 10%**
- • **Style and Design 10%** (proper naming, modularity, and organization)  
+**Documentation 10%**
+**Style and Design 10%** (proper naming, modularity, and organization)  
   
 ### Submission: 
 You will submit **the following files**:
-• `DynamicArray.cpp`
-• `Solution.cpp` 
+`DynamicArray.cpp`
+`Solution.cpp` 
   
 ## Your project must be submitted on Gradescope.
 Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging and it should not be used for that. You MUST test and debug your program locally. Before submitting to Gradescope you MUST ensure that your program compiles (with g++) and runs correctly on the Linux machines in the labs at Hunter (see detailed instructions on how to upload, compile and run your files in the “Programming Rules” document). That is your baseline, if it runs correctly there it will run correctly on Gradescope, and if it does not, you will have the necessary feedback (compiler error messages, debugger or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above you submit it to Gradescope.  
