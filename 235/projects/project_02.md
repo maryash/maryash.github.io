@@ -3,25 +3,24 @@ layout: myDefault
 title: PROJECT 2  
 ---  
 
-# Project 2: @nbsp; Dynamically Resizable Array  
+# Project 2: &nbsp; Dynamically Resizable Array  
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your objective for this project is to implement a dynamically resizable array data structure in order to effectively store objects of the classes that you created in the previous project. As you did in Project 1, you will use separate compilation with g++ to link multiple classes into one executable. In order to successfully complete this project, you **must** understand the prerequisite material from Project 1 and you **must** understand the concept of an abstract data type, how template classes work, the steps of the quicksort algorithm, dynamic memory allocation, recursion, friend functions, and operator overloads. If you are not absolutely comfortable with all of this, please seek help immediately (contact me or our UTA, Nigel).
 
 Here are some additional resources:
 
 ## Concept of an Abstract Data Type: 
+[Geeks for Geeks Reference](https://www.geeksforgeeks.org/abstract-data-types)  
+[MIT Reference](http://web.mit.edu/6.005/www/fa14/classes/08-abstract-data-types/)  
 
->[Geeks for Geeks Reference](https://www.geeksforgeeks.org/abstract-data-types)
-[MIT Reference](http://web.mit.edu/6.005/www/fa14/classes/08-abstract-data-types/)
-
--**Template Classes**:
+## Template Classes:  
 	
->[C++ Documentation Reference](http://www.cplusplus.com/doc/oldtutorial/templates/)
-[Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm)
-Note: Recall that because the type of a class or function template is determined at compile time given the context of its use, you **cannot** compile the template class’s .cpp file. The .cpp file contains a **general** version of that class or function, which has no meaning in the absence of a context.
-
+[C++ Documentation Reference](http://www.cplusplus.com/doc/oldtutorial/templates/)  
+[Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm)  
+Note: Recall that because the type of a class or function template is determined at compile time given the context of its use, you **cannot** compile the template class’s .cpp file. The .cpp file contains a **general** version of that class or function, which has no meaning in the absence of a context.  
+  
 -**The Quicksort Algorithm**:
-
+  
 >[Abdul Bari Video](https://www.youtube.com/watch?v=7h1s2SojIRw)
 [Khan Academy Reference](https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort)
 
