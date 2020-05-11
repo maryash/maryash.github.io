@@ -19,9 +19,9 @@ Here are some additional resources:
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm)  
 Note: Recall that because the type of a class or function template is determined at compile time given the context of its use, you **cannot** compile the template class’s .cpp file. The .cpp file contains a **general** version of that class or function, which has no meaning in the absence of a context.  
   
--**The Quicksort Algorithm**:
+## The Quicksort Algorithm**:
   
->[Abdul Bari Video](https://www.youtube.com/watch?v=7h1s2SojIRw)
+[Abdul Bari Video](https://www.youtube.com/watch?v=7h1s2SojIRw)
 [Khan Academy Reference](https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort)
 
 -**Dynamic Memory Allocation**:
@@ -50,45 +50,39 @@ Note: Recall that because the type of a class or function template is determined
 
 ####**Definition:**
 
-Let a dynamically resizable array be an array whose maximum capacity increases by a factor of 2 in the event that an insertion is attempted when it is already at maximum capacity and whose maximum capacity decreases by a factor of 2 then the number of elements within it drops below half of its maximum capacity. 
+Let a dynamically resizable array be an array whose maximum capacity increases by a factor of 2 in the event that an insertion is attempted when it is already at maximum capacity and whose maximum capacity decreases by a factor of 2 then the number of elements within it drops below half of its maximum capacity.  For axample: 
+```
+arr1 <- {1, 2, 3, 4}		 //(capacity == 4)
+arr1.add(5)
+arr1 == {1, 2, 3, 4, 5, _, _, _} //(capacity == 8)
 
-*Examples:*
-
-	arr1 <- {1, 2, 3, 4}					(capacity == 4)
-	arr1.add(5)
-	arr1 == {1, 2, 3, 4, 5, _, _, _}			(capacity == 8)
-
-</p></p>
-
-	arr2 <- {1, 2, 3, 4}					(capacity == 4)
-	arr2.remove(4)
-	arr2 <- {1, 2, 3, _}					(capacity == 4)
-	arr2.remove(3)
-	arr2 == {1, 2}						(capacity == 2)
-
-<h3 style="text-align: center;">Task 1:</h3>
+arr2 <- {1, 2, 3, 4}		 //(capacity == 4)
+arr2.remove(4)
+arr2 <- {1, 2, 3, _}		 //(capacity == 4)
+arr2.remove(3)
+arr2 == {1, 2}			 //(capacity == 2)
+```
+## Task 1:  
 
 Modify the DynamicArray.cpp file to implement the following methods (I highly suggest that you complete them in the presented order) The prototypes have already been written for you.
 
-i) 
-
-    template <class T>
-    void DynamicArray<T>::resize()
-
-which carries out the aforementioned dynamic sizing behavior
-
-hint: You must dynamically allocate a new array of the appropriate altered size and then you must copy all elements from the initial array into this new one. Finally, you must update and reassign the private members of the caller. 
+##i) 
+```
+template <class T>
+void DynamicArray<T>::resize()
+```
+which carries out the aforementioned dynamic sizing behavior  
+Hint: You must dynamically allocate a new array of the appropriate altered size and then you must copy all elements from the initial array into this new one. Finally, you must update and reassign the private members of the caller.  
 
 ii)
-
-    template <class T>
-    bool DynamicArray<T>::add(const T &new_entry)
+```
+template <class T>
+bool DynamicArray<T>::add(const T &new_entry)
 
 which inserts an item into the last position of the caller - it **must** call resize and take into account the possibility that the pointer that represents the caller array could be == nullptr
-
+```
 iii)
-
-	template <class T>
+template <class T>
 	bool DynamicArray<T>::remove(const T &an_item)
 
 which removes the first instance of an item from the caller - it **must** check whether the element to be removed is within the array and it **must** call resize
@@ -148,17 +142,14 @@ ii)
 
 which is meant to operate over a dynamic array of Produce, Fruit, or Vegetable objects (from Project 1) - within this function implement quicksort to sort the dynamic array by the names of each item (use the getName function from the Produce class) - you can use the last element of every subarray as the pivot
 
-hint: lexicographical ordering, which in this context is alphabetical ordering, follows a pattern where each successive letter is greater than the previous. 
-	
-*Example:*
-
-		a < b < c < d < e < … < z
+hint: lexicographical ordering, which in this context is alphabetical ordering, follows a pattern where each successive letter is greater than the previous. For example:  
+`a < b < c < d < e < … < z`  
 Thus, for this portion of the project you are truly only sorting based on the <= comparison operator between the string names of each object within the dynamic array. 
 
 
 ###**Testing**
 How to compile: 
-<p>g++ Vegetable.cpp Produce.cpp Fruit.cpp &ltmain file&gt -std=c++17 <p>
+`g++ Vegetable.cpp Produce.cpp Fruit.cpp &ltmain file&gt -std=c++17`  
 
 
 
