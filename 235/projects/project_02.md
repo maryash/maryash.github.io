@@ -29,18 +29,18 @@ Note: Recall that because the type of a class or function template is determined
 [C++ Documentation Reference](http://www.cplusplus.com/articles/D2N36Up4/)  
 [Programiz Reference](https://www.programiz.com/cpp-programming/recursion)  
   
-## Friend Functions:
+### Friend Functions:
 [SoftwareTestingHelp Reference](https://www.softwaretestinghelp.com/friend-functions-in-cpp/)  
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_friend_functions.htm)  
   
-## Operator Overloads:
+### Operator Overloads:
 [C++ Documentation Reference](https://en.cppreference.com/w/cpp/language/operators)  
 [Caltech Reference](http://users.cms.caltech.edu/~donnie/cs11/cpp/cpp-ops.html)  
   
-## Implementation:
+### Implementation:
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class. 
 
-## Definition:
+### Definition:
 Let a dynamically resizable array be an array whose maximum capacity increases by a factor of 2 in the event that an insertion is attempted when it is already at maximum capacity and whose maximum capacity decreases by a factor of 2 then the number of elements within it drops below half of its maximum capacity.  For axample: 
 ```
 arr1 <- {1, 2, 3, 4}		 //(capacity == 4)
@@ -54,14 +54,14 @@ arr2.remove(3)
 arr2 == {1, 2}			 //(capacity == 2)
 ```
 ## Task 1:  
-Modify the DynamicArray.cpp file to implement the following methods (I highly suggest that you complete them in the presented order) The prototypes have already been written for you.
+Modify the `DynamicArray.cpp` file to implement the following methods. I highly suggest that you complete them in the presented order. The prototypes have already been written for you.
 
 ### i
 ```
 template <class T>
 void DynamicArray<T>::resize()
 ```
-which carries out the aforementioned dynamic sizing behavior  
+which carries out the aforementioned dynamic sizing behavior.  
 Hint: You must dynamically allocate a new array of the appropriate altered size and then you must copy all elements from the initial array into this new one. Finally, you must update and reassign the private members of the caller.  
   
 ### ii
@@ -159,8 +159,7 @@ A submission that implements all required classes and/or functions but does not 
 ### Submission:
 You will submit **the following files**:  
 `DynamicArray.cpp`  
-`Solution.cpp`  
-  
+`Solution.cpp`
 ## Your project must be submitted on Gradescope.
 Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging and it should not be used for that. You MUST test and debug your program locally. Before submitting to Gradescope you MUST ensure that your program compiles (with g++) and runs correctly on the Linux machines in the labs at Hunter (see detailed instructions on how to upload, compile and run your files in the “Programming Rules” document). That is your baseline, if it runs correctly there it will run correctly on Gradescope, and if it does not, you will have the necessary feedback (compiler error messages, debugger or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above you submit it to Gradescope.  
   
