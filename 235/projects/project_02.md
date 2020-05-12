@@ -127,7 +127,7 @@ which is a wrapper for the next function (and thus the code body of sortAlphabet
 template<class T>
 void quicksort(DynamicArray<T> &an_array, int left_index, int right_index)
 ```
-which is meant to operate over a dynamic array of Produce, Fruit, or Vegetable objects from Project 1. Within this function implement quicksort to sort the dynamic array by the names of each item. Use the `getName()` function from the `Produce` class. You can use the last element of every subarray as the pivot.  
+which is meant to operate over a dynamic array of Produce, Fruit, or Vegetable objects from Project&nbsp;1. Within this function implement quicksort to sort the dynamic array by the names of each item. Use the `getName()` function from the `Produce` class. You can use the last element of every subarray as the pivot.  
 Hint: lexicographical ordering, which in this context is alphabetical ordering, follows a pattern where each successive letter is greater than the previous. For example:  
 ```
 a < b < c < d < e < … < z
@@ -148,11 +148,11 @@ You must always implement and test you programs **INCREMENTALLY!!!**
 2. Implement the next function/method and test in the same fashion.  
   
 ### How do you do this?
-Write your own main() function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally (i.e. implement mutator functions before accessor functions). Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible. 
+Write your own main() function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally: i.e. implement mutator functions before accessor functions. Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible. 
   
 ### Grading Rubric
-**Correctness 80%** (distributed across unit testing of your submission)
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-A submission that implements all required classes and/or functions but does not compile will receive 40 points total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(including documentation and design).  
+**Correctness 80%** (distributed across unit testing of your submission)  
+A submission that implements all required classes and/or functions but does not compile will receive 40 points total (including documentation and design).  
 **Documentation 10%**  
 **Style and Design 10%** (proper naming, modularity, and organization)  
   
