@@ -1,4 +1,9 @@
-Project 1: Inheritance
+---  
+layout: myDefault  
+title: PROJECT 2  
+---  
+
+# Project 1: Inheritance
 Due TBD
 Your objective for this project is to implement an OOP architecture for cataloging produce using inheritance. You will use separate compilation with g++ to link multiple classes into one executable. In order to
 successfully complete this project, you must understand multi-file compilation, #includes, basic inheritance,
