@@ -8,11 +8,11 @@ Your objective for this project is to implement a dynamically resizable array da
 
 ### Some additional resources:
 
-### Concept of an Abstract Data Type:
+### Abstract Data Types:
 [Geeks for Geeks Reference](https://www.geeksforgeeks.org/abstract-data-types)  
 [MIT Reference](http://web.mit.edu/6.005/www/fa14/classes/08-abstract-data-types/)
 
-#### Template Classes:
+### Template Classes:
 [C++ Documentation Reference](http://www.cplusplus.com/doc/oldtutorial/templates/)  
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm)  
 Note: Recall that because the type of a class or function template is determined at compile time given the context of its use, you **cannot** compile the template class’s .cpp file. The .cpp file contains a **general** version of that class or function, which has no meaning in the absence of a context.
@@ -21,19 +21,19 @@ Note: Recall that because the type of a class or function template is determined
 [Abdul Bari Video](https://www.youtube.com/watch?v=7h1s2SojIRw)  
 [Khan Academy Reference](https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort)
 
-#### Dynamic Memory Allocation:
+### Dynamic Memory Allocation:
 [C++ Documentation Reference](http://www.cplusplus.com/doc/tutorial/dynamic/)  
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_dynamic_memory.htm)
 
-#### Recursion:
+### Recursion:
 [C++ Documentation Reference](http://www.cplusplus.com/articles/D2N36Up4/)  
 [Programiz Reference](https://www.programiz.com/cpp-programming/recursion)
 
-#### Friend Functions:
+### Friend Functions:
 [SoftwareTestingHelp Reference](https://www.softwaretestinghelp.com/friend-functions-in-cpp/)  
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_friend_functions.htm)
 
-#### Operator Overloads:
+### Operator Overloads:
 [C++ Documentation Reference](https://en.cppreference.com/w/cpp/language/operators)  
 [Caltech Reference](http://users.cms.caltech.edu/~donnie/cs11/cpp/cpp-ops.html)
 
@@ -62,23 +62,23 @@ template <class T>
 void DynamicArray<T>::resize()
 ```
 which carries out the aforementioned dynamic sizing behavior.  
-Hint: You must dynamically allocate a new array of the appropriate altered size and then you must copy all elements from the initial array into this new one. Finally, you must update and reassign the private members of the caller.  
-  
+Hint: You must dynamically allocate a new array of the appropriate altered size and then you must copy all elements from the initial array into this new one. Finally, you must update and reassign the private members of the caller.
+
 ### ii
 ```
 template <class T>
 bool DynamicArray<T>::add(const T &new_entry)
 ```
-which inserts an item into the last position of the caller -- it **must** call resize and take into account the possibility that the pointer that represents the caller array could be equal to `nullptr`.  
-  
+which inserts an item into the last position of the caller -- it **must** call resize and take into account the possibility that the pointer that represents the caller array could be equal to `nullptr`.
+
 ### iii
 ```
 template <class T>  
 bool DynamicArray<T>::remove(const T &an_item)  
 ```
 which removes the first instance of an item from the caller - it **must** check whether the element to be removed is within the array and it **must** call resize.  
-Hint: Before you call resize you could copy all of the items except the one to be removed into a new dynamically allocated array.  
-  
+Hint: Before you call resize you could copy all of the items except the one to be removed into a new dynamically allocated array.
+
 ### iv
 ```
 template <class T>  
@@ -92,27 +92,26 @@ var1 <- 5
 arr1 + var1
 arr1 == {1, 2, 3, 4, 5, _, _, _} //(capacity == 8)
 ```
-  
+
 ### v
 ```
 template <class T>  
 void DynamicArray<T>::operator-(const T &rhs)  
 ```
-which removes an item from the caller if the caller contains it.  
+which removes an item from the caller if the caller contains it.
 ### Example:
 ```
 arr1 <- {1, 2, 3, 4}		 //(capacity == 4)
 arr1 - 4
 arr1 <- {1, 2, 3, _}		 //(capacity == 4)
 ```
-  
 ### vi
 ```
 template <class T>
 T DynamicArray<T>::operator[](const size_t &index)
 ```
 which returns the item at the given index.  
-  
+
 ## Task 2:
 Create a file, Solution.cpp. In that file create a namespace solution { … }. This file should include DynamicArray.hpp, Produce.hpp, Vegetable.hpp, and Fruit.hpp (thus, your main test file need only to include Solution.cpp). Within the solution namespace implement two methods:
 ### i
