@@ -57,8 +57,8 @@ class Produce private members:
       int condition
 ```
 ### Notes & Suggestions:
-• The parameterized constructor must read in files of the format provided (see Test Data folder) and construct Produce objects given the data in that file.
-• getRipenessStr() and getConditionStr() must return the lowercase string name of the private member to which they respectively correspond.
+- The parameterized constructor must read in files of the format provided (see Test Data folder) and construct Produce objects given the data in that file.
+- getRipenessStr() and getConditionStr() must return the lowercase string name of the private member to which they respectively correspond.
 
 ## Task 2:  
 Define and implement two child classes of Produce, Fruit and Vegetables. The Fruit class must contain the following attributes:
@@ -100,24 +100,24 @@ This should be returned under the condition that the item is either ripe and und
 ”It is not the best idea to buy this <product name> because it is <product ripeness> and <product condition>".  
 This should be returned under the condition that the item is either ripe and damaged or underripe and damaged.  
   
-”No, you should not buy this<product name> because it is <product ripeness> and <product
-condition>”.  
+”No, you should not buy this<product name> because it is <product ripeness> and <product condition>”.  
 This should be returned under the condition that the item is either overripe and undamaged or overripe and damaged. 
+      
 ### Testing
 How to compile:  
 `g++ Vegetable.cpp Produce.cpp Fruit.cpp <main file> -std=c++17`  
   
-How to test `shouldIBuyThis()` in your main file:
-`Produce *product = new Fruit(<in file>);`
+How to test `shouldIBuyThis()` in your main file:  
+`Produce *product = new Fruit(<in file>);` 
 `std::cout << solution::shouldIBuyThis(product) << std::endl;`  
   
 You must always implement and test you programs INCREMENTALLY!!!  
 What does this mean? Implement and test one method at a time.  
   
 For each class:
-1. Implement one function/method and test it thoroughly (multiple test cases + edge cases if
+- Implement one function/method and test it thoroughly (multiple test cases + edge cases if
 applicable).  
-2. Implement the next function/method and test in the same fashion.  
+- Implement the next function/method and test in the same fashion.  
   
 How do you do this?  
   
