@@ -46,6 +46,7 @@ class Produce public members:
       int getCondition() const
       std::string getRipenessStr() const
       std::string getConditionStr() const
+      
 class Produce private members:
       std::string name
       double weight
@@ -129,17 +130,17 @@ However, don’t forget to go back and implement the stub!!! If you put the word
 will make it more visible.
 
 ### Grading Rubric:
-1. Correctness 80% (distributed across unit testing of your submission). A submission that implements all required classes and/or functions but does not compile will receive 40 points total (including documentation and design).
-2. Documentation 10%
-3. Style and Design 10% (proper naming, modularity, and organization)
+- Correctness 80% (distributed across unit testing of your submission). A submission that implements all required classes and/or functions but does not compile will receive 40 points total (including documentation and design).
+- Documentation 10%
+- Style and Design 10% (proper naming, modularity, and organization)
 
 ### Submission:
 You will submit the following files:
-- Solution.cpp
-- Produce.hpp
-- Produce.cpp
-- Fruit.cpp
-- Fruit.hpp
-- Vegetable.cpp
-- Vegetable.hpp
+- `Solution.cpp`
+- `Produce.hpp`
+- `Produce.cpp`
+- `Fruit.cpp`
+- `Fruit.hpp`
+- `Vegetable.cpp`
+- `Vegetable.hpp`
 Your project must be submitted on Gradescope. Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging and it should not be used for that. You MUST test and debug your program locally. Before submitting to Gradescope you MUST ensure that your program compiles (with g++) and runs correctly on the Linux machines in the labs at Hunter (see detailed instructions on how to upload, compile and run your files in the “Programming Rules” document). That is your baseline, if it runs correctly there it will run correctly on Gradescope, and if it does not, you will have the necessary feedback (compiler error messages, debugger or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above you submit it to Gradescope.
