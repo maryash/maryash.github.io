@@ -134,17 +134,16 @@ a < b < c < d < e < … < z
 Thus, for this portion of the project you are truly only sorting based on the <= comparison operator between the string names of each object within the dynamic array.
 
 ## Testing
-How to compile: 
-```
-g++ Vegetable.cpp Produce.cpp Fruit.cpp &ltmain file&gt -std=c++17
-```  
+How to compile:  
+`g++ Vegetable.cpp Produce.cpp Fruit.cpp &ltmain file&gt -std=c++17`  
+  
 You must always implement and test you programs **INCREMENTALLY!!!**
 
 ### What does this mean?
 - Implement and test one method at a time.  
 - For each class:  
-1. Implement one function/method and test it thoroughly (multiple test cases + edge cases if applicable).   
-2. Implement the next function/method and test in the same fashion.  
+  - Implement one function/method and test it thoroughly (multiple test cases + edge cases if applicable).   
+  - Implement the next function/method and test in the same fashion.  
   
 ### How do you do this?
 Write your own main() function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally: i.e. implement mutator functions before accessor functions. Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible. 
