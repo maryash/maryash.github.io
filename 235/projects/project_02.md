@@ -8,7 +8,7 @@ Your objective for this project is to implement a dynamically resizable array da
 
 ### Some additional resources:
 
-#### Concept of an Abstract Data Type:
+### Concept of an Abstract Data Type:
 [Geeks for Geeks Reference](https://www.geeksforgeeks.org/abstract-data-types)  
 [MIT Reference](http://web.mit.edu/6.005/www/fa14/classes/08-abstract-data-types/)
 
