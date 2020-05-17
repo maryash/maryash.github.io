@@ -4,67 +4,75 @@ title: PROJECT 2
 ---  
 
 # Project 1: Inheritance
-Due TBD  
-Your objective for this project is to implement an OOP architecture for cataloging produce using inheritance. You will use separate compilation with g++ to link multiple classes into one executable. In order to successfully complete this project, you must understand multi-file compilation, #includes, basic inheritance, namespaces, enums, and basic file I/O. If you are not absolutely comfortable with all of this, please seek help immediately (contact me or our UTA, Nigel).  
-Here are some additional resources:  
-• Multi-File Compilation:  
+Your objective for this project is to implement an OOP architecture for cataloging produce using inheritance. You will use separate compilation with g++ to link multiple classes into one executable. In order to successfully complete this project, you must understand multi-file compilation, #includes, basic inheritance, namespaces, enums, and basic file I/O. If you are not absolutely comfortable with all of this, please seek help immediately (contact me or our UTA, Nigel).
+
+## Here are some additional resources:
+
+### Multi-File Compilation:  
 https://www.cs.fsu.edu/ myers/c++/notes/compilation.html  
-https://stackoverflow.com/questions/3202136/using-g-to-compile-multiple-cpp-and-h-files  
-• #includes:  
-http://www.cplusplus.com/forum/articles/10627/  
-• Basic Inheritance:  
+https://stackoverflow.com/questions/3202136/using-g-to-compile-multiple-cpp-and-h-files
+
+### Includes:  
+http://www.cplusplus.com/forum/articles/10627/
+
+### Basic Inheritance:  
 https://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/  
-• Namespaces:  
+
+### Namespaces:  
 http://www.cplusplus.com/doc/oldtutorial/namespaces/  
-https://www.tutorialspoint.com/cplusplus/cpp namespaces.htm  
-• Enums:  
+https://www.tutorialspoint.com/cplusplus/cpp namespaces.htm
+
+### Enums:  
 https://www.geeksforgeeks.org/enumerated-types-or-enums-in-c  
-https://docs.microsoft.com/en-us/cpp/cpp/enumerations-cpp?view=vs-2019  
-• Basic File I/O:  
-https://www.geeksforgeeks.org/basic-input-output-c/  
-Implementation:  
-You must separate the interface from the implementation, and thus the contents of each class’s respective .hpp and .cpp file are different. Implement this project’s classes based on the following specifications (FUNCTION PROTOTYPES AND MEMBER VARIABLE NAMES MUST MATCH EXACTLY). This project consists mostly of accessor functions. Recall that accessor functions are used to access private data members, and they simply return the member that they access.
-1
-Task 1:  
-Modify the file, Produce.hpp, to define the class Produce. Then, implement it. Produce must contain the following attributes:
+https://docs.microsoft.com/en-us/cpp/cpp/enumerations-cpp?view=vs-2019
+
+### Basic File I/O:  
+https://www.geeksforgeeks.org/basic-input-output-c/
+
+### Implementation:
+You must separate the interface from the implementation, and thus the contents of each class’s respective `.hpp` and `.cpp` file are different. Implement this project’s classes based on the following specifications (FUNCTION PROTOTYPES AND MEMBER VARIABLE NAMES MUST MATCH EXACTLY). This project consists mostly of accessor functions. Recall that accessor functions are used to access private data members, and they simply return the member that they access.
+
+##Task 1:  
+Modify the file, `Produce.hpp`, to define the class Produce. Then, implement it. Produce must contain the following attributes:
 ```
 class Produce public members:
-Produce(const std::string& in file)
-std::string getName() const
-double getWeight() const
-double getPricePerPound() const
-bool getOrganic() const
-bool getPrePackaged() const
-int getRipeness() const
-int getCondition() const
-std::string getRipenessStr() const
-std::string getConditionStr() const
+      Produce(const std::string& in file)
+      std::string getName() const
+      double getWeight() const
+      double getPricePerPound() const
+      bool getOrganic() const
+      bool getPrePackaged() const
+      int getRipeness() const
+      int getCondition() const
+      std::string getRipenessStr() const
+      std::string getConditionStr() const
 class Produce private members:
-std::string name
-double weight
-double price per pound
-bool is organic
-bool is pre packaged
-int ripeness
-int condition
+      std::string name
+      double weight
+      double price_per_pound
+      bool is_organic
+      bool is_pre_packaged
+      int ripeness
+      int condition
 ```
-Notes & Suggestions:  
+### Notes & Suggestions:
 • The parameterized constructor must read in files of the format provided (see Test Data folder) and construct Produce objects given the data in that file.
-• getRipenessStr() and getConditionStr() must return the lowercase string name of the private member to which they respectively correspond.  
-Task 2:  
+• getRipenessStr() and getConditionStr() must return the lowercase string name of the private member to which they respectively correspond.
+
+## Task 2:  
 Define and implement two child classes of Produce, Fruit and Vegetables. The Fruit class must contain the following attributes:
 ```
 class Fruit public members:
-Fruit(const std::string &in file)
-bool getPitted()
-bool getPeelableSkin()
-bool getRind()
-bool getEdibleSeeds()
+      Fruit(const std::string &in file)
+      bool getPitted()
+      bool getPeelableSkin()
+      bool getRind()
+      bool getEdibleSeeds()
 class Fruit private members:
-bool is pitted
-bool has peelable skin
-bool has rind
-bool has edible seed
+      bool is_pitted
+      bool has_peelable_skin
+      bool has_rind
+      bool has_edible_seed
 ```
 2  
 The Vegetable class must contain the following attributes:
