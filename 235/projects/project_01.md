@@ -1,6 +1,6 @@
 ---  
 layout: myDefault  
-title: PROJECT 2  
+title: PROJECT 1  
 ---  
 
 # Project 1: Inheritance
