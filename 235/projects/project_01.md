@@ -68,6 +68,7 @@ class Fruit public members:
       bool getPeelableSkin()
       bool getRind()
       bool getEdibleSeeds()
+      
 class Fruit private members:
       bool is_pitted
       bool has_peelable_skin
@@ -79,13 +80,14 @@ The Vegetable class must contain the following attributes:
 class Vegetable public members:  
       Vegetable(const std::string &in file)
       string getVeggieType()
+      
 class Vegetable public members: 
       int veggie type
 ```
 ### Notes & Suggestions:
-The respective parameterized constructors for both the Fruit and Vegatable classes must also read in files of the format provided. As Fruit and Vegetable inherit from Produce, the Produce constructor should be called before any additional initialization.  
-  
-The Vegetable class requires you to define an enum that corresponds to vegetable type prior to the definition of the Vegetable class. It is good practice to do so in a namespace. Follow this example: `getVeggieType()` must return the lowercase string name of the type of vegetable to which veggie type corresponds.
+- The respective parameterized constructors for both the Fruit and Vegatable classes must also read in files of the format provided. As Fruit and Vegetable inherit from Produce, the Produce constructor should be called before any additional initialization.  
+- The Vegetable class requires you to define an enum that corresponds to vegetable type prior to the definition of the Vegetable class. It is good practice to do so in a namespace. Follow this example: `getVeggieType()` must return the lowercase string name of the type of vegetable to which veggie type corresponds.
+
 ## Task 3:  
 In a file entitled `Solution.cpp`, define namespace `solution: { ... }` that contains a method called `std::string shouldIBuyThis(Produce * product)`, which, given an arbitrary Produce, Fruit, or Vegetable object, returns a message that, depending upon the ripeness and condition of that item, tells you whether to purchase it.  
   
