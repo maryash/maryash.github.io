@@ -3,37 +3,37 @@ layout: myDefault
 title: PROJECT 1  
 ---  
 
-# Project 1: Inheritance
+# Project 1:  Inheritance
 ![](apple_orange_banana.png)  
 Your objective for this project is to implement an OOP architecture for cataloging produce using inheritance. You will use separate compilation with g++ to link multiple classes into one executable. In order to successfully complete this project, you must understand multi-file compilation, #includes, basic inheritance, namespaces, enums, and basic file I/O. If you are not absolutely comfortable with all of this, please seek help immediately: contact our UTA, Nigel.
 
 ## Here are some additional resources:
 
-### Multi-File Compilation:  
+### Multi-File Compilation
 https://www.cs.fsu.edu/ myers/c++/notes/compilation.html  
 https://stackoverflow.com/questions/3202136/using-g-to-compile-multiple-cpp-and-h-files
 
-### Includes:  
+### Includes
 http://www.cplusplus.com/forum/articles/10627/
 
-### Basic Inheritance:  
+### Basic Inheritance
 https://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/  
 
-### Namespaces:  
+### Namespaces
 http://www.cplusplus.com/doc/oldtutorial/namespaces/  
 https://www.tutorialspoint.com/cplusplus/cpp namespaces.htm
 
-### Enums:  
+### Enums
 https://www.geeksforgeeks.org/enumerated-types-or-enums-in-c  
 https://docs.microsoft.com/en-us/cpp/cpp/enumerations-cpp?view=vs-2019
 
-### Basic File I/O:  
+### Basic File I/O
 https://www.geeksforgeeks.org/basic-input-output-c/
 
-### Implementation:
+### Implementation
 You must separate the interface from the implementation, and thus the contents of each class’s respective `.hpp` and `.cpp` file are different. Implement this project’s classes based on the following specifications (FUNCTION PROTOTYPES AND MEMBER VARIABLE NAMES MUST MATCH EXACTLY). This project consists mostly of accessor functions. Recall that accessor functions are used to access private data members, and they simply return the member that they access.
 
-## Task 1:  
+## Task 1
 Modify the file, `Produce.hpp`, to define the class Produce. Then, implement it. Produce must contain the following attributes:
 ```
 class Produce public members:
@@ -57,11 +57,11 @@ class Produce private members:
       int ripeness
       int condition
 ```
-### Notes & Suggestions:
+### Notes & Suggestions
 - The parameterized constructor must read in files of the format provided (see Test Data folder) and construct Produce objects given the data in that file.
 - getRipenessStr() and getConditionStr() must return the lowercase string name of the private member to which they respectively correspond.
 
-## Task 2:  
+## Task 2
 Define and implement two child classes of Produce, Fruit and Vegetables. The Fruit class must contain the following attributes:
 ```
 class Fruit public members:
@@ -86,7 +86,7 @@ class Vegetable public members:
 class Vegetable public members: 
       int veggie type
 ```
-### Notes & Suggestions:
+### Notes & Suggestions
 - The respective parameterized constructors for both the Fruit and Vegatable classes must also read in files of the format provided. As Fruit and Vegetable inherit from Produce, the Produce constructor should be called before any additional initialization.  
 - The Vegetable class requires you to define an enum that corresponds to vegetable type prior to the definition of the Vegetable class. It is good practice to do so in a namespace. Follow this example:
 ```
@@ -106,7 +106,7 @@ namespace categories
 ```
 - `getVeggieType()` must return the lowercase string name of the type of vegetable to which veggie type corresponds.
 
-## Task 3:  
+## Task 3
 In a file entitled `Solution.cpp`, define namespace `solution: { ... }` that contains a method called `std::string shouldIBuyThis(Produce * product)`, which, given an arbitrary Produce, Fruit, or Vegetable object, returns a message that, depending upon the ripeness and condition of that item, tells you whether to purchase it.  
   
 The following strings correspond to the expected return values of `shouldIBuyThis()`:  
@@ -146,12 +146,12 @@ implemented, you can use stubs: a dummy implementation that always returns a sin
 However, don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors
 will make it more visible.
 
-### Grading Rubric:
+### Grading Rubrics
 - Correctness 80% (distributed across unit testing of your submission). A submission that implements all required classes and/or functions but does not compile will receive 40 points total (including documentation and design).
 - Documentation 10%
 - Style and Design 10% (proper naming, modularity, and organization)
 
-### Submission:
+### Submission
 You will submit the following files:
 - `Solution.cpp`
 - `Produce.hpp`
