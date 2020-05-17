@@ -53,10 +53,10 @@ arr2 <- {1, 2, 3, _}		         //capacity == 4
 arr2.remove(3)
 arr2 == {1, 2}			             //capacity == 2
 ```
-## Task 1:  
+## Task 1
 Modify the `DynamicArray.cpp` file to implement the following methods. I highly suggest that you complete them in the presented order. The prototypes have already been written for you.
 
-### i
+### i)
 ```
 template <class T>
 void DynamicArray<T>::resize()
@@ -64,14 +64,14 @@ void DynamicArray<T>::resize()
 which carries out the aforementioned dynamic sizing behavior.  
 Hint: You must dynamically allocate a new array of the appropriate altered size and then you must copy all elements from the initial array into this new one. Finally, you must update and reassign the private members of the caller.
 
-### ii
+### ii)
 ```
 template <class T>
 bool DynamicArray<T>::add(const T &new_entry)
 ```
 which inserts an item into the last position of the caller -- it **must** call resize and take into account the possibility that the pointer that represents the caller array could be equal to `nullptr`.
 
-### iii
+### iii)
 ```
 template <class T>  
 bool DynamicArray<T>::remove(const T &an_item)  
@@ -79,7 +79,7 @@ bool DynamicArray<T>::remove(const T &an_item)
 which removes the first instance of an item from the caller - it **must** check whether the element to be removed is within the array and it **must** call resize.  
 Hint: Before you call resize you could copy all of the items except the one to be removed into a new dynamically allocated array.
 
-### iv
+### iv)
 ```
 template <class T>  
 void DynamicArray<T>::operator+(T rhs)  
@@ -93,7 +93,7 @@ arr1 + var1
 arr1 == {1, 2, 3, 4, 5, _, _, _} //(capacity == 8)
 ```
 
-### v
+### v)
 ```
 template <class T>  
 void DynamicArray<T>::operator-(const T &rhs)  
@@ -105,23 +105,23 @@ arr1 <- {1, 2, 3, 4}		 //(capacity == 4)
 arr1 - 4
 arr1 <- {1, 2, 3, _}		 //(capacity == 4)
 ```
-### vi
+### vi)
 ```
 template <class T>
 T DynamicArray<T>::operator[](const size_t &index)
 ```
 which returns the item at the given index.  
 
-## Task 2:
+## Task 2
 Create a file, Solution.cpp. In that file create a namespace solution { … }. This file should include DynamicArray.hpp, Produce.hpp, Vegetable.hpp, and Fruit.hpp (thus, your main test file need only to include Solution.cpp). Within the solution namespace implement two methods:
-### i
+### i)
 ```
 template<class T>
 void sortAlphabetically(DynamicArray<T> an_array)
 ```
 which is a wrapper for the next function (and thus the code body of sortAlphabetically should only contain the call to the next function).  
   
-### ii
+### ii)
 ```
 template<class T>
 void quicksort(DynamicArray<T> &an_array, int left_index, int right_index)
@@ -146,15 +146,15 @@ You must always implement and test you programs **INCREMENTALLY!!!**
   - Implement the next function/method and test in the same fashion.  
   
 ### How do you do this?
-Write your own main() function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally: i.e. implement mutator functions before accessor functions. Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible. 
+Write your own `main()` function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally: i.e. implement mutator functions before accessor functions. Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible. 
   
-### Grading Rubric
+### Grading Rubrics
 **Correctness 80%** (distributed across unit testing of your submission)  
 A submission that implements all required classes and/or functions but does not compile will receive 40 points total (including documentation and design).  
 **Documentation 10%**  
 **Style and Design 10%** (proper naming, modularity, and organization)  
   
-### Submission:
+### Submission
 You will submit **the following files**:  
 `DynamicArray.cpp`  
 `Solution.cpp`  
