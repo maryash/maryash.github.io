@@ -4,40 +4,41 @@ title: PROJECT 2
 ---  
 
 # Project 2: &nbsp; Dynamically Resizable Array
-Your objective for this project is to implement a dynamically resizable array data structure in order to effectively store objects of the classes that you created in the previous project. As you did in Project 1, you will use separate compilation with g++ to link multiple classes into one executable. In order to successfully complete this project, you **must** understand the prerequisite material from Project 1 and you **must** understand the concept of an abstract data type, how template classes work, the steps of the quicksort algorithm, dynamic memory allocation, recursion, friend functions, and operator overloads. If you are not absolutely comfortable with all of this, please seek help immediately (contact me or our UTA, Nigel).
+![](ArrayMemory.png)  
+Your objective for this project is to implement a dynamically resizable array data structure in order to effectively store objects of the classes that you created in the previous project. As you did in Project&nbsp;1, you will use separate compilation with g++ to link multiple classes into one executable. In order to successfully complete this project, you **must** understand the prerequisite material from Project&nbsp;1 and you **must** understand the concept of an abstract data type, how template classes work, the steps of the quicksort algorithm, dynamic memory allocation, recursion, friend functions, and operator overloads. If you are not absolutely comfortable with all of this, please seek help immediately: contact me or our UTA, Nigel.
 
 ### Some additional resources:
 
-### Abstract Data Types:
+### Abstract Data Types
 [Geeks for Geeks Reference](https://www.geeksforgeeks.org/abstract-data-types)  
 [MIT Reference](http://web.mit.edu/6.005/www/fa14/classes/08-abstract-data-types/)
 
-### Template Classes:
+### Template Classes
 [C++ Documentation Reference](http://www.cplusplus.com/doc/oldtutorial/templates/)  
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm)  
 Note: Recall that because the type of a class or function template is determined at compile time given the context of its use, you **cannot** compile the template class’s .cpp file. The .cpp file contains a **general** version of that class or function, which has no meaning in the absence of a context.
 
-### The Quicksort Algorithm:
+### The Quicksort Algorithm
 [Abdul Bari Video](https://www.youtube.com/watch?v=7h1s2SojIRw)  
 [Khan Academy Reference](https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort)
 
-### Dynamic Memory Allocation:
+### Dynamic Memory Allocation
 [C++ Documentation Reference](http://www.cplusplus.com/doc/tutorial/dynamic/)  
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_dynamic_memory.htm)
 
-### Recursion:
+### Recursion
 [C++ Documentation Reference](http://www.cplusplus.com/articles/D2N36Up4/)  
 [Programiz Reference](https://www.programiz.com/cpp-programming/recursion)
 
-### Friend Functions:
+### Friend Functions
 [SoftwareTestingHelp Reference](https://www.softwaretestinghelp.com/friend-functions-in-cpp/)  
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_friend_functions.htm)
 
-### Operator Overloads:
+### Operator Overloads
 [C++ Documentation Reference](https://en.cppreference.com/w/cpp/language/operators)  
 [Caltech Reference](http://users.cms.caltech.edu/~donnie/cs11/cpp/cpp-ops.html)
 
-### Implementation:
+### Implementation
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
 
 ### Definition:
@@ -54,7 +55,7 @@ arr2.remove(3)
 arr2 == {1, 2}			             //capacity == 2
 ```
 ## Task 1
-Modify the `DynamicArray.cpp` file to implement the following methods. I highly suggest that you complete them in the presented order. The prototypes have already been written for you.
+Modify the `DynamicArray.cpp` file to implement the following methods. I highly suggest that you complete them in the presented order. The prototypes below have already been written for you:
 
 ### i)
 ```
@@ -84,7 +85,8 @@ Hint: Before you call resize you could copy all of the items except the one to b
 template <class T>  
 void DynamicArray<T>::operator+(T rhs)  
 ```
-which adds an item to the caller.  
+which adds an item to the caller.
+
 ### Example:
 ```
 arr1 <- {1, 2, 3, 4}		 //(capacity == 4)
@@ -99,6 +101,7 @@ template <class T>
 void DynamicArray<T>::operator-(const T &rhs)  
 ```
 which removes an item from the caller if the caller contains it.
+
 ### Example:
 ```
 arr1 <- {1, 2, 3, 4}		 //(capacity == 4)
@@ -113,7 +116,8 @@ T DynamicArray<T>::operator[](const size_t &index)
 which returns the item at the given index.  
 
 ## Task 2
-Create a file, Solution.cpp. In that file create a namespace solution { … }. This file should include DynamicArray.hpp, Produce.hpp, Vegetable.hpp, and Fruit.hpp (thus, your main test file need only to include Solution.cpp). Within the solution namespace implement two methods:
+Create a file, `Solution.cpp`. In that file create a namespace `solution { … }`. This file should include `DynamicArray.hpp`, `Produce.hpp`, `Vegetable.hpp`, and `Fruit.hpp` (thus, your main test file need only to include `Solution.cpp`). Within the solution namespace implement two methods:
+
 ### i)
 ```
 template<class T>
