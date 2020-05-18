@@ -10,32 +10,32 @@ Your objective for this project is to implement a dynamically resizable array da
 
 ### Some additional resources:
 
-- Abstract Data Types
+- Abstract Data Types  
 [Geeks for Geeks Reference](https://www.geeksforgeeks.org/abstract-data-types)  
 [MIT Reference](http://web.mit.edu/6.005/www/fa14/classes/08-abstract-data-types/)
 
-- Template Classes
+- Template Classes  
 [C++ Documentation Reference](http://www.cplusplus.com/doc/oldtutorial/templates/)  
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm)  
 Note: Recall that because the type of a class or function template is determined at compile time given the context of its use, you **cannot** compile the template class’s .cpp file. The .cpp file contains a **general** version of that class or function, which has no meaning in the absence of a context.
 
-- The Quicksort Algorithm
+- The Quicksort Algorithm  
 [Abdul Bari Video](https://www.youtube.com/watch?v=7h1s2SojIRw)  
 [Khan Academy Reference](https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort)
 
-- Dynamic Memory Allocation
+- Dynamic Memory Allocation  
 [C++ Documentation Reference](http://www.cplusplus.com/doc/tutorial/dynamic/)  
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_dynamic_memory.htm)
 
-- Recursion
+- Recursion  
 [C++ Documentation Reference](http://www.cplusplus.com/articles/D2N36Up4/)  
 [Programiz Reference](https://www.programiz.com/cpp-programming/recursion)
 
-- Friend Functions
+- Friend Functions  
 [SoftwareTestingHelp Reference](https://www.softwaretestinghelp.com/friend-functions-in-cpp/)  
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_friend_functions.htm)
 
-- Operator Overloads
+- Operator Overloads  
 [C++ Documentation Reference](https://en.cppreference.com/w/cpp/language/operators)  
 [Caltech Reference](http://users.cms.caltech.edu/~donnie/cs11/cpp/cpp-ops.html)
 
