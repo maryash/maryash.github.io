@@ -128,16 +128,13 @@ How to test `shouldIBuyThis()` in your main file:
 `Produce *product = new Fruit(<in file>);` 
 `std::cout << solution::shouldIBuyThis(product) << std::endl;`  
   
-You must always implement and test you programs INCREMENTALLY!!!  
+You must always implement and test you programs **INCREMENTALLY**!!!  
 What does this mean? Implement and test one method at a time.  
-  
-For each class:
+**For each class:**
 - Implement one function/method and test it thoroughly (multiple test cases + edge cases if
 applicable).  
 - Implement the next function/method and test in the same fashion.  
-  
-How do you do this?  
-  
+**How do you do this?**  
 Write your own `main()` function to test your classes. In this course you will never submit your test
 program, but you must always write one to test your classes. Choose the order in which you implement
 your methods so that you can test incrementally (i.e. implement mutator functions before accessor
