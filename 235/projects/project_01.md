@@ -7,18 +7,18 @@ title: PROJECT 1
 ![](apple_orange_banana.png)  
 Your objective for this project is to implement an OOP architecture for cataloging produce using inheritance. You will use separate compilation with g++ to link multiple classes into one executable. In order to successfully complete this project, you must understand multi-file compilation, #includes, basic inheritance, namespaces, enums, and basic file I/O. If you are not absolutely comfortable with all of this, please seek help immediately: contact me or our UTA, Nigel.
 
-## Here are some additional resources:
-- Multi-File Compilation
+### Some additional resources:
+- Multi-File Compilation  
 https://www.cs.fsu.edu/ myers/c++/notes/compilation.html  
 https://stackoverflow.com/questions/3202136/using-g-to-compile-multiple-cpp-and-h-files
 - Includes
 http://www.cplusplus.com/forum/articles/10627/
-- Basic Inheritance
+- Basic Inheritance  
 https://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/  
-- Namespaces
+- Namespaces  
 http://www.cplusplus.com/doc/oldtutorial/namespaces/  
 https://www.tutorialspoint.com/cplusplus/cpp namespaces.htm
-- Enums
+- Enums  
 https://www.geeksforgeeks.org/enumerated-types-or-enums-in-c  
 https://docs.microsoft.com/en-us/cpp/cpp/enumerations-cpp?view=vs-2019
 
