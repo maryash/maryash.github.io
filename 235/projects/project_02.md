@@ -124,7 +124,7 @@ void sortAlphabetically(DynamicArray<T> an_array)
 ```
 which is a wrapper for the next function (and thus the code body of sortAlphabetically should only contain the call to the next function).  
   
-### ii )
+### ii  )
 ```
 template<class T>
 void quicksort(DynamicArray<T> &an_array, int left_index, int right_index)
