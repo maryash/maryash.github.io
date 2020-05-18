@@ -140,8 +140,7 @@ Thus, for this portion of the project you are truly only sorting based on the <=
 **How to compile:**  
 `g++ Vegetable.cpp Produce.cpp Fruit.cpp &ltmain file&gt -std=c++17`  
 You must always implement and test you programs **INCREMENTALLY**!!!  
-**What does this mean?**  
-Implement and test one method at a time.  
+What does this mean? Implement and test one method at a time.  
 **For each class:**  
 - Implement one function/method and test it thoroughly (multiple test cases + edge cases if applicable).   
 - Implement the next function/method and test in the same fashion.  
