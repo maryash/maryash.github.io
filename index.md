@@ -13,3 +13,6 @@ title: Genady Maryash, Hunter College
   [CSCI 135 / 136 FALL 2019](135/2019_fall.html)   
   
   [CSCI 135 / 136 SPRING 2020](135/2020_spring.html)   
+
+  [CSCI 235 SUMMER 2020](235/2020_summer.html)   
+  
