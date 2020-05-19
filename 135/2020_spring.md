@@ -28,7 +28,7 @@ The tutors are there to help you with all of your labs, assignments, and project
 **Email Questions** You must get hands-on programing help in person during your lab or from tutors in lab B. We will never debug your code over email. You should ask questions during the lab and the lecture.  All other email questions must be sent to your lab instructor listed below. You must always include your section, name of lab instructor, your name and EMPLID.   
 
  :---: | :---: | :---: | :---: 
- Section &nbsp; &nbsp; | Lab in HN 1001C &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+ Section &nbsp; | Lab in HN 1001C &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
  136.01 | Mo 1:10 – 3:00 PM | *Minh Nguyen* | minh.nguyen@hunter.cuny.edu 
  136.02 | Mo 3:10 – 5:00 PM | *Minh Nguyen* | minh.nguyen@hunter.cuny.edu 
  136.03 | Mo 5:10 – 7:00 PM | *Minh Nguyen* | minh.nguyen@hunter.cuny.edu 
