@@ -1,36 +1,3 @@
-<style>  
-table {
-    border-collapse: collapse;
-}
-table, td, th {
-    text-align: left;
-    padding: 8px;
-    padding-bottom: 6px;
-    border: 1px solid #dee1e4;
-}
-tr:nth-child(even) {background-color: #fafafa;}
-tr:nth-child(odd) {background-color: #ffffff;}
-hr.style-six {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
-a:link {
-    text-decoration: none;
-}
-a:visited {
-    text-decoration: none;
-    color: blue;
-}
-a:hover {
-    text-decoration: none;
-}
-a:active {
-    text-decoration: none;
-}
-</style>
-
 ---
 layout: myDefault 
 title: PROGRAMMING GUIDELINES
@@ -65,14 +32,14 @@ A VERY QUICK REVIEW OF SOME SHELL COMMANDS
 You need to know just a few commands to work comfortably in a Unix terminal:  
 `ls`, `cd`, `pwd`, `mkdir`, `cp`, `mv`, and `rm`.  
   
- `pwd` | print the current working directory 
  :---: | :---: 
+ `pwd` | print the current working directory 
  `ls` | list files in the current directory 
  `ls path/to/a/directory` | list files in the directory 
  `cd path/to/a/directory` | change directory 
- `.`   the current directory 
- `..`  the parent directory of the current 
- `~`  the home directory 
+ `.` | the current directory 
+ `..` | the parent directory of the current 
+ `~` | the home directory 
  `cd .. ` | go to the parent directory (one level up) 
  `mkdir newdirectoryname` | create new directory 
  `cp file1 file2` | copy file1 and call the copy file2 
@@ -108,4 +75,36 @@ SOME USEFUL REFERENCES
   
 ---  
   
-  
+<style>  
+table {
+    border-collapse: collapse;
+}
+table, td, th {
+    text-align: left;
+    padding: 8px;
+    padding-bottom: 6px;
+    border: 1px solid #dee1e4;
+}
+tr:nth-child(even) {background-color: #fafafa;}
+tr:nth-child(odd) {background-color: #ffffff;}
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+</style>
+
