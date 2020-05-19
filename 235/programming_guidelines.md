@@ -3,7 +3,7 @@ layout: myDefault
 title: PROGRAMMING GUIDELINES
 ---
 
-CSCI 235 PROGRAMMING GUIDELINES  
+## CSCI 235 PROGRAMMING GUIDELINES  
 
 It is extremely important to follow these guidelines. Failure to follow them will result
 in a lower grade or no credit at all for your assignment. Read the following carefully!
@@ -68,9 +68,9 @@ department_of_computer_science.faq.htm
 If you are working on Windows, please follow instructions on the “Installing
 Windows Subsystem for Linux” tutorial here: https://okunhardt.github.io/documents/
 Installing_WSL.pdf. If you are working on Mac you can access the terminal in
-Applications/Utilities. If you are working in Linux a terminal is also available.
-You can remotely login to the lab machines as follows (in a
-terminal window do the following):
+Applications/Utilities. If you are working in Linux a terminal is also available.  
+
+REMOTE LOGIN TO THE LAB MACHINES  
 1. To upload your programs on one of the cslab machines you can use sftp in order to
 transfer your code to eniac. First navigate to the local directory where the files you
 want to upload are. Then to sftp to the sever type:
@@ -97,7 +97,8 @@ ssh your_username@cslab2.cs.hunter.cuny.edu
 6. All cslabX machines and eniac see the same directories for your account. That
 means that you see the same files on all machines. 
 7. Now that you are logged into a Linux machine in the lab you can remotely compile
-and run your program with g++ (see the next section).
+and run your program with g++ (see the next section).  
+  
 To learn more about logging in remotely, using Linux, following the lab rules, and
 dealing with possible issues, visit http://www.geography.hunter.cuny.edu/tbw/
 CS.Linux.Lab.FAQ/department_of_computer_science.faq.htm
@@ -115,34 +116,29 @@ type in terminal:
 Alternatively, if you compile the program without giving the output file name (leaving
 out the command option -o myprogram), the executable file will be called a.out, which
 you can execute the same way:
-./a.out
-A very quick review of some shell commands:
-You need to know just a few commands to work comfortably in a Unix terminal:
-ls, cd, pwd, mkdir, cp, mv, rm.
-A brief summary:
-These are some useful directory shortcuts:
-.   the current directory
-  ..  the parent directory of the current
-  ~   the home directory
-For example:
-  cd ..   go to the parent directory (one level up)
-Here are some useful references:
-Unix tutorial: http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html
-Become a Command Line Ninja: https://lifehacker.com/5743814/become-a-commandline-ninja-with-these-time-saving-shortcuts
-pwd print the current working
-directory
-ls list files in the current directory
-ls path/to/a/directory list files in the directory
-cd path/to/a/directory change directory
-mkdir newdirectoryname create new directory
-cp file1 file2 copy file1 and call the copy file2
-mv file1 file2 rename (move) file1 to file2
-rmdir directoryname remove empty directory
-rm file remove file
-chmod <options> file change file permissions (read +r, write +w, execute +x)
-man command documentation about the command  
-  
-Here are some useful references:
+`./a.out`  
+    
+A VERY QUICK REVIEW OF SOME SHELL COMMANDS  
+You need to know just a few commands to work comfortably in a Unix terminal:  
+`ls`, `cd`, `pwd`, `mkdir`, `cp`, `mv`, and `rm`.  
+ :---: | :---: 
+ `pwd` | print the current working directory 
+ `ls` | list files in the current directory 
+ `ls path/to/a/directory` | list files in the directory 
+ `cd path/to/a/directory` | change directory 
+ `.`   the current directory 
+ `..`  the parent directory of the current 
+ `~`  the home directory 
+ `cd .. ` | go to the parent directory (one level up) 
+ `mkdir newdirectoryname` | create new directory 
+ `cp file1 file2` | copy file1 and call the copy file2 
+ `mv file1 file2` | rename (move) file1 to file2 
+ `rmdir directoryname` | remove empty directory 
+ `rm file` | remove file 
+ `chmod <options> file` | change file permissions (read +r, write +w, execute +x) 
+ `man command` | documentation about the command 
+   
+ SOME USEFUL REFERENCES  
 - [Unix tutorial: ee.surrey.ac.uk/Teaching/Unix/unix1.html](http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html)  
 - [Command Line Ninja: lifehacker.com/5743814/become-a-commandline-ninja-with-these-time-saving-shortcuts](https://lifehacker.com/5743814/become-a-commandline-ninja-with-these-time-saving-shortcuts)    
   
