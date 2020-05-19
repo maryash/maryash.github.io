@@ -19,11 +19,11 @@ Every program must be professionally documented. Every distinct source code file
   
 COMPILING YOUR CODE WITH G++  
 Separate compilation: We are now working with multiple source files that must be compiled into a single executable. Assume your programming project consists of the following files: `ClassA.hpp`, `ClassA.cpp`, `ClassB.hpp`, `ClassB.cpp`, `program1.cpp`, and `main.cpp`. You compile only the `.cpp` files.  
-To compile your program with g++, at a terminal window type:
+To compile your program with g++, at a terminal window type:  
 `g++ -o myprogram ClassA.cpp ClassB.cpp program1.cpp main.cpp`
-This will produce an executable file named myprogram. To run the compiled program type in terminal:
+This will produce an executable file named myprogram. To run the compiled program type in terminal:  
 `./myprogram`
-Alternatively, if you compile the program without giving the output file name (leaving out the command option -o myprogram), the executable file will be called a.out, which you can execute the same way:
+Alternatively, if you compile the program without giving the output file name (leaving out the command option -o myprogram), the executable file will be called a.out, which you can execute the same way:  
 `./a.out`  
 Please note that all programming project submissions must compile and run with g++ without issue on the Linux lab machines on the 10th floor of Hunter North. These computers provide a common platform to evaluate program execution, free of issues related to OS or IDE. You should always confirm that your assignment code successfully compiles and executes on these machines before submitting to Gradescope. You have all been given accounts on these machines. If you receive an email about a new linux account, follow instructions. If you already have an account you will not receive an email and must [reclaim](comp_sci_faq.pdf) your account by the due date.  
 If you are working on Windows, follow this [Installing Windows Subsystem for Linux](https://okunhardt.github.io/documents/Installing_WSL.pdf) tutorial. If you are working on Mac you can access the terminal in Applications/Utilities. If you are working in Linux a terminal is also available.  
