@@ -32,8 +32,8 @@ A VERY QUICK REVIEW OF SOME SHELL COMMANDS
 You need to know just a few commands to work comfortably in a Unix terminal:  
 `ls`, `cd`, `pwd`, `mkdir`, `cp`, `mv`, and `rm`.  
   
- :---: | :---: 
  `pwd` | print the current working directory 
+ :---: | :---: 
  `ls` | list files in the current directory 
  `ls path/to/a/directory` | list files in the directory 
  `cd path/to/a/directory` | change directory 
