@@ -10,7 +10,7 @@ title: CSCI 235 MAIN PAGE
 [**GRADESCOPE**](https://www.gradescope.com/courses/122702){:target="_blank"}  
   
 **LECTURE** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
-Monday, Tuesday, Wednesday, Thursday 9:50 - 11:24 AM on BlackBoard Collaborate &nbsp; office hours by appointment
+Monday, Tuesday, Wednesday, Thursday 9:50 - 11:24 AM on BlackBoard Collaborate and by appointment
 
 **HELP WITH PAROJECTS** &nbsp; Nigel Ferrer &nbsp; Nigel.Ferrer64@myhunter.cuny.edu  
 Monday, Tuesday, Wednesday, Thursday 1 - 2:30 PM on BlackBoard Collaborate 
