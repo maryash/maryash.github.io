@@ -5,23 +5,14 @@ title: CSCI 235 MAIN PAGE
 
 **[CSCI 235 &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; CITY UNIVERSITY OF NEW YORK](2020_summer.html)**  
   
-In these two courses, both of which are required to graduate with a computer science major, you will learn principles of programming, analysis, and design and gain a deep practical knowledge of C++.  
-  
 [**CSCI 235 Syllabus**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Gradescope**](https://www.gradescope.com/courses/122702){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Programming Guidelines**](programming_guidelines.html){:target="_blank"}
  
-**Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.wiley.com/en-us/Brief+C%2B%2B%3A+Late+Objects%2C+3rd+Edition-p-9781119400424){:target="_blank"} – please rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material!  
+**Lecture: Monday, Tuesday, Wednesday, Thursday 9:50 — 11:24 AM, BlackBoard Collaborate**  
+  
+**Instructor &nbsp; Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; Office hours by appointment on BlackBoard Collaborate.  
 
-**Linux on Windows Tutorial:** &nbsp; [https://okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf)  
+**Help with Projects &nbsp; Nigel Ferrer &nbsp; Nigel.Ferrer64@myhunter.cuny.edu &nbsp; BlackBoard Collaborate Monday, Tuesday, Wednesday, Thursday 1 — 2:30 PM   The tutor is there to help you with all of your projects**  
     
-**Tutoring:** The tutors for this course are available in the Open Lab Session on BlackBoard Collaborate of CSCI 235. This session runs all week:  
-  The tutor is there to help you with all of your projects.  
-  
-**Lecture: Monday, Wednesday, Thursday 12:10 – 1:00 PM on BlackBoard Collaborate**  
-  
-**Instructor**: Genady Maryash &nbsp; gmaryash@hunter.cuny.edu &nbsp; Office hours by appointment on BlackBoard Collaborate.   
-  
-**Email Questions** You must get hands-on programing help in person during your lab or from tutors in lab B. We will never debug your code over email. You should ask questions during the lab and the lecture.  All other email questions must be sent to your lab instructor listed below. You must always include your section, name of lab instructor, your name and EMPLID.   
-  
 **COURSE OUTLINE**  
    
  DATE | TOPIC | READING:&nbsp;Brief&nbsp;C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | DUE&nbsp;DATES 
@@ -31,7 +22,14 @@ In these two courses, both of which are required to graduate with a computer sci
  1/30 |  | [2.2 Arithmetic](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/84[;vnd.vst.idref=bc3e_ch02-8]!/4[bc3e_ch02-8]/4/2[_idParaDest-57]/2@0:0){:target="_blank"}<br/>[**2.4 PS** *First Do It By Hand*](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/102[;vnd.vst.idref=bc3e_ch02-16]!/4[bc3e_ch02-16]/2/2[_idParaDest-82]/2@0:0){:target="_blank"} | [2.2](slides/2.2 Arithmetic.pdf){:target="_blank"} | **[PS 2.4](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/102[;vnd.vst.idref=bc3e_ch02-16]!/4[bc3e_ch02-16]/2/2[_idParaDest-82]/2@0:0){:target="_blank"}**<br/>**[Project&nbsp;1A](projects/project_01.html){:target="_blank"}&nbsp;&nbsp;&nbsp;2/5** 
   
   
----
+---  
+  
+<---  
+  
+**Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.wiley.com/en-us/Brief+C%2B%2B%3A+Late+Objects%2C+3rd+Edition-p-9781119400424){:target="_blank"} – please rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material! 
+  
+
+--->  
   
 <style>  
 table {
