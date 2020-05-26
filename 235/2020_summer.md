@@ -7,9 +7,11 @@ title: CSCI 235 MAIN PAGE
   
 [**CSCI 235 Syllabus**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Gradescope**](https://www.gradescope.com/courses/122702){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Programming Guidelines**](programming_guidelines.html){:target="_blank"}
  
-**Lecture** Monday, Tuesday, Wednesday, Thursday 9:50 — 11:24 AM on BlackBoard Collaborate &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate.  
+**Lecture**  &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate  
+Monday, Tuesday, Wednesday, Thursday 9:50 - 11:24 AM on BlackBoard Collaborate  
 
-**Help with Projects** &nbsp; Nigel Ferrer &nbsp; Nigel.Ferrer64@myhunter.cuny.edu &nbsp; BlackBoard Collaborate Monday, Tuesday, Wednesday, Thursday 1 — 2:30 PM  
+**Help with Projects** &nbsp; Nigel Ferrer &nbsp; Nigel.Ferrer64@myhunter.cuny.edu  
+Monday, Tuesday, Wednesday, Thursday 1 - 2:30 PM &nbsp; on BlackBoard Collaborate 
     
 **COURSE OUTLINE**  
  DATE | TOPIC | READING:&nbsp;Brief&nbsp;C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | DUE&nbsp;DATES 
