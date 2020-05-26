@@ -29,6 +29,9 @@ Please check this page regularly for announcements, updates, lecture notes and s
 **PROGRAMMING PROJECTS**  
 I hope you will enjoy the programming projects! There will be six programming projects.  You will have a week will to complete each project. Every program must comply with the [Programming Guidelines](programming_guidelines.html){:target="_blank"}. You **must read** this document, it contains guidelines about submission, lateness, plagiarism, grading and logging into your Linux accounts.  
   
+**COURSE FINAL GRADE COMPOSITION**  
+13% for each of the six projects (together they are the most important part of your grade), 6% lecture activities, and 16% final exam. 
+  
 **QUESTIONS**  
 Ask as many as you need during lecture!  You may get additional help with your project from our tutor.  
 
@@ -43,9 +46,6 @@ This course it taught in Linux and your programs must be able to run on a Linux 
 ](https://okunhardt.github.io/documents/Installing_WSL.pdf
 ). We have had problems in the past with students programming in a native Windows environment at home, and their programs don’t work in the Linux labs and might be incompatible with Gradescope.  
 
-**GRADING**  
-14% for each of the six projects (together they are the most important part of your grade) and 16% final exam. 
-  
 **SYLLABUS COMPLIANCE**  
 Except for changes that substantially affect implementation of the grading policy, this syllabus is a guide for the course and is subject to change. In particular, the course schedule on the webpage, including topics, readings and project assignments, is subject to change. Any changes will be announced in class and on the course webpage. Be sure to check for updates online regularly.  
 
