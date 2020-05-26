@@ -5,8 +5,7 @@ title: 235 SYLLABUS
 
 **[CSCI 235 &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2020_summer.html)**  
   
-**INSTRUCTOR**  
-**Genady Maryash** gmaryash@hunter.cuny.edu; office hours by appointment on BlackBoard Collaborate.   
+**INSTRUCTOR** &nbsp; Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate.  
   
 **TEXTBOOK** (optional)  
 Data Abstraction and Problem Solving with C++: Walls and Mirrors, 7th Edition, Frank M. Carrano, ISBN-13 978-0134463971. Older editions or comparable textbooks may also be used.  
