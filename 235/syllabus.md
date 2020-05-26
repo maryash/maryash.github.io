@@ -3,7 +3,7 @@ layout: myDefault
 title: 235 SYLLABUS  
 ---
 
-**[CSCI 235 &nbsp; &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](2020_summer.html)**  
+**[CSCI 235 &nbsp; &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
   
 **INSTRUCTOR** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate.  
   
@@ -23,7 +23,7 @@ This course is the second in a three-course series, and it is a major stepping-s
 CSCI 135 and CSCI 150.  
 
 **MAIN COURSE WEBPAGE**  
-[maryash.github.io/235/2020_summer.html](https://maryash.github.io/235/2020_summer.html)  
+[maryash.github.io/235/2020_summer.html](https://maryash.github.io/235/index.html)  
 Please check this page regularly for announcements, updates, lecture notes and schedule. All course materials will be gradually posted here. 
   
 **PROGRAMMING PROJECTS**  
