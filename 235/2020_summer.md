@@ -3,17 +3,17 @@ layout: myDefault
 title: CSCI 235 MAIN PAGE 
 ---  
 
-**[CSCI 235 &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; CITY UNIVERSITY OF NEW YORK](2020_summer.html)**  
+**[CSCI 235 &nbsp; &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](2020_summer.html)**  
   
 [**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [**GRADESCOPE**](https://www.gradescope.com/courses/122702){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"}
  
-**LECTURE**  &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate  
-Monday, Tuesday, Wednesday, Thursday 9:50 - 11:24 AM on BlackBoard Collaborate  
+**LECTURE** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
+Monday, Tuesday, Wednesday, Thursday 9:50 - 11:24 AM on BlackBoard Collaborate &nbsp; office hours by appointment
 
 **HELP WITH PAROJECTS** &nbsp; Nigel Ferrer &nbsp; Nigel.Ferrer64@myhunter.cuny.edu  
-Monday, Tuesday, Wednesday, Thursday 1 - 2:30 PM &nbsp; on BlackBoard Collaborate 
+Monday, Tuesday, Wednesday, Thursday 1 - 2:30 PM on BlackBoard Collaborate 
     
 **COURSE OUTLINE**  
   
