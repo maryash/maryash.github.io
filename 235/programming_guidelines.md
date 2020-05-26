@@ -77,7 +77,7 @@ All cslabX machines and eniac see the same directories for your account. That me
   
 Now that you are logged into a Linux machine in the lab you can remotely compile and run your program with g++ (see the next section).  
   
-To learn more about logging in remotely, using Linux, following the lab rules, and dealing with possible issues, read the [CS Lab FAQ](comp_sci_faq.pdf).  
+To learn more about logging in remotely, using Linux, following the lab rules, and dealing with possible issues, go to the [Linux accounts instuctions page](http://compsci.hunter.cuny.edu/~csdir/) read the [CS Lab FAQ](comp_sci_faq.pdf).  
   
 ---  
   
