@@ -5,12 +5,14 @@ title: CSCI 235 MAIN PAGE
 
 **[CSCI 235 &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; CITY UNIVERSITY OF NEW YORK](2020_summer.html)**  
   
-[**CSCI 235 Syllabus**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Gradescope**](https://www.gradescope.com/courses/122702){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Programming Guidelines**](programming_guidelines.html){:target="_blank"}
+[**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[**GRADESCOPE**](https://www.gradescope.com/courses/122702){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"}
  
-**Lecture**  &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate  
+**LECTURE**  &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate  
 Monday, Tuesday, Wednesday, Thursday 9:50 - 11:24 AM on BlackBoard Collaborate  
 
-**Help with Projects** &nbsp; Nigel Ferrer &nbsp; Nigel.Ferrer64@myhunter.cuny.edu  
+**HELP WITH PAROJECTS** &nbsp; Nigel Ferrer &nbsp; Nigel.Ferrer64@myhunter.cuny.edu  
 Monday, Tuesday, Wednesday, Thursday 1 - 2:30 PM &nbsp; on BlackBoard Collaborate 
     
 **COURSE OUTLINE**  
