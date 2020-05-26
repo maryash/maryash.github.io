@@ -5,7 +5,7 @@ title: 235 SYLLABUS
 
 **[CSCI 235 &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2020_summer.html)**  
   
-**INSTRUCTOR** &nbsp; Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate.  
+**INSTRUCTOR** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate.  
   
 **TEXTBOOK** (optional)  
 Data Abstraction and Problem Solving with C++: Walls and Mirrors, 7th Edition, Frank M. Carrano, ISBN-13 978-0134463971. Older editions or comparable textbooks may also be used.  
@@ -66,9 +66,10 @@ In compliance with the CUNY Policy on Sexual Misconduct, Hunter College reaffirm
   
 a. Sexual Violence: Students are strongly encouraged to immediately report the incident by calling 911, contacting NYPD Special Victims Division Hotline (646-610-7272) or their local police precinct, or contacting the College’s Public Safety Office (212-772-4444).  
   
-b. All Other Forms of Sexual Misconduct: Students are also encouraged to contact the College’s Title IX Campus Coordinator, Dean John Rose (jtrose@hunter.cuny.edu or 212-650-3262) or Colleen Barry (colleen.barry@hunter.cuny.edu or 212-772-4534) and seek complimentary services through the Counseling and Wellness Services Office, Hunter East 1123. CUNY Policy on Sexual Misconduct Link: [http://www.cuny.edu/about/administration/offices/la/Policy-on-SexualMisconduct-12-1-14-with-links.pdf](http://www.cuny.edu/about/administration/offices/la/Policy-on-SexualMisconduct-12-1-14-with-links.pdf)  
+b. All Other Forms of Sexual Misconduct: Students are also encouraged to contact the College’s Title IX Campus Coordinator, Dean John Rose (jtrose@hunter.cuny.edu or 212-650-3262) or Colleen Barry (colleen.barry@hunter.cuny.edu or 212-772-4534) and seek complimentary services through the Counseling and Wellness Services Office, Hunter East 1123. CUNY Policy on Sexual Misconduct:  
+[http://www.cuny.edu/about/administration/offices/la/Policy-on-SexualMisconduct-12-1-14-with-links.pdf](http://www.cuny.edu/about/administration/offices/la/Policy-on-SexualMisconduct-12-1-14-with-links.pdf)  
   
-<---  
+<!---  
   
 TUTORING   
 There are dedicated computer lab for this course: HUNTER NORTH 1001B. It is staffed with tutors, who are there to help you. Please take advantage of them. You can ask for help with labs, projects, and general course material Monday through Friday from 11:00 AM to 6:00 PM.   
