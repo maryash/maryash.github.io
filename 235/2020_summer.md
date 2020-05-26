@@ -5,10 +5,10 @@ title: CSCI 235 MAIN PAGE
 
 **[CSCI 235 &nbsp; &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](2020_summer.html)**  
   
-[**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-[**GRADESCOPE**](https://www.gradescope.com/courses/122702){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-[**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"}
- 
+[**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[**GRADESCOPE**](https://www.gradescope.com/courses/122702){:target="_blank"}  
+  
 **LECTURE** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
 Monday, Tuesday, Wednesday, Thursday 9:50 - 11:24 AM on BlackBoard Collaborate &nbsp; office hours by appointment
 
