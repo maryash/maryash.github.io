@@ -1,0 +1,68 @@
+---
+layout: myDefault 
+title: CSCI 235 MAIN PAGE 
+---  
+
+**[CSCI 235 &nbsp; &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
+  
+[**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[**GRADESCOPE**](https://www.gradescope.com/courses/122702){:target="_blank"}  
+  
+**LECTURE** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
+Monday, Tuesday, Wednesday, Thursday 9:50 - 11:24 AM on BlackBoard Collaborate &nbsp; office hours by appointment
+
+**HELP WITH PAROJECTS** &nbsp; Nigel Ferrer &nbsp; Nigel.Ferrer64@myhunter.cuny.edu  
+Monday, Tuesday, Wednesday, Thursday 1 - 2:30 PM on BlackBoard Collaborate 
+    
+**COURSE OUTLINE**  
+  
+ DATE | TOPIC | READING:&nbsp;Brief&nbsp;C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | DUE&nbsp;DATES 
+ :---: | :---: | --- | :---: | ---: 
+ 5/26 | WELCOME | INTRO | [Syllabus](syllabus.html){:target="_blank"}<br/>[Programming Guidelines](programming_guidelines.html){:target="_blank"} | **[E1.7](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/64[;vnd.vst.idref=bc3e_ch01-20]!/4[bc3e_ch01-20]/2/22/2@0:0 "E1.7 Write a program that asks the user for three items, such as the names of your three best friends or favorite movies, and prints them on three separate lines."){:target="_blank"} &nbsp; 1/29**<br/>**[LAB&nbsp;1&nbsp; Intro to Linux and to C++](labs/lab_01.html){:target="_blank"}&nbsp;&nbsp;&nbsp;2/2** 
+ 5/27 | Abstraction | OOP | [Chapter 1 Data Abstraction](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/30%5B%3Bvnd.vst.idref%3DP70010119250000000000000000005D9%5D!/4/2%5BP70010119250000000000000000005D9%5D/2/2%5BP7001011925000000000000000009091%5D/4%400:0){:target="_blank"}<br/>[Appendix B](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/450%5B%3Bvnd.vst.idref%3DP7001011925000000000000000006BC2%5D!/4/2%5BP7001011925000000000000000006BC2%5D/2/2%5BP700101192500000000000000000E4E6%5D/4%400:0){:target="_blank"} | [1.5](slides/1.5 Analyzing Your First Program.pdf){:target="_blank"}<br/>[1.6](slides/1.6 Errors.pdf){:target="_blank"}<br/>[1.7](slides/1.7 PS Algorithm Design.pdf){:target="_blank"} 
+  
+---  
+  
+<!---  
+  
+**Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.wiley.com/en-us/Brief+C%2B%2B%3A+Late+Objects%2C+3rd+Edition-p-9781119400424){:target="_blank"} – please rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material! 
+  
+
+--->  
+  
+  
+<style>  
+table {
+    border-collapse: collapse;
+}
+table, td, th {
+    text-align: left;
+    padding: 5px;
+    border: 1px solid #dee1e4;
+}
+tr:nth-child(even) {background-color: #fafafa;}
+tr:nth-child(odd) {background-color: #ffffff;}
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+a:link {
+    text-decoration: none;
+    color: #0000BF;
+}
+a:visited {
+    text-decoration: none;
+    color: #0000BF;
+}
+a:hover {
+    text-decoration: none;
+    color: #0000FF;
+}
+a:active {
+    text-decoration: none;
+    color: #00007F;
+}
+</style>
