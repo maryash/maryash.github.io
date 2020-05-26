@@ -5,9 +5,6 @@ title: 235 SYLLABUS
 
 **[CSCI 235 &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2020_summer.html)**  
   
-CSCI 235 SOFTWARE ANALYSIS & DESIGN 2
-Monday, Tuesday, Wednesday, Thursday 9:50 — 11:24, BlackBoard Collaborate  
-  
 INSTRUCTOR  
 Genady Maryash gmaryash@hunter.cuny.edu; office hours by appointment on BlackBoard Collaborate.   
   
@@ -18,6 +15,8 @@ NOTE: If you choose not to use the suggested textbook, you are still responsible
 OTHER RESOURCES  
 [Open Data Structures in C++ opendatastructures.org](http://opendatastructures.org/_)  
 [Prof. Stewart Weiss’ notes](http://www.compsci.hunter.cuny.edu/~sweiss/ course_materials/csci235/csci235_lecture_notes.php)  
+[Linux on Windows Tutorial](https://okunhardt.github.io/documents/Installing_WSL.pdf)  
+    
   
 COURSE OBJECTIVES  
 This course is the second in a three-course series, and it is a major stepping-stone in your software development journey. The primary focus of this course is the design and analysis of algorithms and abstract data types. To this end it introduces elementary data structures with related algorithms and their use in problem solving. The course also covers core computer science concepts such as abstraction, algorithm complexity, performance analysis and the tradeoffs between running time, storage size, clarity and extensibility that are at the core of software design. As a sequel to CSCI 135 it will also enhance your programming skills in C++ and Object Oriented Programming by introducing new tools such as Templates, Inheritance, Polymorphism, extend your understanding of pointers and dynamic memory allocation.  
