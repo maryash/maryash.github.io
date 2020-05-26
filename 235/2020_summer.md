@@ -22,12 +22,13 @@ title: CSCI 235 MAIN PAGE
   
 ---  
   
-<---  
+<!---  
   
 **Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.wiley.com/en-us/Brief+C%2B%2B%3A+Late+Objects%2C+3rd+Edition-p-9781119400424){:target="_blank"} – please rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material! 
   
 
 --->  
+  
   
 <style>  
 table {
