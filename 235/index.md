@@ -1,12 +1,6 @@
-  
-<!---  
-  
-**Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.wiley.com/en-us/Brief+C%2B%2B%3A+Late+Objects%2C+3rd+Edition-p-9781119400424){:target="_blank"} – please rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material! 
-  
 
---->  
-  
-  
+   
+   
 <style>  
 table {
     border-collapse: collapse;
@@ -41,12 +35,13 @@ a:active {
     color: #00007F;
 }
 </style>
-  
 ---
-layout: myDefault 
+layout: myDefault  
 title: CSCI 135/136 MAIN PAGE 
 ---  
-
+<!---  
+**Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.wiley.com/en-us/Brief+C%2B%2B%3A+Late+Objects%2C+3rd+Edition-p-9781119400424){:target="_blank"} – please rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material! 
+--->
   
 **[CSCI 235 &nbsp; &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  CSCI 235 MAIN PAGE
   
