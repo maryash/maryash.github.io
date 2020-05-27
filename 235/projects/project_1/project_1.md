@@ -9,7 +9,7 @@ Your objective for this project is to implement an OOP architecture for catalogi
 
 ### Some additional resources:
 - Multi-File Compilation  
-[project_1_files/SeparateCompilation.pdf](project_1_files/SeparateCompilation.pdf){:target="_blank"}  
+[project_1_files/SeparateCompilation.pdf](SeparateCompilation.pdf){:target="_blank"}  
 [https://www.cs.fsu.edu/myers/c++/notes/compilation.html](https://www.cs.fsu.edu/myers/c++/notes/compilation.html){:target="_blank"}    
 [https://stackoverflow.com/questions/3202136/using-g-to-compile-multiple-cpp-and-h-files](https://stackoverflow.com/questions/3202136/using-g-to-compile-multiple-cpp-and-h-files){:target="_blank"}
 - Includes
@@ -30,8 +30,8 @@ Your objective for this project is to implement an OOP architecture for catalogi
 You must separate the interface from the implementation, and thus the contents of each class’s respective `.hpp` and `.cpp` file are different. Implement this project’s classes based on the following specifications (FUNCTION PROTOTYPES AND MEMBER VARIABLE NAMES MUST MATCH EXACTLY). This project consists mostly of accessor functions. Recall that accessor functions are used to access private data members, and they simply return the member that they access.
 
 ## Necessary Files
-[Produce.hpp](starter_code/Produce.hpp){:target="_blank"}
-[Produce.hpp](starter_code/Produce.hpp){:target="_blank"}
+[Produce.hpp](Produce.hpp){:target="_blank"}
+[test_data.zip](test_data.zip){:target="_blank"}
 
 
 
