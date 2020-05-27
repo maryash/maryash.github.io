@@ -9,10 +9,10 @@ Your objective for this project is to implement an OOP architecture for catalogi
 
 ### Some additional resources:
 - Multi-File Compilation  
-[project_1_files/SeparateCompilation.pdf](SeparateCompilation.pdf){:target="_blank"}  
+[SeparateCompilation.pdf](SeparateCompilation.pdf){:target="_blank"}  
 [https://www.cs.fsu.edu/myers/c++/notes/compilation.html](https://www.cs.fsu.edu/myers/c++/notes/compilation.html){:target="_blank"}    
 [https://stackoverflow.com/questions/3202136/using-g-to-compile-multiple-cpp-and-h-files](https://stackoverflow.com/questions/3202136/using-g-to-compile-multiple-cpp-and-h-files){:target="_blank"}
-- Includes
+- Includes  
 [http://www.cplusplus.com/forum/articles/10627/](http://www.cplusplus.com/forum/articles/10627/){:target="_blank"}
 - Basic Inheritance  
 [https://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/](https://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/){:target="_blank"}
