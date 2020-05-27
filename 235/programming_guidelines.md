@@ -25,8 +25,8 @@ This will produce an executable file named myprogram. To run the compiled progra
 `./myprogram`  
 Alternatively, if you compile the program without giving the output file name (leaving out the command option -o myprogram), the executable file will be called a.out, which you can execute the same way:  
 `./a.out`  
-Please note that all programming project submissions must compile and run with g++ without issue on the Linux lab machines on the 10th floor of Hunter North. These computers provide a common platform to evaluate program execution, free of issues related to OS or IDE. You should always confirm that your assignment code successfully compiles and executes on these machines before submitting to Gradescope. You have all been given accounts on these machines. If you receive an email about a new linux account, follow instructions. If you already have an account you will not receive an email and must [reclaim](comp_sci_faq.pdf) your account by the due date.  
-If you are working on Windows, follow this [Installing Windows Subsystem for Linux](https://okunhardt.github.io/documents/Installing_WSL.pdf) tutorial. If you are working on Mac you can access the terminal in Applications/Utilities. If you are working in Linux a terminal is also available.  
+Please note that all programming project submissions must compile and run with g++ without issue on the Linux lab machines on the 10th floor of Hunter North. These computers provide a common platform to evaluate program execution, free of issues related to OS or IDE. You should always confirm that your assignment code successfully compiles and executes on these machines before submitting to Gradescope. You have all been given accounts on these machines. If you receive an email about a new linux account, follow instructions. If you already have an account you will not receive an email and must [reclaim](files/comp_sci_faq.pdf){:target="_blank"} your account by the due date.  
+If you are working on Windows, follow this [Installing Windows Subsystem for Linux](https://okunhardt.github.io/documents/Installing_WSL.pdf){:target="_blank"} tutorial. If you are working on Mac you can access the terminal in Applications/Utilities. If you are working in Linux a terminal is also available.  
   
 ### A Review of Some Shell Commands  
 You need to know just a few commands to work comfortably in a Unix terminal:  
@@ -50,8 +50,8 @@ You need to know just a few commands to work comfortably in a Unix terminal:
  `man command` | documentation about the command 
   
 **Some Useful References:**    
-[Unix Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html)  
-[Command Line Ninja](https://lifehacker.com/5743814/become-a-commandline-ninja-with-these-time-saving-shortcuts)    
+[Unix Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html){:target="_blank"}  
+[Command Line Ninja](https://lifehacker.com/5743814/become-a-commandline-ninja-with-these-time-saving-shortcuts){:target="_blank"}    
 
 ### Remote Login to the Lab Machines  
 To upload your programs on one of the cslab machines you can use sftp in order to transfer your code to eniac. First navigate to the local directory where the files you want to upload are. Then to sftp to the sever type:  
@@ -77,7 +77,7 @@ All cslabX machines and eniac see the same directories for your account. That me
   
 Now that you are logged into a Linux machine in the lab you can remotely compile and run your program with g++ (see the next section).  
   
-To learn more about logging in remotely, using Linux, following the lab rules, and dealing with possible issues, go to the [Linux accounts instuctions page](http://compsci.hunter.cuny.edu/~csdir/) and read the [CS Lab FAQ](files/comp_sci_faq.pdf).  
+To learn more about logging in remotely, using Linux, following the lab rules, and dealing with possible issues, go to the [Linux accounts instuctions page](http://compsci.hunter.cuny.edu/~csdir/){:target="_blank"} and read the [CS Lab FAQ](files/comp_sci_faq.pdf){:target="_blank"}.  
   
 ---  
   
