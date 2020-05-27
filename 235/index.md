@@ -41,13 +41,14 @@ a:active {
     color: #00007F;
 }
 </style>
-
----
-layout: myDefault
-title: CSCI 235 MAIN PAGE  
----
   
-**[CSCI 235 &nbsp; &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
+---
+layout: myDefault 
+title: CSCI 135/136 MAIN PAGE 
+---  
+
+  
+**[CSCI 235 &nbsp; &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  CSCI 235 MAIN PAGE
   
 [**SYLLABUS**](syllabus.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
