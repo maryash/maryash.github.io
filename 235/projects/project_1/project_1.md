@@ -10,28 +10,25 @@ Your objective for this project is to implement an OOP architecture for catalogi
 ### Some additional resources:
 - Multi-File Compilation  
 [SeparateCompilation.pdf](SeparateCompilation.pdf){:target="_blank"}  
-[https://www.cs.fsu.edu/myers/c++/notes/compilation.html](https://www.cs.fsu.edu/myers/c++/notes/compilation.html){:target="_blank"}    
 [https://stackoverflow.com/questions/3202136/using-g-to-compile-multiple-cpp-and-h-files](https://stackoverflow.com/questions/3202136/using-g-to-compile-multiple-cpp-and-h-files){:target="_blank"}
 - Includes  
 [http://www.cplusplus.com/forum/articles/10627/](http://www.cplusplus.com/forum/articles/10627/){:target="_blank"}
 - Basic Inheritance  
 [https://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/](https://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/){:target="_blank"}
 - Namespaces  
-[http://www.cplusplus.com/doc/oldtutorial/namespaces/](http://www.cplusplus.com/doc/oldtutorial/namespaces/){:target="_blank"}  
-[https://www.tutorialspoint.com/cplusplus/cpp namespaces.htm](https://www.tutorialspoint.com/cplusplus/cpp namespaces.htm){:target="_blank"}
+[http://www.cplusplus.com/doc/oldtutorial/namespaces/](http://www.cplusplus.com/doc/oldtutorial/namespaces/){:target="_blank"}
 - Enums  
 [https://www.geeksforgeeks.org/enumerated-types-or-enums-in-c](https://www.geeksforgeeks.org/enumerated-types-or-enums-in-c){:target="_blank"}  
 [https://docs.microsoft.com/en-us/cpp/cpp/enumerations-cpp?view=vs-2019](https://docs.microsoft.com/en-us/cpp/cpp/enumerations-cpp?view=vs-2019){:target="_blank"}
-
-### Basic File I/O
+- Basic File I/O
 [https://www.geeksforgeeks.org/basic-input-output-c/](https://www.geeksforgeeks.org/basic-input-output-c/){:target="_blank"}
 
 ### Implementation
 You must separate the interface from the implementation, and thus the contents of each class’s respective `.hpp` and `.cpp` file are different. Implement this project’s classes based on the following specifications (FUNCTION PROTOTYPES AND MEMBER VARIABLE NAMES MUST MATCH EXACTLY). This project consists mostly of accessor functions. Recall that accessor functions are used to access private data members, and they simply return the member that they access.
 
-### Necessary Files
-[Produce.hpp](Produce.hpp){:target="_blank"}  
-[test_data.zip](test_data.zip){:target="_blank"}
+### Required Files
+[**Produce.hpp**](Produce.hpp){:target="_blank"}  
+[**test_data.zip**](test_data.zip){:target="_blank"}
 
 ## Task 1
 Modify the file, `Produce.hpp`, to define the class Produce. Then, implement it. Produce must contain the following attributes:
