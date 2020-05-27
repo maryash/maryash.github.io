@@ -9,18 +9,19 @@ Your objective for this project is to implement an OOP architecture for catalogi
 
 ### Some additional resources:
 - Multi-File Compilation  
-https://www.cs.fsu.edu/ myers/c++/notes/compilation.html  
-https://stackoverflow.com/questions/3202136/using-g-to-compile-multiple-cpp-and-h-files
+[project_1_files/SeparateCompilation.pdf](project_1_files/SeparateCompilation.pdf)  
+[https://www.cs.fsu.edu/myers/c++/notes/compilation.html](https://www.cs.fsu.edu/myers/c++/notes/compilation.html)  
+[https://stackoverflow.com/questions/3202136/using-g-to-compile-multiple-cpp-and-h-files](https://stackoverflow.com/questions/3202136/using-g-to-compile-multiple-cpp-and-h-files)
 - Includes
-http://www.cplusplus.com/forum/articles/10627/
+[http://www.cplusplus.com/forum/articles/10627/](http://www.cplusplus.com/forum/articles/10627/)
 - Basic Inheritance  
-https://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/  
+[https://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/](https://www.learncpp.com/cpp-tutorial/112-basic-inheritance-in-c/)
 - Namespaces  
-http://www.cplusplus.com/doc/oldtutorial/namespaces/  
-https://www.tutorialspoint.com/cplusplus/cpp namespaces.htm
+[http://www.cplusplus.com/doc/oldtutorial/namespaces/](http://www.cplusplus.com/doc/oldtutorial/namespaces/)  
+[https://www.tutorialspoint.com/cplusplus/cpp namespaces.htm](https://www.tutorialspoint.com/cplusplus/cpp namespaces.htm)
 - Enums  
-https://www.geeksforgeeks.org/enumerated-types-or-enums-in-c  
-https://docs.microsoft.com/en-us/cpp/cpp/enumerations-cpp?view=vs-2019
+[https://www.geeksforgeeks.org/enumerated-types-or-enums-in-c](https://www.geeksforgeeks.org/enumerated-types-or-enums-in-c)  
+[https://docs.microsoft.com/en-us/cpp/cpp/enumerations-cpp?view=vs-2019](https://docs.microsoft.com/en-us/cpp/cpp/enumerations-cpp?view=vs-2019)
 
 ### Basic File I/O
 https://www.geeksforgeeks.org/basic-input-output-c/
