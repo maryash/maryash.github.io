@@ -29,11 +29,9 @@ Your objective for this project is to implement an OOP architecture for catalogi
 ### Implementation
 You must separate the interface from the implementation, and thus the contents of each class’s respective `.hpp` and `.cpp` file are different. Implement this project’s classes based on the following specifications (FUNCTION PROTOTYPES AND MEMBER VARIABLE NAMES MUST MATCH EXACTLY). This project consists mostly of accessor functions. Recall that accessor functions are used to access private data members, and they simply return the member that they access.
 
-## Necessary Files
+### Necessary Files
 [Produce.hpp](Produce.hpp){:target="_blank"}  
 [test_data.zip](test_data.zip){:target="_blank"}
-
-
 
 ## Task 1
 Modify the file, `Produce.hpp`, to define the class Produce. Then, implement it. Produce must contain the following attributes:
