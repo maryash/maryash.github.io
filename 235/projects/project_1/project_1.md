@@ -20,7 +20,7 @@ Your objective for this project is to implement an OOP architecture for catalogi
 - Enums  
 [https://www.geeksforgeeks.org/enumerated-types-or-enums-in-c](https://www.geeksforgeeks.org/enumerated-types-or-enums-in-c){:target="_blank"}  
 [https://docs.microsoft.com/en-us/cpp/cpp/enumerations-cpp?view=vs-2019](https://docs.microsoft.com/en-us/cpp/cpp/enumerations-cpp?view=vs-2019){:target="_blank"}
-- Basic File I/O
+- Basic File I/O  
 [https://www.geeksforgeeks.org/basic-input-output-c/](https://www.geeksforgeeks.org/basic-input-output-c/){:target="_blank"}
 
 ### Implementation
