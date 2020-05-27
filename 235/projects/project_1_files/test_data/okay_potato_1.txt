@@ -1,0 +1,2 @@
+Name  | Weight | Price Per Pound | Is Organic | Is Pre Packaged | Ripeness | Condition | Vegetable Type
+potato  20       .48               1            1                 1          0           6     
