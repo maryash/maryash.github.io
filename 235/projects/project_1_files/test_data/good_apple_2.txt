@@ -1,2 +1,0 @@
-Name | Weight | Price Per Pound | Is Organic | Is Pre Packaged | Ripeness | Condition | Is Pitted | Has Peelable Skin | Has Rind | Has Edible Seeds
-apple  12.6     1.18              1            0                 1          1           0           0                   0          0            
