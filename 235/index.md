@@ -1,13 +1,9 @@
 ---
-layout: myDefault  
-title: CSCI 135/136 MAIN PAGE 
----  
+layout: myDefault
+title: CSCI 235 MAIN PAGE
+---
 
-<!---  
-**Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.wiley.com/en-us/Brief+C%2B%2B%3A+Late+Objects%2C+3rd+Edition-p-9781119400424){:target="_blank"} – please rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material! 
---->
-  
-**[CSCI 235 &nbsp; &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  CSCI 235 MAIN PAGE
+**[CSCI 235 &nbsp; &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
   
 [**SYLLABUS**](syllabus.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -31,4 +27,6 @@ Monday, Tuesday, Wednesday, Thursday 1 - 2:30 PM on BlackBoard Collaborate
 
 ---  
   
+
+   
 <style>table{border-collapse: collapse;}table, td, th {text-align: left;padding:5px;border: 1px solid #dee1e4;}tr:nth-child(even) {background-color: #fafafa;}tr:nth-child(odd) {background-color: #ffffff;}hr.style-six{border: 0;height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1);border-bottom: 1px solid rgba(255, 255, 255, 0.3);}a:link{text-decoration: none;color: #0000BF;}a:visited{text-decoration:none;color: #0000BF;}a:hover {text-decoration: none;color:#0000FF;}a:active {text-decoration:none;color:#00007F;}</style>
