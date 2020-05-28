@@ -108,13 +108,13 @@ In a file entitled `Solution.cpp`, define namespace `solution: { ... }` that con
   
 The following strings correspond to the expected return values of `shouldIBuyThis()`:  
   
-”Yes, you should buy this &nbsp;&lt; product name &gt;&nbsp; because it is &nbsp;&lt; product ripeness &gt;&nbsp; and &nbsp;&lt; product condition &gt;&nbsp;”.
+”Yes, you should buy this &nbsp;&lt;&nbsp;product&nbsp;name&nbsp;&gt;&nbsp; because it is &nbsp;&lt;&nbsp;product&nbsp;ripeness &gt;&nbsp;&nbsp; and &nbsp;&nbsp;&lt;&nbsp;product&nbsp;condition&nbsp;&gt;&nbsp;”.
 This should be returned under the condition that the item is either ripe and undamaged or underripe and undamaged.  
     
-”It is not the best idea to buy this &nbsp;&lt; product name &gt;&nbsp; because it is &nbsp;&lt; product ripeness &gt;&nbsp; and &nbsp;&lt; product condition &gt;&nbsp;".  
+”It is not the best idea to buy this &nbsp;&lt;&nbsp;product&nbsp;name&nbsp;&gt;&nbsp; because it is &nbsp;&lt;&nbsp;product&nbsp;ripeness&nbsp;&gt;&nbsp; and &nbsp;&lt;&nbsp;product&nbsp;condition&nbsp;&gt;&nbsp;".  
 This should be returned under the condition that the item is either ripe and damaged or underripe and damaged.  
   
-”No, you should not buy this<product name> because it is <product ripeness> and <product condition>”.  
+”No, you should not buy this &nbsp;&lt;&nbsp;product&nbsp;name&nbsp;&gt;&nbsp; because it is &nbsp;&lt;&nbsp;product&nbsp;ripeness&nbsp;&gt;&nbsp; and &nbsp;&nbsp;&lt;&nbsp;product&nbsp;condition&nbsp;&gt;&nbsp;””.  
 This should be returned under the condition that the item is either overripe and undamaged or overripe and damaged. 
       
 ### Testing
