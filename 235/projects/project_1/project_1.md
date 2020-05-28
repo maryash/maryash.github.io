@@ -34,7 +34,7 @@ You must separate the interface from the implementation, and thus the contents o
 Modify the file, `Produce.hpp`, to define the class Produce. Then, implement it. Produce must contain the following attributes:
 ```
 class Produce public members:
-      Produce(const std::string& in file)
+      Produce(const std::string& in_file)
       std::string getName() const
       double getWeight() const
       double getPricePerPound() const
@@ -62,7 +62,7 @@ class Produce private members:
 Define and implement two child classes of Produce, Fruit and Vegetables. The Fruit class must contain the following attributes:
 ```
 class Fruit public members:
-      Fruit(const std::string &in file)
+      Fruit(const std::string &in_file)
       bool getPitted()
       bool getPeelableSkin()
       bool getRind()
@@ -77,11 +77,11 @@ class Fruit private members:
 The Vegetable class must contain the following attributes:
 ```
 class Vegetable public members:  
-      Vegetable(const std::string &in file)
+      Vegetable(const std::string &in_file)
       string getVeggieType()
       
 class Vegetable public members: 
-      int veggie type
+      int veggie_type
 ```
 ### Notes & Suggestions
 - The respective parameterized constructors for both the Fruit and Vegatable classes must also read in files of the format provided. As Fruit and Vegetable inherit from Produce, the Produce constructor should be called before any additional initialization.  
