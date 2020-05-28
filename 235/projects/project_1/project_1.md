@@ -108,7 +108,7 @@ In a file entitled `Solution.cpp`, define namespace `solution: { ... }` that con
   
 The following strings correspond to the expected return values of `shouldIBuyThis()`:  
   
-”Yes, you should buy this <product name> because it is <product ripeness> and <product condition>”.
+”Yes, you should buy this &lt;product name&gt; because it is <product ripeness> and <product condition>”.
 This should be returned under the condition that the item is either ripe and undamaged or underripe and undamaged.  
     
 ”It is not the best idea to buy this <product name> because it is <product ripeness> and <product condition>".  
@@ -122,7 +122,7 @@ How to compile:
 `g++ Vegetable.cpp Produce.cpp Fruit.cpp <main file> -std=c++17`  
   
 How to test `shouldIBuyThis()` in your main file:  
-`Produce *product = new Fruit(<in file>);` 
+`Produce *product = new Fruit(<in file>);`
 `std::cout << solution::shouldIBuyThis(product) << std::endl;`  
   
 You must always implement and test you programs **INCREMENTALLY**!!!  
