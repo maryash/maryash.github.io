@@ -85,11 +85,11 @@ class Vegetable public members:
 ```
 ### Notes & Suggestions
 - The respective parameterized constructors for both the Fruit and Vegatable classes must also read in files of the format provided. As Fruit and Vegetable inherit from Produce, the Produce constructor should be called before any additional initialization.  
-- The Vegetable class requires you to define an enum that corresponds to vegetable type prior to the definition of the Vegetable class. It is good practice to do so in a namespace. Follow this example:
+- The Vegetable class requires you to define an `enum` that corresponds to vegetable type prior to the definition of the `Vegetable class`. It is good practice to do so in a namespace. Follow this example:
 ```
 namespace categories
 {
-   enum VegieCategories
+   enum veggie_categories
    {
       ALLIUM = 0;
       CRUCIFEROUS = 1;
