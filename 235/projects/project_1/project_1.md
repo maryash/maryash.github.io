@@ -80,7 +80,7 @@ class Vegetable public members:
       Vegetable(const std::string &in_file)
       string getVeggieType()
       
-class Vegetable public members: 
+class Vegetable private members: 
       int veggie_type
 ```
 ### Notes & Suggestions
@@ -89,16 +89,7 @@ class Vegetable public members:
 ```
 namespace categories
 {
-   enum veggie_categories
-   {
-      ALLIUM = 0;
-      CRUCIFEROUS = 1;
-      EDIBLE_STEM = 2;
-      LEAFY_GREEN = 3;
-      LEGUME = 4;
-      MARROW = 5;
-      ROOT = 6;
-   };
+   enum veggie_categories {ALLIUM = 0, CRUCIFEROUS = 1, EDIBLE_STEM = 2, LEAFY_GREEN = 3, LEGUME = 4, MARROW = 5, ROOT = 6};
 }
 ```
 - `getVeggieType()` must return the lowercase string name of the type of vegetable to which veggie type corresponds.
