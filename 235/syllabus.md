@@ -8,10 +8,10 @@ title: 235 SYLLABUS
 **INSTRUCTOR** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate.  
   
 **TEXTBOOK**   
-[**Data Abstraction and Problem Solving with C++: Walls and Mirrors**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, 7th Edition [**eText**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, Frank M. Carrano, ISBN-13 978-0134463971. Must be rented ($39) or puchased ($59) from [**Vitalsource.com**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"} in order for the chapter links to work!  
+[**Data Abstraction and Problem Solving with C++: Walls and Mirrors**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, 7th Edition [**eText**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, Frank M. Carrano, ISBN-13 978-0134463971. Must be rented ($39) or purchased ($59) from [**Vitalsource.com**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"} in order for the chapter links to work!  
   
 **OTHER RESOURCES**  
-[Open Data Structures in C++ opendatastructures.org](http://opendatastructures.org/_){:target="_blank"}  
+[Open Data Structures in C++ opendatastructures.org](http://opendatastructures.org/){:target="_blank"}  
 [Prof. Stewart Weiss’ notes](http://www.compsci.hunter.cuny.edu/~sweiss/ course_materials/csci235/csci235_lecture_notes.php){:target="_blank"}  
 [Linux on Windows Tutorial: okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf){:target="_blank"}  
   
