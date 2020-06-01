@@ -7,9 +7,8 @@ title: 235 SYLLABUS
   
 **INSTRUCTOR** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate.  
   
-**TEXTBOOK** (optional)  
-Data Abstraction and Problem Solving with C++: Walls and Mirrors, 7th Edition, Frank M. Carrano, ISBN-13 978-0134463971. Older editions or comparable textbooks may also be used.  
-NOTE: If you choose not to use the suggested textbook, you are still responsible for reading about the topics covered in the assigned chapters, wherever you may choose to read about it.  
+**TEXTBOOK**   
+**Data Abstraction and Problem Solving with C++: Walls and Mirrors**, 7th Edition **eText**, Frank M. Carrano, ISBN-13 978-0134463971. Must be rented or puchased from [Vitalsource](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"} in order for the chapter links to work! $39 / $59. 
   
 **OTHER RESOURCES**  
 [Open Data Structures in C++ opendatastructures.org](http://opendatastructures.org/_){:target="_blank"}  
