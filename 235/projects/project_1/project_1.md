@@ -90,9 +90,9 @@ The Vegetable class requires you to define an `enum` that corresponds to vegetab
 ```
 namespace categories
 {
-   enum veggie_categories {ALLIUM = 0, CRUCIFEROUS = 1, 
-                           EDIBLE_STEM = 2, LEAFY_GREEN = 3, 
-                           LEGUME = 4, MARROW = 5, ROOT = 6};
+   enum veggie_categories { ALLIUM = 0, CRUCIFEROUS = 1, 
+                            EDIBLE_STEM = 2, LEAFY_GREEN = 3, 
+                            LEGUME = 4, MARROW = 5, ROOT = 6 };
 }
 ```
 `getVeggieType()` must return the lowercase string name of the type of vegetable to which veggie type corresponds.
