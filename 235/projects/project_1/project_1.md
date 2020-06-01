@@ -90,11 +90,12 @@ The Vegetable class requires you to define an `enum` that corresponds to vegetab
 ```
 namespace categories
 {
-   enum veggie_categories {ALLIUM = 0, CRUCIFEROUS = 1, EDIBLE_STEM = 2, LEAFY_GREEN = 3, 
+   enum veggie_categories {ALLIUM = 0, CRUCIFEROUS = 1, 
+                           EDIBLE_STEM = 2, LEAFY_GREEN = 3, 
                            LEGUME = 4, MARROW = 5, ROOT = 6};
 }
 ```
-- `getVeggieType()` must return the lowercase string name of the type of vegetable to which veggie type corresponds.
+`getVeggieType()` must return the lowercase string name of the type of vegetable to which veggie type corresponds.
 
 ## Task 3
 In a file entitled `Solution.cpp`, define namespace `solution: { ... }` that contains a method called `std::string shouldIBuyThis(Produce * product)`, which, given an arbitrary Produce, Fruit, or Vegetable object, returns a message that, depending upon the ripeness and condition of that item, tells you whether to purchase it.  
