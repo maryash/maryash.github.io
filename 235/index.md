@@ -13,8 +13,10 @@ title: CSCI 235 MAIN PAGE
 Monday, Tuesday, Wednesday, Thursday 9:50 - 11:24 AM on BlackBoard Collaborate  
 
 **HELP WITH PAROJECTS** &nbsp; Nigel Ferrer &nbsp; Nigel.Ferrer64@myhunter.cuny.edu  
-Monday, Tuesday, Wednesday, Thursday 1 - 2:30 PM on BlackBoard Collaborate 
-    
+Monday, Tuesday, Wednesday, Thursday 1 - 2:30 PM on BlackBoard Collaborate  
+  
+**TEXTBOOK** &nbsp; [**Data Abstraction and Problem Solving with C++: Walls and Mirrors**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, 7th Edition [**eText**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, Frank M. Carrano, ISBN-13 978-0134463971. Must be rented ($39) or puchased ($59) from [**Vitalsource.com**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"} in order for the chapter links to work!  
+  
 **COURSE OUTLINE**  
   
  DATE | TOPIC | READING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | ASSIGNMENTS 
