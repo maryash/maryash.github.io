@@ -29,7 +29,7 @@ Monday, Tuesday, Wednesday, Thursday 1 - 2:30 PM on BlackBoard Collaborate
  6/1 | ADTs,&nbsp;Templates,<br/>Array&nbsp;Implementation | [Chapters&nbsp;3.1&nbsp;and](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/86%5B%3Bvnd.vst.idref%3DP7001011925000000000000000001247%5D!/4/6%400:0){:target="_blank"}<br/>[3.2&nbsp;Array&nbsp;Implementation](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/88%5B%3Bvnd.vst.idref%3DP700101192500000000000000000128D%5D!/4/2%5BP700101192500000000000000000128D%5D/2/2%5BP7001011925000000000000000009B14%5D/2%400:0){:target="_blank"} | [ADTs&nbsp;&&nbsp;Templates](slides/04_adt_templates.pdf){:target="_blank"}<br/>[ArrayBag](slides/05_array_bag.pdf){:target="_blank"} | 
  6/2 | Pointers | [C++&nbsp;Interlude&nbsp;2](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/98%5B%3Bvnd.vst.idref%3DP700101192500000000000000000151A%5D!/4/2%5BP700101192500000000000000000151A%5D/2/2%5BP7001011925000000000000000009D22%5D/4%400:0){:target="_blank"} | [Pointers](slides/06_Pointers.pdf){:target="_blank"} | 
  6/3 | Link-Based<br/>Implementation | [Pointers,&nbsp;etc.&nbsp;Tutorial](https://www.ntu.edu.sg/home/ehchua/programming/cpp/cp4_pointerreference.html){:target="_blank"}<br/>[Chapter&nbsp;4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/110%5B%3Bvnd.vst.idref%3DP7001011925000000000000000001798%5D!/4/2%5BP7001011925000000000000000001798%5D/2/2%5BP7001011925000000000000000009F33%5D/4%400:0){:target="_blank"} | [LinkedBag](slides/07_LinkedBag.pdf){:target="_blank"} |  
- 6/4 |  |  | [Copy Constructor](slides/08_Copy_Constructor.pdf){:target="_blank"} | 
+ 6/4 | Copy Constructor |  | [Copy Constructor](slides/08_Copy_Constructor.pdf){:target="_blank"} | 
   
 
 ---  
