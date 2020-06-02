@@ -5,10 +5,15 @@ title: 235 SYLLABUS
 
 **[CSCI 235 &nbsp; &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
   
-**INSTRUCTOR** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate.  
+**INSTRUCTOR**  
+**Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate.  
   
-**TEXTBOOK**   
+**TEXTBOOK**  
 [**Data Abstraction and Problem Solving with C++: Walls and Mirrors**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, 7th Edition [**eText**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, Frank M. Carrano, ISBN-13 978-0134463971. Must be rented ($39) or purchased ($59) from [**Vitalsource.com**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"} in order for the chapter links to work!  
+  
+**SOURCE CODE FROM TEXTBOOK AND SLIDES**  
+[**TextbookSourceCode.zip**](files/TextbookSourceCode.zip)
+
   
 **OTHER RESOURCES**  
 [Open Data Structures in C++ opendatastructures.org](http://opendatastructures.org/){:target="_blank"}  
