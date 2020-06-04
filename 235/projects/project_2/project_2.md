@@ -6,7 +6,7 @@ title: PROJECT 2
 # Project 2: &nbsp; Dynamically Resizable Array
 ![](array_memory.png)  
   
-Your objective for this project is to implement a dynamically resizable array data structure in order to effectively store objects of the classes that you created in the previous project. As you did in Project&nbsp;1, you will use separate compilation with g++ to link multiple classes into one executable. In order to successfully complete this project, you **must** understand the prerequisite material from Project&nbsp;1 and you **must** understand the concept of an abstract data type, how template classes work, the steps of the quicksort algorithm, dynamic memory allocation, recursion, friend functions, and operator overloads. If you are not absolutely comfortable with all of this, please seek help immediately: contact me or our UTA, Nigel.
+Your objective for this project is to implement a dynamically resizable array data structure in order to effectively store objects of the classes that you created in the previous project. As you did in Project&nbsp;1, you will use separate compilation with g++ to link multiple classes into one executable. In order to successfully complete this project, you **must** understand the prerequisite material from Project&nbsp;1 and you **must** understand the concept of an abstract data type, how template classes work, dynamic memory allocation, recursion, friend functions, and operator overloads. If you are not absolutely comfortable with all of this, please seek help immediately: contact me or our UTA, Nigel.
 
 ### Some additional resources:
 
@@ -18,10 +18,6 @@ Your objective for this project is to implement a dynamically resizable array da
 [C++ Documentation Reference](http://www.cplusplus.com/doc/oldtutorial/templates/)  
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm)  
 Note: Recall that because the type of a class or function template is determined at compile time given the context of its use, you **cannot** compile the template class’s .cpp file. The .cpp file contains a **general** version of that class or function, which has no meaning in the absence of a context.
-
-- The Quicksort Algorithm  
-[Abdul Bari Video](https://www.youtube.com/watch?v=7h1s2SojIRw)  
-[Khan Academy Reference](https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort)
 
 - Dynamic Memory Allocation  
 [C++ Documentation Reference](http://www.cplusplus.com/doc/tutorial/dynamic/)  
@@ -55,7 +51,7 @@ arr2 <- {1, 2, 3, _}		         //capacity == 4
 arr2.remove(3)
 arr2 == {1, 2}			             //capacity == 2
 ```
-## Task 1
+## Your Task:
 Modify the `DynamicArray.cpp` file to implement the following methods. I highly suggest that you complete them in the presented order. The prototypes below have already been written for you:
 
 ### i )
@@ -114,6 +110,8 @@ T DynamicArray<T>::operator[](const size_t &index)
 ```
 which returns the item at the given index.  
 
+<!---  
+  
 ## Task 2
 Create a file, `Solution.cpp`. In that file create a namespace `solution { … }`. This file should include `DynamicArray.hpp`, `Produce.hpp`, `Vegetable.hpp`, and `Fruit.hpp` (thus, your main test file need only to include `Solution.cpp`). Within the solution namespace implement two methods:
 
@@ -134,7 +132,9 @@ Hint: lexicographical ordering, which in this context is alphabetical ordering, 
 ```
 a < b < c < d < e < … < z
 ```  
-Thus, for this portion of the project you are truly only sorting based on the <= comparison operator between the string names of each object within the dynamic array.
+Thus, for this portion of the project you are truly only sorting based on the <= comparison operator between the string names of each object within the dynamic array.  
+
+--->
 
 ## Testing
 **How to compile:**  
