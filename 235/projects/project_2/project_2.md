@@ -23,10 +23,6 @@ Note: Recall that because the type of a class or function template is determined
 [C++ Documentation Reference](http://www.cplusplus.com/doc/tutorial/dynamic/)  
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_dynamic_memory.htm)
 
-- Recursion  
-[C++ Documentation Reference](http://www.cplusplus.com/articles/D2N36Up4/)  
-[Programiz Reference](https://www.programiz.com/cpp-programming/recursion)
-
 - Friend Functions  
 [SoftwareTestingHelp Reference](https://www.softwaretestinghelp.com/friend-functions-in-cpp/)  
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_friend_functions.htm)
@@ -39,7 +35,7 @@ Note: Recall that because the type of a class or function template is determined
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
 
 ### Definition
-Let a dynamically resizable array be an array whose maximum capacity increases by a factor of 2 in the event that an insertion is attempted when it is already at maximum capacity and whose maximum capacity decreases by a factor of 2 then the number of elements within it drops below half of its maximum capacity.  For axample: 
+Let a dynamically resizable array be an array whose maximum capacity increases by a factor of 2 in the event that an insertion is attempted when it is already at maximum capacity and whose maximum capacity decreases by a factor of 2, when the number of elements within it drops below half of its maximum capacity.  For axample: 
 ```
 arr1 <- {1, 2, 3, 4}             //capacity == 4
 arr1.add(5)
@@ -138,7 +134,7 @@ Thus, for this portion of the project you are truly only sorting based on the <=
 
 ## Testing
 **How to compile:**  
-`g++ Vegetable.cpp Produce.cpp Fruit.cpp <main file> -std=c++17`  
+`g++ <main file> -std=c++17`  
 You must always implement and test you programs **INCREMENTALLY**!!!  
 What does this mean? Implement and test one method at a time.  
 **For each class:**  
