@@ -34,7 +34,7 @@ Please check this page regularly for announcements, updates, lecture notes and s
 I hope you will enjoy the programming projects! There will be six programming projects.  You will have a week will to complete each project. Every program must comply with the [Programming Guidelines](programming_guidelines.html){:target="_blank"}. You **must read** this document, it contains guidelines about submission, lateness, plagiarism, grading and logging into your Linux accounts.  
   
 **COURSE FINAL GRADE COMPOSITION**  
-13% for each of the six projects (together they are the most important part of your grade), 6% lecture activities, and 16% final exam. 
+10% for each of the six projects (together they are the most important part of your grade), 10% lecture activities, 10% study questions, and 20% final exam. 
   
 **QUESTIONS**  
 Ask as many as you need during lecture!  You may get additional help with your project from our tutor.  
