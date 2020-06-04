@@ -138,7 +138,7 @@ Thus, for this portion of the project you are truly only sorting based on the <=
 
 ## Testing
 **How to compile:**  
-`g++ Vegetable.cpp Produce.cpp Fruit.cpp &ltmain file&gt -std=c++17`  
+`g++ Vegetable.cpp Produce.cpp Fruit.cpp <main file> -std=c++17`  
 You must always implement and test you programs **INCREMENTALLY**!!!  
 What does this mean? Implement and test one method at a time.  
 **For each class:**  
@@ -155,8 +155,8 @@ A submission that implements all required classes and/or functions but does not 
   
 ### Submission
 You will submit **the following files**:  
-`DynamicArray.cpp`  
-`Solution.cpp`  
+`DynamicArray.cpp`
+<!--- `Solution.cpp` --->
   
 Your project must be submitted on Gradescope. Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging and it should not be used for that. You MUST test and debug your program locally. Before submitting to Gradescope you MUST ensure that your program compiles (with g++) and runs correctly on the Linux machines in the labs at Hunter (see detailed instructions on how to upload, compile and run your files in the “Programming Rules” document). That is your baseline, if it runs correctly there it will run correctly on Gradescope, and if it does not, you will have the necessary feedback (compiler error messages, debugger or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above you submit it to Gradescope.  
   
