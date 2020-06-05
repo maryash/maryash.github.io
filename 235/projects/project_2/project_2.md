@@ -47,11 +47,12 @@ arr2 <- {1, 2, 3, _}		         //capacity == 4
 arr2.remove(3)
 arr2 == {1, 2}			             //capacity == 2
 ```
+  
 ### Required Files
 [starter_code.zip](starter_code.zip){:target="_blank"}  
 [test_data.zip](test_data.zip){:target="_blank"}
 
-## Task:
+## Task
 Modify the `DynamicArray.cpp` file to implement the following methods. I highly suggest that you complete them in the presented order. The prototypes below have already been written for you:
 
 ### i )
