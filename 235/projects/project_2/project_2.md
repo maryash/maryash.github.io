@@ -11,25 +11,25 @@ Your objective for this project is to implement a dynamically resizable array da
 ### Some additional resources:
 
 - Abstract Data Types  
-[Geeks for Geeks Reference](https://www.geeksforgeeks.org/abstract-data-types)  
-[MIT Reference](http://web.mit.edu/6.005/www/fa14/classes/08-abstract-data-types/)
+[Geeks for Geeks Reference](https://www.geeksforgeeks.org/abstract-data-types){:target="_blank"}  
+[MIT Reference](http://web.mit.edu/6.005/www/fa14/classes/08-abstract-data-types/){:target="_blank"}
 
 - Template Classes  
-[C++ Documentation Reference](http://www.cplusplus.com/doc/oldtutorial/templates/)  
-[Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm)  
-Note: Recall that because the type of a class or function template is determined at compile time given the context of its use, you **cannot** compile the template class’s .cpp file. The .cpp file contains a **general** version of that class or function, which has no meaning in the absence of a context.
+[C++ Documentation Reference](http://www.cplusplus.com/doc/oldtutorial/templates/){:target="_blank"}  
+[Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm){:target="_blank"}  
+Note: Recall that because the type of a class or function template is determined at compile time given the context of its use, you **cannot** compile the template class’s `.cpp` file. The `.cpp` file contains a **general** version of that class or function, which has no meaning in the absence of a context.
 
 - Dynamic Memory Allocation  
-[C++ Documentation Reference](http://www.cplusplus.com/doc/tutorial/dynamic/)  
-[Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_dynamic_memory.htm)
+[C++ Documentation Reference](http://www.cplusplus.com/doc/tutorial/dynamic/){:target="_blank"}  
+[Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_dynamic_memory.htm){:target="_blank"}
 
 - Friend Functions  
-[SoftwareTestingHelp Reference](https://www.softwaretestinghelp.com/friend-functions-in-cpp/)  
-[Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_friend_functions.htm)
+[SoftwareTestingHelp Reference](https://www.softwaretestinghelp.com/friend-functions-in-cpp/){:target="_blank"}  
+[Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_friend_functions.htm){:target="_blank"}
 
 - Operator Overloads  
-[C++ Documentation Reference](https://en.cppreference.com/w/cpp/language/operators)  
-[Caltech Reference](http://users.cms.caltech.edu/~donnie/cs11/cpp/cpp-ops.html)
+[C++ Documentation Reference](https://en.cppreference.com/w/cpp/language/operators){:target="_blank"}  
+[Caltech Reference](http://users.cms.caltech.edu/~donnie/cs11/cpp/cpp-ops.html){:target="_blank"}
 
 ### Implementation
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
@@ -47,7 +47,11 @@ arr2 <- {1, 2, 3, _}		         //capacity == 4
 arr2.remove(3)
 arr2 == {1, 2}			             //capacity == 2
 ```
-## Your Task:
+### Required Files
+[starter_code.zip](starter_code.zip){:target="_blank"}  
+[test_data.zip](test_data.zip){:target="_blank"}
+
+## Task:
 Modify the `DynamicArray.cpp` file to implement the following methods. I highly suggest that you complete them in the presented order. The prototypes below have already been written for you:
 
 ### i )
