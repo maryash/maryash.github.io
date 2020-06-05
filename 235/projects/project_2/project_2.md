@@ -151,7 +151,7 @@ Write your own `main()` function to test your classes. In this course you will n
   
 ### Grading Rubrics
 **Correctness 80%** (distributed across unit testing of your submission)  
-**Important:** You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and address them with us **well before** the deadline, so that we have time to get back to you **before** the deadline.  This means that you must submit and resubmit your project code EARLY and OFTEN, so that there is time to resolve any issues that might come up **before** the project deadline.  
+**Important:** You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and address them with us **well before** the deadline, so that we have time to get back to you **before** the deadline.  This means that you must submit and resubmit your project code **early** and **often**, so that there is time to resolve any issues that might come up **before** the project deadline.  
 There will be **no negotiation about project grades after the deadline**.  
 **Documentation 10%**  
 **Style and Design 10%** (proper naming, modularity, and organization)  
