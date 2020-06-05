@@ -48,6 +48,7 @@ arr2.remove(3)
 arr2 == {1, 2}			             //capacity == 2
 ```  
   
+  
 ### Required Files
 [starter_code.zip](starter_code.zip){:target="_blank"}  
 [test_data.zip](test_data.zip){:target="_blank"}
