@@ -46,7 +46,7 @@ arr2.remove(4)
 arr2 <- {1, 2, 3, _}		         //capacity == 4
 arr2.remove(3)
 arr2 == {1, 2}			             //capacity == 2
-```
+```  
   
 ### Required Files
 [starter_code.zip](starter_code.zip){:target="_blank"}  
