@@ -17,7 +17,7 @@ Your objective for this project is to implement a dynamically resizable array da
 - Template Classes  
 [C++ Documentation Reference](http://www.cplusplus.com/doc/oldtutorial/templates/){:target="_blank"}  
 [Tutorialspoint Reference](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm){:target="_blank"}  
-Note: Recall that because the type of a class or function template is determined at compile time given the context of its use, you **cannot** compile the template class’s `.cpp` file. The `.cpp` file contains a **general** version of that class or function, which has no meaning in the absence of a context.
+**Note**&nbsp; Recall that because the type of a class or function template is determined at compile time given the context of its use, you **cannot** compile the template class’s `.cpp` file. The `.cpp` file contains a **general** version of that class or function, which has no meaning in the absence of a context.
 
 - Dynamic Memory Allocation  
 [C++ Documentation Reference](http://www.cplusplus.com/doc/tutorial/dynamic/){:target="_blank"}  
