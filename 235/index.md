@@ -45,8 +45,8 @@ Monday, Tuesday, Wednesday, Thursday 1 - 2:30 PM on BlackBoard Collaborate
  6/29 |  |  |  | 
  6/30 | Managed Pointers |  |  | 
  7/1 | Heaps |  |  | 
- 7/2 | Hashing |  |  | 
- 7/6 | FINAL | EAXM | 
+ 7/2 | Dictionaries and Hashing |  |  | 
+ 7/6 | FINAL | EXAM | 
   
 ---  
   
