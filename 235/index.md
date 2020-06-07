@@ -34,8 +34,20 @@ Monday, Tuesday, Wednesday, Thursday 1 - 2:30 PM on BlackBoard Collaborate
  6/9 | Exceptions | [C++&nbsp;Interlude&nbsp;3](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/162%5B%3Bvnd.vst.idref%3DP7001011925000000000000000002395%5D!/4/2%5BP7001011925000000000000000002395%5D/2/2%5BP700101192500000000000000000A90C%5D/4%400:0){:target="_blank"} | [Exceptions](slides/06_Pointers.pdf){:target="_blank"} | [SQ&nbsp;Lists&nbsp;6/14](study_questions/sq_04_lists.pdf){:target="_blank"} 
  6/10 | Polimorphism | [C++&nbsp;Interlude&nbsp;2.4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/106%5B%3Bvnd.vst.idref%3DP70010119250000000000000000016EA%5D!/4/6%400:0){:target="_blank"} | [](slides/.pdf){:target="_blank"} | 
  6/11 | Recursion | [Chapters&nbsp;2](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/62%5B%3Bvnd.vst.idref%3DP7001011925000000000000000000BEE%5D!/4/2%5BP7001011925000000000000000000BEE%5D/2/2%5BP70010119250000000000000000095A9%5D/4%400:0){:target="_blank"} | [Recursion](slides/.pdf){:target="_blank"} | 
+ 6/15 | Algorythm Efficiency |  |  | 
+ 6/16 | Searching Algorythms|  |  | 
+ 6/17 | Sorting Algorythms |  |  | 
+ 6/18 | Stacks |  |  | 
+ 6/22 |  |  |  | 
+ 6/23 | Queues |  |  | 
+ 6/24 |  |  |  | 
+ 6/25 | Trees |  |  | 
+ 6/29 |  |  |  | 
+ 6/30 | Managed Pointers |  |  | 
+ 7/1 | Heaps |  |  | 
+ 7/2 | Hashing |  |  | 
+ 7/6 | FINAL | EAXM | 
   
-
 ---  
   
 
