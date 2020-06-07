@@ -37,16 +37,16 @@ The following methods are required of your `DoublyLinkedList` class:
 //Default Constructor
 //Copy Constructor
 //Destructor
-`bool insert(const ItemType &item, const int &position)//inserts item at position in caller list`
-`bool remove(const int &position)			           //removes the node at position`
-`int getSize() const					               //returns the number of the nodes in the calling list`
-`DoubleNode<ItemType> *getHeadPtr() const              //returns a copy of the hearPtr`
-`DoubleNode<ItemType> *getAtPos(const int &pos) const  //returns a pointer to the node located at pos`
-`bool isEmpty() const                                  //returns whether the calling list is empty`
-`void clear()                                          //clears the list`
-`void display() const                                  //prints the contents of the calling list in order`
-`void displayBackwards() const                         //prints the contents of the calling list in reverse order`
-`DoublyLinkedList<ItemType> interleave(const DoublyLinkedList<ItemType> &a_list)} //returns the interleaved list of the calling and parameter lists
+bool insert(const ItemType &item, const int &position)//inserts item at position in caller list
+bool remove(const int &position)                      //removes the node at position
+int getSize() const                                   //returns the number of the nodes in the calling list
+DoubleNode<ItemType> *getHeadPtr() const              //returns a copy of the hearPtr
+DoubleNode<ItemType> *getAtPos(const int &pos) const  //returns a pointer to the node located at pos
+bool isEmpty() const                                  //returns whether the calling list is empty
+void clear()                                          //clears the list
+void display() const                                  //prints the contents of the calling list in order
+void displayBackwards() const                         //prints the contents of the calling list in reverse order
+DoublyLinkedList<ItemType> interleave(const DoublyLinkedList<ItemType> &a_list)} //returns the interleaved list of the calling and parameter lists
 ```
 
 **Interleave Example:** Define the calling list as a set of ordered nodes, `L1 = {4, 2, 8 ,5, 8}`, and define the list that is passed as a parameter as a set of ordered nodes, `L2 = {5, 1, 8, 4, 5, 9}`. `L1.interleave(L2)` yields the set `{4, 5, 2, 1, 8, 8, 5, 4, 8, 5, 9}`. In other words, to create the interleaved list, first add a node from `L1`, then one from `L2`, and then repeat as many times as necessary. If there are any nodes left over in `L1` or `L2` exclusively, append them to the end of the list.  
