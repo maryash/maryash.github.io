@@ -56,7 +56,7 @@ class Produce private members:
 ```
 ### Notes & Suggestions
 - The parameterized constructor must read in files of the format provided (see Test Data folder) and construct Produce objects given the data in that file.
-- getRipenessStr() and getConditionStr() must return the lowercase string name of the private member to which they respectively correspond.
+- `getRipenessStr()` and `getConditionStr()` must return the lowercase string name of the private member to which they respectively correspond.
 
 ## Task 2
 Define and implement two child classes of Produce, Fruit and Vegetables. The Fruit class must contain the following attributes:
@@ -102,13 +102,13 @@ In a file entitled `Solution.cpp`, define namespace `solution: { ... }` that con
   
 The following strings correspond to the expected return values of `shouldIBuyThis()`:  
   
-”Yes, you should buy this &nbsp;&lt;&nbsp;product&nbsp;name&nbsp;&gt;&nbsp; because it is &nbsp;&lt;&nbsp;product&nbsp;ripeness &gt;&nbsp;&nbsp; and &nbsp;&nbsp;&lt;&nbsp;product&nbsp;condition&nbsp;&gt;&nbsp;”.
+"Yes, you should buy this &nbsp;&lt;&nbsp;product&nbsp;name&nbsp;&gt;&nbsp; because it is &nbsp;&lt;&nbsp;product&nbsp;ripeness &gt;&nbsp;&nbsp; and &nbsp;&nbsp;&lt;&nbsp;product&nbsp;condition&nbsp;&gt;&nbsp;".
 This should be returned under the condition that the item is either ripe and undamaged or underripe and undamaged.  
     
-”It is not the best idea to buy this &nbsp;&lt;&nbsp;product&nbsp;name&nbsp;&gt;&nbsp; because it is &nbsp;&lt;&nbsp;product&nbsp;ripeness&nbsp;&gt;&nbsp; and &nbsp;&lt;&nbsp;product&nbsp;condition&nbsp;&gt;&nbsp;".  
+"It is not the best idea to buy this &nbsp;&lt;&nbsp;product&nbsp;name&nbsp;&gt;&nbsp; because it is &nbsp;&lt;&nbsp;product&nbsp;ripeness&nbsp;&gt;&nbsp; and &nbsp;&lt;&nbsp;product&nbsp;condition&nbsp;&gt;&nbsp;".  
 This should be returned under the condition that the item is either ripe and damaged or underripe and damaged.  
   
-”No, you should not buy this &nbsp;&lt;&nbsp;product&nbsp;name&nbsp;&gt;&nbsp; because it is &nbsp;&lt;&nbsp;product&nbsp;ripeness&nbsp;&gt;&nbsp; and &nbsp;&nbsp;&lt;&nbsp;product&nbsp;condition&nbsp;&gt;&nbsp;””.  
+"No, you should not buy this &nbsp;&lt;&nbsp;product&nbsp;name&nbsp;&gt;&nbsp; because it is &nbsp;&lt;&nbsp;product&nbsp;ripeness&nbsp;&gt;&nbsp; and &nbsp;&nbsp;&lt;&nbsp;product&nbsp;condition&nbsp;&gt;&nbsp;".  
 This should be returned under the condition that the item is either overripe and undamaged or overripe and damaged. 
       
 ### Testing
