@@ -19,55 +19,35 @@ Your objective for this project is to implement a Doubly-Linked List. In order t
 
 ## Task 1
 Define and implement a class `DoubleNode` that is capable of holding an item of any arbitrary type `ItemType`. As a node of a Doubly-Linked list, it should contain two pointers that respectively point to other objects of type `DoubleNode`. The following methods will be required of your DoubleNode class, but feel free to add methods as you see fit:
-```
-Default Constructor
+- Default Constructor
+- Parameterized Constructor(s)
+- `ItemType getItem() const`
+- `bool setNext(DoubleNode* ptr)`
+- `bool setPrev(DoubleNode* ptr)`
 
-Parameterized Constructor(s)
+Name your header file `DoubleNode.hpp`, and name your implementation file `DoubleNode.cpp`.
 
-ItemType getItem() const
-
-bool setNext(DoubleNode* ptr)
-
-bool setPrev(DoubleNode* ptr)
-```
-Entitle your header (.hpp) file `DoubleNode.hpp`, and entitle your implementation file (.cpp) `DoubleNode.cpp`.
-
-### Task 2 
-Define and implement a class `DoublyLinkedList` that is a demonstration of the Doubly-Linked List concept discussed in class. It should contain a head pointer to a `DoubleNode` of any arbitrary type `ItemType`, and it should contain a member that keeps track of its size. **Let `DoublyLinkedList` be 1 indexed unlike arrays, which are 0 indexed**.
-
-**Hint**: If you get stuck on the way to design `DoublyLinkedList`, refer to the Linked List implementation in the textbook. 
-
+### Task 2
+Define and implement a class `DoublyLinkedList` that is a demonstration of the Doubly-Linked List concept discussed in class. It should contain a head pointer to a `DoubleNode` of any arbitrary type `ItemType`, and it should contain a member that keeps track of its size. **Let `DoublyLinkedList` be 1 indexed unlike arrays, which are 0 indexed**.  
+  
+**Hint** If you get stuck on the way to design `DoublyLinkedList`, refer to the Linked List implementation in the textbook.  
+  
 The following methods are required of your `DoublyLinkedList` class:
+- Default Constructor
+- Copy Constructor 
+- Destructor
+- `bool insert(const ItemType &item, const int &position) //inserts item at position in caller list`
+- `bool remove(const int &position)			  //removes the node at position`
+- `int getSize() const					  //returns the number of the nodes in the calling list`
+- `DoubleNode<ItemType> *getHeadPtr() const		  //returns a copy of the hearPtr`
+- `DoubleNode<ItemType> *getAtPos(const int &pos) const   //returns a pointer to the node located at pos`
+- `bool isEmpty() const					  //returns whether the calling list is empty`
+- `void clear()						  //clears the list`
+- `void display() const					  //prints the contents of the calling list in order`
+- `void displayBackwards() const			  //prints the contents of the calling list in reverse order`
+- `DoublyLinkedList<ItemType> interleave(const DoublyLinkedList<ItemType> &a_list)} //returns the interleaved list of the calling and parameter lists`
 
-```
-Default Constructor
-
-Copy Constructor 
-
-Destructor
-
-bool insert(const ItemType &item, const int &position)	//inserts item at position in caller list
-	
-bool remove(const int &position)			//removes the node at position
-
-int getSize() const					//returns the number of the nodes in the calling list
-				
-DoubleNode<ItemType> *getHeadPtr() const		//returns a copy of the hearPtr
-
-DoubleNode<ItemType> *getAtPos(const int &pos) constc	//returns a pointer to the node located at pos
-
-bool isEmpty() const					//returns whether the calling list is empty
-
-void clear()						//clears the list
-
-void display() const					//prints the contents of the calling list in order
-
-void displayBackwards() const				//prints the contents of the calling list in reverse order
-
-DoublyLinkedList<ItemType> interleave(const DoublyLinkedList<ItemType> &a_list)}//returns the interleaved list of the calling and parameter lists
-```
-
-**Interleave Example:** Define the calling list as a set of ordered nodes, $L1 = \{4, 2, 8 ,5, 8\}$, and define the list that is passed as a parameter as a set of ordered nodes, $L2 = \{5, 1, 8, 4, 5, 9\}$. `L1.interleave(L2)` yields the set $\{4, 5, 2, 1, 8, 8, 5, 4, 8, 5, 9\}$. In other words, to create the interleaved list, first add a node from L1, then one from L2, and then repeat as many times as necessary. If there are any nodes left over in L1 or L2 exclusively, append them to the end of the list.  
+**Interleave Example:** Define the calling list as a set of ordered nodes, `L1 = \{4, 2, 8 ,5, 8\}`, and define the list that is passed as a parameter as a set of ordered nodes, `L2 = \{5, 1, 8, 4, 5, 9\}`. `L1.interleave(L2)` yields the set `\{4, 5, 2, 1, 8, 8, 5, 4, 8, 5, 9\}`. In other words, to create the interleaved list, first add a node from `L1`, then one from `L2`, and then repeat as many times as necessary. If there are any nodes left over in `L1` or `L2` exclusively, append them to the end of the list.  
   
 Name you header file`DoublyLinkedList.hpp`, and name your implementation file `DoublyLinkedList.cpp`.
 
@@ -90,11 +70,11 @@ What does this mean? Implement and test one method at a time.
 - **Important:** You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and address them with us **well before** the deadline, so that we have time to get back to you **before** the deadline.  This means that you must submit and resubmit your project code **early** and **often**, so that there is time to resolve any issues that might come up **before** the project deadline.  
 There will be **no negotiation about project grades after the submission deadline**.  
   
-### Submission:
+### Submission
 You will submit **the following files**:
-`DoubleNode.hpp`  
-`DoubleNode.cpp`  
-`DoublyLinkedList.cpp`  
-`DoublyLinkedList.hpp`  
+- `DoubleNode.hpp`  
+- `DoubleNode.cpp`
+- `DoublyLinkedList.cpp`
+- `DoublyLinkedList.hpp`
 
-Your project must be submitted on Gradescope. Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging and it should not be used for that. You MUST test and debug your program locally. Before submitting to Gradescope you MUST ensure that your program compiles (with g++) and runs correctly on the Linux machines in the labs at Hunter (see detailed instructions on how to upload, compile and run your files in the “Programming Rules” document). That is your baseline, if it runs correctly there it will run correctly on Gradescope, and if it does not, you will have the necessary feedback (compiler error messages, debugger or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above you submit it to Gradescope.  
+Your project must be submitted on Gradescope. Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging and it should not be used for that. You MUST test and debug your program locally. Before submitting to Gradescope you MUST ensure that your program compiles (with g++) and runs correctly on the Linux machines in the labs at Hunter (see detailed instructions on how to upload, compile and run your files in the [**Programming Guidelines**](programming_guidelines.html){:target="_blank"} document). That is your baseline, if it runs correctly there it will run correctly on Gradescope, and if it does not, you will have the necessary feedback (compiler error messages, debugger or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above you submit it to Gradescope.  
