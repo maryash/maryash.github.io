@@ -41,12 +41,12 @@ Monday, Tuesday, Wednesday, Thursday 1 - 2:30 PM on BlackBoard Collaborate
  6/22 |  | [Chapter&nbsp;7](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/174%5B%3Bvnd.vst.idref%3DP70010119250000000000000000025C8%5D!/4/2%5BP70010119250000000000000000025C8%5D/2/2%5BP700101192500000000000000000AAEC%5D/4%400:0){:target="_blank"} |  | 
  6/23 | Queues | [Chapter&nbsp;13](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/274%5B%3Bvnd.vst.idref%3DP7001011925000000000000000003B21%5D!/4/2%5BP7001011925000000000000000003B21%5D/2/2%5BP700101192500000000000000000BCB7%5D/4%400:0){:target="_blank"} |  | 
  6/24 |  | [Chapter&nbsp;14](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/292%5B%3Bvnd.vst.idref%3DP7001011925000000000000000003F1B%5D!/4/2%5BP7001011925000000000000000003F1B%5D/2/2%5BP700101192500000000000000000C023%5D/4%400:0){:target="_blank"} |  | 
- 6/25 | Trees |  |  | 
- 6/29 |  |  |  | 
- 6/30 | Managed Pointers |  |  | 
- 7/1 | Heaps |  |  | 
- 7/2 | Dictionaries and Hashing |  |  | 
- 7/6 | FINAL | EXAM | 
+ 6/25 | Trees | [Chapter&nbsp;15](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/310%5B%3Bvnd.vst.idref%3DP70010119250000000000000000042F9%5D!/4/2%5BP70010119250000000000000000042F9%5D/2/2%5BP700101192500000000000000000C34F%5D/4%400:0){:target="_blank"} |  | 
+ 6/29 |  | [Chapter&nbsp;16](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/324%5B%3Bvnd.vst.idref%3DP70010119250000000000000000047EF%5D!/4/2%5BP70010119250000000000000000047EF%5D/2/2%5BP700101192500000000000000000C782%5D/4%400:0){:target="_blank"} |  | 
+ 6/30 | Heaps | [Chapter&nbsp;17](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/344%5B%3Bvnd.vst.idref%3DP7001011925000000000000000004C48%5D!/4/2%5BP7001011925000000000000000004C48%5D/2/2%5BP700101192500000000000000000CB0A%5D/4%400:0){:target="_blank"} |  | 
+ 7/1 | Dictionaries and Hashing | [Chapter&nbsp;18.1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/344%5B%3Bvnd.vst.idref%3DP7001011925000000000000000004C48%5D!/4/2%5BP7001011925000000000000000004C48%5D/2/2%5BP700101192500000000000000000CB0A%5D/4%400:0){:target="_blank"}[&nbsp;&&nbsp;18.4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/344%5B%3Bvnd.vst.idref%3DP7001011925000000000000000004C48%5D!/4/2%5BP7001011925000000000000000004C48%5D/2/2%5BP700101192500000000000000000CB0A%5D/4%400:0){:target="_blank"} |  | 
+ 7/1 | Managed Pointers, STL |  |  | 
+ 7/2 | FINAL | EXAM | 
   
 ---  
   
