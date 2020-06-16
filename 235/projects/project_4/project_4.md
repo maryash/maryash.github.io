@@ -2,27 +2,29 @@
 layout: myDefault
 title: PROJECT 4
 ---
-# Project 3: &nbsp; Dynamically Resizeable Square Grids
-
+# Project 4: &nbsp; Dynamically Resizeable Square Grids
 ![Doubly-Linked List](grid.png)
-
 Your objective for this project is to implement a dynamically resizable square grid ADT that inherits from an abstract GridInterface class. In order to successfully complete this project, you **must** understand the prerequisite material from the previous projects, and you **must** understand the concept of polymorphism using abstract classes. If you are not absolutely comfortable with this topic, please seek help immediately: contact me or our UTA, Nigel.
 
 
-#### Some additional resources
+### Some additional resources
 
 [cplusplus.com](http://www.cplusplus.com/doc/tutorial/polymorphism/)  
 [CodingUnit](https://www.codingunit.com/cplusplus-tutorial-polymorphism-and-abstract-base-class)
 [Harlod Serrano](https://www.haroldserrano.com/blog/understanding-polymorphism-in-c)
 [Geeks for Geeks](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/)
 
-#### Implementation
+### Implementation
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
 
-#### Definition
+### Definition
 Let a dynamically resizable square grid be an $n$ by $n$ array whose maximum capacity is some number $m \geq n^2$ such that the square root of $m$ is an integer. In the event that an item is inserted into a grid that is already at capacity or in the event that an item is removed from a grid and the the number of occupied spaces is rendered a perfect square, the grid's maximum capacity is dynamically set to a new value for $m$ and all items of the grid are reoriented to fit into the first available positions. 
 
-### Task 
+### Required Files
+[starter_code.zip](starter_code.zip){:target="_blank"}  
+[test_data.zip](test_data.zip){:target="_blank"}
+
+## Task
 Define and implement a class `ArrayGrid` that is capable of holding items of any arbitrary type `ItemType`. This class should inherit from `GridInterface` and overload every method in `GridInterface.hpp`. Additionally, ArrayGrid will incorporate the `DynamicArray` class that you completed for project 2 as an internal storage mechanism for all the items that the grid must hold. You will have more freedom for this project than you have had for any that have come before in order for you to execute your best design ideas. Besides what you are required to write, you are free to write whatever methods or data members that you believe will help you to most efficiently solve the problem at hand. The following **public** methods are required of your `ArrayGrid` class:
 ```
 /* One Parameter Constructor */
@@ -212,7 +214,7 @@ void clear()
 
 Entitle your header (.hpp) file `ArrayGrid.hpp`, and entitle your implementation file (.cpp) `ArrayGrid.cpp`.
 
-#### Examples
+### Examples
 
 Suppose we instantiate an empty `ArrayGrid<int>` and then call `.add(0)`. The following output is that which occurs when we follow the pattern of iteratively calling display and then adding the next smallest natural number to this grid up to 5:
 ```
@@ -289,7 +291,7 @@ The following output is what occurs when we call `pop_back` and display over thi
   ---- 
 ```
 
-#### Testing
+### Testing
 How to compile:
 ```
 g++ <main file> -std=c++17
@@ -301,7 +303,7 @@ What does this mean? Implement and test one method at a time.
 * Implement the next function/method and test in the same fashion.
     **How do you do this?** Write your own `main()` function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally: i.e. implement mutator functions before accessor functions. Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible.
 
-#### Grading Rubric
+### Grading Rubric
 **Correctness 80%** (distributed across unit testing of your submission)
 **Documentation 10%**
 **Style and Design 10%** (proper naming, modularity, and organization)
@@ -309,7 +311,7 @@ What does this mean? Implement and test one method at a time.
 **Important:** You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.
 ##### There will be no negotiation about project grades after the submission deadline. #####
   
-#### Submission:
+### Submission:
 You will submit **the following files**:
 `ArrayGrid.hpp`
 `ArrayGrid.cpp`
