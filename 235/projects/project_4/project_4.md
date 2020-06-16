@@ -34,18 +34,19 @@ explicit ArrayGrid(const size_t &init_size = 1)
 virtual ~ArrayGrid()
 
 /** 
-adds a new entry to the caller
-@param new_entry the object to be added
-@post if successful, new_entry is stored in the caller and num_items_ 
-  is incremented; additionally calls resize() if num_items_ > grid_capacity
-@return true if addition was successful; false otherwise 
+  adds a new entry to the caller
+  @param new_entry the object to be added
+  @post if successful, new_entry is stored in the caller 
+    and num_items_ is incremented; additionally calls resize() 
+    if num_items_ > grid_capacity
+  @return true if addition was successful; false otherwise 
 */
 bool add(const ItemType &new_entry)
 
 /** 
-tests whether the caller contains a given entry.
-@param an_entry the entry to locate
-@return true if the caller contains an_entry; false otherwise. 
+  tests whether the caller contains a given entry.
+  @param an_entry the entry to locate
+  @return true if the caller contains an_entry; false otherwise. 
 */
 bool contains(const ItemType &an_entry) const
 
@@ -53,46 +54,45 @@ bool contains(const ItemType &an_entry) const
 bool isEmpty() const
 
 /** 
-removes the last entry from the caller
-@post if successful, the last entry has been removed from the caller
-  and num_items_ has been decremented; additionally calls resize() 
-  if sqrt(num_items_) is an integer 
-@param an_entry the entry to be removed
-@return true if removal was successful; false otherwise 
+  removes the last entry from the caller
+  @post if successful, the last entry has been removed from 
+  the caller and num_items_ has been decremented; additionally 
+  calls resize() if sqrt(num_items_) is an integer 
+  @param an_entry the entry to be removed
+  @return true if removal was successful; false otherwise 
 */
 bool pop_back()
 
 /* Accessor: items_ */
 DynamicArray<DynamicArray<ItemType>> *getItems() const
 
-
 /** 
-returns the number of times a given entry appears in the caller
-@param an_entry the entry to be counted
-@return the number of times an_entry appears in the caller
+  returns the number of times a given entry appears in the caller
+  @param an_entry the entry to be counted
+  @return the number of times an_entry appears in the caller
  */
 int getFrequencyOf(const ItemType &an_entry) const
 ```
 The following **private** methods are required of your `ArrayGrid` class:
 ```
 /** 
-resizes grid_capicity_:
-  CASE (num_items_ > grid_capacity_): 
-    grid_capacity_ <- the smallest perfect square >= num_items_
-  CASE (grid_capacity_ > num_items_ && sqrt(num_items) is an integer): 
-    grid_capacity <- num_items_
-!!!!! THIS FUNCTION MUST CALL REPOSITION !!!!!
-@post grid_capacity <- one of the aforementioned values
-@return true if resize was successful; false otherwise 
+  resizes grid_capicity_:
+    CASE (num_items_ > grid_capacity_): 
+      grid_capacity_ <- the smallest perfect square >= num_items_
+    CASE (grid_capacity_ > num_items_ && sqrt(num_items) is an integer): 
+      grid_capacity <- num_items_
+  !!!!! THIS FUNCTION MUST CALL REPOSITION !!!!!
+  @post grid_capacity <- one of the aforementioned values
+  @return true if resize was successful; false otherwise 
 */
 bool resize();
 
 /** 
-reorients the caller's items to fill as much ordered space as possible
-  when resize() is called
-@post the caller's items have been properly repositioned; the only 
-  empty space that may remain is at the end of the grid
-@return true if reposition was successful; false otherwise
+  reorients the caller's items to fill as much ordered space 
+    as possible when resize() is called
+  @post the caller's items have been properly repositioned; 
+    the only empty space that may remain is at the end of the grid
+  @return true if reposition was successful; false otherwise
 */    
 bool reposition();
 ```
@@ -105,8 +105,8 @@ size_t num_items_
 Here is a method to help you visualize your work:
 ```
 /** 
-displays grid in the required fashion requires the inclusion 
-  of <iomanip> and <iostream>
+  displays grid in the required fashion requires the inclusion 
+    of <iomanip> and <iostream>
 */
 template <class ItemType>
 void ArrayGrid<ItemType>::display(size_t const &cell_width) const {
@@ -178,8 +178,8 @@ size_t getCapacity() const
 size_t getNumItems() const
 
 /** 
-removes all entries from the caller
-@post num_items_ == 0, grid_capacity == 0
+  removes all entries from the caller
+  @post num_items_ == 0, grid_capacity == 0
 */
 void clear()
 ```
