@@ -56,8 +56,8 @@ bool isEmpty() const
 /** 
   removes the last entry from the caller
   @post if successful, the last entry has been removed from 
-  the caller and num_items_ has been decremented; additionally 
-  calls resize() if sqrt(num_items_) is an integer 
+    the caller and num_items_ has been decremented; additionally 
+    calls resize() if sqrt(num_items_) is an integer 
   @param an_entry the entry to be removed
   @return true if removal was successful; false otherwise 
 */
