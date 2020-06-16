@@ -19,7 +19,7 @@ Your objective for this project is to implement a dynamically resizable square g
 **Work incrementally!** &nbsp; Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
 
 ### Definition
-Let a dynamically resizable square grid be an $n$ by $n$ array whose maximum capacity is some number $m \geq n^2$ such that the square root of $m$ is an integer. In the event that an item is inserted into a grid that is already at capacity or in the event that an item is removed from a grid and the the number of occupied spaces is rendered a perfect square, the grid's maximum capacity is dynamically set to a new value for $m$ and all items of the grid are reoriented to fit into the first available positions. 
+Let a dynamically resizable square grid be an `n` by `n` array whose maximum capacity is some number `m >= n<sup>2</sup>` such that the square root of $m$ is an integer. In the event that an item is inserted into a grid that is already at capacity or in the event that an item is removed from a grid and the the number of occupied spaces is rendered a perfect square, the grid's maximum capacity is dynamically set to a new value for $m$ and all items of the grid are reoriented to fit into the first available positions. 
 
 ### Required Files
 [starter_code.zip](starter_code.zip){:target="_blank"}
