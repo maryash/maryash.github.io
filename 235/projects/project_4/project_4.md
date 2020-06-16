@@ -79,7 +79,8 @@ The following **private** methods are required of your `ArrayGrid` class:
   resizes grid_capicity_:
     CASE (num_items_ > grid_capacity_): 
       grid_capacity_ <- the smallest perfect square >= num_items_
-    CASE (grid_capacity_ > num_items_ && sqrt(num_items) is an integer): 
+    CASE (grid_capacity_ > num_items_ && sqrt(num_items) 
+                                                  is an integer): 
       grid_capacity <- num_items_
   !!!!! THIS FUNCTION MUST CALL REPOSITION !!!!!
   @post grid_capacity <- one of the aforementioned values
@@ -142,8 +143,9 @@ void ArrayGrid<ItemType>::display(size_t const &cell_width) const {
         if (j % 2 == 0)
           cout << "|";
         else {
-          if (grid_idx_1 < items_->getItems()->getOccupiedSpaces() && 
-              grid_idx_2 < items_->getItems()[grid_idx_1].getOccupiedSpaces()) 
+          if (grid_idx_1 < items_->getItems()->getOccupiedSpaces() 
+               && grid_idx_2 < 
+               items_->getItems()[grid_idx_1].getOccupiedSpaces()) 
           {
             cout << setw(cell_width) << right 
                  << items_->getItems()[grid_idx_1][grid_idx_2];
