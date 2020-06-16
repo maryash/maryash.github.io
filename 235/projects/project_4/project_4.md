@@ -10,14 +10,13 @@ Your objective for this project is to implement a dynamically resizable square g
 
 
 ### Some additional resources
-
-[cplusplus.com](http://www.cplusplus.com/doc/tutorial/polymorphism/)  
-[CodingUnit](https://www.codingunit.com/cplusplus-tutorial-polymorphism-and-abstract-base-class)
-[Harlod Serrano](https://www.haroldserrano.com/blog/understanding-polymorphism-in-c)
-[Geeks for Geeks](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/)
+- [cplusplus.com](http://www.cplusplus.com/doc/tutorial/polymorphism/)
+- [CodingUnit](https://www.codingunit.com/cplusplus-tutorial-polymorphism-and-abstract-base-class)
+- [Harlod Serrano](https://www.haroldserrano.com/blog/understanding-polymorphism-in-c)
+- [Geeks for Geeks](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/)
 
 ### Implementation
-**Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
+**Work incrementally!** &nbsp; Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
 
 ### Definition
 Let a dynamically resizable square grid be an $n$ by $n$ array whose maximum capacity is some number $m \geq n^2$ such that the square root of $m$ is an integer. In the event that an item is inserted into a grid that is already at capacity or in the event that an item is removed from a grid and the the number of occupied spaces is rendered a perfect square, the grid's maximum capacity is dynamically set to a new value for $m$ and all items of the grid are reoriented to fit into the first available positions. 
