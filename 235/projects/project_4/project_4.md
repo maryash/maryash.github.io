@@ -1,9 +1,11 @@
----
-layout: myDefault
-title: PROJECT 4
----
+---  
+layout: myDefault  
+title: PROJECT 2  
+---  
+
 # Project 4: &nbsp; Dynamically Resizeable Square Grids
-![Doubly-Linked List](grid.png)
+![Doubly-Linked List](grid.png)  
+  
 Your objective for this project is to implement a dynamically resizable square grid ADT that inherits from an abstract GridInterface class. In order to successfully complete this project, you **must** understand the prerequisite material from the previous projects, and you **must** understand the concept of polymorphism using abstract classes. If you are not absolutely comfortable with this topic, please seek help immediately: contact me or our UTA, Nigel.
 
 
