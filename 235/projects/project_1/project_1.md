@@ -3,7 +3,7 @@ layout: myDefault
 title: PROJECT 1  
 ---  
 
-# Project 1: &nbsp; Inheritance
+# Project 1 &nbsp; Inheritance
 ![](apple_orange_banana.png)  
 Your objective for this project is to implement an OOP architecture for cataloging produce using inheritance. You will use separate compilation with g++ to link multiple classes into one executable. In order to successfully complete this project, you must understand multi-file compilation, #includes, basic inheritance, namespaces, enums, and basic file I/O. If you are not absolutely comfortable with all of this, please seek help immediately: contact me or our UTA, Nigel.
 
