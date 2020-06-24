@@ -10,28 +10,28 @@ title: PROJECT 4
 Your objective for this project is to implement five sorting algorithms over the `DoublyLinkedList` class that you created for Project 3. In order to successfully complete this project, you **must** understand the prerequisite material from the previous projects, you **must** know what a comparator is, and you **must** understand how the bubble sort, insertion sort, quick sort, merge sort, and shell sort algorithms work. If you are not absolutely comfortable with these topics, please seek help immediately: contact me or our UTA, Nigel.
 
 ### Some additional resources
-- Comparators
+- Comparators  
 [Custom Comparison Functions](https://stackoverflow.com/questions/52984999/different-types-for-stdsort-comparator-in-c/)  
 [Less Function Object](http://www.cplusplus.com/reference/functional/less/)  
 [Greater Function Object](http://www.cplusplus.com/reference/functional/greater/)
    
-- Bubble Sort
+- Bubble Sort  
 [Brilliant](https://brilliant.org/wiki/bubble-sort/)  
 [University Academy](https://youtu.be/We8h4_rcRRw)
 
-- Insertion Sort
+- Insertion Sort  
 [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/insertion-sort/a/insertion-sort)  
 [Jenny's Lectures](https://youtu.be/yCxV0kBpA6M)
 
-- Quick Sort
+- Quick Sort  
 [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort)  
 [HackerRank](https://youtu.be/SLauY6PpjW4)
 
-- Merge Sort
+- Merge Sort  
 [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)  
 [Adbul Bari](https://youtu.be/mB5HXBb_HY8)
 
-- Shell Sort
+- Shell Sort  
 [Runestone Academy](https://runestone.academy/runestone/books/published/pythonds/SortSearch/TheShellSort.html)  
 [Rob Edwards](https://youtu.be/ddeLSDsYVp8)
 
@@ -56,10 +56,10 @@ What does this mean? Implement and test one method at a time.
 - Implement the next function/method and test in the same fashion.
 **How do you do this?** Write your own `main()` function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally: i.e. implement mutator functions before accessor functions. Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible.
 
-### Grading Rubric
-**Correctness 80%** (distributed across unit testing of your submission)
-**Documentation 10%**
-**Style and Design 10%** (proper naming, modularity, and organization)
+### Grading Rubrics
+**Correctness 80%** (distributed across unit testing of your submission)  
+**Documentation 10%**  
+**Style and Design 10%** (proper naming, modularity, and organization)  
 
 ### Important
 You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.
