@@ -3,7 +3,7 @@ layout: myDefault
 title: PROJECT 3
 ---  
 
-# Project 3: &nbsp; Doubly-Linked List
+# Project 3 &nbsp; Doubly-Linked List
 ![Doubly-Linked List](doubly.png)
 
 Your objective for this project is to implement a Doubly-Linked List. In order to successfully complete this project, you **must** understand the prerequisite material from the first and second projects, and you **must** understand the concept of a Linked List ADT. If you are not absolutely comfortable with all of this, please seek help immediately: contact me or our UTA, Nigel.
