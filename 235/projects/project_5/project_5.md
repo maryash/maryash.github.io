@@ -38,6 +38,9 @@ Your objective for this project is to implement five sorting algorithms over the
 ### Implementation
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
 
+### Required Files
+[starter_code.zip](starter_code.zip){:target="_blank"}  
+
 ## Task 
 Modify each method of the `solutions` namespace in `Solutions.cpp` to complete implementation of the requried sorting algorithms. 
 
