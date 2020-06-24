@@ -62,8 +62,8 @@ What does this mean? Implement and test one method at a time.
 **Style and Design 10%** (proper naming, modularity, and organization)  
 
 ### Important
-You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.
-#### There will be no negotiation about project grades after the submission deadline.
+You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.  
+**There will be no negotiation about project grades after the submission deadline.**
   
 ### Submission:
 You will submit **the following files**:
