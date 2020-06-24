@@ -3,7 +3,7 @@ layout: myDefault
 title: PROJECT 5  
 ---  
 
-# Project 5: &nbsp; Sorting Algorithms with Doubly&#8209;Linked Lists
+# Project 5: &nbsp; Sorting Algorithms &tab;&nbsp;&tab;&nbsp;&tab;&nbsp;&tab;&nbsp;&tab;&nbsp;with Doubly&#8209;Linked Lists
 
 ![Sort](sort.png)
 
