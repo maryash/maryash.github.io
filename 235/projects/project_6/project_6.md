@@ -3,7 +3,7 @@ layout: myDefault
 title: PROJECT 6  
 ---  
 
-# Project 6 &nbsp; nbsp; BST &nbsp;Traversal
+# Project 6 &nbsp; &nbsp; BST &nbsp;Traversal
 
 ![BST](bst.png)
 
