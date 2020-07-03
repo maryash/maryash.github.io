@@ -46,7 +46,7 @@ Monday, Tuesday, Wednesday, Thursday 1 - 2:30 PM on BlackBoard Collaborate
  6/30 | Heaps | [Chapter&nbsp;17](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/344%5B%3Bvnd.vst.idref%3DP7001011925000000000000000004C48%5D!/4/2%5BP7001011925000000000000000004C48%5D/2/2%5BP700101192500000000000000000CB0A%5D/4%400:0){:target="_blank"} | [Heaps](slides/23_heaps.pdf){:target="_blank"} | 
  7/1 | Dictionaries and Hashing | [Chapter&nbsp;18.1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/368%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005125%5D!/4/2%5BP7001011925000000000000000005125%5D/2/2%5BP700101192500000000000000000CF16%5D/2%400:0){:target="_blank"}[&nbsp;&&nbsp;18.4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/374%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005385%5D!/4/2%5BP7001011925000000000000000005385%5D/2/2%5BP700101192500000000000000000D110%5D/4%400:0){:target="_blank"} | [Dictionaries and Hashing](slides/24_dictionaries_hashing.pdf){:target="_blank"} | 
  N/A | STL | [C++&nbsp;Interlude&nbsp;8](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/428%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005DB5%5D!/4/2%5BP7001011925000000000000000005DB5%5D/2%400:0){:target="_blank"} | [STL](slides/i8_stl.pdf){:target="_blank"} | 
- 7/2 | Review | ( Hashing, Heaps, and STL are | NOT in the exam &nbsp; &nbsp; &nbsp; ) | [**Project&nbsp;6**&nbsp;**due&nbsp;7/6**](projects/project_6/project_6.html){:target="_blank"} 
+ 7/2 | Review | ( Hashing, Heaps, and STL are | NOT in the exam ) &nbsp; &nbsp; | [**Project&nbsp;6**&nbsp;**due&nbsp;7/6**](projects/project_6/project_6.html){:target="_blank"} 
  **7/6** | **2:00 PM** | **FINAL EXAM** |  | 
   
 ---  
