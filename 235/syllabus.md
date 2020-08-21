@@ -27,17 +27,17 @@ This course is the second in a three-course series, and it is a major stepping-s
 CSCI 135 and CSCI 150.  
 
 **MAIN COURSE WEBPAGE**  
-[maryash.github.io/235/2020_summer.html](https://maryash.github.io/235/index.html)  
+[maryash.github.io/235/index.html](https://maryash.github.io/235/index.html)  
 Please check this page regularly for announcements, updates, lecture notes and schedule. All course materials will be gradually posted here. 
   
 **PROGRAMMING PROJECTS**  
 I hope you will enjoy the programming projects! There will be six programming projects.  You will have a week will to complete each project. Every program must comply with the [Programming Guidelines](programming_guidelines.html){:target="_blank"}. You **must read** this document, it contains guidelines about submission, lateness, plagiarism, grading and logging into your Linux accounts.  
   
 **COURSE FINAL GRADE COMPOSITION**  
-10% for each of the six projects (together they are the most important part of your grade), 10% lecture activities, 10% study questions, and 20% final exam. 
+7% for each of the seven projects (together they are the most important part of your grade), 9% lecture activities, 9% study questions, and 33% final exam. 
   
 **QUESTIONS**  
-Ask as many as you need during lecture!  You may get additional help with your project from our tutor.  
+Ask as many as you need during lecture!  You may get additional help with your project during the daily Lab Session from 1:30 PM to 2:30 PM.  
 
 **BLACKBOARD**  
 We will use BlackBoard Collaborate synchronousely for all **lectures** as well as **help with projects**.  We will also use a BlackBoard discussion forum.  Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default).  You must regularly check my announcements on BlackBoard and your Hunter email. This is how you will receive important course-related communication.  
