@@ -12,9 +12,9 @@ title: CSCI 235 MAIN PAGE
 **LECTURE** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
 Monday, Wednesday, Thursday 12:10 PM - 1:00 PM on BlackBoard Collaborate  
 
-**HELP WITH PAROJECTS** &nbsp; Project Help Team &nbsp; 
+**HELP WITH PAROJECTS** &nbsp; Project Help Team  
 Monday, Tuesday, Wednesday, Thursday, and Friday 1:30 PM - 2:30 PM on BlackBoard Collaborate  
- &nbsp; You must submit your questions the day before here: &nbsp; https://forms.gle/tv39oy3brf76HjRS7  
+You must submit your questions the day before at this link: &nbsp; https://forms.gle/tv39oy3brf76HjRS7  
   
 **TEXTBOOK** &nbsp; [**Data Abstraction and Problem Solving with C++: Walls and Mirrors**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, 7th Edition [**eText**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, Frank M. Carrano, ISBN-13 978-0134463971. Must be rented ($39) or purchased ($59) from [**Vitalsource.com**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"} in order for the chapter links to work!  
   
