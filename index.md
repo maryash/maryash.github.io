@@ -16,3 +16,5 @@ title: Genady Maryash, Hunter College
 
   [CSCI 235 SUMMER 2020](235/index.html)   
   
+  [CSCI 235 FALL 2020](235/index.html)   
+  
