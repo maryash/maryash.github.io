@@ -17,7 +17,7 @@ Your objective for this project is to implement a Doubly-Linked List. In order t
 ### Implementation
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
 
-## Task 1
+### Task 1
 Define and implement a class `DoubleNode` that is capable of holding an item of any arbitrary type `ItemType`. As a node of a Doubly-Linked list, it should contain two pointers that respectively point to other objects of type `DoubleNode`. The following methods will be required of your DoubleNode class, but feel free to add methods as you see fit:
 - Default Constructor
 - Parameterized Constructor(s)
