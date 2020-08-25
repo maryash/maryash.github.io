@@ -39,9 +39,11 @@ I hope you will enjoy the programming projects! There will be six programming pr
 **QUESTIONS**  
 Ask as many as you need during lecture!  You may get additional help with your project during the daily Lab Session from 1:30 PM to 2:30 PM.  
 
-**BLACKBOARD**  
-We will use BlackBoard Collaborate synchronousely for all **lectures** as well as **help with projects**.  We will also use a BlackBoard discussion forum.  Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default).  You must regularly check my announcements on BlackBoard and your Hunter email. This is how you will receive important course-related communication.  
-  
+**BLACKBOARD COLLABORATE**  
+We will use BlackBoard Collaborate synchronousely for all **lectures** as well as all **lab sessions for help with projects**.  We will also use BlackBoard for all exams.  Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default).  You must regularly check my announcements on BlackBoard and your Hunter email. This is how you will receive important course-related communication.  
+**IMPORTANT:** Students who participate in this class with their camera on or use a profile image are agreeing to have their video or image recorded solely for the
+purpose of creating a record for students enrolled in the class to refer to, including those enrolled students who are unable to attend live. If you are unwilling to consent to have your profile or video image recorded, be sure to keep your camera off and do not use a profile image. Likewise, students who un-mute during class and participate orally are agreeing to have their voices recorded. If you are not willing to consent to have your voice recorded during class, you will need to keep your mute button activated and communicate exclusively using the "chat" feature, which allows students to type questions and comments live.
+
 **GRADESCOPE**  
 You will submit all projects electronically through Gradescope. You will see your grades (including exam grades) on Gradescope as well. An invite email was sent to you before the first lecture. If you have not received it, ask to send you another one: you will need to email him or her your full name, EMPLID, and a working email address. 
 
