@@ -1,18 +1,15 @@
----
-layout: myDefault
-title: PROJECT 0
----
+---  
+layout: myDefault  
+title: PROJECT 5  
+---  
 
-<center> 
-<h1>Project 0: Taking off the Training Wheels</h1> 
+# Project 0: Taking off the Training Wheels</h1> 
 
 ![Training Wheel](./training_wheels.jpeg)
-</center>
 
 The objective of this project is to refresh your knowledge of class objects and enums from CSCI 135. This will require you to implement a class, `Bicycle`, in addition to its private and public member functions, which will be specified in a further section of this document. In order to successfully complete this project, we strongly recommend that you look back to your CSCI 135 coursework as a reference. **You have already been given `Bicycle.hpp`; all that you must do is create and successfully write `Bicycle.cpp`.**
 
-
-#### Implementation
+### Implementation
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class. 
 
 ---
@@ -137,7 +134,7 @@ float ride(float duration);
 
 ---
 
-#### Testing
+### Testing
 How to compile:
 ```
 g++ <test main file> -std=c++17
@@ -148,16 +145,16 @@ What does this mean? Implement and test one method at a time.
 * Implement the next function/method and test in the same fashion.
     **How do you do this?** Write your own `main()` function to test your class. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally: i.e. implement mutator functions before accessor functions. Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible.
 
-#### Grading Rubric
-
+### Grading Rubric
 **Correctness 80%** (distributed across unit testing of your submission)
 **Documentation 10%**
 **Style and Design 10%** (proper naming, modularity, and organization)
 
-**Important:** You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.
-##### There will be no negotiation about project grades after the submission deadline. #####
+### Important:
+You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.
+**There will be no negotiation about project grades after the submission deadline.**
   
-#### Submission:
+### Submission:
 You will submit **the following files**:
 `Bicycle.cpp`
 
