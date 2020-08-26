@@ -37,7 +37,7 @@ I hope you will enjoy the programming projects! There will be six programming pr
 7% for each of the seven projects (together they are the most important part of your grade), 7% all lecture activities, 7% all study questions, 7% each of the two midterms, and 23% the final exam. 
   
 **QUESTIONS**  
-Ask as many as you need during lecture!  You may get additional help with your project during the daily Lab Session from 1:30 PM to 2:30 PM.  
+Ask as many as you need during lecture!  You may get additional help with your project during the daily Lab Session from 1:15 PM to 2:15 PM.  
 
 **BLACKBOARD COLLABORATE**  
 We will use BlackBoard Collaborate synchronousely for all **lectures** as well as all **lab sessions for help with projects**.  We will also use BlackBoard for all exams.  Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default).  You must regularly check my announcements on BlackBoard and your Hunter email. This is how you will receive important course-related communication.  
