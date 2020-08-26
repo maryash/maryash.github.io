@@ -1,6 +1,6 @@
 ---  
 layout: myDefault  
-title: PROJECT 5  
+title: PROJECT 0  
 ---  
 
 # Project 0 &nbsp; Taking off the Training Wheels  
@@ -21,15 +21,15 @@ You are given [`Bicycle.hpp`](./Bicycle.hpp).  You must create and successfully 
 Implement the following default and parameterized constructors:
 
 ```
-Bicycle();             //initialize all private members besides                       
-                       //curr_pedal_intensity_, b_type, and seat_height_ to 0
-                       // b_type_ <- a random bike type
-                       // curr_pedal_intensity_ <- bike_details::NONE
-                       // seat_height_ <- 30
+Bicycle();         //initialize all private members besides                       
+                   //curr_pedal_intensity_, b_type, and seat_height_ to 0
+                   // b_type_ <- a random bike type
+                   // curr_pedal_intensity_ <- bike_details::NONE
+                   // seat_height_ <- 30
 
 
-Bicycle(int kind_of_bike); /*initialize all members besides b_type_ to the values 
-                             that they take on in the default contructor */
+Bicycle(int kind_of_bike); // initialize all members besides b_type_ to the 
+                       //values that they take on in the default contructor
                            // b_type_ <- kind_of_bike
 ```
 
@@ -44,9 +44,10 @@ Implement following getter functions:
 
 ```
 /**
-    return the string that corresponds to the curr_direction_ that the caller faces relative 
-        to a cartesian plane; assume that the caller is at position (0,0), the degree 
-        measure of (1, 0) is 0 degrees, and the degree measure of (-1, 0) is 180 degrees 
+    return the string that corresponds to the curr_direction_ that the 
+        caller faces relative to a cartesian plane; assume that the caller 
+        is at position (0,0), the degree measure of (1, 0) is 0 degrees, 
+        and the degree measure of (-1, 0) is 180 degrees 
     
     "North" == 90
     0 < "Northeast" < 90 
@@ -78,8 +79,9 @@ void setSeatHeight(int inches);    // seat_height_
 
 /** 
     updates direction_
-    @param degrees: -360 <= degrees <= 360, and if the user enters a number 
-        outside of these bounds adjust @param degrees to be within this range
+    @param degrees: -360 <= degrees <= 360, and if the 
+        user enters a number outside of these bounds 
+        adjust @param degrees to be within this range
 */
 void turn(float degrees);
 ```
@@ -93,9 +95,11 @@ Implement the following `private` method:
 
 ```
 /**
-    alters curr_speed_ depending on curr_speed_, curr_pedal_intensity_, and b_type_
-
-    USE THE FOLLOWING FORMULA: [ (pedal intensity) / 8 ] + [ (bike type) * 17.64 ]
+    alters curr_speed_ depending on curr_speed_, 
+        curr_pedal_intensity_, and b_type_
+        
+    USE THE FOLLOWING FORMULA: 
+        [(pedal intensity) / 8] + [(bike type) * 17.64]
 */
 void updateSpeed();
 ```
@@ -110,18 +114,21 @@ void updateSpeed();
 Implement the following public method:
 ```
 /**
-   if the current intensity is not HIGH increase it by one level and call calculateSpeed()
+   if the current intensity is not HIGH,
+       increase it by one level and call calculateSpeed()
 */
 void pedal();
 
 /**
-   if the current intensity is not NONE decrease it by one level and call calculateSpeed()
+   if the current intensity is not NONE,
+       decrease it by one level and call calculateSpeed()
 */
 void brake();
 
 /**
-    given curr_speed_, curr_pedal_intensity_, b_type_, and @param float duration,
-        calculate the distance traveled during the specified time;
+    given curr_speed_, curr_pedal_intensity_, b_type_, 
+        and @param float duration, calculate the 
+        distance traveled during the specified time;
         increment distance_traveled_ by this amount
     @param float duration: time traveled
     @return: updated distance_traveled_
