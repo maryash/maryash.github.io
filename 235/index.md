@@ -7,7 +7,7 @@ title: CSCI 235 MAIN PAGE
   
 [**SYLLABUS**](syllabus.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-[**GRADESCOPE**](https://www.gradescope.com/courses/122702){:target="_blank"}  
+[**GRADESCOPE**](https://www.gradescope.com/courses/155598 "Entry Code 9GRRD8"){:target="_blank"}  
   
 **LECTURE** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
 Monday, Wednesday, Thursday 12:10 PM - 1:00 PM on BlackBoard Collaborate  
