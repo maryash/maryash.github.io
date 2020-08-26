@@ -115,13 +115,13 @@ Implement the following public method:
 ```
 /**
    if the current intensity is not HIGH,
-       increase it by one level and call calculateSpeed()
+       increase it by one level and call updateSpeed()
 */
 void pedal();
 
 /**
    if the current intensity is not NONE,
-       decrease it by one level and call calculateSpeed()
+       decrease it by one level and call updateSpeed()
 */
 void brake();
 
