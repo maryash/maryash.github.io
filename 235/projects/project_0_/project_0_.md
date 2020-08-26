@@ -99,7 +99,7 @@ Implement the following `private` method:
         curr_pedal_intensity_, and b_type_
         
     USE THE FOLLOWING FORMULA: 
-        [(pedal intensity) / 8] + [(bike type) * 17.64]
+        [ (pedal intensity) / 8 ] * (bike type) + [ (pedal intensity) / 8 + (bike type) ]
 */
 void updateSpeed();
 ```
