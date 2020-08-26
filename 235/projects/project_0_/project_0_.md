@@ -3,8 +3,7 @@ layout: myDefault
 title: PROJECT 5  
 ---  
 
-# Project 0: Taking off the Training Wheels</h1> 
-
+# Project 0: Taking off the Training Wheels 
 ![Training Wheel](./training_wheels.jpeg)
 
 The objective of this project is to refresh your knowledge of class objects and enums from CSCI 135. This will require you to implement a class, `Bicycle`, in addition to its private and public member functions, which will be specified in a further section of this document. In order to successfully complete this project, we strongly recommend that you look back to your CSCI 135 coursework as a reference. **You have already been given `Bicycle.hpp`; all that you must do is create and successfully write `Bicycle.cpp`.**
