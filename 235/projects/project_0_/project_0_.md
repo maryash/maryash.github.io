@@ -3,9 +3,9 @@ layout: myDefault
 title: PROJECT 5  
 ---  
 
-# Project 0: Taking off the Training Wheels 
-![Training Wheel](./training_wheels.jpeg)
-
+# Project 0 &nbsp; Taking off the Training Wheels  
+![Training Wheel](./training_wheels.jpeg)  
+  
 The objective of this project is to refresh your knowledge of class objects and enums from CSCI 135. This will require you to implement a class, `Bicycle`, in addition to its private and public member functions, which will be specified in a further section of this document. In order to successfully complete this project, we strongly recommend that you look back to your CSCI 135 coursework as a reference. **You have already been given `Bicycle.hpp`; all that you must do is create and successfully write `Bicycle.cpp`.**
 
 ### Implementation
@@ -26,9 +26,9 @@ Bicycle();             //initialize all private members besides
                        // seat_height_ <- 30
 
 
-Bicycle(int kind_of_bike);      /* initialize all members besides b_type_ to the values that 
-                                    they take on in the default contructor */
-                                // b_type_ <- kind_of_bike
+Bicycle(int kind_of_bike); /*initialize all members besides b_type_ to the values 
+                             that they take on in the default contructor */
+                           // b_type_ <- kind_of_bike
 ```
 
 *Hint*: Use rand() from the `<stdlib.h>` library to produce random values.
@@ -57,35 +57,34 @@ Implement following getter functions:
 */
 std::string getDirection();
 
-string getBikeType();                               // string version of b_type_
+string getBikeType();        // string version of b_type_
 
-int getSeatHeight();                                // seat_height_
+int getSeatHeight();         // seat_height_
 
-float getSpeed();                                   // curr_speed_
+float getSpeed();            // curr_speed_
 
-float getDistanceTraveled();                        // distance_traveled_
+float getDistanceTraveled(); // distance_traveled_
 
-int getIntensity();                                 // curr_pedal_intensity_
+int getIntensity();          // curr_pedal_intensity_
 ```
 
 Implement the following `public` methods:
 
 ```
-void setSeatHeight(int inches);                     // seat_height_
+void setSeatHeight(int inches);    // seat_height_
 
 /** 
     updates direction_
-    @param degrees: -360 <= degrees <= 360, and if the user enters a number outside of these
-                    bounds adjust @param degrees to be within this range
+    @param degrees: -360 <= degrees <= 360, and if the user enters a number 
+        outside of these bounds adjust @param degrees to be within this range
     */
 void turn(float degrees);
 ```
 
 *Hint*: Use the following visualization to influence your implementation of `turn()`.
-<center> 
 
 ![Relative Location of Bike](./bike.gif)
-</center> 
+ 
 
 
 
@@ -120,7 +119,7 @@ void pedal();
 void brake();
 
 /**
-     given curr_speed_, curr_pedal_intensity_, b_type_, and @param float duration,
+    given curr_speed_, curr_pedal_intensity_, b_type_, and @param float duration,
         calculate the distance traveled during the specified time;
         increment distance_traveled_ by this amount
     @param float duration: time traveled
