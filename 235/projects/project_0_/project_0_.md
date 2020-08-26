@@ -8,7 +8,7 @@ title: PROJECT 5
   
 The objective of this project is to refresh your knowledge of class objects and enums from CSCI 135. This will require you to implement a class, `Bicycle`, in addition to its private and public member functions, which will be specified in a further section of this document. In order to successfully complete this project, we strongly recommend that you look back to your CSCI 135 coursework as a reference.  
 
-You are given [`Bicycle.hpp`](./Bicycle.hpp).  All that you must do is create and successfully write `Bicycle.cpp`.
+You are given [`Bicycle.hpp`](./Bicycle.hpp).  You must create and successfully write `Bicycle.cpp`.  
 
 ### Implementation
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class. 
@@ -33,7 +33,7 @@ Bicycle(int kind_of_bike); /*initialize all members besides b_type_ to the value
                            // b_type_ <- kind_of_bike
 ```
 
-*Hint*: Use rand() from the `<stdlib.h>` library to produce random values.
+*Hint*: Use `rand()` from the `<stdlib.h>` library to produce random values.
 
 ---
 ### **Task 2: Bicycle Operations**
@@ -44,19 +44,20 @@ Implement following getter functions:
 
 ```
 /**
-    return the string that corresponds to the curr_direction_ that the caller faces 
-        relative to a cartesian plane; assume that the caller is at position (0,0),
-        the degree measure of (1, 0) is 0 degrees, and the degree measure of (-1, 0) is 180 degrees
+    return the string that corresponds to the curr_direction_ that the caller faces relative 
+        to a cartesian plane; assume that the caller is at position (0,0), the degree 
+        measure of (1, 0) is 0 degrees, and the degree measure of (-1, 0) is 180 degrees 
+    
+    "North" == 90
+    0 < "Northeast" < 90 
+    "East" == 0
+    "Southeast" > 270
+    "South" == 270
+    180 < "Southwest" < 270
+    "West" == 180
+    90 < "Northwest" < 180
+*/ 
 
-        "North" == 90
-        0 < "Northeast" < 90 
-        "East" == 0
-        "Southeast" > 270
-        "South" == 270
-        180 < "Southwest" < 270
-        "West" == 180
-        90 < "Northwest" < 180
-*/
 std::string getDirection();
 
 string getBikeType();        // string version of b_type_
@@ -79,15 +80,13 @@ void setSeatHeight(int inches);    // seat_height_
     updates direction_
     @param degrees: -360 <= degrees <= 360, and if the user enters a number 
         outside of these bounds adjust @param degrees to be within this range
-    */
+*/
 void turn(float degrees);
 ```
 
 *Hint*: Use the following visualization to influence your implementation of `turn()`.
 
-![Relative Location of Bike](./bike.gif)
- 
-
+![Relative Location of Bike](./bike.gif) 
 
 
 Implement the following `private` method:
@@ -111,12 +110,12 @@ void updateSpeed();
 Implement the following public method:
 ```
 /**
-    if the current intensity is not HIGH increase it by one level and call calculateSpeed()
+   if the current intensity is not HIGH increase it by one level and call calculateSpeed()
 */
 void pedal();
 
 /**
-    if the current intensity is not NONE decrease it by one level and call calculateSpeed()
+   if the current intensity is not NONE decrease it by one level and call calculateSpeed()
 */
 void brake();
 
