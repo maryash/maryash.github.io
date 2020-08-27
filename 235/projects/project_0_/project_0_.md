@@ -46,8 +46,8 @@ Implement following getter functions:
 /**
     return the string that corresponds to the curr_direction_ that 
         the caller faces relative to a cartesian plane; assume that 
-        the caller is at position (0,0), the degree measure of (1, 0) 
-        is 0 degrees, and the degree measure of (-1, 0) is 180 degrees 
+        the caller is at position (0,0), the degree measure of (1,0) 
+        is 0&deg;, and the degree measure of (-1,0) is 180&deg; 
     
     "North" == 90
     0 < "Northeast" < 90 
@@ -69,13 +69,13 @@ float getSpeed();            // curr_speed_
 
 float getDistanceTraveled(); // distance_traveled_
 
-string getIntensity();          // curr_pedal_intensity_
+string getIntensity();       // curr_pedal_intensity_
 ```
 
 Implement the following `public` methods:
 
 ```
-void changeSeatHeight(int inches);    // seat_height_
+void changeSeatHeight(int inches);  // seat_height_
 
 /** 
     updates direction_
@@ -99,7 +99,8 @@ Implement the following `private` method:
         curr_pedal_intensity_, and b_type_
         
     USE THE FOLLOWING FORMULA: 
-        [ (pedal intensity) / 8 ] * (bike type) + [ (pedal intensity) / 8 + (bike type) ]
+        [ (pedal intensity) / 8 ] * (bike type) 
+        + [ (pedal intensity) / 8 + (bike type) ]
 */
 void updateSpeed();
 ```
