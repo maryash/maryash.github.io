@@ -25,7 +25,7 @@ Bicycle();     // initialize all private members besides b_type,
                // curr_pedal_intensity_, and seat_height_ to 0;
                // b_type_ <- a random bike type
                // curr_pedal_intensity_ <- bike_details::NONE
-               // seat_height_ <- 30
+               // seat_height_ <- 10
 
 
 Bicycle(int kind_of_bike); // initialize all members besides b_type_ 
@@ -130,7 +130,7 @@ void brake();
         and @param float duration, calculate the 
         distance traveled during the specified time;
         increment distance_traveled_ by this amount
-    @param float duration: time traveled
+    @param float duration: time traveled in minutes
     @return: updated distance_traveled_
 */
 float ride(float duration);
