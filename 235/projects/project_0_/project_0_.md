@@ -44,10 +44,11 @@ Implement following getter functions:
 
 ```
 /**
-    return the string that corresponds to the curr_direction_ that 
-        the caller faces relative to a cartesian plane; assume that 
-        the caller is at position (0,0), the degree measure of (1,0) 
-        is 0&deg;, and the degree measure of (-1,0) is 180&deg; 
+    return the string that corresponds to the curr_direction_ 
+        that the caller faces relative to a cartesian plane; 
+        assume that if the caller is at position (0, 0), the 
+        degree measure of (1, 0) is 0 degrees, and the degree 
+        measure of (-1, 0) is 180 degrees 
     
     "North" == 90
     0 < "Northeast" < 90 
