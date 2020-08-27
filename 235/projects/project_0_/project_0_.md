@@ -69,13 +69,13 @@ float getSpeed();            // curr_speed_
 
 float getDistanceTraveled(); // distance_traveled_
 
-int getIntensity();          // curr_pedal_intensity_
+string getIntensity();          // curr_pedal_intensity_
 ```
 
 Implement the following `public` methods:
 
 ```
-void setSeatHeight(int inches);    // seat_height_
+void changeSeatHeight(int inches);    // seat_height_
 
 /** 
     updates direction_
