@@ -1,14 +1,10 @@
----
-layout: myDefault
-title: PROJECT 1
----
+---  
+layout: myDefault  
+title: PROJECT 1  
+---  
 
-<center> 
-<h1>Project 1: The Art of the Cart</h1> 
-<h2>Due TBD</h2> 
-
-![Training Wheel](./shopping-cart-on-keyboard-feature.jpg)
-</center>
+# Project 1 &nbsp; The Art of the Cart 
+![Shopping Cart on Keyboard](./shopping-cart-on-keyboard-feature.jpg)
 
 
 Your objective for this project is to implement a high level shopping simulator. To do so you will use inheritance to model a class, `ShoppingCart`, after another class, `DynamicArray`, that you will modify to make functional. You will proceed to create an abstract `Grocery` class and to create its concrete children `Vegetable`, `Drink`, and `JunkFood`, which will collectively represent every type of item with which you can populate a `ShoppingCart` object. For this project you will use separate compilation with g++ to link multiple classes into one executable, and, in order to successfully complete this project, you **must** understand the prerequisite material from Project 0, the concept of an abstract data type, template classes, dynamic memory allocation, and polymorphism.
