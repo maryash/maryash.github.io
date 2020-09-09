@@ -196,14 +196,15 @@ double ShoppingCart::checkout()
    double total = 0;
    for (size_t i = 0; i < item_count_; i++)
    {
-      std::cout << "\n" << std::setw(10) << std::left << items_[i]->getName() 
-            << "\t" << items_[i]->getQuantity() << "\t" << std::fixed 
-            << std::setprecision(2) << items_[i]->getTotalPrice();
+      std::cout << "\n" << std::setw(10) << std::left << 
+            items_[i]->getName() << "\t" << items_[i]->getQuantity() 
+            << "\t" << std::fixed << std::setprecision(2) 
+            << items_[i]->getTotalPrice();
       total += items_[i]->getTotalPrice();
    }
-   std::cout << std::setfill('-') << std::setw(40) << "\n" << std::endl
-             << "Total:                  " << total << std::endl
-             << std::endl;
+   std::cout << std::setfill('-') << std::setw(40) << "\n" 
+         << std::endl << "Total:                  " 
+         << total << std::endl << std::endl;
    clear();
    return total;
 }
@@ -225,7 +226,8 @@ Your project must be submitted on Gradescope. Although Gradescope allows multipl
 ### Testing
 How to compile:  
 ```
-g++ ShoppingCart.cpp Grocery.cpp Vegetable.cpp JunkFood.cpp Drink.cpp <test main file> -std=c++17
+g++ ShoppingCart.cpp Grocery.cpp Vegetable.cpp JunkFood.cpp Drink.cpp 
+                                               <test main file> -std=c++17
 ```
 You must always implement and test you programs **INCREMENTALLY!!!**
 What does this mean? Implement and test one method at a time.
