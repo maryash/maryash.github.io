@@ -29,16 +29,16 @@ Your objective for this project is to implement a high level shopping simulator.
 Let a dynamically resizable array be an array whose maximum capacity increases by a factor of 2 in the event that an insertion is attempted when it is already at maximum capacity and whose maximum capacity decreases by a factor of 2 when the number of elements within it drops below a quarter of its maximum capacity.  
 *Examples:*
 ```
-arr1 <- {1, 2, 3, 4}    		    (capacity == 4)
+arr1 <- {1, 2, 3, 4}                (capacity == 4)
 arr1.add(5)
-arr1 == {1, 2, 3, 4, 5, _, _, _}	(capacity == 8)
+arr1 == {1, 2, 3, 4, 5, _, _, _}    (capacity == 8)
 
-arr2 <- {1, 2, 3, 4, 5, _, _, _}	(capacity == 8)
+arr2 <- {1, 2, 3, 4, 5, _, _, _}    (capacity == 8)
 arr2.remove(5)
 arr2.remove(4)
 arr2.remove(3)
 arr2.remove(2)
-arr2 == {1, _, _, _}			    (capacity == 4)
+arr2 == {1, _, _, _}                (capacity == 4)
 ```
 *Addendum:* removal in this fashion ensures the efficient execution of future anticipated insertions by minimizing the amount of `resize()` operations that need to be called later.
 
