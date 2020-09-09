@@ -4,7 +4,7 @@ title: PROJECT 1
 ---  
 
 # Project 1 &nbsp; The Art of the Cart 
-![Training Wheel](./shopping-cart-on-keyboard-feature.jpg
+![Training Wheel](./shopping-cart-on-keyboard-feature.jpg)
 
 Your objective for this project is to implement a high level shopping simulator. To do so you will use inheritance to model a class, `ShoppingCart`, after another class, `DynamicArray`, that you will modify to make functional. You will proceed to create an abstract `Grocery` class and to create its concrete children `Vegetable`, `Drink`, and `JunkFood`, which will collectively represent every type of item with which you can populate a `ShoppingCart` object. For this project you will use separate compilation with g++ to link multiple classes into one executable, and, in order to successfully complete this project, you **must** understand the prerequisite material from Project 0, the concept of an abstract data type, template classes, dynamic memory allocation, and polymorphism.
 
@@ -53,20 +53,22 @@ Modify the `DynamicArray.cpp` file to implement the following methods (I highly 
 i)  
 ``` 
 template<typename ItemType> void DynamicArray<ItemType>::resize()
-// carries out the dynamic sizing behavior mentioned in the definition.
+//carries out the dynamic sizing mentioned in the definition
 ```
 *Hint:* You must dynamically allocate a new array of the appropriate altered size, and then you must copy all elements from the initial array into this new one. Finally, you must update and reassign the private members of the caller.
 
 ii)
 ```
-template<typename ItemType> bool DynamicArray::add(const ItemType &new_entry)
+template<typename ItemType> 
+                bool DynamicArray::add(const ItemType &new_entry)
 // inserts an item into the last position of the caller 
-//    it must call resize(), and it must take into account the possibility 
-//    that the pointer that represents the caller array could be == nullptr
+//    it must call resize(), and it must allow for the  
+//    the pointer to the caller array to be == nullptr
 ```
 iii)
 ```
-template<typename ItemType> bool DynamicArray::remove(const ItemType &an_item)
+template<typename ItemType> 
+                 bool DynamicArray::remove(const ItemType &an_item)
 // removes the first instance of an item from the caller
 //    it must check whether the element to be removed is within 
 //    the array and it must call resize()
