@@ -88,7 +88,8 @@ Class `Vegetable` must contain the following methods:
 Vegetable(std::string name, double price, double weight)
 
 /**
-   total_price_ <- product of: quantity, weight per item, and price per pound
+   total_price_ <- product of: quantity, weight per item, 
+                                                and price per pound
 */
 void updateCost()    // updates total_price_
 ```
@@ -101,7 +102,8 @@ Class `Drink` must contain the following methods:
 Drink(std::string name, double price, double weight)
 
 /**
-   total_price_ <- product of: quantity, weight per liter, and price per liter
+   total_price_ <- product of: quantity, weight per liter, 
+                                                and price per liter
 */
 void updateCost()    // updates total_price_
 ```
@@ -153,11 +155,11 @@ public:
    bool add(Grocery * new_entry);
         
    /**  
-      removes the first instance of an_item from the caller; if the entry
-      already exists in the caller, decrement
-      quantity_ in the object, and decrement 
-      the curr_contents_weight_ of the caller
-      by the unit_weight_ of the added item.
+      removes the first instance of an_item from the caller; 
+      if the entry already exists in the caller, decrement
+      quantity_ in the object, and decrement the 
+      curr_contents_weight_ of the caller by the 
+      unit_weight_ of the added item.
       --> !!!THIS FUNCTION MUST CALL garbageClear()!!! <--
       @return :   true if the addition is successful            
    */
@@ -167,7 +169,7 @@ public:
    double checkout();
 
    /** 
-      iterates through caller and removes items that have quantity_ == 0
+      iterates through caller and removes items whose quantity_ == 0
       --> !!!THIS FUNCTION MUST CALL DynamicArray::remove()!!! <--
       @post   :   every item in the caller has quantity_ >= 1
    */
