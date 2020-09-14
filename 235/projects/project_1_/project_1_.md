@@ -225,10 +225,10 @@ Your project must be submitted on Gradescope. Although Gradescope allows multipl
 
 ### Testing
 How to compile:  
-```
-g++ ShoppingCart.cpp Grocery.cpp Vegetable.cpp JunkFood.cpp Drink.cpp 
-                                               <test main file> -std=c++17
-```
+
+`g++ ShoppingCart.cpp Grocery.cpp Vegetable.cpp JunkFood.cpp Drink.cpp 
+                                           <test main file> -std=c++17`
+
 You must always implement and test you programs **INCREMENTALLY!!!**
 What does this mean? Implement and test one method at a time.
 **For each class**
