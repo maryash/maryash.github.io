@@ -24,19 +24,22 @@ This is an essential resource for you during this semester.  Attendance is highl
   
  DATE | TOPIC | READING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | ASSIGNMENTS 
  :---: | :---: | --- | :---: | ---: 
- 8/26 | Introduction | [Syllabus](syllabus.html){:target="_blank"}<br/>[Programming Guidelines](programming_guidelines.html){:target="_blank"} | [Introduction](slides/01_introduction.pdf){:target="_blank"} | [**Project&nbsp;0**&nbsp;**due&nbsp;9/01**](projects/project_0_/project_0_.html){:target="_blank"} 
+ 8/26 | Introduction | [Syllabus](syllabus.html){:target="_blank"}<br/>[Programming Guidelines](programming_guidelines.html){:target="_blank"} | [Introduction](slides/01_introduction.pdf){:target="_blank"} | [**Project&nbsp;0**&nbsp;**due&nbsp;9/1**](projects/project_0_/project_0_.html){:target="_blank"} 
  8/27 | Data&nbsp;Abstraction | [Chapter&nbsp;1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/30%5B%3Bvnd.vst.idref%3DP70010119250000000000000000005D9%5D!/4/2%5BP70010119250000000000000000005D9%5D/2/2%5BP7001011925000000000000000009091%5D/4%400:0){:target="_blank"} | [Abstraction](/slides/02_oop.pdf){:target="_blank"} | 
  8/31 | OOP | [Appendix&nbsp;B](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/450%5B%3Bvnd.vst.idref%3DP7001011925000000000000000006BC2%5D!/4/2%5BP7001011925000000000000000006BC2%5D/2/2%5BP700101192500000000000000000E4E6%5D/4%400:0){:target="_blank"} |  | 
- 9/ 2 |  |  |  |  
- 9/ 3 | Inheritance | [C++&nbsp;Interlude&nbsp;1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/48%5B%3Bvnd.vst.idref%3DP700101192500000000000000000099F%5D!/4/6%400:0){:target="_blank"} | [Inheritance](slides/03_inheritance.pdf){:target="_blank"} | [SQ&nbsp;Basic&nbsp;Inheritance&nbsp;9/14](study_questions/sq_00_Basic_Inheritance.pdf){:target="_blank"} 
- 9/ 9 |  |  |  | 
- 9/10 | Polymorphism | [C++&nbsp;Interlude&nbsp;2.4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/106%5B%3Bvnd.vst.idref%3DP70010119250000000000000000016EA%5D!/4/6%400:0){:target="_blank"} | [Polymorphism](slides/11_polymorphism.pdf){:target="_blank"}<br/>[*Extra&nbsp;polymorphism*](slides/11_prime_additional_polymorphism){:target="_blank"} | [SQ&nbsp;Polymorphism&nbsp;9/20](study_questions/sq_05_polymorphism.pdf){:target="_blank"}<br/>[**Project&nbsp;1**&nbsp;**due&nbsp;9/28**](projects/project_1_/project_1_.html){:target="_blank"} 
+ 9/2 |  |  |  |  
+ 9/3 | Inheritance | [C++&nbsp;Interlude&nbsp;1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/48%5B%3Bvnd.vst.idref%3DP700101192500000000000000000099F%5D!/4/6%400:0){:target="_blank"} | [Inheritance](slides/03_inheritance.pdf){:target="_blank"} | [SQ&nbsp;Basic&nbsp;Inheritance&nbsp;9/14](study_questions/sq_00_Basic_Inheritance.pdf){:target="_blank"} 
+ 9/9 |  |  |  | 
+ 9/10 | Polymorphism | [C++&nbsp;Interlude&nbsp;2.4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/106%5B%3Bvnd.vst.idref%3DP70010119250000000000000000016EA%5D!/4/6%400:0){:target="_blank"} | [Polymorphism](slides/11_polymorphism.pdf){:target="_blank"}<br/>[*Extra&nbsp;polymorphism*](slides/11_prime_additional_polymorphism.pdf){:target="_blank"} | [SQ&nbsp;Polymorphism&nbsp;9/20](study_questions/sq_05_polymorphism.pdf){:target="_blank"}<br/>[**Project&nbsp;1**&nbsp;**due&nbsp;9/28**](projects/project_1_/project_1_.html){:target="_blank"} 
  9/14 |  |  |  | 
- 9/16 | ADTs,&nbsp;Templates,<br/>Array&nbsp;Bag | [Chapters&nbsp;3.1&nbsp;and](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/86%5B%3Bvnd.vst.idref%3DP7001011925000000000000000001247%5D!/4/6%400:0){:target="_blank"}<br/>[3.2&nbsp;Array&nbsp;Implementation](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/88%5B%3Bvnd.vst.idref%3DP700101192500000000000000000128D%5D!/4/2%5BP700101192500000000000000000128D%5D/2/2%5BP7001011925000000000000000009B14%5D/2%400:0){:target="_blank"} | [ADTs&nbsp;&&nbsp;Templates](slides/04_adt_templates.pdf){:target="_blank"}<br/>[ArrayBag](slides/05_array_bag.pdf){:target="_blank"} | [SQ&nbsp;ArrayBag&nbsp;](study_questions/sq_02_ArrayBag.pdf){:target="_blank"} 
+ 9/16 | ADTs,&nbsp;Templates | [Chapters&nbsp;3.1&nbsp;and](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/86%5B%3Bvnd.vst.idref%3DP7001011925000000000000000001247%5D!/4/6%400:0){:target="_blank"} | [ADTs&nbsp;&&nbsp;Templates](slides/04_adt_templates.pdf){:target="_blank"} | 
  9/17 |  |  |  | 
- 9/21 |  |  |  | 
- 9/23 | Pointers | [C++&nbsp;Interlude&nbsp;2.1,&nbsp;2.2,&nbsp;2.3,&nbsp;2.5](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/98%5B%3Bvnd.vst.idref%3DP700101192500000000000000000151A%5D!/4/2%5BP700101192500000000000000000151A%5D/2/2%5BP7001011925000000000000000009D22%5D/4%400:0){:target="_blank"} | [Pointers](slides/06_Pointers.pdf){:target="_blank"} | 
- 9/24 |  |  |  | 
+ 9/21 | Array&nbsp;Bag | [3.2&nbsp;Array&nbsp;Implementation](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/88%5B%3Bvnd.vst.idref%3DP700101192500000000000000000128D%5D!/4/2%5BP700101192500000000000000000128D%5D/2/2%5BP7001011925000000000000000009B14%5D/2%400:0){:target="_blank"} | [ArrayBag](slides/05_array_bag.pdf){:target="_blank"} | [SQ&nbsp;ArrayBag&nbsp;](study_questions/sq_02_ArrayBag.pdf){:target="_blank"} 
+ 9/23 |  |  |  | 
+ 9/24 | Pointers | [C++&nbsp;Interlude&nbsp;2.1,&nbsp;2.2,&nbsp;2.3,&nbsp;2.5](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/98%5B%3Bvnd.vst.idref%3DP700101192500000000000000000151A%5D!/4/2%5BP700101192500000000000000000151A%5D/2/2%5BP7001011925000000000000000009D22%5D/4%400:0){:target="_blank"} | [Pointers](slides/06_Pointers.pdf){:target="_blank"} | 
+ 9/28 |  |  |  | 
+ 9/30 |  |  |  | 
+ 10/1 |  |  |  | 
   
 <!-- 
 
