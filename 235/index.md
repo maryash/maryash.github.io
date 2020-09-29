@@ -37,9 +37,10 @@ This is an essential resource for you during this semester.  Attendance is highl
  9/21 | Array&nbsp;Bag | [3.2&nbsp;Array&nbsp;Implementation](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/88%5B%3Bvnd.vst.idref%3DP700101192500000000000000000128D%5D!/4/2%5BP700101192500000000000000000128D%5D/2/2%5BP7001011925000000000000000009B14%5D/2%400:0){:target="_blank"} | [ArrayBag](slides/05_array_bag.pdf){:target="_blank"} | [SQ&nbsp;ArrayBag&nbsp;](study_questions/sq_02_ArrayBag.pdf){:target="_blank"} 
  9/23 |  |  |  | 
  9/24 | Pointers | [C++&nbsp;Interlude&nbsp;2.1,&nbsp;2.2,&nbsp;2.3,&nbsp;2.5](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/98%5B%3Bvnd.vst.idref%3DP700101192500000000000000000151A%5D!/4/2%5BP700101192500000000000000000151A%5D/2/2%5BP7001011925000000000000000009D22%5D/4%400:0){:target="_blank"} | [Pointers](slides/06_Pointers.pdf){:target="_blank"} | 
- 9/28 |  |  |  | 
+ 9/29 |  |  |  | 
  9/30 |  |  |  | 
  10/1 |  |  |  | 
+ 10/5 | MIDTRERM | EXAM | 1 | 
   
 <!-- 
 
