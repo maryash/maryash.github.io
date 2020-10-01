@@ -15,16 +15,16 @@ Here are some additional resources:
 ---
 **Bag ADT**
 
->[Southern Illinois University](./http://www2.cs.siu.edu/~tmengistu/Courses/Fall2015/CS220/Slides/Abstract%20Data%20Types.pdf)
+>[Southern Illinois University](http://www2.cs.siu.edu/~tmengistu/Courses/Fall2015/CS220/Slides/Abstract%20Data%20Types.pdf)
 
->[University Of Minnesota Duluth](./https://www.d.umn.edu/~jallert/cs1/projects/TheBagADT.pdf)
+>[University Of Minnesota Duluth](https://www.d.umn.edu/~jallert/cs1/projects/TheBagADT.pdf)
 
 
 **Operator Overloading**
 
->[C++ Documentation](./https://en.cppreference.com/w/cpp/language/operators)
+>[C++ Documentation](https://en.cppreference.com/w/cpp/language/operators)
 
->[Microsoft Documentation](./https://docs.microsoft.com/en-us/cpp/cpp/operator-overloading?view=vs-2019)
+>[Microsoft Documentation](https://docs.microsoft.com/en-us/cpp/cpp/operator-overloading?view=vs-2019)
 ---
 
 	
