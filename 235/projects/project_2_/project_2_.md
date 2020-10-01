@@ -184,7 +184,7 @@ Define the following operator overloads in `ShoppingCart.hpp` and implement them
     @param a_cart to be compared with this (the calling) cart
     @return true if the total cost of this (the calling) cart is greater than the total cost of items in a_cart.
 **/
-bool operator>(ShoppingCart<ItemType> a_cart);
+bool operator>(ShoppingCart a_cart);
 
 /**
     Implements Less Than Comparison
@@ -192,7 +192,7 @@ bool operator>(ShoppingCart<ItemType> a_cart);
     @param a_cart to be compared with this (the calling) cart
     @return true if the total cost of this (the calling) cart is less than the total cost of items in a_cart.
 **/
-bool operator<(ShoppingCart<ItemType> a_cart);
+bool operator<(ShoppingCart a_cart);
 
 ```
 
