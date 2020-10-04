@@ -17,7 +17,7 @@ Your objective for this project is to implement another high level shopping simu
     [C++ Documentation](https://en.cppreference.com/w/cpp/language/operators)  
     [Microsoft Documentation](https://docs.microsoft.com/en-us/cpp/cpp/operator-overloading?view=vs-2019)
 ---
-### **Implementation:
+### Implementation:
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class. 
 ---
 
