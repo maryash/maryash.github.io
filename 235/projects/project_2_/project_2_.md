@@ -30,7 +30,7 @@ Create an ArrayBag template class from scratch. This will require you to create 
 ```
 static const int DEFAULT_CAPACITY = 200;  // max size of items_ 
 ItemType items_[DEFAULT_CAPACITY];        // items in the array bag
-int item_count_;                          // Current count of items in bag
+int item_count_;                   // Current count of items in bag
 
 /**
    @param target to be found in items_
@@ -58,12 +58,14 @@ int getCurrentSize() const;
 bool isEmpty() const;
 
 /**
-   @return true if new_entry was successfully added to items_, false otherwise
+   @return true if new_entry was successfully added to items_, 
+                                                 false otherwise
 **/
 bool add(const ItemType &new_entry);
 
 /**
-   @return true if an_entry was successfully removed from items_, false otherwise
+   @return true if an_entry was successfully removed from items_, 
+                                                 false otherwise
 **/
 bool remove(const ItemType &an_entry);
 
@@ -97,8 +99,8 @@ Define the following operator overloads in `ArrayBag.hpp` and implement them acc
    The union of two sets A and B is the set of elements which are in A,
    in B, or in both A and B.
    @param a_bag to be combined with the contents of this (the calling) bag
-   @post adds as many items from a_bag as space allows
-   lhs += rhs, the left hand side (the calling side) of the operator will be modified. 
+   @post adds as many items from a_bag as space allows lhs += rhs, the left 
+      hand side (the calling side) of the operator will be modified. 
 **/
 void operator+=(const ArrayBag<ItemType> &a_bag);
 
@@ -108,7 +110,9 @@ void operator+=(const ArrayBag<ItemType> &a_bag);
    consists of the elements in A which are not elements of B.
    @param a_bag to be subtracted from this (the calling) bag
    @post removes all the data from items_ that is also found in a_bag
-   lhs -= rhs, the left hand side (the calling side) of the operator will be modified, remove elements from lhs that are also elements of the rhs (a_bag). 
+      lhs -= rhs, the left hand side (the calling side) of the operator 
+      will be modified, remove elements from lhs that are also elements 
+      of the rhs (a_bag). 
 **/
 void operator-=(const ArrayBag<ItemType> &a_bag);
 
@@ -118,7 +122,9 @@ void operator-=(const ArrayBag<ItemType> &a_bag);
    consists of the elements that are in both A and B.
    @param a_bag to be intersected with this (the calling) bag
    @post items_ no longer contains elements not found in a_bag
-   lhs /= rhs, the left hand side (the calling side) of the operator will be modified, remove elements from lhs that are NOT elements of the rhs (a_bag).
+      lhs /= rhs, the left hand side (the calling side) of 
+      the operator will be modified, remove elements from 
+      lhs that are NOT elements of the rhs (a_bag).
 **/
 void operator/=(const ArrayBag<ItemType> &a_bag);
 
@@ -133,11 +139,12 @@ void operator/=(const ArrayBag<ItemType> &a_bag);
 bool operator==(const ArrayBag<ItemType> &a_bag);
 
 /**
-   Implements Not Equal Comparison
-   Opposite of the == operator, if two bags have at least one element different they are not equal
+   Implements Not Equal Comparison Opposite of the == operator, if two bags 
+      have at least one element different they are not equal
    @param a_bag to be compared with this (the calling) bag
    @return true if two bags have a differing element, false if they are equal
-   In this case we can be sure that two arrays are not equal if they have different sizes.
+      In this case we can be sure that two arrays are not equal if they have 
+                                                              different sizes.
 **/
 bool operator!=(const ArrayBag<ItemType> &a_bag);
 ```
