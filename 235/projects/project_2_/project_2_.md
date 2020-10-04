@@ -37,83 +37,79 @@ Here are some additional resources:
 
 Starter Code: [Starter Code](starter_code.zip)
 
-<h3 style="text-align: center; color: #7a0619;">Task 1: The Bag</h3>
+## Task 1: The Bag
 
 *Your parents were not happy that you forgot to bring the bread last time; so they have decided to come with you to buy groceries this time. They leave you alone to do some shopping on your own. There was no cart available so they gave you a bag instead.*
 
 Create an ArrayBag template class from scratch. This will require you to create two files: `ArrayBag.hpp` for the interface and `ArrayBag.cpp` for the implementation. The purpose of the ArrayBag class is to serve as the base class of the ShoppingCart class that has been provided to you in the given code; essentially, ArrayBag is meant to replace the DynamicArray of the previous project. Thus, you can test the final output of this project in the same way that you tested that of your previous project. The ArrayBag class **must** contain the following `protected `members:
+```
+static const int DEFAULT_CAPACITY = 200;  // max size of items_ 
+ItemType items_[DEFAULT_CAPACITY];        // items in the array bag
+int item_count_;                          // Current count of items in bag
 
-	static const int DEFAULT_CAPACITY = 200;  // max size of items_ 
-    ItemType items_[DEFAULT_CAPACITY];        // items in the array bag
-    int item_count_;                          // Current count of items in bag
-
-    /**
-     @param target to be found in items_
-     @return either the index target in the array items_ or -1,
-     if the array does not containthe target.
-     **/
-    int getIndexOf(const ItemType &target) const;
-
-
+/**
+@param target to be found in items_
+@return either the index target in the array items_ or -1,
+if the array does not containthe target.
+**/
+int getIndexOf(const ItemType &target) const;
+```
 Your ArrayBag class **must** contain the following `public` members:
+```
+/** 
+Default Constructor
+item_count_  <- 0
+**/
+ArrayBag();
 
+/**
+@return item_count_ : the current size of the bag
+**/
+int getCurrentSize() const;
 
-    /** 
-     Default Constructor
-     item_count_  <- 0
-    **/
-    ArrayBag();
+/**
+@return true if item_count_ == 0, false otherwise
+**/
+bool isEmpty() const;
 
-    /**
-     @return item_count_ : the current size of the bag
-    **/
-    int getCurrentSize() const;
+/**
+@return true if new_entry was successfully added to items_, false otherwise
+**/
+bool add(const ItemType &new_entry);
 
-    /**
-     @return true if item_count_ == 0, false otherwise
-     **/
-    bool isEmpty() const;
+/**
+@return true if an_entry was successfully removed from items_, false otherwise
+**/
+bool remove(const ItemType &an_entry);
 
-    /**
-     @return true if new_entry was successfully added to items_, false otherwise
-     **/
-    bool add(const ItemType &new_entry);
+/**
+@post item_count_ == 0
+**/
+void clear();
 
-    /**
-     @return true if an_entry was successfully removed from items_, false otherwise
-     **/
-    bool remove(const ItemType &an_entry);
+/**
+@return true if an_entry is found in items_, false otherwise
+-> THIS METHOD MUST CALL getIndexOf() <-
+**/
+bool contains(const ItemType &an_entry) const;
 
-    /**
-     @post item_count_ == 0
-     **/
-    void clear();
-
-    /**
-     @return true if an_entry is found in items_, false otherwise
-     -> THIS METHOD MUST CALL getIndexOf() <-
-     **/
-    bool contains(const ItemType &an_entry) const;
-
-    /**
-     @return the number of times an_entry appears in items_
-     **/
-    int getFrequencyOf(const ItemType &an_entry) const;
-
-
+/**
+@return the number of times an_entry appears in items_
+**/
+int getFrequencyOf(const ItemType &an_entry) const;
+```
 *Hint:* This is a template class. Do not forget to place 
-    ```template <typename ItemType> ```
+```template <typename ItemType>```
 before each function when you are implementing them. Also do not forget to `#include` the `.cpp` file at the end of your class definition.
 
 ---
-<h3 style="text-align: center; color: #7a0619">Task 2: To Compare Or Not To Compare... And Other Operations</h3>
+## Task 2: To Compare Or Not To Compare... And Other Operations
 
 *After a while you decide to meet up with your parents. All of you begin comparing your items to decide what to keep, throw away, or add. Something you note - they forgot the bread! You choose not to remind them.*
 
 This is where the fun starts!
 
 Define the following operator overloads in `ArrayBag.hpp` and implement them accordingly in `ArrayBag.cpp`.
-
 ```
 /** 
     Implements Set Union
@@ -166,12 +162,9 @@ bool operator!=(const ArrayBag<ItemType> &a_bag);
 ```
 
 ---
-<h3 style="text-align: center; color: #7a0619">Task 3: The Art of The Cart 2</h3>
-
-<center> 
+## Task 3: The Art of The Cart 2
 
 ![The Return of The Cart](./cart2.png)
-</center>
 
 *Ah yes, a cart at last. You all place your items into the cart. I guess you can say, a lot of weight has been lifted from your shoulders. You see that your friends' family has also been shopping in the same grocery store. Your friend comes over to say hi, but you know all too well she only cares about how much money you are spending. She is very egotistical.*
 
@@ -195,9 +188,6 @@ bool operator>(ShoppingCart a_cart);
 bool operator<(ShoppingCart a_cart);
 
 ```
-
-
-
 ---
 
 ### **Testing**
@@ -207,25 +197,25 @@ How to compile:
 
 You must always implement and test you programs **INCREMENTALLY!!!**
 
-#### ***What does this mean?***
+### ***What does this mean?***
 
 -Implement and test one method at a time.
 -For each class: 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Implement one function/method and test it thoroughly (multiple test cases + edge cases if applicable) 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Implement the next function/method and test in the same fashion. 
 
-#### ***How do you do this?***
- Write your own main() function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally (i.e. implement mutator functions before accessor functions). Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing (don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible. 
+### ***How do you do this?***
+Write your own main() function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally (i.e. implement mutator functions before accessor functions). Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing (don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible. 
  
-#### ***Grading Rubric*** 
+### ***Grading Rubric*** 
  • **Correctness 80%** (distributed across unit testing of your submission)
  • **Documentation 10%**
  • **Style and Design 10%** (proper naming, modularity, and organization) 
 
- **Important:** You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.
+**Important:** You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.
 ##### There will be no negotiation about project grades after the submission deadline. #####
 
-#### Submission:
+### Submission:
 You will submit **the following files**:
 
 * ArrayBag.hpp 
