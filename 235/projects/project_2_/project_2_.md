@@ -95,12 +95,11 @@ This is where the fun starts!
 Define the following operator overloads in `ArrayBag.hpp` and implement them accordingly in `ArrayBag.cpp`.
 ```
 /** 
-   Implements Set Union
-   The union of two sets A and B is the set of elements which are in A,
-   in B, or in both A and B.
+   Implements Set Union.  The union of two sets A and B is the set of 
+   elements, which are in A, in B, or in both A and B.
    @param a_bag to be combined with the contents of this (the calling) bag
-   @post adds as many items from a_bag as space allows lhs += rhs, the left 
-      hand side (the calling side) of the operator will be modified. 
+   @post adds as many items from a_bag as space allows lhs += rhs, 
+   the left hand side (the calling side) of the operator will be modified. 
 **/
 void operator+=(const ArrayBag<ItemType> &a_bag);
 
