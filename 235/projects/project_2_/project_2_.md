@@ -7,26 +7,23 @@ title: PROJECT 2
 
 ![The Bag](./bag.png)
 
-
 Your objective for this project is to implement another high level shopping simulator. Yay! This time instead of `DynamicArray` you will create an `ArrayBag`. For this project you will use separate compilation with g++ to link multiple classes into one executable, and, in order to successfully complete this project, you **must** understand the prerequisite material from earlier projects, the bag abstract data type, and the concept and implementation of overloading operators.
 
 ### Some additional resources
-- Bag ADT
+- Bag ADT  
     [Southern Illinois University](http://www2.cs.siu.edu/~tmengistu/Courses/Fall2015/CS220/Slides/Abstract%20Data%20Types.pdf)  
     [University Of Minnesota Duluth](https://www.d.umn.edu/~jallert/cs1/projects/TheBagADT.pdf)
-- Operator Overloading
-    [C++ Documentation](https://en.cppreference.com/w/cpp/language/operators)
+- Operator Overloading  
+    [C++ Documentation](https://en.cppreference.com/w/cpp/language/operators)  
     [Microsoft Documentation](https://docs.microsoft.com/en-us/cpp/cpp/operator-overloading?view=vs-2019)
 ---
-### **Implementation:**
-
+### **Implementation:
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class. 
 ---
 
 Starter Code: [Starter Code](starter_code.zip)
 
 ## Task 1: The Bag
-
 *Your parents were not happy that you forgot to bring the bread last time; so they have decided to come with you to buy groceries this time. They leave you alone to do some shopping on your own. There was no cart available so they gave you a bag instead.*
 
 Create an ArrayBag template class from scratch. This will require you to create two files: `ArrayBag.hpp` for the interface and `ArrayBag.cpp` for the implementation. The purpose of the ArrayBag class is to serve as the base class of the ShoppingCart class that has been provided to you in the given code; essentially, ArrayBag is meant to replace the DynamicArray of the previous project. Thus, you can test the final output of this project in the same way that you tested that of your previous project. The ArrayBag class **must** contain the following `protected `members:
@@ -89,7 +86,6 @@ int getFrequencyOf(const ItemType &an_entry) const;
 *Hint:* This is a template class. Do not forget to place `template <typename ItemType>` before each function when you are implementing them. Also do not forget to `#include` the `.cpp` file at the end of your class definition.
 ---
 ## Task 2: To Compare Or Not To Compare... And Other Operations
-
 *After a while you decide to meet up with your parents. All of you begin comparing your items to decide what to keep, throw away, or add. Something you note - they forgot the bread! You choose not to remind them.*
 
 This is where the fun starts!
