@@ -43,6 +43,7 @@ This is an essential resource for you during this semester.  Attendance is highl
  10/5 | MIDTRERM | EXAM | 1 | 
  10/7 | Copy Constructor |  | [Copy Constructor](slides/08_Copy_Constructor.pdf){:target="_blank"} | 
  10/8 | Lists | [Chapter&nbsp;8](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/188%5B%3Bvnd.vst.idref%3DP7001011925000000000000000002728%5D!/4/2%5BP7001011925000000000000000002728%5D/2/2%5BP700101192500000000000000000AC19%5D/4%400:0){:target="_blank"}<br/>[Chapter&nbsp;9](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/202%5B%3Bvnd.vst.idref%3DP700101192500000000000000000295E%5D!/4/2%5BP700101192500000000000000000295E%5D/2/2%5BP700101192500000000000000000AE08%5D/4%400:0){:target="_blank"} | [Lists](slides/09_lists.pdf){:target="_blank"} | [SQ&nbsp;Lists&nbsp;6/14](study_questions/sq_04_lists.pdf){:target="_blank"}   
+  
 <!-- 
 [**Project&nbsp;2**&nbsp;**due&nbsp;6/10**](projects/project_2/project_2.html){:target="_blank"} 
 [**Project&nbsp;1**&nbsp;**due&nbsp;9/14**](projects/project_1_/project_1_.html){:target="_blank"}
