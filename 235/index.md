@@ -67,6 +67,7 @@ This is an essential resource for you during this semester.  Attendance is highl
  12/3 | Tree Implementation | [Chapter&nbsp;16](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/324%5B%3Bvnd.vst.idref%3DP70010119250000000000000000047EF%5D!/4/2%5BP70010119250000000000000000047EF%5D/2/2%5BP700101192500000000000000000C782%5D/4%400:0){:target="_blank"} | [Tree Implementation](slides/22_tree_implementation.pdf){:target="_blank"} |  
  12/07 |  |  |  | 
  12/09 |  |  |  | 
+ 12/10 |  |  |  | 
   
   
 <!-- 
