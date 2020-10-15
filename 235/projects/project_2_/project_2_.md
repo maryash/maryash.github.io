@@ -202,4 +202,5 @@ Your project must be submitted on Gradescope. Although Gradescope allows multipl
 
 ### Important
 You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.  
-**There will be no negotiation about project grades after the submission deadline.**
+**There will be no negotiation about project grades after the submission deadline.**  
+  
