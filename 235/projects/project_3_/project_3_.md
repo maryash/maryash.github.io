@@ -1,15 +1,16 @@
----
+---  
 layout: myDefault
 title: PROJECT 3
----
-# Project 3: Making Your Fall Mixtape
+---  
 
-![Doubly-Linked List](Images/doubly.png)
+# Project 3 &nbsp; Making Your Fall Mixtape
+
+![Doubly-Linked List](doubly.png)
 
 Your objective for this project is to implement a Doubly-Linked List. In order to successfully complete this project, you **must** understand the prerequisite material from the first and second projects, and you **must** understand the concept of a Linked List ADT.
 
 
-#### Some additional resources
+### Some additional resources
 * Linked List:
 
     [Geeks for Geeks](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)  
@@ -18,12 +19,12 @@ Your objective for this project is to implement a Doubly-Linked List. In order t
 
     [edspresso](https://www.educative.io/edpresso/what-is-a-linked-list)
 
-#### Implementation
+### Implementation
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
 
 ---
 
-<h3 style="text-align: center; color: #7a0619;">Task 1: A Song of Your Choice... Or AudioBook... Or Podcast</h3>
+## Task 1: A Song of Your Choice... Or AudioBook... Or Podcast
 Define and implement a class `DoubleNode` that is capable of holding an item of any arbitrary type `ItemType`. As a node of a Doubly-Linked list, it should contain two pointers that respectively point to other objects of type `DoubleNode`. The DoubleNode class should have the following private members:
 
 ```
@@ -222,7 +223,7 @@ For both classes define and implement a parameterized constructor that will have
 
 ---
 
-<h3 style="text-align: center; color: #7a0619;">Task 2: A "High Fidelity" Special</h3>
+## Task 2: A "High Fidelity" Special
 
 Next, define and implement a class `DoublyLinkedList` that is a demonstration of the Doubly-Linked List concept discussed in class. It should contain the following protected members: a head pointer to a `DoubleNode` of any arbitrary type `ItemType` and a member that keeps track of the size of the list. **Let `DoublyLinkedList` be 1 indexed unlike arrays, which are 0 indexed**.
 
@@ -308,7 +309,7 @@ Entitle your header (.hpp) file `Playlist.hpp`, and entitle your implementation 
 
 ---
 
-#### Testing
+### Testing
 How to compile:
 ```
 g++ <main file> -std=c++17
@@ -320,15 +321,15 @@ What does this mean? Implement and test one method at a time.
 * Implement the next function/method and test in the same fashion.
     **How do you do this?** Write your own `main()` function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally: i.e. implement mutator functions before accessor functions. Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible.
 
-#### Grading Rubric
+### Grading Rubric
 **Correctness 80%** (distributed across unit testing of your submission)
 **Documentation 10%**
 **Style and Design 10%** (proper naming, modularity, and organization)
 
-**Important:** You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.
-##### There will be no negotiation about project grades after the submission deadline. #####
+**Important:** You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.  
+There will be no negotiation about project grades after the submission deadline. 
   
-#### Submission:
+### Submission:
 You will submit **the following files**:
 
 `DoubleNode.hpp`  
