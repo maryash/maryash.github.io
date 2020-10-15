@@ -4,9 +4,7 @@ title: PROJECT 3
 ---  
 
 # Project 3 &nbsp; Making Your Fall Mixtape
-
 ![Doubly-Linked List](doubly.png)
-
 Your objective for this project is to implement a Doubly-Linked List. In order to successfully complete this project, you **must** understand the prerequisite material from the first and second projects, and you **must** understand the concept of a Linked List ADT.
 
 
@@ -99,7 +97,6 @@ void setGenre(std::string genre);
 */
 virtual void display() const = 0;
 ```
-
 Entitle your header (.hpp) file `PlaylistItem.hpp`, and entitle your implementation file (.cpp) `PlaylistItem.cpp`.  
 `Song` must have the artist_ private member on top of the title_, length_ and genre_ member variables that are inherited from `PlaylistItem`:
 ```
@@ -112,7 +109,8 @@ And the following public functions:
     Parameters: title, length, genre, artist
     Goal: Update member variables with given parameters
 */
-Song(std::string title, double length, std::string genre, std::string artist);
+Song(std::string title, double length, std::string genre, 
+                                       std::string artist);
 
 /************************ Getter Functions ************************/
 
@@ -145,7 +143,8 @@ std::string speaker_;
 ```
 And following public member functions:
 ```
-AudioBook(std::string title, double length, std::string genre, std::string author, std::string speaker);
+AudioBook(std::string title, double length, std::string genre, 
+                             std::string author, std::string speaker);
 
 std::string getAuthor() const;
 std::string getSpeaker() const;
@@ -188,7 +187,7 @@ For both classes define and implement a parameterized constructor that will have
 
 **Hint**: Include `const` keyword for the getter and display functions.
 
-**Hint**: Do not forget to include the `#ifndef #define #endif` tags in class definitions.
+**Hint**: Do not forget to include the `#ifndef #define #endif` tags in class definitions.  
   
 ---
   
@@ -205,27 +204,38 @@ Copy Constructor
 
 Destructor
 
-bool insert(const ItemType &item, const int &position) //inserts item at position in caller list
+bool insert(const ItemType &item, const int &position) 
+   //inserts item at position in caller list
 	
-bool remove(const int &position)           //removes the node at position
+bool remove(const int &position)           
+   //removes the node at position
 
-int getSize() const                        // returns the number of the nodes in the calling list
+int getSize() const                        
+   // returns the number of the nodes in the calling list
 				
-DoubleNode<ItemType> *getHeadPtr() const   // returns a copy of the headPtr
+DoubleNode<ItemType> *getHeadPtr() const   
+   // returns a copy of the headPtr
 
-DoubleNode<ItemType> *getAtPos(const int &pos) const // returns a pointer to the node located at pos
+DoubleNode<ItemType> *getAtPos(const int &pos) const 
+   // returns a pointer to the node located at pos
 
-bool isEmpty() const                       // returns whether the calling list is empty
+bool isEmpty() const                       
+   // returns whether the calling list is empty
 
-void clear()                               // clears the list
+void clear()                               
+   // clears the list
 
-int getIndexOf(const ItemType &item) const // returns the position of the given item in the list, -1 otherwise
+int getIndexOf(const ItemType &item) const 
+   // returns the position of the given item in the list, -1 otherwise
 
-void display() const                       // prints the contents of the calling list in order
+void display() const                       
+   // prints the contents of the calling list in order
 
-void displayBackwards() const              // prints the contents of the calling list in reverse order
+void displayBackwards() const              
+   // prints the contents of the calling list in reverse order
 
-DoublyLinkedList<ItemType> interleave(const DoublyLinkedList<ItemType> &a_list)} // returns the interleaved list of the calling and parameter lists
+DoublyLinkedList<ItemType> interleave(const DoublyLinkedList<ItemType> &a_list)} 
+   // returns the interleaved list of the calling and parameter lists
 ```
 **Interleave Example:** Define the calling list as a set of ordered nodes, $L1 = \{4, 2, 8 ,5, 8\}$, and define the list that is passed as a parameter as a set of ordered nodes, $L2 = \{5, 1, 8, 4, 5, 9\}$. `L1.interleave(L2)` yields the set $\{4, 5, 2, 1, 8, 8, 5, 4, 8, 5, 9\}$. In other words, to create the interleaved list, first add a node from L1, then one from L2, and then repeat as many times as necessary. If there are any nodes left over in L1 or L2 exclusively, append them to the end of the list.  
 Entitle you header (.hpp) file `DoublyLinkedList.hpp`, and entitle your implementation file (.cpp) `DoublyLinkedList.cpp`.  
