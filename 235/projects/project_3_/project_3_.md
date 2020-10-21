@@ -277,6 +277,11 @@ void skip();
     Goal: Moves the current object at the end of the list to the head of the list. 
 */
 void rewind();
+
+/* 
+    Goal: Calls the display function of each item in the Playlist
+*/
+void display();
 ```
 Entitle your header (.hpp) file `Playlist.hpp`, and entitle your implementation file (.cpp) `Playlist.cpp`.
   
