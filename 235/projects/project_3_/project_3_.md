@@ -257,15 +257,15 @@ double getTotalTime() const;
 /*
     Parameter: Another Playlist (rhs)
     Goal: Implement Union. 
-            rhs to be combined with the contents of this (the calling) list. 
-            Duplicates are allowed.
+        rhs to be combined with the contents of this (the calling) list. 
+        Duplicates are allowed.
 */
 void operator+=(Playlist rhs);
 
 /*
     Parameter: Another Playlist (rhs)
     Goal: Implement Difference. 
-            Removes all items from this (the calling) list that are also in rhs. 
+    Removes all items from this (the calling) list that are also in rhs. 
 */
 void operator-=(Playlist rhs);
 
