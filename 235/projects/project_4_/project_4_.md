@@ -3,22 +3,19 @@ layout: myDefault
 title: PROJECT 4
 ---
 
-## Project 4: &nbsp;Recursion, Inversion, and Rotation: The single life of a Singly-Linked List
+# Project 4: &nbsp;Recursion, Inversion, and Rotation: The single life of a Singly-Linked List
 
 Your objective for this project is to update a Singly-Linked list class to support inversion and rotation functionality. In order to successfully complete this project, you **must** understand the prerequisite material from all previous projects, and you **must** understand the concept of a Linked List ADT.
 
 
-#### Some additional resources
+### Some additional resources
 
-* Linked List:
-
+* Linked List:  
     [Geeks for Geeks](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)  
-
-    [CMU](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
-
+    [CMU](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)  
     [edspresso](https://www.educative.io/edpresso/what-is-a-linked-list)
 
-#### Implementation
+### Implementation
 
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
 
@@ -99,7 +96,7 @@ What does this mean? Implement and test one method at a time.
 * Implement the next function/method and test in the same fashion.
     **How do you do this?** Write your own `main()` function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally: i.e. implement mutator functions before accessor functions. Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible.
 
-#### Grading Rubric
+### Grading Rubric
 **Correctness 80%** (distributed across unit testing of your submission)
 **Documentation 10%**
 **Style and Design 10%** (proper naming, modularity, and organization)
@@ -107,9 +104,11 @@ What does this mean? Implement and test one method at a time.
 **Important:** You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.
 ##### There will be no negotiation about project grades after the submission deadline. #####
   
-#### Submission:
+### Submission:
 You will submit **the following files**:
 `LinkedList.cpp`
 `LinkedList.hpp`
 
-Your project must be submitted on Gradescope. Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging and it should not be used for that. You MUST test and debug your program locally. Before submitting to Gradescope you MUST ensure that your program compiles (with g++) and runs correctly on the Linux machines in the labs at Hunter (see detailed instructions on how to upload, compile and run your files in the “Programming Rules” document). That is your baseline, if it runs correctly there it will run correctly on Gradescope, and if it does not, you will have the necessary feedback (compiler error messages, debugger or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above you submit it to Gradescope.
+Your project must be submitted on Gradescope. Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging and it should not be used for that. You MUST test and debug your program locally. Before submitting to Gradescope you MUST ensure that your program compiles (with g++) and runs correctly on the Linux machines in the labs at Hunter (see detailed instructions on how to upload, compile and run your files in the “Programming Rules” document). That is your baseline, if it runs correctly there it will run correctly on Gradescope, and if it does not, you will have the necessary feedback (compiler error messages, debugger or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above you submit it to Gradescope.  
+  
+  
