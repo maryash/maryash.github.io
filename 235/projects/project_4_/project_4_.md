@@ -24,11 +24,13 @@ Your objective for this project is to update a Singly-Linked list class to suppo
 
 ---
 
-<h3 style="text-align: center; color: #FFBBBB;">Task 1: All roads lead to Rome and back home</h3> 
+### Starterp Code:  [starter_code.zip](starter_code.zip)
+
+## Task 1: All roads lead to Rome and back home 
 
 "A singly-linked list can be inverted" was once a song of dreams, a tale from a time before the invention of the doubly-linked list. Then, the budding programmer could iterate from head to tail, but they could not iterate from tail to head - that is, until one thought of a way to take a singly-linked list and invert it in order to make all of the links point in the opposite direction. Your task, should you choose to accept it, is to implement this inversion within the provided `LinkedList` files. Your implementation must be in O(n) time using O(1) extra space. This can be acheived by splitting your list into two parts, the first and the rest. Here is an example:
 
-![Example of Singly-Linked List Inversion](images/singly_inversion.png)
+![Example of Singly-Linked List Inversion](singly_inversion.png)
 
 Write a public and non-recursive function `invert()` that calls a private and recursive `invertRest()`. `invertRest()` must be implemented recursively and you may **not** create additional lists, containers, or copies of nodes to aid you in your venture.
 
@@ -60,11 +62,11 @@ void invertRest(Node<T>* current_first_ptr);
 
 ---
 
-<h3 style="text-align: center; color: #FFBBBB;">Task 2: An end is just a new beginning</h3>
+## Task 2: An end is just a new beginning
 
 Your task, should you choose to accept it, is to implement a rotate function that, given any k, will shift all items in the caller `LinkedList` k positions to the right. Items that move beyond the final position **must** wrap around to the beginning. Here is an example:
 
-![Example of Singly-Linked List Inversion](images/singly_rotation.png)
+![Example of Singly-Linked List Inversion](singly_rotation.png)
 
 `rotate()` is a public and recursive function that should be implemented with O(1) extra space, which means no additional lists, containers, or nodes are needed to implement it. This can be acheived by _relinking_ the nodes currently in the list.
 
