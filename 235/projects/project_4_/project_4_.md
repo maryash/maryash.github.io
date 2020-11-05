@@ -3,7 +3,7 @@ layout: myDefault
 title: PROJECT 4
 ---
 
-# Project 4: &nbsp;Recursion, Inversion, and Rotation: The single life of a Singly-Linked List
+# Project 4 &nbsp; Recursion, Inversion, and Rotation: The single life of a Singly-Linked List
 
 Your objective for this project is to update a Singly-Linked list class to support inversion and rotation functionality. In order to successfully complete this project, you **must** understand the prerequisite material from all previous projects, and you **must** understand the concept of a Linked List ADT.
 
