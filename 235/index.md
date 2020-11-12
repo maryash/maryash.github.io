@@ -60,7 +60,7 @@ This is an essential resource for you during this semester.  Attendance is highl
  11/12 | Queues | [Chapter&nbsp;13](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/274%5B%3Bvnd.vst.idref%3DP7001011925000000000000000003B21%5D!/4/2%5BP7001011925000000000000000003B21%5D/2/2%5BP700101192500000000000000000BCB7%5D/4%400:0){:target="_blank"} | [Queues](slides/19_queues.pdf){:target="_blank"} | 
  11/16 | Queue Implementation | [Chapter&nbsp;14](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/292%5B%3Bvnd.vst.idref%3DP7001011925000000000000000003F1B%5D!/4/2%5BP7001011925000000000000000003F1B%5D/2/2%5BP700101192500000000000000000C023%5D/4%400:0){:target="_blank"} | [Queue Implementation](slides/20_queue_implementation.pdf){:target="_blank"} | [SQ&nbsp;Queues&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;](study_questions/sq_10_queues.pdf){:target="_blank"} 
  11/18 |  |  |  | 
- 11/19 |  |  |  | 
+ 11/19 |  | SECOND | EXAM | 
  11/23 | Trees | [Chapter&nbsp;15](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/310%5B%3Bvnd.vst.idref%3DP70010119250000000000000000042F9%5D!/4/2%5BP70010119250000000000000000042F9%5D/2/2%5BP700101192500000000000000000C34F%5D/4%400:0){:target="_blank"} | [Trees](slides/21_trees.pdf){:target="_blank"} | 
  11/30 | Smart&nbsp;Pointers | [C++&nbsp;Interlude&nbsp;4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/216%5B%3Bvnd.vst.idref%3DP7001011925000000000000000002CE7%5D!/4/2%5BP7001011925000000000000000002CE7%5D/2/2%5BP700101192500000000000000000B108%5D/4%400:0){:target="_blank"} | [Smart Pointers](slides/i4_smart_pointers.pdf){:target="_blank"} | [SQ&nbsp;Trees&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;](study_questions/sq_11_trees.pdf){:target="_blank"} 
  12/2 |  |  |  | 
