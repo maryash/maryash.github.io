@@ -3,19 +3,15 @@ layout: myDefault
 title: PROJECT 5
 ---
 
-## Project 5: &nbsp;How many swaps does it take to get to the end of a sort?
+## Project 5 &nbsp; How many swaps does it take to get to the end of a sort?
 
 Your objective for this project is to implement four canonical sorting algorithms within the `Sorter` class. In order to successfully complete this project, you **must** understand the prerequisite material from all previous projects, and you **must** understand the following sorting algorithms: Selection, Insertion, Quicksort, and Merge Sort.
 
 
 ### Some additional resources
-
-* Sorting:
-
+- Sorting:
     [Geeks for Geeks](https://www.geeksforgeeks.org/sorting-algorithms/)  
-
-    [CMU](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Sorting%20Algorithms/sorting.html)
-
+    [CMU](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Sorting%20Algorithms/sorting.html)  
     [EducationAboutStuff](https://youtu.be/8BI2MNnwrKI)
 
 ### Implementation
@@ -25,20 +21,20 @@ Your objective for this project is to implement four canonical sorting algorithm
 ---
 
 
-## Task 0: Getting Started 
+## Task 0 &nbsp; Getting Started 
 
 Please thoroughly read and experiment with the code base given to you in the Starter Code folder. Create a main file and figure out how to instantiate `Sorter` objects. Read the `runSorts()` function to see how everything will come together once you have finished this project. You will only be able to test your project as you work if you understand how to use what has been given to you. 
 
 ---
 
-## Task 1: There Is No Better Time Than Now To Sort... 
+## Task 1 &nbsp; There Is No Better Time Than Now To Sort... 
 
 Modify the `Sorter` class to implement the following sorting algorithms: Selection, Insertion, Merge, and Quicksort sort. I know this is probably your first time seeing Comparators; for our purposes they are simple objects that evaluate to a boolean value. For example, if we have `comp <- std::less<int>()`, then `comp(0, 1)` will evaluate to true. Please reread the implementation of `getPosOfMinOrMax()` to see how we use comparators. Do not be afraid to ask questions if that is not clear.
 
 *Hints*: use `getPosOfMinOrMax()` within `selectionSort()`, we do not care which element you choose as the pivot for `quickSort`, and comment `runSorts()` out of the .hpp and .cpp as you do this task.
 
 ---
-## Task 2: Tootsie Slide
+## Task 2 &nbsp; Tootsie Slide
 
 Modify `selectionSort()`, `insertionSort()`, and `quickSort()` to increment their respective private count variables when a swap has taken place. Also, modify `mergeSort()` to increment its private count variable when a comparison between elements within the array it is processing is made. Once this has been completed `runSorts()` should not crash your test file and should give you some deterministic output.
 
