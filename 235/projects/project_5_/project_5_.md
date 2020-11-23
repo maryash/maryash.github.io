@@ -8,7 +8,7 @@ title: PROJECT 5
 Your objective for this project is to implement four canonical sorting algorithms within the `Sorter` class. In order to successfully complete this project, you **must** understand the prerequisite material from all previous projects, and you **must** understand the following sorting algorithms: Selection, Insertion, Quicksort, and Merge Sort.
 
 
-#### Some additional resources
+### Some additional resources
 
 * Sorting:
 
@@ -18,34 +18,31 @@ Your objective for this project is to implement four canonical sorting algorithm
 
     [EducationAboutStuff](https://youtu.be/8BI2MNnwrKI)
 
-#### Implementation
+### Implementation
 
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
 
 ---
 
 
-<h3 style="text-align: center; color: #FFBBBB;">Task 0: Getting Started</h3> 
+## Task 0: Getting Started 
 
 Please thoroughly read and experiment with the code base given to you in the Starter Code folder. Create a main file and figure out how to instantiate `Sorter` objects. Read the `runSorts()` function to see how everything will come together once you have finished this project. You will only be able to test your project as you work if you understand how to use what has been given to you. 
 
 ---
 
-<h3 style="text-align: center; color: #FFBBBB;">Task 1: There Is No Better Time Than Now To Sort...</h3> 
+## Task 1: There Is No Better Time Than Now To Sort... 
 
 Modify the `Sorter` class to implement the following sorting algorithms: Selection, Insertion, Merge, and Quicksort sort. I know this is probably your first time seeing Comparators; for our purposes they are simple objects that evaluate to a boolean value. For example, if we have `comp <- std::less<int>()`, then `comp(0, 1)` will evaluate to true. Please reread the implementation of `getPosOfMinOrMax()` to see how we use comparators. Do not be afraid to ask questions if that is not clear.
 
 *Hints*: use `getPosOfMinOrMax()` within `selectionSort()`, we do not care which element you choose as the pivot for `quickSort`, and comment `runSorts()` out of the .hpp and .cpp as you do this task.
 
 ---
-
-<h3 style="text-align: center; color: #FFBBBB;">Task 2: Tootsie Slide</h3>
+## Task 2: Tootsie Slide
 
 Modify `selectionSort()`, `insertionSort()`, and `quickSort()` to increment their respective private count variables when a swap has taken place. Also, modify `mergeSort()` to increment its private count variable when a comparison between elements within the array it is processing is made. Once this has been completed `runSorts()` should not crash your test file and should give you some deterministic output.
 
-<p align ="center">
-  <img src="images/tootsieSlide.gif" />
-</p>
+![](tootsieSlide.gif)
 
 Here is an example of what the output of `runSorts()` should look like if you finished all tasks correctly:
 
@@ -114,15 +111,15 @@ What does this mean? Implement and test one method at a time.
 * Implement the next function/method and test in the same fashion.
     **How do you do this?** Write your own `main()` function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally: i.e. implement mutator functions before accessor functions. Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing. Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible.
 
-#### Grading Rubric
+### Grading Rubric
 **Correctness 80%** (distributed across unit testing of your submission)
 **Documentation 10%**
 **Style and Design 10%** (proper naming, modularity, and organization)
 
 **Important:** You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.
-##### There will be no negotiation about project grades after the submission deadline. #####
+**There will be no negotiation about project grades after the submission deadline.**
   
-#### Submission:
+### Submission:
 You will submit **the following files**:
 `Sorter.cpp`
 
