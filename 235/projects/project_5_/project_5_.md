@@ -20,7 +20,7 @@ Your objective for this project is to implement four canonical sorting algorithm
 
 ---
 ### Starter Code
-[Sorter.cpp](Sorter.cpp) 
+[Sorter.cpp](Sorter.cpp)  
 [Sorter.hpp](Sorter.hpp)
 
 ## Task 0 &nbsp; Getting Started 
