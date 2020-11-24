@@ -19,7 +19,9 @@ Your objective for this project is to implement four canonical sorting algorithm
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
 
 ---
-
+### Starter Code
+[Sorter.cpp](Sorter.cpp) 
+[Sorter.hpp](Sorter.hpp)
 
 ## Task 0 &nbsp; Getting Started 
 
