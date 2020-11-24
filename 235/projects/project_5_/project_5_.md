@@ -99,7 +99,7 @@ Number of swaps: 11
 How to compile:
 
 ```
-g++ SortingComparison.cpp <main file> -std=c++17
+g++ Sorter.cpp <main file> -std=c++17
 ```
 
 You must always implement and test you programs **INCREMENTALLY!!!**
