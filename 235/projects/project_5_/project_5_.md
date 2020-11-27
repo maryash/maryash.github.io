@@ -9,7 +9,7 @@ Your objective for this project is to implement four canonical sorting algorithm
 
 
 ### Some additional resources
-- Sorting:
+- Sorting:  
     [Geeks for Geeks](https://www.geeksforgeeks.org/sorting-algorithms/)  
     [CMU](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Sorting%20Algorithms/sorting.html)  
     [EducationAboutStuff](https://youtu.be/8BI2MNnwrKI)
