@@ -33,7 +33,7 @@ Please thoroughly read and experiment with the code base given to you in the Sta
 
 Modify the `Sorter` class to implement the following sorting algorithms: Selection, Insertion, Merge, and Quicksort sort. I know this is probably your first time seeing Comparators; for our purposes they are simple objects that evaluate to a boolean value. For example, if we have `comp <- std::less<int>()`, then `comp(0, 1)` will evaluate to true. Please reread the implementation of `getPosOfMinOrMax()` to see how we use comparators. Do not be afraid to ask questions if that is not clear.
 
-*Hints*: use `getPosOfMinOrMax()` within `selectionSort()`, we do not care which element you choose as the pivot for `quickSort`, and comment `runSorts()` out of the .hpp and .cpp as you do this task.
+*Hints*: use `getPosOfMinOrMax()` within `selectionSort()`, use `partition()` within `quickSort()`, please choose position 1 as your pivot in `partition()`, and comment `runSorts()` out of the .hpp and .cpp as you do this task. You can make `displayArr()` a public function for testing purposes but please make it private once you move on to the following task.  
 
 ---
 ## Task 2 &nbsp; Tootsie Slide
