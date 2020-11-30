@@ -31,14 +31,28 @@ Please thoroughly read and experiment with the code base given to you in the Sta
 
 ## Task 1 &nbsp; There Is No Better Time Than Now To Sort... 
 
-Modify the `Sorter` class to implement the following sorting algorithms: Selection, Insertion, Merge, and Quicksort sort. I know this is probably your first time seeing Comparators; for our purposes they are simple objects that evaluate to a boolean value. For example, if we have `comp <- std::less<int>()`, then `comp(0, 1)` will evaluate to true. Please reread the implementation of `getPosOfMinOrMax()` to see how we use comparators. Do not be afraid to ask questions if that is not clear.
+Modify the `Sorter` class to implement the following sorting algorithms: Selection, Insertion, and Merge sort. I know this is probably your first time seeing Comparators; for our purposes they are simple objects that evaluate to a boolean value. For example, if we have `comp <- std::less<int>()`, then `comp(0, 1)` will evaluate to true. Please reread the implementation of `getPosOfMinOrMax()` to see how we use comparators. Do not be afraid to ask questions if that is not clear.
 
-*Hints*: use `getPosOfMinOrMax()` within `selectionSort()`, use `partition()` within `quickSort()`, please choose position 1 as your pivot in `partition()`, and comment `runSorts()` out of the .hpp and .cpp as you do this task. You can make `displayArr()` a public function for testing purposes but please make it private once you move on to the following task.  
+*Hints*: use `getPosOfMinOrMax()` within `selectionSort()`. You can make `displayArr()` a public function for testing purposes but please make it private once you move on to the following task.
+<!--- 
+, use `partition()` within `quickSort()`, please choose position 1 as your pivot in `partition()`, and comment `runSorts()` out of the .hpp and .cpp as you do this task 
 
+
+********** Quick Sort **********
+Original Array:
+61 70 81 37 57 95 21 3 25 16
+
+Sorted Array:
+3 16 21 25 37 57 61 70 81 95
+
+Number of swaps: 11
+*******************************
+
+-->
 ---
 ## Task 2 &nbsp; Tootsie Slide
 
-Modify `selectionSort()`, `insertionSort()`, and `quickSort()` to increment their respective private count variables when a swap has taken place. Also, modify `mergeSort()` to increment its private count variable when a comparison between elements within the array it is processing is made. Once this has been completed `runSorts()` should not crash your test file and should give you some deterministic output.
+Modify `selectionSort()` and `insertionSort()` to increment their respective private count variables when a swap has taken place. Also, modify `mergeSort()` to increment its private count variable when a comparison between elements within the array it is processing is made. Once this has been completed `runSorts()` should not crash your test file and should give you some deterministic output.
 
 ![](tootsieSlide.gif)
 
@@ -79,17 +93,6 @@ Sorted Array:
 
 Number of comparisons: 34
 ********************************
-
-
-********** Quick Sort **********
-Original Array:
-61 70 81 37 57 95 21 3 25 16
-
-Sorted Array:
-3 16 21 25 37 57 61 70 81 95
-
-Number of swaps: 11
-*******************************
 ```
 
 ---
