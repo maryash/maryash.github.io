@@ -31,7 +31,9 @@ Please thoroughly read and experiment with the code base given to you in the Sta
 
 ## Task 1 &nbsp; There Is No Better Time Than Now To Sort... 
 
-Modify the `Sorter` class to implement the following sorting algorithms: Selection, Insertion, and Merge sort. I know this is probably your first time seeing Comparators; for our purposes they are simple objects that evaluate to a boolean value. For example, if we have `comp <- std::less<int>()`, then `comp(0, 1)` will evaluate to true. Please reread the implementation of `getPosOfMinOrMax()` to see how we use comparators. Do not be afraid to ask questions if that is not clear.
+Modify the `Sorter` class to implement the following sorting algorithms: Selection, Insertion, and Merge sort. I know this is probably your first time seeing Comparators; for our purposes they are simple objects that evaluate to a boolean value.  
+For example, if we have `comp <- std::less<int>()`, then `comp(0, 1)` will evaluate to true.  
+Please reread the implementation of `getPosOfMinOrMax()` to see how we use comparators. Do not be afraid to ask questions if that is not clear.
 
 *Hints*: use `getPosOfMinOrMax()` within `selectionSort()`. You can make `displayArr()` a public function for testing purposes but please make it private once you move on to the following task. 
 
