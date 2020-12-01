@@ -5,7 +5,7 @@ title: PROJECT 5
 
 ## Project 5 &nbsp; How many swaps does it take to get to the end of a sort?
 
-Your objective for this project is to implement four canonical sorting algorithms within the `Sorter` class. In order to successfully complete this project, you **must** understand the prerequisite material from all previous projects, and you **must** understand the following sorting algorithms: Selection, Insertion, Quicksort, and Merge Sort.
+Your objective for this project is to implement four canonical sorting algorithms within the `Sorter` class. In order to successfully complete this project, you **must** understand the prerequisite material from all previous projects, and you **must** understand the following sorting algorithms: Selection, Insertion, and Merge Sort.
 
 
 ### Some additional resources
@@ -33,8 +33,10 @@ Please thoroughly read and experiment with the code base given to you in the Sta
 
 Modify the `Sorter` class to implement the following sorting algorithms: Selection, Insertion, and Merge sort. I know this is probably your first time seeing Comparators; for our purposes they are simple objects that evaluate to a boolean value. For example, if we have `comp <- std::less<int>()`, then `comp(0, 1)` will evaluate to true. Please reread the implementation of `getPosOfMinOrMax()` to see how we use comparators. Do not be afraid to ask questions if that is not clear.
 
-*Hints*: use `getPosOfMinOrMax()` within `selectionSort()`. You can make `displayArr()` a public function for testing purposes but please make it private once you move on to the following task.
-<!--- 
+*Hints*: use `getPosOfMinOrMax()` within `selectionSort()`. You can make `displayArr()` a public function for testing purposes but please make it private once you move on to the following task. 
+
+<!-- 
+
 , use `partition()` within `quickSort()`, please choose position 1 as your pivot in `partition()`, and comment `runSorts()` out of the .hpp and .cpp as you do this task 
 
 
@@ -48,7 +50,8 @@ Sorted Array:
 Number of swaps: 11
 *******************************
 
--->
+--> 
+
 ---
 ## Task 2 &nbsp; Tootsie Slide
 
