@@ -54,25 +54,12 @@ int Sorter::mergeSort(int arr[], int from, int to, const Comparator &comp)
 }
 // /************************************************************************/
 
-// /****************************** Quick Sort ******************************/
-template <typename Comparator>
-int Sorter::partition(int arr[], int from, int to, const Comparator &comp)
-{
-}
-
-template <typename Comparator>
-int Sorter::quickSort(int arr[], int from, int to, const Comparator &comp)
-{
-}
-// /************************************************************************/
-
 void Sorter::runSorts(sort_order order)
 {
 
     int selectionValues[SIZE_];
     int insertionValues[SIZE_];
     int mergeValues[SIZE_];
-    int quickValues[SIZE_];
 
     if (type_ == RANDOM)
     {
@@ -82,7 +69,6 @@ void Sorter::runSorts(sort_order order)
             selectionValues[i] = rand() % 100;
             insertionValues[i] = rand() % 100;
             mergeValues[i] = rand() % 100;
-            quickValues[i] = rand() % 100;
         }
     }
 
@@ -93,7 +79,6 @@ void Sorter::runSorts(sort_order order)
             selectionValues[i] = values_[i];
             insertionValues[i] = values_[i];
             mergeValues[i] = values_[i];
-            quickValues[i] = values_[i];
         }
     }
 
@@ -142,20 +127,7 @@ void Sorter::runSorts(sort_order order)
     displayArr(mergeValues);
     std::cout << "\nNumber of comparisons: " << mergeCount_ << "\n********************************\n\n";
 
-    // Quick Sort Display
-    std::cout << "\n********** Quick Sort **********\nOriginal Array:\n";
-    displayArr(quickValues);
-    if (order == INCREASING)
-    {
-        quickSort(quickValues, 0, SIZE_ - 1, std::less<int>());
-    }
-    else
-    {
-        quickSort(quickValues, 0, SIZE_ - 1, std::greater<int>());
-    }
-    std::cout << "\nSorted Array:\n";
-    displayArr(quickValues);
-    std::cout << "\nNumber of swaps: " << quickCount_ << "\n*******************************\n";
+
 }
 
 void Sorter::displayArr(const int array[]) const

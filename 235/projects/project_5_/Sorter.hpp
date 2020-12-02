@@ -50,9 +50,6 @@ public:
     template <typename Comparator>
     int mergeSort(int arr[], int from, int to, const Comparator &comp);
 
-    template <typename Comparator>
-    int quickSort(int arr[], int from, int to, const Comparator &comp);
-
     void runSorts(sort_order order);
 
 private:
@@ -63,7 +60,6 @@ private:
     int selectionCount_ = 0; // the number of swaps executed during selectionSort()
     int insertionCount_ = 0; // the number of swaps executed during insertionSort()
     int mergeCount_ = 0;     // the number of comparisons executed during mergeSort()
-    int quickCount_ = 0;     // the number of swaps executed during quickSort()
 
     /* 
         yields the index of either the minimum or maximum of a subarray of @param arr
@@ -74,9 +70,6 @@ private:
 
     template <typename Comparator>
     void merge(int arr[], int from, int mid, int to, const Comparator &comp);
-
-    template <typename Comparator>
-    int partition(int arr[], int from, int to, const Comparator &comp);
 
     void displayArr(const int array[]) const;
 
