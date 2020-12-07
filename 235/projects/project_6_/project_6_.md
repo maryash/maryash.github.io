@@ -19,6 +19,9 @@ Your objective for this project is to implement a `BST-Dictionary` class given a
 
 ---
 
+### Starterp Code:
+[BinaryNode.cpp](BinaryNode.cpp)  
+[BinaryNode.hpp](BinaryNode.hpp)
 
 ## The Task 
 
