@@ -59,19 +59,24 @@ This is an essential resource for you during this semester.  Attendance is highl
  11/11 | Stack Implementation |[Chapter&nbsp;7](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/174%5B%3Bvnd.vst.idref%3DP70010119250000000000000000025C8%5D!/4/2%5BP70010119250000000000000000025C8%5D/2/2%5BP700101192500000000000000000AAEC%5D/4%400:0){:target="_blank"}| [Stack Implementation](slides/18_stack_implementation.pdf){:target="_blank"} | [SQ&nbsp;Stacks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;](study_questions/sq_09_stacks.pdf){:target="_blank"} 
  11/12 | Queues | [Chapter&nbsp;13](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/274%5B%3Bvnd.vst.idref%3DP7001011925000000000000000003B21%5D!/4/2%5BP7001011925000000000000000003B21%5D/2/2%5BP700101192500000000000000000BCB7%5D/4%400:0){:target="_blank"} | [Queues](slides/19_queues.pdf){:target="_blank"} | 
  11/16 | Queue Implementation | [Chapter&nbsp;14](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/292%5B%3Bvnd.vst.idref%3DP7001011925000000000000000003F1B%5D!/4/2%5BP7001011925000000000000000003F1B%5D/2/2%5BP700101192500000000000000000C023%5D/4%400:0){:target="_blank"} | [Queue Implementation](slides/20_queue_implementation.pdf){:target="_blank"} | [SQ&nbsp;Queues&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;](study_questions/sq_10_queues.pdf){:target="_blank"} 
- 11/18 | Trees | [Chapter&nbsp;15](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/310%5B%3Bvnd.vst.idref%3DP70010119250000000000000000042F9%5D!/4/2%5BP70010119250000000000000000042F9%5D/2/2%5BP700101192500000000000000000C34F%5D/4%400:0){:target="_blank"} | [Trees](slides/21_trees.pdf){:target="_blank"} | ! NOT ON THIS EXAM !
+ 11/18 | Trees | [Chapter&nbsp;15](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/310%5B%3Bvnd.vst.idref%3DP70010119250000000000000000042F9%5D!/4/2%5BP70010119250000000000000000042F9%5D/2/2%5BP700101192500000000000000000C34F%5D/4%400:0){:target="_blank"} | [Trees](slides/21_trees.pdf){:target="_blank"} | 
  11/19 |  | SECOND | EXAM | 
  11/23 |  |  |  | [**Project&nbsp;5**&nbsp;**due&nbsp;12/07**](projects/project_5_/project_5_.html){:target="_blank"} 
  11/30 | Smart&nbsp;Pointers | [C++&nbsp;Interlude&nbsp;4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/216%5B%3Bvnd.vst.idref%3DP7001011925000000000000000002CE7%5D!/4/2%5BP7001011925000000000000000002CE7%5D/2/2%5BP700101192500000000000000000B108%5D/4%400:0){:target="_blank"} | [Smart Pointers](slides/i4_smart_pointers.pdf){:target="_blank"} | [SQ&nbsp;Trees&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;](study_questions/sq_11_trees.pdf){:target="_blank"} 
  12/2 |  |  |  | 
  12/3 | Tree Implementation | [Chapter&nbsp;16](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/324%5B%3Bvnd.vst.idref%3DP70010119250000000000000000047EF%5D!/4/2%5BP70010119250000000000000000047EF%5D/2/2%5BP700101192500000000000000000C782%5D/4%400:0){:target="_blank"} | [Tree Implementation](slides/22_tree_implementation.pdf){:target="_blank"} |  
  12/07 |  |  |  | [**Project&nbsp;6**&nbsp;**due&nbsp;12/16**](projects/project_6_/project_6_.html){:target="_blank"} 
- 12/09 | Heaps | [Chapter&nbsp;17](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/344%5B%3Bvnd.vst.idref%3DP7001011925000000000000000004C48%5D!/4/2%5BP7001011925000000000000000004C48%5D/2/2%5BP700101192500000000000000000CB0A%5D/4%400:0){:target="_blank"} | [Heaps](slides/23_heaps.pdf){:target="_blank"} | 
- 12/10 | Dictionaries and Hashing | [Chapter&nbsp;18.1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/368%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005125%5D!/4/2%5BP7001011925000000000000000005125%5D/2/2%5BP700101192500000000000000000CF16%5D/2%400:0){:target="_blank"}[&nbsp;&&nbsp;18.4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/374%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005385%5D!/4/2%5BP7001011925000000000000000005385%5D/2/2%5BP700101192500000000000000000D110%5D/4%400:0){:target="_blank"} | [Dictionaries and Hashing](slides/24_dictionaries_hashing.pdf){:target="_blank"} | 
+ 12/09 | REVIEW 1 |  |  | 
+ 12/10 | REVIEW 2 |  |  | 
  **12/16** | **11:30 AM** | **FINAL EXAM** |  | 
   
   
 <!-- 
+
+ 12/09 | Heaps | [Chapter&nbsp;17](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/344%5B%3Bvnd.vst.idref%3DP7001011925000000000000000004C48%5D!/4/2%5BP7001011925000000000000000004C48%5D/2/2%5BP700101192500000000000000000CB0A%5D/4%400:0){:target="_blank"} | [Heaps](slides/23_heaps.pdf){:target="_blank"} | 
+ 12/10 | Dictionaries and Hashing | [Chapter&nbsp;18.1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/368%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005125%5D!/4/2%5BP7001011925000000000000000005125%5D/2/2%5BP700101192500000000000000000CF16%5D/2%400:0){:target="_blank"}[&nbsp;&&nbsp;18.4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/374%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005385%5D!/4/2%5BP7001011925000000000000000005385%5D/2/2%5BP700101192500000000000000000D110%5D/4%400:0){:target="_blank"} | [Dictionaries and Hashing](slides/24_dictionaries_hashing.pdf){:target="_blank"} | 
+
+! NOT ON THIS EXAM !
 
 [![](files/video.png)](https://www.dropbox.com/s/xlolhdjk1q0anhf/6_15.mkv?dl=0){:target="_blank"} &nbsp; &nbsp; 
 
