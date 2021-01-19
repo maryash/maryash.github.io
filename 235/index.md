@@ -30,7 +30,7 @@ This is an essential resource for you during this semester.  Attendance is highl
  9/2 |  |  |  |  
  9/3 | Inheritance | [C++&nbsp;Interlude&nbsp;1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/48%5B%3Bvnd.vst.idref%3DP700101192500000000000000000099F%5D!/4/6%400:0){:target="_blank"} | [Inheritance](slides/03_inheritance.pdf){:target="_blank"} | [SQ&nbsp;Basic&nbsp;Inheritance&nbsp;9/14](study_questions/sq_00_Basic_Inheritance.pdf){:target="_blank"} 
  9/9 |  |  |  | 
- 9/10 | Polymorphism | [C++&nbsp;Interlude&nbsp;2.4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/106%5B%3Bvnd.vst.idref%3DP70010119250000000000000000016EA%5D!/4/6%400:0){:target="_blank"} | [Polymorphism](slides/11_polymorphism.pdf){:target="_blank"}<br/>[*Extra&nbsp;polymorphism*](slides/11_prime_additional_polymorphism.pdf){:target="_blank"} | [SQ&nbsp;Polymorphism&nbsp;9/20](study_questions/sq_05_polymorphism.pdf){:target="_blank"}<br/>[**Project&nbsp;1**&nbsp;**due&nbsp;9/29**](projects/project_1_/project_1_.html){:target="_blank"} 
+ 9/10 | Polymorphism | [C++&nbsp;Interlude&nbsp;2.4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/106%5B%3Bvnd.vst.idref%3DP70010119250000000000000000016EA%5D!/4/6%400:0){:target="_blank"} | [Polymorphism](slides/11_polymorphism.pdf){:target="_blank"} | [SQ&nbsp;Polymorphism&nbsp;9/20](study_questions/sq_05_polymorphism.pdf){:target="_blank"}<br/>[**Project&nbsp;1**&nbsp;**due&nbsp;9/29**](projects/project_1_/project_1_.html){:target="_blank"} 
  9/14 |  |  |  | 
  9/16 | ADTs,&nbsp;Templates | [Chapters&nbsp;3.1&nbsp;and](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/86%5B%3Bvnd.vst.idref%3DP7001011925000000000000000001247%5D!/4/6%400:0){:target="_blank"} | [ADTs&nbsp;&&nbsp;Templates](slides/04_adt_templates.pdf){:target="_blank"} | 
  9/17 |  |  |  | 
@@ -72,6 +72,8 @@ This is an essential resource for you during this semester.  Attendance is highl
   
   
 <!-- 
+
+<br/>[*Extra&nbsp;polymorphism*](slides/11_prime_additional_polymorphism.pdf){:target="_blank"}
 
 [**Project&nbsp;6**&nbsp;**due&nbsp;12/16**](projects/project_6_/project_6_.html){:target="_blank"} 
 
