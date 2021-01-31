@@ -10,7 +10,7 @@ title: CSCI 235 MAIN PAGE
 [**GRADESCOPE**](https://www.gradescope.com/courses/155598 "Entry Code 9GRRD8"){:target="_blank"}  
   
 **LECTURE** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
-Monday, Wednesday, Thursday 12:10 PM - 1:00 PM on BlackBoard Collaborate  
+Monday, Wednesday, Thursday 11:00 AM - 12:15 PM on BlackBoard Collaborate  
   
 **HELP, TUTORING, AND PROJECT LAB SESSIONS**  
 Monday, Tuesday, Wednesday, Thursday, and Friday 1:15 PM - 2:15 PM on BlackBoard Collaborate.  
@@ -24,10 +24,13 @@ This is an essential resource for you during this semester.  Attendance is highl
   
  DATE | TOPIC | READING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | ASSIGNMENTS 
  :---: | :---: | --- | :---: | ---: 
- 8/26 | Introduction | [Syllabus](syllabus.html){:target="_blank"}<br/>[Programming Guidelines](programming_guidelines.html){:target="_blank"} | [Introduction](slides/01_introduction.pdf){:target="_blank"} | [**Project&nbsp;0**&nbsp;**due&nbsp;9/1**](projects/project_0_/project_0_.html){:target="_blank"} 
- 8/27 | Data&nbsp;Abstraction | [Chapter&nbsp;1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/30%5B%3Bvnd.vst.idref%3DP70010119250000000000000000005D9%5D!/4/2%5BP70010119250000000000000000005D9%5D/2/2%5BP7001011925000000000000000009091%5D/4%400:0){:target="_blank"} | [Abstraction](/slides/02_oop.pdf){:target="_blank"} | 
- 8/31 | OOP | [Appendix&nbsp;B](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/450%5B%3Bvnd.vst.idref%3DP7001011925000000000000000006BC2%5D!/4/2%5BP7001011925000000000000000006BC2%5D/2/2%5BP700101192500000000000000000E4E6%5D/4%400:0){:target="_blank"} |  | 
- 9/2 |  |  |  |  
+ 2/1 | Introduction | [Syllabus](syllabus.html){:target="_blank"}<br/>[Programming Guidelines](programming_guidelines.html){:target="_blank"} | [Introduction](slides/01_introduction.pdf){:target="_blank"} | 
+ 2/4 | Data&nbsp;Abstraction | [Chapter&nbsp;1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/30%5B%3Bvnd.vst.idref%3DP70010119250000000000000000005D9%5D!/4/2%5BP70010119250000000000000000005D9%5D/2/2%5BP7001011925000000000000000009091%5D/4%400:0){:target="_blank"} | [Abstraction](/slides/02_oop.pdf){:target="_blank"} | [**Project&nbsp;0**&nbsp;**due&nbsp;2/8**](//projects/project_0_/project_0_.html){:target="_blank"} 
+ 2/8 | OOP | [Appendix&nbsp;B](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/450%5B%3Bvnd.vst.idref%3DP7001011925000000000000000006BC2%5D!/4/2%5BP7001011925000000000000000006BC2%5D/2/2%5BP700101192500000000000000000E4E6%5D/4%400:0){:target="_blank"} |  | 
+ 2/11 |  |  |  |  
+ 
+<!-- 
+
  9/3 | Inheritance | [C++&nbsp;Interlude&nbsp;1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/48%5B%3Bvnd.vst.idref%3DP700101192500000000000000000099F%5D!/4/6%400:0){:target="_blank"} | [Inheritance](slides/03_inheritance.pdf){:target="_blank"} | [SQ&nbsp;Basic&nbsp;Inheritance&nbsp;9/14](study_questions/sq_00_Basic_Inheritance.pdf){:target="_blank"} 
  9/9 |  |  |  | 
  9/10 | Polymorphism | [C++&nbsp;Interlude&nbsp;2.4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/106%5B%3Bvnd.vst.idref%3DP70010119250000000000000000016EA%5D!/4/6%400:0){:target="_blank"} | [Polymorphism](slides/11_polymorphism.pdf){:target="_blank"} | [SQ&nbsp;Polymorphism&nbsp;9/20](study_questions/sq_05_polymorphism.pdf){:target="_blank"}<br/>[**Project&nbsp;1**&nbsp;**due&nbsp;9/29**](projects/project_1_/project_1_.html){:target="_blank"} 
@@ -71,7 +74,8 @@ This is an essential resource for you during this semester.  Attendance is highl
  **12/16** | **Wednesday** | **11:30 AM** | **FINAL EXAM** | 
   
   
-<!-- 
+
+
 
 <br/>[*Extra&nbsp;polymorphism*](slides/11_prime_additional_polymorphism.pdf){:target="_blank"}
 
