@@ -10,10 +10,9 @@ title: CSCI 235 MAIN PAGE
 [**GRADESCOPE**](https://www.gradescope.com/courses/155598 "Entry Code 9GRRD8"){:target="_blank"}  
   
 **LECTURE** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
-Monday, Wednesday, Thursday 11:00 AM - 12:15 PM on BlackBoard Collaborate  
+Mondays and Thursdays 11:10 AM - 12:25 PM on BlackBoard Collaborate  
   
 **HELP, TUTORING, AND PROJECT LAB SESSIONS**  
-Monday, Tuesday, Wednesday, Thursday, and Friday 1:15 PM - 2:15 PM on BlackBoard Collaborate.  
 This is an essential resource for you during this semester.  Attendance is highly recommended.  You must submit your questions about your code the day before through this online form: &nbsp; [THROUGH THIS LINK](https://forms.gle/tv39oy3brf76HjRS7){:target="_blank"}. You can also email it to [cs235help@gmail.com](cs235help@gmail.com){:target="_blank"}.  You will either receive a reply by email by the end of day, or it will be answered in the Project Lab Session the forllowing day.  You can also ask your questions during the lab, but the lab TA, will always answer previousely submitted questions first.  
 Project Lab Sessions will take place on most Tuesdays, Wednesdays, and Thursdays at 2:00 PM. 
     
