@@ -58,7 +58,7 @@ float getSpeed();                                   // curr_speed_
 
 float getDistanceTraveled();                        // distance_traveled_
 
-int getAcceleration();                              // curr_acceleration_
+int getIntensity();                              // curr_acceleration_
 ```
 
 Implement the following `public` methods:
@@ -81,7 +81,7 @@ Implement the following `private` method:
 
 ```
 /**
-    alters curr_speed_ depending on curr_speed_, curr_acceleration_, and b_type_
+    alters curr_speed_ depending on curr_speed_, curr_acceleration_, and brand_
 
     USE THE FOLLOWING FORMULA: [ (acceleration) / 8 ] + [ (brand) * 17.64 ]
 */
@@ -95,7 +95,7 @@ Implement the following public method:
 /**
     if the current acceleration is not HIGH increase it by one level and call updateSpeed()
 */
-void pedal();
+void accelerate();
 
 /**
     if the current acceleration is not NONE decrease it by one level and call updateSpeed()
