@@ -31,7 +31,6 @@ private:
     float curr_speed_;                             // speed in mph at which the caller is travelling
     float curr_direction_;                         // 0 <= direction <= 360 in which the caller is travelling
     float distance_traveled_;                      // total distance that the caller has traveled since instantiation
-    int seat_height_;                              // seat height of caller bike in inches
     bike_details::acceleration curr_acceleration_; // enum defined as the the rotations-per-minute (RPM) of the caller's wheels
 
     /**
@@ -88,7 +87,7 @@ public:
     */
     std::string getDirection();
 
-    /* Getter: b_type_ */
+    /* Getter: brand_ */
     std::string getBikeType();
 
     /* Getter: curr_speed_ */
@@ -97,8 +96,8 @@ public:
     /* Getter: distance_traveled_ */
     float getDistanceTraveled();
 
-    /* Getter: curr_pedal_intensity_ */
+    /* Getter: curr_acceleration_ */
     int getIntensity();
 };
 
-#endif 
+#endif
