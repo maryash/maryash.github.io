@@ -4,7 +4,7 @@ title: PROJECT 0
 ---  
 
 # Project 0 &nbsp; This project will be WHEELIE FUN!
-![Training Wheel](./wheelie.png)
+![Training Wheel](./wheelie1.png)
 
 The objective of this project is to refresh your knowledge of class objects and enums from CSCI 135. This will require you to implement a class, `Motorcycle`, in addition to its private and public member functions, which will be specified in a further section of this document. In order to successfully complete this project, we strongly recommend that you look back to your CSCI 135 coursework as a reference. **You have given the [`Motorcycle.hpp`](Motorcycle.hpp) file; all that you must do is create and successfully write and compile `Motorcycle.cpp`.**  
 
