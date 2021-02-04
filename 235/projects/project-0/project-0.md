@@ -74,12 +74,8 @@ void turn(float degrees);
 ```
 
 *Hint*: Use the following visualization to influence your implementation of `turn()`.
-<center> 
-
+  
 ![Relative Location of Bike](./bike.gif)
-</center> 
-
-
 
 Implement the following `private` method:
 
