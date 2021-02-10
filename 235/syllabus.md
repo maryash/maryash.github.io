@@ -4,6 +4,8 @@ title: 235 SYLLABUS
 ---
 
 **[CSCI 235 &nbsp; &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
+
+**Spring 2021 &nbsp; &nbsp; Mondays and Thursdays &nbsp; 11:10 AM to 12:25 PM on BlackBoard Collaborate**
   
 **INSTRUCTOR**  
 **Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate.  
