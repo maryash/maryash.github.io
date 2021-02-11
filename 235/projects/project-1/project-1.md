@@ -27,8 +27,10 @@ You are now rich enough to buy all the bikes you want, but now you can have othe
 ---
 
 ### Required Files
-[starter_code.zip](starter_code.zip){:target="_blank"}
-
+[Vehicle.hpp](Vehicle.hpp){:target="_blank"}  
+[Vehicle.hpp](Vehicle.hpp){:target="_blank"}  
+[Garage.cpp](Garage.cpp){:target="_blank"}  
+  
 ---
 
 ## Task 1: Me Mum's Car vroom vroom, and her bike, truck, and bus too.
@@ -45,14 +47,10 @@ Class `Car` must contain the following methods:
       Uses setNumWheels function to set wheels to 4.
    */
    Car(std::string name, std::string manufacturer, double top_speed, double weight, double mpg);
-
-
    
 ```
-No private members to worry about here ;)
+No private members to worry about here ;)  
 
-
-.
 Class `Motorcycle` must contain the following methods:
 ```
    /**
@@ -63,10 +61,8 @@ Class `Motorcycle` must contain the following methods:
    Motorcycle(std::string name, std::string manufacturer, double top_speed, double weight, double mpg);
 
 ```
-Still no private members, pretty easy right? =P
+Still no private members, pretty easy right? =P  
 
-
-.
 Class `Bus` must contain the following methods:
 ```
    /**
@@ -87,8 +83,6 @@ We have a private member variable now!
 ```
    double number_seats;
 ```
-
-.
 Class `Truck` must contain the following methods:
 ```
    /**
