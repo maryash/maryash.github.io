@@ -12,11 +12,11 @@ You are now rich enough to buy all the bikes you want, but now you can have othe
 
 ### Some additional resources
 
-- **Dynamic Memory Allocation: **  
+- Dynamic Memory Allocation:
     [C++ Documentation](http://www.cplusplus.com/doc/tutorial/dynamic/)  
     [Tutorialspoint](https://www.tutorialspoint.com/cplusplus/cpp_dynamic_memory.htm)  
     
-- **Inheritance: **
+- Inheritance:
     [Geeks for Geeks](https://www.geeksforgeeks.org/inheritance-in-c/)  
     [Caleb Curry](https://youtu.be/_rzEUwv2-eQ)
 
