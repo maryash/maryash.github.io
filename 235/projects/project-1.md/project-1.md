@@ -12,20 +12,15 @@ You are now rich enough to buy all the bikes you want, but now you can have othe
 
 ### Some additional resources
 
-- ***Dynamic Memory Allocation:***  
+- Dynamic Memory Allocation:  
     [C++ Documentation](http://www.cplusplus.com/doc/tutorial/dynamic/)  
-    [Tutorialspoint](https://www.tutorialspoint.com/cplusplus/cpp_dynamic_memory.htm)
-
-<br/><br/>
-
-- ***Inheritance:*** 
+    [Tutorialspoint](https://www.tutorialspoint.com/cplusplus/cpp_dynamic_memory.htm)  
+    
+- Inheritance:  
     [Geeks for Geeks](https://www.geeksforgeeks.org/inheritance-in-c/)  
     [Caleb Curry](https://youtu.be/_rzEUwv2-eQ)
 
----
 ### Implementation:
-
-
 
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class. 
 
