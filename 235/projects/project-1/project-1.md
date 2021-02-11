@@ -122,7 +122,7 @@ That escalated quickly... Here are your private variables:
 
 ---
 
-## Task 2: Bringing It Home 
+## Task 2: Here in my garage. 
 Wow! You're like a very lame version of iron man now, being able to build all these sweet rides. Great! Time to store these beauties.
 Define the `Garage` class in a file entitled `Garage.hpp`. As a preliminary, our concept of a garage is composed of an array that is filled from front to back. We consider each index in this array as a garage "space," where different vehicle subclasses occupy a different number of garage "spaces" respectively. 
 
