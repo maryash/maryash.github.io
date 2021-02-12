@@ -37,7 +37,7 @@ You are now rich enough to buy all the bikes you want, but now you can have othe
 *Understanding the basics of a vehicle is the easy part. Understanding the complexities and differences between vehicles, that's what you have been tasked to recognize.*
 
 Define and implement the `Car`, `Motorcycle`, `Bus`, and `Truck` classes as inherited children of the `Vehicle` class.  
-Let's get the easy ones out of the way!
+Let's get the easy ones out of the way!  For each child class you want to call the parameterized constructor `Vehicle(...)` and use `0` for the current gas parameter.  
 
 Class `Car` must contain the following methods:
 ```
