@@ -29,6 +29,10 @@ Project Lab Sessions will take place on most Tuesdays, Wednesdays, and Thursdays
  2/8 |  |  |  |  [**Project&nbsp;1** &nbsp; **due&nbsp;2/22** ](projects/project-1/project-1.html){:target="_blank"} 
  2/11 | Inheritance | [C++&nbsp;Interlude&nbsp;1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/48%5B%3Bvnd.vst.idref%3DP700101192500000000000000000099F%5D!/4/6%400:0){:target="_blank"} | [Inheritance](slides/03_inheritance.pdf){:target="_blank"} | [SQ&nbsp;Basic&nbsp;Inheritance&nbsp;](study_questions/sq_00_Basic_Inheritance.pdf){:target="_blank"} 
  2/15 |  |  |  | 
+ 2/18 | ADTs,&nbsp;Templates | [Chapters&nbsp;3.1&nbsp;and](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/86%5B%3Bvnd.vst.idref%3DP7001011925000000000000000001247%5D!/4/6%400:0){:target="_blank"} | [ADTs&nbsp;&&nbsp;Templates](slides/04_adt_templates.pdf){:target="_blank"} | 
+ 2/22 |  |  |  | 
+ 2/25 | Array&nbsp;Bag | [3.2&nbsp;Array&nbsp;Implementation](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/88%5B%3Bvnd.vst.idref%3DP700101192500000000000000000128D%5D!/4/2%5BP700101192500000000000000000128D%5D/2/2%5BP7001011925000000000000000009B14%5D/2%400:0){:target="_blank"} | [ArrayBag](slides/05_array_bag.pdf){:target="_blank"} | [SQ&nbsp;ArrayBag&nbsp;](study_questions/sq_02_ArrayBag.pdf){:target="_blank"} 
+ 2/29 |  |  |  | 
   
   
 ---  
@@ -40,10 +44,9 @@ Project Lab Sessions will take place on most Tuesdays, Wednesdays, and Thursdays
  9/9 |  |  |  | 
  9/10 | Polymorphism | [C++&nbsp;Interlude&nbsp;2.4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/106%5B%3Bvnd.vst.idref%3DP70010119250000000000000000016EA%5D!/4/6%400:0){:target="_blank"} | [Polymorphism](slides/11_polymorphism.pdf){:target="_blank"} | [SQ&nbsp;Polymorphism&nbsp;9/20](study_questions/sq_05_polymorphism.pdf){:target="_blank"}<br/>[**Project&nbsp;1**&nbsp;**due&nbsp;9/29**](projects/project_1_/project_1_.html){:target="_blank"} 
  9/14 |  |  |  | 
- 9/16 | ADTs,&nbsp;Templates | [Chapters&nbsp;3.1&nbsp;and](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/86%5B%3Bvnd.vst.idref%3DP7001011925000000000000000001247%5D!/4/6%400:0){:target="_blank"} | [ADTs&nbsp;&&nbsp;Templates](slides/04_adt_templates.pdf){:target="_blank"} | 
- 9/17 |  |  |  | 
- 9/21 | Array&nbsp;Bag | [3.2&nbsp;Array&nbsp;Implementation](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/88%5B%3Bvnd.vst.idref%3DP700101192500000000000000000128D%5D!/4/2%5BP700101192500000000000000000128D%5D/2/2%5BP7001011925000000000000000009B14%5D/2%400:0){:target="_blank"} | [ArrayBag](slides/05_array_bag.pdf){:target="_blank"} | [SQ&nbsp;ArrayBag&nbsp;](study_questions/sq_02_ArrayBag.pdf){:target="_blank"} 
- 9/23 |  |  |  | 
+   
+   
+ 9/14 |  |  |  |    
  9/24 | Pointers | [C++&nbsp;Interlude&nbsp;2.1,&nbsp;2.2,&nbsp;2.3,&nbsp;2.5](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/98%5B%3Bvnd.vst.idref%3DP700101192500000000000000000151A%5D!/4/2%5BP700101192500000000000000000151A%5D/2/2%5BP7001011925000000000000000009D22%5D/4%400:0){:target="_blank"} | [Pointers](slides/06_Pointers.pdf){:target="_blank"} | 
  9/29 | Link-Based<br/>Implementation | [Pointers,&nbsp;etc&nbsp;Tutorial](https://www.ntu.edu.sg/home/ehchua/programming/cpp/cp4_pointerreference.html){:target="_blank"}<br/>[Chapter&nbsp;4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/110%5B%3Bvnd.vst.idref%3DP7001011925000000000000000001798%5D!/4/2%5BP7001011925000000000000000001798%5D/2/2%5BP7001011925000000000000000009F33%5D/4%400:0){:target="_blank"} | [LinkedBag](slides/07_LinkedBag.pdf){:target="_blank"} | [SQ&nbsp;LinkedBag&nbsp;](study_questions/sq_03_LinkedChain.pdf){:target="_blank"} 
  9/30 |  |  |  | [**Project&nbsp;2**&nbsp;**due&nbsp;10/16**](projects/project_2_/project_2_.html){:target="_blank"} 
