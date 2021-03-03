@@ -13,27 +13,20 @@ In this project you will reimplement the `Garage` class from Project 1 to incorp
 
 ### Some additional resources
 
-- ***Abstract Data Types:***  
-   [Geeks for Geeks](https://www.geeksforgeeks.org/abstract-data-types/)  
-   [Neso Academy](https://youtu.be/ZniDyolzrBw)
+- Abstract Data Types:    
+    [Geeks for Geeks](https://www.geeksforgeeks.org/abstract-data-types/)  
+    [Neso Academy](https://youtu.be/ZniDyolzrBw)
 
-<br/>
+- Template Classes:  
+    [CPP Manual](http://www.cplusplus.com/doc/oldtutorial/templates/)  
+    [Geeks for Geeks](https://www.geeksforgeeks.org/templates-cpp/)  
+    [Tutorials Point](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm)
 
-- ***Template Classes:***
-   [CPP Manual](http://www.cplusplus.com/doc/oldtutorial/templates/)
-   [Geeks for Geeks](https://www.geeksforgeeks.org/templates-cpp/)  
-   [Tutorials Point](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm)
+- Operator Overloading:  
+    [CPP Manual](https://en.cppreference.com/w/cpp/language/operators)  
+    [Geeks for Geeks](https://www.geeksforgeeks.org/operator-overloading-c/)  
+    [Programiz](https://www.programiz.com/cpp-programming/operator-overloading)
 
-
-<br/>
-
-- ***Operator Overloading:***
-   [CPP Manual](https://en.cppreference.com/w/cpp/language/operators)
-   [Geeks for Geeks](https://www.geeksforgeeks.org/operator-overloading-c/) 
-   [Programiz](https://www.programiz.com/cpp-programming/operator-overloading)
-
-
----
 ### Implementation:
 
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class. 
