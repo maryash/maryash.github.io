@@ -5,7 +5,7 @@ title: PROJECT 2
 
 # Project 2: Here In My Garage (Arraybag)
 
-<img src = "supermanAndHisCar.png" height = 65% width = 65%></img>
+![superman_car](supermanAndHisCar.png)
 
 In this project you will reimplement the `Garage` class from Project 1 to incorporate the functionality of the Arraybag ADT that you learned about in class. In order to successfully complete this project, you **must** understand the prerequisite material from Project 1, the concept of abstract data types (ADTs), the Arraybag ADT, the concept of a template class, and how to overload an operator.
 
