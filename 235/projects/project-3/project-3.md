@@ -2,7 +2,7 @@
 layout: myDefault
 title: PROJECT 3
 ---
-# Project 3: &nbsp; Doubly-Linked List
+# Project 3 &nbsp; Doubly-Linked List
 
 ![Doubly-Linked List](Images/doubly.png)
 
@@ -16,10 +16,10 @@ Your objective for this project is to implement a Doubly-Linked List. In order t
 
     [edspresso](https://www.educative.io/edpresso/what-is-a-linked-list)
 
-#### Implementation
+### Implementation
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
 
-### Task 1 
+## Task 1 
 Define and implement a class `DoubleNode` that is capable of holding an item of any arbitrary type `ItemType`. As a node of a Doubly-Linked list, it should contain two pointers that respectively point to other objects of type `DoubleNode`. The following methods will be required of your DoubleNode class, but feel free to add methods as you see fit:
 ```
 Default Constructor
@@ -36,7 +36,7 @@ bool setPrev(DoubleNode* ptr)
 Entitle your header (.hpp) file `DoubleNode.hpp`, and entitle your implementation file (.cpp) `DoubleNode.cpp`.
 
 
-### Task 2 
+## Task 2 
 Define and implement a class `DoublyLinkedList` that is a demonstration of the Doubly-Linked List concept discussed in class. It should contain a head pointer to a DoubleNode of any arbitrary type `ItemType`, and it should contain a member that keeps track of its size. **Let `DoublyLinkedList` be 1 indexed unlike arrays, which are 0 indexed**.
 
 **Hint**: If you get stuck on the way to design `DoublyLinkedList`, refer to the Linked List implementation in the textbook. 
@@ -75,7 +75,7 @@ DoublyLinkedList<ItemType> interleave(const DoublyLinkedList<ItemType> &a_list)}
 	
 Entitle you header (.hpp) file`DoublyLinkedList.hpp`, and entitle your implementation file (.cpp) `DoublyLinkedList.cpp`.
 
-#### Testing
+### Testing
 How to compile:
 ```
 g++ <main file> -std=c++17
@@ -87,13 +87,13 @@ What does this mean? Implement and test one method at a time.
 * Implement the next function/method and test in the same fashion.
     **How do you do this?** Write your own `main()` function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally: i.e. implement mutator functions before accessor functions. Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible.
 
-#### Grading Rubric
+### Grading Rubric
 **Correctness 80%** (distributed across unit testing of your submission)
 **Documentation 10%**
 **Style and Design 10%** (proper naming, modularity, and organization)
 
 **Important:** You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.
-##### There will be no negotiation about project grades after the submission deadline. #####
+### There will be no negotiation about project grades after the submission deadline.
   
 #### Submission:
 You will submit **the following files**:
