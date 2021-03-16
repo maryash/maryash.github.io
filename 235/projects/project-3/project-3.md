@@ -9,12 +9,10 @@ title: PROJECT 3
 Your objective for this project is to implement a Doubly-Linked List. In order to successfully complete this project, you **must** understand the prerequisite material from the first and second projects, and you **must** understand the concept of a Linked List ADT.
 
 
-#### Some additional resources
-* Linked List:
+### Some additional resources
+- Linked List:
     [Geeks for Geeks](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)  
-
-
-    [edspresso](https://www.educative.io/edpresso/what-is-a-linked-list)
+    [Edspresso](https://www.educative.io/edpresso/what-is-a-linked-list)
 
 ### Implementation
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
