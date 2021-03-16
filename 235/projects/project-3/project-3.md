@@ -4,7 +4,7 @@ title: PROJECT 3
 ---
 # Project 3 &nbsp; Doubly-Linked List
 
-![Doubly-Linked List](Images/doubly.png)
+![Doubly-Linked List](doubly.png)
 
 Your objective for this project is to implement a Doubly-Linked List. In order to successfully complete this project, you **must** understand the prerequisite material from the first and second projects, and you **must** understand the concept of a Linked List ADT.
 
@@ -95,7 +95,7 @@ What does this mean? Implement and test one method at a time.
 **Important:** You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.
 ### There will be no negotiation about project grades after the submission deadline.
   
-#### Submission:
+### Submission:
 You will submit **the following files**:
 `DoubleNode.hpp`
 `DoubleNode.cpp`
