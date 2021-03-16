@@ -10,9 +10,9 @@ Your objective for this project is to implement a Doubly-Linked List. In order t
 
 
 ### Some additional resources
-- Linked List:
-    [Geeks for Geeks](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)  
-    [Edspresso](https://www.educative.io/edpresso/what-is-a-linked-list)
+- Linked List:  
+      [Geeks for Geeks](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)  
+      [Edspresso](https://www.educative.io/edpresso/what-is-a-linked-list)
 
 ### Implementation
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
