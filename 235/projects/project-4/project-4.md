@@ -4,7 +4,7 @@ title: PROJECT 4
 ---
 # Project 4:&nbsp; *Shapetography*, The Science of Shapes
 
-![shapes](Images/sHaPe.png)
+![shapes](images/sHaPe.png)
 
 Your objective for this project is to implement an abstract parent `Shape` class and its polymorphic children `Circle`, `Rectangle`, and `Triangle`. `Shape` is a 2D character array which requires the use of dynamic memory allocation, and its children are their eponymous shapes held character-by-character within that 2D array. Additionally, each shape is represented by its perimeter populated by ASCII characters within the range [48, 126] in order, and character choice from this range wraps around back to 48 when 127 is reached. In order to successfully complete this project, you **must** understand the prerequisite material from the previous projects, and you **must** understand the concepts of 2D arrays, abstract classes, polymorphism, and basic shape manipulations. 
 
@@ -144,25 +144,25 @@ Circle::Circle(const int &diameter) : Shape(diameter, diameter)
 ```
 
 * what `display()` yields for a `Circle` of diameter 10:
-![circle1](Images/circle1.png)
+![circle1](images/circle1.png)
   &nbsp;
 
 *  what `display()` yields after `rotateRight()` for this circle:
-![circle2](Images/circle2.png)
+![circle2](images/circle2.png)
   &nbsp;
   
 *  what `display()` yields after `rotateLeft()` for this circle:
-![circle3](Images/circle3.png)
+![circle3](images/circle3.png)
   &nbsp;
 
 
 * what `display()` yields after `reflect('x')` for this circle:
-![circle4](Images/circle4.png)
+![circle4](images/circle4.png)
   &nbsp;
 
 
 *  what `display()` yields after `reflect('y')` for this circle:
-![circle5](Images/circle5.png)
+![circle5](images/circle5.png)
 ---
 ### Task 3 
 
@@ -179,25 +179,25 @@ Circle::Circle(const int &diameter) : Shape(diameter, diameter)
  ```
 
  * what `display()` yields for a `Rectangle` of dimensions 10x10:
-![rectangle1](Images/rectangle1.png)
+![rectangle1](images/rectangle1.png)
   &nbsp;
 
 *  what `display()` yields after `rotateRight()` for this rectangle:
-![rectangle2](Images/rectangle2.png)
+![rectangle2](images/rectangle2.png)
   &nbsp;
   
 *  what `display()` yields after `rotateLeft()` for this rectangle:
-![rectangle3](Images/rectangle3.png)
+![rectangle3](images/rectangle3.png)
   &nbsp;
 
 
 * what `display()` yields after `reflect('x')` for this rectangle:
-![rectangle4](Images/rectangle4.png)
+![rectangle4](images/rectangle4.png)
   &nbsp;
 
 
 *  what `display()` yields after `reflect('y')` for this rectangle:
-![rectangle5](Images/rectangle5.png)
+![rectangle5](images/rectangle5.png)
 ---
 ### Task 4
 
@@ -215,20 +215,20 @@ Define and implement a class `Triangle` that inherits from Shape and implements 
  ```
 
 * what `display()` yields for a `Triangle` of side length 10:
-![triangle1](Images/triangle1.jpg)
+![triangle1](images/triangle1.jpg)
   &nbsp;
 
 *  what `display()` yields after `rotateRight()` for this triangle:
-![triangle1](Images/triangle2.jpg)
+![triangle1](images/triangle2.jpg)
   &nbsp;
   
 *  what `display()` yields after `rotateLeft()` for this triangle:
-![triangle1](Images/triangle3.jpg)
+![triangle1](images/triangle3.jpg)
   &nbsp;
 
 
 * what `display()` yields after `reflect('x')` for this triangle:
-![triangle1](Images/triangle4.jpg)
+![triangle1](images/triangle4.jpg)
   &nbsp;
 
 
