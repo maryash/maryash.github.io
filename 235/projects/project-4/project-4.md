@@ -31,7 +31,7 @@ Your objective for this project is to implement an abstract parent `Shape` class
 Define and implement the abstract class `Shape`, which contains the following methods:
 
 ```
-        // Parameterized Constructor - there is no default constructor
+        // Parameterized Constructor; there is no default constructor
         Shape(const int &width, const int &height);
 
         // Getters
@@ -69,7 +69,7 @@ Define and implement the abstract class `Shape`, which contains the following me
 ## Task 2 
 Define and implement a class `Circle` that inherits from Shape and implements its pure virtual functions. The `Circle` class must contain the following methods: 
 ```
-    //Parameterized contructor, takes the diameter as width or height. 
+    //Parameterized contructor: takes diameter as width or height. 
     Circle(const int& diameter);
 
     double getSurfaceArea();                        
@@ -128,15 +128,25 @@ Circle::Circle(const int &diameter) : Shape(diameter, diameter)
 ```
 
 - what `display()` yields for a `Circle` of diameter 10:  
-![circle1](images/circle1.png)
--  what `display()` yields after `rotateRight()` for this circle:  
-![circle2](images/circle2.png)
--  what `display()` yields after `rotateLeft()` for this circle:  
-![circle3](images/circle3.png)
+
+    ![circle1](images/circle1.png)
+
+- what `display()` yields after `rotateRight()` for this circle:  
+
+    ![circle2](images/circle2.png)
+
+- what `display()` yields after `rotateLeft()` for this circle:  
+
+    ![circle3](images/circle3.png)
+
 - what `display()` yields after `reflect('x')` for this circle:  
-![circle4](images/circle4.png)
+
+    ![circle4](images/circle4.png)
+
 - what `display()` yields after `reflect('y')` for this circle:  
-![circle5](images/circle5.png)
+
+    ![circle5](images/circle5.png)
+
 ---
 ## Task 3 &nbsp; IMPLEMENT RECTANGLE
 Define and implement a class 'Rectangle' that inherits from Shape and implements its pure virtual functions. The 'Rectangle' class must contain the following methods:
