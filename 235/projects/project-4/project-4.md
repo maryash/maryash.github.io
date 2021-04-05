@@ -2,7 +2,7 @@
 layout: myDefault
 title: PROJECT 4
 ---
-# Project 4 &nbsp; *Shapetography* Science of Shapes
+# Project 4 &nbsp; Shapetography: Science of Shapes
 ![shapes](images/sHaPe.png)
 
 Your objective for this project is to implement an abstract parent `Shape` class and its polymorphic children `Circle`, `Rectangle`, and `Triangle`. `Shape` is a 2D character array which requires the use of dynamic memory allocation, and its children are their eponymous shapes held character-by-character within that 2D array. Additionally, each shape is represented by its perimeter populated by ASCII characters within the range [48, 126] in order, and character choice from this range wraps around back to 48 when 127 is reached. In order to successfully complete this project, you **must** understand the prerequisite material from the previous projects, and you **must** understand the concepts of 2D arrays, abstract classes, polymorphism, and basic shape manipulations. 
