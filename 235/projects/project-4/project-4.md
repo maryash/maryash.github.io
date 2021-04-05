@@ -1,258 +1,265 @@
----  
+---
 layout: myDefault
-title: PROJECT 1
----  
+title: PROJECT 4
+---
+# Project 4:&nbsp; *Shapetography*, The Science of Shapes
 
-# Project 1: Cars 4 Kids
-![test_pic](./garage.jpg)
+![shapes](Images/sHaPe.png)
 
-You are now rich enough to buy all the bikes you want, but now you can have other vehicles too! But wait you need to you need store them in a garage. To do so you will use the class, `Garage`, that you will modify and implement. You will proceed to create different children of the `Vehicle` class through inheritance (these are `Truck`, `Car`, `Bus`, and `Motorcycle`), which will collectively represent every type of item with which you can populate a `Garage` object. For this project you will use separate compilation with g++ to link multiple classes into one executable, and, in order to successfully complete this project, you **must** understand the prerequisite material from Project 0, the concept of dynamic memory allocation and inheritance.
+Your objective for this project is to implement an abstract parent `Shape` class and its polymorphic children `Circle`, `Rectangle`, and `Triangle`. `Shape` is a 2D character array which requires the use of dynamic memory allocation, and its children are their eponymous shapes held character-by-character within that 2D array. Additionally, each shape is represented by its perimeter populated by ASCII characters within the range [48, 126] in order, and character choice from this range wraps around back to 48 when 127 is reached. In order to successfully complete this project, you **must** understand the prerequisite material from the previous projects, and you **must** understand the concepts of 2D arrays, abstract classes, polymorphism, and basic shape manipulations. 
 
 ---
+#### Some additional resources
 
-### Some additional resources
+* **2D Array:**
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Geek for Geeks 2D array](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Learn CPP Multidimensional Pointers](https://www.learncpp.com/cpp-tutorial/pointers-to-pointers/)  
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dynamically Allocate 2D arrays](https://www.geeksforgeeks.org/how-to-declare-a-2d-array-dynamically-in-c-using-new-operator/)
+    &nbsp;
 
-- ***Dynamic Memory Allocation:***  
-    [C++ Documentation](http://www.cplusplus.com/doc/tutorial/dynamic/)  
-    [Tutorialspoint](https://www.tutorialspoint.com/cplusplus/cpp_dynamic_memory.htm)
+* **Abstract Classes**:
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pure Virtual and Abstract Classes](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/)
+    &nbsp;
 
-<br/><br/>
+* **Polymorphism**:
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Polymorphism Inheritance](https://www.geeksforgeeks.org/polymorphism-in-c/)
+    &nbsp;
 
-- ***Inheritance:*** 
-    [Geeks for Geeks](https://www.geeksforgeeks.org/inheritance-in-c/)  
-    [Caleb Curry](https://youtu.be/_rzEUwv2-eQ)
-
----
-### Implementation:
-
-
-
-**Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class. 
-
----
-
-### Required Files
-[starter_code.zip](starter_code.zip){:target="_blank"}
-
----
-
-## Task 1: Me Mum's Car vroom vroom, and her bike, truck, and bus too.
-*Understanding the basics of a vehicle is the easy part. Understanding the complexities and differences between vehicles, that's what you have been tasked to recognize.*
-
-Define and implement the `Car`, `Motorcycle`, `Bus`, and `Truck` classes as inherited children of the `Vehicle` class.  
-Let's get the easy ones out of the way!
-
-Class `Car` must contain the following methods:
-```
-   /**
-      Calls the parameterized constructor Vehicle(...)
-      Uses setGarageSpaces function to set garage space to 2.
-      Uses setNumWheels function to set wheels to 4.
-   */
-   Car(std::string name, std::string manufacturer, double top_speed, double weight, double mpg);
-
-
-   
-```
-No private members to worry about here ;)
-
-
-.
-Class `Motorcycle` must contain the following methods:
-```
-   /**
-      Calls the parameterized constructor Vehicle(...)
-      Uses setGarageSpaces function to set garage space to 1.
-      Uses setNumWheels function to set wheels to 2.
-   */
-   Motorcycle(std::string name, std::string manufacturer, double top_speed, double weight, double mpg);
-
-```
-Still no private members, pretty easy right? =P
-
-
-.
-Class `Bus` must contain the following methods:
-```
-   /**
-      Calls the parameterized constructor Vehicle(...)
-      Remember to set the number of seats.
-      Uses setGarageSpaces function to set garage space to 4.
-      Uses setNumWheels function to set wheels to 8.
-   */
-   Bus(std::string name, std::string manufacturer, double top_speed, double weight, double mpg, size_t number_seats);
-
-   /**
-      returns the number of seats
-   */
-   size_t getNumSeats() const;
-
-```
-We have a private member variable now!
-```
-   double number_seats;
-```
-
-.
-Class `Truck` must contain the following methods:
-```
-   /**
-      Calls the parameterized constructor Vehicle(...)
-      Remember to set the cargo capacity.
-      Uses setGarageSpaces function to set garage space to 8.
-      Uses setNumWheels function to set wheels to 18.
-   */
-   Truck(std::string name, std::string manufacturer, double top_speed, double weight, double mpg, double cargo_capacity);
-
-   /**
-      Add the weight of the cargo the current weight_of_held_cargo_ ONLY if it does not exceed the capacity.
-      Return true if you manage to add the cargo successfully, otherwise return false.
-   */
-   bool add_cargo(double weight_of_cargo);
-   
-   /**
-      If weight_of_held_cargo_ isn't 0 then set it to 0, return true if you manage to clear it or else return false!
-   */
-   bool clear();
-
-   /**
-      return the cargo_capacity_ variable
-   */
-   double getCargoCapacity() const;
-   
-   /**
-      returns the weight_of_held_cargo_ variable
-   */
-   double getHeldCargoWeight() const;
-```
-That escalated quickly... Here are your private variables:
-```
-   double cargo_capacity_;
-   double weight_of_held_cargo_;
-```
-
----
-
-## Task 2: Bringing It Home 
-Wow! You're like a very lame version of iron man now, being able to build all these sweet rides. Great! Time to store these beauties.
-Define the `Garage` class in a file entitled `Garage.hpp`. As a preliminary, our concept of a garage is composed of an array that is filled from front to back. We consider each index in this array as a garage "space," where different vehicle subclasses occupy a different number of garage "spaces" respectively. 
-
-**Motorcycles occupy 1 space**
-**Cars occupy 2 spaces**
-**Busses occupy 4 spaces**
-**Trucks occupy 8 spaces**
-
-Implement the class in a file entitled `Garage.cpp`.  You must include but are not limited to the following methods and members:
-```
-private:
-   /**
-      Changes the contents of arr_ to have all non-null vehicles strictly at the end of the array and all inserted vehicles at the beginning of the array. HINT: create a new array and repoint arr_; don't do this "in-place"
-   */
-    void arrange();
-
-    /* a pointer to an array of vehicles - HINT: dynamically allocate the actual array */
-    Vehicle *arr_;
-
-    /* the number of vehicle slots in the caller */
-    size_t capacity_;
-
-    /* the number of occupied vehicle slots in the caller */
-    size_t num_vehicles_;
-
-
-public: 
-
-   /* Parameterized constructor with a default argument for capacity of 12 */
-    Garage(size_t capacity = 12);
-
-   /** 
-      Inserts @param to_add into the number of spaces that correspond to its type 
-      into arr_[]; must insert from front to back
-
-      As an example, if we had a garage that already contains an Audio R8 (a car)
-      the default garage would have an Audio R8 object in both its first and second indeces.
-
-      MUST INCREMENT num_vehicles_
-      MUST RETURN FALSE IF isFull()
-      MUST RETURN FALSE IF num_vehicles_ + to_add.getSpaces() > capacity_
-    */    
-    bool addVehicle(Vehicle to_add);
-
-
-    /** 
-      Replaces any object in arr_ that == @param to_remove with null::v
-
-      MUST RETURN FALSE IF num_vehicles_ == 0
-      MUST DECREMENT num_vehicles_
-      MUST CALL arrange() immediately before return statement
-    */
-    bool removeVehicle(Vehicle to_remove);
-
-    /**
-      HINT: use what you already have!
-    */
-    bool swapVehicles(Vehicle swap_in, Vehicle swap_out);
-
+* **ASCII Table:**
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ASCII Table Reference](https://en.cppreference.com/w/cpp/language/ascii)
     
-    bool isFull() const;
-
-    /** 
-      Outputs the contents of the caller such that the manufacturer and vehicle name are only printed once per vehicle in arr_; for example if a garage object contains the aforementioned
-      Audi R8 a call to display() will print 
-
-      Audi R8
-
-      even though arr_ contains the vehicle in two positions - also print each vehicle on its own line
-
-    */
-    void display() const;
-```
-
----
-### Submission:
-**You will submit the following files**:  
-`Bus.cpp`  
-`Bus.hpp`  
-`Car.hpp`
-`Car.hpp`  
-`Garage.cpp`  
-`Garage.hpp`  
-`Motorcycle.cpp`  
-`Motorcycle.hpp`  
-`Truck.cpp`  
-`Truck.hpp`  
-
-Your project must be submitted on Gradescope. Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging and it should not be used for that. You MUST test and debug your program locally. Before submitting to Gradescope you MUST ensure that your program compiles (with g++) and runs correctly on the Linux machines in the labs at Hunter (see detailed instructions on how to upload, compile and run your files in the “Programming Rules” document). That is your baseline, if it runs correctly there it will run correctly on Gradescope, and if it does not, you will have the necessary feedback (compiler error messages, debugger or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above you submit it to Gradescope.
 
 ---
 
-### Testing
-How to compile:  
+#### Implementation
+**Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
+
+---
+### Task 1 
+Define and implement the abstract class `Shape`, which contains the following methods:
+
 ```
-g++ Vehicle.cpp Bus.cpp Car.cpp Garage.cpp Motorcycle.cpp Truck.cpp <test main file> -std=c++17
+        // Parameterized Constructor - there is no need for a default one
+        Shape(const int &width, const int &height); 
+
+        
+        // Getters
+        int getEdges();
+        int getWidth();
+        int getHeight();
+        char **getDisplayChars();
+
+        
+        // Setters
+        void setEdges(const int& edges); 
+        void setWidth(const int& new_width);
+        void setHeight(const int &new_height);
+        void setDisplayChars(char **display);
+
+        
+        // Mutators
+        void rotateRight();                                     //rotate by 90 degrees
+        void rotateLeft();                                      //rotate by 90 degrees
+        void reflect(char axis);                                //reflect over x or y axis
+        
+        
+        // Pure Virtual Methods (no implementation)
+        virtual double getSurfaceArea() = 0;                   
+        virtual double get3DVolume(const double& depth) = 0;    
+
+        
+        // Display -  //iterate through 2D array and print chars
+        void display();                                         
 ```
 
-![test_pic](./test_pic.png)
+**Note:** 
+* `reflect()` takes the parameter `'x'` or `'y'`.
+    &nbsp;
 
+* `getSurfaceArea()` uses the canonical formulae for surface area given each respective shape.
+    &nbsp;
+* `get3DVolume()` yields the volume of the caller shape if it was projected into 3 dimensions using the depth parameter as the z-axis value. For a circle, this function yields the volume of the related sphere. For a rectangle, this function yields the volume of the related rectangular cuboid. For a triangle, this function yields the volume of the related right triangular prism, since `Triangle` only considers right triangles. Use the canonical formulae for volume given each respective surface.
+---
+
+### Task 2 
+Define and implement a class `Circle` that inherits from Shape and implements its pure virtual functions. The `Circle` class must contain the following methods: 
+```
+     //Parameterized contructor, takes the diameter as either width or height. 
+    Circle(const int& diameter);
+
+    double getSurfaceArea();                        
+    double get3DVolume(const double& depth);        
+
+```
+
+ As a freebie, here is the constructor:
+
+```
+
+Circle::Circle(const int &diameter) : Shape(diameter, diameter)
+{
+    setEdges(0);
+
+    // Populate 2D array with empty chars
+    char **arr = new char *[getHeight()];
+    for (int row = 0; row < getHeight(); row++)
+    {
+        arr[row] = new char[getWidth()];
+        for (int col = 0; col < getWidth(); col++)
+        {
+            arr[row][col] = ' ';
+        }
+    }
+
+    // Populate the proper positions with *'s
+    int x_radius = diameter / 2;
+    int y_radius = (diameter / 2) - 1;
+    float dist = 0;
+    char ascii_counter = 48;
+
+    for (int col = 0; col <= getWidth() + 1; col++)
+    {
+        for (int row = 0; row <= getHeight() + 5; row++)
+        {
+            dist = sqrt((row - y_radius) * (row - y_radius) +
+                        (col - x_radius) * (col - x_radius));
+
+            // dist in range: (radius - 0.5) to (radius + 0.5)
+            if (dist > y_radius - 0.5 && dist < y_radius + 0.5)
+            {
+                arr[row][col] = ascii_counter;
+
+                // fix ascii_counter to wrap around after
+                ascii_counter++;
+                if (ascii_counter > 126)
+                {
+                    ascii_counter = 48;
+                }
+            }
+        }
+    }
+    setDisplayChars(arr);
+}
+
+```
+
+* what `display()` yields for a `Circle` of diameter 10:
+![circle1](Images/circle1.png)
+  &nbsp;
+
+*  what `display()` yields after `rotateRight()` for this circle:
+![circle2](Images/circle2.png)
+  &nbsp;
+  
+*  what `display()` yields after `rotateLeft()` for this circle:
+![circle3](Images/circle3.png)
+  &nbsp;
+
+
+* what `display()` yields after `reflect('x')` for this circle:
+![circle4](Images/circle4.png)
+  &nbsp;
+
+
+*  what `display()` yields after `reflect('y')` for this circle:
+![circle5](Images/circle5.png)
+---
+### Task 3 
+
+**IMPLEMENT RECTANGLE**
+ Define and implement a class 'Rectangle' that inherits from Shape and implements its pure virtual functions. The 'Rectangle' class must contain the following methods:
+ ```
+    /* Parameterized constructor; takes in width and height, iterates through the 2D 
+       array to populate it with the necessary characters given the parameter dimensions */
+    Rectangle(const int& width, const int& height);  
+
+    double getSurfaceArea();                        
+    double get3DVolume(const double &depth);      
+ 
+ ```
+
+ * what `display()` yields for a `Rectangle` of dimensions 10x10:
+![rectangle1](Images/rectangle1.png)
+  &nbsp;
+
+*  what `display()` yields after `rotateRight()` for this rectangle:
+![rectangle2](Images/rectangle2.png)
+  &nbsp;
+  
+*  what `display()` yields after `rotateLeft()` for this rectangle:
+![rectangle3](Images/rectangle3.png)
+  &nbsp;
+
+
+* what `display()` yields after `reflect('x')` for this rectangle:
+![rectangle4](Images/rectangle4.png)
+  &nbsp;
+
+
+*  what `display()` yields after `reflect('y')` for this rectangle:
+![rectangle5](Images/rectangle5.png)
+---
+### Task 4
+
+**IMPLEMENT TRIANGLE**
+Define and implement a class `Triangle` that inherits from Shape and implements its pure virtual functions. The `Triangle` class must contain the following methods:
+
+```
+    /* Parameterized constructor; takes in side length as a parameter, iterates 
+    through the 2D array to draw the right triangle using ASCII chars */
+    Triangle(const int &side);                      
+
+    double getSurfaceArea();                       
+    double get3DVolume(const double &depth);       
+ 
+ ```
+
+* what `display()` yields for a `Triangle` of side length 10:
+![triangle1](Images/triangle1.jpg)
+  &nbsp;
+
+*  what `display()` yields after `rotateRight()` for this triangle:
+![triangle1](Images/triangle2.jpg)
+  &nbsp;
+  
+*  what `display()` yields after `rotateLeft()` for this triangle:
+![triangle1](Images/triangle3.jpg)
+  &nbsp;
+
+
+* what `display()` yields after `reflect('x')` for this triangle:
+![triangle1](Images/triangle4.jpg)
+  &nbsp;
+
+
+*  what `display()` yields after `reflect('y')` for this triangle:
+![triangle1](Images/triangle5.jpg)
+
+#### Testing
 You must always implement and test you programs **INCREMENTALLY!!!**
 What does this mean? Implement and test one method at a time.
 **For each class**
-- Implement one function/method and test it thoroughly (multiple test cases + edge cases if applicable).
-- Implement the next function/method and test in the same fashion.
-**How do you do this?** Write your own `main()` function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally: i.e. implement mutator functions before accessor functions. Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible.
+* Implement one function/method and test it thoroughly (multiple test cases + edge cases if applicable).
+* Implement the next function/method and test in the same fashion.
+    **How do you do this?** Write your own `main()` function to test your classes. In this course you will never submit your test program, but you must always write one to test your classes. Choose the order in which you implement your methods so that you can test incrementally: i.e. implement mutator functions before accessor functions. Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing Don’t forget to go back and implement the stub!!! If you put the word STUB in a comment, some editors will make it more visible.
 
-### Grading Rubrics
-**Correctness 80%** (distributed across unit testing of your submission)  
-**Documentation 10%**  
-**Style and Design 10%** (proper naming, modularity, and organization)  
+#### Grading Rubric
+**Correctness 80%** (distributed across unit testing of your submission)
+**Documentation 10%**
+**Style and Design 10%** (proper naming, modularity, and organization)
 
----
+**Important:** You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.
+##### There will be no negotiation about project grades after the submission deadline. #####
+  
+#### Submission:
+You will submit **the following files**:
+`Shape.hpp`
+`Shape.cpp`
+`Circle.hpp`
+`Circle.cpp`
+`Rectangle.hpp`
+`Rectangle.cpp`
+`Triangle.hpp`
+`Triangle.cpp`
 
-### Important
-You must start working on the projects as soon as they are assigned to detect any problems with submitting your code and to address them with us **well before** the deadline so that we have time to get back to you **before** the deadline. This means that you must submit and resubmit your project code **early** and **often** in order to resolve any issues that might come up **before** the project deadline.  
-**There will be no negotiation about project grades after the submission deadline.**
-  
-  
-  
-  
-  
+Your project must be submitted on Gradescope. Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging and it should not be used for that. You MUST test and debug your program locally. Before submitting to Gradescope you MUST ensure that your program compiles (with g++) and runs correctly on the Linux machines in the labs at Hunter (see detailed instructions on how to upload, compile and run your files in the “Programming Rules” document). That is your baseline, if it runs correctly there it will run correctly on Gradescope, and if it does not, you will have the necessary feedback (compiler error messages, debugger or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above you submit it to Gradescope.
