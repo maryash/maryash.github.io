@@ -3,18 +3,16 @@ layout: myDefault
 title: PROJECT 4
 ---
 # Project 4:&nbsp; *Shapetography*, The Science of Shapes
-
 ![shapes](images/sHaPe.png)
 
 Your objective for this project is to implement an abstract parent `Shape` class and its polymorphic children `Circle`, `Rectangle`, and `Triangle`. `Shape` is a 2D character array which requires the use of dynamic memory allocation, and its children are their eponymous shapes held character-by-character within that 2D array. Additionally, each shape is represented by its perimeter populated by ASCII characters within the range [48, 126] in order, and character choice from this range wraps around back to 48 when 127 is reached. In order to successfully complete this project, you **must** understand the prerequisite material from the previous projects, and you **must** understand the concepts of 2D arrays, abstract classes, polymorphism, and basic shape manipulations. 
 
 ---
 ### Some additional resources
-
-* **2D Array:**
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Geek for Geeks 2D array](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)  
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Learn CPP Multidimensional Pointers](https://www.learncpp.com/cpp-tutorial/pointers-to-pointers/)    
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dynamically Allocate 2D arrays](https://www.geeksforgeeks.org/how-to-declare-a-2d-array-dynamically-in-c-using-new-operator/)
+- 2D Array:  
+    [Geek for Geeks 2D array](https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/)  
+    [Learn CPP Multidimensional Pointers](https://www.learncpp.com/cpp-tutorial/pointers-to-pointers/)  
+    [Dynamically Allocate 2D arrays](https://www.geeksforgeeks.org/how-to-declare-a-2d-array-dynamically-in-c-using-new-operator/)
 - Abstract Classes:  
     [Pure Virtual and Abstract Classes](https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/)
 - Polymorphism:  
@@ -33,10 +31,9 @@ Your objective for this project is to implement an abstract parent `Shape` class
 Define and implement the abstract class `Shape`, which contains the following methods:
 
 ```
-        // Parameterized Constructor - there is no need for a default one
-        Shape(const int &width, const int &height); 
+        // Parameterized Constructor - there is no default constructor
+        Shape(const int &width, const int &height);
 
-        
         // Getters
         int getEdges();
         int getWidth();
@@ -66,12 +63,13 @@ Define and implement the abstract class `Shape`, which contains the following me
 - `reflect()` takes the parameter `'x'` or `'y'`.
 - `getSurfaceArea()` uses the canonical formulae for surface area given each respective shape.
 - `get3DVolume()` yields the volume of the caller shape if it was projected into 3 dimensions using the depth parameter as the z-axis value. For a circle, this function yields the volume of the related sphere. For a rectangle, this function yields the volume of the related rectangular cuboid. For a triangle, this function yields the volume of the related right triangular prism, since `Triangle` only considers right triangles. Use the canonical formulae for volume given each respective surface.
+
 ---
 
 ## Task 2 
 Define and implement a class `Circle` that inherits from Shape and implements its pure virtual functions. The `Circle` class must contain the following methods: 
 ```
-    //Parameterized contructor, takes the diameter as either width or height. 
+    //Parameterized contructor, takes the diameter as width or height. 
     Circle(const int& diameter);
 
     double getSurfaceArea();                        
@@ -140,9 +138,7 @@ Circle::Circle(const int &diameter) : Shape(diameter, diameter)
 - what `display()` yields after `reflect('y')` for this circle:  
 ![circle5](images/circle5.png)
 ---
-## Task 3
-
-**IMPLEMENT RECTANGLE**
+## Task 3 &nbsp; IMPLEMENT RECTANGLE
 Define and implement a class 'Rectangle' that inherits from Shape and implements its pure virtual functions. The 'Rectangle' class must contain the following methods:
  ```
     /* Parameterized constructor; takes in width and height, 
@@ -167,8 +163,7 @@ Define and implement a class 'Rectangle' that inherits from Shape and implements
 ![rectangle5](images/rectangle5.png)
 ---
 
-## Task 4
-**IMPLEMENT TRIANGLE**
+## Task 4 &nbsp; IMPLEMENT TRIANGLE
 Define and implement a class `Triangle` that inherits from Shape and implements its pure virtual functions. The `Triangle` class must contain the following methods:
 
 ```
@@ -200,7 +195,7 @@ Define and implement a class `Triangle` that inherits from Shape and implements 
 
 
 *  what `display()` yields after `reflect('y')` for this triangle:
-![triangle1](Images/triangle5.jpg)
+![triangle1](images/triangle5.jpg)
 
 ### Testing
 You must always implement and test you programs **INCREMENTALLY!!!**
