@@ -129,15 +129,15 @@ Circle::Circle(const int &diameter) : Shape(diameter, diameter)
 
 ```
 
-- what `display()` yields for a `Circle` of diameter 10:
+- what `display()` yields for a `Circle` of diameter 10:  
 ![circle1](images/circle1.png)
--  what `display()` yields after `rotateRight()` for this circle:
+-  what `display()` yields after `rotateRight()` for this circle:  
 ![circle2](images/circle2.png)
--  what `display()` yields after `rotateLeft()` for this circle:
+-  what `display()` yields after `rotateLeft()` for this circle:  
 ![circle3](images/circle3.png)
-- what `display()` yields after `reflect('x')` for this circle:
+- what `display()` yields after `reflect('x')` for this circle:  
 ![circle4](images/circle4.png)
-- what `display()` yields after `reflect('y')` for this circle:
+- what `display()` yields after `reflect('y')` for this circle:  
 ![circle5](images/circle5.png)
 ---
 ## Task 3
