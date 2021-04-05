@@ -129,23 +129,23 @@ Circle::Circle(const int &diameter) : Shape(diameter, diameter)
 
 - what `display()` yields for a `Circle` of diameter 10:  
 
-    ![circle1](images/circle1.png)
+![circle1](images/circle1.png)
 
 - what `display()` yields after `rotateRight()` for this circle:  
 
-    ![circle2](images/circle2.png)
+![circle2](images/circle2.png)
 
 - what `display()` yields after `rotateLeft()` for this circle:  
 
-    ![circle3](images/circle3.png)
+![circle3](images/circle3.png)
 
 - what `display()` yields after `reflect('x')` for this circle:  
 
-    ![circle4](images/circle4.png)
+![circle4](images/circle4.png)
 
 - what `display()` yields after `reflect('y')` for this circle:  
 
-    ![circle5](images/circle5.png)
+![circle5](images/circle5.png)
 
 ---
 ## Task 3 &nbsp; IMPLEMENT RECTANGLE
@@ -161,16 +161,26 @@ Define and implement a class 'Rectangle' that inherits from Shape and implements
  
  ```
 
- * what `display()` yields for a `Rectangle` of dimensions 10x10:
+- what `display()` yields for a `Rectangle` of dimensions 10x10:  
+
 ![rectangle1](images/rectangle1.png)
-- what `display()` yields after `rotateRight()` for this rectangle:
+
+- what `display()` yields after `rotateRight()` for this rectangle:  
+
 ![rectangle2](images/rectangle2.png)
-- what `display()` yields after `rotateLeft()` for this rectangle:
+
+- what `display()` yields after `rotateLeft()` for this rectangle:  
+
 ![rectangle3](images/rectangle3.png)
-- what `display()` yields after `reflect('x')` for this rectangle:
+
+- what `display()` yields after `reflect('x')` for this rectangle:  
+
 ![rectangle4](images/rectangle4.png)
-- what `display()` yields after `reflect('y')` for this rectangle:
+
+- what `display()` yields after `reflect('y')` for this rectangle:  
+
 ![rectangle5](images/rectangle5.png)
+
 ---
 
 ## Task 4 &nbsp; IMPLEMENT TRIANGLE
@@ -186,25 +196,24 @@ Define and implement a class `Triangle` that inherits from Shape and implements 
  
  ```
 
-* what `display()` yields for a `Triangle` of side length 10:
+- what `display()` yields for a `Triangle` of side length 10:  
+
 ![triangle1](images/triangle1.jpg)
-  &nbsp;
 
-*  what `display()` yields after `rotateRight()` for this triangle:
+- what `display()` yields after `rotateRight()` for this triangle:  
+
 ![triangle1](images/triangle2.jpg)
-  &nbsp;
-  
-*  what `display()` yields after `rotateLeft()` for this triangle:
+
+- what `display()` yields after `rotateLeft()` for this triangle:  
+
 ![triangle1](images/triangle3.jpg)
-  &nbsp;
 
+- what `display()` yields after `reflect('x')` for this triangle:  
 
-* what `display()` yields after `reflect('x')` for this triangle:
 ![triangle1](images/triangle4.jpg)
-  &nbsp;
 
+- what `display()` yields after `reflect('y')` for this triangle:  
 
-*  what `display()` yields after `reflect('y')` for this triangle:
 ![triangle1](images/triangle5.jpg)
 
 ### Testing
@@ -224,14 +233,14 @@ What does this mean? Implement and test one method at a time.
 ##### There will be no negotiation about project grades after the submission deadline. #####
   
 ### Submission:
-You will submit **the following files**:
-`Shape.hpp`
-`Shape.cpp`
-`Circle.hpp`
-`Circle.cpp`
-`Rectangle.hpp`
-`Rectangle.cpp`
-`Triangle.hpp`
-`Triangle.cpp`
+You will submit **the following files**:  
+`Shape.hpp`  
+`Shape.cpp`  
+`Circle.hpp`  
+`Circle.cpp`  
+`Rectangle.hpp`  
+`Rectangle.cpp`  
+`Triangle.hpp`  
+`Triangle.cpp`  
 
 Your project must be submitted on Gradescope. Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging and it should not be used for that. You MUST test and debug your program locally. Before submitting to Gradescope you MUST ensure that your program compiles (with g++) and runs correctly on the Linux machines in the labs at Hunter (see detailed instructions on how to upload, compile and run your files in the “Programming Rules” document). That is your baseline, if it runs correctly there it will run correctly on Gradescope, and if it does not, you will have the necessary feedback (compiler error messages, debugger or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above you submit it to Gradescope.
