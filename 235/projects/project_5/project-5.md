@@ -7,7 +7,7 @@ title: PROJECT 5
 
 ![Sort](sort.png)
 
-Your objective for this project is to implement five sorting algorithms over the `DoublyLinkedList` class that you created for Project 3. In order to successfully complete this project, you **must** understand the prerequisite material from the previous projects, you **must** know what a comparator is, and you **must** understand how the bubble sort, insertion sort, and merge sort algorithms work. If you are not absolutely comfortable with these topics, please seek help immediately: contact me or our UTA, Nigel.
+Your objective for this project is to implement five sorting algorithms over the `DoublyLinkedList` class that you created for Project 3. In order to successfully complete this project, you **must** understand the prerequisite material from the previous projects, you **must** know what a comparator is, and you **must** understand how the bubble sort, insertion sort, and merge sort algorithms work. 
 
 ### Some additional resources
 - Comparators  
