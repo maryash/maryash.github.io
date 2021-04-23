@@ -7,7 +7,7 @@ title: PROJECT 5
 
 ![Sort](sort.png)
 
-Your objective for this project is to implement five sorting algorithms over the `DoublyLinkedList` class that you created for Project 3. In order to successfully complete this project, you **must** understand the prerequisite material from the previous projects, you **must** know what a comparator is, and you **must** understand how the bubble sort, insertion sort, quick sort, merge sort, and shell sort algorithms work. If you are not absolutely comfortable with these topics, please seek help immediately: contact me or our UTA, Nigel.
+Your objective for this project is to implement five sorting algorithms over the `DoublyLinkedList` class that you created for Project 3. In order to successfully complete this project, you **must** understand the prerequisite material from the previous projects, you **must** know what a comparator is, and you **must** understand how the bubble sort, insertion sort, and merge sort algorithms work. If you are not absolutely comfortable with these topics, please seek help immediately: contact me or our UTA, Nigel.
 
 ### Some additional resources
 - Comparators  
@@ -23,17 +23,9 @@ Your objective for this project is to implement five sorting algorithms over the
 [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/insertion-sort/a/insertion-sort)  
 [Jenny's Lectures](https://youtu.be/yCxV0kBpA6M)
 
-- Quick Sort  
-[Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort)  
-[HackerRank](https://youtu.be/SLauY6PpjW4)
-
 - Merge Sort  
 [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)  
 [Adbul Bari](https://youtu.be/mB5HXBb_HY8)
-
-- Shell Sort  
-[Runestone Academy](https://runestone.academy/runestone/books/published/pythonds/SortSearch/TheShellSort.html)  
-[Rob Edwards](https://youtu.be/ddeLSDsYVp8)
 
 ### Implementation
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
@@ -71,3 +63,17 @@ You must start working on the projects as soon as they are assigned to detect an
 
 Your project must be submitted on Gradescope. Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging and it should not be used for that. You MUST test and debug your program locally. Before submitting to Gradescope you MUST ensure that your program compiles (with g++) and runs correctly on the Linux machines in the labs at Hunter (see detailed instructions on how to upload, compile and run your files in the “Programming Rules” document). That is your baseline, if it runs correctly there it will run correctly on Gradescope, and if it does not, you will have the necessary feedback (compiler error messages, debugger or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above you submit it to Gradescope.
   
+
+<!---  
+
+- Quick Sort  
+[Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort)  
+[HackerRank](https://youtu.be/SLauY6PpjW4)
+
+- Shell Sort  
+[Runestone Academy](https://runestone.academy/runestone/books/published/pythonds/SortSearch/TheShellSort.html)  
+[Rob Edwards](https://youtu.be/ddeLSDsYVp8)
+
+
+
+--->
