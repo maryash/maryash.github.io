@@ -71,7 +71,7 @@ private:
 **Work incrementally!** Work sequentially (implement and test). Only move forward, when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
 
 ### Submission:
-**You will submit the following files**:  
+You will submit the following files:  
 `PriorityNode.cpp`  
 `PriorityQueue.cpp`  
   
