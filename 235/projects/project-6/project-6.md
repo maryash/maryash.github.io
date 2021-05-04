@@ -6,20 +6,18 @@ title: PROJECT 6
 # Project 6 &nbsp; Priority Queue: Linked Chain Implementation
 ![Priority Queue](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/935/494/datas/original.png)  
   
-Your objective for this project is to implement from scratch a **Priority Queue** Abstract Data Structure using a linked chain as the underlying mechanism.  In order to successfully complete this project, you **must** understand the concept of the regular **Queue** ADT.  A **Priorty Queue** behaves exactly like a regular **Queue**, except that each element, when enqued, immediately advances past all elements with lower priority in front of it.  The automatic effect of this is that elements will always dequeue in order of their priority, rather than the order in which they were enqueued.  The order in which they were enqueued will only matter for elements with the same priority.  
+Your objective for this project is to implement from scratch a **Priority Queue** Abstract Data Structure using a **Linked Chain** as the underlying mechanism.  In order to successfully complete this project, you must understand the concept of the regular **Queue** ADT. &nbsp;A **Priorty Queue** behaves exactly like a regular **Queue**, except that each element, when enqued, immediately advances past all elements with lower priority in front of it. nbsp;The automatic effect of this is that elements will always dequeue in order of their priority, rather than the order in which they were enqueued. &nbsp;The order in which they were enqueued will only matter for elements with the same priority.  
 
-Admitedly, a linked chain implementation of the Priority Queue ADT will result in **O(n)** enqueque performance.  You will have a chance to re-implemenmt Priority Queue using a Binary Search Tree in the **optional extra credit** project.  This immensely superior implementation will result in a much better **O(log n)** enqueue.  If you choose to do this additional project, it will replace theproject fro which you received the lowest score.  
+Admitedly, a **Linked Chain** implementation of the Priority Queue ADT will result in **O(n)** **enqueque** performance. nbsp;You will have a chance to re-implemenmt **Priority Queue** using a **Binary Search Tree** in the **optional extra credit** project. nbsp;This immensely superior implementation will result in a much better **O(log n)** **enqueue** performance. nbsp;If you choose to do this additional project, it will replace theproject fro which you received the lowest score.  
 
 Also, congratulations for making it to the end of the semester! I hope that you have learned a lot over the last three mnonths and that you have done work that you are proud of.  We are aware of how straining it can be to learn about and to work on technical material in a limited timeframe.  If you have made it this far, you should feel confident to consider yourself a budding computer scientist, because we certainly do. And good luck on the final!
 
-### Implementation
-**Work incrementally!** Work sequentially (implement and test). Only move forward, when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
-
 ### Required Files
-[starter_code.zip](****sarter_code.zip){:target="_blank"}
+[PriorityNode.hpp](PriorityNode.hpp){:target="_blank"}  
+[PriorityQueue.hpp](PriorityQueue.hpp){:target="_blank"}
 
 ## Task
-The public interface for the **Priority Queue** will be essentially the same as the regular **Queue**.  In fact the implementation of all functions but one will be the same as well.  The only function that you will need to change is the `void enqueue(const ItemType& new_entry)` function.  
+The public interface for the **Priority Queue** will be essentially the same as the regular **Queue**.  In fact the implementation of all functions but one will be the same as well. nbsp;The only function that you will need to change is the `void enqueue(const ItemType& new_entry)` function.  
 ```
 #ifndef PRIORITYQUEUE_H_
 #define PRIORITYQUEUE_H_
@@ -30,43 +28,47 @@ public:
   PriorityQueue();
   PriorityQueue(const PriorityQueue<ItemType>& a_priority_queue); // Copy constructor
   ~PriorityQueue();
-  void enqueue(const ItemType& new_entry); //adds an element to back
-  void dequeue(); // removes element from front of queue
+  void enqueue(const ItemType& new_entry); //adds an element to the back of the queue
+  void dequeue(); // removes element from front of the queue
   ItemType front() const; // returns a copy of the front element
   int size() const; // returns the number of elements in the queue
-  bool isEmpty() const; // returns true if no elements in queue
+  bool isEmpty() const; // returns true if no elements in the queue
 private:
-  Node<ItemType>* back_; // Pointer to back of queue
+  PriorityNode<ItemType>* back_; // Pointer to back of the queue
+  PriorityNode<ItemType>* front_; // Pointer to front of the queue
   int item_count;
 }; //end PriorityQueue
 #include "PriorityQueue.cpp"
-#endif // QUEUE_H_ 
+#endif // PRIORITYQUEUE_H_ 
 ```
 You will also need to use a new `Node<ItemType>` class, which will now have three data members:`Node<ItemType>* next_`, `ItemType item_`, and `int priority_`.  
 ```
 #ifndef PRIORITY_NODE_H_ 
 #define PRIORITY_NODE_H_
-template<typename ItemType> class Node
+template<typename ItemType> class PriorityNode
 {
 public:
   PriorityNode();
   PriorityNode(const ItemType& an_item);
   PriorityNode(const ItemType& an_item, int priority);
-  PriorityNode(const ItemType& an_item, int priority, Node<ItemType>* next_node_ptr);
+  PriorityNode(const ItemType& an_item, int priority, PriorityNode<ItemType>* next_node_ptr);
   void setItem(const ItemType& an_item);
   void setPriority(const int priority);
-  void setNext(Node<ItemType>* next_node_ptr);
+  void setNext(PriorityNode<ItemType>* next_node_ptr);
   ItemType getItem() const;
   int getPriority() const;
-  Node<ItemType>* getNext() const;
+  PriorityNode<ItemType>* getNext() const;
 private:
   ItemType item_; // A data item
   int priority_; // The item's priority
-  Node<ItemType>* next_; // Pointer to next node
-}; // end Node
-#include "Node.cpp"
-#endif // NODE_H_ 
+  PriorityNode<ItemType>* next_; // Pointer to next node
+}; // end PriorityNode
+#include "PriorityNode.cpp"
+#endif // PRIORITYNODE_H_ 
 ```
+### Implementation
+**Work incrementally!** Work sequentially (implement and test). Only move forward, when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
+
 ### Testing
 How to compile:
 ```
