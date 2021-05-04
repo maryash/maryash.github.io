@@ -26,9 +26,9 @@ class PriorityQueue
 {
 public:
   PriorityQueue();
-  PriorityQueue(const PriorityQueue<ItemType>& a_priority_queue); // Copy constructor
+  PriorityQueue(const PriorityQueue<ItemType>& a_priority_queue);
   ~PriorityQueue();
-  void enqueue(const ItemType& new_entry); //adds an element to the back of the queue
+  void enqueue(const ItemType& new_entry); //adds element to back
   void dequeue(); // removes element from front of the queue
   ItemType front() const; // returns a copy of the front element
   int size() const; // returns the number of elements in the queue
@@ -51,7 +51,8 @@ public:
   PriorityNode();
   PriorityNode(const ItemType& an_item);
   PriorityNode(const ItemType& an_item, int priority);
-  PriorityNode(const ItemType& an_item, int priority, PriorityNode<ItemType>* next_node_ptr);
+  PriorityNode(const ItemType& an_item, int priority, 
+               PriorityNode<ItemType>* next_node_ptr);
   void setItem(const ItemType& an_item);
   void setPriority(const int priority);
   void setNext(PriorityNode<ItemType>* next_node_ptr);
