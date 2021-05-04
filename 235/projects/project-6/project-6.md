@@ -8,7 +8,7 @@ title: PROJECT 6
   
 Your objective for this project is to implement from scratch a **Priority Queue** Abstract Data Structure using a **Linked Chain** as the underlying mechanism.  In order to successfully complete this project, you must understand the concept of the regular **Queue** ADT. &nbsp;A **Priorty Queue** behaves exactly like a regular **Queue**, except that each element, when enqued, immediately advances past all elements with lower priority in front of it. &nbsp;The automatic effect of this is that elements will always dequeue in order of their priority, rather than the order in which they were enqueued. &nbsp;The order in which they were enqueued will only matter for elements with the same priority.  
 
-Admitedly, a **Linked Chain** implementation of the **Priority Queue** ADT will result in **O(n)** **enqueque** performance. &nbsp;You will have a chance to re-implemenmt **Priority Queue** using a **Binary Search Tree** in the **optional extra credit** project. &nbsp;This immensely superior implementation will result in a much better **O(log n)** **enqueue** performance. &nbsp;If you choose to do this additional project, it will replace theproject fro which you received the lowest score.  
+Admitedly, a **Linked Chain** implementation of the **Priority Queue** ADT will result in **O(n)** **enqueque** performance. &nbsp;You will have a chance to re-implemenmt **Priority Queue** using a **Binary Search Tree** in the **optional extra credit** project. &nbsp;This immensely superior implementation will result in a much better **O(log n)** **enqueue** performance. &nbsp;If you choose to do this additional project, it will replace the project for which you received the lowest score.  
 
 Also, congratulations for making it to the end of the semester! I hope that you have learned a lot over the last three mnonths and that you have done work that you are proud of.  We are aware of how straining it can be to learn about and to work on technical material in a limited timeframe.  If you have made it this far, you should feel confident to consider yourself a budding computer scientist, because we certainly do. And good luck on the final!
 
@@ -17,7 +17,7 @@ Also, congratulations for making it to the end of the semester! I hope that you 
 [PriorityQueue.hpp](PriorityQueue.hpp){:target="_blank"}
 
 ## Task
-The public interface for the **Priority Queue** will be essentially the same as the regular **Queue**.  In fact the implementation of all functions but one will be the same as well. &nbsp;The only function that you will need to change is the `void enqueue(const ItemType& new_entry)` function.  
+The public interface for the **Priority Queue** will be essentially the same as the regular **Queue**.  In fact, the implementation of all functions **but one** will be the same as well. &nbsp;The **only** function that you will need to change is the `void enqueue(const ItemType& new_entry)` function. Again, you must write this function **from scratch**.  
 ```
 #ifndef PRIORITYQUEUE_H_
 #define PRIORITYQUEUE_H_
