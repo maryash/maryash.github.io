@@ -30,8 +30,8 @@ public:
   ~PriorityQueue();
   void enqueue(const ItemType& new_entry, int priority); //adds by priority
   void dequeue(); // removes element from front of the queue
-  PriorityNode<ItemType>* getFrontPtr() const; //returns front_
   ItemType front() const; // returns a copy of the front element
+  PriorityNode<ItemType>* getFrontPtr() const; //returns front_ pointer
   int size() const; // returns the number of elements in the queue
   bool isEmpty() const; // returns true if no elements in the queue
 private:
