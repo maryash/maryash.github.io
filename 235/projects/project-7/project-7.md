@@ -17,7 +17,7 @@ Congratulations for making it to the end of the semester! I hope that you have l
 [PriorityQueue.hpp](PriorityQueue.hpp){:target="_blank"}
 -->
 ## Task
-The public interface for this **Priority Queue** implementation will be similar to **BST** and should be inherited from **BST**, which menas that it will need to use **BinaryNode**s. &nbsp;You will need to add all the functions required by the **Priority Que**`ADT. &nbsp;It must have exactly the same public interface as your **Linked List** implementation of the **Priority Queue** in **Project 6**. 
+The public interface for this **Priority Queue** implementation will be similar to **BST** and should be inherited from **BST**, which menas that it will need to create a new version of the **PriorityNode** class, which will have two child pointers. &nbsp;You will need to add all the functions required by the **Priority Que**`ADT. &nbsp;It must have exactly the same public interface as your **Linked List** implementation of the **Priority Queue** in **Project 6**. 
 <!---
 
 ```
