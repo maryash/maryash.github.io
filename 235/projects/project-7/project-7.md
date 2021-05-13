@@ -11,13 +11,18 @@ This is an **optional extra credit project**. &nbsp;Your objective for this proj
 This immensely superior implementation of the **Priority Queue** ADT will result in a much faster **O(log n)** **enqueque** performance. &nbsp;If you choose to do this additional project, it will replace the project for which you received the lowest score.  
 
 Congratulations for making it to the end of the semester! I hope that you have learned a lot over the last three mnonths and that you have done work that you are proud of. &nbsp;If you have made it this far, you should feel confident to consider yourself a budding computer scientist, because we certainly do. And good luck on the final!
+
 <!---
+
 ### Required Files
 [PriorityNode.hpp](PriorityNode.hpp){:target="_blank"}  
 [PriorityQueue.hpp](PriorityQueue.hpp){:target="_blank"}
--->
+
+--->
+
 ## Task
 The public interface for this **Priority Queue** implementation will be similar to **BST** and should be inherited from **BST**, which menas that it will need to create a new version of the **PriorityNode** class, which will have two child pointers. &nbsp;You will need to add all the functions required by the **Priority Que**`ADT. &nbsp;It must have exactly the same public interface as your **Linked List** implementation of the **Priority Queue** in **Project 6**. 
+
 <!---
 
 ```
@@ -70,14 +75,14 @@ private:
 #include "PriorityNode.cpp"
 #endif // PRIORITYNODE_H_ 
 ```
--->
+--->
 
 ### Implementation
 **Work incrementally!** Work sequentially (implement and test). Only move forward, when you are positive that the previous one has been completed correctly. Remember that the names of function prototypes and member variables must exactly match those declared in the respective header file when implementing a class.
 
 ### Submission:
 You will submit the following files:  
-`PriorityNode.cpp`  
+`BinaryPriorityNode.cpp`  
 `PriorityQueue.cpp`  
   
 Your project must be submitted on Gradescope. Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging and it should not be used for that. You MUST test and debug your program locally. Before submitting to Gradescope you MUST ensure that your program compiles (with g++) and runs correctly on the Linux machines in the labs at Hunter (see detailed instructions on how to upload, compile and run your files in the “Programming Rules” document). That is your baseline, if it runs correctly there it will run correctly on Gradescope, and if it does not, you will have the necessary feedback (compiler error messages, debugger or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above you submit it to Gradescope.
