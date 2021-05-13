@@ -3,7 +3,7 @@ layout: myDefault
 title: PROJECT 7
 ---
 
-# Project 7 &nbsp; Priority Queue: BST Implementation
+# Project 7 &nbsp; Priority Queue: &nbsp;BST &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Implementation
 ![Priority Queue](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/935/494/datas/original.png)  
   
 This is an **optional extra credit project**. &nbsp;Your objective for this project is to re-implement the **Priority Queue** Abstract Data Structure using a **Binary Search Tree** as the underlying mechanism.  In order to successfully complete this project, you must understand the concept of the regular **Queue** ADT. &nbsp;A **Priorty Queue** behaves exactly like a regular **Queue**, except that each element, when enqued, immediately advances past all elements with lower priority in front of it. &nbsp;The automatic effect of this is that elements will always dequeue in order of their priority, rather than the order in which they were enqueued. &nbsp;The order in which they were enqueued will only matter for elements with the same priority.  
