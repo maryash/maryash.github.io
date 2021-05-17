@@ -59,9 +59,9 @@ Project Lab Sessions will take place on most Tuesdays, Wednesdays, and Thursdays
 ---  
 
 ### Instructor Evaluations:
-**Computer: [www.hunter.cuny.edu/te](www.hunter.cuny.edu/te)**  
+**Computer: [www.hunter.cuny.edu/te](http://www.hunter.cuny.edu/te){:target="_blank"}**  
 
-**Smartphone: [www.hunter.cuny.edu/mobilete](www.hunter.cuny.edu/mobilete)**
+**Smartphone: [www.hunter.cuny.edu/mobilete](http://www.hunter.cuny.edu/mobilete){:target="_blank"}**
   
    
 ---  
