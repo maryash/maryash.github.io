@@ -21,7 +21,7 @@ Congratulations for making it to the end of the semester! I hope that you have l
 ---> 
 
 ## Task
-The public interface for this **Priority Queue** implementation will be similar to **BST** and should be inherited from **BST**, which menas that it will need to create a new version of the **PriorityNode** class, which will have two child pointers. &nbsp;You will need to add all the functions required by the **Priority Que**`ADT. &nbsp;It must have exactly the same public interface as your **Linked List** implementation of the **Priority Queue** in **Project 6**. 
+The public interface for this **Priority** implementation should be the same as in Project 6. &nbsp;However, the private are may be different. &nbsp;You will also need to create a new **BinaryPriorityNode** class, which will have two child pointers. &nbsp;You will need to add all the functions required by the **Priority Que**`ADT. &nbsp;It must have exactly the same public interface as your **Linked List** implementation of the **Priority Queue** in **Project 6**. 
 
 <!---
 
@@ -82,10 +82,10 @@ private:
 
 ### Submission:
 You will submit the following files:  
-`BinaryNode.hpp`  
-`BinaryNode.cpp`  
-`PriorityQueue.hpp`  
-`PriorityQueue.cpp`  
+`BinaryPriorityNode.hpp`  
+`BinaryPriorityNode.cpp`  
+`PriorityQueueBST.hpp`  
+`PriorityQueueBST.cpp`  
 `main.cpp`
   
 Your project must be submitted on Gradescope. Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging and it should not be used for that. You MUST test and debug your program locally. Before submitting to Gradescope you MUST ensure that your program compiles (with g++) and runs correctly on the Linux machines in the labs at Hunter (see detailed instructions on how to upload, compile and run your files in the “Programming Rules” document). That is your baseline, if it runs correctly there it will run correctly on Gradescope, and if it does not, you will have the necessary feedback (compiler error messages, debugger or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above you submit it to Gradescope.
