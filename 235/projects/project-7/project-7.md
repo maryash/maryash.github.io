@@ -6,18 +6,20 @@ title: PROJECT 7
 # Project 7 &nbsp; Priority Queue: &nbsp;BST &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Implementation
 ![Priority Queue](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/935/494/datas/original.png)  
   
-This is an **optional extra credit project**. &nbsp;Your objective for this project is to re-implement the **Priority Queue** Abstract Data Structure using a **Binary Search Tree** as the underlying mechanism.  In order to successfully complete this project, you must understand the concept of the regular **Queue** ADT. &nbsp;A **Priorty Queue** behaves exactly like a regular **Queue**, except that each element, when enqued, immediately advances past all elements with lower priority in front of it. &nbsp;The automatic effect of this is that elements will always dequeue in order of their priority, rather than the order in which they were enqueued. &nbsp;The order in which they were enqueued will only matter for elements with the same priority.  
+This is an **optional extra credit project**. &nbsp;Your objective for this project is to re-implement the **Priority Queue** Abstract Data Structure using a **Binary Search Tree** as the underlying mechanism. @nbsp;In order to successfully complete this project, you must understand the concept of the regular **Queue** ADT. &nbsp;A **Priorty Queue** behaves exactly like a regular **Queue**, except that each element, when enqued, immediately advances past all elements with lower priority in front of it. &nbsp;The automatic effect of this is that elements will always dequeue in order of their priority, rather than the order in which they were enqueued. &nbsp;The order in which they were enqueued will only matter for elements with the same priority.  
 
-This immensely superior implementation of the **Priority Queue** ADT will result in a much faster **O(log&nbsp;n)** **enqueque** performance. &nbsp;If you choose to do this additional project, it will replace the project for which you received the lowest score.  
+Though the **Heap** implementation of the **Priorty Queue** is more common and performs better in the worst case scenarios, this **BST** implementation of the **Priority Queue** ADT will result in a much faster **O(log&nbsp;n)** **enqueque** performance. &nbsp;Other opreations will now take**O(log&nbsp;n)** time as well. If you choose to do this additional project, it will replace the project for which you received the lowest score. 
 
 Congratulations for making it to the end of the semester! I hope that you have learned a lot over the last three mnonths and that you have done work that you are proud of. &nbsp;If you have made it this far, you should feel confident to consider yourself a budding computer scientist, because we certainly do. And good luck on the final!
+
 <!---
 
 ### Required Files
 [PriorityNode.hpp](PriorityNode.hpp){:target="_blank"}  
 [PriorityQueue.hpp](PriorityQueue.hpp){:target="_blank"}
 
---->
+---> 
+
 ## Task
 The public interface for this **Priority Queue** implementation will be similar to **BST** and should be inherited from **BST**, which menas that it will need to create a new version of the **PriorityNode** class, which will have two child pointers. &nbsp;You will need to add all the functions required by the **Priority Que**`ADT. &nbsp;It must have exactly the same public interface as your **Linked List** implementation of the **Priority Queue** in **Project 6**. 
 
