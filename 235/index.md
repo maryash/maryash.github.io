@@ -57,8 +57,16 @@ Project Lab Sessions will take place on most Tuesdays, Wednesdays, and Thursdays
  **5/24** | **Monday** | **11:30 AM to 1:30 PM** | **FINAL EXAM** | 
   
 ---  
+
+###Teacher Evaluation: 
+**Computer: [www.hunter.cuny.edu/te](www.hunter.cuny.edu/te)**  
+
+**Smartphone: [www.hunter.cuny.edu/mobilete](www.hunter.cuny.edu/mobilete)**
   
+   
+---  
   
+
 <!-- 
  4/22 |  |  |  | [**Project&nbsp;4**&nbsp;**due&nbsp;11/16**](projects/project_4_/project_4_.html){:target="_blank"} 
  4/26 |  |  |  | [**Project&nbsp;5**&nbsp;**due&nbsp;12/13**](projects/project_5_/project_5_.html){:target="_blank"} 
