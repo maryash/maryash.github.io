@@ -55,7 +55,7 @@ Project Lab Sessions will take place on most Tuesdays, Wednesdays, and Thursdays
  5/13 | Smart&nbsp;Pointers | [C++&nbsp;Interlude&nbsp;4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/216%5B%3Bvnd.vst.idref%3DP7001011925000000000000000002CE7%5D!/4/2%5BP7001011925000000000000000002CE7%5D/2/2%5BP700101192500000000000000000B108%5D/4%400:0){:target="_blank"} | [Smart Pointers](slides/i4_smart_pointers.pdf){:target="_blank"} | [SQ&nbsp;Trees&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;](study_questions/sq_11_trees.pdf){:target="_blank"} 
  5/17 | Tree Implementation | [Chapter&nbsp;16](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/324%5B%3Bvnd.vst.idref%3DP70010119250000000000000000047EF%5D!/4/2%5BP70010119250000000000000000047EF%5D/2/2%5BP700101192500000000000000000C782%5D/4%400:0){:target="_blank"} | [Tree Implementation](slides/22_tree_implementation.pdf){:target="_blank"} |  
  **5/24** | **Monday** | **11:30 AM to 1:30 PM** | **FINAL EXAM** | 
- n.a./n.a. | More Polimorphism | [C++&nbsp;Interlude&nbsp;2](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/98%5B%3Bvnd.vst.idref%3DP700101192500000000000000000151A%5D!/4/2%5BP700101192500000000000000000151A%5D/2/2%5BP7001011925000000000000000009D22%5D/4%400:0){:target="_blank"} | [*More&nbsp;Polymorphism*](slides/11_prime_additional_polymorphism.pdf){:target="_blank"} | 
+ n.a./n.a. | More Polimorphism |  | [*More&nbsp;Polymorphism*](slides/11_prime_additional_polymorphism.pdf){:target="_blank"} | 
  n.a./n.a. | Heaps | [Chapter&nbsp;17](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/344%5B%3Bvnd.vst.idref%3DP7001011925000000000000000004C48%5D!/4/2%5BP7001011925000000000000000004C48%5D/2/2%5BP700101192500000000000000000CB0A%5D/4%400:0){:target="_blank"} | [Heaps](slides/23_heaps.pdf){:target="_blank"} | 
  n.a./n.a. | Dictionaries and Hashing | [Chapter&nbsp;18.1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/368%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005125%5D!/4/2%5BP7001011925000000000000000005125%5D/2/2%5BP700101192500000000000000000CF16%5D/2%400:0){:target="_blank"}[&nbsp;&&nbsp;18.4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/374%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005385%5D!/4/2%5BP7001011925000000000000000005385%5D/2/2%5BP700101192500000000000000000D110%5D/4%400:0){:target="_blank"} | [Dictionaries and Hashing](slides/24_dictionaries_hashing.pdf){:target="_blank"} | 
  n.a./n.a. | STL | [C++&nbsp;Interlude&nbsp;8](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/428%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005DB5%5D!/4/2%5BP7001011925000000000000000005DB5%5D/2%400:0){:target="_blank"} | [STL](slides/i8_stl.pdf){:target="_blank"} | 
@@ -103,6 +103,8 @@ Project Lab Sessions will take place on most Tuesdays, Wednesdays, and Thursdays
 
 
  7/2 | Review | ( Hashing, Heaps, and STL are | NOT in the exam ) &nbsp; | [**Project&nbsp;6**&nbsp;**due&nbsp;7/6**](projects/project_6/project_6.html){:target="_blank"} 
+ 
+ [C++&nbsp;Interlude&nbsp;2](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/98%5B%3Bvnd.vst.idref%3DP700101192500000000000000000151A%5D!/4/2%5BP700101192500000000000000000151A%5D/2/2%5BP7001011925000000000000000009D22%5D/4%400:0){:target="_blank"}
  
  -->
   
