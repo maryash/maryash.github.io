@@ -3,7 +3,7 @@ layout: myDefault
 title: 160 SYLLABUS  
 ---
 
-**[CSCI 160 &nbsp; &nbsp; COMPUTER ARCHITECTUREe I &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
+**[CSCI 160 &nbsp; COMPUTER ARCHITECTUREe I &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
 
 **Summer 2021 &nbsp; &nbsp; Monday through Thursday &nbsp; 11:40 AM to 1:14 PM on BlackBoard Collaborate**
   
@@ -11,7 +11,7 @@ title: 160 SYLLABUS
 **Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours Monday through Thursday &nbsp; 1:15 PM to 1:45 PM to on BlackBoard Collaborate.  
   
 **TEXTBOOK**  
-[**Digital Design**](https://www.pearson.com/store/p/mano-ciletti-digital-design-with-an-introduction-to-the-verilog-hdl-vhdl-and-systemverilog-6-e/3100003043990/9780137208333){:target="_blank"}, 6th Edition [**eText**](){:target="_blank"}, Mano et al ISBN-9780134529561. Can be purchased at a discounted price ($54.99) from [**Vitalsource.com**](https://www.pearson.com/store/p/mano-ciletti-digital-design-with-an-introduction-to-the-verilog-hdl-vhdl-and-systemverilog-6-e/3100003043990/9780137208333){:target="_blank"} in order for the chapter links to work.  Do not buy any other electronic version of this edition of the book. However you may be able to find prior editions of this book for less -- you will have to match the reading assignments in those older edditions.  
+[**Digital Design**](https://www.pearson.com/store/p/mano-ciletti-digital-design-with-an-introduction-to-the-verilog-hdl-vhdl-and-systemverilog-6-e/3100003043990/9780137208333){:target="_blank"}, 6th Edition [**eText**](){:target="_blank"}, Mano et al ISBN-9780134529561. It can be purchased at a discounted price ($54.99) from [**Vitalsource.com**](https://www.pearson.com/store/p/mano-ciletti-digital-design-with-an-introduction-to-the-verilog-hdl-vhdl-and-systemverilog-6-e/3100003043990/9780137208333){:target="_blank"} in order for the chapter links to work.  Do not buy any other electronic version of this edition of the book. However you may be able to find prior editions of this book for less -- you will have to match the reading assignments in those older edditions.  
   
 **OTHER RESOURCES**  
 [Circuit Builder Simulator](http://www.neuroproductions.be/logic-lab/index.php){:target="_blank"}  
