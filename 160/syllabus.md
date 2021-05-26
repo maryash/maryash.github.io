@@ -3,7 +3,7 @@ layout: myDefault
 title: 160 SYLLABUS  
 ---
 
-**[CSCI 160 &nbsp; COMPUTER ARCHITECTUREe I &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
+**[CSCI 160 &nbsp; COMPUTER ARCHITECTURE I &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
 
 **Summer 2021 &nbsp; &nbsp; Monday through Thursday &nbsp; 11:40 AM to 1:14 PM on BlackBoard Collaborate**
   
