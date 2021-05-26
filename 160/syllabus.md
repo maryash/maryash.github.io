@@ -74,14 +74,26 @@ TUTORING
 There are dedicated computer lab for this course: HUNTER NORTH 1001B. It is staffed with tutors, who are there to help you. Please take advantage of them. You can ask for help with labs, projects, and general course material Monday through Friday from 11:00 AM to 6:00 PM.   
   
 **SOURCE CODE FROM TEXTBOOK AND SLIDES**  
-[**TextbookSourceCode.zip**](files/TextbookSourceCode.zip)
+[**TextbookSourceCode.zip**](files/TextbookSourceCode.zip)  
+  
+<!---  
 
 **PROGRAMMING PROJECTS**  
 I hope you will enjoy the programming projects! There will be seven programming projects.  You will have a week to complete each project. Every program must comply with the [Programming Guidelines](programming_guidelines.html){:target="_blank"}. You **must read** this document, it contains guidelines about submission, lateness, plagiarism, grading and logging into your Linux accounts.  
 
+
+--->  
+
+
+<!---  
+
 **SOFTWARE**  
 This course it taught in Linux and your programs must be able to run on a Linux platform. <!--- On campus, you may use the 1001C and 1001B labs to do your work for this course. ---> The standard Linux/Unix/Mac OS C++ compiler is g++. If you wish to use a home computer, you can use any version of Linux. We recommend [Ubuntu Linux](http://www.ubuntu.com) -- it the one used by Gradescope.  Or use a Mac.  Macs have Unix command line and g++.  You could also use a Linux environment included with most recent versions of Windows.  Check out this excellent tutorial: [okunhardt.github.io/documents/Installing_WSL.pdf
 ](https://okunhardt.github.io/documents/Installing_WSL.pdf) or just google it. We have had problems in the past with students programming in a native Windows environment at home, and their programs don’t work in the Linux labs and might be incompatible with Gradescope.  
+
+
+--->  
+<!---  
 
 [Prof. Stewart Weiss’ notes](http://www.compsci.hunter.cuny.edu/~sweiss/ course_materials/csci235/csci235_lecture_notes.php){:target="_blank"}  
 [Linux on Windows Tutorial: okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf){:target="_blank"}  
