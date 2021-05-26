@@ -8,11 +8,20 @@ title: CSCI 160 MAIN PAGE
 [**SYLLABUS**](syllabus.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [**GRADESCOPE**](https://www.gradescope.com/courses/155598 "Entry Code 9GRRD8"){:target="_blank"}  
   
-**LECTURE** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
-Mondays and Thursdays 11:10 AM - 12:25 PM on BlackBoard Collaborate  
-      
-**TEXTBOOK** &nbsp; [**Data Abstraction and Problem Solving with C++: Walls and Mirrors**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, 7th Edition [**eText**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, Frank M. Carrano, ISBN-13 978-0134463971. Must be rented ($39) or purchased ($59) from [**Vitalsource.com**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"} in order for the chapter links to work!  
+**[CSCI 160 &nbsp; &nbsp; COMPUTER ARCHITECTUREe I &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
+
+**Summer 2021 &nbsp; &nbsp; Monday through Thursday &nbsp; 11:40 AM to 1:14 PM on BlackBoard Collaborate**
   
+**INSTRUCTOR**  
+**Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours Monday through Thursday &nbsp; 1:15 PM to 1:45 PM to on BlackBoard Collaborate.  
+  
+**TEXTBOOK**  
+[**Digital Design**](https://www.pearson.com/store/p/mano-ciletti-digital-design-with-an-introduction-to-the-verilog-hdl-vhdl-and-systemverilog-6-e/3100003043990/9780137208333){:target="_blank"}, 6th Edition [**eText**](){:target="_blank"}, Mano et al ISBN-9780134529561. Can be purchased ($54.99) from [**Vitalsource.com**](https://www.pearson.com/store/p/mano-ciletti-digital-design-with-an-introduction-to-the-verilog-hdl-vhdl-and-systemverilog-6-e/3100003043990/9780137208333){:target="_blank"} in order for the chapter links to work.  Do not buy any other electronic version of this edition of the book. However you may be able to find prior editions of this book for less -- you will have to match the reading assignments in those older edditions.  
+  
+**OTHER RESOURCES**  
+[Circuit Builder Simulator](http://www.neuroproductions.be/logic-lab/index.php){:target="_blank"}  
+  
+    
 **COURSE OUTLINE**  
   
  DATE | TOPIC | READING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | ASSIGNMENTS 
