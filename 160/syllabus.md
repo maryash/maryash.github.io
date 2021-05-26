@@ -10,27 +10,6 @@ title: 160 SYLLABUS
 **INSTRUCTOR**  
 **Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours Monday through Thursday &nbsp; 1:15 PM to 1:45 PM to on BlackBoard Collaborate.  
   
-Two 1.5-hour tests -of max 50 points-
-tentatively
-scheduled on:
-Test 1: June 21, [make-up at the end of the semester; right after Test 2],
-Test 2: July 12
-will be considered in computing your final grade. Homework/projects will be required and
-collected every class meeting; unannounced quizzes, and possible in-class participation will account
-for up to 10% (as a “needed” bonus) of the final grade.
-The whole material will be divided (by the date of the Test 1) into two parts. The final grade
-will be assigned according to the sum of the two partial scores (50+50=100(%)), as per Hunter
-College policy. You will be exempted from a Final Exam. Ask if you have questions.
-Textbooks: Recommended only:
-1)
-M. Morris Mano, M. Ciletti: Digital Design,
-ISBN-9780131989245; 2) M. M. Mano, C. Kime: Logic and Computer Design Fundamentals,
-Prentice Hall, ISBN-13:198926-X. You may be able to use previous or more recent editions of
-these texts, as we will discuss only some of the material covered herein, some additional one, and
-
-
-
-
 **TEXTBOOK**  
 [**Digital Design**](https://www.pearson.com/store/p/mano-ciletti-digital-design-with-an-introduction-to-the-verilog-hdl-vhdl-and-systemverilog-6-e/3100003043990/9780137208333){:target="_blank"}, 6th Edition [**eText**](){:target="_blank"}, Mano et al ISBN-9780134529561. Can be purchased ($54.99) from [**Vitalsource.com**](https://www.pearson.com/store/p/mano-ciletti-digital-design-with-an-introduction-to-the-verilog-hdl-vhdl-and-systemverilog-6-e/3100003043990/9780137208333){:target="_blank"} in order for the chapter links to work.  Do not buy any other electronic version of this edition of the book. However you may be able to find prior editions of this book for less -- you will have to match the reading assignments in those older edditions.  
   
@@ -38,11 +17,12 @@ these texts, as we will discuss only some of the material covered herein, some a
 [Circuit Builder Simulator](http://www.neuroproductions.be/logic-lab/index.php){:target="_blank"}  
   
 **COURSE OBJECTIVES**  
-The course will include topics such as: Binary number representations; Boolean algebras and logic gates. Simplification of Boolean functions. NAND and NOR, and other implementations. Combinational logic. Flip-flops, shifting, counters. This course’s objectives will work towards fulfilling of 1:A, B; 2:B; 3:A, C, D of the Computer Science Department’s learning goals.  
+The course will include topics such as: binary number representations, Boolean algebras, logic gates, simplification of Boolean functions, NAND and NOR, and other implementations, combinational logic, flip-flops, shifting, and counters. This course’s objectives will work towards fulfilling of the articles 1:A, B; 2:B; 3:A, C, D of the Computer Science Department’s learning goals.  
   
 **OTHER POLICIES**
 You are expected to ATTEND CLASS REGULARLY and NOT TO COME IN LATE, as you are RESPONSIBLE FOR ANY MATERIAL COVERED, whether in
-this syllabus or not, or ANNOUNCEMENT MADE DURING ANY OF THE CLASSES. I will post class notes. However you will have to attend all lectures to understand the material!
+this syllabus or not, or ANNOUNCEMENT MADE DURING ANY OF THE CLASSES. I will post class notes. However you will have to attend all lectures to understand the material! Hmework/projects will be required and collected every class meeting.  There will be unannounced quizzes.  In-class participation may count as a “needed” bonus to the final grade.  
+The whole material will be divided (by the date of the Test 1) into two parts.  
   
 **PREREQUISITES**  
 CSCI 127 and CSCI 150.  
