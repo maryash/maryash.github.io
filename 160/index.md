@@ -24,7 +24,7 @@ title: CSCI 160 MAIN PAGE
     
 **COURSE OUTLINE**  
   
- DATE | TOPIC | READING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | ASSIGNMENTS 
+ DATE | TOPIC | READINGS | SLIDES | ASSIGNMENTS 
  :---: | :---: | --- | :---: | ---: 
  2/1 | Introduction | [Syllabus](syllabus.html){:target="_blank"}<br/>[Programming Guidelines](programming_guidelines.html){:target="_blank"} | [Introduction](slides/01_introduction.pdf){:target="_blank"} | 
  5/27 |  | [Digital Design](C:\Downloads\5e.pdf#page=25){:target="_blank"} |  | 
