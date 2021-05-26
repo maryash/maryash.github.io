@@ -5,8 +5,8 @@ title: CSCI 160 MAIN PAGE
 
 **[CSCI160 COMPUTER ARCHITECTURE I &nbsp;HUNTER COLLEGE CITY UNIVERSITY OF NEW YORK](index.html)**
 **Summer 2021 &nbsp; &nbsp; Monday through Thursday &nbsp; 11:40 AM to 1:14 PM &nbsp;&nbsp; on BlackBoard Collaborate**
-[**SYLLABUS**](syllabus.html "CSCI 160 Computer Architecture I"){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-[**GRADESCOPE** [entry code 2R6D4Z]](https://www.gradescope.com/courses/271549 "Gradescope CSCI 160 entry code 2R6D4Z"){:target="_blank"}  
+[**SYLLABUS**](syllabus.html "CSCI 160 Computer Architecture I"){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+[**GRADESCOPE** [entry code 2R6D4Z]](https://www.gradescope.com/courses/271549 "CSCI 160 entry code 2R6D4Z"){:target="_blank"}  
   
 **INSTRUCTOR**  
 **Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours Monday through Thursday &nbsp; 1:15 PM to 1:45 PM to on BlackBoard Collaborate.  
@@ -22,8 +22,10 @@ title: CSCI 160 MAIN PAGE
   
  DATE | TOPIC | READINGS | SLIDES | ASSIGNMENTS 
  :---: | :---: | --- | :---: | ---: 
- 2/1 | Introduction | [Syllabus](syllabus.html){:target="_blank"}<br/>[Programming Guidelines](programming_guidelines.html){:target="_blank"} | [Introduction](slides/01_introduction.pdf){:target="_blank"} | 
- 5/27 |  | [Digital Design](C:\Downloads\5e.pdf#page=25){:target="_blank"} |  | 
+ 5/27 | Introduction | [Syllabus](syllabus.html){:target="_blank"} | [Class 1](slides/01_introduction.pdf){:target="_blank"} | 
+ 6/1 |  | [Digital Design](C:\Downloads\5e.pdf#page=25){:target="_blank"} |  | 
+ 6/2 |  | [Digital Design](C:\Downloads\5e.pdf#page=25){:target="_blank"} |  | 
+ 6/3 |  | [Digital Design](C:\Downloads\5e.pdf#page=25){:target="_blank"} |  | 
    
 <!-- 
  2/4 | Data&nbsp;Abstraction<br/>OOP | [Chapter&nbsp;1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/30%5B%3Bvnd.vst.idref%3DP70010119250000000000000000005D9%5D!/4/2%5BP70010119250000000000000000005D9%5D/2/2%5BP7001011925000000000000000009091%5D/4%400:0){:target="_blank"}<br/>[Appendix&nbsp;B](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/450%5B%3Bvnd.vst.idref%3DP7001011925000000000000000006BC2%5D!/4/2%5BP7001011925000000000000000006BC2%5D/2/2%5BP700101192500000000000000000E4E6%5D/4%400:0){:target="_blank"} | [Abstraction](/slides/02_oop.pdf){:target="_blank"} | [**Project&nbsp;0 &nbsp; due&nbsp;2/15** ](projects/project-0/project-0.html){:target="_blank"} 
