@@ -13,7 +13,7 @@ title: 160 SYLLABUS
 [**Digital Design**](https://www.pearson.com/store/p/mano-ciletti-digital-design-with-an-introduction-to-the-verilog-hdl-vhdl-and-systemverilog-6-e/3100003043990/9780137208333){:target="_blank"}, 6th Edition [**eText**](){:target="_blank"}, Mano et al ISBN-9780134529561. It can be purchased at a discounted price ($54.99) from [**Vitalsource.com**](https://www.pearson.com/store/p/mano-ciletti-digital-design-with-an-introduction-to-the-verilog-hdl-vhdl-and-systemverilog-6-e/3100003043990/9780137208333){:target="_blank"} in order for the chapter links to work.  Do not buy any other electronic version of this edition of the book. However you may be able to find prior editions of this book for less -- you will have to match the reading assignments in those older edditions.  
   
 **OTHER RESOURCES**  
-[Circuit Builder Simulator](http://www.neuroproductions.be/logic-lab/index.php){:target="_blank"}  
+[**Circuit Builder Simulator**](http://www.neuroproductions.be/logic-lab/index.php){:target="_blank"}  
   
 **COURSE OBJECTIVES**  
 The course will include topics such as: binary number representations, Boolean algebras, logic gates, simplification of Boolean functions, NAND and NOR, and other implementations, combinational logic, flip-flops, shifting, and counters. This course’s objectives will work towards fulfilling the articles 1:A, 1:B, 2:B, 3:A, 3:C, and 3:D of the Computer Science Department’s learning goals.  
