@@ -16,7 +16,7 @@ title: 160 SYLLABUS
 [Circuit Builder Simulator](http://www.neuroproductions.be/logic-lab/index.php){:target="_blank"}  
   
 **COURSE OBJECTIVES**  
-The course will include topics such as: binary number representations, Boolean algebras, logic gates, simplification of Boolean functions, NAND and NOR, and other implementations, combinational logic, flip-flops, shifting, and counters. This course’s objectives will work towards fulfilling of the articles 1:A, B; 2:B; 3:A, C, D of the Computer Science Department’s learning goals.  
+The course will include topics such as: binary number representations, Boolean algebras, logic gates, simplification of Boolean functions, NAND and NOR, and other implementations, combinational logic, flip-flops, shifting, and counters. This course’s objectives will work towards fulfilling the articles 1:A, 1:B, 2:B, 3:A, 3:C, and 3:D of the Computer Science Department’s learning goals.  
   
 **OTHER POLICIES**
 You are expected to ATTEND CLASS REGULARLY and NOT TO COME IN LATE, as you are RESPONSIBLE FOR ANY MATERIAL COVERED, whether in
