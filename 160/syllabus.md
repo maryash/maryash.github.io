@@ -5,7 +5,7 @@ title: 160 SYLLABUS
 
 **[CSCI160 COMPUTER ARCHITECTURE I &nbsp;HUNTER COLLEGE CITY UNIVERSITY OF NEW YORK](index.html)**  
 
-**Summer 2021 &nbsp; &nbsp; Monday through Thursday &nbsp; 11:40 AM to 1:14 PM on BlackBoard Collaborate**
+**Summer 2021 &nbsp; &nbsp; Monday through Thursday &nbsp; 11:40 AM to 1:14 PM &nbsp; on BlackBoard Collaborate**
   
 **INSTRUCTOR**  
 **Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours Monday through Thursday &nbsp; 1:15 PM to 1:45 PM to on BlackBoard Collaborate.  
@@ -88,7 +88,7 @@ I hope you will enjoy the programming projects! There will be seven programming 
 <!---  
 
 **SOFTWARE**  
-This course it taught in Linux and your programs must be able to run on a Linux platform. <!--- On campus, you may use the 1001C and 1001B labs to do your work for this course. ---> The standard Linux/Unix/Mac OS C++ compiler is g++. If you wish to use a home computer, you can use any version of Linux. We recommend [Ubuntu Linux](http://www.ubuntu.com) -- it the one used by Gradescope.  Or use a Mac.  Macs have Unix command line and g++.  You could also use a Linux environment included with most recent versions of Windows.  Check out this excellent tutorial: [okunhardt.github.io/documents/Installing_WSL.pdf
+This course it taught in Linux and your programs must be able to run on a Linux platform. [ On campus, you may use the 1001C and 1001B labs to do your work for this course. ] The standard Linux/Unix/Mac OS C++ compiler is g++. If you wish to use a home computer, you can use any version of Linux. We recommend [Ubuntu Linux](http://www.ubuntu.com) -- it the one used by Gradescope.  Or use a Mac.  Macs have Unix command line and g++.  You could also use a Linux environment included with most recent versions of Windows.  Check out this excellent tutorial: [okunhardt.github.io/documents/Installing_WSL.pdf
 ](https://okunhardt.github.io/documents/Installing_WSL.pdf) or just google it. We have had problems in the past with students programming in a native Windows environment at home, and their programs don’t work in the Linux labs and might be incompatible with Gradescope.  
 
 
