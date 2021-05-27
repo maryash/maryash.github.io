@@ -5,7 +5,7 @@ title: CSCI 160 MAIN PAGE
 
 **[CSCI160 COMPUTER ARCHITECTURE I &nbsp;HUNTER COLLEGE CITY UNIVERSITY OF NEW YORK](index.html)**
 **Summer 2021 &nbsp; &nbsp; Monday through Thursday &nbsp; 11:40 AM to 1:14 PM &nbsp;&nbsp; on BlackBoard Collaborate**
-[**SYLLABUS**](syllabus.html "CSCI 160 Computer Architecture I"){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+[**SYLLABUS**](syllabus.html "CSCI 160 Computer Architecture I"){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 [**GRADESCOPE** [entry code 2R6D4Z]](https://www.gradescope.com/courses/271549 "CSCI 160 entry code 2R6D4Z"){:target="_blank"}  
   
 **INSTRUCTOR**  
