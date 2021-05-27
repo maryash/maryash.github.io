@@ -1,8 +1,13 @@
+---
+layout: myDefault
+title: HOMEWORKS
+---
+
 <a name="01"></a>
 
 1-1
 Find a method similar to the remainder method for the integer numbers that applies to fractional numbers. 
-( As in converting  .379$$_{10}$$ = .???$$_{2}$$ )  
+( As in converting  .379$_{10}$ = .???$_{2}$ )  
   
 1-2
 Consider the two decimal numbers:
