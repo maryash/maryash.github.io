@@ -9,7 +9,7 @@ HOMEWORK 1
 1-1
 Find a method similar to the remainder method for the integer numbers that applies to fractional numbers -- as in converting: 
 ![](http://www.sciweavers.org/tex2img.php?eq=.379_%7B10%7D%20%3D%20.%3F%3F%3F_%7B2%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)  
-![](https://render.githubusercontent.com/render/math?math=.379_{10} = .???_{2})  
+![](https://render.githubusercontent.com/render/math?math=\LARGE.379_{10} = .???_{2})  
   
 1-2
 Consider the two decimal numbers:  
