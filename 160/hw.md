@@ -31,4 +31,25 @@ b) 54 / 4 = 13
   
   
 <a name="02"></a>
+HOMEWORK 2  
+  
+1 - 12  
+Perform these binary multiplications:  
+a) 1101 * 1011  
+b) 0101 * 1010  
+c) 100111 * 011011  
+  
+1 - 14  
+A limited number system uses base 12.  There are at most four integer digits.  The weights of the digits are 12$$^3$$, 12$$^2$$, 12, and 1.  Special names are given to the weights of the digits as follows: 12 = 1 dozen, 12$$^2$$ = gross, and 12$$^3$$ = 1 great gross.  
+a) How many beverage companies are in 6 great gross + 8 gross + 7 dozen + 4?  
+b) Find the representation in base 12 for 7569$$_{10}$$ beverage cans.  
+  
+1 - 16  
+In each of the following cases, determine the radix $$r$$:  
+a) BEE$$_r$$ = 2699$$_{10}$$  
+b) 365$$_r$$ = 194$$_{10}$$  
+  
+  
 
+  
+  
