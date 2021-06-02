@@ -62,12 +62,12 @@ Why does the &nbsp;$$1$$s complement subtraction algorithm work?
   
 3 - A  
 Do the following conversion problems:  
-a) Convert decimal &nbsp;$$34.4375$$&nbsp; to binary.  
-b) Calculate the binary equivalent of &nbsp;$$1/3$$&nbsp; to &nbsp;$$8$$&nbsp; binary places, enter the result, then, after converting back to decimal -- how close is it to &nbsp;$$1/3$$ ?   
-c) Convert the binary result of b) to hexadecimal and enter result. Then convert the hexadecimal decimal -- is the same as from binary?  
+a) Convert &nbsp;$$34.4375_{10}$$&nbsp; to binary.  
+b) Calculate the binary equivalent of &nbsp;$$1/3$$&nbsp; to &nbsp;$$8$$&nbsp; binary places, enter the result, then, after converting back to decimal consider how close it is to &nbsp;$$1/3$$.  
+c) Convert the binary result of b) to hexadecimal and enter result. Then convert the hexadecimal decimal and consider: is it the same as from binary?  
   
 3 - B  
-Determine the base &nbsp;$$x$$&nbsp; if &nbsp;$$211_x = 152_8$$ .  
+Determine the base &nbsp;$$x$$ ,&nbsp; if &nbsp;$$211_x = 152_8$$ .  
   
 3 - C  
 Noting that &nbsp;$$3^2 = 9$$, formulate a procedure to convert from base &nbsp;$$3$$&nbsp; to base &nbsp;$$9$$ .  Use it to convert &nbsp;$$2110201102220112_3$$&nbsp; to base &nbsp;$$9$$ .  
