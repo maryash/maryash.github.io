@@ -55,3 +55,5 @@ b) 365$$_r$$ = 194$$_{10}$$
 ---  
   
   
+
+<style>hr{border: 0;height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1);}table{border-collapse: collapse;}table, td, th {text-align: left;padding:5px;border: 1px solid #dee1e4;}tr:nth-child(even) {background-color: #fafafa;}tr:nth-child(odd) {background-color: #ffffff;}hr.style-six{border: 0;height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1);border-bottom: 1px solid rgba(255, 255, 255, 0.3);}a:link{text-decoration: none;color: #0000BF;}a:visited{text-decoration:none;color: #0000BF;}a:hover {text-decoration: none;color:#0000FF;}a:active {text-decoration:none;color:#00007F;}</style>
