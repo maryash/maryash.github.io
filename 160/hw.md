@@ -7,26 +7,26 @@ title: HOMEWORKS
 HOMEWORK 1  
   
 1-1
-Find a method similar to the remainder method for the integer numbers that applies to fractional numbers -- as in converting: 0.379$$_{10} = 0.???_2$$  
+Find a method similar to the remainder method for the integer numbers that applies to fractional numbers -- as in converting: $$ 0.379_{10} = 0.???_2 $$  
   
 1-2
 Consider the two decimal numbers:  
-$$M = 3892.74$$  
-$$N = 9341.65$$  
-Convert them to bases $$2$$ and $$16$$, and then add & subtract them in those bases.  
+$$ M = 3892.74 $$  
+$$ N = 9341.65 $$  
+Convert them to bases $$ 2 $$ and $$ 16 $$, and then add & subtract them in those bases.  
   
 1-A
-Which is the largest binary number that can be expressed with $$15$$ bits?  
+Which is the largest binary number that can be expressed with $$ 15 $$ bits?  
 What are the equivalent decimal and hexadecimal numbers?  
   
 1-B
-Consider a system that contains $$32K$$ bytes.  Assume that we are using byte addressing, that is each byte will need to have its own address, and therefore we will need $$32K$$ different addresses.  For convenience all addresses will have the same number $$n$$ of bits, and $$n$$ should be as small as possible.  
-What is the value of $$n$$?  
+Consider a system that contains $$ 32K $$ bytes.  Assume that we are using byte addressing, that is each byte will need to have its own address, and therefore we will need $$ 32K $$ different addresses.  For convenience all addresses will have the same number $$ n $$ of bits, and $$ n $$ should be as small as possible.  
+What is the value of $$ n $$?  
   
 1-C
-The numbers in each of the following equalities are all expressed in the same base $$r$$.  Determine this radix (base) $$r$$ in each case for the following operations to be correct:  
-a) $$14 / 2 = 5$$  
-b) $$54 / 4 = 13$$  
+The numbers in each of the following equalities are all expressed in the same base $$ r $$.  Determine this radix (base) $$ r $$ in each case for the following operations to be correct:  
+a) $$ 14 / 2 = 5 $$  
+b) $$ 54 / 4 = 13 $$  
   
   
 ---  
@@ -37,19 +37,19 @@ HOMEWORK 2
   
 1 - 12  
 Perform these binary multiplications:  
-a) $$1101 * 1011$$  
-b) $$0101 * 1010$$  
-c) $$100111 * 011011$$  
+a) $$ 1101 * 1011 $$  
+b) $$ 0101 * 1010 $$  
+c) $$ 100111 * 011011 $$  
   
 1 - 14  
-A limited number system uses base $$12$$.  There are at most four integer digits.  The weights of the digits are $$12^3$$, $$12^2$$, $$12$$, and $$1$$.  Special names are given to the weights of the digits as follows: $$12 = 1 $$dozen, $$12^2 = $$gross, and $$12^3 = 1 $$great gross.  
-a) How many beverage companies are in 6 great gross + 8 gross + 7 dozen + 4?  
+A limited number system uses base $$ 12 $$.  There are at most four integer digits.  The weights of the digits are $$ 12^3 $$, $$ 12^2 $$, $$ 12 $$, and $$ 1 $$.  Special names are given to the weights of the digits as follows: $$ 12 = 1 $$ dozen, $$ 12^2 = $$ gross, and $$ 12^3 = 1 $$ great gross.  
+a) How many beverage companies are in $$ 6 $$ great gross $$ + 8 $$ gross $$ + 7 $$ dozen $$ + 4 $$ ?  
 b) Find the representation in base $$12$$ for $$7569_{10}$$ beverage cans.  
   
 1 - 16  
-In each of the following cases, determine the radix $$r$$:  
-a) $$BEE_r = 2699_{10}$$  
-b) $$365_r = 194_{10}$$  
+In each of the following cases, determine the radix $$ r $$:  
+a) $$ BEE_r = 2699_{10} $$  
+b) $$ 365_r = 194_{10} $$  
   
   
 ---  
@@ -58,25 +58,25 @@ b) $$365_r = 194_{10}$$
 <a name="03"></a>
 HOMEWORK 3  
 3 - 1  
-Why does the 1s complement subtraction algorithm work?  
+Why does the $$ 1s $$ complement subtraction algorithm work?  
   
 3 - A  
 Do the following conversion problems:  
-a) Convert decimal $$34.4375$$ to binary.  
-b) Calculate the binary equivalent of $$1/3$$ to $$8$$ binary places, enter the result, then, after converting back to decimal -- how close is it to $$1/3$$?   
+a) Convert decimal $$ 34.4375 $$ to binary.  
+b) Calculate the binary equivalent of $$ 1/3 $$ to $$ 8 $$ binary places, enter the result, then, after converting back to decimal -- how close is it to $$ 1/3 $$?   
 C) Convert the binary result of b) to hexadecimal and enter result. Then convert the hexadecimal decimal -- is the same as from binary?  
   
 3 - B  
-Determine the base $$x$$ if $$211_x = 152_8$$.  
+Determine the base $$ x $$ if $$ 211_x = 152_8 $$.  
   
 3 - C  
-Noting that $$3^2 = 9$$, formulate a procedure to convert from base $$3$$ to base $$9$$.  Use it to convert $$2110201102220112_3$$ to base $$9$$.  
+Noting that $$ 3^2 = 9 $$, formulate a procedure to convert from base $$ 3 $$ to base $$ 9 $$.  Use it to convert $$ 2110201102220112_3 $$ to base $$ 9 $$.  
 
 3 - D  
-The solutions to the quadratic equasion $$x^2 - 11x + 22 = 0$$ are $$x = 3x$$ and $$x = 6$$. Determine the base of the numbers in the equasion.  
+The solutions to the quadratic equasion $$ x^2 - 11x + 22 = 0 $$ are $$ x = 3 $$ and $$x = 6 $$. Determine the base of the numbers in the equasion.  
 
 3 - E  
-Convert the hexadecimal number $$68BE$$ to binary, then convert it to octal, and then to base $$32$$.  
+Convert the hexadecimal number $$ 68BE $$ to binary, then convert it to octal, and then to base $$ 32 $$.  
   
   
 ---  
