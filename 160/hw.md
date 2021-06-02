@@ -16,7 +16,7 @@ Consider the two decimal numbers:
 Convert them to bases &nbsp;$$2$$&nbsp; and &nbsp;$$16$$ , and then add & subtract them in those bases.  
   
 1-A
-Which is the largest binary number that can be expressed with $15 &nbsp;$$&nbsp; bits?  
+Which is the largest binary number that can be expressed with $$15&nbsp;$$&nbsp; bits?  
 What are the equivalent decimal and hexadecimal numbers?  
   
 1-B
