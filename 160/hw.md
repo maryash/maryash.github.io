@@ -55,5 +55,31 @@ b) 365$$_r$$ = 194$$_{10}$$
 ---  
   
   
+<a name="03"></a>
+HOMEWORK 3  
+3 - 1  
+Why does the 1s complement subtraction algorithm work?  
+  
+3 - A  
+Do the following conversion problems:  
+a) Convert decimal 34.4375 to binary.  
+b) Calculate the binary equivalent of 1/3 to 8 binary places, enter the result, then, after converting back to decimal -- how close is it to 1/3?   
+C) Convert the binary result of b) to hexadecimal and enter result. Then convert the hexadecimal decimal -- is the same as from binary?  
+  
+3 - B  
+Determine the base $$X$$ if 211$$_x$$ = 152$$_8$$.  
+  
+3 - C  
+Noting tha 3$$^2$$ = 9, formulate a procedure to convert from base 3 to base 9.  Use it to convert 2110201102220112$$_3$$ to base 9.  
+
+3 - D  
+  
+3 - E  
+  
+  
+  
+---  
+  
+  
 
 <style>hr{border: 0;height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1);}table{border-collapse: collapse;}table, td, th {text-align: left;padding:5px;border: 1px solid #dee1e4;}tr:nth-child(even) {background-color: #fafafa;}tr:nth-child(odd) {background-color: #ffffff;}hr.style-six{border: 0;height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1);border-bottom: 1px solid rgba(255, 255, 255, 0.3);}a:link{text-decoration: none;color: #0000BF;}a:visited{text-decoration:none;color: #0000BF;}a:hover {text-decoration: none;color:#0000FF;}a:active {text-decoration:none;color:#00007F;}</style>
