@@ -76,11 +76,11 @@ Noting that 3$$^2$$ = 9, formulate a procedure to convert from base 3 to base 9.
 The solutions to the quadratic equasion $$x^2 - 11x + 22 = 0$$ are $$x = 3x$$ and $$x = 6$$. Determine the base of the numbers in the equasion.  
 
 3 - E  
-  
+Convert the hexadecimal number 68BE to binary, then convert it to octal, and then to base 32.  
   
   
 ---  
   
   
-
+  
 <style>hr{border: 0;height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1);}table{border-collapse: collapse;}table, td, th {text-align: left;padding:5px;border: 1px solid #dee1e4;}tr:nth-child(even) {background-color: #fafafa;}tr:nth-child(odd) {background-color: #ffffff;}hr.style-six{border: 0;height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1);border-bottom: 1px solid rgba(255, 255, 255, 0.3);}a:link{text-decoration: none;color: #0000BF;}a:visited{text-decoration:none;color: #0000BF;}a:hover {text-decoration: none;color:#0000FF;}a:active {text-decoration:none;color:#00007F;}</style>
