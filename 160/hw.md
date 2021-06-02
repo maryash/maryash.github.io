@@ -8,7 +8,7 @@ HOMEWORK 1
   
 1-1
 Find a method similar to the remainder method for the integer numbers that applies to fractional numbers -- as in converting: &nbsp; 
-![](https://render.githubusercontent.com/render/math?math=0.379_{10} = 0.???_{2})  
+0.379$$_{10}$$ = 0.???$$_2$$  
   
 1-2
 Consider the two decimal numbers:  
