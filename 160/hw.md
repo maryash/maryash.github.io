@@ -64,7 +64,7 @@ Why does the $$1$$s complement subtraction algorithm work?
 Do the following conversion problems:  
 a) Convert decimal $$34.4375$$ to binary.  
 b) Calculate the binary equivalent of $$1/3$$ to $$8$$ binary places, enter the result, then, after converting back to decimal -- how close is it to $$1/3$$?   
-C) Convert the binary result of b) to hexadecimal and enter result. Then convert the hexadecimal decimal -- is the same as from binary?  
+c) Convert the binary result of b) to hexadecimal and enter result. Then convert the hexadecimal decimal -- is the same as from binary?  
   
 3 - B  
 Determine the base $$x$$ if $$211_x = 152_8$$.  
