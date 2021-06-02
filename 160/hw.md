@@ -58,7 +58,7 @@ b) $$ 365_r = 194_{10} $$
 <a name="03"></a>
 HOMEWORK 3  
 3 - 1  
-Why does the $$ 1s $$ complement subtraction algorithm work?  
+Why does the $$1$$s complement subtraction algorithm work?  
   
 3 - A  
 Do the following conversion problems:  
