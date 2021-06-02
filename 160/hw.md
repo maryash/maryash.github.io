@@ -7,8 +7,7 @@ title: HOMEWORKS
 HOMEWORK 1  
   
 1-1
-Find a method similar to the remainder method for the integer numbers that applies to fractional numbers -- as in converting: &nbsp; 
-0.379$$_{10}$$ = 0.???$$_2$$  
+Find a method similar to the remainder method for the integer numbers that applies to fractional numbers -- as in converting: 0.379$$_{10}$$ = 0.???$$_2$$  
   
 1-2
 Consider the two decimal numbers:  
@@ -29,6 +28,9 @@ The numbers in each of the following equalities are all expressed in the same ba
 a) 14 / 2 = 5  
 b) 54 / 4 = 13  
   
+  
+---  
+
   
 <a name="02"></a>
 HOMEWORK 2  
