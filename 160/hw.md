@@ -67,13 +67,14 @@ b) Calculate the binary equivalent of 1/3 to 8 binary places, enter the result, 
 C) Convert the binary result of b) to hexadecimal and enter result. Then convert the hexadecimal decimal -- is the same as from binary?  
   
 3 - B  
-Determine the base $$X$$ if 211$$_x$$ = 152$$_8$$.  
+Determine the base $$x$$ if 211$$_x$$ = 152$$_8$$.  
   
 3 - C  
-Noting tha 3$$^2$$ = 9, formulate a procedure to convert from base 3 to base 9.  Use it to convert 2110201102220112$$_3$$ to base 9.  
+Noting that 3$$^2$$ = 9, formulate a procedure to convert from base 3 to base 9.  Use it to convert 2110201102220112$$_3$$ to base 9.  
 
 3 - D  
-  
+The solutions to the quadratic equasion $$x^2 - 11x + 22 = 0$$ are $$x = 3x$$ and $$x = 6$$. Determine the base of the numbers in the equasion.  
+
 3 - E  
   
   
