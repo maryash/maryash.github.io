@@ -16,7 +16,7 @@ Consider the two decimal numbers:
 Convert them to bases &nbsp;$$2$$&nbsp; and &nbsp;$$16$$ , and then add & subtract them in those bases.  
   
 1-A
-Which is the largest binary number that can be expressed with $$15&nbsp;$$&nbsp; bits?  
+Which is the largest binary number that can be expressed with &nbsp;$$15$$&nbsp; bits?  
 What are the equivalent decimal and hexadecimal numbers?  
   
 1-B
@@ -43,7 +43,7 @@ c) &nbsp;$$100111 * 011011$$&nbsp;
   
 1 - 14  
 A limited number system uses base &nbsp;$$12$$ .  There are at most four integer digits.  The weights of the digits are &nbsp;$$12^3$$, &nbsp;$$12^2$$, &nbsp;$$12$$, and &nbsp;$$1$$ .  Special names are given to the weights of the digits as follows: &nbsp;$$12 = 1$$&nbsp; dozen, &nbsp;$$12^2 =$$&nbsp; gross, and &nbsp;$$12^3 = 1$$&nbsp; great gross.  
-a) How many beverage companies are in &nbsp;$$6$$&nbsp; great gross &nbsp;$$+ 8$$&nbsp; gross &nbsp;$$+ 7$$&nbsp; dozen &nbsp;$$+ 4$$ ?  
+a) How many beverage companies are in &nbsp;$$6$$&nbsp; great gross &nbsp;$$+\;8$$&nbsp; gross &nbsp;$$+\;7$$&nbsp; dozen &nbsp;$$+\;4$$ ?  
 b) Find the representation in base &nbsp;$$12$$&nbsp; for &nbsp;$$7569_{10}$$&nbsp; beverage cans.  
   
 1 - 16  
