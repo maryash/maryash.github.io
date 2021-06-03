@@ -43,7 +43,7 @@ c) &nbsp;$$100111 * 011011$$&nbsp;
   
 1 - 14  
 A limited number system uses base &nbsp;$$12$$ .  There are at most four integer digits.  The weights of the digits are &nbsp;$$12^3$$, &nbsp;$$12^2$$, &nbsp;$$12$$, and &nbsp;$$1$$ .  Special names are given to the weights of the digits as follows: &nbsp;$$12 = 1$$&nbsp; dozen, &nbsp;$$12^2 =$$&nbsp; gross, and &nbsp;$$12^3 = 1$$&nbsp; great gross.  
-a) How many beverage companies are in &nbsp;$$6$$&nbsp; great gross &nbsp;$$+\;8$$&nbsp; gross &nbsp;$$+\;7$$&nbsp; dozen &nbsp;$$+\;4$$ ?  
+a) How many beverage companies are in &nbsp;$$6$\;great\;gross\;+\;8\;gross\;+\;7\;dozen\;+\;4$$ ?  
 b) Find the representation in base &nbsp;$$12$$&nbsp; for &nbsp;$$7569_{10}$$&nbsp; beverage cans.  
   
 1 - 16  
