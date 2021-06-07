@@ -96,10 +96,8 @@ HOMEWORK 4
 HOMEWORK 4  
   
 1  
-Perform these binary multiplications:  
-a) &nbsp;$$1101 * 1011$$&nbsp;  
-b) &nbsp;$$0101 * 1010$$&nbsp;  
-c) &nbsp;$$100111 * 011011$$&nbsp;  
+Solve the problem of independent switches for $$n = 4$$.  
+Create a both the truth table and the 4D hypercube representations.  
   
 2  
 Write all axioms and properties for Boolean algebra sets:  
