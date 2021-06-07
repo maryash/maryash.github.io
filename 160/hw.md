@@ -92,8 +92,8 @@ HOMEWORK 4
 ---  
   
   
-<a name="04"></a>
-HOMEWORK 4  
+<a name="05"></a>
+HOMEWORK 5  
   
 1  
 Solve the problem of independent switches for $$n = 4$$.  
@@ -101,7 +101,7 @@ Create a both the truth table and the 4D hypercube representations.
   
 2  
 Write all axioms and properties for Boolean algebra sets:  
-$$S = set$$, $$S != \emptyset$$  
+$$S = set$$, $$S \neq \varnothing$$  
 $$(P(S), \cup, \cap, C, ), S)$$  
 $$P(S)$$ is the set of all of subsets of $$S$$  -- emember: if $$S$$ has $$n$$ elements, then $$P(S)$$ has $$2^n$$.  
   
