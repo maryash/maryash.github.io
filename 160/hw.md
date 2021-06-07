@@ -57,6 +57,7 @@ b) &nbsp;$$365_r = 194_{10}$$&nbsp;
   
 <a name="03"></a>
 HOMEWORK 3  
+  
 3 - 1  
 Why does the &nbsp;$$1$$s complement subtraction algorithm work?  
   
@@ -84,10 +85,32 @@ Convert the hexadecimal number &nbsp;$$68BE$$&nbsp; to binary, then convert it t
   
 <a name="04"></a>
 HOMEWORK 4  
+  
 ![](hm4.png)
   
   
 ---  
+  
+  
+<a name="04"></a>
+HOMEWORK 4  
+  
+1  
+Perform these binary multiplications:  
+a) &nbsp;$$1101 * 1011$$&nbsp;  
+b) &nbsp;$$0101 * 1010$$&nbsp;  
+c) &nbsp;$$100111 * 011011$$&nbsp;  
+  
+2  
+Write all axioms and properties for Boolean algebra sets:  
+$$S = set$$, $$S != \emptyset$$  
+$$(P(S), \cup, \cap, C, ), S)$$  
+$$P(S)$$ is the set of all of subsets of $$S$$  -- emember: if $$S$$ has $$n$$ elements, then $$P(S)$$ has $$2^n$$.  
+  
+  
+---  
+  
+  
   
   
   
