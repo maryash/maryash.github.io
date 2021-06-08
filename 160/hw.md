@@ -114,7 +114,7 @@ HOMEWORK 6
   
 1    
 Prove all properties 8) – 12) using axioms 1) – 6) and the properties you just proved.  Write all axioms and properties for Boolean algebra sets.  
-Note: for property 11), Associativity, use truth tables on the variables and assume only the values of the 2-element B.A., namely  $$\space B = {0, 1}\space$$, also called Switching Algebra.   
+Note: for property 11), Associativity, use truth tables on the variables and assume only the values of the 2-element B.A., namely  $$\space B = \{0, 1\}\space$$, also called Switching Algebra.   
   
   
 ---  
