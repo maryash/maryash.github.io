@@ -113,8 +113,8 @@ $$P(S)$$ is the set of all of subsets of $$S$$;  remember:  if $$S$$ has $$n$$ e
 HOMEWORK 6  
   
 1    
-Prove all properties 8) – 12) using axioms 1) – 6) and the properties you just proved.  Write all axioms and properties for Boolean algebra sets.  
-Note: for property 11), Associativity, use truth tables on the variables and assume only the values of the 2-element B.A., namely  $$\space B = \{0, 1\}\space$$, also called Switching Algebra.   
+Prove all properties 8 – 12 using axioms 1 – 6 and the properties you just proved.  Write all axioms and properties for Boolean algebra sets.  
+Note: for property 11, Associativity, use truth tables on the variables and assume only the values of the two-element Boolean algebra, namely  $$\space B = \{0, 1\}\space$$, also called "switching algebra".   
   
   
 ---  
