@@ -124,6 +124,8 @@ Note: for property 11, Associativity, use truth tables on the variables and assu
 HOMEWORK 7  
   
 ![](hw6_.png)  
+  
+    
 ![](hw7.png)  
   
   
