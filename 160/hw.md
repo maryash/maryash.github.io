@@ -123,8 +123,8 @@ Note: for property 11, Associativity, use truth tables on the variables and assu
 <a name="07"></a>
 HOMEWORK 7  
   
-![](hm6_.png)  
-![](hm7.png)  
+![](hw6_.png)  
+![](hw7.png)  
   
   
 ---  
