@@ -132,8 +132,10 @@ HOMEWORK 7
 HOMEWORK 8
 
 By substitution the Boolean expression equivalent of the binary operation as defined in Table of Sixteen Functions on Two Variables, show the following:  
-A The Inhibition operation is neither commutative nor associative;  
-B The Exclusive OR (XOR) operation is both commutative and associative.  
+  
+  A The Inhibition operation is neither commutative nor associative;  
+  
+  B The Exclusive OR (XOR) operation is both commutative and associative.  
   
   
   
