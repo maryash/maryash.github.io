@@ -131,9 +131,9 @@ HOMEWORK 7
 <a name="08"></a>
 HOMEWORK 8
 
-By substitution the Boolean expression equivalent of the binary operation as defined in Table of Sixteen Functions on Two Variables, show the following:  
+By substitution the Boolean expression equivalent of the binary operation as defined in Table of Sixteen Functions on Two Variables, show the following:
 
-  a) The Inhibition operation is neither commutative nor associative;  
+  a) The Inhibition operation is neither commutative nor associative;
 
   b) The Exclusive OR (XOR) operation is both commutative and associative.  
   
