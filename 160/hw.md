@@ -146,7 +146,7 @@ b) The Exclusive OR (XOR) operation is both commutative and associative. 
 <a name="10"></a>
 HOMEWORK 10
   
-![](hw10_.png)    
+![](hw10.png)    
   
   
 ---  
