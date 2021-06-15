@@ -133,7 +133,16 @@ HOMEWORK 7
   
   
 <a name="08"></a>
-HOMEWORK 8
+HOMEWORK 8  
+  
+![](hw10_.png)  
+  
+  
+---  
+  
+  
+<a name="10"></a>
+HOMEWORK 10
 
 By substitution the Boolean expression equivalent of the binary operation as defined in Table of Sixteen Functions on Two Variables, show the following:  
 a) The Inhibition operation is neither commutative nor associative;  
