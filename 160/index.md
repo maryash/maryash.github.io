@@ -35,7 +35,7 @@ title: CSCI 160 MAIN PAGE
  6/16 | Gate Level Minimisation | [3.2 The Map Method](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/70%5B%3Bvnd.vst.idref%3DP700101397000000000000000000154D%5D!/4/2%5BP700101397000000000000000000154D%5D/2/2%5BP700101397000000000000000000E446%5D/2%400:0){:target="_blank"}<br/>[3.3 Four-Variable K-Map](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/72%5B%3Bvnd.vst.idref%3DP70010139700000000000000000015EB%5D!/4/2%5BP70010139700000000000000000015EB%5D/2/2%5BP700101397000000000000000000E4BE%5D/2%400:0){:target="_blank"} | [Class&nbsp;11](slides/class_11_karnaugh_maps.pdf){:target="_blank"} | 
  6/17 | Review |  |  | 
  6/21 | MIDTERM |  |  | 
- 6/22 | 5-Var K-map |  |  | [Homework&nbsp;12](hw.html#12){:target="_blank"}&nbsp;due&nbsp;6/23 
+ 6/22 | 5-Var K-map |  | [Class&nbsp;12](slides/class_12_more_maps.pdf){:target="_blank"} | [Homework&nbsp;12](hw.html#12){:target="_blank"}&nbsp;due&nbsp;6/23 
  
   
 <!-- 
