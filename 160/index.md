@@ -36,6 +36,9 @@ title: CSCI 160 MAIN PAGE
  6/17 | Review |  |  | 
  6/21 | MIDTERM |  |  | 
  6/22 | 5-Var K-map |  | [Class&nbsp;12](slides/class_12_more_maps.pdf){:target="_blank"} | [Homework&nbsp;12](hw.html#12){:target="_blank"}&nbsp;due&nbsp;6/23 
+ 6/23 | 7-Segment Display |  | [Class&nbsp;13](slides/class_13_7_segment_display.pdf.pdf){:target="_blank"} | [Homework&nbsp;13](hw.html#13){:target="_blank"}&nbsp;due&nbsp;6/24 
+ 6/24 | Tabulation<br/>Method |  | [Class&nbsp;14](slides/14_tabulation_method.pdf){:target="_blank"} | [Homework&nbsp;14](hw.html#14){:target="_blank"}&nbsp;due&nbsp;6/28 
+ 6/28 | Prime Implicant Table |  | [Class&nbsp;14](slides/15_prime_implicant_table.pdf){:target="_blank"} | [Homework&nbsp;15](hw.html#15){:target="_blank"}&nbsp;due&nbsp;6/29 
  
   
 <!-- 
