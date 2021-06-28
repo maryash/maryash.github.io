@@ -175,7 +175,7 @@ HOMEWORK 13
 <a name="14"></a>
 HOMEWORK 14
   
-![](hw0x.png)    
+![](hw14.png)    
   
   
 ---  
