@@ -184,8 +184,7 @@ HOMEWORK 14
 <a name="15"></a>
 HOMEWORK 15
   
-![](hw15a.png)  
-  
+![](hw15a.png)
 ![](hw15b.png)    
   
   
