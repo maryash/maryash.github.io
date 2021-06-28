@@ -166,7 +166,7 @@ HOMEWORK 12
 <a name="13"></a>
 HOMEWORK 13
   
-![](hw13.png)    
+![](hw13.png)  
   
   
 ---  
@@ -175,7 +175,7 @@ HOMEWORK 13
 <a name="14"></a>
 HOMEWORK 14
   
-![](hw14.png)    
+![](hw14.png)  
   
   
 ---  
@@ -184,7 +184,9 @@ HOMEWORK 14
 <a name="15"></a>
 HOMEWORK 15
   
-![](hw0x.png)    
+![](hw15a.png)  
+  
+![](hw15b.png)    
   
   
   
