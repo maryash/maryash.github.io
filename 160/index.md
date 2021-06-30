@@ -37,7 +37,7 @@ title: CSCI 160 MAIN PAGE
  6/21 | MIDTERM |  |  | 
  6/22 | 5-Var K-map |  | [Class&nbsp;12](slides/class_12_more_maps.pdf){:target="_blank"} | [Homework&nbsp;12](hw.html#12){:target="_blank"}&nbsp;due&nbsp;6/23 
  6/23 | 7-Segment Display | [3.5 Don't-Care Conditions](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/76%5B%3Bvnd.vst.idref%3DP700101397000000000000000000170D%5D!/4/2%5BP700101397000000000000000000170D%5D/2/2%5BP700101397000000000000000000E5B4%5D/2%400:0){:target="_blank"} | [Class&nbsp;13](slides/class_13_7_segment_display.pdf){:target="_blank"} | [Homework&nbsp;13](hw.html#13){:target="_blank"}&nbsp;due&nbsp;6/24 
- 6/24 | Tabulation Method | [Quine-McCluskey<br/>Tabular Method](https://www.tutorialspoint.com/digital_circuits/digital_circuits_quine_mccluskey_tabular_method.htm#:~:text=Quine%2DMcClukey%20tabular%20method%20is,of%20the%20given%20Boolean%20function.){:target="_blank"} | [Class&nbsp;14](slides/14_tabulation_method.pdf){:target="_blank"} | [Homework&nbsp;14](hw.html#14){:target="_blank"}&nbsp;due&nbsp;6/28 
+ 6/24 | Tabulation Method | [Quine-McCluskey<br/>Tabular Method](https://www.tutorialspoint.com/digital_circuits/digital_circuits_quine_mccluskey_tabular_method.htm#:~:text=Quine%2DMcClukey%20tabular%20method%20is,of%20the%20given%20Boolean%20function.){:target="_blank"} | [Class&nbsp;14](slides/class_14_tabulation_method.pdf){:target="_blank"} | [Homework&nbsp;14](hw.html#14){:target="_blank"}&nbsp;due&nbsp;6/28 
  6/28 | Prime Implicant Table |  | [Tabular Method of Minimisation](http://www.ee.surrey.ac.uk/Projects/CAL/digital-logic/minimisation/tabular.html){:target="_blank"} | [Homework&nbsp;15](hw.html#15){:target="_blank"}&nbsp;due&nbsp;6/29 
  
   
