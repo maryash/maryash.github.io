@@ -190,6 +190,17 @@ HOMEWORK 15
 ![](hw15b.png)    
   
   
+---  
+  
+  
+<a name="18"></a>
+HOMEWORK 18
+  
+![](hw18.png)  
+  
+  
+  
+  
   
   
   
