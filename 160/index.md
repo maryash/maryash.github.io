@@ -44,7 +44,7 @@ title: CSCI 160 MAIN PAGE
  7/1 | Controlled Input | [4.11 Multiplexers](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/116%5B%3Bvnd.vst.idref%3DP700101397000000000000000000252B%5D!/4/2%5BP700101397000000000000000000252B%5D/2/2%5BP700101397000000000000000000F251%5D/2%400:0){:target="_blank"} | [Class&nbsp;18,<br/>FlipFlops](slides/class_18_controlled_input.pdf){:target="_blank"} | [Homework&nbsp;17](hw.html#16){:target="_blank"}&nbsp;due&nbsp;7/6 
  7/6 | Flip-Flops | [5.4&nbsp;Storage&nbsp;Elements:&nbsp;FlipFlops](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/140%5B%3Bvnd.vst.idref%3DP7001013970000000000000000002C7F%5D!/4/2%5BP7001013970000000000000000002C7F%5D/2/2%5BP700101397000000000000000000F857%5D/2%400:0){:target="_blank"} |  | [Homework&nbsp;18](hw.html#18){:target="_blank"}&nbsp;due&nbsp;7/7
  7/7 | Clocked Flip-Flops |  | [Class&nbsp;19](slides/class_19_flip_flops.pdf){:target="_blank"} | 
- 7/8 | Racetrack Problem | [Racing Conditions](https://searchstorage.techtarget.com/definition/race-condition){:target="_blank"} |  | 
+ 7/8 | Racetrack Problem | [Race Condition](https://en.wikipedia.org/wiki/Race_condition){:target="_blank"} |  | 
  7/12 | FINAL | EXAM |  | 
   
   
