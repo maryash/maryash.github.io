@@ -51,6 +51,12 @@ title: CSCI 160 MAIN PAGE
   
 <!-- 
 
+Class 20 Racetrack Problem 
+https://www.icloud.com/keynote/0b7yKA17bN9L6RogUHAtZluag#class%5F20%5Fracing%5Fproblem
+
+Class 21 JK Flip Flop and Review
+https://www.icloud.com/keynote/0NrlaM7Y-l4-ifLDppBZ_bTOQ#Class_21_and_Review
+
  **5/24** | **Monday** | **11:30 AM to 1:30 PM** | **FINAL EXAM** | 
  n.a./n.a. | More Polimorphism |  | [*More&nbsp;Polymorphism*](slides/11_prime_additional_polymorphism.pdf){:target="_blank"} | 
  n.a./n.a. | Heaps | [Chapter&nbsp;17](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/344%5B%3Bvnd.vst.idref%3DP7001011925000000000000000004C48%5D!/4/2%5BP7001011925000000000000000004C48%5D/2/2%5BP700101192500000000000000000CB0A%5D/4%400:0){:target="_blank"} | [Heaps](slides/23_heaps.pdf){:target="_blank"} | 
