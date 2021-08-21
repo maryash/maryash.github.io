@@ -6,7 +6,7 @@ title: CSCI 160 MAIN PAGE
 **[CSCI160 COMPUTER ARCHITECTURE I &nbsp;HUNTER COLLEGE CITY UNIVERSITY OF NEW YORK](index.html)**
 **Summer 2021 &nbsp; &nbsp; Monday and Thursday &nbsp; 2:45 PM to 4:00 PM &nbsp;&nbsp; *in person* in Hunter West 615**
 [**SYLLABUS**](syllabus.html "CSCI 160 Computer Architecture I"){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-[**GRADESCOPE** [entry code 2R6D4Z]](https://www.gradescope.com/courses/271549 "CSCI 160 entry code 2R6D4Z"){:target="_blank"}  
+[**GRADESCOPE** []](entry code ... https://www.gradescope.com/courses/271549 "CSCI 160 entry code 2R6D4Z"){:target="_blank"}  
   
 **INSTRUCTOR**  
 **Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours Monday and Thursday &nbsp; 4:15 PM to 4:45 PM to on BlackBoard Collaborate.  
