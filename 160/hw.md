@@ -32,6 +32,9 @@ b) &nbsp;$$54 / 4 = 13$$&nbsp;
 ---  
   
   
+<!-- 
+
+
 <a name="02"></a>
 HOMEWORK 2  
   
@@ -199,7 +202,7 @@ HOMEWORK 18
 ![](hw18.png)  
   
   
-  
+ -->  
   
   
   
