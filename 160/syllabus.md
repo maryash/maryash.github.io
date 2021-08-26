@@ -20,8 +20,8 @@ The course will include topics such as: binary number representations, Boolean a
   
 **OTHER POLICIES**
 You are expected to ATTEND CLASS REGULARLY and NOT TO COME IN LATE, as you are RESPONSIBLE FOR ANY MATERIAL COVERED, whether in
-this syllabus or not, or ANNOUNCEMENT MADE DURING ANY OF THE CLASSES. I will post class notes. However you will have to attend all lectures to understand the material! Hmework/projects will be required and collected every class meeting.  There will be unannounced quizzes.  In-class participation may count as a “needed” bonus to the final grade.  
-The whole material will be divided (by the date of the Test 1) into two parts.  
+this syllabus or not, or ANNOUNCEMENT MADE DURING ANY OF THE CLASSES. I will post class notes. However you will have to attend all lectures to understand the material! **Homework is required and will be submitted before every class meeting**. The six quizzes and both exams will be **in-person**.  In-class participation may count as a needed bonus to the final grade.  
+The whole material will be divided (by the date of the midterm) into two parts.  
   
 **PREREQUISITES**  
 CSCI 127 and CSCI 150.  
@@ -31,18 +31,18 @@ CSCI 127 and CSCI 150.
 Please check this page regularly for announcements, updates, lecture notes and schedule. All course materials will be gradually posted here. 
   
 **COURSE FINAL GRADE COMPOSITION**  
-12% for homeworks, 18% quizzes, 35% the midterm, and 35% the final exam. 
+40 points the six quizzes, 20 points midterm, and 30 points the final exam, and 20 points for all homeworks. This adds up to 110 points, 10 of which will be considered as bonus points. 
   
 **QUESTIONS**  
 Ask as many as you need during lecture -- you will be doing a service to everyone:  if you have a question, it is likely that other students have the same question, but hesitate to ask it.      
 
 **BLACKBOARD COLLABORATE**  
-We will use BlackBoard Collaborate synchronousely for all **lectures** as well as all **lab sessions for help with projects**.  We will also use BlackBoard for all exams.  Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default).  You must regularly check my announcements on BlackBoard and your Hunter email. This is how you will receive important course-related communication.  
+We will use BlackBoard Collaborate synchronousely for several lectures, which will be annopunced beforehand.  Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default).  You must regularly check my announcements on BlackBoard and your Hunter email. This is how you will receive important course-related communication.  
   
 **IMPORTANT:** Students who participate in this class with their camera on or use a profile image are agreeing to have their video or image recorded solely for the purpose of creating a record for students enrolled in the class to refer to, including those enrolled students who are unable to attend live. If you are unwilling to consent to have your profile or video image recorded, be sure to keep your camera off and do not use a profile image. Likewise, students who un-mute during class and participate orally are agreeing to have their voices recorded. If you are not willing to consent to have your voice recorded during class, you will need to keep your mute button activated and communicate exclusively using the "chat" feature, which allows students to type questions and comments live.
 
 **GRADESCOPE**  
-You will submit all projects electronically through Gradescope. You will see your grades on Gradescope as well. An invite email was sent to you before the first lecture. If you have not received it, ask to send you another one: you will need to email him or her your full name, EMPLID, and a working email address. 
+You will submit all homeworks electronically through Gradescope. You will see your grades on Gradescope as well. An invite email was sent to you before the first lecture. If you have not received it, please add yourself to the Gradescope course using the course code on the main course page. 
 
 **SYLLABUS COMPLIANCE**  
 Except for changes that substantially affect implementation of the grading policy, this syllabus is a guide for the course and is subject to change. In particular, the course schedule on the webpage, including topics, readings and project assignments, is subject to change. Any changes will be announced in class and on the course webpage. Be sure to check for updates online regularly.  
