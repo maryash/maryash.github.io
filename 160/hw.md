@@ -3,11 +3,14 @@ layout: myDefault
 title: HOMEWORKS
 ---
 
-<a name="01"></a>
-HOMEWORK 1  
+<a name="00"></a>
+HOMEWORK 0  
   
 1-1
 Find a method similar to the remainder method for the integer numbers that applies to fractional numbers -- as in converting: &nbsp;$$0.379_{10} = 0.???_2$$&nbsp;  
+  
+<a name="01"></a>
+HOMEWORK 1  
   
 1-2
 Consider the two decimal numbers:  
