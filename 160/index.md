@@ -4,7 +4,7 @@ title: CSCI 160 MAIN PAGE
 ---
 
 **[CSCI160 COMPUTER ARCHITECTURE I &nbsp;HUNTER COLLEGE CITY UNIVERSITY OF NEW YORK](index.html)**
-**Summer 2021 &nbsp; &nbsp; Monday and Thursday &nbsp; 2:45 PM to 4:00 PM &nbsp;&nbsp; *in person* in Hunter West 615. However, in order to prepare for potential contigencies, several lectures throughout the semester will take place on BlackBoard Collaborate - the first one on Thursady September 9.**
+**Fall 2021 &nbsp; &nbsp; Monday and Thursday &nbsp; 2:45 PM to 4:00 PM &nbsp;&nbsp; *in person* in Hunter West 615. However, in order to prepare for potential contigencies, several lectures throughout the semester will take place on BlackBoard Collaborate - the first one on Thursady September 9.**
 [**SYLLABUS**](syllabus.html "CSCI 160 Computer Architecture I"){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 [**GRADESCOPE** [entry code ERX32V]](https://www.gradescope.com/courses/271549 "CSCI 160 entry code ERX32V"){:target="_blank"}  
   
@@ -22,7 +22,7 @@ title: CSCI 160 MAIN PAGE
   
  DATE | TOPIC | READINGS | SLIDES | ASSIGNMENTS 
  :---: | :---: | --- | :---: | ---: 
- 8/26 | Introduction | [Syllabus](syllabus.html){:target="_blank"}<br/>[1.2 Binary Numbers](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/18%5B%3Bvnd.vst.idref%3DP70010139700000000000000000001E8%5D!/4/6%400:0){:target="_blank"} | [Class 1](slides/class_01_introduction.pdf){:target="_blank"} | [Homework&nbsp;1](hw.html#01){:target="_blank"}&nbsp;due&nbsp;8/30  
+ 8/26 | Introduction | [Syllabus](syllabus.html){:target="_blank"}<br/>[1.2 Binary Numbers](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/18%5B%3Bvnd.vst.idref%3DP70010139700000000000000000001E8%5D!/4/6%400:0){:target="_blank"} | [Class 1](slides/class_01_introduction.pdf){:target="_blank"} | [Homework&nbsp;0](hw.html#01){:target="_blank"}&nbsp;due&nbsp;8/30  
 
 
 <!-- 
