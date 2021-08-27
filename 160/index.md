@@ -22,7 +22,7 @@ title: CSCI 160 MAIN PAGE
   
  DATE | TOPIC | READINGS | SLIDES | ASSIGNMENTS 
  :---: | :---: | --- | :---: | ---: 
- 8/26 | Introduction | [Syllabus](syllabus.html){:target="_blank"}<br/>[1.2 Binary Numbers](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/18%5B%3Bvnd.vst.idref%3DP70010139700000000000000000001E8%5D!/4/6%400:0){:target="_blank"} | [Class 1](slides/class_01_introduction.pdf){:target="_blank"} | [Homework&nbsp;0](hw.html#01){:target="_blank"}&nbsp;due&nbsp;8/30  
+ 8/26 | Introduction | [Syllabus](syllabus.html){:target="_blank"}<br/>[1.2 Binary Numbers](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/18%5B%3Bvnd.vst.idref%3DP70010139700000000000000000001E8%5D!/4/6%400:0){:target="_blank"} | [Class 1](slides/class_01_introduction.pdf){:target="_blank"} | [Homework&nbsp;0](hw.html#00){:target="_blank"}&nbsp;due&nbsp;8/30  
 
 
 <!-- 
