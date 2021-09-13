@@ -58,9 +58,6 @@ b) &nbsp;$$365_r = 194_{10}$$&nbsp;
 ---  
   
   
-<!-- 
-
-
 <a name="03"></a>
 HOMEWORK 3  
   
@@ -89,6 +86,9 @@ Convert the hexadecimal number &nbsp;$$68BE$$&nbsp; to binary, then convert it t
 ---  
   
   
+<!-- 
+
+
 <a name="04"></a>
 HOMEWORK 4  
   
