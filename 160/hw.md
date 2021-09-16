@@ -86,9 +86,6 @@ Convert the hexadecimal number &nbsp;$$68BE$$&nbsp; to binary, then convert it t
 ---  
   
   
-<!-- 
-
-
 <a name="04"></a>
 HOMEWORK 4  
   
@@ -98,6 +95,9 @@ HOMEWORK 4
 ---  
   
   
+<!-- 
+
+
 <a name="05"></a>
 HOMEWORK 5  
   
