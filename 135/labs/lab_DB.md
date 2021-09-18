@@ -5,16 +5,13 @@ title: DEBUGGER LAB
   
 # Lab on the Use of the Debugger  
 
-**Due:** by the end of the class, no 24 hours deadline extension.
-
-No Gradecope submission. Lab instructor checks your program before you leave.
-
+**Due:** by the end of the class. No Gradecope submission. Lab instructor will check your programs before you leave class.
 
 ## Introduction
 
 In this lab we will learn how to use debugger GDB and its GUI front-end [DDD](https://www.gnu.org/software/ddd/).
 It has some convenient features, for example, it can show graphical diagrams with pointers
-and generally works pretty snappy, so don't judge it by its old interface.
+and generally works pretty snappy, so don't judge it by its old interface.  If you use your own laptop, be aware that you will need DDD today, and should switch to using your Linux accounts for this class.  
 
 ![](https://i.imgur.com/dk0bbfj.png){: .centered}
 
@@ -31,9 +28,7 @@ Then, you can run DDD:
 ```
 ddd a.out 
 ```
-Please see DDD manual for detailed information.
-
-Follow the ReadMe.txt instructions and provided .cpp files in [DB Files.zip](DB_Files.zip)  
+Here is an [general DDD tutorial](http://heather.cs.ucdavis.edu/~matloff/Debug/Debug.pdf){:target="_blank"} for more information. 
 
 ### Breakpoints.
 
@@ -64,19 +59,23 @@ More documentation is available in [DDD manual](https://www.gnu.org/software/ddd
 
 ## Lab Assignment
 
-- In this lab, first, the instructor will explain you how to use the debugger program DDD.
-  They will demonstrate all the features mentioned in the section above, and 
-  you will **follow along with the instructor**, debugging a simple program.    
-  
-  When you feel that your are falling behind, ask for help right away. 
+1) There are two programs attached, ['prog.cpp'](prog.cpp){:target="_blank"} and ['buggy.cpp'](buggy.cpp){:target="_blank"}.  Using ['prog.cpp'](prog.cpp){:target="_blank"} example we will use DDD to set breakpoints, use commands `Run`, `Continue`, `Next`, `Step`, `Finish`, and how to inspect expressions.
 
-- After the first example is finished you will be given another more complex program to debug.
-  You together find the bugs in the second program. 
-  The instructor will check your work at the end of the class, no Gradescope submission required.
+Make sure that _all of you_ follow the instructor, and no one falls behind. The instructor will demonstrate all the features mentioned in the section above.  You will **follow along with the instructor**, debugging a simple program.  You must be able to repeat their steps. DDD uses old Motif UI, and it takes time to learn how to adjust to it.  the instructor will explain you how to use the debugger program DDD.  When you feel that your are falling behind, ask for help right away.  
 
+      Bug in the program prog.cpp
+      ---------------------------
+      Observations:
+        - incorrectly computed number of digits for 1057 and 10155.
+        - inside the function call, when 'number' reduces to 10, the function stops counting,
+        ends the loop and returns the answer, while it still could divide by 10 one more time.
+
+      Cause:
+        if condition should be (number > 9) instead of (number>10).
+
+
+2) After you fix 'prog.cpp', proceed to debugging another more complex program ['buggy.cpp'](buggy.cpp){:target="_blank"}.  You must now start debugging on your own.  Collaborate with your neighbors and ask the instructor and UTAs for help.  The instructor will check your work at the end of the class, no Gradescope submission required. 
 <br />
-
 <br />
 
 [![](https://i.imgur.com/hBXW5NO.png){: .centered }](https://rubberduckdebugging.com/)
-
