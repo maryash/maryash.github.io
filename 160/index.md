@@ -10,7 +10,7 @@ title: CSCI 160 MAIN PAGE
   
   
   
-<iframe src="https://docs.google.com/spreadsheets/d/1no0KBpltR5dlMFBmZ4Oi5Lp8ZyU2qy2yxiz-mH6-VXg/pubhtml?gid=0&single=true&widget=true&headers=false" width=810px height=400px ></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1no0KBpltR5dlMFBmZ4Oi5Lp8ZyU2qy2yxiz-mH6-VXg/pubhtml?gid=0&single=true&widget=true&headers=false" width=732px height=400px ></iframe>
   
   
 **INSTRUCTOR**  
