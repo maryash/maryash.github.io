@@ -10,7 +10,7 @@ title: CSCI 160 MAIN PAGE
   
   
   
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT3tYPPhS1ftDcq7k5Z_iv0nF_cbF-1gdssmzBn2_TlgTV1al1eiY7MUHeFL2FY8fzxWnD849trgmM7/pubhtml?gid=0&single=true&widget=true&headers=false" width=810px height=400px ></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1no0KBpltR5dlMFBmZ4Oi5Lp8ZyU2qy2yxiz-mH6-VXg/edit?usp=sharing/pubhtml?gid=0&single=true&widget=true&headers=false" width=810px height=400px ></iframe>
   
   
 **INSTRUCTOR**  
@@ -49,7 +49,7 @@ https://calendly.com/james-cruse/csci-160-tutoring
 ---  
   
   
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT3tYPPhS1ftDcq7k5Z_iv0nF_cbF-1gdssmzBn2_TlgTV1al1eiY7MUHeFL2FY8fzxWnD849trgmM7/pubhtml?gid=0&single=true&widget=true&headers=false" width=810px height=400px ></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1no0KBpltR5dlMFBmZ4Oi5Lp8ZyU2qy2yxiz-mH6-VXg/edit?usp=pubhtml?gid=0&single=true&widget=true&headers=false" width=810px height=400px ></iframe>
   
   
 ---  
