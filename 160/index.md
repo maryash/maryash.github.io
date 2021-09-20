@@ -23,7 +23,7 @@ https://calendly.com/shafali-gupta21/csci-160-office-hours-shafali
 https://calendly.com/andy-mina30/office-hours  
 **Daniel** 
 https://calendly.com/daniel-elkik26/160-office-hours  
-**Jack)** 
+**Jack** 
 https://calendly.com/james-cruse/csci-160-tutoring  
   
 **TEXTBOOK**  
@@ -45,9 +45,7 @@ https://calendly.com/james-cruse/csci-160-tutoring
  9/20 | IN-PERSON Binary Codes | [1.7 Binary Codes](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/28%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000594%5D!/4/2%5BP7001013970000000000000000000594%5D/2/2%5BP700101397000000000000000000D655%5D/4%400:0){:target="_blank"}<br/>[1.9 Binary Logic](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/32%5B%3Bvnd.vst.idref%3DP700101397000000000000000000090E%5D!/4/2%5BP700101397000000000000000000090E%5D/2/2%5BP700101397000000000000000000D9A7%5D/2%400:0){:target="_blank"} |  | [Homework&nbsp;4](hw.html#04){:target="_blank"}&nbsp;due&nbsp;9/23 
  9/23 | Boolean Algebra | [2.2 Basic Definitions](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/44%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000AE4%5D!/4/2%5BP7001013970000000000000000000AE4%5D/2/2%5BP700101397000000000000000000DB2E%5D/2%400:0){:target="_blank"} |  | [Homework&nbsp;5](hw.html#05){:target="_blank"}&nbsp;due&nbsp;9/27 
   
-  
 ---  
-  
   
 ---  
 
