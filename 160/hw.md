@@ -93,11 +93,6 @@ HOMEWORK 4
   
   
 ---  
-  
-  
-<!-- 
-
-
 <a name="05"></a>
 HOMEWORK 5  
   
@@ -115,6 +110,11 @@ $$P(S)$$ is the set of all of subsets of $$S$$;  remember:  if $$S$$ has $$n$$ e
 ---  
   
   
+  
+  
+<!-- 
+
+
 <a name="06"></a>
 HOMEWORK 6  
   
