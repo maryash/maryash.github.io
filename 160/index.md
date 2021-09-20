@@ -8,6 +8,11 @@ title: CSCI 160 MAIN PAGE
 [**SYLLABUS**](syllabus.html "CSCI 160 Computer Architecture I"){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 [**GRADESCOPE** [entry code ERX32V]](https://www.gradescope.com/courses/271549 "CSCI 160 entry code ERX32V"){:target="_blank"}  
   
+  
+  
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT3tYPPhS1ftDcq7k5Z_iv0nF_cbF-1gdssmzBn2_TlgTV1al1eiY7MUHeFL2FY8fzxWnD849trgmM7/pubhtml?gid=0&single=true&widget=true&headers=false" width=810px height=400px ></iframe>
+  
+  
 **INSTRUCTOR**  
 **Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours Monday and Thursday &nbsp; 4:15 PM to 5:15 PM to on BlackBoard Collaborate.  
   
