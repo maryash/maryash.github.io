@@ -110,11 +110,6 @@ $$P(S)$$ is the set of all of subsets of $$S$$;  remember:  if $$S$$ has $$n$$ e
 ---  
   
   
-  
-  
-<!-- 
-
-
 <a name="06"></a>
 HOMEWORK 6  
   
@@ -138,6 +133,9 @@ HOMEWORK 7
 ---  
   
   
+<!-- 
+
+
 <a name="08"></a>
 HOMEWORK 8  
 
