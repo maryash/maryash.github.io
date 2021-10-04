@@ -133,9 +133,6 @@ HOMEWORK 7
 ---  
   
   
-<!-- 
-
-
 <a name="08"></a>
 HOMEWORK 8  
 
@@ -147,6 +144,9 @@ b) The Exclusive OR (XOR) operation is both commutative and associative. 
 ---  
   
   
+<!-- 
+
+
 <a name="10"></a>
 HOMEWORK 10
   
