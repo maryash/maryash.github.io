@@ -44,7 +44,7 @@ title: CSCI 160 MAIN PAGE
  9/30 | Axioms | [2.3 Axiomatic Definition](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/46%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000B17%5D!/4/2%5BP7001013970000000000000000000B17%5D/2/2%5BP700101397000000000000000000DB58%5D/2%400:0){:target="_blank"} | [Class 6](slides/class_06_axioms.pdf){:target="_blank"} | [Homework&nbsp;6](hw.html#06){:target="_blank"}&nbsp;due&nbsp;10/4 
  10/4 | Functions and Proofs | [2.4 Theorems and Properties](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/48%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000C92%5D!/4/2%5BP7001013970000000000000000000C92%5D/2/2%5BP700101397000000000000000000DC80%5D/4%400:0){:target="_blank"}<br/>[2.5 Boolean Functions](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/50%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000E2A%5D!/4/2%5BP7001013970000000000000000000E2A%5D/2/2%5BP700101397000000000000000000DDF2%5D/2%400:0){:target="_blank"} | [Class 7](slides/class_07_theorems.pdf){:target="_blank"} | [Homework&nbsp;7](hw.html#07){:target="_blank"}&nbsp;due&nbsp;10/7 
  11/7 | More Boolean Algebra | Test 3 |  |  | 
- 10/11 | Compound Operators | [2.7 Other Logic Operations](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/54%5B%3Bvnd.vst.idref%3DP7001013970000000000000000001148%5D!/4/2%5BP7001013970000000000000000001148%5D/2/2%5BP700101397000000000000000000E0B5%5D/4%400:0){:target="_blank"} |  | [Homework&nbsp;8](hw.html#08){:target="_blank"}&nbsp;due&nbsp;10/11 
+ 10/11 | Compound Operators | [2.7 Other Logic Operations](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/54%5B%3Bvnd.vst.idref%3DP7001013970000000000000000001148%5D!/4/2%5BP7001013970000000000000000001148%5D/2/2%5BP700101397000000000000000000E0B5%5D/4%400:0){:target="_blank"} | [Class 8](slides/class_08_other_logic_operations.pdf){:target="_blank"} | [Homework&nbsp;8](hw.html#08){:target="_blank"}&nbsp;due&nbsp;10/11 
  10/14 | Logic Gates | [2.8 Digital Logic Gates](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/56%5B%3Bvnd.vst.idref%3DP700101397000000000000000000129F%5D!/4/2%5BP700101397000000000000000000129F%5D/2/2%5BP700101397000000000000000000E206%5D/2%400:0){:target="_blank"} | [Mano](slides/mano09.pdf){:target="_blank"} | 
   
 ---  
@@ -54,8 +54,6 @@ title: CSCI 160 MAIN PAGE
 <!-- 
 
  
-
-[Class 8](slides/class_08_other_logic_operations.pdf){:target="_blank"}
 [Class 9](slides/class_09_logic_gates.pdf){:target="_blank"}<br/>
 
  6/15 | Canonical vs Standard | [2.6 Canonical,&nbsp;Standard&nbsp;Forms](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/52%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000F17%5D!/4/2%5BP7001013970000000000000000000F17%5D/2/2%5BP700101397000000000000000000DEC0%5D/2%400:0){:target="_blank"} | [Class&nbsp;10](slides/class_10_canonical_standard.pdf){:target="_blank"} | [Homework&nbsp;10](hw.html#10){:target="_blank"}&nbsp;due&nbsp;6/16 
