@@ -69,6 +69,12 @@ b. All Other Forms of Sexual Misconduct: Students are also encouraged to contact
   
 <!---  
   
+Digital Design
+With an Introduction to the Verilog HDL, VHDL, and SystemVerilog
+
+Sixth Edition
+
+
 TUTORING   
 There are dedicated computer lab for this course: HUNTER NORTH 1001B. It is staffed with tutors, who are there to help you. Please take advantage of them. You can ask for help with labs, projects, and general course material Monday through Friday from 11:00 AM to 6:00 PM.   
   
