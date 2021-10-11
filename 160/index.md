@@ -47,7 +47,9 @@ title: CSCI 160 MAIN PAGE
  10/11 | Compound Operators | [2.7 Other Logic Operations](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/54%5B%3Bvnd.vst.idref%3DP7001013970000000000000000001148%5D!/4/2%5BP7001013970000000000000000001148%5D/2/2%5BP700101397000000000000000000E0B5%5D/4%400:0){:target="_blank"} |  | [Homework&nbsp;8](hw.html#08){:target="_blank"}&nbsp;due&nbsp;10/14 
  10/14 | Logic Gates | [2.8 Digital Logic Gates](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/56%5B%3Bvnd.vst.idref%3DP700101397000000000000000000129F%5D!/4/2%5BP700101397000000000000000000129F%5D/2/2%5BP700101397000000000000000000E206%5D/2%400:0){:target="_blank"} | [Mano](slides/mano09.pdf){:target="_blank"} | 
  10/18 | Midterm Exam |  |  | 
- 10/21 | Canonical vs Standard | [2.6 Canonical,&nbsp;Standard&nbsp;Forms](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/52%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000F17%5D!/4/2%5BP7001013970000000000000000000F17%5D/2/2%5BP700101397000000000000000000DEC0%5D/2%400:0){:target="_blank"} | [Class&nbsp;10](slides/class_10_canonical_standard.pdf){:target="_blank"} | [Homework&nbsp;10](hw.html#10){:target="_blank"}&nbsp;due&nbsp;10/25   
+ 10/21 | Canonical vs Standard | [2.6 Canonical,&nbsp;Standard&nbsp;Forms](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/52%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000F17%5D!/4/2%5BP7001013970000000000000000000F17%5D/2/2%5BP700101397000000000000000000DEC0%5D/2%400:0){:target="_blank"} | [Class&nbsp;10](slides/class_10_canonical_standard.pdf){:target="_blank"} | [Homework&nbsp;10](hw.html#10){:target="_blank"}&nbsp;due&nbsp;10/25 
+  
+    
 ---  
   
 ---  
