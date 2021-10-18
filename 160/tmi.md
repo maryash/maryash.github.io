@@ -5,7 +5,7 @@ title: TM
   
   
   
-## CSCI 160 &nbsp; &nbsp; MIDTERM EXAM &nbsp;  &nbsp; EMPL ID :  &nbsp; $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$
+### CSCI 160 &nbsp; &nbsp; MIDTERM EXAM &nbsp;  &nbsp; EMPL ID :  &nbsp; $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$
 
   
   
