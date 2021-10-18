@@ -2,7 +2,9 @@
 ---
 layout: myDefault
 title: tm
----
+---  
+  
+  
 
 1
 Consider the numbers $$M = 306_{10}$$ and $$N = 238_{10}$$. Convert them to base $$2$$ first,
