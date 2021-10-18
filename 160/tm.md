@@ -37,7 +37,7 @@ Hint: start by converting both sides to base 10.
   
 4.  Consider the following circuit:  
 ![](XOR.png){:width="240px"}  
-![](XNOR.gif){:width="240px"}  
+![](XNOR.gif){:width="300px"}  
   
 Draw the truth table for boolean function $$f()$$.  
   
@@ -57,8 +57,7 @@ $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$
   
   
   
-5.  
-Determine whether the Boolean NAND operator, that is defined by:
+5.  Determine whether the Boolean NAND operator, that is defined by:
 $$x \uparrow y = (xy)'$$
   
 is COMMUTATIVE and give boolean algebra justification.  
@@ -73,8 +72,7 @@ is ASSOCIATIVE and give boolean algebra justification.
   
   
   
-6.  
-Simplify the following boolean function:  $$f = (xz + (y + t)' + (xz)'y')'$$
+6.  Simplify the following boolean function:  $$f = (xz + (y + t)' + (xz)'y')'$$
   
   
   
