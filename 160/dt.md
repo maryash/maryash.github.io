@@ -24,14 +24,14 @@ ________________________________________________________________________________
 <br/>  
   
 ____________________________________________________________________________________________________________  
-2\.  Knowing that we have the equality: &nbsp; $$141_x = 3D_{16}$$ ,  
+2\.  Given the equality: &nbsp; $$141_x = 3D_{16}$$ ,  
 determine the value of the radix $$x$$.  
   
 <br/>  
 <br/>  
   
 ____________________________________________________________________________________________________________  
-3\.  Determine whether the Boolean NAND operator, that is defined by:
+3\.  Determine whether or not the Boolean NAND operator, that is defined by:
 $$x \uparrow y = (xy)'$$
   
 is COMMUTATIVE, and give boolean algebra justification.  
@@ -40,7 +40,7 @@ is COMMUTATIVE, and give boolean algebra justification.
 <br/>  
   
 ____________________________________________________________________________________________________________  
-is ASSOCIATIVE, and give boolean algebra justification.  
+and whether or not it is ASSOCIATIVE, and give boolean algebra justification.  
   
 <br/>  
 <br/>  
@@ -64,10 +64,9 @@ ________________________________________________________________________________
 <br/>  
   
 ____________________________________________________________________________________________________________  
-5\.1 )  Represent the following circuit as a boolean function $$f(x,\, y)$$: ![](XOR.png){:width="240px"}  
+5\.1 )  Represent the following circuit as a boolean function $$f(x,\, y)$$:  
+![](XOR.png){:width="240px"}{: style="float:right"}  
   
-<br/>  
-<br/>  
   
 ____________________________________________________________________________________________________________  
  &nbsp; 2 )  Draw the truth table for boolean function $$f()$$.  
