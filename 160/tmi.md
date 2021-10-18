@@ -5,7 +5,7 @@ title: TM
   
   
   
-### CSCI 160 &nbsp; &nbsp; &nbsp; MIDTERM EXAM &nbsp;  &nbsp; &nbsp; EMPL ID :  &nbsp; &nbsp; $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ <br/> First Name $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ Last Name $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$  
+### CSCI 160 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MIDTERM EXAM &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; EMPL ID :  &nbsp; &nbsp; $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ <br/> First Name:  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ Last Name:  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$  
 
   
   
@@ -33,7 +33,36 @@ Hint: start by converting both sides to base 10.
   
 <br/>  
   
-4\.  Consider the following circuit:  
+4\.  Determine whether the Boolean NAND operator, that is defined by:
+$$x \uparrow y = (xy)'$$
+  
+is COMMUTATIVE and give boolean algebra justification.  
+  
+<br/>  
+  
+<br/>  
+  
+is ASSOCIATIVE and give boolean algebra justification.  
+  
+<br/>  
+  
+<br/>  
+  
+5\.  Simplify the following boolean functions:  
+  
+ 1 )  $$ f = WXY'Z + W'XZ + WXYZ $$  
+  
+<br/>  
+  
+<br/>  
+  
+ 2 )  $$ f = ( ( A + C ) * ( A + B' ) * ( A' + B + C' ) )' $$  
+  
+<br/>  
+  
+<br/>  
+  
+6\.  Consider the following circuit:  
 ![](XOR.png){:width="240px"}  
   
  1 )  Draw the truth table for boolean function $$f()$$.  
@@ -50,35 +79,6 @@ Hint: start by converting both sides to base 10.
   
  3 )  What is another name for the operation that $$f()$$ computes?  Spell the two-, three-, or four-letter word from left to right in the boxes below:  
 $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$
-  
-<br/>  
-  
-<br/>  
-  
-5\.  Determine whether the Boolean NAND operator, that is defined by:
-$$x \uparrow y = (xy)'$$
-  
-is COMMUTATIVE and give boolean algebra justification.  
-  
-<br/>  
-  
-<br/>  
-  
-is ASSOCIATIVE and give boolean algebra justification.  
-  
-<br/>  
-  
-<br/>  
-  
-6\.  Simplify the following boolean functions:  
-  
- 1 )  $$ f = WXY'Z + W'XZ + WXYZ $$  
-  
-<br/>  
-  
-<br/>  
-  
- 2 )  $$ f = ( ( A + C ) * ( A + B' ) * ( A' + B + C' ) )' $$  
   
 <br/>  
   
