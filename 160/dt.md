@@ -37,14 +37,13 @@ is COMMUTATIVE, and give boolean algebra justification.
   
 <br/>  
   
+____________________________________________________________________________________________________________  
 and whether or not it is ASSOCIATIVE, and give boolean algebra justification.  
   
 <br/>  
 <br/>  
   
-____________________________________________________________________________________________________________  
 4\.  Simplify the following boolean functions:  
-  
  &nbsp; 1 )  $$ f = WXY'Z + W'XZ + WXYZ $$  
   
 <br/>  
@@ -75,11 +74,3 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________  
  &nbsp; 3 )  What is another name for the operation that $$f()$$ computes?  Spell the two-, three-, or four-letter word from left to right in the boxes below:  
 $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$
-  
-  
-  
-  
-  
-<table border="0px"><tr><td style="width:50%">
-</td><td style="width:50%">
-</td></tr></table>
