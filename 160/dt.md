@@ -82,11 +82,8 @@ is ASSOCIATIVE, and give boolean algebra justification.
  3 )  What is another name for the operation that $$f()$$ computes?  Spell the two-, three-, or four-letter word from left to right in the boxes below:  
 $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$
   
-<br/>  
   
-<br/>  
   
-    
   
   
 <table border="0px"><tr><td style="width:50%">
