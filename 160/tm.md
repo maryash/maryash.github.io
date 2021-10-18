@@ -45,6 +45,11 @@ Represent $$f()$$ as a boolean expression of $$x$$ and $$y$$.
 What is another name for the operation that $$f$$ computes?  
 $$\fbox{___}\fbox{___}\fbox{___}\fbox{___}$$  
   
+  
+  
+Determine whether the Boolean NAND operator, that is defined by:
+$$x \uparrow y = (xy)'$$
+  
 </td></tr></table>
   
   
