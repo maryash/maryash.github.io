@@ -5,7 +5,7 @@ title: TM
 
   
 
-<table><tr><td width=50%>
+<table border=0px><tr><td width=50%>
 
 1
 Consider the numbers $$M = 306_{10}$$ and $$N = 238_{10}$$. Convert them to base $$2$$ first,
