@@ -41,6 +41,8 @@ Represent $$f()$$ as a boolean expression of $$x$$ and $$y$$.
   
   
 What is another name for the operation that $$f$$ computes?  
+  
+$$\emptybox{}\emptybox{}\emptybox{}\emptybox{}$$
 $$____________________________________$$  
 $$\fbox{|___|}\fbox{|___|}\fbox{|___|}\fbox{|___|}$$  
   
