@@ -5,7 +5,7 @@ title: TM
   
   
   
-### CSCI 160 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MIDTERM EXAM &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; EMPL ID : &nbsp;  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ <br/> First Name:  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ &nbsp; &nbsp; Last Name:  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$
+### CSCI 160 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MIDTERM EXAM &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; EMPL ID : &nbsp;  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ <br/> First Name:  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ &nbsp; &nbsp; Last Name:  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$
 
 1\.  Consider the numbers $$M = 96_{10}$$ and $$N = 118_{10}$$.  
  1 )  Convert them to base $$2$$ first,  
@@ -26,13 +26,7 @@ title: TM
   
 <br/>  
   
-2\.  Find $$(r-1)'s$$ complement of the number $$2602_8$$. 
-  
-<br/>  
-  
-<br/>  
-  
-3\.  Knowing that we have the equality:  
+2\.  Knowing that we have the equality:  
 $$1C3_{x-2} = 2A_{16}$$  
 determine the value of $$x$$.  
 Hint: start by converting both sides to base 10.  
@@ -41,22 +35,22 @@ Hint: start by converting both sides to base 10.
   
 <br/>  
   
-4\.  Determine whether the Boolean NAND operator, that is defined by:
+3\.  Determine whether the Boolean NAND operator, that is defined by:
 $$x \uparrow y = (xy)'$$
   
-is COMMUTATIVE and give boolean algebra justification.  
+is COMMUTATIVE, and give boolean algebra justification.  
   
 <br/>  
   
 <br/>  
   
-is ASSOCIATIVE and give boolean algebra justification.  
+is ASSOCIATIVE, and give boolean algebra justification.  
   
 <br/>  
   
 <br/>  
   
-5\.  Simplify the following boolean functions:  
+4\.  Simplify the following boolean functions:  
   
  1 )  $$ f = WXY'Z + W'XZ + WXYZ $$  
   
@@ -70,16 +64,16 @@ is ASSOCIATIVE and give boolean algebra justification.
   
 <br/>  
   
-6\.  Consider the following circuit:  
+5\.  Consider the following circuit:  
 ![](XOR.png){:width="240px"}  
   
- 1 )  Draw the truth table for boolean function $$f()$$.  
+ 1 )  Represent $$f()$$ as a boolean expression of $$x$$ and $$y$$.  
   
 <br/>  
   
 <br/>  
   
- 2 )  Represent $$f()$$ as a boolean expression of $$x$$ and $$y$$.  
+ 2 )  Draw the truth table for boolean function $$f()$$.  
   
 <br/>  
   
