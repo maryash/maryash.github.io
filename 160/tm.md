@@ -18,7 +18,7 @@ then perform $$M-N$$ using the $$(r-1)'s$$ complement representation subtraction
 Find $$(r-1)'s$$ complement of the number $$2602_8$$. 
   
   
-</td><td>
+</td><td width=50%>
   
 
 3 
