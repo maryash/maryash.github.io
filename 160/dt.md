@@ -12,14 +12,15 @@ title: TM
 <br/>  
   
 <br/>  
-  
+____________________________________________________________________________________________________________  
  &nbsp; 2 )  then perform $$M-N$$ using the $$(r-1)'s$$ complement representation subtraction algorithm.  
   
 <br/>  
   
 <br/>  
   
- &nbsp; 3 )  Finally, convert the result to base $$16$$. --------------------------------------------------------------  
+____________________________________________________________________________________________________________  
+ &nbsp; 3 )  Finally, convert the result to base $$16$$.  
   
 <br/>  
   
@@ -63,10 +64,7 @@ is ASSOCIATIVE, and give boolean algebra justification.
   
 <br/>  
   
-5\.  Consider the following circuit:  
-![](XOR.png){:width="240px"}  
-  
- &nbsp; 1 )  Represent $$f()$$ as a boolean expression of $$x$$ and $$y$$.  
+5\.1 )  Represent the following circuit as a boolean function $$f(x,\, y)$$: ![](XOR.png){:width="240px"}  
   
 <br/>  
   
