@@ -5,7 +5,7 @@ title: TM
 
   
 
-<table border="0px"><tr><td style="width:50%">
+  
   
 1
 Consider the numbers $$M = 306_{10}$$ and $$N = 238_{10}$$. Convert them to base $$2$$ first,
@@ -17,8 +17,6 @@ then perform $$M-N$$ using the $$(r-1)'s$$ complement representation subtraction
 2
 Find $$(r-1)'s$$ complement of the number $$2602_8$$. 
   
-  
-</td><td style="width:50%">
   
 
 3 
@@ -50,6 +48,12 @@ $$\fbox{___}\fbox{___}\fbox{___}\fbox{___}$$
 Determine whether the Boolean NAND operator, that is defined by:
 $$x \uparrow y = (xy)'$$
   
+  
+  
+  
+  
+  
+  
+<table border="0px"><tr><td style="width:50%">
+</td><td style="width:50%">
 </td></tr></table>
-  
-  
