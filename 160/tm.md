@@ -30,7 +30,7 @@ Hint: start by converting both sides to base 10.
   
 4  
 Consider the following circuit:  
-![](circ-xor.png){:width="240px"}  
+![](XOR.png){:width="240px"}  
   
 Draw the truth table for boolean function $$f()$$.  
   
