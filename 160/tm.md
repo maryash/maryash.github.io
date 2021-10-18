@@ -55,7 +55,7 @@ Represent $$f()$$ as a boolean expression of $$x$$ and $$y$$.
   
 What is another name for the operation that $$f$$ computes?  
   
-$$ \huge{ \boxed{\quad} \boxed{\quad} \boxed{\quad} \boxed{\quad} } $$
+$$\huge{\boxed{\;}\boxed{\;}\boxed{\;}\boxed{\;}}$$
   
   
   
