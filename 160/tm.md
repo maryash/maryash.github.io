@@ -37,52 +37,56 @@ Hint: start by converting both sides to base 10.
   
 4\.  Consider the following circuit:  
 ![](XOR.png){:width="240px"}  
-![](XNOR.gif){:width="300px"}  
   
-1 )  Draw the truth table for boolean function $$f()$$.  
+ 1 )  Draw the truth table for boolean function $$f()$$.  
   
+<br/>  
   
+<br/>  
   
+ 2 )  Represent $$f()$$ as a boolean expression of $$x$$ and $$y$$.  
   
-2 )  Represent $$f()$$ as a boolean expression of $$x$$ and $$y$$.  
+<br/>  
   
+<br/>  
   
-  
-  
-3 )  What is another name for the operation that $$f()$$ computes?  Spell the two-, three-, or four-letter word from left to right in the boxes below: 
+ 3 )  What is another name for the operation that $$f()$$ computes?  Spell the two-, three-, or four-letter word from left to right in the boxes below:  
 $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$
   
+<br/>  
+  
+<br/>  
   
 5\.  Determine whether the Boolean NAND operator, that is defined by:
 $$x \uparrow y = (xy)'$$
   
 is COMMUTATIVE and give boolean algebra justification.  
   
+<br/>  
   
-  
-  
+<br/>  
   
 is ASSOCIATIVE and give boolean algebra justification.  
   
-    
+<br/>  
   
-  
+<br/>  
   
 6\.  Simplify the following boolean functions:  
-$$ f = WXY'Z + W'XZ + WXYZ $$  
   
+ 1 )  $$ f = WXY'Z + W'XZ + WXYZ $$  
   
+<br/>  
   
+<br/>  
   
+ 2 )  $$ f = ( ( A + C ) * ( A + B' ) * ( A' + B + C' ) )' $$  
   
+<br/>  
   
-$$ f = ( ( A + C ) * ( A + B' ) * ( A' + B + C' ) )' $$  
+<br/>  
   
-  
-  
-  
-  
-  
+    
   
   
 <table border="0px"><tr><td style="width:50%">
