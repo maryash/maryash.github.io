@@ -39,7 +39,6 @@ is COMMUTATIVE, and give boolean algebra justification.
 <br/>  
 <br/>  
   
-____________________________________________________________________________________________________________  
 and whether or not it is ASSOCIATIVE, and give boolean algebra justification.  
   
 <br/>  
