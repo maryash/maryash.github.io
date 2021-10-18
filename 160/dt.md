@@ -24,8 +24,7 @@ ________________________________________________________________________________
 <br/>  
   
 ____________________________________________________________________________________________________________  
-2\.  Given the equality: &nbsp; $$141_x = 3D_{16}$$ ,  
-determine the value of the radix $$x$$.  
+2\.  Given the equality: &nbsp; $$141_x = 3D_{16}$$ , &nbsp; determine the value of the radix $$x$$.  
   
 <br/>  
 <br/>  
@@ -36,7 +35,6 @@ $$x \uparrow y = (xy)'$$
   
 is COMMUTATIVE, and give boolean algebra justification.  
   
-<br/>  
 <br/>  
   
 and whether or not it is ASSOCIATIVE, and give boolean algebra justification.  
@@ -65,7 +63,6 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________  
 5\.1 )  Represent the following circuit as a boolean function $$f(x,\, y)$$: ![](XOR.png){:width="240px"}{: style="float:right"}  
   
-<br/>  
 <br/>  
 <br/>  
   
