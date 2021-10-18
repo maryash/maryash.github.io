@@ -78,6 +78,13 @@ is ASSOCIATIVE.  Give boolean algebra justification.
   
   
   
+6.  
+Simplify the following boolean function:  $$f = (xz + (y + t)' + (xz)'y')'$$
+  
+  
+  
+  
+  
   
   
 <table border="0px"><tr><td style="width:50%">
