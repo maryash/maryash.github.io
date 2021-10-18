@@ -19,7 +19,6 @@ ________________________________________________________________________________
  &nbsp; 3 )  Finally, convert the result to base $$16$$.  
   
 <br/>  
-<br/>  
   
 ____________________________________________________________________________________________________________  
 2\.  Given the equality: &nbsp; $$141_x = 3D_{16}$$ , &nbsp; determine the value of the radix $$x$$.  
@@ -37,6 +36,7 @@ ________________________________________________________________________________
  &nbsp; 2 )  Is it ASSOCIATIVE? Give BA (boolean algebra) justification.  
   
 <br/>  
+<br/>
   
 4\.  Simplify the following boolean functions:  
  &nbsp; 1 )  $$ f = WXY'Z + W'XZ + WXYZ $$  
