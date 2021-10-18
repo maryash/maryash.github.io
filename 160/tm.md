@@ -39,22 +39,18 @@ Hint: start by converting both sides to base 10.
 ![](XOR.png){:width="240px"}  
 ![](XNOR.gif){:width="300px"}  
   
-Draw the truth table for boolean function $$f()$$.  
+1 )  Draw the truth table for boolean function $$f()$$.  
   
   
   
   
-Represent $$f()$$ as a boolean expression of $$x$$ and $$y$$.  
+2 )  Represent $$f()$$ as a boolean expression of $$x$$ and $$y$$.  
   
   
   
   
-What is another name for the operation that $$f()$$ computes?  Spell the two-, three-, or four-letter word from left to right in the boxes below: 
+3 )  What is another name for the operation that $$f()$$ computes?  Spell the two-, three-, or four-letter word from left to right in the boxes below: 
 $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$
-  
-  
-  
-  
   
   
 5\.  Determine whether the Boolean NAND operator, that is defined by:
@@ -72,7 +68,16 @@ is ASSOCIATIVE and give boolean algebra justification.
   
   
   
-6\.  Simplify the following boolean function:  $$f = WXY'Z + W'XZ + WXYZ$$
+6\.  Simplify the following boolean functions:  
+$$ f = WXY'Z + W'XZ + WXYZ $$  
+  
+  
+  
+  
+  
+  
+$$ f = ( ( A + C ) * ( A + B' ) * ( A' + B + C' ) )' $$  
+  
   
   
   
