@@ -27,8 +27,8 @@ Hint: start by converting both sides to base 10.
   
   
   
-4 
-![](circ-xor.png){:height="100px" width="150px"}  
+4  
+![](circ-xor.png){:width="240px"}  
   
   
   
