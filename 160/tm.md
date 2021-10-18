@@ -2,9 +2,13 @@
 layout: myDefault
 title: TM
 ---
+  
+  
+  
+## CSCI 160 &nbsp; &nbsp; MIDTERM EXAM &nbsp;  &nbsp; EMPL ID :  &nbsp; $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$
 
   
-
+  
   
   
 1\.  Consider the numbers $$M = 306_{10}$$ and $$N = 238_{10}$$. Convert them to base $$2$$ first,
