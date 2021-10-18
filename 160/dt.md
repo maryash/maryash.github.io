@@ -35,10 +35,8 @@ ________________________________________________________________________________
 <br/>  
 <br/>  
   
-____________________________________________________________________________________________________________  
- &nbsp; 2 )  Is it ASSOCIATIVe? Give boolean algebra justification.  
+ &nbsp; 2 )  Is it ASSOCIATIVe? Give BA (boolean algebra) justification.  
   
-<br/>  
 <br/>  
   
 4\.  Simplify the following boolean functions:  
@@ -58,10 +56,11 @@ ________________________________________________________________________________
 <br/>  
   
 ____________________________________________________________________________________________________________  
-5\.1 )  Represent the following circuit as a boolean function $$f(x,\, y)$$: ![](XOR.png){:width="240px"}{: style="float:right"}  
+5\.1 )  Represent the following circuit as a boolean function $$f(x,\, y)$$, and simplify it: ![](XOR.png){:width="240px"}{: style="float:right"}  
   
 <br/>  
 <br/>  
+<br>
   
 ____________________________________________________________________________________________________________  
  &nbsp; 2 )  Draw the truth table for boolean function $$f()$$.  
