@@ -5,14 +5,22 @@ title: TM
   
   
   
-### CSCI 160 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MIDTERM EXAM &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; EMPL ID :  &nbsp; &nbsp; $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ <br/> First Name:  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ Last Name:  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$  
+### CSCI 160 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MIDTERM EXAM &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; EMPL ID :  &nbsp; &nbsp; $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ <br/> First Name:  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ Last Name:  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$
 
+1\.  Consider the numbers $$M = 96_{10}$$ and $$N = 118_{10}$$.  
+ 1 )  Convert them to base $$2$$ first,  
   
+<br/>  
   
+<br/>  
   
+ 2 )  then perform $$M-N$$ using the $$(r-1)'s$$ complement representation subtraction algorithm.  
   
-1\.  Consider the numbers $$M = 306_{10}$$ and $$N = 238_{10}$$. Convert them to base $$2$$ first,
-then perform $$M-N$$ using the $$(r-1)'s$$ complement representation subtraction algorithm for following values. Finally, convert the result to base $$16$$.  
+<br/>  
+  
+<br/>  
+  
+ 3 )  Finally, convert the result to base $$16$$.  
   
 <br/>  
   
