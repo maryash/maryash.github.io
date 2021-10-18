@@ -35,7 +35,7 @@ ________________________________________________________________________________
 <br/>  
   
 ____________________________________________________________________________________________________________  
- &nbsp; 2 )  Is it ASSOCIATIVe? Give BA (boolean algebra) justification.  
+ &nbsp; 2 )  Is it ASSOCIATIVE? Give BA (boolean algebra) justification.  
   
 <br/>  
   
