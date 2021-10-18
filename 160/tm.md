@@ -31,6 +31,7 @@ Hint: start by converting both sides to base 10.
 4  
 Consider the following circuit:  
 ![](XOR.png){:width="240px"}  
+![](XNOR.gif){:width="240px"}  
   
 Draw the truth table for boolean function $$f()$$.  
   
