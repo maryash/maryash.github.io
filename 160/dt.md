@@ -19,12 +19,12 @@ title: TM
   
 <br/>  
   
- &nbsp; 3 )  Finally, convert the result to base $$16$$.  
+ &nbsp; 3 )  Finally, convert the result to base $$16$$. --------------------------------------------------------------  
   
 <br/>  
   
 2\.  Knowing that we have the equality: &nbsp; $$1C3_{x-2} = 2A_{16}$$ ,  
-determine the value of $$x$$. &nbsp; Hint: start by converting both sides to base $$10$$.  
+determine the value of $$x$$.  
   
 <br/>  
   
