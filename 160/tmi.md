@@ -5,7 +5,7 @@ title: TM
   
   
   
-### CSCI 160 &nbsp; &nbsp; MIDTERM EXAM &nbsp;  &nbsp; EMPL ID :  &nbsp; $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$
+### CSCI 160 &nbsp; &nbsp; MIDTERM EXAM &nbsp;  &nbsp; EMPL ID :  &nbsp; $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ <br/> First Name  Last Name  
 
   
   
@@ -13,31 +13,25 @@ title: TM
   
 1\.  Consider the numbers $$M = 306_{10}$$ and $$N = 238_{10}$$. Convert them to base $$2$$ first,
 then perform $$M-N$$ using the $$(r-1)'s$$ complement representation subtraction algorithm for following values. Finally, convert the result to base $$16$$.  
-
-
-
   
+<br/>  
   
-  
+<br/>  
   
 2\.  Find $$(r-1)'s$$ complement of the number $$2602_8$$. 
   
+<br/>  
   
-  
-  
-  
-  
+<br/>  
   
 3\.  Knowing that we have the equality:  
 $$1C3_{x-2} = 2A_{16}$$  
 determine the value of $$x$$.  
 Hint: start by converting both sides to base 10.  
   
+<br/>  
   
-  
-  
-  
-  
+<br/>  
   
 4\.  Consider the following circuit:  
 ![](XOR.png){:width="240px"}  
