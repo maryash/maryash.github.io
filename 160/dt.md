@@ -5,9 +5,7 @@ title: TM
   
   
 ### CSCI 160&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MIDTERM EXAM &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; EMPL ID: $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ <br/> First Name:  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ &nbsp;&nbsp; &nbsp;  &nbsp;Last Name:  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$
-
-1\.  Consider the numbers $$M = 96_{10}$$ and $$N = 118_{10}$$.  
- &nbsp; 1 )  Convert them to base $$2$$ first,  
+1\.1 )  Convert the numbers $$M = 96_{10}$$ and $$N = 118_{10}$$ to base $$2$$ first,  
   
 <br/>  
 <br/>  
