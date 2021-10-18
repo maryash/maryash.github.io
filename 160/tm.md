@@ -5,7 +5,7 @@ title: TM
 
   
 
-<table border="0px"><tr><td width="50%">
+<table border="0px"><tr><td style="width:50%">
   
 1
 Consider the numbers $$M = 306_{10}$$ and $$N = 238_{10}$$. Convert them to base $$2$$ first,
@@ -18,7 +18,7 @@ then perform $$M-N$$ using the $$(r-1)'s$$ complement representation subtraction
 Find $$(r-1)'s$$ complement of the number $$2602_8$$. 
   
   
-</td><td width="50%">
+</td><td style="width:50%">
   
 
 3 
@@ -43,7 +43,7 @@ Represent $$f()$$ as a boolean expression of $$x$$ and $$y$$.
   
   
 What is another name for the operation that $$f$$ computes?  
-$$\fbox{\phantom{AA}}\fbox{\phantom{AA}}\fbox{\phantom{AA}}\fbox{\phantom{AA}}$$  
+$$\fbox{___}\fbox{___}\fbox{___}\fbox{___}$$  
   
 </td></tr></table>
   
