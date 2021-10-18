@@ -56,6 +56,7 @@ Represent $$f()$$ as a boolean expression of $$x$$ and $$y$$.
 What is another name for the operation that $$f$$ computes?  
   
 $$ \huge{\framebox{W}} $$  
+$$ \boxed{W} $$
   
   
   
