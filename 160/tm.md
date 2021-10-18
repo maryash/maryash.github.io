@@ -43,7 +43,7 @@ Represent $$f()$$ as a boolean expression of $$x$$ and $$y$$.
   
 What is another name for the operation that $$f$$ computes?  
   
-$$\emptybox{}\emptybox{}\emptybox{}\emptybox{}$$
+$$\emptybox{1cm}\emptybox{4px}\emptybox{1in}\emptybox{ABC}$$
 $$____________________________________$$  
 $$\fbox{|___|}\fbox{|___|}\fbox{|___|}\fbox{|___|}$$  
   
