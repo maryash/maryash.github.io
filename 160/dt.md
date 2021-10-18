@@ -23,8 +23,8 @@ title: TM
   
 <br/>  
   
-2\.  Knowing that we have the equality: &nbsp; $$1C3_{x-2} = 2A_{16}$$ ,  
-determine the value of $$x$$.  
+2\.  Knowing that we have the equality: &nbsp; $$141_x = 3D_{16}$$ ,  
+determine the value of the radix $$x$$.  
   
 <br/>  
   
