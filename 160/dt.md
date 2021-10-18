@@ -30,15 +30,13 @@ ________________________________________________________________________________
 <br/>  
   
 ____________________________________________________________________________________________________________  
-3\.  Determine whether or not the Boolean NAND operator, that is defined by:
-$$x \uparrow y = (xy)'$$
-  
-is COMMUTATIVE, and give boolean algebra justification.  
+3\.  Determine whether or not the Boolean NAND operator, that is defined by: $$x \uparrow y = (xy)'$$
+ &nbsp; 1 )  is COMMUTATIVE, and give boolean algebra justification.  
   
 <br/>  
   
 ____________________________________________________________________________________________________________  
-and whether or not it is ASSOCIATIVE, and give boolean algebra justification.  
+ &nbsp; 2 )  and whether or not it is ASSOCIATIVE, and give boolean algebra justification.  
   
 <br/>  
 <br/>  
