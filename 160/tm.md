@@ -31,7 +31,19 @@ Hint: start by converting both sides to base 10.
   
   
 4  
+Consider the following circuit:  
 ![](circ-xor.png){:width="240px"}  
+  
+Draw the truth table for boolean function $$f()$$.  
+  
+  
+  
+Represent $$f()$$ as a boolean expression of $$x$$ and $$y$$.  
+  
+  
+  
+What is another name for the operation that $$f$$ computes?  
+$$\fbox{\phantom{AA}}\fbox{\phantom{AA}}\fbox{\phantom{AA}}\fbox{\phantom{AA}}$$  
   
 </td></tr></table>
   
