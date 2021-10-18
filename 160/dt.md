@@ -64,9 +64,10 @@ ________________________________________________________________________________
 <br/>  
   
 ____________________________________________________________________________________________________________  
-5\.1 )  Represent the following circuit as a boolean function $$f(x,\, y)$$:  
-![](XOR.png){:width="240px"}{: style="float:right"}  
+5\.1 )  Represent the following circuit as a boolean function $$f(x,\, y)$$: ![](XOR.png){:width="240px"}{: style="float:right"}  
   
+<br/>  
+<br/>  
   
 ____________________________________________________________________________________________________________  
  &nbsp; 2 )  Draw the truth table for boolean function $$f()$$.  
