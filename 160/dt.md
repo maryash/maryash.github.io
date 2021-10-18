@@ -3,9 +3,7 @@ layout: myDefault
 title: TM
 ---
   
-  
 **CSCI 160 &nbsp; &nbsp; &nbsp; MIDTERM EXAM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; EMPLID: &nbsp;  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ <br/> First Name: &nbsp; $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ &nbsp; &nbsp; &nbsp; Last Name: &nbsp; $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$**  
-  
 1\.1 )  Convert the numbers $$M = 96_{10}$$ and $$N = 118_{10}$$ to base $$2$$,  
   
 <br/>  
@@ -20,6 +18,7 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________  
  &nbsp; 3 )  Finally, convert the result to base $$16$$.  
   
+<br/>  
 <br/>  
   
 ____________________________________________________________________________________________________________  
