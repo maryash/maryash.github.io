@@ -48,6 +48,8 @@ title: CSCI 160 MAIN PAGE
  10/14 | Logic Gates | [2.8 Digital Logic Gates](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/56%5B%3Bvnd.vst.idref%3DP700101397000000000000000000129F%5D!/4/2%5BP700101397000000000000000000129F%5D/2/2%5BP700101397000000000000000000E206%5D/2%400:0){:target="_blank"} | [Class 9](slides/class_09_logic_gates.pdf){:target="_blank"}<br/>[Mano](slides/mano09.pdf){:target="_blank"} | 
  10/18 | Midterm Exam |  |  | 
  10/21 | Canonical vs Standard | [2.6&nbsp;Canonical&nbsp;and Standard&nbsp;Forms](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/52%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000F17%5D!/4/2%5BP7001013970000000000000000000F17%5D/2/2%5BP700101397000000000000000000DEC0%5D/2%400:0){:target="_blank"} | [Class&nbsp;10](slides/class_10_canonical_standard.pdf){:target="_blank"} | [Homework&nbsp;10](hw.html#10){:target="_blank"}&nbsp;due&nbsp;10/25 
+ 10/25 | Canonical vs Standard | [2.6 Canonical,&nbsp;Standard&nbsp;Forms](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/52%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000F17%5D!/4/2%5BP7001013970000000000000000000F17%5D/2/2%5BP700101397000000000000000000DEC0%5D/2%400:0){:target="_blank"} | [Class&nbsp;10](slides/class_10_canonical_standard.pdf){:target="_blank"} | 
+ 10/28 | Gate Level Minimisation | [3.2 The Map Method](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/70%5B%3Bvnd.vst.idref%3DP700101397000000000000000000154D%5D!/4/2%5BP700101397000000000000000000154D%5D/2/2%5BP700101397000000000000000000E446%5D/2%400:0){:target="_blank"}<br/>[3.3 Four-Variable K-Map](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/72%5B%3Bvnd.vst.idref%3DP70010139700000000000000000015EB%5D!/4/2%5BP70010139700000000000000000015EB%5D/2/2%5BP700101397000000000000000000E4BE%5D/2%400:0){:target="_blank"} |  | 
   
     
 ---  
@@ -55,11 +57,10 @@ title: CSCI 160 MAIN PAGE
 ---  
 
 <!-- 
+[Homework&nbsp;10](hw.html#10){:target="_blank"}&nbsp;due&nbsp;6/16 
+[Class&nbsp;11](slides/class_11_karnaugh_maps.pdf){:target="_blank"}
 
 
-
- 6/15 | Canonical vs Standard | [2.6 Canonical,&nbsp;Standard&nbsp;Forms](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/52%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000F17%5D!/4/2%5BP7001013970000000000000000000F17%5D/2/2%5BP700101397000000000000000000DEC0%5D/2%400:0){:target="_blank"} | [Class&nbsp;10](slides/class_10_canonical_standard.pdf){:target="_blank"} | [Homework&nbsp;10](hw.html#10){:target="_blank"}&nbsp;due&nbsp;6/16 
- 6/16 | Gate Level Minimisation | [3.2 The Map Method](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/70%5B%3Bvnd.vst.idref%3DP700101397000000000000000000154D%5D!/4/2%5BP700101397000000000000000000154D%5D/2/2%5BP700101397000000000000000000E446%5D/2%400:0){:target="_blank"}<br/>[3.3 Four-Variable K-Map](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/72%5B%3Bvnd.vst.idref%3DP70010139700000000000000000015EB%5D!/4/2%5BP70010139700000000000000000015EB%5D/2/2%5BP700101397000000000000000000E4BE%5D/2%400:0){:target="_blank"} | [Class&nbsp;11](slides/class_11_karnaugh_maps.pdf){:target="_blank"} | 
  6/17 | Review |  |  | 
  6/21 | MIDTERM |  |  | 
  6/22 | 5-Var K-map | [4.3 Analysis of Combinational Circuits](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/100%5B%3Bvnd.vst.idref%3DP7001013970000000000000000001D61%5D!/4/6%400:0){:target="_blank"} | [Class&nbsp;12](slides/class_12_more_maps.pdf){:target="_blank"} | [Homework&nbsp;12](hw.html#12){:target="_blank"}&nbsp;due&nbsp;6/23 
