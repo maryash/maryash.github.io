@@ -153,9 +153,6 @@ HOMEWORK 10
 ---  
   
   
-<!-- 
-
-
 <a name="12"></a>
 HOMEWORK 12
   
@@ -167,6 +164,9 @@ HOMEWORK 12
 ---  
   
   
+<!-- 
+
+
 <a name="13"></a>
 HOMEWORK 13
   
