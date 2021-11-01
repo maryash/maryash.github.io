@@ -2,14 +2,22 @@
 layout: myDefault
 title: HOMEWORKS
 ---
-
-<a name="00"></a>
+  
+  
+<a name="00"></a>  
 HOMEWORK 0  
   
 1-1
 Find a method similar to the remainder method for the integer numbers that applies to fractional numbers -- as in converting: &nbsp;$$0.379_{10} = 0.???_2$$&nbsp;  
   
-<a name="01"></a>
+  
+  
+---  
+  
+  
+  
+  
+<a name="01"></a>  
 HOMEWORK 1  
   
 1-2
@@ -33,9 +41,11 @@ b) &nbsp;$$54 / 4 = 13$$&nbsp;
   
   
 ---  
-
-
-<a name="02"></a>
+  
+  
+  
+  
+<a name="02"></a>  
 HOMEWORK 2  
   
 1 - 12  
@@ -58,7 +68,9 @@ b) &nbsp;$$365_r = 194_{10}$$&nbsp;
 ---  
   
   
-<a name="03"></a>
+  
+  
+<a name="03"></a>  
 HOMEWORK 3  
   
 3 - 1  
@@ -86,14 +98,20 @@ Convert the hexadecimal number &nbsp;$$68BE$$&nbsp; to binary, then convert it t
 ---  
   
   
-<a name="04"></a>
+  
+  
+<a name="04"></a>  
 HOMEWORK 4  
   
 ![](hm4.png)
   
   
 ---  
-<a name="05"></a>
+  
+  
+  
+  
+<a name="05"></a>  
 HOMEWORK 5  
   
 1  
@@ -110,7 +128,9 @@ $$P(S)$$ is the set of all of subsets of $$S$$;  remember:  if $$S$$ has $$n$$ e
 ---  
   
   
-<a name="06"></a>
+  
+  
+<a name="06"></a>  
 HOMEWORK 6  
   
 1    
@@ -121,7 +141,9 @@ Note: for property 11, Associativity, use truth tables on the variables and assu
 ---  
   
   
-<a name="07"></a>
+  
+  
+<a name="07"></a>  
 HOMEWORK 7  
   
 ![](hw6_.png)  
@@ -133,7 +155,9 @@ HOMEWORK 7
 ---  
   
   
-<a name="08"></a>
+  
+  
+<a name="08"></a>  
 HOMEWORK 8  
 
 By substitution the Boolean expression equivalent of the binary operation as defined in Table of Sixteen Functions on Two Variables, show the following:  
@@ -144,26 +168,30 @@ b) The Exclusive OR (XOR) operation is both commutative and associative. 
 ---  
   
   
-<a name="10"></a>
-HOMEWORK 10
-  
-![](hw10.png)    
   
   
----  
+<a name="10"></a>  
+HOMEWORK 10  
   
-  
-<a name="11"></a>
-HOMEWORK 11
-  
-![](hw11.png)    
+![](hw10.png)  
   
   
 ---  
   
   
-<a name="12"></a>
-HOMEWORK 12
+  
+  
+<a name="11"></a>  
+HOMEWORK 11  
+  
+![](hw11.png)  
+  
+  
+---  
+  
+  
+<a name="12"></a>  
+HOMEWORK 12  
   
 ![](hw12a.png)  
   
@@ -173,8 +201,10 @@ HOMEWORK 12
 ---  
   
   
-<a name="13"></a>
-HOMEWORK 13
+  
+  
+<a name="13"></a>  
+HOMEWORK 13  
   
 ![](hw13.png)  
   
@@ -182,8 +212,10 @@ HOMEWORK 13
 ---  
   
   
-<a name="14"></a>
-HOMEWORK 14
+  
+  
+<a name="14"></a>  
+HOMEWORK 14  
   
 ![](hw14.png)  
   
@@ -191,8 +223,11 @@ HOMEWORK 14
 ---  
   
   
-<a name="15"></a>
-HOMEWORK 15
+  
+  
+<a name="15"></a>  
+HOMEWORK 15  
+  
   
 ![](hw15a.png)  
   
@@ -203,15 +238,15 @@ HOMEWORK 15
 ---  
   
   
+<!-- 
+
+
 <a name="18"></a>
 HOMEWORK 18
   
 ![](hw18.png)  
   
   
-<!-- 
-
-
  -->  
   
   
