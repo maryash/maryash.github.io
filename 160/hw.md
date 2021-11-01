@@ -162,9 +162,6 @@ HOMEWORK 11
 ---  
   
   
-<!-- 
-
-
 <a name="12"></a>
 HOMEWORK 12
   
@@ -212,6 +209,9 @@ HOMEWORK 18
 ![](hw18.png)  
   
   
+<!-- 
+
+
  -->  
   
   
