@@ -232,9 +232,6 @@ HOMEWORK 15
 ![](hw15a.png)  
   
   
-![](hw15b.png)    
-  
-  
 ---  
   
   
@@ -245,6 +242,9 @@ HOMEWORK 15
 HOMEWORK 18
   
 ![](hw18.png)  
+  
+  
+![](hw15b.png)    
   
   
  -->  
