@@ -241,7 +241,7 @@ HOMEWORK 15
 HOMEWORK 16
   
   
-Construct a FA using only HA’s and one other gate.
+17.4  Construct a FA using only HA’s and one other gate.
   
   
   
