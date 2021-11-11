@@ -237,9 +237,23 @@ HOMEWORK 15
 ---  
   
   
+<a name="16"></a>
+HOMEWORK 16
+  
+  
+Construct a FA using only HA’s and one other gate.
+  
+  
+  
+---  
+  
+  
+  
+  
 <!-- 
-
-
+  
+  
+  
 <a name="18"></a>
 HOMEWORK 18
   
