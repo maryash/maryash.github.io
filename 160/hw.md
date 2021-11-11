@@ -241,7 +241,9 @@ HOMEWORK 15
 HOMEWORK 16
   
   
-17.4  Construct a FA using only HA’s and one other gate.
+17.3  Construct a Half Addar using only NOR gates.  Inverters are allowed.  
+  
+17.4  Construct a Full Aadder using only HA’s and one other gate.
   
   
   
