@@ -252,15 +252,15 @@ HOMEWORK 16
 <a name="17"></a>
 HOMEWORK 17  
   
-18.1  Continue the full adder proof from the lecture.  Show that S = S2 and that Cout = C1 + C2.  
+18.1  Continue the Full Adder proof from the lecture.  Show that $$S = S_2$$ and that $$C_{out} = C_1 + C_2$$.  
   
-18.2  Construct a Full Adder using only HA’s and one other gate.
+18.2  IBM Full Adder:  Prove it is indeed a FA, i.e. it creates the functions $$S$$ and $$C_{out} of a FA.
   
-18.3  Construct a Half Adder using only NOR gates.  Inverters are allowed.  
+18.3  Finish and minimize functions $$D$$ and $$β_{out}$$ for a Full Subtractor.  
   
-18.4  Construct a Full Adder using only HA’s and one other gate.
+18.4  Construct a Full Subtractor using only Half Subtractors and one other gate.
     
-18.5  Construct a Half Adder using only NOR gates.  Inverters are allowed.  
+18.5  Express the function: $$f_> = 1 <–––> A > B$$.  
   
 
     
