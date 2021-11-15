@@ -237,6 +237,7 @@ HOMEWORK 15
 ---  
   
   
+  
 <a name="16"></a>
 HOMEWORK 16
   
@@ -246,12 +247,18 @@ HOMEWORK 16
 17.4  Construct a Full Aadder using only HA’s and one other gate.
   
   
-  
 ---  
   
   
   
+<a name="17"></a>
+HOMEWORK 17
   
+![](hw18.png)  
+  
+  
+  
+   
 <!-- 
   
   
