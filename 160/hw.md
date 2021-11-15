@@ -228,7 +228,6 @@ HOMEWORK 14
 <a name="15"></a>  
 HOMEWORK 15  
   
-  
 ![](hw15a.png)  
   
 ![](hw15b.png)    
@@ -239,12 +238,11 @@ HOMEWORK 15
   
   
 <a name="16"></a>
-HOMEWORK 16
+HOMEWORK 16  
   
+17.3  Construct a Half Adder using only NOR gates.  Inverters are allowed.  
   
-17.3  Construct a Half Addar using only NOR gates.  Inverters are allowed.  
-  
-17.4  Construct a Full Aadder using only HA’s and one other gate.
+17.4  Construct a Full Adder using only HA’s and one other gate.
   
   
 ---  
@@ -252,14 +250,22 @@ HOMEWORK 16
   
   
 <a name="17"></a>
-HOMEWORK 17
+HOMEWORK 17  
   
-![](hw17.png)  
+18.1  Construct a Half Adder using only NOR gates.  Inverters are allowed.  
   
+18.2  Construct a Full Adder using only HA’s and one other gate.
   
+18.3  Construct a Half Adder using only NOR gates.  Inverters are allowed.  
   
+18.4  Construct a Full Adder using only HA’s and one other gate.
+    
+18.5  Construct a Half Adder using only NOR gates.  Inverters are allowed.  
+  
+
+    
    
-<!-- 
+--- 
   
   
   
@@ -269,9 +275,8 @@ HOMEWORK 18
 ![](hw18.png)  
   
   
+---  
   
-  
- -->  
   
   
   
