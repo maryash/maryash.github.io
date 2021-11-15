@@ -252,7 +252,7 @@ HOMEWORK 16
 <a name="17"></a>
 HOMEWORK 17  
   
-18.1  Construct a Half Adder using only NOR gates.  Inverters are allowed.  
+18.1  Continue the full adder proof from the lecture.  Show that S = S2 and that Cout = C1 + C2.  
   
 18.2  Construct a Full Adder using only HA’s and one other gate.
   
