@@ -284,7 +284,9 @@ HOMEWORK 18
 <a name="19"></a>
 HOMEWORK 19
   
-19  Evaluate **J-K FlipFlop** Describe its performance. For the truth table consider as inputs J and K only.  Exclude the case $$ J = K = 1 $$ from this truth table, and treat it separately.  
+19 .   
+![](JKff.png)  
+Evaluate **J-K FlipFlop** Describe its performance. For the truth table consider as inputs J and K only.  Exclude the case $$ J = K = 1 $$ from this truth table, and treat it separately.  
   
   
 ---  
