@@ -260,7 +260,7 @@ HOMEWORK 17
   
 18.4  Construct a Full Subtractor using only Half Subtractors and one other gate.
     
-18.5  Express the function: $$f_> = 1$$ $$\longleftrightarrow$$ $$A > B$$.  
+18.5  Express the function: **$$f_> = 1$$  $$\longleftrightarrow$$  $$A > B$$**.  
   
 
     
