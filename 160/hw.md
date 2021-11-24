@@ -237,6 +237,7 @@ HOMEWORK 15
   
   
   
+  
 <a name="16"></a>
 HOMEWORK 16  
   
@@ -246,6 +247,7 @@ HOMEWORK 16
   
   
 ---  
+  
   
   
   
@@ -262,10 +264,9 @@ HOMEWORK 17
     
 18.5  Express the function: **$$f_> = 1$$  $$\longleftrightarrow$$  $$A > B$$**.  
   
-
-    
    
 --- 
+  
   
   
   
@@ -279,6 +280,14 @@ HOMEWORK 18
   
   
   
+  
+<a name="19"></a>
+HOMEWORK 19
+  
+![](hw19.png)  
+  
+  
+---  
   
   
   
