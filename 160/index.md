@@ -64,15 +64,30 @@ title: CSCI 160 MAIN PAGE
  12/13 | Review 2 |  |  | 
   
     
+    
+--- 
+  
+  
+  
 ---  
+  
+  
   
 ### Instructor Evaluations:
 **Computer: [www.hunter.cuny.edu/te](http://www.hunter.cuny.edu/te){:target="_blank"}**  
-
 **Smartphone: [www.hunter.cuny.edu/mobilete](http://www.hunter.cuny.edu/mobilete){:target="_blank"}**
- 
+  
+  
+  
+  
 ---  
-
+  
+  
+  
+---  
+  
+  
+  
 <!-- 
 10/25 | Canonical vs Standard | [2.6 Canonical,&nbsp;Standard&nbsp;Forms](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/52%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000F17%5D!/4/2%5BP7001013970000000000000000000F17%5D/2/2%5BP700101397000000000000000000DEC0%5D/2%400:0){:target="_blank"} | [Class&nbsp;10](slides/class_10_canonical_standard.pdf){:target="_blank"} | 
 [Homework&nbsp;10](hw.html#10){:target="_blank"}&nbsp;due&nbsp;6/16 
