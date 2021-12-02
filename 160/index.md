@@ -62,6 +62,7 @@ title: CSCI 160 MAIN PAGE
  12/6 | Finate State Machines |  |  | 
  12/9 | Review 1 |  |  | 
  12/13 | Review 2 |  |  | 
+ 12/20 | FINAL | EXAM | MONDAY	12/20	1:45 – 3:45  HW615 | 
   
     
     
@@ -96,7 +97,7 @@ title: CSCI 160 MAIN PAGE
 
  6/17 | Review |  |  | 
  6/21 | MIDTERM |  |  | 
- 7/12 | FINAL | EXAM |  | 
+
   
 
  
