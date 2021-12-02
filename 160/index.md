@@ -66,6 +66,11 @@ title: CSCI 160 MAIN PAGE
     
 ---  
   
+### Instructor Evaluations:
+**Computer: [www.hunter.cuny.edu/te](http://www.hunter.cuny.edu/te){:target="_blank"}**  
+
+**Smartphone: [www.hunter.cuny.edu/mobilete](http://www.hunter.cuny.edu/mobilete){:target="_blank"}**
+ 
 ---  
 
 <!-- 
@@ -95,11 +100,6 @@ https://www.icloud.com/keynote/0NrlaM7Y-l4-ifLDppBZ_bTOQ#Class_21_and_Review
  n.a./n.a. | STL | [C++&nbsp;Interlude&nbsp;8](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/428%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005DB5%5D!/4/2%5BP7001011925000000000000000005DB5%5D/2%400:0){:target="_blank"} | [STL](slides/i8_stl.pdf){:target="_blank"} | 
   
 
-### Instructor Evaluations:
-**Computer: [www.hunter.cuny.edu/te](http://www.hunter.cuny.edu/te){:target="_blank"}**  
-
-**Smartphone: [www.hunter.cuny.edu/mobilete](http://www.hunter.cuny.edu/mobilete){:target="_blank"}**
- 
  -->  
    
 ---  
