@@ -31,7 +31,7 @@ CSCI 127 and CSCI 150.
 Please check this page regularly for announcements, updates, lecture notes and schedule. All course materials will be gradually posted here. 
   
 **COURSE FINAL GRADE COMPOSITION**  
-36 points the six tests, 30 points midterm, and 30 points the final exam, and 20 points for all homeworks. This adds up to 115 points, 15 of which will be considered as bonus points. 
+7 points each for the four tests out of five - the lowest score is dropped, 30 points for the midterm, 35 points the final exam, and 1 point per each of the 19 homeworks. This adds up to 112 points, 12 of which will be considered as bonus points. 
   
 **QUESTIONS**  
 Ask as many as you need during lecture -- you will be doing a service to everyone:  if you have a question, it is likely that other students have the same question, but hesitate to ask it.      
