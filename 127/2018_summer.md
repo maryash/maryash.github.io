@@ -69,7 +69,7 @@ Sections: |Time:|Instructor:|E-mail:
 *   [Programming Assignments](assignments.html)
 
 ### Book & Tutorial Pages:
-*   Python: [How to Think Like a Computer Scientist](https://interactivepython.org/runestone/static/thinkcspy/index.html) by Miller _et al_.
+*   Python: [How to Think Like a Computer Scientist](https://runestone.academy/ns/books/published/thinkcspy/index.html) by Miller _et al_.
 *   Logical Circuits: [Burch's Logic & Circuits](http://www.toves.org/books/logic/), [Explain Logic Gates](http://www.explainthatstuff.com/logicgates.html)
 *   Machine Language: [U Idaho reference sheet](http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html), [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats)
 *   C++: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf), [C++ Tutorials Point](https://www.tutorialspoint.com/cplusplus/index.htm), [The Rook's Guide to C++](https://rooksguide.files.wordpress.com/2013/12/rooks-guide-isbn-version.pdf)
