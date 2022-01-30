@@ -6,7 +6,7 @@ title: CSCI 160 MAIN PAGE
 **[CSCI160 COMPUTER ARCHITECTURE I &nbsp;HUNTER COLLEGE CITY UNIVERSITY OF NEW YORK](index.html)**
 **Spring 2022 &nbsp; &nbsp; Monday and Thursday &nbsp; 5:35 PM to 6:50 PM &nbsp;&nbsp; *in person* in Hunter West Dining Room. However, in order to prepare for potential contigencies, several lectures throughout the semester will take place on BlackBoard Collaborate - TBA**
 [**SYLLABUS**](syllabus.html "CSCI 160 Computer Architecture I"){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-[**GRADESCOPE** [entry code ERX32V]](https://www.gradescope.com/courses/271549 "CSCI 160 entry code ERX32V"){:target="_blank"}    
+[**GRADESCOPE** [entry code 4PBYXW]](https://www.gradescope.com/courses/365602 "CSCI 160 entry code 4PBYXW"){:target="_blank"}    
   
 **INSTRUCTOR**  
 **Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours Monday and Thursday &nbsp; 4:15 PM to 5:15 PM to on BlackBoard Collaborate.  
