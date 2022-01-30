@@ -7,7 +7,7 @@ title: 160 SYLLABUS
 **Fall 2021 &nbsp; &nbsp; Monday and Thursday &nbsp; 2:45 PM to 4:00 PM &nbsp;&nbsp; *in person* in Hunter West 615.  However, in order to prepare for potential contigencies, several lectures throughout the semester will take place on BlackBoard Collaborate - the first one on Thursady September 9.**
   
 **INSTRUCTOR**  
-**Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours Monday and Thursday &nbsp; 5:35 PM to 6:50 PM to on BlackBoard Collaborate.  
+**Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours Monday and Wednesday &nbsp; 5:35 PM to 6:50 PM to on BlackBoard Collaborate.  
   
 **TEXTBOOK**  
 [**Digital Design, 6th Edition eText**](https://www.pearson.com/store/p/mano-ciletti-digital-design-with-an-introduction-to-the-verilog-hdl-vhdl-and-systemverilog-6-e/3100003043990/9780137208333){:target="_blank"}, Mano, Ciletti ISBN-9780134529561. It can be purchased at a discounted price ($54.99) direct from the publisher through [**Vitalsource.com**](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/2%5B%3Bvnd.vst.idref%3Dcover%5D!/4/2%5Bvst-image-button-81818%5D%400:0){:target="_blank"} in order for the chapter links to work.  Do not buy any other electronic version of this edition of the book. Of course, you may be able to find prior editions of this book for less -- you will simply have to match the reading assignments to those older edditions.  
