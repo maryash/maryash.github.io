@@ -33,6 +33,7 @@ title: CSCI 160 MAIN PAGE
  2/7 | Radix Conversions | [1.3 Number Base Conversions](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/20%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000287%5D!/4/2%5BP7001013970000000000000000000287%5D/2/2%5BP700101397000000000000000000D390%5D/2%400:0){:target="_blank"}<br/>[1.4 Octal and Hexadecimal Numbers](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/22%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000362%5D!/4/2%5BP7001013970000000000000000000362%5D/2/2%5BP700101397000000000000000000D45A%5D/2%400:0){:target="_blank"} | [Class 2](slides/class_2_conversions.pdf){:target="_blank"} | [**Binary&nbsp;Multiplication**](https://byjus.com/maths/binary-multiplication/){:target="_blank"}<br>[**Binary&nbsp;Division**](https://byjus.com/maths/binary-division/#:~:text=What%20is%20Binary%20Division%3F,division%20problems%20using%20binary%20operations.){:target="_blank"}<br/>[Homework&nbsp;2](hw.html#02){:target="_blank"}&nbsp;due&nbsp;9/9 
  
  <!-- 
+  
 <iframe src="https://docs.google.com/spreadsheets/d/1no0KBpltR5dlMFBmZ4Oi5Lp8ZyU2qy2yxiz-mH6-VXg/edit?usp=sharing/pubhtml?gid=0&single=true&widget=true&headers=false" width=702px height=400px ></iframe>
   
  2/9 | *CLASS ONLINE* | *TEST #1* | *ON BLACKBOARD AND GRADESCOPE* | 
