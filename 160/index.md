@@ -34,8 +34,6 @@ title: CSCI 160 MAIN PAGE
  
  <!-- 
   
-<iframe src="https://docs.google.com/spreadsheets/d/1no0KBpltR5dlMFBmZ4Oi5Lp8ZyU2qy2yxiz-mH6-VXg/edit?usp=sharing/pubhtml?gid=0&single=true&widget=true&headers=false" width=702px height=400px ></iframe>
-  
  2/9 | *CLASS ONLINE* | *TEST #1* | *ON BLACKBOARD AND GRADESCOPE* | 
  9/13 | Complements of Numbers | [1.5 Complements of Numbers](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/24%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000411%5D!/4/2%5BP7001013970000000000000000000411%5D/2/2%5BP700101397000000000000000000D4FF%5D/2%400:0){:target="_blank"}<br/>[1.6 Signed Binary Numbers](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/26%5B%3Bvnd.vst.idref%3DP700101397000000000000000000048E%5D!/4/2%5BP700101397000000000000000000048E%5D/2/2%5BP700101397000000000000000000D563%5D/4%400:0){:target="_blank"} | [Class 3](slides/class_3_complements.pdf){:target="_blank"} | [Homework&nbsp;3](hw.html#03){:target="_blank"}&nbsp;due&nbsp;9/16 
  9/20 | IN-PERSON Binary Codes | [1.7 Binary Codes](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/28%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000594%5D!/4/2%5BP7001013970000000000000000000594%5D/2/2%5BP700101397000000000000000000D655%5D/4%400:0){:target="_blank"}<br/>[1.9 Binary Logic](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/32%5B%3Bvnd.vst.idref%3DP700101397000000000000000000090E%5D!/4/2%5BP700101397000000000000000000090E%5D/2/2%5BP700101397000000000000000000D9A7%5D/2%400:0){:target="_blank"} | [Class 4](slides/class_4_binary_codes.pdf){:target="_blank"} | [Homework&nbsp;4](hw.html#04){:target="_blank"}&nbsp;due&nbsp;9/23 
@@ -114,12 +112,24 @@ https://www.icloud.com/keynote/0NrlaM7Y-l4-ifLDppBZ_bTOQ#Class_21_and_Review
  n.a./n.a. | STL | [C++&nbsp;Interlude&nbsp;8](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/428%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005DB5%5D!/4/2%5BP7001011925000000000000000005DB5%5D/2%400:0){:target="_blank"} | [STL](slides/i8_stl.pdf){:target="_blank"} | 
   
 
- -->  
+-->  
    
 ---  
   
 
-<!-- 
+<!--  
+  
+  
+<iframe src="https://docs.google.com/spreadsheets/d/1no0KBpltR5dlMFBmZ4Oi5Lp8ZyU2qy2yxiz-mH6-VXg/edit?usp=sharing/pubhtml?gid=0&single=true&widget=true&headers=false" width=702px height=400px ></iframe>  
+  
+-->  
+   
+---  
+  
+
+<!--  
+  
+
  4/22 |  |  |  | [**Project&nbsp;4**&nbsp;**due&nbsp;11/16**](projects/project_4_/project_4_.html){:target="_blank"} 
  4/26 |  |  |  | [**Project&nbsp;5**&nbsp;**due&nbsp;12/13**](projects/project_5_/project_5_.html){:target="_blank"} 
 
