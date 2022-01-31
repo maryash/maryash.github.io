@@ -27,7 +27,7 @@ title: CSCI 160 MAIN PAGE
 [**Digital Design, 6th Edition eText**](https://www.pearson.com/store/p/mano-ciletti-digital-design-with-an-introduction-to-the-verilog-hdl-vhdl-and-systemverilog-6-e/3100003043990/9780137208333){:target="_blank"}, Mano, Ciletti ISBN-9780134529561. It can be purchased at a discounted price ($54.99) direct from the publisher through [**Vitalsource.com**](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/2%5B%3Bvnd.vst.idref%3Dcover%5D!/4/2%5Bvst-image-button-81818%5D%400:0){:target="_blank"} in order for the chapter links to work.  Do not buy any other electronic version of this edition of the book. Of course, you may be able to find prior editions of this book for less -- you will simply have to match the reading assignments to those older edditions.  
   
 **OTHER RESOURCES**  
-[**Circuit Builder Simulator**](https://logic.ly/demo/){target:="_blank"}  
+[**Circuit Builder Simulator**](https://logic.ly/demo/){:target="_blank"}  
   
   
 **COURSE OUTLINE**  
