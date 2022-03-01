@@ -12,10 +12,10 @@ title: CSCI 160 MAIN PAGE
 **Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours Monday and Thursday &nbsp; 4:15 PM to 5:15 PM to on BlackBoard Collaborate.  
   
 **TUTORS**  
+**Steven** [calendly.com/james-cruse/csci-160-tutoring](https://calendly.com/steven-palomino/csci160-office-hours){:target="_blank"}  
 **Shafali** [calendly.com/shafali-gupta21/csci-160-office-hours-shafali](https://calendly.com/shafali-gupta21/csci-160-office-hours-shafali){:target="_blank"}  
-**Andy** [calendly.com/andy-mina30/office-hours/](https://calendly.com/andy-mina30/office-hours/){:target="_blank"}  
 **Daniel** [calendly.com/daniel-elkik26/160-office-hours](https://calendly.com/daniel-elkik26/160-office-hours){:target="_blank"}  
-**Jack** [calendly.com/james-cruse/csci-160-tutoring](https://calendly.com/james-cruse/csci-160-tutoring){:target="_blank"}  
+**Andy** [calendly.com/andy-mina30/office-hours/](https://calendly.com/andy-mina30/office-hours/){:target="_blank"}  
   
 **TEXTBOOK**  
 [**Digital Design, 6th Edition eText**](https://www.pearson.com/store/p/mano-ciletti-digital-design-with-an-introduction-to-the-verilog-hdl-vhdl-and-systemverilog-6-e/3100003043990/9780137208333){:target="_blank"}, Mano, Ciletti ISBN-9780134529561. It can be purchased at a discounted price ($54.99) direct from the publisher through [**Vitalsource.com**](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/2%5B%3Bvnd.vst.idref%3Dcover%5D!/4/2%5Bvst-image-button-81818%5D%400:0){:target="_blank"} in order for the chapter links to work.  Do not buy any other electronic version of this edition of the book. Of course, you may be able to find prior editions of this book for less -- you will simply have to match the reading assignments to those older edditions.  
