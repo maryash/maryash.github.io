@@ -45,7 +45,7 @@ title: CSCI 160 MAIN PAGE
   
 <iframe src="https://docs.google.com/spreadsheets/d/1no0KBpltR5dlMFBmZ4Oi5Lp8ZyU2qy2yxiz-mH6-VXg/edit?usp=sharing/pubhtml?gid=0&single=true&widget=true&headers=false" width=702px height=400px ></iframe>  
   
-   
+     
  10/11 | Compound Operators |  |  | 
  10/14 | Logic Gates | [2.8 Digital Logic Gates](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/56%5B%3Bvnd.vst.idref%3DP700101397000000000000000000129F%5D!/4/2%5BP700101397000000000000000000129F%5D/2/2%5BP700101397000000000000000000E206%5D/2%400:0){:target="_blank"} | [Class 9](slides/class_09_logic_gates.pdf){:target="_blank"} | [Mano](slides/mano09.pdf){:target="_blank"} 
  10/18 | Midterm Exam |  |  | 
