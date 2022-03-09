@@ -177,6 +177,9 @@ Write Boolean expressions and construct the truth tables describing the outputs 
 ![](hw9.png)  
   
   
+---  
+  
+  
   
   
 <a name="10"></a>  
