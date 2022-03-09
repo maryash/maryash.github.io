@@ -170,6 +170,15 @@ b) The Exclusive OR (XOR) operation is both commutative and associative. 
   
   
   
+<a name="09"></a>  
+HOMEWORK 9  
+
+Write Boolean expressions and construct the truth tables describing the outputs of the circuits described by these logic diagrams:  
+![](hw9.png)  
+  
+  
+  
+  
 <a name="10"></a>  
 HOMEWORK 10  
   
