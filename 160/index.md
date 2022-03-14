@@ -39,7 +39,7 @@ title: CSCI 160 MAIN PAGE
  3/2 | Functions and Proofs | [2.4 Theorems and Properties](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/48%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000C92%5D!/4/2%5BP7001013970000000000000000000C92%5D/2/2%5BP700101397000000000000000000DC80%5D/4%400:0){:target="_blank"}<br/>[2.5 Boolean Functions](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/50%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000E2A%5D!/4/2%5BP7001013970000000000000000000E2A%5D/2/2%5BP700101397000000000000000000DDF2%5D/2%400:0){:target="_blank"} | [Class 7](slides/class_07_theorems.pdf){:target="_blank"} | [Homework&nbsp;7](hw.html#07){:target="_blank"}&nbsp;due&nbsp;3/7 
  3/7 | More Boolean Algebra | [2.7 Other Logic Operators](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/54%5B%3Bvnd.vst.idref%3DP7001013970000000000000000001148%5D!/4/2%5BP7001013970000000000000000001148%5D/2/2%5BP700101397000000000000000000E0B5%5D/4%400:0){:target="_blank"}<br/>***Test 2*** | [Class 8](slides/class_08_other_logic_operations.pdf){:target="_blank"} | [Homework&nbsp;8](hw.html#08){:target="_blank"}&nbsp;due&nbsp;3/9 
  3/9 | Logic Gates | [2.8 Digital Logic Gates](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/56%5B%3Bvnd.vst.idref%3DP700101397000000000000000000129F%5D!/4/2%5BP700101397000000000000000000129F%5D/2/2%5BP700101397000000000000000000E206%5D/2%400:0){:target="_blank"} | [Class 9](slides/class_09_logic_gates.pdf){:target="_blank"}, [TB](slides/mano09.pdf){:target="_blank"} | [Homework&nbsp;9](hw.html#09){:target="_blank"}&nbsp;due&nbsp;3/14 
- 3/14 | Midterm Review | [Review 1](slides/class_review_1.pdf){:target="_blank"}<br/>[Review 2](slides/class_21_jk_flipflop_and_review.pdf){:target="_blank"} |  | 
+ 3/14 | Midterm Review | [Review 1](slides/class_review_1.pdf){:target="_blank"} |  | 
  ~~ | ~~~~~~~~ | ~~~~~~~~~~~~~~~~ | ~~~~~ |  ~~~~~~~~~~~~~~~~
  3/16 | Canonical vs Standard | [2.6&nbsp;Canonical&nbsp;and Standard&nbsp;Forms](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/52%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000F17%5D!/4/2%5BP7001013970000000000000000000F17%5D/2/2%5BP700101397000000000000000000DEC0%5D/2%400:0){:target="_blank"} | [Class&nbsp;10](slides/class_10_canonical_standard.pdf){:target="_blank"} | [Homework&nbsp;10](hw.html#10){:target="_blank"}&nbsp;due&nbsp;3/23 
  3/21 | **Midterm Exam** |  |  | 
@@ -140,6 +140,9 @@ https://www.icloud.com/keynote/0NrlaM7Y-l4-ifLDppBZ_bTOQ#Class_21_and_Review
 [**Project&nbsp;6**&nbsp;**due&nbsp;12/16**](projects/project_6_/project_6_.html){:target="_blank"} 
 [**Project&nbsp;2**&nbsp;**due&nbsp;6/10**](projects/project_2/project_2.html){:target="_blank"} 
 [**Project&nbsp;1**&nbsp;**due&nbsp;9/14**](projects/project_1_/project_1_.html){:target="_blank"}
+
+
+<br/>[Review 2](slides/class_21_jk_flipflop_and_review.pdf){:target="_blank"}
 
 
  7/2 | Review | ( Hashing, Heaps, and STL are | NOT in the exam ) &nbsp; | [**Project&nbsp;6**&nbsp;**due&nbsp;7/6**](projects/project_6/project_6.html){:target="_blank"} 
