@@ -31,18 +31,17 @@ ________________________________________________________________________________
   
 <br/>  
 <br/>  
-<br/>  
 ____________________________________________________________________________________________________________  
  &nbsp; 2 )  Is it ASSOCIATIVE? Give BA (boolean algebra) justification.  
   
 <br/>  
 <br/>
-<br/>  
+  
 4\.  Simplify the following boolean functions:  
  &nbsp; 1 )  $$ f = ( ( x + y' ) * ( x' + y + z' ) * ( x + z ))' $$
   
 <br/>  
-  
+<br/>  
 <br/>  
 <br/>  
   
@@ -50,16 +49,14 @@ ________________________________________________________________________________
  &nbsp; 2 )  $$f = (AC + (B + C)' + (AC)'B')'$$
   
 <br/>  
-  
+<br/>  
 <br/>  
 <br/>  
   
 ____________________________________________________________________________________________________________  
-5\.1 )  Represent the following circuit as a boolean function $$f(A,\, B)$$, and simplify it: ![](XOR_basic_gates.png){:width="240px"}{: style="float:right"}  
-  
-<br/>  
-<br/>  
-<br>
+5\.1 )  Represent the following circuit as a boolean function $$f(A,\, B)$$, and simplify it:  
+![](XOR_basic_gates.png){:width="240px"}{: style="float:right"}  
+ <br>
   
 ____________________________________________________________________________________________________________  
  &nbsp; 2 )  Draw the truth table for boolean function $$f()$$.  
