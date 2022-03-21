@@ -39,7 +39,7 @@ ________________________________________________________________________________
 <br/>
   
 4\.  Simplify the following boolean functions:  
- &nbsp; 1 )  $$ f = WXY'Z + W'XZ + WXYZ $$  
+ &nbsp; 1 )  $$ f = ( ( x + y' ) * ( x' + y + z' ) * ( x + z ))' $$
   
 <br/>  
   
@@ -47,7 +47,7 @@ ________________________________________________________________________________
 <br/>  
   
 ____________________________________________________________________________________________________________  
- &nbsp; 2 )  $$ f = ( ( A + C ) * ( A + B' ) * ( A' + B + C' ) )' $$  
+ &nbsp; 2 )  $$f = (AC + (B + C)' + (AC)'B')'$$
   
 <br/>  
   
@@ -55,7 +55,7 @@ ________________________________________________________________________________
 <br/>  
   
 ____________________________________________________________________________________________________________  
-5\.1 )  Represent the following circuit as a boolean function $$f(x,\, y)$$, and simplify it: ![](XOR_basic_gates.png){:width="240px"}{: style="float:right"}  
+5\.1 )  Represent the following circuit as a boolean function $$f(A,\, B)$$, and simplify it: ![](XOR_basic_gates.png){:width="240px"}{: style="float:right"}  
   
 <br/>  
 <br/>  
