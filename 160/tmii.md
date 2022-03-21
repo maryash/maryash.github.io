@@ -4,19 +4,19 @@ title: TM
 ---
   
 **CSCI 160 &nbsp; &nbsp; &nbsp; MIDTERM EXAM &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; EMPLID: &nbsp;  $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ <br/> First Name: &nbsp; $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$ &nbsp; &nbsp; &nbsp; Last Name: &nbsp; $$\huge{\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}\boxed{\;\;}}$$**  
-1\.1 )  Convert the numbers $$M = 96_{10}$$ and $$N = 118_{10}$$ to base $$2$$,  
+1\.1 )  Convert the numbers $$M = 87_{10}$$ and $$N = 43_{10}$$ to base $$2$$,  
   
 <br/>  
 <br/>  
   
 ____________________________________________________________________________________________________________  
- &nbsp; 2 )  then perform $$M-N$$ using the $$(r-1)'s$$ complement representation subtraction algorithm.  
+ &nbsp; 2 )  then perform $$M-N$$ using the $$r's$$ complement representation subtraction algorithm.  
   
 <br/>  
 <br/>  
   
 ____________________________________________________________________________________________________________  
- &nbsp; 3 )  Finally, convert the result to base $$16$$.  
+ &nbsp; 3 )  Finally, convert the result to base $$8$$.  
   
 <br/>  
   
@@ -55,7 +55,7 @@ ________________________________________________________________________________
 <br/>  
   
 ____________________________________________________________________________________________________________  
-5\.1 )  Represent the following circuit as a boolean function $$f(x,\, y)$$, and simplify it: ![](XOR.png){:width="240px"}{: style="float:right"}  
+5\.1 )  Represent the following circuit as a boolean function $$f(x,\, y)$$, and simplify it: ![](XOR_basic_gates.png){:width="240px"}{: style="float:right"}  
   
 <br/>  
 <br/>  
