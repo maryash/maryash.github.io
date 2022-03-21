@@ -27,7 +27,7 @@ ________________________________________________________________________________
 <br/>  
   
 ____________________________________________________________________________________________________________  
-3\.1 )  Is Boolean NAND operator, defined by: $$x \uparrow y = (xy)'$$ COMMUTATIVE? Give BA justification.  
+3\.1 )  Is Boolean NOR operator, defined by: $$x \downarrow y = (xy)'$$ COMMUTATIVE? Give BA justification.  
   
 <br/>  
 <br/>  
