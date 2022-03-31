@@ -52,9 +52,10 @@ title: CSCI 160 MAIN PAGE
   |  |  |  | 
   |  |  |  | 
   |  |  |  | 
- 5/18 | **Final Exam** | Wednesday | 5:20 – 7:20 pm | 
+ 5/18 | **Final Exam** | Wednesday | 5:20 – 7:20 | 
   
  <!-- -->  
+ 
 <!-- 
   
 <iframe src="https://docs.google.com/spreadsheets/d/1no0KBpltR5dlMFBmZ4Oi5Lp8ZyU2qy2yxiz-mH6-VXg/edit?usp=sharing/pubhtml?gid=0&single=true&widget=true&headers=false" width=702px height=400px ></iframe>  
