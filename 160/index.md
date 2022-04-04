@@ -52,7 +52,7 @@ title: CSCI 160 MAIN PAGE
   |  |  |  | 
   |  |  |  | 
   |  |  |  | 
- **5/18** | **Final Exam** | **Wednesday** | **5:20 – 7:20** | 
+ **5/18** | **Final Exam** | ***Wednesday*** | ***5:20 – 7:20*** | 
   
  <!-- -->  
  
