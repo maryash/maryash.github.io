@@ -253,6 +253,17 @@ HOMEWORK 15
 <a name="16"></a>
 HOMEWORK 16  
   
+17.2  From Homework 15 - but using the Tabulation Method and the Prime Implicant Table.
+  
+  
+---  
+  
+  
+  
+  
+<a name="17"></a>
+HOMEWORK 17  
+  
 17.3  Construct a Half Adder using only NOR gates.  Inverters are allowed.  
   
 17.4  Construct a Full Adder using only HA’s and one other gate.
@@ -263,8 +274,8 @@ HOMEWORK 16
   
   
   
-<a name="17"></a>
-HOMEWORK 17  
+<a name="18"></a>
+HOMEWORK 18  
   
 18.1  Continue the Full Adder proof from the lecture.  Show that $$S = S_2$$ and that $$C_{out} = C_1 + C_2$$.  
   
@@ -282,8 +293,8 @@ HOMEWORK 17
   
   
   
-<a name="18"></a>
-HOMEWORK 18
+<a name="19"></a>
+HOMEWORK 19
   
 ![](hw18.png)  
   
@@ -293,8 +304,8 @@ HOMEWORK 18
   
   
   
-<a name="19"></a>
-HOMEWORK 19    
+<a name="20"></a>
+HOMEWORK 20    
 ![](JKff.png)  
 Evaluate the **J-K FlipFlop**.  Describe its performance. For the truth table consider as inputs J and K only.  Exclude the case $$ J = K = 1 $$ from this truth table, and treat it separately.  
   
