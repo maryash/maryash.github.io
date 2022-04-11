@@ -50,7 +50,7 @@ title: CSCI 160 MAIN PAGE
  4/6 | Prime Implicant Table | [Prime Implicant Table](https://www.geeksforgeeks.org/prime-implicant-chart-for-minimizing-cyclic-boolean-functions/){:target="_blank"}<br/> &nbsp; ***Test 3*** | [Class&nbsp;15](slides/class_15_prime_implicant_table.pdf){:target="_blank"} | [Homework&nbsp;15](hw.html#15){:target="_blank"}&nbsp;due&nbsp;4/11 
  4/11 | More P.I.T. |  |  | [Homework&nbsp;16](hw.html#16){:target="_blank"}&nbsp;due&nbsp;4/13 
  4/13 | Adders | [4.4 Design Procedure](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/102%5B%3Bvnd.vst.idref%3DP7001013970000000000000000001E45%5D!/4/6%400:0){:target="_blank"} | <!--[Class&nbsp;16](slides/class_16_half_full_adder.pdf){:target="_blank"}--> | [Homework&nbsp;17](hw.html#17){:target="_blank"}&nbsp;due&nbsp;4/18 
- 4/18 | Subtractors | [4.5 Binary Adders and Subtractors](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/104%5B%3Bvnd.vst.idref%3DP7001013970000000000000000001F26%5D!/4/2%5BP7001013970000000000000000001F26%5D/2/2%5BP700101397000000000000000000ECA7%5D/2%400:0){:target="_blank"} | <!--[Class&nbsp;17](slides/class_17_half_full_subtractor.pdf){:target="_blank"}--> | [Homework&nbsp;17](hw.html#17){:target="_blank"}&nbsp;due&nbsp;4/20 
+ 4/18 | Subtractors | [4.5 Binary Adders and Subtractors](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/104%5B%3Bvnd.vst.idref%3DP7001013970000000000000000001F26%5D!/4/2%5BP7001013970000000000000000001F26%5D/2/2%5BP700101397000000000000000000ECA7%5D/2%400:0){:target="_blank"} | <!--[Class&nbsp;17](slides/class_17_half_full_subtractor.pdf){:target="_blank"}--> | [Homework&nbsp;18](hw.html#18){:target="_blank"}&nbsp;due&nbsp;4/20 
   |  |  |  | 
   |  |  |  | 
   |  |  |  | 
