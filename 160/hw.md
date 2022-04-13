@@ -284,8 +284,6 @@ HOMEWORK 18
 18.3  Finish and minimize functions $$D$$ and $$β_{out}$$ for a Full Subtractor.  
   
 18.4  Construct a Full Subtractor using only Half Subtractors and one other gate.
-    
-18.5  Express the function: $$f_> = 1 $$   $$ \longleftrightarrow $$   $$ A > B$$.  
   
    
 --- 
@@ -295,6 +293,8 @@ HOMEWORK 18
   
 <a name="19"></a>
 HOMEWORK 19
+    
+18.5  Express the function: $$f_> = 1 $$   $$ \longleftrightarrow $$   $$ A > B$$.  
   
 ![](hw18.png)  
   
