@@ -277,7 +277,7 @@ HOMEWORK 17
 <a name="18"></a>
 HOMEWORK 18  
   
-18.1  Continue the Full Adder proof from the lecture.  Show that $$S = S_2$$ and that $$C_{out} = C_1 + C_2$$.  
+18.1  Continue the Full Adder proof from Lecture 17.  Show that $$S = S_2$$ and that $$C_{out} = C_1 + C_2$$.  
   
 18.2  IBM Full Adder:  Prove it is indeed a FA, i.e. it creates the functions $$S$$ and $$C_{out}$$ of a FA.
   
