@@ -51,7 +51,8 @@ title: CSCI 160 MAIN PAGE
  4/11 | More P.I.T. ,<br/>Adders | [4.4 Design Procedure](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/102%5B%3Bvnd.vst.idref%3DP7001013970000000000000000001E45%5D!/4/6%400:0){:target="_blank"} | [Class&nbsp;16](slides/class_16_half_full_adder.pdf){:target="_blank"} | [Homework&nbsp;16](hw.html#16){:target="_blank"}&nbsp;due&nbsp;4/13 
  4/13 | Subtractors | [4.5 Binary Adders and Subtractors](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/104%5B%3Bvnd.vst.idref%3DP7001013970000000000000000001F26%5D!/4/2%5BP7001013970000000000000000001F26%5D/2/2%5BP700101397000000000000000000ECA7%5D/2%400:0){:target="_blank"} | [Class&nbsp;17](slides/class_17_half_full_subtractor.pdf){:target="_blank"} | [Homework&nbsp;17](hw.html#17){:target="_blank"}&nbsp;due&nbsp;4/25<br/>[Homework&nbsp;18](hw.html#18){:target="_blank"}&nbsp;due&nbsp;4/25 
  | SPRING | BREAK |  | 
- 4/25 |  |  |  |  
+ 4/25 | Comparator &<br/>Controlled Input | [4.11 Multiplexers](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/116%5B%3Bvnd.vst.idref%3DP700101397000000000000000000252B%5D!/4/2%5BP700101397000000000000000000252B%5D/2/2%5BP700101397000000000000000000F251%5D/2%400:0){:target="_blank"} | [Class&nbsp;18<br/>FlipFlops](slides/class_18_controlled_input.pdf){:target="_blank"} | [Homework&nbsp;19](hw.html#19){:target="_blank"}&nbsp;due&nbsp;4/27
+ 4/27 |  |  |  |  
   |  |  |  | 
   |  |  |  | 
   |  |  |  | 
@@ -64,7 +65,6 @@ title: CSCI 160 MAIN PAGE
 <iframe src="https://docs.google.com/spreadsheets/d/1no0KBpltR5dlMFBmZ4Oi5Lp8ZyU2qy2yxiz-mH6-VXg/edit?usp=sharing/pubhtml?gid=0&single=true&widget=true&headers=false" width=702px height=400px ></iframe>  
   
      
- 11/18 | Controlled Input | [4.11 Multiplexers](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/116%5B%3Bvnd.vst.idref%3DP700101397000000000000000000252B%5D!/4/2%5BP700101397000000000000000000252B%5D/2/2%5BP700101397000000000000000000F251%5D/2%400:0){:target="_blank"} | [Class&nbsp;18<br/>FlipFlops](slides/class_18_controlled_input.pdf){:target="_blank"} | [Homework&nbsp;18](hw.html#18){:target="_blank"}&nbsp;due&nbsp;11/22
  11/22 | Flip-Flops, Clock | [5.4&nbsp;Storage&nbsp;Elements:&nbsp;FlipFlops](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/140%5B%3Bvnd.vst.idref%3DP7001013970000000000000000002C7F%5D!/4/2%5BP7001013970000000000000000002C7F%5D/2/2%5BP700101397000000000000000000F857%5D/2%400:0){:target="_blank"} | [Class&nbsp;19](slides/class_19_flip_flops.pdf){:target="_blank"} | [Homework&nbsp;19](hw.html#19){:target="_blank"}&nbsp;due&nbsp;11/29 
  11/29 | Racing Fix<br/>JK Flip-Flop| [RP Lecture Animation](https://www.icloud.com/keynote/0b7yKA17bN9L6RogUHAtZluag#class%5F20%5Fracing%5Fproblem){:target="_blank"}<br/>[J K Lecture Animation](https://www.icloud.com/keynote/0NrlaM7Y-l4-ifLDppBZ_bTOQ#Class_21_and_Review){:target="_blank"} | [Class&nbsp;20](slides/class_20_racing_problem.pdf){:target="_blank"}<br/>[Class&nbsp;21](slides/class_21_jk_flipflop_and_review.pdf){:target="_blank"} | 
  12/2 | State Diagrams | [5.5 Analysis of Clocked Sequential Circuits](https://bookshelf.vitalsource.com/reader/books/9780134529561/epubcfi/6/142[%3Bvnd.vst.idref%3DP7001013970000000000000000002D4A]!/4#:~:text=Add%20Bookmark-,Practice,-Exercise%205.5){:target="_blank"} | [State Tables<br/>and&nbsp;Diagrams](slides/Mano_State_Table_and_Diagram.pdf){:target="_blank"} | 
