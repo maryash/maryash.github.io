@@ -53,9 +53,11 @@ title: CSCI 160 MAIN PAGE
  | SPRING | BREAK |  | 
  4/25 | Comparator &<br/>Controlled Input | [4.11 Multiplexers](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/116%5B%3Bvnd.vst.idref%3DP700101397000000000000000000252B%5D!/4/2%5BP700101397000000000000000000252B%5D/2/2%5BP700101397000000000000000000F251%5D/2%400:0){:target="_blank"} | [Class&nbsp;18<br/>FlipFlops](slides/class_18_controlled_input.pdf){:target="_blank"} | [Homework&nbsp;19](hw.html#19){:target="_blank"}&nbsp;due&nbsp;4/27
  4/27 |  |  |  |  
-  |  |  |  | 
-  |  |  |  | 
-  |  |  |  | 
+ 5/2 |  |  |  | 
+ 5/4 |  |  |  | 
+ 5/9 |  |  |  | 
+ 5/11 |  |  |  | 
+ 5/16 | Exam Review |  |  | 
  **5/18** | **Final Exam** | ***Wednesday*** | ***5:20 – 7:20*** | 
   
  <!-- -->  
