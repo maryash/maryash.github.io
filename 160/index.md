@@ -60,20 +60,7 @@ title: CSCI 160 MAIN PAGE
  5/16 | Exam Review |  |  | 
  **5/18** | **Final Exam** | ***Wednesday*** | ***5:20 – 7:20*** | 
   
- <!-- -->  
- 
-<!-- 
-  
-<iframe src="https://docs.google.com/spreadsheets/d/1no0KBpltR5dlMFBmZ4Oi5Lp8ZyU2qy2yxiz-mH6-VXg/edit?usp=sharing/pubhtml?gid=0&single=true&widget=true&headers=false" width=702px height=400px ></iframe>  
-  
-     
- 11/22 | Flip-Flops, Clock | [5.4&nbsp;Storage&nbsp;Elements:&nbsp;FlipFlops](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/140%5B%3Bvnd.vst.idref%3DP7001013970000000000000000002C7F%5D!/4/2%5BP7001013970000000000000000002C7F%5D/2/2%5BP700101397000000000000000000F857%5D/2%400:0){:target="_blank"} | [Class&nbsp;19](slides/class_19_flip_flops.pdf){:target="_blank"} | [Homework&nbsp;19](hw.html#19){:target="_blank"}&nbsp;due&nbsp;11/29 
- 11/29 | Racing Fix<br/>JK Flip-Flop| [RP Lecture Animation](https://www.icloud.com/keynote/0b7yKA17bN9L6RogUHAtZluag#class%5F20%5Fracing%5Fproblem){:target="_blank"}<br/>[J K Lecture Animation](https://www.icloud.com/keynote/0NrlaM7Y-l4-ifLDppBZ_bTOQ#Class_21_and_Review){:target="_blank"} | [Class&nbsp;20](slides/class_20_racing_problem.pdf){:target="_blank"}<br/>[Class&nbsp;21](slides/class_21_jk_flipflop_and_review.pdf){:target="_blank"} | 
- 12/2 | State Diagrams | [5.5 Analysis of Clocked Sequential Circuits](https://bookshelf.vitalsource.com/reader/books/9780134529561/epubcfi/6/142[%3Bvnd.vst.idref%3DP7001013970000000000000000002D4A]!/4#:~:text=Add%20Bookmark-,Practice,-Exercise%205.5){:target="_blank"} | [State Tables<br/>and&nbsp;Diagrams](slides/Mano_State_Table_and_Diagram.pdf){:target="_blank"} | 
- 12/6 | State&nbsp;Equasions,<br/>Finate State Machines | [Four-Variable K-Map](https://bookshelf.vitalsource.com/reader/books/9780134529561/epubcfi/6/72[%3Bvnd.vst.idref%3DP70010139700000000000000000015EB]!/4/2[P70010139700000000000000000015EB]/2/2[P700101397000000000000000000E4BE]/3:16[E%20K%2C-MA]){:target="_blank"} |  | 
- 12/13 | Review 2 | !!! ON BLACKBOARD COLLABORATE !!! | !!! ONLINE !!! |  
- 12/20 | FINAL | EXAM | MONDAY	12/20	1:45 – 3:45  HW615 | 
-  
+   
     
     
 --- 
@@ -99,7 +86,26 @@ title: CSCI 160 MAIN PAGE
   
   
   
-10/25 | Canonical vs Standard | [2.6 Canonical,&nbsp;Standard&nbsp;Forms](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/52%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000F17%5D!/4/2%5BP7001013970000000000000000000F17%5D/2/2%5BP700101397000000000000000000DEC0%5D/2%400:0){:target="_blank"} | [Class&nbsp;10](slides/class_10_canonical_standard.pdf){:target="_blank"} | 
+<!-- -->  
+ 
+<!-- 
+  
+<iframe src="https://docs.google.com/spreadsheets/d/1no0KBpltR5dlMFBmZ4Oi5Lp8ZyU2qy2yxiz-mH6-VXg/edit?usp=sharing/pubhtml?gid=0&single=true&widget=true&headers=false" width=702px height=400px ></iframe>  
+  
+     
+ 11/22 | Flip-Flops, Clock | [5.4&nbsp;Storage&nbsp;Elements:&nbsp;FlipFlops](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/140%5B%3Bvnd.vst.idref%3DP7001013970000000000000000002C7F%5D!/4/2%5BP7001013970000000000000000002C7F%5D/2/2%5BP700101397000000000000000000F857%5D/2%400:0){:target="_blank"} | [Class&nbsp;19](slides/class_19_flip_flops.pdf){:target="_blank"} | [Homework&nbsp;19](hw.html#19){:target="_blank"}&nbsp;due&nbsp;11/29 
+ 11/29 | Racing Fix<br/>JK Flip-Flop| [RP Lecture Animation](https://www.icloud.com/keynote/0b7yKA17bN9L6RogUHAtZluag#class%5F20%5Fracing%5Fproblem){:target="_blank"}<br/>[J K Lecture Animation](https://www.icloud.com/keynote/0NrlaM7Y-l4-ifLDppBZ_bTOQ#Class_21_and_Review){:target="_blank"} | [Class&nbsp;20](slides/class_20_racing_problem.pdf){:target="_blank"}<br/>[Class&nbsp;21](slides/class_21_jk_flipflop_and_review.pdf){:target="_blank"} | 
+ 12/2 | State Diagrams | [5.5 Analysis of Clocked Sequential Circuits](https://bookshelf.vitalsource.com/reader/books/9780134529561/epubcfi/6/142[%3Bvnd.vst.idref%3DP7001013970000000000000000002D4A]!/4#:~:text=Add%20Bookmark-,Practice,-Exercise%205.5){:target="_blank"} | [State Tables<br/>and&nbsp;Diagrams](slides/Mano_State_Table_and_Diagram.pdf){:target="_blank"} | 
+ 12/6 | State&nbsp;Equasions,<br/>Finate State Machines | [Four-Variable K-Map](https://bookshelf.vitalsource.com/reader/books/9780134529561/epubcfi/6/72[%3Bvnd.vst.idref%3DP70010139700000000000000000015EB]!/4/2[P70010139700000000000000000015EB]/2/2[P700101397000000000000000000E4BE]/3:16[E%20K%2C-MA]){:target="_blank"} |  | 
+ 12/13 | Review 2 | !!! ON BLACKBOARD COLLABORATE !!! | !!! ONLINE !!! |  
+ 12/20 | FINAL | EXAM | MONDAY	12/20	1:45 – 3:45  HW615 | 
+
+
+
+
+
+
+ 10/25 | Canonical vs Standard | [2.6 Canonical,&nbsp;Standard&nbsp;Forms](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/52%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000F17%5D!/4/2%5BP7001013970000000000000000000F17%5D/2/2%5BP700101397000000000000000000DEC0%5D/2%400:0){:target="_blank"} | [Class&nbsp;10](slides/class_10_canonical_standard.pdf){:target="_blank"} | 
 [Homework&nbsp;10](hw.html#10){:target="_blank"}&nbsp;due&nbsp;6/16 
 
 
