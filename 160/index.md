@@ -63,14 +63,6 @@ title: CSCI 160 MAIN PAGE
    
     
     
---- 
-  
-  
-  
----  
-  
-  
-  
 ### Instructor Evaluations:
 **Computer: [www.hunter.cuny.edu/te](http://www.hunter.cuny.edu/te){:target="_blank"}**  
 **Smartphone: [www.hunter.cuny.edu/mobilete](http://www.hunter.cuny.edu/mobilete){:target="_blank"}**
@@ -79,6 +71,14 @@ title: CSCI 160 MAIN PAGE
   
   
 ---  
+  
+  
+  
+---  
+  
+  
+  
+--- 
   
   
   
