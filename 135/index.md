@@ -3,7 +3,7 @@ layout: myDefault
 title: CSCI 135 MAIN PAGE 
 ---  
 
-**[CSCI 135&nbsp; ANALYSIS & DESIGN 1 &nbsp; &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
+**[CSCI 135&nbsp; ANALYSIS & DESIGN 1 &nbsp; &nbsp; &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
   
 In these two courses, both of which are required to graduate with a computer science major, you will learn principles of programming, analysis, and design and gain a deep practical knowledge of C++.  
   
@@ -29,6 +29,12 @@ The tutors are there to help you with all of your labs, assignments, and project
 
  :---: | :---: | :---: | :---: 
  Section &nbsp; | Lab in HN 1001C &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+ 
+Hafiz	Sadab	sadab.hafiz52@myhunter.cuny.edu			
+Hassan	Yasmeen	yh475@hunter.cuny.edu			
+Lynch	Melissa	melissa.lynch@hunter.cuny.edu			
+Yu	Mandy	mandy.yu44@myhunter.cuny.edu			
+
  136.01 | Mo 1:10 – 3:00 PM | *Minh Nguyen* | minh.nguyen@hunter.cuny.edu 
  136.02 | Mo 3:10 – 5:00 PM | *Minh Nguyen* | minh.nguyen@hunter.cuny.edu 
  136.03 | Mo 5:10 – 7:00 PM | *Minh Nguyen* | minh.nguyen@hunter.cuny.edu 
