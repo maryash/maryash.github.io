@@ -27,12 +27,10 @@ The tutors are there to help you with all of your labs, assignments, and project
   
 **Email Questions** You must get hands-on programing help in person during your lab or from tutors in lab B. We will never debug your code over email. You should ask questions during the lab and the lecture.  All other email questions must be sent to your lab instructor listed below. You must always include your section, name of lab instructor, your name and EMPLID.   
 
-** 
-Hafiz	Sadab	sadab.hafiz52@myhunter.cuny.edu <br/>			
+**Hafiz	Sadab	sadab.hafiz52@myhunter.cuny.edu <br/>			
 Hassan	Yasmeen	yh475@hunter.cuny.edu <br/>			
 Lynch	Melissa	melissa.lynch@hunter.cuny.edu <br/>			
-Yu	Mandy	mandy.yu44@myhunter.cuny.edu <br/>			
-**
+Yu	Mandy	mandy.yu44@myhunter.cuny.edu <br/>**  
 
 Fang	Samuel	samuel.fang83@myhunter.cuny.edu <br/>			
 Hermanto	Stefani	stefani.hermanto84@myhunter.cuny.edu <br/>			
