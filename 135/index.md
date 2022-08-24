@@ -15,6 +15,8 @@ In these two courses, both of which are required to graduate with a computer sci
     
 **Tutoring:** The tutors for this course are available in the Open Lab Session on BlackBoard Collaborate of CSCI 135.  This session runs all week:  
   
+1001B, between 11:30-5pm Mo-Fr. Left side of the room is for 135, right side is for 235.  
+  
 Mondays: 11:00 AM -- 7:00 PM  
 Wednesdays: 8:00 AM -- 7:00 PM  
 Tuesdays, Thursdays, and Fridays: 11:00 AM -- 6:00 PM  
@@ -31,7 +33,15 @@ The tutors are there to help you with all of your labs, assignments, and project
 Hassan	Yasmeen	yh475@hunter.cuny.edu <br/>			
 Lynch	Melissa	melissa.lynch@hunter.cuny.edu <br/>			
 Yu	Mandy	mandy.yu44@myhunter.cuny.edu <br/>**  
-
+  
+Sadab Hafiz, Yasmeen Hassan, Enxhi Osmanllari, and Mandy Yu. I’m also including Violent in this as well.  
+  
+Here are their schedules  
+Sadab Hafiz: 1R01 (11928), 1R02 (11929), 1R07 (11935)  
+Yasmeen Hassan: 1R03 (11930), 1R10 (59127)  
+Enxhi Osmanllari: 1R08 (11936)  
+Mandy Yu: 1R04 (11931), 1R05 (11932), 1R06 (11933)  
+  
 Fang	Samuel	samuel.fang83@myhunter.cuny.edu <br/>			
 Hermanto	Stefani	stefani.hermanto84@myhunter.cuny.edu <br/>			
 Zhen	John	john.zhen24@myhunter.cuny.edu <br/>			
