@@ -34,7 +34,7 @@ Zhen	John	john.zhen24@myhunter.cuny.edu
 Mok	Adrian	adrian.mok15@myhunter.cuny.edu  			
 
  :---: | :---: | :---: | :---: 
- Section &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Recitarion in **1001C** | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+ Section &nbsp; &nbsp; | Recitarion in **1001C** &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
  11928 1R01 | Mo 1:10 – 3:00 PM | *Sadab Hafiz* | sadab.hafiz52@myhunter.cuny.edu 
  11929 1R02 | Mo 3:10 – 5:00 PM | *Sadab Hafiz* | sadab.hafiz52@myhunter.cuny.edu 
  11930 1R03 | Mo 5:30 – 7:20 PM | *Yasmeen Hassan* | yh475@hunter.cuny.edu 
