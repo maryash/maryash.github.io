@@ -61,8 +61,7 @@ For more detailed information, see your CSCI 135 syllabus.
 LINKS & INFO  
 [Basic Linux command line commands](https://a-nikolaev.github.io/cs136/linux/)  
 [Linux Lab FAQ](http://www.geography.hunter.cuny.edu/tbw/CS.Linux.Lab.FAQ/department_of_computer_science.faq.htm)  
-[How to setup a Unix environment on a Windows computer](https://okunhardt.github.io/documents/Installing_WSL.pdf
-). 
+[How to setup a Unix environment on a Windows computer](https://okunhardt.github.io/documents/Installing_WSL.pdf). 
 [Configuring Vim (and Vi) text editor](https://a-nikolaev.github.io/cs136/vim/)
 
 Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. The College is committed to enforcing the CUNY Policy on Academic Integrity and will pursue cases of academic dishonesty according to the Hunter College Academic Integrity Procedures.
