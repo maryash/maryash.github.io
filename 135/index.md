@@ -9,10 +9,9 @@ In these two courses, both of which are required to graduate with a computer sci
   
 [**CSCI 135 Syllabus**](syllabus_135.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Recitation Syllabus**](syllabus_136.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Gradescope**](https://www.gradescope.com/courses/20712){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Coding Style Guide**](worked_examples/style_guide.html){:target="_blank"}
  
-**Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.wiley.com/en-us/Brief+C%2B%2B%3A+Late+Objects%2C+3rd+Edition-p-9781119400424){:target="_blank"} – please rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material!  
+**Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.wiley.com/en-us/Brief+C%2B%2B%3A+Late+Objects%2C+3rd+Edition-p-9781119400424){:target="_blank"} – you must rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material!  
 
 **Linux on Windows Tutorial:** &nbsp; [https://okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf)  
-    
 **Tutoring:** The tutors for this course are available in the Open Lab Session on BlackBoard Collaborate of CSCI 135.  This session runs all week:  
   
 1001B, between 11:30-5pm Mo-Fr. Left side of the room is for 135, right side is for 235.  
@@ -24,57 +23,39 @@ Tuesdays, Thursdays, and Fridays: 11:00 AM -- 6:00 PM 
 The tutors are there to help you with all of your labs, assignments, and projects!  Get as much help as you need.  
   
 **Lecture: Monday, Wednesday, Thursday 8:30 – 9:45 PM HN 118**  
-
+  
 **Lecture Instructor**: Genady Maryash &nbsp; HN1047 &nbsp; Office hours: Mo Th 9:45 – 10:45 PM, &nbsp; gmaryash@hunter.cuny.edu   
   
-**Email Questions** You must get hands-on programing help in person during your lab or from tutors in lab B. We will never debug your code over email. You should ask questions during the lab and the lecture.  All other email questions must be sent to your lab instructor listed below. You must always include your section, name of lab instructor, your name and EMPLID.   
-
-**Hafiz	Sadab	sadab.hafiz52@myhunter.cuny.edu <br/>			
-Hassan	Yasmeen	yh475@hunter.cuny.edu <br/>			
-Lynch	Melissa	melissa.lynch@hunter.cuny.edu <br/>			
-Yu	Mandy	mandy.yu44@myhunter.cuny.edu <br/>**  
-  
-Sadab Hafiz, Yasmeen Hassan, Enxhi Osmanllari, and Mandy Yu. I’m also including Violent in this as well.  
-  
-Here are their schedules  
-Sadab Hafiz: 1R01 (11928), 1R02 (11929), 1R07 (11935)  
-Yasmeen Hassan: 1R03 (11930), 1R10 (59127)  
-Enxhi Osmanllari: 1R08 (11936)  
-Mandy Yu: 1R04 (11931), 1R05 (11932), 1R06 (11933)  
-  
-Fang	Samuel	samuel.fang83@myhunter.cuny.edu <br/>			
-Hermanto	Stefani	stefani.hermanto84@myhunter.cuny.edu <br/>			
-Zhen	John	john.zhen24@myhunter.cuny.edu <br/>			
-Mok	Adrian	adrian.mok15@myhunter.cuny.edu <br/>			
-<!---
-Butt	Abu	abu.butt26@myhunter.cuny.edu <br/>			
-Grachev	Eric	eric.grachev80@myhunter.cuny.edu <br/>			
-Ko	Ken	ken.ko17@myhunter.cuny.edu <br/>			
-Rao	Ivan	ivan.rao65@myhunter.cuny.edu <br/>			
-Uddin	Ashfak	ashfak.uddin26@myhunter.cuny.edu <br/>			
-Volchek	Daniel	daniel.volchek81@myhunter.cuny.edu <br/>			
----> 
+**Email Questions** You must get hands-on programing help in person during your lab or from tutors in #HN Lab B. We will never debug your code over email. You should ask questions during the lab and the lecture.  All other email questions must be sent to your lab instructor listed below. You must always include your section, name of lab instructor, your name and EMPLID.   	 	
+    
+Alvin Woo
+Fang	Samuel	samuel.fang83@myhunter.cuny.edu  			
+Zhen	John	john.zhen24@myhunter.cuny.edu  			
+Mok	Adrian	adrian.mok15@myhunter.cuny.edu  			
 
  :---: | :---: | :---: | :---: 
- Section &nbsp; | Lab in HN 1001C &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
- 136.01 | Mo 1:10 – 3:00 PM | *Minh Nguyen* | minh.nguyen@hunter.cuny.edu 
- 136.02 | Mo 3:10 – 5:00 PM | *Minh Nguyen* | minh.nguyen@hunter.cuny.edu 
- 136.03 | Mo 5:10 – 7:00 PM | *Minh Nguyen* | minh.nguyen@hunter.cuny.edu 
- 136.05 | We 8:10 - 10:00AM | *Subhadarshi Panda* | spanda@gradcenter.cuny.edu 
- 136.06 | We 10:10 - 12:00C | *Subhadarshi Panda* | spanda@gradcenter.cuny.edu 
- 136.11 | We 10:10 - 12:00B | *Hirohiko Kushida* | hkushida1@gradcenter.cuny.edu 
- 136.07 | We 3:10 – 5:00 PM | *Jaspal Singh* | Jaspal.Singh62@myhunter.cuny.edu  
- 136.08 | We 5:10 – 7:00 PM | *Shadman Quazi* | Shadman.Quazi62@myhunter.cuny.edu 
- 136.09 | Th 1:10 – 3:00 PM | *Melissa Lynch* | lynch.melissat@gmail.com 
- 136.10 | Th 3:10 – 5:00 PM | *Melissa Lynch* | lynch.melissat@gmail.com 
- 
+ Section &nbsp; | Recitation in **HN 1001C** &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+ 11928	1R01-REC | Mo 1:10 – 3:00 PM | *Sadab Hafiz* | sadab.hafiz52@myhunter.cuny.edu 
+ 11929	1R02-REC | Mo 3:10 – 5:00 PM | *Sadab Hafiz* | sadab.hafiz52@myhunter.cuny.edu 
+ 11930	1R03-REC | Mo 5:30 – 7:20 PM | *Yasmeen Hassan* | yh475@hunter.cuny.edu 
+ 59127	1R10-REC | Tu 5:30 – 7:20 PM | *Yasmeen Hassan* | yh475@hunter.cuny.edu 
+ 11931	1R04-REC | We 10:10–12:00 PM | *Mandy Yu* | mandy.yu44@myhunter.cuny.edu 
+ 11932	1R05-REC | We 12:10 – 2:00PM | *Mandy Yu* | mandy.yu44@myhunter.cuny.edu  
+ 11933	1R06-REC | We 4:00 – 5:50 PM | *Mandy Yu* | mandy.yu44@myhunter.cuny.edu 
+ 11935	1R07-REC | Th 3:10 – 5:00 PM | *Sadab Hafiz* | sadab.hafiz52@myhunter.cuny.edu 
+ 11936	1R08-REC | Th 5:30 – 7:20 PM | *Enxhi Osmanllari* | enxhi.osmanllari81@myhunter.cuny.edu 
+ 11934	XCSR-REC | MoTh10:00-10:50AM | *Michael Zamansky* | mz631@hunter.cuny.edu 
+  
  **COURSE OUTLINE**  
    
  DATE | TOPIC | READING:&nbsp;Brief&nbsp;C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | DUE&nbsp;DATES 
  :---: | :---: | --- | :---: | ---: 
  8/25 | [Syllabus](syllabus_135.html){:target="_blank"}<br/>[Gradescope](https://www.gradescope.com/courses/33735){:target="_blank"}<br/>[eText features](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/2!/4/2/2@0:0){:target="_blank"}<br/>**C++&nbsp;Review** | [1.3&nbsp;Programming Languages](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/28[;vnd.vst.idref=bc3e_ch01-4]!/4[bc3e_ch01-4]/2/2[_idParaDest-5]/2@0:0){:target="_blank"}<br/>[1.5&nbsp;Analyzing&nbsp;Your&nbsp;First&nbsp;Program](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/36[;vnd.vst.idref=bc3e_ch01-8]!/4[bc3e_ch01-8]/4/2[_idParaDest-10]/2@0:0){:target="_blank"}<br/>[1.6 Errors](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/40[;vnd.vst.idref=bc3e_ch01-10]!/4[bc3e_ch01-10]/2/2[_idParaDest-17]/2@0:0){:target="_blank"}<br/>[1.7 HW Algorithm Design](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/44[;vnd.vst.idref=bc3e_ch01-12]!/4[bc3e_ch01-12]/2/2[_idParaDest-20]/2@0:0){:target="_blank"} | [1.5](slides/1.5 Analyzing Your First Program.pdf){:target="_blank"}<br/>[1.6](slides/1.6 Errors.pdf){:target="_blank"}<br/>[1.7](slides/1.7 PS Algorithm Design.pdf){:target="_blank"} | **[E1.7](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/64[;vnd.vst.idref=bc3e_ch01-20]!/4[bc3e_ch01-20]/2/22/2@0:0 "E1.7 Write a program that asks the user for three items, such as the names of your three best friends or favorite movies, and prints them on three separate lines."){:target="_blank"} &nbsp; 1/29**<br/>**[LAB&nbsp;1&nbsp; Intro to Linux and to C++](labs/lab_01.html){:target="_blank"}&nbsp;&nbsp;&nbsp;2/2**<br/>**[E2.10](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/134[;vnd.vst.idref=bc3e_ch02-27]!/4[bc3e_ch02-27]/4/46/2@0:0 "E2.10 Write a program that asks the user to input: the number of gallons of gas in the tank, the fuel efficiency in miles per gallon, and the price of gas per gallon.  Then print the cost per 100 miles and how far the car can go with the gas in the tank."){:target="_blank"} &nbsp; 1/31** 
  8/29 | **Fundamental Data&nbsp;Types** | [2.1 Variables](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/70[;vnd.vst.idref=bc3e_ch02-1]!/4[bc3e_ch02-1]/4/2[_idParaDest-34]/2@0:0){:target="_blank"}<br/>[2.2 Arithmetic](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/84[;vnd.vst.idref=bc3e_ch02-8]!/4[bc3e_ch02-8]/4/2[_idParaDest-57]/2@0:0){:target="_blank"} | [2.1](slides/2.1 Variables.pdf){:target="_blank"}<br/>[2.2](slides/2.2 Arithmetic.pdf){:target="_blank"} | [WE&nbsp;2.1](worked_examples/ch2_WE1.pdf){:target="_blank"}<br/>[WE&nbsp;2.2](worked_examples/ch2_WE2.pdf){:target="_blank"} 
- 9/1 | **Arrays<br/>Strings** | [6.1 Arrays](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/338[;vnd.vst.idref=bc3e_ch06-1]!/4[bc3e_ch06-1]/4/2[_idParaDest-260]/2@0:0){:target="_blank"}<br/>[2.3 Input and Output](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/98[;vnd.vst.idref=bc3e_ch02-14]!/4[bc3e_ch02-14]/4/2[_idParaDest-78]/2@0:0){:target="_blank"}<br/>[**2.4 PS** *First Do It By Hand*](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/102[;vnd.vst.idref=bc3e_ch02-16]!/4[bc3e_ch02-16]/2/2[_idParaDest-82]/2@0:0){:target="_blank"}<br/>[2.5 Strings](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/110[;vnd.vst.idref=bc3e_ch02-20]!/4[bc3e_ch02-20]/4/2[_idParaDest-89]/2@0:0){:target="_blank"} | [6.1](slides/6.1 Arrays.pdf){:target="_blank"}<br/>[2.3-4](slides/2.3 Input and Output _ 2.4 PS First Do It By Hand.pdf){:target="_blank"}<br/>[2.5](slides/2.5 Strings.pdf){:target="_blank"} | **[PS 2.4](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/102[;vnd.vst.idref=bc3e_ch02-16]!/4[bc3e_ch02-16]/2/2[_idParaDest-82]/2@0:0){:target="_blank"}**<br/>**[LAB&nbsp;2&nbsp; Loops and Arrays](labs/lab_02.html){:target="_blank"} &nbsp; 2/9**<br/>**[Project&nbsp;1A](projects/project_01.html){:target="_blank"}&nbsp;&nbsp;&nbsp;2/5** 
+  
+<!---
+
+9/1 | **Arrays<br/>Strings** | [6.1 Arrays](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/338[;vnd.vst.idref=bc3e_ch06-1]!/4[bc3e_ch06-1]/4/2[_idParaDest-260]/2@0:0){:target="_blank"}<br/>[2.3 Input and Output](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/98[;vnd.vst.idref=bc3e_ch02-14]!/4[bc3e_ch02-14]/4/2[_idParaDest-78]/2@0:0){:target="_blank"}<br/>[**2.4 PS** *First Do It By Hand*](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/102[;vnd.vst.idref=bc3e_ch02-16]!/4[bc3e_ch02-16]/2/2[_idParaDest-82]/2@0:0){:target="_blank"}<br/>[2.5 Strings](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/110[;vnd.vst.idref=bc3e_ch02-20]!/4[bc3e_ch02-20]/4/2[_idParaDest-89]/2@0:0){:target="_blank"} | [6.1](slides/6.1 Arrays.pdf){:target="_blank"}<br/>[2.3-4](slides/2.3 Input and Output _ 2.4 PS First Do It By Hand.pdf){:target="_blank"}<br/>[2.5](slides/2.5 Strings.pdf){:target="_blank"} | **[PS 2.4](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/102[;vnd.vst.idref=bc3e_ch02-16]!/4[bc3e_ch02-16]/2/2[_idParaDest-82]/2@0:0){:target="_blank"}**<br/>**[LAB&nbsp;2&nbsp; Loops and Arrays](labs/lab_02.html){:target="_blank"} &nbsp; 2/9**<br/>**[Project&nbsp;1A](projects/project_01.html){:target="_blank"}&nbsp;&nbsp;&nbsp;2/5** 
  9/8 |  |  |  |  
  9/12 | **Decisions** | [3.1 The `if` Statement](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/140[;vnd.vst.idref=bc3e_ch03-1]!/4[bc3e_ch03-1]/4/2[_idParaDest-100]/2@0:0){:target="_blank"}<br/>[3.2 Comparing Numbers and Strings](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/144[;vnd.vst.idref=bc3e_ch03-3]!/4[bc3e_ch03-3]/4/2[_idParaDest-114]/2@0:0){:target="_blank"}<br/>[3.3 Multiple Alternatives](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/154[;vnd.vst.idref=bc3e_ch03-8]!/4[bc3e_ch03-8]/4/2[_idParaDest-129]/2@0:0){:target="_blank"}<br/>[3.4 Nested Branches](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/158[;vnd.vst.idref=bc3e_ch03-10]!/4[bc3e_ch03-10]/2/2[_idParaDest-132]/2@0:0){:target="_blank"}<br/>[3.8 Application: Input Validation](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/172[;vnd.vst.idref=bc3e_ch03-17]!/4[bc3e_ch03-17]/2/2[_idParaDest-150]/2@0:0){:target="_blank"} | [3.1](slides/3.1 The IF Statement.pdf){:target="_blank"}<br/>[3.2](slides/3.2 Comparing Numbers and Strings.pdf){:target="_blank"}<br/>[3.3-4](slides/3.3 Multiple Alternatives _ 3.4 Nested Branches.pdf){:target="_blank"}<br/>[D.M.L.](https://onlinegdb.com/SkleVcbLN){:target="_blank"}<br/>[3.8](slides/3.8 Application_ Input Validation.pdf){:target="_blank"} | **[E3.1](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/188[;vnd.vst.idref=bc3e_ch03-21]!/4[bc3e_ch03-21]/4/2[_idParaDest-154]/2@0:0 "Write a program that reads an integer and prints whether it is negative, zero, or positive."){:target="_blank"} &nbsp; 2/26**<br/>[WE&nbsp;3.1](worked_examples/ch3_WE1.pdf){:target="_blank"}<br/>**[PS 3.5](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/162[;vnd.vst.idref=bc3e_ch03-12]!/4[bc3e_ch03-12]/4/2[_idParaDest-137]/2@0:0){:target="_blank"}**<br/>**[PS 3.6](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/164[;vnd.vst.idref=bc3e_ch03-13]!/4[bc3e_ch03-13]/2/2[_idParaDest-138]/2@0:0){:target="_blank"}**<br/>**[Project&nbsp;1B](projects/project_01.html){:target="_blank"}&nbsp;&nbsp;&nbsp;2/10**  
  9/15 | **Loops** | [3.7 Boolean Variables and Operators](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/168[;vnd.vst.idref=bc3e_ch03-15]!/4[bc3e_ch03-15]/2/2[_idParaDest-141]/2@0:0){:target="_blank"}<br/>[4.1 The `while` Loop](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/194[;vnd.vst.idref=bc3e_ch04-1]!/4[bc3e_ch04-1]/4/2[_idParaDest-157]/2@0:0){:target="_blank"}<br/>[**4.2 PS** *Hand-Tracing*](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/200[;vnd.vst.idref=bc3e_ch04-4]!/4[bc3e_ch04-4]/4/2[_idParaDest-166]/2@0:0){:target="_blank"}<br/>[4.3 The `for` Loop](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/202[;vnd.vst.idref=bc3e_ch04-5]!/4[bc3e_ch04-5]/4/2[_idParaDest-167]/2@0:0){:target="_blank"}<br/>[4.4 The `do` Loop](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/206[;vnd.vst.idref=bc3e_ch04-7]!/4[bc3e_ch04-7]/4/2[_idParaDest-175]/2@0:0){:target="_blank"}<br/>[4.5 Processing Input](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/210[;vnd.vst.idref=bc3e_ch04-9]!/4[bc3e_ch04-9]/2/2[_idParaDest-178]/2@0:0){:target="_blank"} | [3.7](slides/3.7 Boolean Variables and Operators.pdf){:target="_blank"}<br/>[4.1](slides/4.1 The WHILE Loop.pdf){:target="_blank"}[4.2-3](slides/4.2 PS Hand-Tracing _ 4.3 The FOR Loop.pdf){:target="_blank"}<br/>[4.4-5](slides/4.4 The DO Loop _ 4.5 Processing Input.pdf){:target="_blank"} | **[E3.5](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/188[;vnd.vst.idref=bc3e_ch03-21]!/4[bc3e_ch03-21]/4/2[_idParaDest-154]/2@0:0 "Write a program that reads three numbers and prints 'increasing' if they are in increasing order, 'decreasing' if they are in decreasing order, and 'neither' otherwise. Here, 'increasing' means 'strictly increasing', with each value larger than its predecessor. The sequence 3 4 4 would not be considered increasing."){:target="_blank"} &nbsp; 2/28**<br/>**[Project&nbsp;1C](projects/project_01.html){:target="_blank"}&nbsp;&nbsp;&nbsp;2/14**<br/>**[PS&nbsp;4.2](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/200[;vnd.vst.idref=bc3e_ch04-4]!/4[bc3e_ch04-4]/4/2[_idParaDest-166]/2@0:0){:target="_blank"}**<br/>**[E4.8](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/270[;vnd.vst.idref=bc3e_ch04-30]!/4[bc3e_ch04-30]/4/94@0:92.7 "Write a program that reads a word and prints each character of the word on a separate line. For example, if the user provides the input "Harry", the program prints: &nbsp; H &nbsp; a &nbsp; r &nbsp; r &nbsp; y"){:target="_blank"} &nbsp; 2/12**<br/>[WE&nbsp;4.1](worked_examples/ch4_WE1.pdf){:target="_blank"}<br/>[WE&nbsp;4.2](worked_examples/ch4_WE2.pdf){:target="_blank"} 
