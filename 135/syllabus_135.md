@@ -74,12 +74,22 @@ You will submit all labs, homeworks, quizzes, and projects electronically throug
 BLACKBOARD  
 Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default), since you are responsible for any email I might send there.  
 
-https://okunhardt.github.io/documents/Installing_WSL.pdf
-
+LINKS & INFO  
+[Basic Linux command line commands](https://a-nikolaev.github.io/cs136/linux/)  
+[Linux Lab FAQ](http://www.geography.hunter.cuny.edu/tbw/CS.Linux.Lab.FAQ/department_of_computer_science.faq.htm)  
+[How to setup a Unix environment on a Windows computer](https://okunhardt.github.io/documents/Installing_WSL.pdf)  
+[Configuring Vim (and Vi) text editor](https://a-nikolaev.github.io/cs136/vim/)  
+  
 SOFTWARE  
 This course it taught in Linux and your programs must be able to run on a Linux platform. On campus, you may use the 1001C and 1001B labs to do your work for this course. The standard Linux/Unix/Mac OS C++ compiler is g++. If you wish to use a home computer, you can use a Mac.  Macs have Unix command line and g++.  You can install [Ubuntu Linux](http://www.ubuntu.com). If you want a Linux environment on Windows without installing Linux, follow this excellent tutorial: [okunhardt.github.io/documents/Installing_WSL.pdf
 ](https://okunhardt.github.io/documents/Installing_WSL.pdf
 ). We have had problems in the past with students programming in a native Windows environment at home, and their programs don’t work in the Linux labs and might be incompatible with Gradescope.
+
+LABS  
+Lab Assignments will be posted on the [Main Course Page](index.html){:target="_blank"}. You submit your solutions through Gradescope. The labs will be posted in advance. Please read the tasks before you come to class. You should try to finish and submitt all lab tasks by the end of the lab period. 
+
+LAB QUIZZES  
+There will be a lab quiz during each lab period.  
 
 GRADING  
 5% mid-lecture quizzes, 6% homeworks, 7% for each of the three projects (this may not seem like a lot, but beware that many exam questions will be based directly on homeworks and projects), 17% each of two midterm exams, and 34% final exam.  If you do better on the final exam, your final exam grade may also replace your quiz and homework grades, as well as the lowest of the three project scores.  However, if you do not pass the final exam, you cannot pass the course.  
