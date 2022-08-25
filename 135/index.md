@@ -34,17 +34,17 @@ Zhen	John	john.zhen24@myhunter.cuny.edu
 Mok	Adrian	adrian.mok15@myhunter.cuny.edu  			
 
  :---: | :---: | :---: | :---: 
- Section &nbsp; | Recitation in **HN 1001C** &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
- 11928	1R01-REC | Mo 1:10 – 3:00 PM | *Sadab Hafiz* | sadab.hafiz52@myhunter.cuny.edu 
- 11929	1R02-REC | Mo 3:10 – 5:00 PM | *Sadab Hafiz* | sadab.hafiz52@myhunter.cuny.edu 
- 11930	1R03-REC | Mo 5:30 – 7:20 PM | *Yasmeen Hassan* | yh475@hunter.cuny.edu 
- 59127	1R10-REC | Tu 5:30 – 7:20 PM | *Yasmeen Hassan* | yh475@hunter.cuny.edu 
- 11931	1R04-REC | We 10:10–12:00 PM | *Mandy Yu* | mandy.yu44@myhunter.cuny.edu 
- 11932	1R05-REC | We 12:10 – 2:00PM | *Mandy Yu* | mandy.yu44@myhunter.cuny.edu  
- 11933	1R06-REC | We 4:00 – 5:50 PM | *Mandy Yu* | mandy.yu44@myhunter.cuny.edu 
- 11935	1R07-REC | Th 3:10 – 5:00 PM | *Sadab Hafiz* | sadab.hafiz52@myhunter.cuny.edu 
- 11936	1R08-REC | Th 5:30 – 7:20 PM | *Enxhi Osmanllari* | enxhi.osmanllari81@myhunter.cuny.edu 
- 11934	XCSR-REC | MoTh10:00-10:50AM | *Michael Zamansky* | mz631@hunter.cuny.edu 
+ Section &nbsp; | Recitarion in **1001C** &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+ 11928 1R01 | Mo 1:10 – 3:00 PM | *Sadab Hafiz* | sadab.hafiz52@myhunter.cuny.edu 
+ 11929 1R02 | Mo 3:10 – 5:00 PM | *Sadab Hafiz* | sadab.hafiz52@myhunter.cuny.edu 
+ 11930 1R03 | Mo 5:30 – 7:20 PM | *Yasmeen Hassan* | yh475@hunter.cuny.edu 
+ 59127 1R10 | Tu 5:30 – 7:20 PM | *Yasmeen Hassan* | yh475@hunter.cuny.edu 
+ 11931 1R04 | We 10:10–12:00 PM | *Mandy Yu* | mandy.yu44@myhunter.cuny.edu 
+ 11932 1R05 | We 12:10 – 2:00PM | *Mandy Yu* | mandy.yu44@myhunter.cuny.edu  
+ 11933 1R06 | We 4:00 – 5:50 PM | *Mandy Yu* | mandy.yu44@myhunter.cuny.edu 
+ 11935 1R07 | Th 3:10 – 5:00 PM | *Sadab Hafiz* | sadab.hafiz52@myhunter.cuny.edu 
+ 11936 1R08 | Th 5:30 – 7:20 PM | *Enxhi Osmanllari* | enxhi.osmanllari81@myhunter.cuny.edu 
+ 11934 XCSR | MoTh10:00-10:50AM | *Michael Zamansky* | mz631@hunter.cuny.edu 
   
  **COURSE OUTLINE**  
    
