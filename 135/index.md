@@ -7,7 +7,7 @@ title: CSCI 135 MAIN PAGE
   
 In these two courses, both of which are required to graduate with a computer science major, you will learn principles of programming, analysis, and design and gain a deep practical knowledge of C++.  
   
-[**CSCI 135 Syllabus**](syllabus_135.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Gradescope](https://www.gradescope.com/courses/428869){:target="_blank"} Entry Code: Y7RBKG** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Coding Style Guide**](worked_examples/style_guide.html){:target="_blank"}
+[**CSCI 135 Syllabus**](syllabus_135.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[Gradescope](https://www.gradescope.com/courses/428869){:target="_blank"} Entry Code: Y7RBKG** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Coding Style Guide**](worked_examples/style_guide.html){:target="_blank"}
  
 **Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.wiley.com/en-us/Brief+C%2B%2B%3A+Late+Objects%2C+3rd+Edition-p-9781119400424){:target="_blank"} – you must rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material!  
 
