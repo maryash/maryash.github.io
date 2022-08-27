@@ -28,7 +28,7 @@ The tutors are there to help you with all of your labs, assignments, and project
   
 **Email Questions** You must get hands-on programing help in person during your lab or from tutors in #HN Lab B. We will never debug your code over email. You should ask questions during the lab and the lecture.  All other email questions must be sent to your lab instructor listed below. You must always include your section, name of lab instructor, your name and EMPLID.   	 	
     
-Alvin Woo
+Alvin Woo	alvin.wu30@myhunter.cuny.edu
 Fang	Samuel	samuel.fang83@myhunter.cuny.edu  			
 Zhen	John	john.zhen24@myhunter.cuny.edu  			
 Mok	Adrian	adrian.mok15@myhunter.cuny.edu  			
