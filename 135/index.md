@@ -12,17 +12,11 @@ In these two courses, both of which are required to graduate with a computer sci
 **Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.wiley.com/en-us/Brief+C%2B%2B%3A+Late+Objects%2C+3rd+Edition-p-9781119400424){:target="_blank"} – you must rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material!  
 
 **Linux on Windows Tutorial:** &nbsp; [https://okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf)  
-**Tutoring:** The tutors for this course are available in the Open Lab Session on BlackBoard Collaborate of CSCI 135.  This session runs all week:  
-  
-1001B, between 11:30-5pm Mo-Fr. Left side of the room is for 135, right side is for 235.  
-  
-Mondays: 11:00 AM -- 7:00 PM  
-Wednesdays: 8:00 AM -- 7:00 PM  
-Tuesdays, Thursdays, and Fridays: 11:00 AM -- 6:00 PM  
+**Tutoring:** #HN-1001B, from 11:30 AM to 5:00 PM Monday through Friday. Left side of the room is for 135, right side is for 235.    
   
 The tutors are there to help you with all of your labs, assignments, and projects!  Get as much help as you need.  
   
-**Lecture: Monday, Wednesday, Thursday 8:30 – 9:45 AM HN 118**  
+**Lecture: Monday, Thursday 8:30 – 9:45 AM HN 118**  
   
 **Lecture Instructor**: Genady Maryash &nbsp; HN1047 &nbsp; Office hours: Mo Th 9:45 – 10:45 PM, &nbsp; gmaryash@hunter.cuny.edu   
   
