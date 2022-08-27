@@ -31,7 +31,8 @@ The tutors are there to help you with all of your labs, assignments, and project
 Alvin Woo	alvin.wu30@myhunter.cuny.edu
 Fang	Samuel	samuel.fang83@myhunter.cuny.edu  			
 Zhen	John	john.zhen24@myhunter.cuny.edu  			
-Mok	Adrian	adrian.mok15@myhunter.cuny.edu  			
+Mok	Adrian	adrian.mok15@myhunter.cuny.edu  
+Yoomin Song	yoomin.song94@myhunter.cuny.edu  
 
  :---: | :---: | :---: | :---: 
  Section &nbsp; &nbsp; | Recitarion in **1001C** &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
