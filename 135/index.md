@@ -10,23 +10,13 @@ In these two courses, both of which are required to graduate with a computer sci
 [**CSCI 135 Syllabus**](syllabus_135.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Gradescope**](https://www.gradescope.com/courses/428869){:target="_blank"} Entry Code: Y7RBKG &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Coding Style Guide**](worked_examples/style_guide.html){:target="_blank"}
  
 **Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.wiley.com/en-us/Brief+C%2B%2B%3A+Late+Objects%2C+3rd+Edition-p-9781119400424){:target="_blank"} – you must rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material!  
-
-**Linux on Windows Tutorial:** &nbsp; [https://okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf)  
-**Tutoring:** #HN-1001B, from 11:30 AM to 5:00 PM Monday through Friday. Left side of the room is for 135, right side is for 235.    
-  
-The tutors are there to help you with all of your labs, assignments, and projects!  Get as much help as you need.  
   
 **Lecture: Monday, Thursday 8:30 – 9:45 AM HN 118**  
   
-**Lecture Instructor**: Genady Maryash &nbsp; HN1047 &nbsp; Office hours: Mo Th 9:45 – 10:45 PM, &nbsp; gmaryash@hunter.cuny.edu   
+**Lecture Instructor**: Genady Maryash &nbsp; HN1047 &nbsp; Office hours: Mo Th 9:45 – 10:45 PM, &nbsp; gmaryash@hunter.cuny.edu  
   
-**Email Questions** You must get hands-on programing help in person during your lab or from tutors in #HN Lab B. We will never debug your code over email. You should ask questions during the lab and the lecture.  All other email questions must be sent to your lab instructor listed below. You must always include your section, name of lab instructor, your name and EMPLID.   	 	
-    
-Alvin Woo	alvin.wu30@myhunter.cuny.edu  
-Fang	Samuel	samuel.fang83@myhunter.cuny.edu  
-Mok	Adrian	adrian.mok15@myhunter.cuny.edu  
-Yoomin Song	yso0003@hunter.cuny.edu  
-
+**Email Questions** You must get hands-on programing help in person during your lab or from tutors in #HN1001B. We will never debug your code over email. You should ask questions during the lab and the lecture.  All other email questions must be sent to your lab instructor listed below. You must always include your section, name of lab instructor, your name and EMPLID.  
+  
  :---: | :---: | :---: | :---: 
  Section &nbsp; &nbsp; | Recitarion in **1001C** &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
  11928 1R01 | Mo 1:10 – 3:00 PM | *Sadab Hafiz* | sadab.hafiz52@myhunter.cuny.edu 
@@ -39,6 +29,16 @@ Yoomin Song	yso0003@hunter.cuny.edu
  11935 1R07 | Th 3:10 – 5:00 PM | *Sadab Hafiz* | sadab.hafiz52@myhunter.cuny.edu 
  11936 1R08 | Th 5:30 – 7:20 PM | *Enxhi Osmanllari* | enxhi.osmanllari81@myhunter.cuny.edu 
  11934 XCSR | MoTh10:00-10:50AM | *Michael Zamansky* | mz631@hunter.cuny.edu 
+  
+**Linux on Windows Tutorial:** &nbsp; [https://okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf)     
+**Tutoring:** #HN-1001B, from 11:30 AM to 5:00 PM Monday through Friday. Left side of the room is for 135 (right side is for 235).  
+The tutors are there to help you with all of your labs, assignments, and projects!  Get as much help as you need.  
+These are the tutors:   
+Alvin Woo	alvin.wu30@myhunter.cuny.edu  
+Fang	Samuel	samuel.fang83@myhunter.cuny.edu  
+Mok	Adrian	adrian.mok15@myhunter.cuny.edu  
+Yoomin Song	yso0003@hunter.cuny.edu  
+
   
  **COURSE OUTLINE**  
    
