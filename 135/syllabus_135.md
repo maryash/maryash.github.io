@@ -112,6 +112,9 @@ CLASS EXPECTATIONS
 ACADEMIC INTEGRITY  
 We take academic honesty very seriously, and any violation results in sanctions in accordance with Hunter College procedure. Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. The College is committed to enforcing the CUNY Policy on Academic Integrity and will pursue cases of academic dishonesty according to the Hunter College Academic Integrity Procedures. 
   
+BULLYING AND INTIMIDATION
+Bullying, cyberbullying, online hate, intimidation, threats, harassment, and pressure to share schoolwork are all forms of violence. CUNY holds a zero tolerance stance towards all such acts. The University is committed to prevention of any form of bullying, will respond promptly to threats and/or acts, and will protect victims of bullying from retaliation.  As a criminal matter, the New York Attorney General defines cyberbullying as the use of email, websites, instant messaging, chat rooms, text messaging and digital cameras to antagonize and intimidate others.  
+  
 DIFFERENTLY ABLED STUDENTS  
 In compliance with the ADA and with Section 504 of the Rehabilitation Act, Hunter College is committed to ensuring educational access and accommodations for all its registered students. Hunter College’s students with disabilities and medical conditions are encouraged to register with the Office of AccessABILITY for assistance and accommodation. For information and appointment contact the Office of AccessABILITY located in Room E1214 or call (212) 772-4857 /or VRS (646) 755-3129.
   
