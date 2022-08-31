@@ -27,18 +27,19 @@ In these two courses, both of which are required to graduate with a computer sci
  11932 1R05 | We 12:10 – 2:00PM | *Mandy Yu* | my850@hunter.cuny.edu  
  11933 1R06 | We 4:00 – 5:50 PM | *Mandy Yu* | my850@hunter.cuny.edu 
  11935 1R07 | Th 3:10 – 5:00 PM | *Sadab Hafiz* | sadab.hafiz52@myhunter.cuny.edu 
- 11936 1R08 | Th 5:30 – 7:20 PM | *Enxhi Osmanllari* | enxhi.osmanllari81@myhunter.cuny.edu 
+ 11936 1R08 | Th 5:30 – 7:20 PM | *Enxhi Osmanllari* | eo772@hunter.cuny.edu 
  11934 XCSR | MoTh10:00-10:50AM | *Michael Zamansky* | mz631@hunter.cuny.edu 
   
-**Linux on Windows Tutorial:** &nbsp; [https://okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf)     
 **Tutoring:** #HN-1001B, from 11:30 AM to 5:00 PM Monday through Friday. Left side of the room is for 135 (right side is for 235).  
-The tutors are there to help you with all of your labs, assignments, and projects!  Get as much help as you need.  
-These are the tutors:   
+These are the tutors:  
 Alvin Woo	alvin.wu30@myhunter.cuny.edu  
 Fang	Samuel	samuel.fang83@myhunter.cuny.edu  
 Mok	Adrian	adrian.mok15@myhunter.cuny.edu  
 Yoomin Song	yso0003@hunter.cuny.edu  
-
+The tutors are there to help you with all of your labs, assignments, and projects!  Get as much help as you need.  
+  
+**Linux on Windows Tutorial:** &nbsp; [https://okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf)   
+  
   
  **COURSE OUTLINE**  
    
