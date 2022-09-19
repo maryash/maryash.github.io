@@ -1,7 +1,7 @@
 ---  
 layout: myDefault
 title: PROJECT 1
----  
+---   
 
 # Project 1: The Corn Maze Problem --- Streams
 
@@ -71,7 +71,7 @@ Example
 If you have a file `movement.txt` that contains:
 
 ```
-R R D L L U R
+R R G Q D L T L U R
 ```
 
 Then if you redirect it into the program, it should report:
@@ -121,7 +121,7 @@ traverses the maze.
 Imagine you have a `directions.txt` with the list of directions as follows:
 
 ```
-D R R D R
+D W R R D R H
 ```
 
 If you redirect the file into your program, it should compute and print the answer:
@@ -166,8 +166,8 @@ Assuming that the input file `multiple_directions.txt` looks as follows:
 
 ```
 D D L R D D L R R U R R ;
-D  RRRR D D L L R D LL RRRR ;
-D D D L
+D  RRRR ABLQPO D D L L R D V LL RRRR ;
+D D D L CST
 D D RRRR DD ;
 ```
 
@@ -178,7 +178,7 @@ print them each on its own line:
 $ ./maze_runner_plus < multiple_directions.txt
 You are stuck in the maze.
 You got out of the maze.
-You are stuck in the maze.
+You got out of the maze.
 ```
 
 ---
@@ -220,7 +220,7 @@ When reading input file `maze_and_directions.txt`:
 ;
 
 R DDRR UU R R D D ;
-R DDRRDRDDLLLDD;
+R DDRRD D RDDLLLDD;
 DRL RUDDRRDD LLLLL;
 ```
 
