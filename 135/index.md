@@ -36,6 +36,7 @@ Alvin Woo	alvin.wu30@myhunter.cuny.edu
 Fang	Samuel	samuel.fang83@myhunter.cuny.edu  
 Mok	Adrian	adrian.mok15@myhunter.cuny.edu  
 Yoomin Song	yso0003@hunter.cuny.edu  
+Emmy Veselinov EMMY.VESELINOV19@myhunter.cuny.edu  
 The tutors are there to help you with all of your labs, assignments, and projects!  Get as much help as you need.  
   
 **Linux on Windows Tutorial:** &nbsp; [https://okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf)   
