@@ -101,12 +101,15 @@ For example, our `input.txt` has:
 ```
 60;right;left;output.txt;
 WHAT IS LOREM IPSUM?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+Lorem Ipsum is simply dummy text of the printing and 
+typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text 
+ever since the 1500s, when an unknown printer took a galley 
+of type and scrambled it to make a type specimen book.
 
-Speaking of books, I love books. I read and write, sometimes at the same time because why not! Why should
-I be limited by my measily brain and only do one task at a time? Exactly.
+Speaking of books, I love books. I read and write, sometimes 
+at the same time because why not! Why should I be limited by 
+my measily brain and only do one task at a time? Exactly.
 
 TITLE 2
 Well, thank you for listening. I appreciate you all :)
@@ -161,12 +164,15 @@ For example, our `input.txt` has:
 ```
 60;;center;true;true;output.txt;
 WHAT IS LOREM IPSUM?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+Lorem Ipsum is simply dummy text of the printing and 
+typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text 
+ever since the 1500s, when an unknown printer took a galley 
+of type and scrambled it to make a type specimen book.
 
-Speaking of books, I love books. I read and write, sometimes at the same time because why not! Why should
-I be limited by my measily brain and only do one task at a time? Exactly.
+Speaking of books, I love books. I read and write, sometimes 
+at the same time because why not! Why should I be limited by 
+my measily brain and only do one task at a time? Exactly.
 
 TITLE 2
 Well, thank you for listening. I appreciate you all :)
