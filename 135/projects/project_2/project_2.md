@@ -156,7 +156,9 @@ berry
 ```
   
 - Double spaced means that between each line there should be an extra empty line. The crux is that for titles, there should also be an extra empty line before it as well so as to space it out even more. Check out the Tasks example below.  
-**Overall, the settings format should be: `max_width;justify_body;justify_headers;to_fill;double_spaced;output_filename;`**. 
+**Overall, the settings format should be:
+`max_width;justify_body;justify_headers;to_fill;double_spaced;output_filename;`**. 
+
 For example, our `input.txt` has:
 
 ```
@@ -176,7 +178,9 @@ TITLE 2
 Well, thank you for listening. I appreciate you all :)
 ```
 
+
 Would make the following `output.txt`:
+
 
 ```
 
