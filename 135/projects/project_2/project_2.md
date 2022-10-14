@@ -154,11 +154,9 @@ Would become:
 Willy Str-
 berry
 ```
-
-- Double spaced means that between each line there should be an extra empty line. The crux is that for titles, there should also be an extra empty line before it as well so as to space it out even more. Check out the Tasks example below.
-
-**Overall, the settings format should be: `max_width;justify_body;justify_headers;to_fill;double_spaced;output_filename;`**
-
+  
+- Double spaced means that between each line there should be an extra empty line. The crux is that for titles, there should also be an extra empty line before it as well so as to space it out even more. Check out the Tasks example below.  
+**Overall, the settings format should be: `max_width;justify_body;justify_headers;to_fill;double_spaced;output_filename;`**. 
 For example, our `input.txt` has:
 
 ```
