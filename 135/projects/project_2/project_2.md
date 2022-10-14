@@ -209,10 +209,10 @@ Well, thank you for listening. I appreciate you all :)
 
 ```
 
----
-
-Also, if you are getting random `NULL` objects in your output file, you can utilize the following function that we've made to clean it up.
-
+---  
+  
+Also, if you are getting random `NULL` objects in your output file, you can utilize the following function that we've made to clean it up.  
+  
 ```c++
 /**
  * @brief Removes NULL characters from the given string
