@@ -11,9 +11,24 @@ _**Welcome back students. After the success of your corn maze, you have been hir
 
 ## Introduction
 
-For this project you will be reading in a text file using `ifstream`, reformating & storing it into an output text file with `ofstream`.
+For this project you will be reading in a text file using `ifstream`, reformating & storing it into an output text file with `ofstream`. However, this project can also be done through the use of `getline`, there is not one specific way to achieve the correct answer as long as the formating of the output file follows the guidelines set on this project.
 
-[Checkout this Geeks for Geeks page on streams!](https://www.geeksforgeeks.org/file-handling-c-classes/)
+Other important things to keep in mind are the use of RTF (Rich Text File) and Plain Text file. A plain text file is a document that contains no formatting, where as an RTF file does have formating that differs from one OS to the other. To avoid isses when uploading to Gradescope, make sure you test your code with plain text files.
+
+### Issues you may encounter:
+
+There might be issues where your output file has null bytes or carriage returns when testing. This stems from your
+input file, especially if it is a text file created on Mac. At the end of this Assignment Sheet I have added
+a function you can use to remove these bytes when reading in an input file, which can be customized to remove
+any weird characters you encounter while testing.
+
+### Potential functions and libraries you can use:
+
+- When streaming in an input file, you can use the getline function to read in line by line.
+    + Here are some examples on [GeeksForGeeks](https://www.geeksforgeeks.org/getline-string-c/)
+- You can also go word by word in a given line using stringstream
+    + Here are some examples on [GeeksForGeeks](https://www.geeksforgeeks.org/stringstream-c-applications/)
+    + [Checkout this Geeks for Geeks page on streams!](https://www.geeksforgeeks.org/file-handling-c-classes/)
 
 ---
 
