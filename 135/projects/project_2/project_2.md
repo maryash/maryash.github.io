@@ -22,6 +22,8 @@ input file, especially if it is a text file created on Mac. At the end of this A
 a function you can use to remove these bytes when reading in an input file, which can be customized to remove
 any weird characters you encounter while testing.
 
+Another important fact to remember is the task here is not to just read in a text file then jam all the words into an output file. Here we are trying to keep the structure of the text file while giving it restrictions. For example, if the first line in the input file has less characters than the limit, that doesn't mean you take words from the following sentence and place it in the first line. Overflowing happens downstream. We can acheive this by reading in the file line by line and thus creating the output file as well line by line.
+
 ### Potential functions and libraries you can use:
 
 - When streaming in an input file, you can use the getline function to read in line by line.
