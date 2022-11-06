@@ -119,14 +119,14 @@ For example, our `input.txt` has:
 60;right;left;output.txt;
 WHAT IS LOREM IPSUM?
 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
-a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-but also the leap into electronic typesetting, remaining essentially unchanged.
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-software like Aldus PageMaker including versions of Lorem Ipsum.
+Speaking of books, I love books. I read and write, sometimes at the same time because why not! Why should
+I be limited by my measily brain and only do one task at a time? Exactly.
 
-well, thank you for listening. I appreciate you all.
+TITLE 2
+Well, thank you for listening. I appreciate you all :)
 ```
 
 Then it's `output.txt` should look like:
@@ -142,8 +142,7 @@ WHAT IS LOREM IPSUM?
          Speaking of books, I love books. I read and write,
 sometimes at the same time because why not! Why should I be
 limited by my measily brain and only do one task at a time?
-                                                    Exactly.
-
+                                                   Exactly.
 
 TITLE 2                                                    
      Well, thank you for listening. I appreciate you all :)
