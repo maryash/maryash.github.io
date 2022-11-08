@@ -74,6 +74,8 @@ The tutors are there to help you with all of your labs, assignments, and project
   
 <!---  
   
+<br/>**[LAB&nbsp;11&nbsp; More Classes](labs/lab_11.html){:target="_blank"} &nbsp; 5/4** 
+
 <br/>[Introduction to Project&nbsp;2](projects/project_2.html){:target="_blank"}
 **[Project&nbsp;2&nbsp;A](projects/project_2.html){:target="_blank"}&nbsp;&nbsp;&nbsp;3/13**<br/>
 **[Project&nbsp;2 B](projects/project_2.html){:target="_blank"}&nbsp;&nbsp;&nbsp;3/27**<br/>
