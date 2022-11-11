@@ -20,9 +20,13 @@ Other important things to keep in mind are the use of RTF (Rich Text File) and P
 There might be issues where your output file has null bytes or carriage returns when testing. This stems from your
 input file, especially if it is a text file created on Mac. At the end of this Assignment Sheet I have added
 a function you can use to remove these bytes when reading in an input file, which can be customized to remove
-any weird characters you encounter while testing.
+any weird characters you encounter while testing. In addition; Please refrain from `Copy` and `Paste` directly from Github or other
+websites into text files since that also copies unwanted characters into your text file such that are hard to notice.
 
 Another important fact to remember is the task here is not to just read in a text file then jam all the words into an output file. Here we are trying to keep the structure of the text file while giving it restrictions. For example, if the first line in the input file has less characters than the limit, that doesn't mean you take words from the following sentence and place it in the first line. Overflowing happens downstream. We can acheive this by reading in the file line by line and thus creating the output file as well line by line.
+
+The width of the line must be less then the provided number, for example in the settings, if the width of the line is specified to 60, the most amount of characters that line should hold is 59.
+
 
 ### Potential functions and libraries you can use:
 
@@ -165,7 +169,7 @@ Willy Strawberry
 
 Would become:
 Willy Str-
-berry
+aberry
 ```
   
 - Double spaced means that between each line there should be an extra empty line. The crux is that for titles, there should also be an extra empty line before it as well so as to space it out even more. Check out the Tasks example below.  
@@ -175,7 +179,9 @@ berry
 For example, our `input.txt` has:
 
 ```
-60;;center;true;true;output.txt;
+60;center;center;true;true;output.txt;
+```
+```
 WHAT IS LOREM IPSUM?
 Lorem Ipsum is simply dummy text of the printing and 
 typesetting industry. 
