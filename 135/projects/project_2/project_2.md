@@ -257,6 +257,11 @@ std::string removeNullChars(std::string line) {
 }
 ```
 
+# EXAMPLE INPUTS
+
+Here you can find some example inputs and outputs used for Task 2 and Task 3.
+[Inputs_Outputs](./Inputs_Outputs.zip)
+
 # Deliverables
 
 There needs to be one deliverable throughout all tasks which is `word.cpp`. For every task `word.cpp` should contain the appropriate functionality depending on what is asked of you. Work on this project should be done incrementally and not completing one part of the project may result in not being able to get full credit on the next task.
