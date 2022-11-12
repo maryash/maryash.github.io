@@ -261,7 +261,7 @@ std::string removeNullChars(std::string line) {
 
 Here you can find some example inputs and outputs used for Task 2 and Task 3.
 
-[Inputs_Outputs](https://github.com/maryash/maryash.github.io/blob/master/135/projects/project_2/Inputs_Outputs.zip?raw=true)
+[Inputs_Outputs](https://github.com/maryash/maryash.github.io/blob/master/135/projects/project_2/Inputs_Outputs.zip)
 
 # Deliverables
 
