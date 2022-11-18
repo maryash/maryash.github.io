@@ -189,17 +189,17 @@ The `Bank` class **must** contain _public member functions_ that do the followin
         @param          : The last name of the Account owner
         @param          : The 4-digit pin for the account
 
-        @return         : returns true if the Account was created and added to the array, otherwise return false
+        @return         : returns the account number for the new account created
 
         The Account should be created (calling the Account constructor) and added to the array of Accounts 
         if there is room in the array. Remember to update your member variables as appropriate.
     */
-    bool createAccount
+    std::string createAccount
 
     /**
         @param          : the account number for the Account being removed
 
-        @return         : returns true if the Account was removed, otherwise return false
+        @return         : returns true if account is removed, otherwise false
         
         If the provided account number does not correspond to an Account in the array, then
         you cannot remove an Account.
@@ -237,7 +237,7 @@ The `Bank` class **must** contain _public member functions_ that do the followin
     bool deposit
 
     /**
-        param           : The account number of the Account the user wants the balance of
+        @param           : The account number of the Account the user wants the balance of
         @param          : The 4-digit pin for the Account
 
         @return         : returns the account balance of the Account, or -1 if the validation fails
@@ -246,6 +246,8 @@ The `Bank` class **must** contain _public member functions_ that do the followin
         If so then retrieve the account balance and return it, if not then return -1.
     */
     int getAccountBalance
+    
+
 ```
 
 ### Delivarables
