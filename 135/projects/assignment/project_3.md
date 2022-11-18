@@ -46,7 +46,7 @@ The `Account` class **must** have the following  _private member function_ used 
 ```c++
 std::string Account::generateAccountNumber(){
     std::string an_str = "";
-    for(int i{0}; i < 8; i++ ){
+    for(int i = 0; i < 8; i++ ){
         int temp = rand() % 10;
         an_str += std::to_string(temp);
     }
