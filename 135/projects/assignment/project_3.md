@@ -45,7 +45,7 @@ The `Account` class **must** have the following information stored in their own 
 The `Account` class **must** have the following  _private member function_ used to generate the Account Number when an Account object is created:
 ```c++
 std::string Account::generateAccountNumber(){
-    std::string an_str = '';
+    std::string an_str = "";
     for(int i{0}; i < 8; i++ ){
         int temp = rand() % 10;
         an_str += std::to_string(temp);
@@ -146,7 +146,7 @@ The `Account` class **must** contain _public member functions_ that do the follo
         If the transaction results in the amount balance being less than 0, then the transaction should not go through
         and return false.
     */
-    void transaction
+    bool transaction
 ```
 
 ### Delivarables
