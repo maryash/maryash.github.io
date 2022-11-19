@@ -46,7 +46,7 @@ The `Account` class **must** have the following  _private member function_ used 
 ```c++
 std::string Account::generateAccountNumber(){
     std::string an_str = "";
-    for(int i = 0; i < 8; i++ ){
+    for(int i{0}; i < 8; i++ ){
         int temp = rand() % 10;
         an_str += std::to_string(temp);
     }
@@ -61,6 +61,17 @@ The `Account` class **must** contain _public member functions_ that do the follo
 ### Constructors
 
 ```
+    /**
+        Default Constructor
+
+        @post           : Sets the member variables that holds the first name and last name of the Account to "anonymous"
+                          Sets the pin to "0000"
+                          Calls the generateAccountNumber function to set the member variable that holds it
+                          Sets the account balance member variable to a default value of 0
+    */
+    Account
+
+
    /**
       Parameterized constructor.
       @param            : The first name of the Account owner
@@ -72,6 +83,7 @@ The `Account` class **must** contain _public member functions_ that do the follo
                           Calls the generateAccountNumber function to set the member variable that holds it
                           Sets the account balance member variable to a default value of 0
    */
+   Account
 ```
 
 ### Mutators (set)
@@ -149,7 +161,15 @@ The `Account` class **must** contain _public member functions_ that do the follo
     bool transaction
 ```
 
-### Delivarables
+### Compilation && Delivarables
+
+## Compile
+
+First create a main file that includes `Bank.hpp` then run the following line in your terminal:
+
+`g++ Bank.cpp Account.cpp main.cpp -std=c++17`
+
+## Files for the Autograder
 
 _You will be submitting `Account.hpp` and `Account.cpp`._
 
@@ -179,6 +199,7 @@ The `Bank` class **must** contain _public member functions_ that do the followin
         default constructor.
         @post             : Sets the member variables that holds the total number of existing Accounts to 0
     */
+    Bank
 ```
 
 ### Account Functions
@@ -189,17 +210,18 @@ The `Bank` class **must** contain _public member functions_ that do the followin
         @param          : The last name of the Account owner
         @param          : The 4-digit pin for the account
 
-        @return         : returns the account number for the new account created
+        @return         : returns the Account Number if the Account was created and added to the array, 
+                          otherwise return "-1"
 
         The Account should be created (calling the Account constructor) and added to the array of Accounts 
         if there is room in the array. Remember to update your member variables as appropriate.
     */
-    std::string createAccount
+    bool createAccount
 
     /**
         @param          : the account number for the Account being removed
 
-        @return         : returns true if account is removed, otherwise false
+        @return         : returns true if the Account was removed, otherwise return false
         
         If the provided account number does not correspond to an Account in the array, then
         you cannot remove an Account.
@@ -237,7 +259,7 @@ The `Bank` class **must** contain _public member functions_ that do the followin
     bool deposit
 
     /**
-        @param           : The account number of the Account the user wants the balance of
+        param           : The account number of the Account the user wants the balance of
         @param          : The 4-digit pin for the Account
 
         @return         : returns the account balance of the Account, or -1 if the validation fails
@@ -246,10 +268,16 @@ The `Bank` class **must** contain _public member functions_ that do the followin
         If so then retrieve the account balance and return it, if not then return -1.
     */
     int getAccountBalance
-    
-
 ```
 
-### Delivarables
+### Compilation && Delivarables
+
+## Compile
+
+First create a main file which should contain all the testing you do prior to submitting to gradescope. The main file should also include `Bank.hpp`. After creating the main file run the following command in your terminal:
+
+`g++ Bank.cpp Account.cpp main.cpp -std=c++17`
+
+## Files for the Autograder
 
 _You will be submitting `Bank.hpp` and `Bank.cpp`._
