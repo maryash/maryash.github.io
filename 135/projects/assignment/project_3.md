@@ -136,10 +136,9 @@ The `Account` class **must** contain _public member functions_ that do the follo
     std::string getPin
 
     /**
-        @param      : the pin of the Account
 
-        @return     : if the pin passed by the user is equal to the pin stored in the Account, return the accounts balance
-                      if not, return -1
+        @return     : Return the account balance
+        
     */
     int getBalance
 ```
