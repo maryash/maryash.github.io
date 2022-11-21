@@ -149,10 +149,8 @@ The `Account` class **must** contain _public member functions_ that do the follo
 ```
     /**
         @param      : the amount being transacted (negative for withdrawl and positive for deposit)
-        @param      : the pin of the Account
 
-        @return     : if the pin passed by the user is equal to the pin stored in the Account, update the account balance by what is 
-                      passed by the user and return true
+        @return     : Update the account balance by what is passed by the user and return true
                       if not, return false and do not update the accounts balance
         
         If the transaction results in the amount balance being less than 0, then the transaction should not go through
@@ -276,7 +274,14 @@ The `Bank` class **must** contain _public member functions_ that do the followin
 
 First create a main file which should contain all the testing you do prior to submitting to gradescope. The main file should also include `Bank.hpp`. After creating the main file run the following command in your terminal:
 
+For Task 1:
+
+`g++ Account.cpp main.cpp -std=c++17`
+
+For Task 2:
+
 `g++ Bank.cpp Account.cpp main.cpp -std=c++17`
+
 
 ## Files for the Autograder
 
