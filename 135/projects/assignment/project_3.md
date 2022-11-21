@@ -214,7 +214,7 @@ The `Bank` class **must** contain _public member functions_ that do the followin
         The Account should be created (calling the Account constructor) and added to the array of Accounts 
         if there is room in the array. Remember to update your member variables as appropriate.
     */
-    bool createAccount
+    std::string createAccount
 
     /**
         @param          : the account number for the Account being removed
@@ -272,7 +272,7 @@ The `Bank` class **must** contain _public member functions_ that do the followin
 
 ## Compile
 
-First create a main file which should contain all the testing you do prior to submitting to gradescope. The main file should also include `Bank.hpp`. After creating the main file run the following command in your terminal:
+First create a main file which should contain all the testing you do prior to submitting to gradescope. The main file should also include the respective `.hpp` files for it's tasks in order to compile and test correctly. After creating the main file run the following command in your terminal:
 
 For Task 1:
 
