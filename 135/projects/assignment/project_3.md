@@ -164,7 +164,7 @@ The `Account` class **must** contain _public member functions_ that do the follo
 
 First create a main file that includes `Bank.hpp` then run the following line in your terminal:
 
-`g++ Bank.cpp Account.cpp main.cpp -std=c++17`
+`g++ Account.cpp main.cpp -std=c++17`
 
 ## Files for the Autograder
 
