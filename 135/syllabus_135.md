@@ -82,7 +82,7 @@ LINKS & INFO
 [Configuring Vim (and Vi) text editor](https://a-nikolaev.github.io/cs136/vim/)  
   
 FINAL GRADE  
-3% all Homeworks, 2.5% for each of the 13 Labs (.5% for each Lab Quiz), 5% for each of the three projects.  This may not seem like a lot, but beware that many exam questions will be based directly on homeworks, labs, and projects), 10% each of the two tests, and 29.5% the final exam — however, you must pass the final exam in order to pass the course.  Your final exam grade may also replace the lowest of the two test scores.  However, if you do not pass the final exam, you do not pass the course.  
+3% all Homeworks, 2.5% for each of the 13 Labs (.5% for each Lab Quiz), 5% for each of the three projects.  This may not seem like a lot, but beware that many exam questions will be based directly on homeworks, labs, and projects), 15% miodterm, and 35% the final exam — however, you must pass the final exam in order to pass the course.  Your final exam grade may also replace the lowest of the two test scores.  However, if you do not pass the final exam, you do not pass the course.  
 
 SOFTWARE  
 This course it taught in Linux and your programs must be able to run on a Linux platform. On campus, you may use the 1001C and 1001B labs to do your work for this course. The standard Linux/Unix/Mac OS C++ compiler is g++. If you wish to use a home computer, you can use a Mac.  Macs have Unix command line and g++.  You can install [Ubuntu Linux](http://www.ubuntu.com). If you want a Linux environment on Windows without installing Linux, follow this excellent tutorial: [okunhardt.github.io/documents/Installing_WSL.pdf
