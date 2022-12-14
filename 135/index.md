@@ -177,27 +177,7 @@ Enums  <br/>[![](video.jpg)](https://us-lti.bbcollab.com/recording/daf676a42e5e4
  12/12 |  |  |  | 
  <span style="color:red">**12/18**</span> | <span style="color:red">**FINAL EXAM**</span> | <span style="color:red">**WEDNESDAY 12/18 &nbsp; 11:30 — 1:30**</span> | <span style="color:red">**HN118**</span> | 
  
- [2019 Spring Midterm 1](old_exams/2019 Spring Midterm 1.pdf){:target="_blank"}     
- [2019 Spring Midterm 1 Answers](old_exams/2019 Spring Midterm 1 Answers.pdf){:target="_blank"}     
-Please keep in mind that the material covered in the exam is not exactly the same as last semester.  Though they were in the last semester's exam, pass-by-reference function parameters ( & ) will not be in this exam.  On the other hand, questions about the terminal commands for g++ compilation and execution (with different options) will be in this exam.  
-  
-  
- [2019 Spring Midterm 2](old_exams/2019 Spring Midterm 2.pdf){:target="_blank"}     
- [2019 Spring Midterm 2 Answers](old_exams/2019 Spring Midterm 2 Answers.pdf){:target="_blank"}     
-Please keep in mind that the questions on the actual Midterm 2 may be quite different than the ones last semester.  Also, though most of the questions will be on the new material, this exam will be cumulative.  
 
- [2019 Fall Midterm 1](old_exams/2019 Fall Midterm 1.pdf){:target="_blank"}     
- [2019 Fall Midterm 1 Answers](old_exams/2019 Fall Midterm 1 Answers.pdf){:target="_blank"}     
- 
- [2019 Fall Midterm 2](old_exams/2019 Fall Midterm 2.pdf){:target="_blank"}     
- [2019 Fall Midterm 2 Answers](old_exams/2019 Fall Midterm 2 Answers.pdf){:target="_blank"}     
- 
- [Mock Final Exam](old_exams/2019 Spring Final.pdf){:target="_blank"}   
- [Fixed Typos Mock Final Exam Answers](old_exams/2019 Spring Final Answers.pdf){:target="_blank"}   
- 
- [Old Final Exam](old_exams/2019 Spring Mock Final.pdf){:target="_blank"}   
- [Old Final Exam Answers](old_exams/2019 Spring Mock Final Answers.pdf){:target="_blank"}   
-Please note that this exam does follows the material covevered this semester less closely than the mock final, but may still be a good practice.  
 
 
 
