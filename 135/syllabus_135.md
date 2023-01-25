@@ -64,13 +64,13 @@ MAIN COURSE PAGE
 You should check [this page](index.html) regularly, since all class materials will be gradually posted here. 
 
 TUTORING  
-There are dedicated computer lab for this course: HUNTER NORTH 1001B. It is staffed with tutors, who are there to help you. Please take advantage of them. You can ask for help with labs, projects, and general course material Monday through Friday from 11:30 AM to 5:00 PM.
+There are dedicated computer lab for this course: HUNTER NORTH 1001B. It is staffed with tutors, who are there to help you. Please take advantage of them. You can ask for help with labs, projects, and general course material.
 
 QUESTIONS  
 Ask many in lecture! Outside of lecture go to the tutoring labs. The department hired additional tutors especially for students taking this course. Email the instructor of your recitation section with any programming questions that the tutors cannot answer. The beginning of each recitation is also devoted to answering questions. All emails to instructors must start with your full name, day and time of your recitation section, and name of your recitation instructor. 
 
 GRADESCOPE  
-You will submit all labs, homeworks, quizzes, and projects electronically through Gradescope. You will see your grades (including exam grades) on Gradescope as well. An invite email was sent to you before the first lecture. If you have not received it, ask your recitation instructor to send you another one right away: you will need to email him or her your full name, EMPLID, and a working email address. 
+You will submit all labs, homeworks, quizzes, code reviews, and projects electronically through Gradescope. You will see your grades (including exam grades) on Gradescope as well. An invite email was sent to you before the first lecture. If you have not received it, ask your recitation instructor to send you another one right away: you will need to email him or her your full name, EMPLID, and a working email address. 
 
 BLACKBOARD  
 Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default), since you are responsible for any email I might send there.  
@@ -82,7 +82,7 @@ LINKS & INFO
 [Configuring Vim (and Vi) text editor](https://a-nikolaev.github.io/cs136/vim/)  
   
 FINAL GRADE  
-3% all Homeworks, 2.5% for each of the 13 Labs (.5% for each Lab Quiz), 5% for each of the three projects.  This may not seem like a lot, but beware that many exam questions will be based directly on homeworks, labs, and projects), 15% midterm, and 35% the final exam — however, you must pass the final exam in order to pass the course.  Also: if you do better on your final then on your midterm, the higher score will replace your midterm score.  
+3% all Homeworks, 2% for each of the 13 Labs (.4% for each Lab Quiz), 1% for each of the 13 code reviews, 5% for each of the three projects.  This may not seem like a lot, but beware that many exam questions will be based directly on homeworks, labs, and projects), 15% midterm, and 30% the final exam — however, you must pass the final exam in order to pass the course.  Also: if you do better on your final then on your midterm, the higher score will replace your midterm score.  
 
 SOFTWARE  
 This course it taught in Linux and your programs must be able to run on a Linux platform. On campus, you may use the 1001C and 1001B labs to do your work for this course. The standard Linux/Unix/Mac OS C++ compiler is g++. If you wish to use a home computer, you can use a Mac.  Macs have Unix command line and g++.  You can install [Ubuntu Linux](http://www.ubuntu.com). If you want a Linux environment on Windows without installing Linux, follow this excellent tutorial: [okunhardt.github.io/documents/Installing_WSL.pdf
@@ -94,6 +94,9 @@ Lab Assignments will be posted on the [Main Course Page](index.html){:target="_b
 
 LAB QUIZZES  
 There will be a lab quiz during each lab period.  
+
+CODE REVIEWS  
+There will be code review of one of your programs from the previous lab during each recitation period.  
 
 LATE AND MAKE UP POLICY  
 Ample time will be given to complete labs and projects.  However, because of the logistics of running a large lecture course, there will be no late project or lab submissions. 
