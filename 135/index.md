@@ -13,39 +13,38 @@ In these two courses, both of which are required to graduate with a computer sci
 
 **Linux on Windows Tutorial:** &nbsp; [https://okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf)  
     
-**Tutoring:** The tutors for this course are available in the Open Lab Session on BlackBoard Collaborate of CSCI 135.  This session runs all week:  
-  
-Mondays: 11:00 AM -- 7:00 PM  
-Wednesdays: 8:00 AM -- 7:00 PM  
-Tuesdays, Thursdays, and Fridays: 11:00 AM -- 6:00 PM  
+**Tutoring:** The tutors for this course are available in the Lab HN1001B.
   
 The tutors are there to help you with all of your labs, assignments, and projects!  Get as much help as you need.  
   
 **Lecture: Monday, Wednesday, Thursday 12:30 – 1:20 PM on BlackBoard Collaborate**  
 
-**Lecture Instructor**: Genady Maryash &nbsp; HN1047 &nbsp; Office hours: Wednesdays 1:00 – 3:00 PM on BlackBoard Collaborate, &nbsp; gmaryash@hunter.cuny.edu   
+**Lecture Instructor**: Genady Maryash &nbsp; HN1047 &nbsp; Office hours: after each lecture and by appointment, &nbsp; gmaryash@hunter.cuny.edu   
   
-**Email Questions** You must get hands-on programing help in person during your lab or from tutors in lab B. We will never debug your code over email. You should ask questions during the lab and the lecture.  All other email questions must be sent to your lab instructor listed below. You must always include your section, name of lab instructor, your name and EMPLID.   
+**Questions** You must get hands-on programing help in person during your lab or from tutors in lab B. We will never debug your code over email. You should ask questions during the lecture and the recitation.  All other email questions must be sent to your lab instructor listed below. You must always include your section, name of lab instructor, your name and EMPLID.   
 
  :---: | :---: | :---: | :---: 
  Section &nbsp; | Lab in HN 1001C &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Instructor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | E-mail &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
- 136.01 | Mo 1:10 – 3:00 PM | *Minh Nguyen* | minh.nguyen@hunter.cuny.edu 
- 136.02 | Mo 3:10 – 5:00 PM | *Minh Nguyen* | minh.nguyen@hunter.cuny.edu 
- 136.03 | Mo 5:10 – 7:00 PM | *Minh Nguyen* | minh.nguyen@hunter.cuny.edu 
- 136.05 | We 8:10 - 10:00AM | *Subhadarshi Panda* | spanda@gradcenter.cuny.edu 
- 136.06 | We 10:10 - 12:00C | *Subhadarshi Panda* | spanda@gradcenter.cuny.edu 
- 136.11 | We 10:10 - 12:00B | *Hirohiko Kushida* | hkushida1@gradcenter.cuny.edu 
- 136.07 | We 3:10 – 5:00 PM | *Jaspal Singh* | Jaspal.Singh62@myhunter.cuny.edu  
- 136.08 | We 5:10 – 7:00 PM | *Shadman Quazi* | Shadman.Quazi62@myhunter.cuny.edu 
- 136.09 | Th 1:10 – 3:00 PM | *Melissa Lynch* | lynch.melissat@gmail.com 
- 136.10 | Th 3:10 – 5:00 PM | *Melissa Lynch* | lynch.melissat@gmail.com 
+ 135.01 | Mo 1:30 – 3:20 PM | *Sadab Hafiz* |  sadab.hafiz52@myhunter.cuny.edu 
+ 135.02 | Mo 3:30 – 5:20 PM | *Sadab Hafiz* |  sadab.hafiz52@myhunter.cuny.edu 
+ 135.03 | Mo 5:30 – 7:20 PM | *Sadab Hafiz* |  sadab.hafiz52@myhunter.cuny.edu 
+ 135.04 | Tu 2:30 - 4:20 PM | *Brandon Foster* |  brandon.foster81@myhunter.cuny.edu 
+ 135.11 | Tu 5:30 - 7:20 PM | *Brandon Foster* |  brandon.foster81@myhunter.cuny.edu 
+ 135.05 | We 9:30 - 11:20AM | *Enxhi Osmanllari* | eo772@hunter.cuny.edu 
+ 135.06 | We 4:00 - 5:50 PM | *Enxhi Osmanllari* | eo772@hunter.cuny.edu 
+ 135.08 | Th 1:30 – 3:20 PM | *Kimberly Cabrera* | kimberly.cabrera94@myhunter.cuny.edu 
+ 135.09 | Th 3:30 – 5:20 PM | *Kimberly Cabrera* | kimberly.cabrera94@myhunter.cuny.edu 
+ 135.10 | Th 5:30 – 7:20 PM | *Kimberly Cabrera* | kimberly.cabrera94@myhunter.cuny.edu 
+ 135.12 | Fr 2:30 – 4:20 PM | *Yoomin Song* | 	yoomin.song94@myhunter.cuny.edu  
  
  **COURSE OUTLINE**  
    
  DATE | TOPIC | READING:&nbsp;Brief&nbsp;C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | DUE&nbsp;DATES 
  :---: | :---: | --- | :---: | ---: 
- 1/27 | [Syllabus](syllabus_135.html){:target="_blank"}<br/>[Gradescope](https://www.gradescope.com/courses/33735){:target="_blank"}<br/>[eText features](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/2!/4/2/2@0:0){:target="_blank"}<br/>**C++&nbsp;Review** | [1.3&nbsp;Machine Code and Programming Languages](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/28[;vnd.vst.idref=bc3e_ch01-4]!/4[bc3e_ch01-4]/2/2[_idParaDest-5]/2@0:0){:target="_blank"}<br/>[1.5&nbsp;Analyzing&nbsp;Your&nbsp;First&nbsp;Program](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/36[;vnd.vst.idref=bc3e_ch01-8]!/4[bc3e_ch01-8]/4/2[_idParaDest-10]/2@0:0){:target="_blank"}<br/>[1.6 Errors](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/40[;vnd.vst.idref=bc3e_ch01-10]!/4[bc3e_ch01-10]/2/2[_idParaDest-17]/2@0:0){:target="_blank"}<br/>[1.7 HW Algorithm Design](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/44[;vnd.vst.idref=bc3e_ch01-12]!/4[bc3e_ch01-12]/2/2[_idParaDest-20]/2@0:0){:target="_blank"} | [1.5](slides/1.5 Analyzing Your First Program.pdf){:target="_blank"}<br/>[1.6](slides/1.6 Errors.pdf){:target="_blank"}<br/>[1.7](slides/1.7 PS Algorithm Design.pdf){:target="_blank"} | **[E1.7](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/64[;vnd.vst.idref=bc3e_ch01-20]!/4[bc3e_ch01-20]/2/22/2@0:0 "E1.7 Write a program that asks the user for three items, such as the names of your three best friends or favorite movies, and prints them on three separate lines."){:target="_blank"} &nbsp; 1/29**<br/>**[LAB&nbsp;1&nbsp; Intro to Linux and to C++](labs/lab_01.html){:target="_blank"}&nbsp;&nbsp;&nbsp;2/2** 
- 1/29 | **Introduction**<br/>**Fundamental Data&nbsp;Types** | [2.1 Variables](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/70[;vnd.vst.idref=bc3e_ch02-1]!/4[bc3e_ch02-1]/4/2[_idParaDest-34]/2@0:0){:target="_blank"} | [2.1](slides/2.1 Variables.pdf){:target="_blank"} | [WE&nbsp;2.1](worked_examples/ch2_WE1.pdf){:target="_blank"}<br/>[WE&nbsp;2.2](worked_examples/ch2_WE2.pdf){:target="_blank"}<br/>**[E2.10](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/134[;vnd.vst.idref=bc3e_ch02-27]!/4[bc3e_ch02-27]/4/46/2@0:0 "E2.10 Write a program that asks the user to input: the number of gallons of gas in the tank, the fuel efficiency in miles per gallon, and the price of gas per gallon.  Then print the cost per 100 miles and how far the car can go with the gas in the tank."){:target="_blank"} &nbsp; 1/31** 
+ 1/25 | [Syllabus](syllabus_135.html){:target="_blank"}<br/>[Gradescope](https://www.gradescope.com/courses/33735){:target="_blank"}<br/>[eText features](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/2!/4/2/2@0:0){:target="_blank"}<br/>**C++&nbsp;Review** | [1.3&nbsp;Machine Code and Programming Languages](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/28[;vnd.vst.idref=bc3e_ch01-4]!/4[bc3e_ch01-4]/2/2[_idParaDest-5]/2@0:0){:target="_blank"}<br/>[1.5&nbsp;Analyzing&nbsp;Your&nbsp;First&nbsp;Program](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/36[;vnd.vst.idref=bc3e_ch01-8]!/4[bc3e_ch01-8]/4/2[_idParaDest-10]/2@0:0){:target="_blank"}<br/>[1.6 Errors](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/40[;vnd.vst.idref=bc3e_ch01-10]!/4[bc3e_ch01-10]/2/2[_idParaDest-17]/2@0:0){:target="_blank"}<br/>[1.7 HW Algorithm Design](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/44[;vnd.vst.idref=bc3e_ch01-12]!/4[bc3e_ch01-12]/2/2[_idParaDest-20]/2@0:0){:target="_blank"} | [1.5](slides/1.5 Analyzing Your First Program.pdf){:target="_blank"}<br/>[1.6](slides/1.6 Errors.pdf){:target="_blank"}<br/>[1.7](slides/1.7 PS Algorithm Design.pdf){:target="_blank"} | **[E1.7](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/64[;vnd.vst.idref=bc3e_ch01-20]!/4[bc3e_ch01-20]/2/22/2@0:0 "E1.7 Write a program that asks the user for three items, such as the names of your three best friends or favorite movies, and prints them on three separate lines."){:target="_blank"} &nbsp; 1/29**<br/>**[LAB&nbsp;1&nbsp; Intro to Linux and to C++](labs/lab_01.html){:target="_blank"}&nbsp;&nbsp;&nbsp;2/2** 
+ 1/26 | **Introduction**<br/>**Fundamental Data&nbsp;Types** | [2.1 Variables](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/70[;vnd.vst.idref=bc3e_ch02-1]!/4[bc3e_ch02-1]/4/2[_idParaDest-34]/2@0:0){:target="_blank"} | [2.1](slides/2.1 Variables.pdf){:target="_blank"} | [WE&nbsp;2.1](worked_examples/ch2_WE1.pdf){:target="_blank"}<br/>[WE&nbsp;2.2](worked_examples/ch2_WE2.pdf){:target="_blank"}<br/>**[E2.10](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/134[;vnd.vst.idref=bc3e_ch02-27]!/4[bc3e_ch02-27]/4/46/2@0:0 "E2.10 Write a program that asks the user to input: the number of gallons of gas in the tank, the fuel efficiency in miles per gallon, and the price of gas per gallon.  Then print the cost per 100 miles and how far the car can go with the gas in the tank."){:target="_blank"} &nbsp; 1/31** 
+
+<!---  
  1/30 |  | [2.2 Arithmetic](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/84[;vnd.vst.idref=bc3e_ch02-8]!/4[bc3e_ch02-8]/4/2[_idParaDest-57]/2@0:0){:target="_blank"}<br/>[**2.4 PS** *First Do It By Hand*](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/102[;vnd.vst.idref=bc3e_ch02-16]!/4[bc3e_ch02-16]/2/2[_idParaDest-82]/2@0:0){:target="_blank"} | [2.2](slides/2.2 Arithmetic.pdf){:target="_blank"} | **[PS 2.4](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/102[;vnd.vst.idref=bc3e_ch02-16]!/4[bc3e_ch02-16]/2/2[_idParaDest-82]/2@0:0){:target="_blank"}**<br/>**[Project&nbsp;1A](projects/project_01.html){:target="_blank"}&nbsp;&nbsp;&nbsp;2/5** 
  2/3 |  | [2.3 Input and Output](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/98[;vnd.vst.idref=bc3e_ch02-14]!/4[bc3e_ch02-14]/4/2[_idParaDest-78]/2@0:0){:target="_blank"} | [2.3-4](slides/2.3 Input and Output _ 2.4 PS First Do It By Hand.pdf){:target="_blank"} | **[LAB&nbsp;2&nbsp; Loops and Arrays](labs/lab_02.html){:target="_blank"} &nbsp; 2/9**<br/>**[Project&nbsp;1B](projects/project_01.html){:target="_blank"}&nbsp;&nbsp;&nbsp;2/10** 
  2/5 | **Strings** | [2.5 Strings](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/110[;vnd.vst.idref=bc3e_ch02-20]!/4[bc3e_ch02-20]/4/2[_idParaDest-89]/2@0:0){:target="_blank"} | [2.5](slides/2.5 Strings.pdf){:target="_blank"} |  
@@ -94,7 +93,6 @@ The tutors are there to help you with all of your labs, assignments, and project
 
  [2019 Fall Midterm 1 Answers](old_exams/2019 Fall Midterm 1 Answers.pdf){:target="_blank"}     
 
-<!---  
 
  5/14 | **Recursion** | [5.10 Recursive Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/314[;vnd.vst.idref=bc3e_ch05-20]!/4[bc3e_ch05-20]/2/2[_idParaDest-251]/2@0:0){:target="_blank"} | [5.10](slides/5.10 Recursive Functions.pdf){:target="_blank"}<br/>[Print Triangle](https://is.gd/wEoL1J){:target="_blank"}<br/>[Add Digits](https://is.gd/w1O0X6){:target="_blank"} | **[E5.21](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/332[;vnd.vst.idref=bc3e_ch05-25]!/4[bc3e_ch05-25]/4/162/16@0:100 "Write a recursive function &nbsp; string reverse(string str) &nbsp; that computes the reverse of a string. For example, &nbsp; reverse('flow') should return 'wolf'. Hint: Reverse the substring starting at the second character, then add the first character at the end. For example, to reverse 'flow', first reverse 'low' to 'wol', then add the 'f' at the end."){:target="_blank"} &nbsp; 5/15**<br/>[WE&nbsp;5.1](worked_examples/ch5_WE1.pdf){:target="_blank"}<br/>[WE&nbsp;5.3](worked_examples/ch5_WE3.pdf){:target="_blank"} 
   
