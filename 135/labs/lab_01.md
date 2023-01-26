@@ -63,8 +63,8 @@ int main() {
 	cout << "Enter your age: " << endl;
 	int age = 0;
 	cin >> age;
-	
 	cout << "Your age is " << age << "." << endl;
+	return 0;
 }
 ```
 
