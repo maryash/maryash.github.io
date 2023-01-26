@@ -1,6 +1,6 @@
 ---
 layout: myDefault 
-title: CSCI 135/136 MAIN PAGE 
+title: CSCI 135 MAIN PAGE 
 ---  
 
 **[CSCI 135 &nbsp; ANALYSIS & DESIGN 1 &nbsp; &nbsp; HUNTER COLLEGE&nbsp; CITY UNIVERSITY OF NEW YORK](2023_spring.html)**  
