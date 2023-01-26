@@ -9,7 +9,7 @@ In these two courses, both of which are required to graduate with a computer sci
   
 [**CSCI 135 Syllabus**](syllabus_135.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Gradescope**](https://www.gradescope.com/courses/502287){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**Coding Style Guide**](worked_examples/style_guide.html){:target="_blank"}
  
-**Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.wiley.com/en-us/Brief+C%2B%2B%3A+Late+Objects%2C+3rd+Edition-p-9781119400424){:target="_blank"} – please rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material!  
+**Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.vitalsource.com/products/brief-c-late-objects-enhanced-etext-cay-s-horstmann-v9781119400424?term=978-1-119-40042-4){:target="_blank"} – please rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material!  
 
 **Linux on Windows Tutorial:** &nbsp; [https://okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf)  
     
