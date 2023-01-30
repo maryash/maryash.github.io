@@ -174,13 +174,13 @@ The program should report the **West basin elevation** for all days in the inter
 ```
 $ ./reverse-order
 Enter earlier date: 05/29/2018
-Enter later date: 06/02/2018
+Enter later date: 06/02/2018 
 
-06/02/2018  590.22 ft
-06/01/2018  590.23 ft
+06/02/2018  590.32 ft
+06/01/2018  590.26 ft
 05/31/2018  590.24 ft
-05/30/2018  590.26 ft
-05/29/2018  590.32 ft
+05/30/2018  590.23 ft
+05/29/2018  590.22 ft
 ```
 
 **Hint:** If for the previous tasks you did not use arrays, here you really have to read the data into arrays first, and only then report them in the 
