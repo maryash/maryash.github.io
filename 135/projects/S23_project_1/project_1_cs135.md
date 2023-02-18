@@ -33,7 +33,7 @@ Things you need to know for this project: [Arrays](https://www.geeksforgeeks.org
 A regular dictionary contains the words and the definitions. In addition to the words and the definitions, we will also store the parts of speech (POS). The words, definitions and POS are going to be stored in Arrays. Use these global-variables in your code outside `main()` function:
 
 ``` Cpp
-const int MAX_WORDS = 850;
+const int MAX_WORDS = 1000;
 int WORD_COUNT;
 
 string WORDS[MAX_WORDS];
@@ -171,3 +171,9 @@ bool removeWord(string word);
 You can use the functions you wrote previously within the implementation of Task C functions. The `getIndex()` function is extremely useful!
 
 Test each function before moving on to implement the next one. Submit only one `.cpp` file without the `main()` function similar to the previous tasks.
+
+---
+
+## Task D: Hangman 
+
+Now that we have worked hard, let's have some fun! It is time to make functions to build and play hangman.
