@@ -22,7 +22,7 @@ Things you need to know for this project: [Arrays](https://www.geeksforgeeks.org
 
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the **function prototypes and global-variables must be exactly as specified in this project specification**. Lastly, **do NOT use EOF(End of File), vector, or any library that we haven't learned yet in calss.** This is a contract, it gives you all the information necessary to complete this assignment correctly. If you don't understand this project specification and its requirements, ask for clarification before you proceed. **TEST YOUR CODE BEFORE SUBMITTING!!!**
 
----
+---  
 
 ## Task A: Dictionary using Arrays
 <p align="center">
