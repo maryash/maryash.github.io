@@ -45,22 +45,20 @@ Create a C++ file and add the following function:
 ```Cpp
 /*
     @param            :   The string with the `filename`
-    @post             :   Reads the words, definitions, POS into the global arrays, and set the value of `WORD_COUNT` to the number of words read
+    @post             :   Reads the words, definitions, 
+                          POS into the global arrays, 
+                          and set the value of `WORD_COUNT` 
+                          to the number of words read
 */
 void readWords(string filename);
 ```
 Here's an example text file:
 ```
-WORD POS
-definition: DEFINITION
-Grumpy Adjective 
-definition: bad-tempered and irritable
-Professor Noun
-definition: a teacher of the highest rank in a college or university
-Does Verb
-definition: perform (an action, the precise nature of which is often unspecified)
-Nothing Adverb
-definition: not at all
+WORD POS : DEFINITION
+Grumpy adjective : bad-tempered and irritable
+Professor noun : teacher of the highest rank in a university
+Does verb : perform (an action, often of unspecified nature)
+Nothing adverb : not at all
 ```
 
 Example:
@@ -79,8 +77,8 @@ POS: ["POS", "Adjective", "Noun", "Verb", "Adverb"]
 DEFINITIONS: [
     "DEFINITION",
     "bad-tempered and irritable", 
-    "a teacher of the highest rank in a college or university", 
-    "perform (an action, the precise nature of which is often unspecified)", 
+    "teacher of the highest rank in a university", 
+    "perform (an action, often of unspecified nature)", 
     "not at all"
 ]
 ```
@@ -101,15 +99,23 @@ Now that we have the words stored, it is time to provide functions that allow us
 ```Cpp
 /*
     @param            :   The string with a query word
-    @return           :   Integer index of the word in `WORDS` global array. Returns -1 if the word is not found
-    @post             :   Find the index of given `word` in the `WORDS` array. Return -1 if word is not in the array
+    @return           :   Integer index of the word in 
+                         `WORDS` global array. Returns 
+                          -1 if the word is not found
+    @post             :   Find the index of given `word` 
+                          in the `WORDS` array. Return -1 
+                          if word is not in the array
 */
 int getIndex(string word);
 
 /*
     @param            :   The string with a query word
-    @return           :   Return the string definition of the word from  `DEFINITIONS` global array. Return "NOT_FOUND" if word doesn't exist in the dictionary
-    @post             :   Find the definition of the given `word`. Return "NOT_FOUND" otherwise
+    @return           :   Return the string definition of 
+                          the word from  `DEFINITIONS` 
+                          global array. Return "NOT_FOUND" 
+                          if word doesn't exist in the dictionary
+    @post             :   Find the definition of the given `word`. 
+                          Return "NOT_FOUND" otherwise
 */
 string getDefinition(string word);
 
