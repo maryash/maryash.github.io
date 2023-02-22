@@ -72,7 +72,7 @@ WORD_COUNT: 5
 
 WORDS: ["WORD", "Grumpy", "Professor", "Does", "Nothing"]
 
-POS: ["POS", "Adjective", "Noun", "Verb", "Adverb"]
+POS: ["POS", "adjective", "noun", "verb", "adverb"]
 
 DEFINITIONS: [
     "DEFINITION",
