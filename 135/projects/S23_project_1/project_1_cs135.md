@@ -121,15 +121,22 @@ string getDefinition(string word);
 
 /*
     @param            :   The string with a query word
-    @return           :   Return the string part of speech(POS) from the `POS` global array. Return "NOT_FOUND" if the word doesn't exist in the dictionary.
-    @post             :   Find the POS of the given `word`. Return "NOT_FOUND" otherwise.
+    @return           :   Return the string part of speech(POS) 
+                          from the `POS` global array. Return 
+                          "NOT_FOUND" if the word doesn't exist 
+                          in the dictionary.
+    @post             :   Find the POS of the given `word`. 
+                          Return "NOT_FOUND" otherwise.
 */
 string getPOS(string word);
 
 /*
-    @param            :   The string prefix of a word (the prefix can be of any length)
-    @return           :   Integer number of words found that starts with the given `prefix`
-    @post             :   Count the words that start with the given `prefix`
+    @param            :   The string prefix of a word (the prefix 
+                          can be of any length)
+    @return           :   Integer number of words found that starts 
+                          with the given `prefix`
+    @post             :   Count the words that start with the given 
+                          `prefix`
 */
 int countPrefix(string prefix);
 ```
