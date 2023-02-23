@@ -22,7 +22,7 @@ Things you need to know for this project: [Arrays](https://www.geeksforgeeks.org
 
 **Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the **function prototypes and global-variables must be exactly as specified in this project specification**. Lastly, **do NOT use EOF(End of File), vector, or any library that we haven't learned yet in class.** If you don't understand this project specification and its requirements, ask for clarification before you proceed. **TEST YOUR CODE BEFORE SUBMITTING!!!**
 
----  
+---
 
 ## Task A: Dictionary using Arrays
 <p align="center">
@@ -45,7 +45,10 @@ Create a C++ file and add the following function:
 ```Cpp
 /*
     @param            :   The string with the `filename`
-    @post             :   Reads the words, definitions, pos into the global-arrays, and set the value of `g_word_count` to the number of words read
+    @post             :   Reads the words, definitions
+                          pos into the global-arrays 
+                          and set the value of `g_word_count`
+                          to the number of words read
 */
 void readWords(string filename);
 ```
@@ -54,7 +57,7 @@ Here's an example text file:
 WORD POS : DEFINITION
 Grumpy Adjective : bad-tempered and irritable
 Professor Noun : a teacher of the highest rank in a college or university
-Does Verb : perform (an action, the precise nature of which is often unspecified)
+Does Verb : perform (an action, often of unspecified nature)
 Nothing Adverb : not at all
 ```
 
@@ -74,7 +77,7 @@ g_pos: ["POS", "Adjective", "Noun", "Verb", "Adverb"]
 g_definitions: [
     "DEFINITION",
     "bad-tempered and irritable", 
-    "teacher of the highest rank in a university", 
+    "a teacher of the highest rank in a college or university", 
     "perform (an action, often of unspecified nature)", 
     "not at all"
 ]
@@ -96,31 +99,43 @@ Now that we have the words stored, it is time to provide functions that allow us
 ```Cpp
 /*
     @param            :   The string with a query word
-    @return           :   Integer index of the word in `g_words` global-array. Returns -1 if the word is not found
-    @post             :   Find the index of given `word` in the `g_words` array. Return -1 if word is not in the array
+    @return           :   Integer index of the word in
+                          `g_words` global-array. Returns
+                          -1 if the word is not found
+    @post             :   Find the index of given `word`
+                          in the `g_words` array. Return -1
+                          if word is not in the array
 */
 int getIndex(string word);
 
 /*
     @param            :   The string with a query word
-    @return           :   Return the string definition of the word from  `g_definitions` global-array. Return "NOT_FOUND" if word doesn't exist in the dictionary
-    @post             :   Find the definition of the given `word`. Return "NOT_FOUND" otherwise
+    @return           :   Return the string definition of
+                          the word from  `g_definitions`
+                          global-array. Return "NOT_FOUND" if
+                          word doesn't exist in the dictionary
+    @post             :   Find the definition of the given `word`
+                          Return "NOT_FOUND" otherwise
 */
 string getDefinition(string word);
 
 /*
     @param            :   The string with a query word
-    @return           :   Return the string part-of-speech(pos) from the `g_pos` global-array. Return "NOT_FOUND" if the word doesn't exist in the dictionary.
-    @post             :   Find the pos of the given `word`. Return "NOT_FOUND" otherwise.
+    @return           :   Return the string part-of-speech(pos) 
+                          from the `g_pos` global-array. Return
+                          "NOT_FOUND" if the word doesn't exist
+                          in the dictionary.
+    @post             :   Find the pos of the given `word`
+                          Return "NOT_FOUND" otherwise
 */
 string getPOS(string word);
 
 /*
-    @param            :   The string prefix of a word (the prefix 
+    @param            :   The string prefix of a word (the prefix
                           can be of any length)
-    @return           :   Integer number of words found that starts 
+    @return           :   Integer number of words found that starts
                           with the given `prefix`
-    @post             :   Count the words that start with the given 
+    @post             :   Count the words that start with the given
                           `prefix`
 */
 int countPrefix(string prefix);
