@@ -20,7 +20,7 @@ Things you need to know for this project: [Arrays](https://www.geeksforgeeks.org
 ## Implementation:
 
 
-**Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the **function prototypes and global-variables must be exactly as specified in this project specification**. Lastly, **do NOT use EOF(End of File), vector, or any library that we haven't learned yet in calss.** This is a contract, it gives you all the information necessary to complete this assignment correctly. If you don't understand this project specification and its requirements, ask for clarification before you proceed. **TEST YOUR CODE BEFORE SUBMITTING!!!**
+**Work incrementally!** Work through the tasks sequentially (implement and test). Only move on to a task when you are positive that the previous one has been completed correctly. Remember that the **function prototypes and global-variables must be exactly as specified in this project specification**. Lastly, **do NOT use EOF(End of File), vector, or any library that we haven't learned yet in class.** If you don't understand this project specification and its requirements, ask for clarification before you proceed. **TEST YOUR CODE BEFORE SUBMITTING!!!**
 
 ---  
 
@@ -29,15 +29,15 @@ Things you need to know for this project: [Arrays](https://www.geeksforgeeks.org
     <img src="horrible.jpg" alt="horrible" width="600"/>
 </p>
 
-A regular dictionary contains the words and the definitions. In addition to the words and the definitions, we will also store the parts of speech (POS). The words, definitions and POS are going to be stored in Arrays. Use these global-variables in your code outside `main()` function:
+A regular dictionary contains the words and the definitions. In addition to the words and the definitions, we will also store the part-of-speech (pos). The words, definitions and pos are going to be stored in Arrays. Use these global-variables in your code outside `main()` function:
 
 ``` Cpp
-const int MAX_WORDS = 1000;
-int WORD_COUNT = 0;
+const int g_MAX_WORDS = 1000;
+int g_word_count = 0;
 
-string WORDS[MAX_WORDS];
-string DEFINITIONS[MAX_WORDS];
-string POS[MAX_WORDS];
+string g_words[g_MAX_WORDS];
+string g_definitions[g_MAX_WORDS];
+string g_pos[g_MAX_WORDS];
 ```
 
 Create a C++ file and add the following function:
@@ -45,20 +45,17 @@ Create a C++ file and add the following function:
 ```Cpp
 /*
     @param            :   The string with the `filename`
-    @post             :   Reads the words, definitions, 
-                          POS into the global arrays, 
-                          and set the value of `WORD_COUNT` 
-                          to the number of words read
+    @post             :   Reads the words, definitions, pos into the global-arrays, and set the value of `g_word_count` to the number of words read
 */
 void readWords(string filename);
 ```
 Here's an example text file:
 ```
 WORD POS : DEFINITION
-Grumpy adjective : bad-tempered and irritable
-Professor noun : teacher of the highest rank in a university
-Does verb : perform (an action, often of unspecified nature)
-Nothing adverb : not at all
+Grumpy Adjective : bad-tempered and irritable
+Professor Noun : a teacher of the highest rank in a college or university
+Does Verb : perform (an action, the precise nature of which is often unspecified)
+Nothing Adverb : not at all
 ```
 
 Example:
@@ -66,15 +63,15 @@ Example:
 Calling `readWords()` on the above text file will modify the global variables like this:
 
 ```
-MAX_WORDS: 1000
+g_MAX_WORDS: 1000
 
-WORD_COUNT: 5
+g_word_count: 5
 
-WORDS: ["WORD", "Grumpy", "Professor", "Does", "Nothing"]
+g_words: ["WORD", "Grumpy", "Professor", "Does", "Nothing"]
 
-POS: ["POS", "adjective", "noun", "verb", "adverb"]
+g_pos: ["POS", "Adjective", "Noun", "Verb", "Adverb"]
 
-DEFINITIONS: [
+g_definitions: [
     "DEFINITION",
     "bad-tempered and irritable", 
     "teacher of the highest rank in a university", 
@@ -82,7 +79,7 @@ DEFINITIONS: [
     "not at all"
 ]
 ```
-
+*Hint: Which lab was this covered in again?*
 
 Make sure your program produces the correct output by testing the function and global-variables using `main()` function. 
 
@@ -99,34 +96,22 @@ Now that we have the words stored, it is time to provide functions that allow us
 ```Cpp
 /*
     @param            :   The string with a query word
-    @return           :   Integer index of the word in 
-                         `WORDS` global array. Returns 
-                          -1 if the word is not found
-    @post             :   Find the index of given `word` 
-                          in the `WORDS` array. Return -1 
-                          if word is not in the array
+    @return           :   Integer index of the word in `g_words` global-array. Returns -1 if the word is not found
+    @post             :   Find the index of given `word` in the `g_words` array. Return -1 if word is not in the array
 */
 int getIndex(string word);
 
 /*
     @param            :   The string with a query word
-    @return           :   Return the string definition of 
-                          the word from  `DEFINITIONS` 
-                          global array. Return "NOT_FOUND" 
-                          if word doesn't exist in the dictionary
-    @post             :   Find the definition of the given `word`. 
-                          Return "NOT_FOUND" otherwise
+    @return           :   Return the string definition of the word from  `g_definitions` global-array. Return "NOT_FOUND" if word doesn't exist in the dictionary
+    @post             :   Find the definition of the given `word`. Return "NOT_FOUND" otherwise
 */
 string getDefinition(string word);
 
 /*
     @param            :   The string with a query word
-    @return           :   Return the string part of speech(POS) 
-                          from the `POS` global array. Return 
-                          "NOT_FOUND" if the word doesn't exist 
-                          in the dictionary.
-    @post             :   Find the POS of the given `word`. 
-                          Return "NOT_FOUND" otherwise.
+    @return           :   Return the string part-of-speech(pos) from the `g_pos` global-array. Return "NOT_FOUND" if the word doesn't exist in the dictionary.
+    @post             :   Find the pos of the given `word`. Return "NOT_FOUND" otherwise.
 */
 string getPOS(string word);
 
@@ -141,5 +126,3 @@ string getPOS(string word);
 int countPrefix(string prefix);
 ```
 Remember to test each function before moving on to implement the next one. Similar to Task A, submit only one `.cpp` file without the `main()` function.
-
----
