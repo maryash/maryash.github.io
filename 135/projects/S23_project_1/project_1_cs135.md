@@ -7,8 +7,6 @@ You must start working on the projects as soon as they are assigned to detect an
 
 **There will be no extensions and no negotiation about project grades after the submission deadline.**
 
-*Credits: Genady Maryash, Ryan Vaz, Yoomin Song, Sadab Hafiz*
-
 ---
 
 # Project 1: Hang in there!
@@ -149,3 +147,5 @@ string getPOS(string word);
 int countPrefix(string prefix);
 ```
 Remember to test each function before moving on to implement the next one. Similar to Task A, submit only one `.cpp` file without the `main()` function.
+
+*Credits: Genady Maryash, Yoomin Song, Sadab Hafiz, Ryan Vaz*
