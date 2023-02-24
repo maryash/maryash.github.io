@@ -2,6 +2,14 @@
 layout: myDefault
 title: PROJECT 1
 ---   
+<p style="text-align: center; font-style: italic;">Important</p>
+You must start working on the projects as soon as they are assigned to detect any problems and to address them with us well before the deadline so that we have time to get back to you before the deadline.  
+
+**There will be no extensions and no negotiation about project grades after the submission deadline.**
+
+*Credits: Genady Maryash, Ryan Vaz, Yoomin Song, Sadab Hafiz*
+
+---
 
 # Project 1: Hang in there!
 
