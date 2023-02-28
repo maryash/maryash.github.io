@@ -1,0 +1,56 @@
+report Noun : a written document describing the findings of some individual or group
+yeet Verb : to throw something with a lot of force
+air Noun : a mixture of gases (especially oxygen) required for breathing; the stuff that the wind consists of
+necessary Adjective : essential or needed in order to do something, provide something, or make something happen
+various Adjective : of many different kinds purposefully arranged but lacking any uniformity
+angry Adjective : feeling or showing strong annoyance, displeasure, or hostility
+zoomer Noun : a member of Generation Z
+specific Adjective : involving or relating to only one particular thing or type of thing
+attention Noun : the process whereby a person concentrates on some features of the environment to the (relative) exclusion of others
+doctor Noun : a licensed medical practitioner
+available Adjective : obtainable or accessible and ready for use or service
+bar Noun : a room or establishment where alcoholic drinks are served over a counter
+hair Noun : a covering for the body (or parts of it) consisting of a dense growth of threadlike structures (as on the human head); helps to prevent heat loss
+agreement Noun : the statement (oral or written) of an exchange of promises
+future Noun : the time yet to come
+improve Verb : to make better
+zoo Noun : an establishment which maintains a collection of wild animals
+yesterday Adverb : day before today
+object Noun : a material thing that can be seen and touched
+odd Adjective : different from what is usual or expected; strange
+mission Noun : an important piece of work that a person or group of people has to do for a government or large organization, especially one that involves travel
+idea Noun : the content of cognition; the main thing you are thinking about
+natural Adjective : existing in or caused by nature; not made or caused by humankind
+several Adjective : (used with count nouns) of an indefinite number more than 2 or 3 but not many
+october Noun : the 10th month of the year
+neck Noun : the part of the body between the head and the shoulders
+github Noun : an internet hosting service for software development and version control using git
+genady Noun : the first name of the Professor who teaches cs135
+maryash Noun : the last name of the Professor who teaches cs135
+pass Verb : be successful on test
+mind Noun : that which is responsible for one's thoughts and feelings; the seat of the faculty of reason
+court Noun : an assembly (including one or more judges) to conduct judicial business
+hear Noun : perceive (sound) via the auditory sense
+person Noun : a human being
+present Noun : the period of time that is happening now; any continuous stretch of time including the moment of speech
+size Noun : the physical magnitude of something (how big it is)
+enter Noun : to come or go into
+clearly Adverb : without doubt or question
+list Noun : a database containing an ordered array of items (names or topics)
+prove Noun : be shown or be found to be
+wind Noun : air moving (sometimes with considerable force) from an area of high pressure to an area of low pressure
+admit Noun : declare to be true or admit the existence or reality or truth of
+world Noun : everything that exists anywhere
+clear Adjective : easy to understand; transparent; easy to see
+concern Noun : something that interests you because it is important or affects you
+movement Noun : a change of position
+period Noun : an amount of time
+century Noun : a period of 100 years
+tree Noun : a tall perennial woody plant having a main trunk and branches forming a distinct elevated crown; includes both gymnosperms and angiosperms
+start Noun : the beginning of anything
+moment Noun : a particular point in time
+daughter Noun : a female human offspring
+director Noun : someone who controls resources and expenditures
+skin Noun : a natural protective body covering and site of the sense of touch
+coding Noun : the process or activity of writing computer programs
+field Noun : a piece of land cleared of trees and usually enclosed often used for farming and agriculture

@@ -366,4 +366,4 @@ Implement and test each function before moving on to the next. Once you have all
 Every project starts somewhere. While the hangman game is functional, it can be improved significantly. For example: we can prevent users from entering letters that have been entered already, we can add a GUI to make the experience more user-friendly and the list goes on. You can add your own rules to the game to make something unique that you can put in your Portfolio to impress your friends and potential recruiters.
 
 ---
-*Credits: Genady Maryash, Sadab Hafiz, Yoomin Song, Ryan Vazz*
+*Credits: Genady Maryash, Sadab Hafiz, Yoomin Song, Ryan Vaz*
