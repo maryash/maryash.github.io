@@ -329,7 +329,7 @@ int getTries(int difficulty);
                   Based on given `difficulty`, we know the total tries
                   is 7 (from `getTries(1)`). Also, the player has 2
                   `tries` remaining based on the given parameter.
-                  Therefore, the function prints two "0"s to indicate
+                  Therefore, the function prints two "O"s to indicate
                   the remaining tries and 5 "X"s to indicate the tries
                   that have been used (7-2=5)          
 */
