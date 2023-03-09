@@ -92,19 +92,11 @@ Arrays and Pointers <br/>[![](video.jpg)](https://us-lti.bbcollab.com/recording/
  4/30 |  | [9.9 Separate Compilation](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/592[;vnd.vst.idref=bc3e_ch09-18]!/4[bc3e_ch09-18]/2/2[_idParaDest-454]/2@0:0){:target="_blank"} | [9.9](slides/9.9 Separate Compilation.pdf){:target="_blank"}<br/>[![](video.jpg)](https://us-lti.bbcollab.com/recording/ea00d76d71964914bbf57eef8f2acf85){:target="_blank"} | **[E9.5](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/624[;vnd.vst.idref=bc3e_ch09-31]!/4[bc3e_ch09-31]/4/36/2@0.00:0 "Implement a class Rectangle. Provide a constructor to construct a rectangle with a given width and height, member functions float get_perimeter() and float get_area() that compute the perimeter and area, and a member function void resize(double factor) that resizes the rectangle by multiplying the width and height by the given float factor."){:target="_blank"} &nbsp; 5/4**
  5/4 |  | [9.5 Member Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/568[;vnd.vst.idref=bc3e_ch09-6]!/4[bc3e_ch09-6]/2/2[_idParaDest-427]/2@0:0){:target="_blank"} | [9.3-5](slides/9.3-5 Specifying the Public Interface _ Designing the Data Representation _ Member Functions.pdf){:target="_blank"}<br/>[![](video.jpg)](https://us-lti.bbcollab.com/recording/bdc6ae77451d4cc680440f900d993bf0){:target="_blank"} | **[Project&nbsp;III](projects/project_03.html){:target="_blank"}&nbsp;&nbsp;5/17**<br/>[WE&nbsp;9.1](worked_examples/ch9_WE1.pdf){:target="_blank"}<br/>**[Debugger&nbsp;LAB](labs/lab_DB.html){:target="_blank"}** 
  5/6 |  | [9.6 Constructors](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/576[;vnd.vst.idref=bc3e_ch09-10]!/4[bc3e_ch09-10]/2/2[_idParaDest-436]/2@0:0){:target="_blank"} | [9.6](slides/9.6 Constructors.pdf){:target="_blank"}<br/>[![](video.jpg)](https://us-lti.bbcollab.com/recording/9a32105d4a0e48328850977f1aeb4018){:target="_blank"} | 
- 5/7 | **Vectors** | [6.7 Vectors](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/398[;vnd.vst.idref=bc3e_ch06-31]!/4[bc3e_ch06-31]/4/2[_idParaDest-308]/2@0:0){:target="_blank"} | [6.7](slides/6.7 Vectors.pdf){:target="_blank"}<br/>[![](video.jpg)](https://us-lti.bbcollab.com/recording/00eff483c11b45209605bbeb933a8387){:target="_blank"} | **[E6.18](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/426[;vnd.vst.idref=bc3e_ch06-39]!/4[bc3e_ch06-39]/4/194/2@0.00:0 "Write a function &nbsp; vector<int> append(vector<int> a, vector<int> b) &nbsp; that appends one vector after another. For example, if &nbsp; a &nbsp; is &nbsp; 1 4 9 16 &nbsp; and &nbsp; b &nbsp; is &nbsp; 9 7 4 9 11 &nbsp; then append returns the vector &nbsp; 1 4 9 16 9 7 4 9 11"){:target="_blank"}&nbsp;&nbsp;[E6.20](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/426[;vnd.vst.idref=bc3e_ch06-39]!/4[bc3e_ch06-39]/4/222/2@0:0 "Write a function &nbsp; vector<int> merge_sorted(vector<int> a, vector<int> b) &nbsp; that merges two sorted vectors, producing a new sorted vector. Keep an index into each vector, indicating how much of it has been processed already. Each time, append the smallest unprocessed element from either vector, then advance the index. For example, if &nbsp; a &nbsp; is &nbsp; 1 4 9 16 &nbsp; and  &nbsp; b &nbsp; is &nbsp; 4 7 9 9 11 &nbsp; then &nbsp; merge_sorted &nbsp; returns the vector &nbsp; 1 4 4 7 9 9 9 11 16"){:target="_blank"} &nbsp; 5/12** 
+ 5/7 | **Vectors** | [6.7 Vectors](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/398[;vnd.vst.idref=bc3e_ch06-31]!/4[bc3e_ch06-31]/4/2[_idParaDest-308]/2@0:0){:target="_blank"} | [6.7](slides/6.7 Vectors.pdf){:target="_blank"}<br/>[![](video.jpg)](https://us-lti.bbcollab.com/recording/00eff483c11b45209605bbeb933a8387){:target="_blank"} | **[E6.18](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/426[;vnd.vst.idref=bc3e_ch06-39]!/4[bc3e_ch06-39]/4/194/2@0.00:0 "Write a function &nbsp; vector<int> append(vector<int> a, vector<int> b) &nbsp; that appends one vector after another. For example, if &nbsp; a &nbsp; is &nbsp; 1 4 9 16 &nbsp; and &nbsp; b &nbsp; is &nbsp; 9 7 4 9 11 &nbsp; then append returns the vector &nbsp; 1 4 9 16 9 7 4 9 11"){:target="_blank"}&nbsp;&nbsp;[E6.20](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/426[;vnd.vst.idref=bc3e_ch06-39]!/4[bc3e_ch06-39]/4/222/2@0:0 "Write a function &nbsp; vector<int> merge_sorted(vector<int> a, vector<int> b) &nbsp; that merges two sorted vectors, producing a new sorted vector. Keep an index into each vector, indicating how much of it has been processed already. Each time, append the smallest unprocessed element from either vector, then advance the index. For example, if &nbsp; a &nbsp; is &nbsp; 1 4 9 16 &nbsp; and  &nbsp; b &nbsp; is &nbsp; 4 7 9 9 11 &nbsp; then &nbsp; merge_sorted &nbsp; returns the vector &nbsp; 1 4 4 7 9 9 9 11 16"){:target="_blank"} &nbsp; 5/12** .pdf
  5/11 | [More Vectors](https://medium.com/the-renaissance-developer/c-standard-template-library-stl-vector-a-pretty-simple-guide-d2b64184d50b){:target="_blank"} |  | <br/>[![](video.jpg)](https://us-lti.bbcollab.com/recording/1f6babb70d2e49628faf010270dd207f){:target="_blank"} | **[LAB&nbsp;12&nbsp; Vectors](labs/lab_12.html){:target="_blank"}&nbsp;&nbsp;&nbsp;5/15** 
  5/13 | **Pointers to Objects** | [9.10 Pointers to Objects](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/594[;vnd.vst.idref=bc3e_ch09-19]!/4[bc3e_ch09-19]/2/2[_idParaDest-455]/2@0:0){:target="_blank"}<br/>[9.11 PS: Patterns for Object Data](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/600[;vnd.vst.idref=bc3e_ch09-22]!/4[bc3e_ch09-22]/2/2[_idParaDest-459]/2@0:0){:target="_blank"} | [9.10-11](slides/9.10-11 Pointers to Objects _ PS Patterns for Object Data.pdf){:target="_blank"} | 
  5/14 | **Static&nbsp;Member Variables** | [Static Variables](https://www.learncpp.com/cpp-tutorial/43-static-duration-variables/){:target="_blank"} *(from 3/2)*<br/>[Static Member Variables](https://www.learncpp.com/cpp-tutorial/811-static-member-variables/){:target="_blank"} | [StatVar](slides/Static Variables.pdf){:target="_blank"}<br/>[StatMV](slides/Static Member Variables.pdf){:target="_blank"} | [Code](https://is.gd/zaYXsw){:target="_blank"}<br/>[More Code](https://is.gd/fh7ZK4){:target="_blank"} 
  x/xx | **Inheritance** | [10.1 Inheritance Hierarchies](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/630%5B%3Bvnd.vst.idref%3Dbc3e_ch10-1%5D!/4%5Bbc3e_ch10-1%5D/4/2%5B_idParaDest-472%5D/2%400:0){:target="_blank"}<br/>[10.2 Implementing Derived Classes](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/632%5B%3Bvnd.vst.idref%3Dbc3e_ch10-2%5D!/4%5Bbc3e_ch10-2%5D/2/2%5B_idParaDest-473%5D/2%400:0){:target="_blank"}<br/>[10.3 Overriding Member Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/636%5B%3Bvnd.vst.idref%3Dbc3e_ch10-4%5D!/4%5Bbc3e_ch10-4%5D/4/2%5B_idParaDest-484%5D/2%400:0){:target="_blank"}<br/>[10.4 Virtual Functions and Polymorphism](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/640%5B%3Bvnd.vst.idref%3Dbc3e_ch10-6%5D!/4%5Bbc3e_ch10-6%5D/2/2%5B_idParaDest-487%5D/2%400:0){:target="_blank"} | [10.1](slides/10.1 Inheritance Hierarchies.pdf){:target="_blank"}<br/>[10.2](slides/10.2 Implementing Derived Classes.pdf){:target="_blank"}<br/>[10.3](slides/10.3 Overriding Member Functions.pdf){:target="_blank"}<br/>[10.4](slides/10.4 Virtual Functions and Polymorphism.pdf){:target="_blank"} | [10 Extra](slides/10 Extra.pdf){:target="_blank"}<br/>[WE&nbsp;10.1](worked_examples/ch10_WE1.pdf){:target="_blank"}
-  
-  
- [ChetSheet like the one that will be given to you on the exam](slides/CheatSheet.pdf){:target="_blank"} 
- 
- [2019 Fall Midterm 1](old_exams/2019 Fall Midterm 1.pdf){:target="_blank"}     
-
-
- [2019 Fall Midterm 1 Answers](old_exams/2019 Fall Midterm 1 Answers.pdf){:target="_blank"}     
 
 
  5/14 | **Recursion** | [5.10 Recursive Functions](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/314[;vnd.vst.idref=bc3e_ch05-20]!/4[bc3e_ch05-20]/2/2[_idParaDest-251]/2@0:0){:target="_blank"} | [5.10](slides/5.10 Recursive Functions.pdf){:target="_blank"}<br/>[Print Triangle](https://is.gd/wEoL1J){:target="_blank"}<br/>[Add Digits](https://is.gd/w1O0X6){:target="_blank"} | **[E5.21](https://bookshelf.vitalsource.com/#/books/9781119400424/epubcfi/6/332[;vnd.vst.idref=bc3e_ch05-25]!/4[bc3e_ch05-25]/4/162/16@0:100 "Write a recursive function &nbsp; string reverse(string str) &nbsp; that computes the reverse of a string. For example, &nbsp; reverse('flow') should return 'wolf'. Hint: Reverse the substring starting at the second character, then add the first character at the end. For example, to reverse 'flow', first reverse 'low' to 'wol', then add the 'f' at the end."){:target="_blank"} &nbsp; 5/15**<br/>[WE&nbsp;5.1](worked_examples/ch5_WE1.pdf){:target="_blank"}<br/>[WE&nbsp;5.3](worked_examples/ch5_WE3.pdf){:target="_blank"} 
@@ -136,29 +128,12 @@ Arrays and Pointers <br/>[![](video.jpg)](https://us-lti.bbcollab.com/recording/
  12/12 |  |  |  | 
  <span style="color:red">**12/18**</span> | <span style="color:red">**FINAL EXAM**</span> | <span style="color:red">**WEDNESDAY 12/18 &nbsp; 11:30 — 1:30**</span> | <span style="color:red">**HN118**</span> | 
  
- [2019 Spring Midterm 1](old_exams/2019 Spring Midterm 1.pdf){:target="_blank"}     
- [2019 Spring Midterm 1 Answers](old_exams/2019 Spring Midterm 1 Answers.pdf){:target="_blank"}     
 Please keep in mind that the material covered in the exam is not exactly the same as last semester.  Though they were in the last semester's exam, pass-by-reference function parameters ( & ) will not be in this exam.  On the other hand, questions about the terminal commands for g++ compilation and execution (with different options) will be in this exam.  
   
-  
- [2019 Spring Midterm 2](old_exams/2019 Spring Midterm 2.pdf){:target="_blank"}     
- [2019 Spring Midterm 2 Answers](old_exams/2019 Spring Midterm 2 Answers.pdf){:target="_blank"}     
+
 Please keep in mind that the questions on the actual Midterm 2 may be quite different than the ones last semester.  Also, though most of the questions will be on the new material, this exam will be cumulative.  
 
- [2019 Fall Midterm 1](old_exams/2019 Fall Midterm 1.pdf){:target="_blank"}     
- [2019 Fall Midterm 1 Answers](old_exams/2019 Fall Midterm 1 Answers.pdf){:target="_blank"}     
- 
- [2019 Fall Midterm 2](old_exams/2019 Fall Midterm 2.pdf){:target="_blank"}     
- [2019 Fall Midterm 2 Answers](old_exams/2019 Fall Midterm 2 Answers.pdf){:target="_blank"}     
- 
- [Mock Final Exam](old_exams/2019 Spring Final.pdf){:target="_blank"}   
- [Fixed Typos Mock Final Exam Answers](old_exams/2019 Spring Final Answers.pdf){:target="_blank"}   
- 
- [Old Final Exam](old_exams/2019 Spring Mock Final.pdf){:target="_blank"}   
- [Old Final Exam Answers](old_exams/2019 Spring Mock Final Answers.pdf){:target="_blank"}   
 Please note that this exam does follows the material covevered this semester less closely than the mock final, but may still be a good practice.  
-
-
 
  X/XX |  |  |  | 
  X/XX | **Strings** | [7.3 C and C++ Strings](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/384!/4/2/2/2@0.00:0){:target="_blank"} | [7.3](slides/7.3 C and C++ Strings.pdf){:target="_blank"} | **[E7.13](https://bookshelf.vitalsource.com/?#/books/9781119400424/cfi/6/432!/4/4/64/6@0:21.0){:target="_blank"} &nbsp; 10/29**<br/>**[LAB&nbsp;8 Image Processing](labs/lab_08.html){:target="_blank"} &nbsp; 11/01** 
@@ -169,25 +144,10 @@ Please note that this exam does follows the material covevered this semester les
  X/XX |  |  |  | 
  X/XX | **Inheritance** | [10.1 Inheritance Hierarchies](https://bookshelf.vitalsource.com/#/books/9781119400424/cfi/6/552!/4/4/2/2@0.00:0){:target="_blank"}<br/>[10.2 Implementing Derived Classes](https://bookshelf.vitalsource.com/?#/books/9781119400424/cfi/6/554!/4/2/2/2@0.00:0){:target="_blank"}<br/>[10.3 Overriding Member Functions](https://bookshelf.vitalsource.com/?#/books/9781119400424/cfi/6/558!/4/4/2/2@0.00:0){:target="_blank"}<br/>[10.4 Virtual Functions and Polymorphism](https://bookshelf.vitalsource.com/?#/books/9781119400424/cfi/6/562!/4/2/2/2@0.00:0){:target="_blank"} | [10.1](slides/10.1 Inheritance Hierarchies.pdf){:target="_blank"}<br/>[10.2](slides/10.2 Implementing Derived Classes.pdf){:target="_blank"}<br/>[10.3](slides/10.3 Overriding Member Functions.pdf){:target="_blank"}<br/>[10.4](slides/10.4 Virtual Functions and Polymorphism.pdf){:target="_blank"} | [10++](slides/10 Extra.pdf){:target="_blank"}<br/>[WE&nbsp;10.1](worked_examples/ch10_WE1.pdf){:target="_blank"}
  X/XX |  |  |  |   
-
- [**Answers to all past quizzes**](old_exams/all_quizzes.pdf){:target="_blank"}   
+ 
  <br/>[**Quizzes**](slides/M1 Quiz Review.pdf){:target="_blank"} 
   
 <color=red>**12/18** | **FINAL EXAM** | **THURSDAY 12/18 &nbsp; 11:30 — 1:30** | **HN118** | </color>
-  
-**Past exams:**  
- [***REVIEW SHEET***](old_exams/Review Sheet.pdf){:target="_blank"}     
- [Sample Midterm 1](old_exams/Sample Midterm 1.pdf){:target="_blank"}     
- [Sample Midterm 1 Answers](old_exams/Sample Midterm 1 Answers.pdf){:target="_blank"}   
- [2019 Spring Midterm 1](old_exams/2019 Spring Midterm 1.pdf){:target="_blank"}     
- [2019 Spring Midterm 1 Answers](old_exams/2019 Spring Midterm 1 Answers.pdf){:target="_blank"}     
- [Sample Midterm 2](old_exams/Sample Midterm 2.pdf){:target="_blank"}     
- [Sample Midterm 2 Answers](old_exams/Sample Midterm 2 Answers.pdf){:target="_blank"}     
- [2019 Spring Midterm 2](old_exams/2019 Spring Midterm 2.pdf){:target="_blank"}     
- [2019 Spring Midterm 2 Answers](old_exams/2019 Spring Midterm 2 Answers.pdf){:target="_blank"}     
- [Mock Final Exam](old_exams/2019 Spring Mock Final.pdf){:target="_blank"}   
- [Fixed Typos: Mock Final Exam Answers](old_exams/2019 Spring Mock Final Answers.pdf){:target="_blank"}   
- 
 **NO LECTURE** | because of National Chorale High School Choral Festival in HN118
 --->  
   
