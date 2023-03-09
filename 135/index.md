@@ -17,7 +17,7 @@ In these two courses, both of which are required to graduate with a computer sci
   
 The tutors are there to help you with all of your labs, assignments, and projects!  Get as much help as you need.  
   
-**Lecture: Monday, Wednesday, Thursday 12:30 – 1:20 PM on BlackBoard Collaborate**  
+**Lecture: Monday, Wednesday, Thursday 12:30 – 1:20 PM at HN118**  
 
 **Lecture Instructor**: Genady Maryash &nbsp; HN1047 &nbsp; Office hours: after each lecture and by appointment, &nbsp; gmaryash@hunter.cuny.edu   
   
