@@ -78,7 +78,7 @@ void allocateNew();
                           dynamic arrays reach full 
                           capacity.
 */
-void readSords(string filename);
+void readSongs(string filename);
 ```
 Here's an example text file:
 ```
@@ -101,7 +101,7 @@ No Title:Isabel Stec-Pop-3 mins
 
 Example:
 
-Calling `readSords()` on the above text file will modify the global variables like this:
+Calling `readSongs()` on the above text file will modify the global variables like this:
 
 ```
 g_curr_size      : 16
