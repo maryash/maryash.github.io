@@ -20,14 +20,7 @@ _**Congrats to everyone who finished Project 1. You can't celebrate yet however 
 
 This project will test your knowledge about dynamic memory allocation and classes. While working on this project, you will realize the usefulness of dynamically allocated arrays and classes.
 
-Things you need to know for this project: 
-- [Arrays](https://www.geeksforgeeks.org/arrays-in-c-cpp/)
-- [Functions](https://www.geeksforgeeks.org/functions-in-cpp/)
-- [Global-Variables](https://www.geeksforgeeks.org/scope-of-variables-in-c/)
-- [String-Manipulation](https://www.geeksforgeeks.org/substring-in-cpp/)
-- [Data-only classes](https://www.w3schools.com/cpp/cpp_classes.asp)
-- [Pointers](https://maryash.github.io/135/slides/MyPointers.pdf)
-- [Dynamically Allocated Arrays](https://www.guru99.com/cpp-dynamic-array.html)
+Things you need to know for this project: [Arrays](https://www.geeksforgeeks.org/arrays-in-c-cpp/), [Functions](https://www.geeksforgeeks.org/functions-in-cpp/),  [Global-Variables](https://www.geeksforgeeks.org/scope-of-variables-in-c/), [String-Manipulation](https://www.geeksforgeeks.org/substring-in-cpp/), [Data-only classes](https://www.w3schools.com/cpp/cpp_classes.asp), [Pointers](https://maryash.github.io/135/slides/MyPointers.pdf), [Dynamically Allocated Arrays](https://www.guru99.com/cpp-dynamic-array.html)
 
 ---
 ## Implementation:
@@ -37,28 +30,6 @@ Things you need to know for this project:
 
 ---
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
-<script>
-  function selectText(containerid) {
-    if (document.selection) { // IE
-        var range = document.body.createTextRange();
-        range.moveToElementText(document.getElementById(containerid));
-        range.select();
-    } else if (window.getSelection) {
-        var range = document.createRange();
-        range.selectNode(document.getElementById(containerid));
-        window.getSelection().removeAllRanges();
-        window.getSelection().addRange(range);
-    }
-  }
-</script>
-<style>
-  div.code{
-    white-space: pre;
-  }
-</style>
-
 ## Task A: Dynamically Allocated Playlists
 <p align="center">
     <img src="question.jpg" alt="question" width="600"/>
@@ -66,17 +37,21 @@ Things you need to know for this project:
 
 We will be making a playlist system to keep the order of songs. Similar to Project 1, we will be using global arrays to store song information. The difference is, these arrays are going to be dynamically allocated!
 
-<div id="g_vars" class="code language-c++" onclick="selectText(this.id)" style="border-style: double; padding:10px;">int g_curr_size = 2;
+``` Cpp
+int g_curr_size = 2;
+
 int g_number_of_songs = 0;
 
 string *g_song_names = new string[g_curr_size];
 string *g_artist_names = new string[g_curr_size];
 int *g_song_durations = new int[g_curr_size];
-string *g_genres = new string[g_curr_size];</div>
+string *g_genres = new string[g_curr_size];
+```
 
 Create a C++ file and add the following functions:
-<div style="border-style: double; padding:10px;">
-<div id="allocateNew" class="code language-c++" onclick="selectText(this.id)" style="margin-bottom:10px;">/*
+
+```Cpp
+/*
     @post             :   Replace the old global
                           dynamically allocated arrays
                           with new dynamically allocated
@@ -89,8 +64,9 @@ Create a C++ file and add the following functions:
                           `g_song_names`, `g_artist_names`, 
                           `g_song_durations`, `g_genres`
 */
-void allocateNew();</div>
-<div id="readSongs" class="code language-c++" onclick="selectText(this.id)">/*
+void allocateNew();
+
+/*
     @param            :   The string with the `filename`
     @post             :   Reads the song, artists,
                           song durations and genres into 
@@ -102,11 +78,11 @@ void allocateNew();</div>
                           dynamic arrays reach full 
                           capacity.
 */
-void readSongs(string filename);</div>
-</div>
-
+void readSongs(string filename);
+```
 Here's an example text file:
-<div id="exampleText" class="code language-plaintext" onclick="selectText(this.id)" style="border-style: double; padding:10px;">Song Name:Artist Name-GENRE-1 mins
+```
+Song Name:Artist Name-GENRE-1 mins
 A Tale of 2 Citiez:Ryan Vaz-Jazz-2 mins
 Don't Stop the Music:Bode Chiu-Pop-1 mins
 Africa:Baolin Cheng-Rock-3 mins
@@ -120,13 +96,15 @@ N.Y. State of Mind:Rawad Yakub-Classical-3 mins
 Renegade:Zakaria Almardaee-Metal-3 mins
 You Know You Like It:Justin Lau-Pop-2 mins
 A Place for My Head:Bryant Zheng-Jazz-4 mins
-No Title:Isabel Stec-Pop-3 mins</div>
+No Title:Isabel Stec-Pop-3 mins
+```
 
 Example:
 
 Calling `readSongs()` on the above text file will modify the global variables like this:
 
-<div id="exampleOutput" class="code language-plaintext" onclick="selectText(this.id)" style="border-style: double; padding:10px;">g_curr_size      : 16
+```
+g_curr_size      : 16
 
 g_number_of_songs: 15
 
@@ -143,7 +121,8 @@ g_artist_names   : [ "Artist Name", "Ryan Vaz", "Bode Chiu", "Baolin Cheng",
 g_song_durations : [ 1, 2, 1, 3, 3, 4, 3, 1, 2, 5, 3, 3, 2, 4, 3 ]
 
 g_genres         : [ "GENRE", "Jazz", "Pop", "Rock", "Hiphop", "Rnb", "Pop", "Rnb", "Metal", 
-                    "Hiphop", "Classical", "Metal", "Pop", "Jazz", "Pop" ]</div>
+                    "Hiphop", "Classical", "Metal", "Pop", "Jazz", "Pop" ]
+```
 
 Make sure your program produces the correct output by testing the functions and global-variables using `main()` function. 
 
@@ -158,8 +137,8 @@ Make sure your program produces the correct output by testing the functions and 
 
 Let's learn more about our playlists. Add and implement the following functions:
 
-<div style="border-style: double; padding:10px;">
-<div id="getGenreSongs" class="code language-c++" onclick="selectText(this.id)" style="margin-bottom:10px;">/*
+```Cpp
+/*
     @param genre              :   A string representing a genre
     @param(&) genreCount      :   An integer that will keep track of the number of songs
     @return                   :   A pointer to a dynamically allocated array of strings 
@@ -186,8 +165,8 @@ Let's learn more about our playlists. Add and implement the following functions:
                   The value of `count` will be updated to 3 because there
                   are three "HipHop" songs on the playlist 
 */
-string * getGenreSongs(string genre, int &genreCount);</div>
-<div id="getSongsFromDuration" class="code language-c++" onclick="selectText(this.id)" style="margin-bottom:10px;">/*
+string * getGenreSongs(string genre, int &genreCount);
+/*
     @param duration             :   The integer duration of the songs
     @param(&) durationsCount    :   An integer that will keep track of the number of songs
     @param filter               :   An integer(0, 1 or 2) representing the comparision filter
@@ -231,8 +210,8 @@ string * getGenreSongs(string genre, int &genreCount);</div>
                   The value of `equal` will be 2 because there are 2 songs
                   equal to 3 mins duration      
 */
-string * getSongsFromDuration(int duration, int &durationsCount, int filter);</div>
-<div id="getUniqueArtists" class="code language-c++" onclick="selectText(this.id)" style="margin-bottom:10px;">/*
+string * getSongsFromDuration(int duration, int &durationsCount, int filter);
+/*
     @param      :   An integer that will keep track of unique artists
     @return     :   A pointer to a dynamically allocated array of strings 
     @post       :   Return a pointer to a dynamically allocated array of strings
@@ -254,8 +233,8 @@ string * getSongsFromDuration(int duration, int &durationsCount, int filter);</d
                   The value of `count` will be updated to 3 because there
                   are three unique artists on the playlist     
 */
-string * getUniqueArtists(int &uniqueCount);</div>
-<div id="getFavoriteArtist" class="code language-c++" onclick="selectText(this.id)">/* 
+string * getUniqueArtists(int &uniqueCount);
+/* 
     @return     :   A string with the artist with most songs in playlist
     @post       :   Find the artist with the most songs in the playlist
                     If there are multiple such artists, return any one of them.
@@ -270,9 +249,8 @@ string * getUniqueArtists(int &uniqueCount);</div>
                   because both artists have 2 songs which is greater than any 
                   other artists in the playlist
 */
-string getFavoriteArtist();</div>
-</div>
-
+string getFavoriteArtist();
+```
 **Note: For functions that return a pointer to a dynamic array, use `g_number_of_songs` as the size**
 
 Feel free to write any helper functions to make your lives easier. Test your functions thoroughly using `main()`. Submit a single `.cpp` file with the functions.
@@ -280,9 +258,3 @@ Feel free to write any helper functions to make your lives easier. Test your fun
 ---
 
 *Credits: Genady Maryash, Yoomin Song, Sadab Hafiz, Ryan Vaz*
-
-<script>
-  document.querySelectorAll('div.code').forEach(el => {
-    hljs.highlightElement(el);
-  });
-</script>
