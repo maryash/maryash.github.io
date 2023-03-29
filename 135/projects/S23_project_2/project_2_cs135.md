@@ -68,7 +68,9 @@ string *g_song_names = new string[g_curr_size];
 string *g_artist_names = new string[g_curr_size];
 int *g_song_durations = new int[g_curr_size];
 string *g_genres = new string[g_curr_size];
-</pre></code>
+
+</pre>
+</code>
 
 
 Create a C++ file and add the following functions:
@@ -87,7 +89,9 @@ Create a C++ file and add the following functions:
                           `g_song_durations`, `g_genres`
 */
 void allocateNew();
-</pre></code>
+
+</pre>
+</code>
 
 <pre><code id="readSongs" class="language-c++" onclick="selectText(this.id)">/*
     @param            :   The string with the `filename`
@@ -102,7 +106,9 @@ void allocateNew();
                           capacity.
 */
 void readSongs(string filename);
-</pre></code>
+
+</pre>
+</code>
 </div>
 
 Here's an example text file:
@@ -121,7 +127,9 @@ Renegade:Zakaria Almardaee-Metal-3 mins
 You Know You Like It:Justin Lau-Pop-2 mins
 A Place for My Head:Bryant Zheng-Jazz-4 mins
 No Title:Isabel Stec-Pop-3 mins
-</pre></code>
+
+</pre>
+</code>
 
 Example:
 
@@ -145,7 +153,9 @@ g_song_durations : [ 1, 2, 1, 3, 3, 4, 3, 1, 2, 5, 3, 3, 2, 4, 3 ]
 
 g_genres         : [ "GENRE", "Jazz", "Pop", "Rock", "Hiphop", "Rnb", "Pop", "Rnb", "Metal", 
                     "Hiphop", "Classical", "Metal", "Pop", "Jazz", "Pop" ]
-</pre></code>
+
+</pre>
+</code>
 
 Make sure your program produces the correct output by testing the functions and global-variables using `main()` function. 
 
@@ -189,9 +199,10 @@ Let's learn more about our playlists. Add and implement the following functions:
                   are three "HipHop" songs on the playlist 
 */
 string * getGenreSongs(string genre, int &genreCount);
-</pre></code>
-<pre><code id="getSongsFromDuration" class="language-c++" onclick="selectText(this.id)">
-/*
+
+</pre>
+</code>
+<pre><code id="getSongsFromDuration" class="language-c++" onclick="selectText(this.id)">/*
     @param duration             :   The integer duration of the songs
     @param(&) durationsCount    :   An integer that will keep track of the number of songs
     @param filter               :   An integer(0, 1 or 2) representing the comparision filter
@@ -236,9 +247,10 @@ string * getGenreSongs(string genre, int &genreCount);
                   equal to 3 mins duration      
 */
 string * getSongsFromDuration(int duration, int &durationsCount, int filter);
-</pre></code>
-<pre><code id="getUniqueArtists" class="language-c++" onclick="selectText(this.id)">
-/*
+
+</pre>
+</code>
+<pre><code id="getUniqueArtists" class="language-c++" onclick="selectText(this.id)">/*
     @param      :   An integer that will keep track of unique artists
     @return     :   A pointer to a dynamically allocated array of strings 
     @post       :   Return a pointer to a dynamically allocated array of strings
@@ -261,9 +273,10 @@ string * getSongsFromDuration(int duration, int &durationsCount, int filter);
                   are three unique artists on the playlist     
 */
 string * getUniqueArtists(int &uniqueCount);
-</pre></code>
-<pre><code id="getFavoriteArtist" class="language-c++" onclick="selectText(this.id)">
-/* 
+
+</pre>
+</code>
+<pre><code id="getFavoriteArtist" class="language-c++" onclick="selectText(this.id)">/* 
     @return     :   A string with the artist with most songs in playlist
     @post       :   Find the artist with the most songs in the playlist
                     If there are multiple such artists, return any one of them.
@@ -279,7 +292,9 @@ string * getUniqueArtists(int &uniqueCount);
                   other artists in the playlist
 */
 string getFavoriteArtist();
-</pre></code>
+
+</pre>
+</code>
 </div>
 
 **Note: For functions that return a pointer to a dynamic array, use `g_number_of_songs` as the size**
