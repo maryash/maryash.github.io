@@ -20,14 +20,7 @@ _**Congrats to everyone who finished Project 1. You can't celebrate yet however 
 
 This project will test your knowledge about dynamic memory allocation and classes. While working on this project, you will realize the usefulness of dynamically allocated arrays and classes.
 
-Things you need to know for this project: 
-- [Arrays](https://www.geeksforgeeks.org/arrays-in-c-cpp/)
-- [Functions](https://www.geeksforgeeks.org/functions-in-cpp/)
-- [Global-Variables](https://www.geeksforgeeks.org/scope-of-variables-in-c/)
-- [String-Manipulation](https://www.geeksforgeeks.org/substring-in-cpp/)
-- [Data-only classes](https://www.w3schools.com/cpp/cpp_classes.asp)
-- [Pointers](https://maryash.github.io/135/slides/MyPointers.pdf)
-- [Dynamically Allocated Arrays](https://www.guru99.com/cpp-dynamic-array.html)
+Things you need to know for this project: [Arrays](https://www.geeksforgeeks.org/arrays-in-c-cpp/), [Functions](https://www.geeksforgeeks.org/functions-in-cpp/),  [Global-Variables](https://www.geeksforgeeks.org/scope-of-variables-in-c/), [String-Manipulation](https://www.geeksforgeeks.org/substring-in-cpp/), [Data-only classes](https://www.w3schools.com/cpp/cpp_classes.asp), [Pointers](https://maryash.github.io/135/slides/MyPointers.pdf), [Dynamically Allocated Arrays](https://www.guru99.com/cpp-dynamic-array.html)
 
 ---
 ## Implementation:
@@ -37,23 +30,6 @@ Things you need to know for this project:
 
 ---
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
-<script>
-  function selectText(containerid) {
-    if (document.selection) { // IE
-        var range = document.body.createTextRange();
-        range.moveToElementText(document.getElementById(containerid));
-        range.select();
-    } else if (window.getSelection) {
-        var range = document.createRange();
-        range.selectNode(document.getElementById(containerid));
-        window.getSelection().removeAllRanges();
-        window.getSelection().addRange(range);
-    }
-  }
-</script>
-
 ## Task A: Dynamically Allocated Playlists
 <p align="center">
     <img src="question.jpg" alt="question" width="600"/>
@@ -61,21 +37,21 @@ Things you need to know for this project:
 
 We will be making a playlist system to keep the order of songs. Similar to Project 1, we will be using global arrays to store song information. The difference is, these arrays are going to be dynamically allocated!
 
-<pre><code id="g_vars" class="language-c++" onclick="selectText(this.id)">int g_curr_size = 2;
+``` Cpp
+int g_curr_size = 2;
+
 int g_number_of_songs = 0;
 
 string *g_song_names = new string[g_curr_size];
 string *g_artist_names = new string[g_curr_size];
 int *g_song_durations = new int[g_curr_size];
 string *g_genres = new string[g_curr_size];
-
-</pre>
-</code>
-
+```
 
 Create a C++ file and add the following functions:
-<div style="border-style: double; padding:10px 5px 0px 5px;">
-<pre><code id="allocateNew" class="language-c++" onclick="selectText(this.id)">/*
+
+```Cpp
+/*
     @post             :   Replace the old global
                           dynamically allocated arrays
                           with new dynamically allocated
@@ -90,10 +66,7 @@ Create a C++ file and add the following functions:
 */
 void allocateNew();
 
-</pre>
-</code>
-
-<pre><code id="readSongs" class="language-c++" onclick="selectText(this.id)">/*
+/*
     @param            :   The string with the `filename`
     @post             :   Reads the song, artists,
                           song durations and genres into 
@@ -106,13 +79,10 @@ void allocateNew();
                           capacity.
 */
 void readSongs(string filename);
-
-</pre>
-</code>
-</div>
-
+```
 Here's an example text file:
-<pre><code id="exampleText"  style="border-style:double;" class= "language-plaintext" onclick="selectText(this.id)">Song Name:Artist Name-GENRE-1 mins
+```
+Song Name:Artist Name-GENRE-1 mins
 A Tale of 2 Citiez:Ryan Vaz-Jazz-2 mins
 Don't Stop the Music:Bode Chiu-Pop-1 mins
 Africa:Baolin Cheng-Rock-3 mins
@@ -127,15 +97,14 @@ Renegade:Zakaria Almardaee-Metal-3 mins
 You Know You Like It:Justin Lau-Pop-2 mins
 A Place for My Head:Bryant Zheng-Jazz-4 mins
 No Title:Isabel Stec-Pop-3 mins
-
-</pre>
-</code>
+```
 
 Example:
 
 Calling `readSongs()` on the above text file will modify the global variables like this:
 
-<pre><code id="exampleOutput"  style="border-style:double;" class= "language-plaintext" onclick="selectText(this.id)">g_curr_size      : 16
+```
+g_curr_size      : 16
 
 g_number_of_songs: 15
 
@@ -153,9 +122,7 @@ g_song_durations : [ 1, 2, 1, 3, 3, 4, 3, 1, 2, 5, 3, 3, 2, 4, 3 ]
 
 g_genres         : [ "GENRE", "Jazz", "Pop", "Rock", "Hiphop", "Rnb", "Pop", "Rnb", "Metal", 
                     "Hiphop", "Classical", "Metal", "Pop", "Jazz", "Pop" ]
-
-</pre>
-</code>
+```
 
 Make sure your program produces the correct output by testing the functions and global-variables using `main()` function. 
 
@@ -170,8 +137,8 @@ Make sure your program produces the correct output by testing the functions and 
 
 Let's learn more about our playlists. Add and implement the following functions:
 
-<div style="border-style: double; padding:10px 5px 0px 5px;">
-<pre><code id="getGenreSongs" class="language-c++" onclick="selectText(this.id)">/*
+```Cpp
+/*
     @param genre              :   A string representing a genre
     @param(&) genreCount      :   An integer that will keep track of the number of songs
     @return                   :   A pointer to a dynamically allocated array of strings 
@@ -199,10 +166,7 @@ Let's learn more about our playlists. Add and implement the following functions:
                   are three "HipHop" songs on the playlist 
 */
 string * getGenreSongs(string genre, int &genreCount);
-
-</pre>
-</code>
-<pre><code id="getSongsFromDuration" class="language-c++" onclick="selectText(this.id)">/*
+/*
     @param duration             :   The integer duration of the songs
     @param(&) durationsCount    :   An integer that will keep track of the number of songs
     @param filter               :   An integer(0, 1 or 2) representing the comparision filter
@@ -247,10 +211,7 @@ string * getGenreSongs(string genre, int &genreCount);
                   equal to 3 mins duration      
 */
 string * getSongsFromDuration(int duration, int &durationsCount, int filter);
-
-</pre>
-</code>
-<pre><code id="getUniqueArtists" class="language-c++" onclick="selectText(this.id)">/*
+/*
     @param      :   An integer that will keep track of unique artists
     @return     :   A pointer to a dynamically allocated array of strings 
     @post       :   Return a pointer to a dynamically allocated array of strings
@@ -273,10 +234,7 @@ string * getSongsFromDuration(int duration, int &durationsCount, int filter);
                   are three unique artists on the playlist     
 */
 string * getUniqueArtists(int &uniqueCount);
-
-</pre>
-</code>
-<pre><code id="getFavoriteArtist" class="language-c++" onclick="selectText(this.id)">/* 
+/* 
     @return     :   A string with the artist with most songs in playlist
     @post       :   Find the artist with the most songs in the playlist
                     If there are multiple such artists, return any one of them.
@@ -292,11 +250,7 @@ string * getUniqueArtists(int &uniqueCount);
                   other artists in the playlist
 */
 string getFavoriteArtist();
-
-</pre>
-</code>
-</div>
-
+```
 **Note: For functions that return a pointer to a dynamic array, use `g_number_of_songs` as the size**
 
 Feel free to write any helper functions to make your lives easier. Test your functions thoroughly using `main()`. Submit a single `.cpp` file with the functions.
@@ -304,5 +258,3 @@ Feel free to write any helper functions to make your lives easier. Test your fun
 ---
 
 *Credits: Genady Maryash, Yoomin Song, Sadab Hafiz, Ryan Vaz*
-
-<script>hljs.highlightAll();</script>
