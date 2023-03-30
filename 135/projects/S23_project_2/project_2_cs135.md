@@ -149,6 +149,8 @@ g_song_durations : [ 1, 2, 1, 3, 3, 4, 12, 1, 2, 301, 35, 3, 2, 4, 3 ]
 g_genres         : [ "GENRE", "Jazz", "Pop", "Rock", "Hiphop", "Rnb", "Pop", "Rnb", "Metal", 
                     "Hiphop", "Classical", "Metal", "Pop", "Jazz", "Pop" ]</div>
 
+*Hint: [Click here if you want to learn a neat trick that will help you with Task A](http://proto007.pythonanywhere.com/counter)*
+
 Make sure your program produces the correct output by testing the functions and global-variables using `main()` function. 
 
 **Note: Only submit single `.cpp` file to gradescope.**
