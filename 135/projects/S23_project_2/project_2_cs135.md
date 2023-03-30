@@ -116,11 +116,11 @@ Don't Stop the Music:Bode Chiu-Pop-1 mins
 Africa:Baolin Cheng-Rock-3 mins
 Back to December:Meheraan Khan-Hiphop-3 mins
 Y'all Been Warned:Tony Wang-Rnb-4 mins
-Outside:Georgina Woo-Pop-3 mins
+Outside:Georgina Woo-Pop-12 mins
 One Last Time:Kazi Mansha-Rnb-1 mins
 Maps:Ashfak Uddin-Metal-2 mins
-In the End:Mohammed Slim-Hiphop-5 mins
-N.Y. State of Mind:Rawad Yakub-Classical-3 mins
+In the End:Mohammed Slim-Hiphop-301 mins
+N.Y. State of Mind:Rawad Yakub-Classical-35 mins
 Renegade:Zakaria Almardaee-Metal-3 mins
 You Know You Like It:Justin Lau-Pop-2 mins
 A Place for My Head:Bryant Zheng-Jazz-4 mins
@@ -144,7 +144,7 @@ g_artist_names   : [ "Artist Name", "Ryan Vaz", "Bode Chiu", "Baolin Cheng",
                     "Ashfak Uddin", "Mohammed Slim", "Rawad Yakub", "Zakaria Almardaee", 
                     "Justin Lau", "Bryant Zheng", "Isabel Stec" ]
 
-g_song_durations : [ 1, 2, 1, 3, 3, 4, 3, 1, 2, 5, 3, 3, 2, 4, 3 ]
+g_song_durations : [ 1, 2, 1, 3, 3, 4, 12, 1, 2, 301, 35, 3, 2, 4, 3 ]
 
 g_genres         : [ "GENRE", "Jazz", "Pop", "Rock", "Hiphop", "Rnb", "Pop", "Rnb", "Metal", 
                     "Hiphop", "Classical", "Metal", "Pop", "Jazz", "Pop" ]</div>
