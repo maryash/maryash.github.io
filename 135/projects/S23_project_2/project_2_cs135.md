@@ -294,7 +294,7 @@ Feel free to write any helper functions to make your lives easier. Test your fun
 Classes are a wonderful way to group data together. Instead of using four dymanic arrays, what if we had a single dynamic array of `Song` objects?
 
 - In a new `.cpp` file, define a class called `Song` with the following public data members:
-<div id="data_members" class="code language-c++" onclick="selectText(this.id)" style="border-style: double; padding:10px;">string song_name;
+<div id="data_members" class="code language-c++" onclick="selectText(this.id)" style="border-style: double; padding:10px;">string name;
 string artist;
 int duration;
 string genre;</div>
