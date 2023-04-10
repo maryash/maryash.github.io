@@ -336,7 +336,7 @@ Song * getSongsFromDuration(int duration, int &durationsCount, int filter);
 Song * getGenreSongs(string genre, int &genreCount);
 
 // Change the implementation since we are using 'Song' class
-string * getUniqueArtists(int &uniqueCount)
+string * getUniqueArtists(int &uniqueCount);
 string getFavoriteArtist();</div>
 
 The functionality of the above functions remain unchanged from Task A and Task B. Take a look at Task A and B specification if necessary.
