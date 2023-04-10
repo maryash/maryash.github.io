@@ -285,6 +285,66 @@ Feel free to write any helper functions to make your lives easier. Test your fun
 
 ---
 
+## Task C: Combine
+
+<p align="center">
+    <img src="drummer.png" alt="drums" width="600"/>
+</p>
+
+Classes are a wonderful way to group data together. Instead of using four dymanic arrays, what if we had a single dynamic array of `Song` objects?
+
+- In a new `.cpp` file, define a class called `Song` with the following public data members:
+<div id="data_members" class="code language-c++" onclick="selectText(this.id)" style="border-style: double; padding:10px;">string song_name;
+string artist;
+int duration;
+string genre;</div>
+
+- Add the following global variables in your file:
+<div id="g_vars" class="code language-c++" onclick="selectText(this.id)" style="border-style: double; padding:10px;">int g_capacity = 2;
+int g_size = 0;
+
+Song *g_songs = new Song[g_capacity];</div>
+
+- Change the functions from Task A as follows:
+<div style="border-style: double; padding:10px;">
+<div id="allocateNewC" class="code language-c++" onclick="selectText(this.id)" style="margin-bottom:10px;">/*
+    @post             :   Replace the old global
+                          dynamically allocated array
+                          'g_songs' with new dynamically
+                          allocated array of twice the 
+                          capacity ('g_capacity' * 2). 
+                          Update 'g_capacity' accordingly.
+                          Make sure you copy the contents
+                          of the old array to the new one.
+*/
+void allocateNew();</div>
+<div id="readSongsC" class="code language-c++" onclick="selectText(this.id)">/*
+    @param            :   The string with the 'filename'
+    @post             :   Reads the song, artists,
+                          song durations and genres into 
+                          the 'g_songs' and sets the 
+                          value of 'g_size' to the number 
+                          of songs read. Call 'allocateNew()' 
+                          where necessary similar to Task A.
+*/
+void readSongs(string filename);</div>
+</div>
+
+- Since we are using a single dynamic array of objects, the functions from task B will need to be implemented differently:
+<div id="taskC_functions" class="code language-c++" onclick="selectText(this.id)" style="border-style: double; padding:10px;">// Now returns a dynamic array of 'Song' objects instead of a 'string' objects
+Song * getSongsFromDuration(int duration, int &durationsCount, int filter);
+Song * getGenreSongs(string genre, int &genreCount);
+
+// Change the implementation since we are using 'Song' class
+string * getUniqueArtists(int &uniqueCount)
+string getFavoriteArtist();</div>
+
+The functionality of the above functions remain unchanged from Task A and Task B. Take a look at Task A and B specification if necessary.
+
+Only submit a single `.cpp` file to gradescope with all the functions
+
+---
+
 *Credits: Genady Maryash, Yoomin Song, Sadab Hafiz, Ryan Vaz*
 
 <script>
