@@ -300,7 +300,7 @@ int duration;
 string genre;</div>
 
 - Add the following global variables in your file:
-<div id="g_vars" class="code language-c++" onclick="selectText(this.id)" style="border-style: double; padding:10px;">int g_capacity = 2;
+<div id="g_vars_c" class="code language-c++" onclick="selectText(this.id)" style="border-style: double; padding:10px;">int g_capacity = 2;
 int g_size = 0;
 
 Song *g_songs = new Song[g_capacity];</div>
