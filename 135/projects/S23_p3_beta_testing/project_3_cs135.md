@@ -244,7 +244,7 @@ void levelUp(int exp);</div>
 */
 bool learnSkill(int slot, Skill skill);</div>
 
-<div id="profemon-learnskill" class="code language-c++" onclick="selectText(this.id)">/*
+<div id="profemon-print" class="code language-c++" onclick="selectText(this.id)">/*
     @param      :   bool indicating whether or not the Profémon's 
                     skills should be printed
     @post       :   Prints the Profémon's information in a
@@ -253,14 +253,14 @@ bool learnSkill(int slot, Skill skill);</div>
                     'print_skills' parameter is true. Only 
                     print the skills that are not "Undefined"
 Format:
-(ProfemonName) [(Specialty)] | lvl (Level) | exp (CurrentExperience)/(RequiredExperience) | hp (MaximumHealth)
+(ProfemonName) [(Specialty)] | lvl (Level) | exp (CurrentExp)/(RequiredExp) | hp (MaxHP)
     (SkillNameSlot0) [(Uses)] : (description of skill in slot 0)
     (SkillNameSlot1) [(Uses)] : (description of skill in slot 1)
     (SkillNameSlot2) [(Uses)] : (description of skill in slot 2)
 
 For example:
 Maryash [SOFTWARE] | lvl 2 | exp 30/80 | hp 13500
-    OOP [30] : a programming paradigm based on the concept of objects, which can contain data and code
+    OOP [30] : a programming paradigm based on the concept of objects
     Vector [30] : a c++ dynamic array library
     Pointer [10] : a pointer stores a memory address
 
