@@ -5,7 +5,7 @@ title: PROJECT 3
 <p style="text-align: center; font-style: italic;">Important</p>
 You must start working on the projects as soon as they are assigned to detect any problems and to address them with us well before the deadline so that we have time to get back to you.
 
-**Plenty of time will be provided for the completion of the project. Don't wait for the last minute. There will be no extensions or negotiation about project grades after the submission deadline.**
+**Plenty of time will be provided for the completion of the project. Don't wait for the last minute. There will be no extension or negotiation about project grades after the submission deadline.**
 
 ---
 
@@ -127,7 +127,7 @@ void setDescription(std::string description);</div>
 */
 void setTotalUses(int uses);</div>
 <div id="skill-set-specialty" class="code language-c++" onclick="selectText(this.id)">/*
-    @return     :   Return'true' if the given parameter 
+    @return     :   Return 'true' if the given parameter 
                     is either 0, 1 or 2. Otherwise,
                     return 'false'
     @post       :   set the specialty of the skill
@@ -155,7 +155,12 @@ The `Profemon` class must have the following information stored in their private
 The `Profemon` class must have the following in it's `public` access modifier:
 
 <div style="border-style: double; padding:10px;">
-<div id="profemon-parameterized" class="code language-c++" onclick="selectText(this.id)" style="margin-bottom:10px;">/*
+<div id="profemon-default" class="code language-c++" onclick="selectText(this.id)" style="margin-bottom:10px;">/*
+    @post       :   Initializes the name of the Profémon
+                    as "Undefined"
+*/  
+Profemon();</div>
+<div id="profemon-parameterized" class="code language-c++" onclick="selectText(this.id)">/*
     @post       :   Initializes the name, max health 
                     and specialty as the corresponding
                     parameters. Set the required 
@@ -168,6 +173,10 @@ Profemon(std::string name, double max_health, Specialty specialty);</div>
     @return     :   name of the Profémon
 */
 std::string getName();</div>
+<div id="profemon-get-specialty" class="code language-c++" onclick="selectText(this.id)">/*
+    @return     :   specialty of the Profémon
+*/
+Specialty getSpecialty();</div>
 <div id="profemon-get-level" class="code language-c++" onclick="selectText(this.id)">/*
     @return     :   level of the Profémon
 */
@@ -234,11 +243,43 @@ void levelUp(int exp);</div>
                     learned skills array                
 */
 bool learnSkill(int slot, Skill skill);</div>
+
+<div id="profemon-learnskill" class="code language-c++" onclick="selectText(this.id)">/*
+    @param      :   bool indicating whether or not the Profémon's 
+                    skills should be printed
+    @post       :   Prints the Profémon's information in a
+                    specific format. Additionally, lists
+                    the Profémon's skills if the given 
+                    'print_skills' parameter is true. Only 
+                    print the skills that are not "Undefined"
+Format:
+(ProfemonName) [(Specialty)] | lvl (Level) | exp (CurrentExperience)/(RequiredExperience) | hp (MaximumHealth)
+    (SkillNameSlot0) [(Uses)] : (description of skill in slot 0)
+    (SkillNameSlot1) [(Uses)] : (description of skill in slot 1)
+    (SkillNameSlot2) [(Uses)] : (description of skill in slot 2)
+
+For example:
+Maryash [SOFTWARE] | lvl 2 | exp 30/80 | hp 13500
+    OOP [30] : a programming paradigm based on the concept of objects, which can contain data and code
+    Vector [30] : a c++ dynamic array library
+    Pointer [10] : a pointer stores a memory address
+
+Note: There are four spaces before the each line of skills.
+      The last line prints an endline.
+*/
+void printProfemon(bool print_skills);</div>
 </div>
 
 You will submit the following files to gradescope:
 
 `profemon.hpp`, `profemon.cpp`, `skill.hpp`, `skill.cpp`
+
+[Here is a sample main file. Make sure to add your own code to test all functions.](./main.cpp)
+
+Compile your code locally using:
+```bash
+g++ skill.cpp profemon.cpp main.cpp
+```
 
 ---
 
