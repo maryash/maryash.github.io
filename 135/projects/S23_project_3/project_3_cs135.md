@@ -284,6 +284,7 @@ g++ skill.cpp profemon.cpp main.cpp
 ---
 
 ## Task B: Profémon Trainers
+
 <a href="https://www.youtube.com/watch?v=q9Vjfi0Slbw"><p align="center">
     <img src="profedex.png" alt="profedex" width="600"/>
 </p></a>
@@ -318,7 +319,7 @@ Trainer();</div>
                     item. Select the profémon at 0 index of
                     the team array to accompany the trainer
 */
-Trainer(std::vector<Profemon> profemons);</div>
+Trainer(std::vector &lt;Profemon&gt; profemons);</div>
 <div id="trainer-contains" class="code language-c++" onclick="selectText(this.id)">/*
     @param      :   the name of a profémon
     @return     :   'true' if profémon with given name is in 
