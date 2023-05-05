@@ -64,9 +64,9 @@ Things you need to know for this project:
 </style>
 
 ## Task A: Gotta Catch Em' All
-<p align="center">
-    <img src="maryash-pokeball.gif" alt="cheer" width="600"/>
-</p>
+<a href="https://www.youtube.com/watch?v=q9Vjfi0Slbw">
+    <img src="maryash-pokeball.gif" alt="cheer" width="600" style="display:block;margin-left:auto;margin-right:auto;"/>
+</a>
 
 Define and implement the `Skill` and `Profemon` class with a header and a source file (From now on, when you implement a class, assume you will implement two files: `.hpp` and `.cpp`).
 
@@ -285,9 +285,9 @@ g++ skill.cpp profemon.cpp main.cpp
 
 ## Task B: Profémon Trainers
 
-<a href="https://www.youtube.com/watch?v=q9Vjfi0Slbw"><p align="center">
-    <img src="profedex.png" alt="profedex" width="600"/>
-</p></a>
+<a href="https://www.youtube.com/watch?v=q9Vjfi0Slbw">
+    <img src="profedex.png" alt="profedex" width="600" style="display:block;margin-left:auto;margin-right:auto;"/>
+</a>
 
 In the world of Profémon, trainers are always busy training their beloved profémons for the battles to come. They are looking to challenge departments to a profémon battle and gain a degree. Departments are trainers who specialize in a single type of profémon. Since we have a working profémon class, it's time to implement the `Trainer` class and some department classes which will inherit from the `Trainer` class.
 
@@ -435,9 +435,9 @@ Format :
 void printTeam();</div>
 </div>
 
-<a href="https://www.youtube.com/watch?v=q9Vjfi0Slbw"><p align="center">
-    <img src="csdep.png" alt="csdepartment" width="600"/>
-</p></a>
+<a href="https://www.youtube.com/watch?v=q9Vjfi0Slbw">
+    <img src="csdep.png" alt="csdepartment" width="600" style="display:block;margin-left:auto;margin-right:auto;"/>
+</a>
 
 Since you've been working so hard on this project, we will gift you the header file for the departments!
 
