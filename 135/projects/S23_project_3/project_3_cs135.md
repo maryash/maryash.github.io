@@ -12,9 +12,9 @@ You must start working on the projects as soon as they are assigned to detect an
 # Project 3: Profémon!
 
 _**Well done! You've made it to the final project of the semester! Time to take the stage with your Profémons and prepare for the final battle!**_
-<p align="center">
+<a href="https://www.youtube.com/watch?v=q9Vjfi0Slbw"><p align="center">
     <img src="gotta-catch-em-all.gif" alt="profemon" width="600"/>
-</p>
+</p></a>
 
 ## Introduction
 
@@ -283,10 +283,11 @@ g++ skill.cpp profemon.cpp main.cpp
 
 ---
 
-## Task B: Profemon Trainers
-<p align="center">
+## Task B: Profémon Trainers
+<a href="https://www.youtube.com/watch?v=q9Vjfi0Slbw"><p align="center">
     <img src="profedex.png" alt="profedex" width="600"/>
-</p>
+</p></a>
+
 In the world of Profémon, trainers are always busy training their beloved profémons for the battles to come. They are looking to challenge departments to a profémon battle and gain a degree. Departments are trainers who specialize in a single type of profémon. Since we have a working profémon class, it's time to implement the `Trainer` class and some department classes which will inherit from the `Trainer` class.
 
 Each trainer has a team of three profémons and a profédex. The profédex serves as a storage for all the profémons collected by the trainer. Each trainer also has a profémon which they choose to accompany them on their adventures!
@@ -433,7 +434,11 @@ Format :
 void printTeam();</div>
 </div>
 
-Since you've been working so hard on this project, we will gift you the header file for the department class!
+<a href="https://www.youtube.com/watch?v=q9Vjfi0Slbw"><p align="center">
+    <img src="csdep.png" alt="csdepartment" width="600"/>
+</p></a>
+
+Since you've been working so hard on this project, we will gift you the header file for the departments!
 
 <div id="department-header" class="code language-c++" onclick="selectText(this.id)" style="border-style: double; padding:10px;">// This is an introductory comment
 #ifndef DEPARTMENT
@@ -459,21 +464,15 @@ class HardwareDepartment: public Trainer{
         bool addProfemon(Profemon profemon);
 };
 
-#endif
+#endif</div>  
 
-</div>  
+Use a single `.cpp` file to implement all the department classes' functions and constructors. For each of the derived classes, you need to change the implementation of the constructors and the `addProfemon()` function so that only the profémons of that particular specialty is added. For example: the `MLDepartment` can only have profémons of  `ML` specialty. For the parameterized constructor, the given parameter vector can have profémons of all specialties. Add only the specialty that the Department specializes in. You can assume that the parameter vector will have atleast one profémon of correct specialty.
 
-<p align="center">
-    <img src="csdepartment.png" alt="csdepartment" width="600"/>
-</p>
-
-For each of the derived classes, you need to change the implementation of the constructors and the `addProfemon()` function so that only the profémons of that particular specialty is added. For example: the `MLDepartment` can only have profémons of  `ML` specialty.
-
-You will submit the following files to gradescope:
+Submit the following files to gradescope:
 
 `profemon.hpp`, `profemon.cpp`, `skill.hpp`, `skill.cpp`, `trainer.hpp`, `trainer.cpp`, `department.hpp`, `department.cpp` 
 
-[Here is a sample main file. Make sure to add your own code to test all functions.](./main_TaskB.cpp)
+Modify the main file from Task A to test your classes.
 
 Compile your code locally using:
 ```bash
