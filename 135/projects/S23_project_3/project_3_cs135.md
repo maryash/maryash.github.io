@@ -12,9 +12,9 @@ You must start working on the projects as soon as they are assigned to detect an
 # Project 3: Profémon!
 
 _**Well done! You've made it to the final project of the semester! Time to take the stage with your Profémons and prepare for the final battle!**_
-<a href="https://www.youtube.com/watch?v=q9Vjfi0Slbw"><p align="center">
-    <img src="gotta-catch-em-all.gif" alt="profemon" width="600"/>
-</p></a>
+<a href="https://www.youtube.com/watch?v=q9Vjfi0Slbw">
+    <img src="gotta-catch-em-all.gif" alt="profemon" width="600" style="display:block;margin-left:auto;margin-right:auto;"/>
+</a>
 
 ## Introduction
 
@@ -284,7 +284,6 @@ g++ skill.cpp profemon.cpp main.cpp
 ---
 
 ## Task B: Profémon Trainers
-
 <a href="https://www.youtube.com/watch?v=q9Vjfi0Slbw">
     <img src="profedex.png" alt="profedex" width="600" style="display:block;margin-left:auto;margin-right:auto;"/>
 </a>
