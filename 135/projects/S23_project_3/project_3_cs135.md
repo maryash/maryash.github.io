@@ -449,19 +449,19 @@ Since you've been working so hard on this project, we will gift you the header f
 
 class MLDepartment: public Trainer{
     public:
-        MLDepartment(std::vector<Profemon> profemons);
+        MLDepartment(std::vector&lt;Profemon&gt; profemons);
         bool addProfemon(Profemon profemon);
 };
 
 class SoftwareDepartment: public Trainer{
     public:
-        SoftwareDepartment(std::vector<Profemon> profemons);
+        SoftwareDepartment(std::vector&lt;Profemon&gt; profemons);
         bool addProfemon(Profemon profemon);
 };
 
 class HardwareDepartment: public Trainer{
     public:
-        HardwareDepartment(std::vector<Profemon> profemons);
+        HardwareDepartment(std::vector&lt;Profemon&gt; profemons);
         bool addProfemon(Profemon profemon);
 };
 
