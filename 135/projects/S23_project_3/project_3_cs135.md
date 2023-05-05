@@ -143,20 +143,20 @@ The header file of the `Profemon` class must have an enumeration type called "Sp
 
 The `Profemon` class must have the following information stored in their private member variables:
 
-<div id="profemon-members" class="code language-plaintext" onclick="selectText(this.id)" style="border-style: double; padding:10px;">- The name of the Profémon
-- The level of the Profémon
+<div id="profemon-members" class="code language-plaintext" onclick="selectText(this.id)" style="border-style: double; padding:10px;">- The name of the profémon
+- The level of the profémon
 - The required experience to level up
 - The current experience
 - The maximum health level
-- The specialty of the Profémon
-- A 'Skill' array of size 3 containing skills learned by the Profémon
+- The specialty of the profémon
+- A 'Skill' array of size 3 containing skills learned by the profémon
 </div>  
 
 The `Profemon` class must have the following in it's `public` access modifier:
 
 <div style="border-style: double; padding:10px;">
 <div id="profemon-default" class="code language-c++" onclick="selectText(this.id)" style="margin-bottom:10px;">/*
-    @post       :   Initializes the name of the Profémon
+    @post       :   Initializes the name of the profémon
                     as "Undefined"
 */  
 Profemon();</div>
@@ -170,44 +170,44 @@ Profemon();</div>
 */  
 Profemon(std::string name, double max_health, Specialty specialty);</div>
 <div id="profemon-get-name" class="code language-c++" onclick="selectText(this.id)">/*
-    @return     :   name of the Profémon
+    @return     :   name of the profémon
 */
 std::string getName();</div>
 <div id="profemon-get-specialty" class="code language-c++" onclick="selectText(this.id)">/*
-    @return     :   specialty of the Profémon
+    @return     :   specialty of the profémon
 */
 Specialty getSpecialty();</div>
 <div id="profemon-get-level" class="code language-c++" onclick="selectText(this.id)">/*
-    @return     :   level of the Profémon
+    @return     :   level of the profémon
 */
 int getLevel();</div>
 <div id="profemon-get-maxh" class="code language-c++" onclick="selectText(this.id)">/*
-    @return     :   maximum health of the Profémon
+    @return     :   maximum health of the profémon
 */
 double getMaxHealth();</div>
 <div id="profemon-set-name" class="code language-c++" onclick="selectText(this.id)">/*
-    @post       :   set the name of the Profémon 
+    @post       :   set the name of the profémon 
                     equal to the given parameter
 */
 void setName(std::string name);</div>
 <div id="profemon-levelup" class="code language-c++" onclick="selectText(this.id)">/*
-    @param      :   experience points earned by the Profémon 
-    @post       :   Increase the Profémon's level based on
-                    the given 'exp'. The Profémon will level
+    @param      :   experience points earned by the profémon 
+    @post       :   Increase the profémon's level based on
+                    the given 'exp'. The profémon will level
                     up if it reaches the required experience.
-                    Depending on the Profémon's specialty,
+                    Depending on the profémon's specialty,
                     the required experience goes up by a certain
-                    amount everytime the Profémon levels up.
+                    amount everytime the profémon levels up.
                     'ML' required experience goes up by 10,
                     'SOFTWARE' goes up by 15, and 'HARDWARE'
                     goes up by 20. Make sure to update the
                     required, current experience and level
                     private data members accordingly. The given 
-                    'exp' can result in the Profémon leveling 
+                    'exp' can result in the profémon leveling 
                     up multiple times
   
   For example   :   starting at lvl 0, calling 'levelUp(115)'
-                    on different types of Profémon would result
+                    on different types of profémon would result
                     in the following:
 
                     ML:
@@ -236,20 +236,20 @@ void levelUp(int exp);</div>
                     learned. Return 'false' if 'slot' parameters is 
                     not within the valid range(0,1,2) or the 
                     specialty of the 'skill' does not match 
-                    the specialty of the Profémon 
+                    the specialty of the profémon 
     @post       :   if the given slot is valid(0,1,2) and the
-                    skill specialty matched with the Profémon,
+                    skill specialty matched with the profémon,
                     add the 'skill' to the 'slot' index of the
                     learned skills array                
 */
 bool learnSkill(int slot, Skill skill);</div>
 
 <div id="profemon-print" class="code language-c++" onclick="selectText(this.id)">/*
-    @param      :   bool indicating whether or not the Profémon's 
+    @param      :   bool indicating whether or not the profémon's 
                     skills should be printed
-    @post       :   Prints the Profémon's information in a
+    @post       :   Prints the profémon's information in a
                     specific format. Additionally, lists
-                    the Profémon's skills if the given 
+                    the profémon's skills if the given 
                     'print_skills' parameter is true. Only 
                     print the skills that are not "Undefined"
 Format:
@@ -274,11 +274,210 @@ You will submit the following files to gradescope:
 
 `profemon.hpp`, `profemon.cpp`, `skill.hpp`, `skill.cpp`
 
-[Here is a sample main file. Make sure to add your own code to test all functions.](./main.cpp)
+[Here is a sample main file. Make sure to add your own code to test all functions.](./main_TaskA.cpp)
 
 Compile your code locally using:
 ```bash
 g++ skill.cpp profemon.cpp main.cpp
+```
+
+---
+
+## Task B: Profemon Trainers
+<p align="center">
+    <img src="profedex.png" alt="profedex" width="600"/>
+</p>
+In the world of Profémon, trainers are always busy training their beloved profémons for the battles to come. They are looking to challenge departments to a profémon battle and gain a degree. Departments are trainers who specialize in a single type of profémon. Since we have a working profémon class, it's time to implement the `Trainer` class and some department classes which will inherit from the `Trainer` class.
+
+Each trainer has a team of three profémons and a profédex. The profédex serves as a storage for all the profémons collected by the trainer. Each trainer also has a profémon which they choose to accompany them on their adventures!
+
+Since the Department classes will inherit from the `Trainer`, the `Trainer` class should have the following `protected` data members:
+<div id="trainer-members" class="code language-plaintext" onclick="selectText(this.id)" style="border-style: double; padding:10px;">- The name of the Profémon
+- A vector of profémons which represents a profedéx
+- A profémon array of size 3 which represents the trainer's current team
+- A pointer to a profémon which is currently selected from the team
+</div>  
+
+The `Trainer` class must have the following in it's `public` access modifier:
+
+<div style="border-style: double; padding:10px;">
+<div id="trainer-default" class="code language-c++" onclick="selectText(this.id)" style="margin-bottom:10px;">/*
+    @post       :   Initializes the pointer to the currently
+                    selected profémon as 'nullptr'
+*/  
+Trainer();</div>
+<div id="trainer-parameterized" class="code language-c++" onclick="selectText(this.id)">/*
+    @param      :   a vector of profémons
+    @post       :   Adds the profémons from given parameter
+                    vector to the team and the profédex. Only
+                    add the profémons to the profedéx if the
+                    team is full. Maintain the order of the
+                    given 'profemons' vector. Assume that
+                    the parameter vector has atleast one
+                    item. Select the profémon at 0 index of
+                    the team array to accompany the trainer
+*/
+Trainer(std::vector<Profemon> profemons);</div>
+<div id="trainer-contains" class="code language-c++" onclick="selectText(this.id)">/*
+    @param      :   the name of a profémon
+    @return     :   'true' if profémon with given name is in 
+                    the team or profedex, otherwise 'false'   
+    @post       :   return 'true' if the profémon with the name
+                    same as the given parameter is found either
+                    in current team, or in the profédex. Return
+                    false if the profémon is not found
+*/
+bool contains(std::string name);</div>
+<div id="trainer-add" class="code language-c++" onclick="selectText(this.id)">/*
+    @param      :   a profémon that is to be added
+    @return     :   boolean indicating successful add operation
+    @post       :   Add the given parameter profémon to the team
+                    or the profedex. Only add the profemon to
+                    profédex if the current team is full. If the 
+                    profémon is being added to the team, add it 
+                    to the smallest index possible. The profémon 
+                    can't be added if another profémon with the
+                    same name already exists in the team or 
+                    the profédex 
+*/
+bool addProfemon(Profemon profemon);</div>
+<div id="trainer-remove" class="code language-c++" onclick="selectText(this.id)">/*
+    @param      :   the name of the profémon that is to be removed
+    @return     :   boolean indicating successful remove operation
+    @post       :   remove the profémon with the given name from
+                    the current team or the profédex. If the profémon
+                    is removed from the profédex, make sure the order
+                    of the remaining profémons is maintained. The
+                    profémon cannot be removed if no profémon with
+                    the given name exists
+
+    Hint        :   What is the default value of the profémons in an    
+                    empty array of 'Profemon' objects?
+*/
+bool removeProfemon(std::string name);</div>
+<div id="trainer-set-team" class="code language-c++" onclick="selectText(this.id)">/*
+    @param      :   integer representing a slot in the team (0,1 or 2)
+    @param      :   name of the profémon that is to be added to the team
+    @post       :   assuming that a profémon with the given 'name' exists
+                    in the profédex and given 'slot' is valid (0,1,2), add
+                    the profémon to the team at the given slot. If the slot
+                    already contains a profémon, swap the profémon with the
+                    profémon that is being added to the team. If the 'slot'
+                    doesn't contain a profémon, move the profémon from the
+                    profédex to the slot
+*/
+void setTeamMember(int slot, std::string name);</div>
+<div id="trainer-choose" class="code language-c++" onclick="selectText(this.id)">/*
+    @param      :   integer representing a slot in the team (0,1 or 2)
+    @return     :   'true' if the profémon at given slot is successfully
+                    chosen. Otherwise, return 'false'
+    @post       :   choose a profemon to accompany the Trainer from the
+                    team (refers to the pointer Profemon data member).
+                    The profémon cannot be chosen if the given slot
+                    doesn't contain a profémon. Assume that the given
+                    'slot' is valid(1,2,3)
+
+    Hint        :   What is the name of the objects in an empty
+                    profémon array?
+*/
+bool chooseProfemon(int slot);</div>
+<div id="trainer-get-current" class="code language-c++" onclick="selectText(this.id)">/*
+    @return     :   profémon that is currently accompanying the trainer
+*/
+Profemon getCurrent();</div>
+<div id="trainer-print-team" class="code language-c++" onclick="selectText(this.id)">/*
+    @post       :   prints profémons in the profédex in a specific format
+
+Format :
+(Profemon1Name) [(Specialty)] | lvl (Level) | exp (CurrentExp)/(RequiredExp) | hp (MaxHP)
+(empty line)
+(Profemon2Name) [(Specialty)] | lvl (Level) | exp (CurrentExp)/(RequiredExp) | hp (MaxHP)
+(empty line)
+. . . PRINT ALL THE PROFEMONS IN THE PROFEDEX . . .
+(ProfemonName) [(Specialty)] | lvl (Level) | exp (CurrentExp)/(RequiredExp) | hp (MaxHP)
+(empty line)
+
+For example:
+Maryash [SOFTWARE] | lvl 2 | exp 30/80 | hp 13500
+
+Saad [HARDWARE] | lvl 3 | exp 20/110 | hp 15000
+
+Raja [ML] | lvl 1 | exp 10/60 | hp 35000
+
+
+Hint : The format looks familiar from Task A doesn't it?
+*/
+void printProfedex();</div>
+
+<div id="trainer-print-profedex" class="code language-c++" onclick="selectText(this.id)">/*
+    @post       :   prints profémons in the team in a specific format.
+                    Do not print "Undefined" profémons
+
+Format :
+(Profemon1Name) [(Specialty)] | lvl (Level) | exp (CurrentExp)/(RequiredExp) | hp (MaxHP)
+    (SkillNameSlot0) [(Uses)] : (description of skill in slot 0)
+    (SkillNameSlot1) [(Uses)] : (description of skill in slot 1)
+    (SkillNameSlot2) [(Uses)] : (description of skill in slot 2)
+(empty line)
+(Profemon2Name) [(Specialty)] | lvl (Level) | exp (CurrentExp)/(RequiredExp) | hp (MaxHP)
+    (SkillNameSlot0) [(Uses)] : (description of skill in slot 0)
+    (SkillNameSlot1) [(Uses)] : (description of skill in slot 1)
+    (SkillNameSlot2) [(Uses)] : (description of skill in slot 2)
+(empty line)
+(Profemon3Name) [(Specialty)] | lvl (Level) | exp (CurrentExp)/(RequiredExp) | hp (MaxHP)
+    (SkillNameSlot0) [(Uses)] : (description of skill in slot 0)
+    (SkillNameSlot1) [(Uses)] : (description of skill in slot 1)
+    (SkillNameSlot2) [(Uses)] : (description of skill in slot 2)
+(empty line)
+*/
+void printTeam();</div>
+</div>
+
+Since you've been working so hard on this project, we will gift you the header file for the department class!
+
+<div id="department-header" class="code language-c++" onclick="selectText(this.id)" style="border-style: double; padding:10px;">// This is an introductory comment
+#ifndef DEPARTMENT
+#define DEPARTMENT
+
+#include "trainer.hpp"
+
+class MLDepartment: public Trainer{
+    public:
+        MLDepartment(std::vector<Profemon> profemons);
+        bool addProfemon(Profemon profemon);
+};
+
+class SoftwareDepartment: public Trainer{
+    public:
+        SoftwareDepartment(std::vector<Profemon> profemons);
+        bool addProfemon(Profemon profemon);
+};
+
+class HardwareDepartment: public Trainer{
+    public:
+        HardwareDepartment(std::vector<Profemon> profemons);
+        bool addProfemon(Profemon profemon);
+};
+
+#endif
+
+</div>  
+
+<p align="center">
+    <img src="csdepartment.png" alt="csdepartment" width="600"/>
+</p>
+
+For each of the derived classes, you need to change the implementation of the constructors and the `addProfemon()` function so that only the profémons of that particular specialty is added. For example: the `MLDepartment` can only have profémons of  `ML` specialty.
+
+You will submit the following files to gradescope:
+
+`profemon.hpp`, `profemon.cpp`, `skill.hpp`, `skill.cpp`, `trainer.hpp`, `trainer.cpp`, `department.hpp`, `department.cpp` 
+
+[Here is a sample main file. Make sure to add your own code to test all functions.](./main_TaskB.cpp)
+
+Compile your code locally using:
+```bash
+g++ skill.cpp profemon.cpp trainer.cpp department.cpp main.cpp
 ```
 
 ---
