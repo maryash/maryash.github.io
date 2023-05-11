@@ -293,8 +293,7 @@ In the world of Profémon, trainers are always busy training their beloved prof�
 Each trainer has a team of three profémons and a profédex. The profédex serves as a storage for all the profémons collected by the trainer. Each trainer also has a profémon which they choose to accompany them on their adventures!
 
 Since the Department classes will inherit from the `Trainer`, the `Trainer` class should have the following `protected` data members:
-<div id="trainer-members" class="code language-plaintext" onclick="selectText(this.id)" style="border-style: double; padding:10px;">- The name of the Profémon
-- A vector of profémons which represents a profedéx
+<div id="trainer-members" class="code language-plaintext" onclick="selectText(this.id)" style="border-style: double; padding:10px;">- A vector of profémons which represents a profedéx
 - A profémon array of size 3 which represents the trainer's current team
 - A pointer to a profémon which is currently selected from the team
 </div>  
