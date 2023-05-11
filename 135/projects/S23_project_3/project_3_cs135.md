@@ -310,10 +310,10 @@ Trainer();</div>
 <div id="trainer-parameterized" class="code language-c++" onclick="selectText(this.id)">/*
     @param      :   a vector of profémons
     @post       :   Adds the profémons from given parameter
-                    vector to the team and the profédex. Only
-                    add the profémons to the profedéx if the
-                    team is full. Maintain the order of the
-                    given 'profemons' vector. Assume that
+                    vector to the team and the profédex. If
+                    the team is full, add the profémons to 
+                    the profedéx. Maintain the order of the 
+                    given 'profemons' vector. Assume that 
                     the parameter vector has atleast one
                     item. Select the profémon at 0 index of
                     the team array to accompany the trainer
@@ -348,9 +348,11 @@ bool addProfemon(Profemon profemon);</div>
     @post       :   remove the profémon with the given name from
                     the current team or the profédex. If the profémon
                     is removed from the profédex, make sure the order
-                    of the remaining profémons is maintained. The
-                    profémon cannot be removed if no profémon with
-                    the given name exists
+                    of the remaining profémons is maintained. If the 
+                    profémon is on the team, it should be swapped 
+                    with an empty profémon object. The profémon 
+                    cannot be removed if no profémon with the given 
+                    name exists in the team or the profédex.
 
     Hint        :   What is the default value of the profémons in an    
                     empty array of 'Profemon' objects?
@@ -366,6 +368,21 @@ bool removeProfemon(std::string name);</div>
                     profémon that is being added to the team. If the 'slot'
                     doesn't contain a profémon, move the profémon from the
                     profédex to the slot
+
+For example :
+
+    Let's suppose the current team array is: ["Enxhi", "Undefined", "Kimberly"]
+    And profédex is: ["Sadab", "Yoomin", "Zilola", "Brandon"]
+
+    If we call 'setTeamMember(1,"Yoomin")', the team and profédex becomes:
+    Team: ["Enxhi", "Yoomin", "Kimberly"]
+    Profédex: ["Sadab", "Zilola", "Brandon"]
+    The profémon is moved to the team's empty slot (Undefined means empty)
+
+    However, if we call 'setTeamMember(0,"Zilola")':
+    Team: ["Zilola", "Undefined", "Kimberly"]
+    Profédex: ["Sadab", "Yoomin", "Enxhi", "Brandon"]
+    The profémon is swapped with the profémon in slot 0
 */
 void setTeamMember(int slot, std::string name);</div>
 <div id="trainer-choose" class="code language-c++" onclick="selectText(this.id)">/*
@@ -376,7 +393,7 @@ void setTeamMember(int slot, std::string name);</div>
                     team (refers to the pointer Profemon data member).
                     The profémon cannot be chosen if the given slot
                     doesn't contain a profémon. Assume that the given
-                    'slot' is valid(1,2,3)
+                    'slot' is valid(0,1,2)
 
     Hint        :   What is the name of the objects in an empty
                     profémon array?
