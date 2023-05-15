@@ -86,11 +86,18 @@ The tutors are there to help you with all of your labs, assignments, and project
   |  |  | **[LAB&nbsp;13&nbsp; Recursion](labs/lab_13.html){:target="_blank"}&nbsp;&nbsp;&nbsp;_/__** | 
   |  |  |  | 
  <span style="color:red">**5/17**</span> | <span style="color:red">**FINAL &nbsp; &nbsp; EXAM**</span> | <span style="color:red">**WEDNESDAY 5/17**</span> |  | 
- 
- 
- 
-Teacher Evaluations:   www.hunter.cuny.edu/te OR www.hunter.cuny.edu/mobilete (for smartphones)
-
+  
+---  
+  
+<span style="color:red">**TEACHER EVALUATIONS:**/span>  
+  
+[www.hunter.cuny.edu/te](www.hunter.cuny.edu/te){:target="_blank"} OR [www.hunter.cuny.edu/mobilete](www.hunter.cuny.edu/mobilete){:target="_blank"} (for smartphones)
+  
+---  
+  
+---  
+  
+  
 <!--- 
 Remove Ordered from Array [![](video.jpg)](https://us-lti.bbcollab.com/recording/02dcfd1b97e441b184ce48e43e92577e){:target="_blank"}<br/>
 Adapting Algorithms [![](video.jpg)](https://us-lti.bbcollab.com/recording/30df146821fd41439993b3a423bf6863){:target="_blank"}<br/>
