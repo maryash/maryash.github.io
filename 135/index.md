@@ -92,7 +92,7 @@ The tutors are there to help you with all of your labs, assignments, and project
 <span style="color:red">**TEACHER EVALUATIONS:**/span>  
   
 [www.hunter.cuny.edu/te](www.hunter.cuny.edu/te){:target="_blank"}  
-  OR  
+  &nbsp; OR  
 [www.hunter.cuny.edu/mobilete](www.hunter.cuny.edu/mobilete){:target="_blank"} (for smartphones)
   
 ---  
