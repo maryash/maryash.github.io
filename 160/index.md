@@ -9,7 +9,9 @@ title: CSCI 160 MAIN PAGE
 [**GRADESCOPE** [entry code 4PBYXW]](https://www.gradescope.com/courses/365602 "CSCI 160 entry code 4PBYXW"){:target="_blank"}    
   
 **INSTRUCTOR**  
-**Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours Monday and Thursday &nbsp; 4:15 PM to 5:15 PM to on BlackBoard Collaborate.  
+**Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours TBD and by appointment 
+
+<!--- &nbsp; 4:15 PM to 5:15 PM to on BlackBoard Collaborate. --->
   
 **TUTORS**  
 **Steven** [calendly.com/steven-palomino/csci160-office-hours](https://calendly.com/steven-palomino/csci160-office-hours){:target="_blank"}  
