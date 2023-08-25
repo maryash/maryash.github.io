@@ -11,7 +11,6 @@ title: CSCI 160 MAIN PAGE
 **INSTRUCTOR**  
 **Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours TBD and by appointment 
 
-<!--- &nbsp; 4:15 PM to 5:15 PM to on BlackBoard Collaborate. --->
   
 **TUTORS**  
 **Steven** [calendly.com/steven-palomino/csci160-office-hours](https://calendly.com/steven-palomino/csci160-office-hours){:target="_blank"}  
