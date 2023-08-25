@@ -15,7 +15,6 @@ title: CSCI 160 MAIN PAGE
   
 **TUTORS**  
 **Steven** [calendly.com/steven-palomino/csci160-office-hours](https://calendly.com/steven-palomino/csci160-office-hours){:target="_blank"}  
-**Shafali** [calendly.com/shafali-gupta21/csci-160-office-hours-shafali](https://calendly.com/shafali-gupta21/csci-160-office-hours-shafali){:target="_blank"}  
 **Daniel** [calendly.com/daniel-elkik26/160-office-hours](https://calendly.com/daniel-elkik26/160-office-hours){:target="_blank"}  
 **Andy** [calendly.com/andy-mina30/office-hours/](https://calendly.com/andy-mina30/office-hours/){:target="_blank"}  
   
