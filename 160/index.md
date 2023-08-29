@@ -6,7 +6,7 @@ title: CSCI 160 MAIN PAGE
 **[CSCI160 COMPUTER ARCHITECTURE I &nbsp;HUNTER COLLEGE CITY UNIVERSITY OF NEW YORK](index.html)**
 **Fall 2023 &nbsp; &nbsp; Tuesday and Friday &nbsp; 11:30 PM to 12:45 PM &nbsp;&nbsp; IN PERSON in the Hunter West 615. However, in order to prepare for potential contigencies, several lectures throughout the semester will take place on BlackBoard Collaborate TBA**
 [**SYLLABUS**](syllabus.html "CSCI 160 Computer Architecture I"){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
-[**GRADESCOPE** [entry code 4PBYXW]](https://www.gradescope.com/courses/365602 "CSCI 160 entry code 4PBYXW"){:target="_blank"}    
+[**GRADESCOPE** [entry code 8EGVGK]](https://www.gradescope.com/courses/592267 "CSCI 160 entry code 8EGVGK"){:target="_blank"}    
   
 **INSTRUCTOR**  
 **Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours TBD and by appointment 
@@ -14,8 +14,7 @@ title: CSCI 160 MAIN PAGE
   
 **TUTORS**  
 **Steven** [calendly.com/steven-palomino/csci160-office-hours](https://calendly.com/steven-palomino/csci160-office-hours){:target="_blank"}  
-**Daniel** [calendly.com/daniel-elkik26/160-office-hours](https://calendly.com/daniel-elkik26/160-office-hours){:target="_blank"}  
-**Andy** [calendly.com/andy-mina30/office-hours/](https://calendly.com/andy-mina30/office-hours/){:target="_blank"}  
+**Syeda** [calendly.com/daniel-elkik26/160-office-hours](https://calendly.com/____/160-office-hours){:target="_blank"}  
   
 **TEXTBOOK**  
 [**Digital Design, 6th (or 5th) Edition eText**](https://www.pearson.com/store/p/mano-ciletti-digital-design-with-an-introduction-to-the-verilog-hdl-vhdl-and-systemverilog-6-e/3100003043990/9780137208333){:target="_blank"}, Mano, Ciletti ISBN-9780134529561. It can be purchased at a discounted price ($54.99) direct from the publisher through [**Vitalsource.com**](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/2%5B%3Bvnd.vst.idref%3Dcover%5D!/4/2%5Bvst-image-button-81818%5D%400:0){:target="_blank"} in order for the chapter links to work.  Do not buy any other electronic version of this edition of the book. Of course, you may be able to find prior editions of this book for less -- you will simply have to match the reading assignments to those older edditions.  
