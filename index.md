@@ -32,4 +32,4 @@ title: Genady Maryash, Hunter College
 
   [CSCI 135 SPRING 2023](135/index.html)   
 
-  [CSCI 160 FALL2023](160/index.html) 
+  [CSCI 160 FALL 2023](160/index.html) 
