@@ -33,10 +33,7 @@ title: CSCI 160 MAIN PAGE
  9/5 | HW Review &nbsp;  |  |  | 
  9/8 | Complements of Numbers | [1.5 Complements of Numbers](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/24%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000411%5D!/4/2%5BP7001013970000000000000000000411%5D/2/2%5BP700101397000000000000000000D4FF%5D/2%400:0){:target="_blank"}<br/>[1.6 Signed Binary Numbers](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/26%5B%3Bvnd.vst.idref%3DP700101397000000000000000000048E%5D!/4/2%5BP700101397000000000000000000048E%5D/2/2%5BP700101397000000000000000000D563%5D/4%400:0){:target="_blank"} | [Class 3](slides/class_3_complements.pdf){:target="_blank"} | [Homework&nbsp;3](hw.html#03){:target="_blank"}&nbsp;due&nbsp;9/16 
   
-<!---  
 
-
--->
   
 ---  
   
