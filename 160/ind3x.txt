@@ -1,4 +1,4 @@
-***&*** | ***TEST 1***  
+***&*** | ***TEST  1***  
 
 
  9/15 | Boolean Algebra | [2.2 Basic Definitions](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/44%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000AE4%5D!/4/2%5BP7001013970000000000000000000AE4%5D/2/2%5BP700101397000000000000000000DB2E%5D/2%400:0){:target="_blank"} | [Class 5](slides/class_05_boolean_algebra.pdf){:target="_blank"} | [Homework&nbsp;5](hw.html#05){:target="_blank"}&nbsp;due&nbsp;2/28 
