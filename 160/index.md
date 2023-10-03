@@ -15,7 +15,6 @@ title: CSCI 160 MAIN PAGE
 **TUTORS**  
 **Steven** [calendly.com/steven-palomino/csci160-office-hours](https://calendly.com/steven-palomino/csci160-office-hours){:target="_blank"}  
 **Syeda** [calendly.com/daniel-elkik26/160-office-hours](https://calendly.com/huntertutoring/160-ta-w-syeda){:target="_blank"}  
-**Patience** [https://calendly.com/patience-elliott/tutoring](https://calendly.com/patience-elliott/tutoring){:target="_blank"}  
 **Sarah** [https://calendly.com/sarahkhaldi/10min](https://calendly.com/sarahkhaldi/10min){:target="_blank"}  
   
 **TEXTBOOK**  
