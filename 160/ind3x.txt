@@ -1,7 +1,8 @@
 ***&*** | ***TEST  1***  
 
  3/21 | **Midterm Exam** |  |  | 
-**ONLINE**<br/>**X/XX**
+**ONLINE**<br/>**X/XX**  
+**BB&nbsp;COLLABORATE**<br/>
 
  3/30 | 7-Segment Display | [3.5 Don't-Care Conditions](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/76%5B%3Bvnd.vst.idref%3DP700101397000000000000000000170D%5D!/4/2%5BP700101397000000000000000000170D%5D/2/2%5BP700101397000000000000000000E5B4%5D/2%400:0){:target="_blank"} | [Class&nbsp;13](slides/class_13_7_segment_display.pdf){:target="_blank"} | [Homework&nbsp;13](hw.html#13){:target="_blank"}&nbsp;due&nbsp;4/4 
  4/4 | Tabulation Method | [Quine-McCluskey<br/>Tabular Method](https://www.tutorialspoint.com/digital_circuits/digital_circuits_quine_mccluskey_tabular_method.htm#:~:text=Quine%2DMcClukey%20tabular%20method%20is,of%20the%20given%20Boolean%20function.){:target="_blank"} | [Class&nbsp;14](slides/class_14_tabulation_method.pdf){:target="_blank"} | [Homework&nbsp;14](hw.html#14){:target="_blank"}&nbsp;due&nbsp;4/6 
