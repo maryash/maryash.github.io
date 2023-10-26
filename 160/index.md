@@ -50,8 +50,8 @@ title: CSCI 160 MAIN PAGE
  11/3 | 7-Segment Display | [3.5 Don't-Care Conditions](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/76%5B%3Bvnd.vst.idref%3DP700101397000000000000000000170D%5D!/4/2%5BP700101397000000000000000000170D%5D/2/2%5BP700101397000000000000000000E5B4%5D/2%400:0){:target="_blank"} | [Class&nbsp;13](slides/class_13_7_segment_display.pdf){:target="_blank"} | [Homework&nbsp;13](hw.html#13){:target="_blank"}&nbsp;due&nbsp;11/7 
  11/7 | Tabulation Method | [Quine-McCluskey<br/>Tabular Method](https://www.tutorialspoint.com/digital_circuits/digital_circuits_quine_mccluskey_tabular_method.htm#:~:text=Quine%2DMcClukey%20tabular%20method%20is,of%20the%20given%20Boolean%20function.){:target="_blank"} | [Class&nbsp;14](slides/class_14_tabulation_method.pdf){:target="_blank"} | [Homework&nbsp;14](hw.html#14){:target="_blank"}&nbsp;due&nbsp;11/10 
  11/10 | Prime Implicant Table | [Prime Implicant Table](https://www.geeksforgeeks.org/prime-implicant-chart-for-minimizing-cyclic-boolean-functions/){:target="_blank"}<br/> &nbsp; ***Test 3*** | [Class&nbsp;15](slides/class_15_prime_implicant_table.pdf){:target="_blank"} | [Homework&nbsp;15](hw.html#15){:target="_blank"}&nbsp;due&nbsp;11/14 
-
-
+  
+  
   
 ---  
   
