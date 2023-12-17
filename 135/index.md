@@ -11,7 +11,7 @@ In these two courses, both of which are required to graduate with a computer sci
  
 **Text:** [*Cay Horstmann*, **Brief C++**, 3rd ed. eText](https://www.vitalsource.com/products/brief-c-late-objects-enhanced-etext-cay-s-horstmann-v9781119400424?term=978-1-119-40042-4){:target="_blank"} – please rent the eText for one semester from here – do not buy or rent it from Amazon or Kindle store – you will not get access to the necessary interactive material!  
 
-**Linux on Windows NEW Video Tutorial:** &nbsp; [http://tiny.cc/2p0jvz](https://www.dropbox.com/scl/fi/na5wupu9pyaarxoxjh55x/WSL-Setup.mp4?rlkey=bylnzs4uybv8l1zd9m4z8g6au&dl=0)  
+**Linux on Windows NEW Video Tutorial:** &nbsp; [http://tiny.cc/2p0jvz](https://www.dropbox.com/scl/fi/na5wupu9pyaarxoxjh55x/WSL-Setup.mp4?rlkey=bylnzs4uybv8l1zd9m4z8g6au&dl=0){:target="_blank"}  
     
 **Tutoring:** The tutors for this course are available in the Lab HN1001B.
 
