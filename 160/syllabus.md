@@ -31,7 +31,7 @@ CSCI 127 and CSCI 150.
 Please check this page regularly for announcements, updates, lecture notes and schedule. All course materials will be gradually posted here. 
   
 **COURSE FINAL GRADE COMPOSITION**  
-40 points the final exam, 30 points for the midterm, 12 points for the three tests, 10 for all homeworks, and 8 additional weight points for the better of the midterm and the final.  However, in order to pass the course, one must pass the final exam.  
+40 points the final exam, 30 points for the midterm, 20 points for the five tests, 10 for all homeworks.  However, in order to pass the course, one must pass the final exam.  
   
 **QUESTIONS**  
 Ask as many as you need during lecture -- you will be doing a service to everyone:  if you have a question, it is likely that other students have the same question, but hesitate to ask it.      
