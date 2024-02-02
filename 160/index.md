@@ -4,7 +4,7 @@ title: CSCI 160 MAIN PAGE
 ---
 
 **[CSCI160 COMPUTER ARCHITECTURE I &nbsp;HUNTER COLLEGE CITY UNIVERSITY OF NEW YORK](index.html)**
-**Fall 2023 &nbsp; &nbsp; Tuesday and Friday &nbsp; 11:30 PM to 12:45 PM &nbsp;&nbsp; IN PERSON in the Hunter West 615. However, in order to prepare for potential contigencies, several lectures throughout the semester will take place on BlackBoard Collaborate TBA**
+**Spring 2024 &nbsp; &nbsp; Tuesday and Friday &nbsp; 11:30 PM to 12:45 PM &nbsp;&nbsp; IN PERSON in the Hunter West 615. However, in order to prepare for potential contigencies, several lectures throughout the semester will take place on BlackBoard Collaborate TBA**
 [**SYLLABUS**](syllabus.html "CSCI 160 Computer Architecture I"){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
 [**GRADESCOPE** [Entry Code: 4GEVV8]](https://www.gradescope.com/courses/723302 "CSCI 160 entry code 4GEVV8"){:target="_blank"}    
   
