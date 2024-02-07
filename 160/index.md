@@ -18,7 +18,9 @@ title: CSCI 160 MAIN PAGE
 [**Circuit Builder Simulator**](https://logic.ly/demo/){:target="_blank"} 
   
 **TUTORS**
+  
 <img src="1070.png" width="700")><!img>
+  
 **Devin** [https://calendly.com/dewiin/devin-s-160-tutoring](https://calendly.com/dewiin/devin-s-160-tutoring){:target="_blank"}  
 **Judy** [https://calendly.com/judy-liu94/tutoring?month=2024-02](https://calendly.com/judy-liu94/tutoring?month=2024-02){:target="_blank"}  
 **Sarah** [https://calendly.com/sarahkhaldi-160/10min](https://calendly.com/sarahkhaldi-160/10min){:target="_blank"}  
