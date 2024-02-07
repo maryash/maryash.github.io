@@ -19,7 +19,7 @@ title: CSCI 160 MAIN PAGE
   
 **TUTORS**
   
-<img src="1070.png" width="700")><!img>
+<img src="1070.png" alt="drawing" style="width:713px;"/>
   
 **Devin** [https://calendly.com/dewiin/devin-s-160-tutoring](https://calendly.com/dewiin/devin-s-160-tutoring){:target="_blank"}  
 **Judy** [https://calendly.com/judy-liu94/tutoring?month=2024-02](https://calendly.com/judy-liu94/tutoring?month=2024-02){:target="_blank"}  
