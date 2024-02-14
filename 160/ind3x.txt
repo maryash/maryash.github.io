@@ -4,6 +4,10 @@
 **ONLINE**<br/>**X/XX**  
 **BB&nbsp;COLLABORATE**<br/>
 
+slides/class_06_axioms.pdf
+slides/class_07_theorems.pdf
+slides/class_08_other_logic_operations.pdf
+
  10/13 | Logic Gates<br/>***Test 2*** | [2.8 Digital Logic Gates](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/56%5B%3Bvnd.vst.idref%3DP700101397000000000000000000129F%5D!/4/2%5BP700101397000000000000000000129F%5D/2/2%5BP700101397000000000000000000E206%5D/2%400:0){:target="_blank"} | [Class 9](slides/class_09_logic_gates.pdf){:target="_blank"} | [Homework&nbsp;9](hw.html#09){:target="_blank"}&nbsp;due&nbsp;10/17 
  10/17 | Midterm Review |  | [Midterm Review](slides/midterm_review.pdf){:target="_blank"} | 
  10/20 | MIDTERM EXAM |  |  | 
