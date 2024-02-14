@@ -40,7 +40,7 @@ title: CSCI 160 MAIN PAGE
  2/20 | Test 1, etc. |  |  | 
  2/23 | Functions and Proofs | [2.4 Theorems and Properties](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/48%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000C92%5D!/4/2%5BP7001013970000000000000000000C92%5D/2/2%5BP700101397000000000000000000DC80%5D/4%400:0){:target="_blank"}<br/>[2.5 Boolean Functions](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/50%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000E2A%5D!/4/2%5BP7001013970000000000000000000E2A%5D/2/2%5BP700101397000000000000000000DDF2%5D/2%400:0){:target="_blank"} | [Class 7](){:target="_blank"} | [Homework&nbsp;7](hw.html#07){:target="_blank"}&nbsp;due&nbsp;2/27 
  2/27 | More Boolean Algebra | [2.7 Other Logic Operators](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/54%5B%3Bvnd.vst.idref%3DP7001013970000000000000000001148%5D!/4/2%5BP7001013970000000000000000001148%5D/2/2%5BP700101397000000000000000000E0B5%5D/4%400:0){:target="_blank"} | [Class 8](){:target="_blank"} | [Homework&nbsp;8](hw.html#08){:target="_blank"}&nbsp;due&nbsp;2/30 
- 2/30 | Topic Continued | ... |  | 
+ 3/1 | Topic Continued | ... |  | 
 
   
 ---   
