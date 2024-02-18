@@ -4,7 +4,6 @@
 **ONLINE**<br/>**X/XX**  
 **BB&nbsp;COLLABORATE**<br/>
 
-slides/class_06_axioms.pdf
 slides/class_07_theorems.pdf
 slides/class_08_other_logic_operations.pdf
 
