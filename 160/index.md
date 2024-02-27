@@ -43,6 +43,8 @@ title: CSCI 160 MAIN PAGE
  3/1 | ***Test 2***<br/>Midterm&nbsp;Review |  | [Midterm Review](slides/midterm_review.pdf){:target="_blank"} | 
  3/5 | MIDTERM | EXAM |  | 
  ~~~~ | ~~~~~~~~~~~~ | ~~~~~~~~~~~~~~~~~~~ | ~~~~~ |  ~~~~~~~~~~~~~~~~
+ 3/8 | Canonical vs Standard | [2.6&nbsp;Canonical&nbsp;and Standard&nbsp;Forms](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/52%5B%3Bvnd.vst.idref%3DP7001013970000000000000000000F17%5D!/4/2%5BP7001013970000000000000000000F17%5D/2/2%5BP700101397000000000000000000DEC0%5D/2%400:0){:target="_blank"} | [Class&nbsp;10](slides/class_10_canonical_standard.pdf){:target="_blank"} | [Homework&nbsp;10](hw.html#10){:target="_blank"}&nbsp;due&nbsp;3/12 
+ 3/12 | Gate Level Minimisation | [3.2 The Map Method](https://bookshelf.vitalsource.com/#/books/9780134529561/epubcfi/6/70%5B%3Bvnd.vst.idref%3DP700101397000000000000000000154D%5D!/4/2%5BP700101397000000000000000000154D%5D/2/2%5BP700101397000000000000000000E446%5D/2%400:0){:target="_blank"}<br/>[TB K-Map Method](https://bookshelf.vitalsource.com/reader/books/9780134529561/epubcfi/6/70[%3Bvnd.vst.idref%3DP700101397000000000000000000154D]!/4/2[P700101397000000000000000000154D]/2/2[P700101397000000000000000000E446]/3:13[ETH%2COD]){:target="_blank"} | [Class&nbsp;11](slides/class_11_karnaugh_maps.pdf){:target="_blank"}<br/>[K&#8209;Map&nbsp;Torus](slides/k_map_torus.pdf){:target="_blank"} | [Homework&nbsp;11](hw.html#11){:target="_blank"}&nbsp;due&nbsp;3/15 
 
   
 ---   
