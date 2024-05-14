@@ -66,6 +66,11 @@ title: CSCI 160 MAIN PAGE
 ---   
     
     
+**TEACHER EVALUATIONS:**  
+[**hunter.cuny.edu/te**](http://www.hunter.cuny.edu/te){:target="_blank"}  
+[**hunter.cuny.edu/mobilete**](http://www.hunter.cuny.edu/mobilete){:target="_blank"}  
+
+  
 ---   
     
     
