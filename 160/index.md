@@ -59,7 +59,7 @@ title: CSCI 160 MAIN PAGE
  5/7 | ***Test 5***<br/>Flip-Flops, States | Finite State Machines |  | 
  5/11 | Exam Review 1 |  |  | 
  5/14 | Exam Review 2 |  |  | 
- **5/21** | **Final Exam** | ***Wednesday*** | ***9:00 AM – 11:00 AM*** |
+ **5/21** | **Final Exam** | ***Tuesday*** | ***9:00 AM – 11:00 AM*** |
 
 
   
