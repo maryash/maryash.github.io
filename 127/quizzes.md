@@ -75,7 +75,7 @@ Thursday, 1 February
 Academic Integrity Policy (certify that you have read and understood it) and  
 a short survey (reasons for taking course, etc.).
 
-On-line (Blackboard)
+  
 
 [](#2)
 
@@ -84,7 +84,7 @@ Thursday, 8 February
 Turtles and loops in Python,  
 [Programs 1-5](ps.html#set1)
 
-On-line (Blackboard)
+  
 
 [](#3)
 
@@ -102,7 +102,7 @@ Tuesday, 27 February
 Colors and images in numpy,  
 [Programs 11-15](ps.html#set3)
 
-On-line (Blackboard)
+  
 
 [](#5)
 
@@ -120,7 +120,7 @@ Tuesday, 13 March
 Truth tables, logical expressions and circuits,  
 [Programs 21-25](ps.html#set5)
 
-On-line (Blackboard)
+  
 
 [](#7)
 
@@ -139,7 +139,7 @@ Wednesday, 28 March
 Introducing functions (main()), More on Pandas,  
 [Programs 31-35](ps.html#set7)
 
-On-line (Blackboard)
+  
 
 [](#9)
 
@@ -157,7 +157,7 @@ Wednesday, 18 April
 More on Functions & Top-down Design,  
 [Programs 41-45](ps.html#set9)
 
-On-line (Blackboard)
+  
 
 [](#11)
 
@@ -175,7 +175,7 @@ Wednesday, 2 May
 Simplified Machine Language,  
 [Programs 49-52](ps.html#set11)
 
-On-line (Blackboard)
+  
 
 [](#13)
 
@@ -192,4 +192,4 @@ Wednesday, 16 May
 
 End-of-semester survey
 
-On-line (Blackboard)
+  
