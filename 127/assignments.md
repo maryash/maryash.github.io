@@ -67,7 +67,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com){:target="
 * * *  
   
 <a id="01"></a>
-### Introduction: 
+### First Problems: 
 
 01) **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 1](https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/toctree.html){:target="_blank"} & [2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"}**  
 
