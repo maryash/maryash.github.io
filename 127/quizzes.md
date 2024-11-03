@@ -68,7 +68,7 @@ As the name suggests, in-class quizzes **must** be taken in-class. If you miss y
 
  Type:
 
-<a href="#1"></a>
+<a name="1"></a>
 
 Thursday, 1 February
 
@@ -77,7 +77,7 @@ a short survey (reasons for taking course, etc.).
 
   
 
-<a href="#2"></a>
+<a name="2"></a>
 
 
 Thursday, 8 February
@@ -87,7 +87,7 @@ Turtles and loops in Python,
 
   
 
-<a href="#3"></a>
+<a name="3"></a>
 
 
 Tuesday, 20 February
@@ -97,7 +97,7 @@ Strings and loops,
 
   
 
-<a href="#4"></a>
+<a name="4"></a>
 
 Tuesday, 27 February
 
@@ -106,7 +106,7 @@ Colors and images in numpy,
 
   
 
-<a href="#5"></a>
+<a name="5"></a>
 
 
 Tuesday, 6 March
@@ -116,7 +116,7 @@ Decisions, hex codes for color,
 
   
 
-<a href="#6"></a>
+<a name="6"></a>
 
 
 Tuesday, 13 March
@@ -126,7 +126,7 @@ Truth tables, logical expressions and circuits,
 
   
 
-<a href="#7"></a>
+<a name="7"></a>
 
 
 Tuesday, 20 March
@@ -136,7 +136,7 @@ Accessing formatted data (using Pandas), Unix shell commands,
 
   
 
-<a href="#8"></a>
+<a name="8"></a>
 
 Tuesday, 27 March  
 Wednesday, 28 March
@@ -146,7 +146,7 @@ Introducing functions (main()), More on Pandas,
 
   
 
-<a href="#9"></a>
+<a name="9"></a>
 
 
 Tuesday, 10 April
@@ -156,7 +156,7 @@ Parameters & Functions,
 
   
 
-<a href="#10"></a>
+<a name="10"></a>
 
 
 Wednesday, 18 April
@@ -166,7 +166,7 @@ More on Functions & Top-down Design,
 
   
 
-<a href="#11"></a>
+<a name="11"></a>
 
 
 Wednesday, 25 April
@@ -176,7 +176,7 @@ Indefinite Loops & Simulations,
 
   
 
-<a href="#12"></a>
+<a name="12"></a>
 
 
 Wednesday, 2 May
@@ -186,7 +186,7 @@ Simplified Machine Language,
 
   
 
-<a href="#13"></a>
+<a name="13"></a>
 
 
 Wednesday, 9 May
@@ -196,7 +196,7 @@ Simple C++ Programs,
 
   
 
-<a href="#14"></a>
+<a name="14"></a>
 
 
 Wednesday, 16 May
