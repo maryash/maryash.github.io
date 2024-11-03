@@ -83,7 +83,7 @@ a short survey (reasons for taking course, etc.).
 Thursday, 8 February
 
 Turtles and loops in Python,  
-[Programs 1-5](ps.html#set1)
+[Programs 1-5](assignments.html#set1)
 
   
 
@@ -93,7 +93,7 @@ Turtles and loops in Python,
 Tuesday, 20 February
 
 Strings and loops,  
-[Programs 6-10](ps.html#set2)
+[Programs 6-10](assignments.html#set2)
 
   
 
@@ -102,7 +102,7 @@ Strings and loops,
 Tuesday, 27 February
 
 Colors and images in numpy,  
-[Programs 11-15](ps.html#set3)
+[Programs 11-15](assignments.html#set3)
 
   
 
@@ -112,7 +112,7 @@ Colors and images in numpy,
 Tuesday, 6 March
 
 Decisions, hex codes for color,  
-[Programs 16-20](ps.html#set4)
+[Programs 16-20](assignments.html#set4)
 
   
 
@@ -122,7 +122,7 @@ Decisions, hex codes for color,
 Tuesday, 13 March
 
 Truth tables, logical expressions and circuits,  
-[Programs 21-25](ps.html#set5)
+[Programs 21-25](assignments.html#set5)
 
   
 
@@ -132,7 +132,7 @@ Truth tables, logical expressions and circuits,
 Tuesday, 20 March
 
 Accessing formatted data (using Pandas), Unix shell commands,  
-[Programs 26-30](ps.html#set6)
+[Programs 26-30](assignments.html#set6)
 
   
 
@@ -142,7 +142,7 @@ Tuesday, 27 March
 Wednesday, 28 March
 
 Introducing functions (main()), More on Pandas,  
-[Programs 31-35](ps.html#set7)
+[Programs 31-35](assignments.html#set7)
 
   
 
@@ -152,7 +152,7 @@ Introducing functions (main()), More on Pandas,
 Tuesday, 10 April
 
 Parameters & Functions,  
-[Programs 36-40](ps.html#set8)
+[Programs 36-40](assignments.html#set8)
 
   
 
@@ -162,7 +162,7 @@ Parameters & Functions,
 Wednesday, 18 April
 
 More on Functions & Top-down Design,  
-[Programs 41-45](ps.html#set9)
+[Programs 41-45](assignments.html#set9)
 
   
 
@@ -172,7 +172,7 @@ More on Functions & Top-down Design,
 Wednesday, 25 April
 
 Indefinite Loops & Simulations,  
-[Programs 46-48](ps.html#set10)
+[Programs 46-48](assignments.html#set10)
 
   
 
@@ -182,7 +182,7 @@ Indefinite Loops & Simulations,
 Wednesday, 2 May
 
 Simplified Machine Language,  
-[Programs 49-52](ps.html#set11)
+[Programs 49-52](assignments.html#set11)
 
   
 
@@ -192,7 +192,7 @@ Simplified Machine Language,
 Wednesday, 9 May
 
 Simple C++ Programs,  
-[Programs 53-56](ps.html#set12)
+[Programs 53-56](assignments.html#set12)
 
   
 
