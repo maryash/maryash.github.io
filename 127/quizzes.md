@@ -68,7 +68,7 @@ As the name suggests, in-class quizzes **must** be taken in-class. If you miss y
 
  Type:
 
-#1
+[](#1)
 
 Thursday, 1 February
 
@@ -77,7 +77,7 @@ a short survey (reasons for taking course, etc.).
 
 On-line (Blackboard)
 
-#2
+[](#2)
 
 Thursday, 8 February
 
@@ -86,7 +86,7 @@ Turtles and loops in Python,
 
 On-line (Blackboard)
 
-#3
+[](#3)
 
 Tuesday, 20 February
 
@@ -95,7 +95,7 @@ Strings and loops,
 
 Paper
 
-#4
+[](#4)
 
 Tuesday, 27 February
 
@@ -104,7 +104,7 @@ Colors and images in numpy,
 
 On-line (Blackboard)
 
-#5
+[](#5)
 
 Tuesday, 6 March
 
@@ -113,7 +113,7 @@ Decisions, hex codes for color,
 
 Paper
 
-#6
+[](#6)
 
 Tuesday, 13 March
 
@@ -122,7 +122,7 @@ Truth tables, logical expressions and circuits,
 
 On-line (Blackboard)
 
-#7
+[](#7)
 
 Tuesday, 20 March
 
@@ -131,7 +131,7 @@ Accessing formatted data (using Pandas), Unix shell commands,
 
 Paper
 
-#8
+[](#8)
 
 Tuesday, 27 March  
 Wednesday, 28 March
@@ -141,7 +141,7 @@ Introducing functions (main()), More on Pandas,
 
 On-line (Blackboard)
 
-#9
+[](#9)
 
 Tuesday, 10 April
 
@@ -150,7 +150,7 @@ Parameters & Functions,
 
 Paper
 
-#10
+[](#10)
 
 Wednesday, 18 April
 
@@ -159,7 +159,7 @@ More on Functions & Top-down Design,
 
 On-line (Blackboard)
 
-#11
+[](#11)
 
 Wednesday, 25 April
 
@@ -168,7 +168,7 @@ Indefinite Loops & Simulations,
 
 Paper
 
-#12
+[](#12)
 
 Wednesday, 2 May
 
@@ -177,7 +177,7 @@ Simplified Machine Language,
 
 On-line (Blackboard)
 
-#13
+[](#13)
 
 Wednesday, 9 May
 
@@ -186,7 +186,7 @@ Simple C++ Programs,
 
 Paper
 
-#14
+[](#14)
 
 Wednesday, 16 May
 
