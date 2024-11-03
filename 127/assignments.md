@@ -66,7 +66,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com){:target="
 
 * * *  
   
-<a id="1"></a>
+<a id="01"></a>
 ### Introduction: 
 
 01) **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 1](https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/toctree.html){:target="_blank"} & [2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"}**  
@@ -126,7 +126,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com){:target="
 Copy the program from [Section 4.3](http://interactivepython.org/courselib/static/thinkcspy/PythonTurtle/InstancesAHerdofTurtles.html){:target="_blank"} into a file on your computer and modify the program (with turtles alex and tess) to have a purple background color and have tess draw white lines:
 ![](https://stjohn.github.io/teaching/csci127/s19/purpleBG.png)  
   
-<a id="2"></a>
+<a id="02"></a>
 ### Loops & Turtles: 
 
 06) **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [Section 4.7](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
