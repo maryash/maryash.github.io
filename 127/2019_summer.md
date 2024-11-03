@@ -80,7 +80,7 @@ Sections: |Time:|Instructor:|E-mail:
 
 ### Outline:
 
- DATES | TOPICS | HANDOUTS | QUIZ / READING 
+ DATES | TOPICS | HANDOUTS | READING / HW 
  --- | --- | --- | --- 
  Wednesday&nbsp;5/29 Recitation | Syllabus,&nbsp;policies&nbsp;&&nbsp;introductions<br>Getting started with Python & IDLE<br>Using modules and definite loops | [Syllabus](syllabus.html){:target="_blank"} <br>[Programming Assignments](assignments.html){:target="_blank"} <br>[LAB 1](lab_01.html){:target="_blank"} | Academic Integrity 
  Thursday&nbsp;5/30 Lecture | Introduction to Python: definite loops <br>Simple output, primitive data types<br>Overview of objects & modules <br>What is an algorithm? | [Hello World](http://www.pythontutor.com/visualize.html#code=%23Name%3A%20%20Thomas%20Hunter%0A%23Date%3A%20%20September%201,%202017%0A%23This%20program%20prints%3A%20%20Hello,%20World!%0A%0Aprint%28%22Hello,%20World!%22%29&cumulative=false&curInstr=0&heapPrimitives=false&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false){:target="_blank"} <br>[Hexagon example](https://trinket.io/python/88a94dfc75){:target="_blank"} <br>[Fancier hexagon](https://trinket.io/python/a3bede6db8){:target="_blank"} <br>[Lecture Notes](127_01.pdf){:target="_blank"} | [Think&nbsp;CS&nbsp;Chapter&nbsp;1](http://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/toctree.html){:target="_blank"} <br>[Think&nbsp;CS&nbsp;Chapter&nbsp;4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"} 
