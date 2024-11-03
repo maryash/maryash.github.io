@@ -66,13 +66,13 @@ Submit the following programs via [Gradescope:](http://gradescope.com){:target="
 
 * * *
 
-01.  **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 1](https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/toctree.html){:target="_blank"} & [2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"}**  
+01) **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 1](https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/toctree.html){:target="_blank"} & [2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"}**  
 
         Write a program that prints "Hello, World!" to the screen.
 
         _Hint: See [Lab 1](lab_01.html){:target="_blank"}._
 
-02.  **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
+02) **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
     
         Write a program that draws an octagon (8-sided polygon).  
 
@@ -80,7 +80,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com){:target="
 
         _Hint: See [Lab 1](lab_01.html){:target="_blank"}._
     
-03.  **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
+03) **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
     
         Write a program that implements the [pseudocode](http://en.wikipedia.org/wiki/Pseudocode) ("informal high-level description of the operating principle of a computer program or other algorithm") below:
 
@@ -93,7 +93,7 @@ Submit the following programs via [Gradescope:](http://gradescope.com){:target="
         Your output should look similar to:  
         ![](flower.png)  
   
-04.  **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
+04) **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
 
         Write a program that will print the Hunter College motto ("Mihi cura futuri" which translates to: "The care of the future is mine") 19 times.
 
@@ -119,11 +119,11 @@ Submit the following programs via [Gradescope:](http://gradescope.com){:target="
             Mihi cura futuri
             Mihi cura futuri
     
-05.  **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**
+05) **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**
 Copy the program from [Section 4.3](http://interactivepython.org/courselib/static/thinkcspy/PythonTurtle/InstancesAHerdofTurtles.html){:target="_blank"} into a file on your computer and modify the program (with turtles alex and tess) to have a purple background color and have tess draw white lines:
 ![](https://stjohn.github.io/teaching/csci127/s19/purpleBG.png)
 
-06.  **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [Section 4.7](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
+06) **Due Date: 6 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [Section 4.7](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
     
         Write a program that prints out the numbers from 0 to 14.
     
@@ -147,7 +147,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
     
         _Hint: Use a loop and print out the index or loop variable._  
   
-07.  **Due Date: 11 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
+07) **Due Date: 11 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
     
         Write a Python program that prompts the user for a message, and then prints the message, the message in upper case letters, and the message in lower case letters.
     
@@ -165,7 +165,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             I LOVE PYTHON!
             i love python!  
 
-08.  **Due Date: 11 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [9](http://runestone.academy/ns/books/published/thinkcspy/Strings/toctree.html){:target="_blank"}**  
+08) **Due Date: 11 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [9](http://runestone.academy/ns/books/published/thinkcspy/Strings/toctree.html){:target="_blank"}**  
     
         Write a program that prompts the user to enter a phrase and then prints out the ASCII code of each character in the phrase.
     
@@ -190,7 +190,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
     
         _Hint: If c is a character, ord(c) returns its ASCII code. For example, if c is 'I', then ord(c) returns 73. See [Lab 2](lab_02.html){:target="_blank"}._  
     
-09.  **Due Date: 11 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [9](http://runestone.academy/ns/books/published/thinkcspy/Strings/toctree.html){:target="_blank"}**  
+09) **Due Date: 11 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [9](http://runestone.academy/ns/books/published/thinkcspy/Strings/toctree.html){:target="_blank"}**  
     
         ![](https://stjohn.github.io/teaching/csci127/f18/ciphrdsk.gif)  
         (The cipher disk above shifts 'A' to 'N', 'B' to 'O', ... 'Z' to 'M', or a shift of 13. From secretcodebreaker.com.)
@@ -206,7 +206,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See the example programs from Lecture 2._  
     
-10.  **Due Date: 11 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [9](http://runestone.academy/ns/books/published/thinkcspy/Strings/toctree.html){:target="_blank"}**  
+10) **Due Date: 11 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [9](http://runestone.academy/ns/books/published/thinkcspy/Strings/toctree.html){:target="_blank"}**  
 
         Write a program that implements the pseudocode below:
 
@@ -219,7 +219,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 2](lab_02.html){:target="_blank"}._  
    
-11.  **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"} & [9](http://runestone.academy/ns/books/published/thinkcspy/Strings/toctree.html){:target="_blank"}**  
+11) **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"} & [9](http://runestone.academy/ns/books/published/thinkcspy/Strings/toctree.html){:target="_blank"}**  
     
         Write a program that asks the user for a message and then prints the message out, one character per line, in reverse order.
 
@@ -243,14 +243,14 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 2](lab_02.html) or Lecture 2 notes._  
 
-12.  **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
+12) **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
     
         Modify the program from [Lab 3](lab_03.html){:target="_blank"} to show the shades of green.
 
         Your output should look similar to:  
         ![](shadesOfGreen.png)  
     
-13.  **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
+13) **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
     
         Write a program that asks the user for the hexcode of a color and then displays a turtle that color.
 
@@ -263,7 +263,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Section 4.3](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/InstancesAHerdofTurtles.html){:target="_blank"} for setting the background color and [Lab 3](lab_03.html){:target="_blank"} for colors._  
     
-14.  **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
+14) **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
     
         Write a program that asks the user for a name of an image .png file and the name of an output file. Your program should create a new image that has only the green channel of the original image.
 
@@ -278,7 +278,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
     
-15.  **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
+15) **Due Date: 13 June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
     
         Write a program that implements the pseudocode below. Your program should ask the user for a binary number and print out the corresponding decimal number.
 
@@ -302,7 +302,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         Note: here's a quick [review](https://www.mathsisfun.com/binary-number-system.html){:target="_blank"} of binary numbers.  
     
-16.  **Due Date: 18  June** &nbsp; &nbsp; **Reading: Think CS [Section 2.7](http://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/OperatorsandOperands.html){:target="_blank"}**  
+16) **Due Date: 18  June** &nbsp; &nbsp; **Reading: Think CS [Section 2.7](http://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/OperatorsandOperands.html){:target="_blank"}**  
 
         Write a program that converts kilometers to miles. Your program should prompt the user for the number of kilometers and then print out the number of miles.
 
@@ -310,7 +310,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         See [Lab 4](lab_04.html){:target="_blank"} for designing Input-Process-Output programs.  
     
-17.  **Due Date: 18  June** &nbsp; &nbsp; **Reading: Think CS [Section 2.7](http://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/OperatorsandOperands.html){:target="_blank"} & [4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
+17) **Due Date: 18  June** &nbsp; &nbsp; **Reading: Think CS [Section 2.7](http://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/OperatorsandOperands.html){:target="_blank"} & [4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
     
         Write a program that implements the pseudocode below:
 
@@ -332,7 +332,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Section 2.7](http://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/OperatorsandOperands.html){:target="_blank"}._  
     
-18.  **Due Date: 18  June** &nbsp; &nbsp; **Reading: Think CS [Chapters 4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"} & [7](http://runestone.academy/ns/books/published/thinkcspy/Selection/toctree.html){:target="_blank"}**  
+18) **Due Date: 18  June** &nbsp; &nbsp; **Reading: Think CS [Chapters 4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"} & [7](http://runestone.academy/ns/books/published/thinkcspy/Selection/toctree.html){:target="_blank"}**  
 
         Write a program that asks the user for 5 whole (integer) numbers. For each number, turn the turtle left the degrees entered and then the turtle should move forward 100.
 
@@ -347,7 +347,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         and the output should look similar to:  
         ![](5turns.png)  
     
-19.  **Due Date: 18  June** &nbsp; &nbsp; **Reading: Think CS [Chapters 4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html) & [7](http://runestone.academy/ns/books/published/thinkcspy/Selection/toctree.html){:target="_blank"}**  
+19) **Due Date: 18  June** &nbsp; &nbsp; **Reading: Think CS [Chapters 4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html) & [7](http://runestone.academy/ns/books/published/thinkcspy/Selection/toctree.html){:target="_blank"}**  
     
         Modify the flood map of NYC from [Lab 4](lab_04.html) to color the region of the map with elevation greater than 6 feet and less than or equal 20 feet above sea level the color grey (50% red, 50% green, and 50% blue).
 
@@ -359,7 +359,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
     
-20.  **Due Date: 18 June** &nbsp; &nbsp; **Reading: [Think CS: Section 8.10](http://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/2DimensionalIterationImageProcessing.html){:target="_blank"}**  
+20) **Due Date: 18 June** &nbsp; &nbsp; **Reading: [Think CS: Section 8.10](http://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/2DimensionalIterationImageProcessing.html){:target="_blank"}**  
     
         Modify the map-making program from [Lab 4](lab_04.html) to create a map that outlines the coastline. Your program should create a new image, called coast.png with the pixels colored as follows:
 
@@ -375,7 +375,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
     
-21.  **Due Date: 20  June** &nbsp; &nbsp; **Reading: Think CS [Chapter 7](http://runestone.academy/ns/books/published/thinkcspy/Selection/toctree.html){:target="_blank"}**  
+21) **Due Date: 20  June** &nbsp; &nbsp; **Reading: Think CS [Chapter 7](http://runestone.academy/ns/books/published/thinkcspy/Selection/toctree.html){:target="_blank"}**  
     
         Write a program that asks the user for the name of a png file and print the number of pixels that are nearly white (the fraction of red, the fraction of green, and the fraction of blue are all above 0.75).
 
@@ -392,7 +392,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 5](lab_05.html){:target="_blank"}_.  
     
-22.  **Due Date: 20 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/){:target="_blank"}**  
+22) **Due Date: 20 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/){:target="_blank"}**  
     
         Write a logical expression that is equivalent to the circuit that computes the majority of 3 inputs, called in1, in2, in3:
 
@@ -403,14 +403,14 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         Save your expression to a text file. See [Lab 5](lab5.html) for the format for submitting logical expressions to Gradescope.
     
-23.  **Due Date: 20 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
+23) **Due Date: 20 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/)**  
         Build a circuit that has the same behavior as a nor gate (i.e. for the same inputs, gives identical output) using only and, or, and not gates.
 
         ![](norGate.png)
 
         Save your expression to a text file. See [Lab 5](lab5.html) for the format for submitting logical expressions to Gradescope.  
     
-24.  **Due Date: 20  June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](http://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
+24) **Due Date: 20  June** &nbsp; &nbsp; **Reading: Think CS [Chapters 2](http://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"} & [4](http://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"}**  
     
         The program [turtleString.py](turtleString.py) takes a string as input and uses that string to control what the turtle draws on the screen (inspired by [code.org's graph paper programming](https://code.org/curriculum/course2/1/Teacher){:target="_blank"}). Currently, the program processes the following commands:
 
@@ -432,7 +432,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See Lecture 4 notes._  
     
-25.  **Due Date: 20 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html) & [Section 7.4](http://runestone.academy/ns/books/published/thinkcspy/Selection/ConditionalExecutionBinarySelection.html){:target="_blank"}**
+25) **Due Date: 20 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html) & [Section 7.4](http://runestone.academy/ns/books/published/thinkcspy/Selection/ConditionalExecutionBinarySelection.html){:target="_blank"}**
     
         Write a program that uses the turtle package to implement the following pseudocode:
 
@@ -460,7 +460,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
       
 
-26.  **Due Date: 23 June** &nbsp; &nbsp; **Reading: [Numpy tutorial (DataCamp)](https://www.datacamp.com/community/tutorials/python-numpy-tutorial)**  
+26) **Due Date: 23 June** &nbsp; &nbsp; **Reading: [Numpy tutorial (DataCamp)](https://www.datacamp.com/community/tutorials/python-numpy-tutorial)**  
     
         Modify the program from [Lab 6](lab6.html){:target="_blank"} that displays the [NYC historical population data](nycHistPop.csv). Your program should ask the user for the borough, an name for the output file, and then display the fraction of the population that has lived in that borough, over time.
 
@@ -475,7 +475,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.
     
-27.  **Due Date: 23 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html){:target="_blank"}, [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik){:target="_blank"}**  
+27) **Due Date: 23 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html){:target="_blank"}, [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik){:target="_blank"}**  
     
         Write a program that computes the average and maximum population over time for a borough (entered by the user). Your program should assume that the NYC historical population data file, [nycHistPop.csv](nycHistPop.csv) is in the same directory.
 
@@ -493,7 +493,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 6](lab_06.html){:target="_blank"}_.
     
-28.  **Due Date: 23 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 7](http://runestone.academy/ns/books/published/thinkcspy/Selection/toctree.html){:target="_blank"}**  
+28) **Due Date: 23 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 7](http://runestone.academy/ns/books/published/thinkcspy/Selection/toctree.html){:target="_blank"}**  
     
         Write a program that asks the user for the hour of the day (in 24 hour time), and prints
 
@@ -516,13 +516,13 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Enter hour (in 24 hour time):  15
             Good Afternoon
     
-29.  **Due Date: 23 June** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal){:target="_blank"}**  
+29) **Due Date: 23 June** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal){:target="_blank"}**  
     
         Write an Unix shell script that prints Hello, World to the screen.
 
         Submit a single text file containing your shell commands. See [Lab 6](lab_06.html).
     
-30.  **Due Date: 23 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/){:target="_blank"}**  
+30) **Due Date: 23 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/){:target="_blank"}**  
     
         Logical gates can be used to do arithmetic on binary numbers. For example, we can write a logical circuit whose output is one more than the inputted number. Our inputs are in1 and in2 and the outputs are stored in `out1`, `out2`, and `out3`.
 
@@ -552,7 +552,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         Where `...` is replaced by your logical expression (see [Lab 5](lab5.html){:target="_blank"}).
 
     
-31.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html){:target="_blank"}, [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik){:target="_blank"}**  
+31) **Due Date: 25 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html){:target="_blank"}, [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik){:target="_blank"}**  
     
         Modify the program from [Lab 7](lab7.html){:target="_blank"} to:
 
@@ -572,11 +572,11 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         Note: The grading script is expecting that the label (i.e. name of your new column) is `"Fraction Children"`.
     
-32.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: Think CS [Section 6.7](http://runestone.academy/ns/books/published/thinkcspy/Functions/mainfunction.html){:target="_blank"}**  
+32) **Due Date: 25 June** &nbsp; &nbsp; **Reading: Think CS [Section 6.7](http://runestone.academy/ns/books/published/thinkcspy/Functions/mainfunction.html){:target="_blank"}**  
 
         Write a program, using a function `main()` that prints `Hello, World!` to the screen. See [Lab 7](lab_07.html).
     
-33.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 9](http://runestone.academy/ns/books/published/thinkcspy/Strings/toctree.html){:target="_blank"}**  
+33) **Due Date: 25 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 9](http://runestone.academy/ns/books/published/thinkcspy/Strings/toctree.html){:target="_blank"}**  
     
         Write a program that asks the user for a list of nouns (separated by spaces) and approximates the fraction that are plural by counting the fraction that end in `s`. Your program should output the total number of words and the fraction that end in `s`. You may assume that words are separated by spaces (and ignore the possibility of tabs and punctuation between words.)
 
@@ -600,7 +600,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Implement (and test!) each part and then go on to the next._  
     
-34.  **Due Date: 25 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/){:target="_blank"}**  
+34) **Due Date: 25 June** &nbsp; &nbsp; **Reading: [Burch's Logic & Circuits](http://www.toves.org/books/logic/){:target="_blank"}**  
 
         Write a logical expression that takes a single input, in1, and **always** returns True. Your expression must only use in1 and the logical operators, and, or, and not
 
@@ -610,7 +610,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         ![](PorNotP.png)
     
-35.  **Due Date: 25 June**
+35) **Due Date: 25 June**
     
         Write a program that asks the user for the name of an image, the name of an output file. Your program should then save the lower left quarter of the image to the output file specified by the user.
 
@@ -627,7 +627,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         Note: before submitting your program for grading, remove any commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the `plt.show()` commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
         
-36.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html){:target="_blank"}, [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik){:target="_blank"}**  
+36) **Due Date: 27 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html){:target="_blank"}, [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik){:target="_blank"}**  
 
         Modify the parking ticket program from [Lab 8](lab_08.html) to do the following:
 
@@ -668,7 +668,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             2006     499
             Name: Vehicle Year, dtype: int64
     
-37.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: [Github Guide](https://guides.github.com/activities/hello-world/){:target="_blank"}**  
+37) **Due Date: 27 June** &nbsp; &nbsp; **Reading: [Github Guide](https://guides.github.com/activities/hello-world/){:target="_blank"}**  
     
         In [Lab 8](lab_08.html){:target="_blank"}, you created a github account. Submit a text file with the name of your account. The grading script is expecting a file with the format:
   
@@ -680,7 +680,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             
         Note: It takes a few minutes for a newly created github account to be visible. If you submit to gradescope and get a message that the account doesn't exist, wait a few minutes and try again.  
     
-38.  **Due Date: 27  June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://runestone.academy/ns/books/published/thinkcspy/Functions/toctree.html){:target="_blank"}**  
+38) **Due Date: 27  June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://runestone.academy/ns/books/published/thinkcspy/Functions/toctree.html){:target="_blank"}**  
     
         Fill in the missing function, monthString(), in the program, months.py (available at: [https://github.com/stjohn/csci127](https://github.com/stjohn/csci127)){:target="_blank"}. The function should take number between 1 and 12 as a parameter and returns the corresponding month as a string. For example, if the parameter is 1, your function should return `"January"`. If the parameter is `2`, your function should return out `"February"`, etc.
 
@@ -688,7 +688,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See notes from Lecture 7 and [Lab 8](lab_08.html){:target="_blank"}._
     
-39.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html){:target="_blank"}, [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik){:target="_blank"}**  
+39) **Due Date: 27 June** &nbsp; &nbsp; **Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html){:target="_blank"}, [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik){:target="_blank"}**  
     
         Write a program that asks the user for a CSV of collision data (see note below about obtaining reported collisions from NYC OpenData). Your program should then list the top three contributing factors for the primary vehicle of collisions `"CONTRIBUTING FACTOR VEHICLE 1"` in the file.
 
@@ -709,7 +709,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 8](lab_08.html){:target="_blank"} for accessing and analyzing structured data._
     
-40.  **Due Date: 27 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://runestone.academy/ns/books/published/thinkcspy/Functions/toctree.html){:target="_blank"}**
+40) **Due Date: 27 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://runestone.academy/ns/books/published/thinkcspy/Functions/toctree.html){:target="_blank"}**
     
         Write two functions, `triangle()` and `nestedTriangle()`. Both functions take two parameters: a turtle and an edge length. The pseudocode for triangle() is:
 
@@ -739,13 +739,13 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         
         ![](triangles.png) 
         
-41.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started){:target="_blank"}**  
+41) **Due Date: 30 June** &nbsp; &nbsp; **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started){:target="_blank"}**  
     
         Write a program that uses folium to make a map of New York City. Your map should be centered at (40.75, -74.125) and include a marker for the main campus of Hunter College. The HTML file your program creates should be called: `nycMap.html`
 
         _Hint: See [Lab 9](lab9.html){:target="_blank"}._
     
-42.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started){:target="_blank"}**  
+42) **Due Date: 30 June** &nbsp; &nbsp; **Reading: [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started){:target="_blank"}**  
     
         Using folium (see [Lab 9](lab9.html){:target="_blank"}), write a program that asks the user for the name of a CSV file, name of the output file, and creates a map with markers for all the traffic collisions from the input file.
 
@@ -764,7 +764,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: For this data set, the names of the columns are "LATITUDE" and "LONGITUDE" (unlike the previous map problem, where the data was stored with "Latitude" and "Longitude")._
 
-43.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://runestone.academy/ns/books/published/thinkcspy/Functions/toctree.html){:target="_blank"} and [Chapter 7](http://runestone.academy/ns/books/published/thinkcspy/Selection/toctree.html){:target="_blank"}**  
+43) **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS [Chapter 6](http://runestone.academy/ns/books/published/thinkcspy/Functions/toctree.html){:target="_blank"} and [Chapter 7](http://runestone.academy/ns/books/published/thinkcspy/Selection/toctree.html){:target="_blank"}**  
 
         Write a function, `computeFare()`, that takes as two parameters: the zone and the ticket type, and returns the Long Island Railroad fare.
 
@@ -794,7 +794,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 8](lab_08.html){:target="_blank"}._
 
-44.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS: [Chapter 6](http://runestone.academy/ns/books/published/thinkcspy/Functions/toctree.html){:target="_blank"} and [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started){:target="_blank"}**  
+44) **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS: [Chapter 6](http://runestone.academy/ns/books/published/thinkcspy/Functions/toctree.html){:target="_blank"} and [Folium Tutorial](http://python-visualization.github.io/folium/docs-master/quickstart.html#Getting-Started){:target="_blank"}**  
     
         Fill in the following functions in a program that maps GIS data from NYC OpenData CSV files and marks the current location and closest point:
 
@@ -834,7 +834,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 9](lab_09.html){:target="_blank"}._
     
-45.  **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS: [Chapter 6](http://runestone.academy/ns/books/published/thinkcspy/Functions/toctree.html){:target="_blank"}**  
+45) **Due Date: 30 June** &nbsp; &nbsp; **Reading: Think CS: [Chapter 6](http://runestone.academy/ns/books/published/thinkcspy/Functions/toctree.html){:target="_blank"}**  
     
         Fill in the missing functions:
 
@@ -855,7 +855,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See notes from Lecture 9._
   
-46.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS: [Chapter 3](http://runestone.academy/ns/books/published/thinkcspy/Debugging/toctree.html#){:target="_blank"}**  
+46) **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS: [Chapter 3](http://runestone.academy/ns/books/published/thinkcspy/Debugging/toctree.html#){:target="_blank"}**  
     
         Modify the program from [Lab 10](lab_10.html) that makes a turtle walk 100 times. Each "walk" is 10 steps forward and the turtle can turn 0, 1, 2, ..., 359 degrees (chosen randomly) at the beginning of each walk.
 
@@ -863,13 +863,13 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         ![](randomWalk.png)
     
-47.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS: [Debugging Code](http://runestone.academy/ns/books/published/thinkcspy/toctree.html){:target="_blank"}**  
+47) **Due Date: 3 July** &nbsp; &nbsp; **Reading: Think CS: [Debugging Code](http://runestone.academy/ns/books/published/thinkcspy/toctree.html){:target="_blank"}**  
     
         The program, [errorsHex.py](errorsHex.py), has lots of errors. Fix the errors and submit the modified program.
 
         _Hint: See [Lab 10](lab_10.html){:target="_blank"}._
     
-48.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal){:target="_blank"}**  
+48) **Due Date: 3 July** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal){:target="_blank"}**  
     
         Write an Unix shell script that does the following:
 
@@ -880,7 +880,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 10](lab_10.html){:target="_blank"}._
     
-49.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats){:target="_blank"}**  
+49) **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats){:target="_blank"}**  
 
         Write a simplified machine language program that prints: I love Python
 
@@ -890,13 +890,13 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
   
         ![](https://stjohn.github.io/teaching/csci127/f17/ASCIITable.png){:target="_blank"}
   
-50.  **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats){:target="_blank"}**  
+50) **Due Date: 3 July** &nbsp; &nbsp; **Reading: [MIPS Wikibooks](https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats){:target="_blank"}**  
 
         Write a simplified machine language program that has register $s0 loop through the numbers 10, 8, 6, ..., 2, 0.
 
         See [Lab 11](lab_11.html){:target="_blank"} for details on submitting the simplified machine language programs.
     
-51.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Chapter 8](http://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/toctree.html){:target="_blank"}**  
+51) **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Chapter 8](http://runestone.academy/ns/books/published/thinkcspy/MoreAboutIteration/toctree.html){:target="_blank"}**  
     
         Write a program that asks the user to enter a string. If the user enters an empty string, your program should continue prompting the user for a new string until they enter a non-empty string. Your program should then print out the string entered.
 
@@ -911,20 +911,20 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 10](lab_10.html){:target="_blank"}._
     
-52.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal){:target="_blank"}**  
+52) **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Ubuntu Terminal Reference Sheet](https://help.ubuntu.com/community/UsingTheTerminal){:target="_blank"}**  
     
         Using Unix shell commands, write a script that counts the number of `.py` files in current working directory.
 
         _Hint: See [Lab 11](lab_11.html){:target="_blank"}._
     
     
-53.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+53) **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that prints `Hello, World!` to the screen.
 
         _Hint: See [Lab 12](lab_12.html){:target="_blank"} for getting started with C++._
     
-54.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+54) **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that will print "I love Python!" 20 times.
 
@@ -953,7 +953,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: See [Lab 12](lab_12.html){:target="_blank"} for getting started with C++._
     
-55.  **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+55) **Due Date: 7 July** &nbsp; &nbsp; **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that converts kilometers to miles. Your program should prompt the user for the number of kilometers and then print out the number of miles.
 
@@ -961,7 +961,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         See [Lab 4](lab_4.html){:target="_blank"} for designing Input-Process-Output programs and [Lab 12](lab_12.html){:target="_blank"} for getting started with C++.
 
-56.  **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+56) **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** program that asks the user for a number and draws a triangle of that height and width using 'character graphics'.
 
@@ -982,7 +982,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             **
             *
     
-57.  **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+57) **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that asks the user for the month of the year (as a number), and prints
 
@@ -1006,7 +1006,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Enter month (as a number):  11
             Happy Fall
     
-58.  **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+58) **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that asks the user for the starting amount, and prints out the yearly balance of a savings account, assuming 10% interest, for the first five years.
 
@@ -1019,7 +1019,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Year 4  1464.10
             Year 5  1610.51
     
-59.  **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+59) **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that asks the user for their age, and continue asking until the number entered positive (that is, greater than 0). That is, write the [Python program](http://pythontutor.com/visualize.html#code=age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Awhile%20age%20%3C%200%3A%0A%20%20%20%20print%28'Entered%20a%20negative%20number.'%29%0A%20%20%20%20age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Aprint%28'You%20entered%20your%20age%20as%3A',%20age%29&cumulative=false&curInstr=0&heapPrimitives=false&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22-3%22,%223%22%5D&textReferences=false) from [Lab 10](lab10.html){:target="_blank"} in C++.
 
@@ -1034,7 +1034,7 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
 
         _Hint: Rewrite the [Python program](http://pythontutor.com/visualize.html#code=age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Awhile%20age%20%3C%200%3A%0A%20%20%20%20print%28'Entered%20a%20negative%20number.'%29%0A%20%20%20%20age%20%3D%20int%28input%28'Please%20enter%20age%3A%20'%29%29%0Aprint%28'You%20entered%20your%20age%20as%3A',%20age%29&cumulative=false&curInstr=0&heapPrimitives=false&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22-3%22,%223%22%5D&textReferences=false){:target="_blank"} from [Lab 10](lab10.html){:target="_blank"} in C++._
     
-60.  **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
+60) **Due Date: 9 July** **Reading: [Cplusplus Tutorial](http://www.cplusplus.com/files/tutorial.pdf){:target="_blank"}**  
     
         Write a **C++ program** that asks the user for a whole number between -31 and 31 and prints out the number in "[two's complement](https://en.wikipedia.org/wiki/Two%27s_complement){:target="_blank"}" notation, using the following algorithm:
 
