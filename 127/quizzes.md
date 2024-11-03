@@ -49,7 +49,7 @@ At every recitation, there will be an in-class quiz on the lecture notes, readin
 *   As the semester progresses, quizzes will include review questions as well as short programming exercises based on the homework.
 *   All quizzes must be taken during class time, and **there are no make-up quizzes.** Instead, your score on the final exam will replace missing quiz grades (the final exam will also replace a quiz grade when you take the quiz but do better on the final exam).
 *   All computer-based quizzes are open book, open notes, and you may use the Python shell and C++ programming environment.
-*   For the paper-based quizzes, you may not use any notes, books, or any computer device (laptop, phone, calculator, smart watch, etc.).
+*   For the   -based quizzes, you may not use any notes, books, or any computer device (laptop, phone, calculator, smart watch, etc.).
 *   If you miss your assigned recitation, you may take a quiz during another section before the deadline, subject to availability and instructor's permission.
 
 ### Using Blackboard
@@ -93,7 +93,7 @@ Tuesday, 20 February
 Strings and loops,  
 [Programs 6-10](ps.html#set2)
 
-Paper
+  
 
 [](#4)
 
@@ -111,7 +111,7 @@ Tuesday, 6 March
 Decisions, hex codes for color,  
 [Programs 16-20](ps.html#set4)
 
-Paper
+  
 
 [](#6)
 
@@ -129,7 +129,7 @@ Tuesday, 20 March
 Accessing formatted data (using Pandas), Unix shell commands,  
 [Programs 26-30](ps.html#set6)
 
-Paper
+  
 
 [](#8)
 
@@ -148,7 +148,7 @@ Tuesday, 10 April
 Parameters & Functions,  
 [Programs 36-40](ps.html#set8)
 
-Paper
+  
 
 [](#10)
 
@@ -166,7 +166,7 @@ Wednesday, 25 April
 Indefinite Loops & Simulations,  
 [Programs 46-48](ps.html#set10)
 
-Paper
+  
 
 [](#12)
 
@@ -184,7 +184,7 @@ Wednesday, 9 May
 Simple C++ Programs,  
 [Programs 53-56](ps.html#set12)
 
-Paper
+  
 
 [](#14)
 
