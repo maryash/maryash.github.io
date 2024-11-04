@@ -66,6 +66,8 @@ Submit the following programs via [Gradescope:](http://gradescope.com){:target="
 
 * * *  
   
+  
+  
 <a id="01"></a>
 ### First Programs: 
 01) &nbsp; *Due Date:  6 June* &nbsp; Reading: Think CS [Chapters 1](https://runestone.academy/ns/books/published/thinkcspy/GeneralIntro/toctree.html){:target="_blank"} & [2](https://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/toctree.html){:target="_blank"}  
@@ -222,7 +224,9 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         ![](spiral10.png)
 
         _Hint: See [Lab 2](lab_02.html){:target="_blank"}._  
-   
+  
+  
+  
 <a id="03"></a>
 ### Strings & Lists: 
 11) &nbsp; *Due Date:  13 June* &nbsp; Reading: Think CS [Chapters 4](https://runestone.academy/ns/books/published/thinkcspy/PythonTurtle/toctree.html){:target="_blank"} & [9](http://runestone.academy/ns/books/published/thinkcspy/Strings/toctree.html){:target="_blank"}  
@@ -307,7 +311,9 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             Your number in decimal is 15
 
         Note: here's a quick [review](https://www.mathsisfun.com/binary-number-system.html){:target="_blank"} of binary numbers.  
-    
+  
+  
+  
 <a id="04"></a>
 ### Decisions & Color: Circuit Truth Tables Logical Expressions
 16) &nbsp; *Due Date:  18  June* &nbsp; Reading: Think CS [Section 2.7](http://runestone.academy/ns/books/published/thinkcspy/SimplePythonData/OperatorsandOperands.html){:target="_blank"}  
@@ -382,7 +388,9 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         and be saved to a file called coast.png.
 
         Note: before submitting your program for grading, remove the commands that show the image (i.e. the ones that pop up the graphics window with the image). The program is graded on a server on the cloud and does not have a graphics window, so, the plt.show() commands will give an error. Instead, the files your program produces are compared pixel-by-pixel to the answer to check for correctness.  
-    
+  
+  
+  
 <a id="05"></a>
 ## Circuit Truth Tables Logical Expressions:
 21) &nbsp; *Due Date:  20  June* &nbsp; Reading: Think CS [Chapter 7](http://runestone.academy/ns/books/published/thinkcspy/Selection/toctree.html){:target="_blank"}  
@@ -467,9 +475,11 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
         ![](rightTurtle.png)  
 
         _Hint: See [Section 7.4](http://runestone.academy/ns/books/published/thinkcspy/Selection/ConditionalExecutionBinarySelection.html){:target="_blank"} of the Python textbook and Lecture 4 notes._  
-
-      
-
+  
+  
+  
+<a id="06"></a>
+## Formatted Data & Shell Commands:
 26) &nbsp; *Due Date:  23 June* &nbsp; Reading: [Numpy tutorial (DataCamp)](https://www.datacamp.com/community/tutorials/python-numpy-tutorial)**  
     
         Modify the program from [Lab 6](lab6.html){:target="_blank"} that displays the [NYC historical population data](nycHistPop.csv). Your program should ask the user for the borough, an name for the output file, and then display the fraction of the population that has lived in that borough, over time.
@@ -560,8 +570,11 @@ Copy the program from [Section 4.3](http://interactivepython.org/courselib/stati
             out3 = ...
 
         Where `...` is replaced by your logical expression (see [Lab 5](lab5.html){:target="_blank"}).
-
-    
+  
+  
+  
+<a id="07"></a>
+### Functions, Pandas: 
 31) &nbsp; *Due Date:  25 June* &nbsp; Reading: [10-mins to Pandas](https://pandas.pydata.org/pandas-docs/stable/10min.html){:target="_blank"}, [DataCamp Pandas](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#gs.hnyRaik){:target="_blank"}  
     
         Modify the program from [Lab 7](lab7.html){:target="_blank"} to:
