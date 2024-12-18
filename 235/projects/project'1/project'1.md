@@ -247,4 +247,228 @@ display
 ```
 
 ---
-R...
+
+## Task 3: Inheriting From `ChessPiece`
+Now that we've established the foundation with the `ChessPiece` class, let's build upon it. By leveraging *inheritance*, we can create more specific piece classes like `Pawn` and `Rook`. 
+
+This powerful technique allows us to reuse existing code and create new classes with specialized behaviors. This not only saves us some keystrokes, but better yet promotes code clarity and maintainability. 
+
+---
+
+### Part A: The Pawn Class
+
+The `Pawn` class extends the `ChessPiece` class, adding specialized attributes and behaviors for a Pawn.
+
+#### Private Member Variables
+* `bool double_jumpable_` A flag indicating whether the pawn can perform a double jump
+
+
+#### Constructors 
+**1. Default Constructor**
+```java
+/**
+ * @brief Default Constructor. All boolean values are default initialized to false.
+ * @note Remember to construct the base-class as well!
+ */
+Pawn
+```
+
+**2. Parameterized Constructor**
+
+```java
+/**
+* @brief Parameterized constructor.
+* @param : A const reference to the color of the Pawn (a string). Set the color "BLACK" if the provided string contains non-alphabetic characters (eg. numbers or symbols). 
+*     If the string is purely alphabetic, it is converted and stored in uppercase.
+*     NOTE: We do not supply a default value for color, the first parameter. Notice that if we do, we override the default constructor.
+* @param : The 0-indexed row position of the Pawn (as a const reference to an integer). Default value -1 if not provided, or if the value provided is outside the board's dimensions, [0, BOARD_LENGTH)
+* @param : The 0-indexed column position of the Pawn (as a const reference to an integer). Default value -1 if not provided, or if the value provided is outside the board's dimensions, [0, BOARD_LENGTH)
+* @param : A flag indicating whether the Pawn is moving up on the board, or not (as a const reference to a boolean). Default value false if not provided.
+* @param : A flag indicating whether the Pawn can double jump two spaces forward or not (as a const reference to a boolean). Default value false if not provided.
+* @post : The private members are set to the values of the corresponding parameters. 
+*   If the provided color parameter is invalid (ie. not alphabetic), it is set to "BLACK"
+*   If EITHER of the provided row or col are out-of-bounds, that is between 0 (inclusive) and BOARD_LENGTH (not inclusive), then BOTH are set to -1 (regardless of being in-bounds or not).
+* @note Remember to construct the base-class as well using these parameters!
+*/
+Pawn
+```
+
+#### Accessors & Mutators
+
+*Remember, don't forget those `const` declarations*
+
+```java
+/**
+ * @brief Gets the value of the flag for the Pawn can double jump
+ * @return The boolean value stored in double_jumpable_
+ */
+canDoubleJump
+
+/**
+ * @brief Toggles the double_jumpable_ flag of the Pawn
+ * @post Sets the double_jumpable_ flag to opposite its current value
+ */
+toggleDoubleJump
+
+/**
+ * @brief Determines if this pawn can be promoted to another piece
+ *     A pawn can be promoted if its row has reached the farthest row it can move up (or down) to. This is determined by the board size and the Piece's movingUp_ member.
+ *
+ * EXAMPLE: If a pawn is movingUp and the board has 8 rows, then it can promoted only if it is in the 7th row (0-indexed)
+ * @return True if this pawn can be promoted. False otherwise.
+ */
+canPromote
+```
+
+---
+
+### Part B: The Rook Class
+The `Rook` class extends the `ChessPiece` class, adding specialized attributes and behaviors for a Rook.
+
+#### Private Member Variables
+`int castle_moves_left_` An integer representing how many more castle moves this Rook can execute.
+
+
+#### Constructors
+
+**1. Default constructor**
+```java
+/**
+ * @brief Default Constructor. By default, Rooks have 3 available castle moves to make
+ * @note Remember to default construct the base-class as well!
+ */
+Rook
+```
+**2. Parameterized constructor**
+
+```java
+/**
+* @brief Parameterized constructor. Rememeber to use the arguments to construct the underlying ChessPiece.
+* @param : A const reference to the color of the Rook (a string). Set the color "BLACK" if the provided string contains non-alphabetic characters. 
+*     If the string is purely alphabetic, it is converted and stored in uppercase
+*     NOTE: We do not supply a default value for color, the first parameter. Notice that if we do, we override the default constructor.
+* @param : The 0-indexed row position of the Rook (as a const reference to an integer). Default value -1 if not provided, or if the value provided is outside the board's dimensions, [0, BOARD_LENGTH)
+* @param : The 0-indexed column position of the Rook (as a const reference to an integer). Default value -1 if not provided, or if the value provided is outside the board's dimensions, [0, BOARD_LENGTH)
+* @param : A flag indicating whether the Rook is moving up on the board, or not (as a const reference to a boolean). Default value false if not provided.
+* @param : An integer representing how many castle moves it can make. Default to 3 if no value provided.
+* @post : The private members are set to the values of the corresponding parameters. 
+*   If the provided color parameter is invalid (ie. not alphabetic), it is set to "BLACK"
+*   If EITHER of the provided row or col are out-of-bounds, that is between 0 (inclusive) and BOARD_LENGTH (not inclusive), then BOTH are set to -1 (regardless of being in-bounds or not).
+* @note Remember to construct the base-class as well using these parameters!
+*/
+Rook 
+
+```
+
+#### Accessors & Mutators
+
+```java
+/**
+ * @brief Determines if this rook can castle with the parameter Chess Piece
+ *     This rook can castle with another piece if:
+ *        1. It has more than 0 castle moves available
+ *        2. Both pieces share the same color
+ *        3. Both pieces are considered on-the-board (no -1 rows or columns) and laterally adjacent (ie. they share the same row and their columns differ by at most 1)
+ * @param ChessPiece A const reference to chess piece with which the rook may / may not be able to castle with
+ * @return True if the rook can castle with the given piece. False otherwise.
+ */
+canCastle
+
+
+/**
+ * @brief Gets the value of the castle_moves_left_
+ * @return The integer value stored in castle_moves_left_
+ */
+getCastleMovesLeft
+```
+
+---
+
+## Task 4: Testing
+To ensure your code functions as expected, it's essential to write and execute test cases. In `main.cpp` you are **strongly encouraged** to write a `main()` function to define test cases and compare your program's output to what *you* expect the output to be. 
+
+Always implement and test your programs *INCREMENTALLY*. That means implement and test one method at a time.
+
+
+**For instance, you should:**
+
+1. **Instantiate Pieces:** Create objects of different chess piece types with using the default *and* parameterized constructor (e.g., ChessPiece, Pawn, Rook). 
+
+    * Definitely, use the `display` function to observe the values of their member variables, or simply `std::cout` values to the terminal.
+
+2. **Set Positions:** Place these pieces on the board by assigning coordinates, and `cout` their updated positions.
+
+
+3. **Check Special Behaviors:** For `Pawn`, verify if it can be promoted when on specific board positions (and that it *cannot* for others). For `Rook`, check if it can castle with pieces of the same color next to each other (ie. when it should), and that it fails to do so when pieces are of opposing color, or too far away. Of course, `cout` to check if the expected boolean value is returned.
+
+**Note:** Sometimes functions depend on one another. If you need to use a function you have not yet implemented, you can use stubs: a dummy implementation that always returns a single value for testing. Don’t forget to go back and implement the stub! *If you put the word STUB in a comment, some editors will make it more visible.*
+
+
+By systematically testing these aspects, we can identify and rectify any issues in our code's logic or implementation.
+
+**If there are words to live by for this course, the autograder is NOT meant to test your code.**
+
+---
+
+#### Compiling with the Included `Makefile`
+
+*For your convenience, we've included a `Makefile`, which allows you to quickly re-compile your code, instead of writing `g++` over and over again. **It also ensures that your code is being compiled using the correct version of C++. And by correct one, we mean the one the auto-grader uses.***
+
+In the terminal, in the same directory as your `Makefile` and your source files, you can use the following commands:
+
+```bash
+make # Compiles all recently modified files specified by the OBJs list
+make clean # Removes all files ending in .o from your directory, ie. clears your folder of old code
+make rebulild # Performs clean and make in one step
+```
+
+This assumes you did not rename the Makefile and that it is the only one in the current directory.
+
+## Task 5: Submission
+You will submit your solution to Gradescope via GitHub Classroom. The autograder will grade the following files:
+
+```
+1. ChessPiece.cpp
+2. ChessPiece.hpp
+3. Pawn.cpp
+4. Pawn.hpp
+5. Rook.cpp
+6. Rook.hpp
+```
+
+Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging, and it should not be used for that purpose. You MUST test and debug your program locally. 
+
+**To help prevent over-reliance on Gradescope for testing, only [SUBMISSION_LIMIT] submissions per day will be allowed.**
+
+Before submitting to Gradescope, you MUST ensure that your program compiles using the provided Makefile and runs correctly on the Linux machines in the labs at Hunter College. This is your baseline—if it runs correctly there, it will run correctly on Gradescope. If it does not, you will have the necessary feedback (compiler error messages, debugger, or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above, submit it to Gradescope.
+
+---
+
+### Grading Rubric
+- **Correctness:** 80% (distributed across unit testing of your submission)
+- **Documentation:** 15%
+- **Style and Design:** 5% (proper naming, modularity, and organization)
+
+---
+
+### Due Date
+This project is **due on [DUE DATE]**.
+*No late submission will be accepted.*
+
+---
+
+### Important Notes
+You must start working on the projects as soon as they are assigned to detect any problems and to address them with us well before the deadline so that we have time to get back to you before the deadline.
+
+
+**There will be no extensions and no negotiation about project grades after the submission deadline.**
+
+---
+
+### Additional Help
+
+Help is available via drop-in tutoring in Lab 1001B (see Blackboard for schedule). You will be able to get help if you start early and go to the lab early. We only a finite number of UTAs in the lab; **the days leading up to the due date will be crowded and you may not be able to get much help then.**
+
+Authors: Daniel Sooknanan, Prof. Maryash
+
+Credit to Prof. Ligorio & Prof. Wole
