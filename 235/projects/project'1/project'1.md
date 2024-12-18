@@ -1,11 +1,17 @@
-# CONFIG UNSET
+---  
+layout: myDefault
+title: PROJECT 1
+---  
+
+# PROJECT 1 &nbsp; Algorithmic Adventures: The King's Gambit
+![test_pic](./garage.jpg)
+
+## CONFIG UNSET
 <!-- CONFIG, ie. make sure to set these before DEPLOYING -->
 [SUBMISSION_LIMIT]: 5
 [DUE DATE]: TBD
 
 <!-- BEGIN PROJECT SPECS -->
-
-# Algorithmic Adventures: The King's Gambit
 
 ## A Brief Overview
 This semester, you’ll dive headfirst into a thrilling world of knights, pawns, and questionable chess plays as you develop the infrastructure for a virtual chess simulation. Set on a dramatic battlefield of wits and grid-based (non)violence, your simulation will give participants the chance to outsmart their opponents or, at the very least, pretend they know what they’re doing.
@@ -14,7 +20,7 @@ As the self-proclaimed Grandmaster Extraordinaire, it’s your job to bring the 
 
 Prepare yourself—it’s going to be a checkmate-worthy ride!
 
-## Project 1: Step-By-Step, Piece-By-Piece
+## Step-By-Step, Piece-By-Piece
 A Recap of Object-Oriented Programming (OOP) & Dive Into Inheritance
 
 This is a project to get you acquainted with the platforms we will use in this course, re-
