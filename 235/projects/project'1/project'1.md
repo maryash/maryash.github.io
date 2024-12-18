@@ -3,7 +3,7 @@ layout: myDefault
 title: PROJECT 1
 ---  
 
-# PROJECT 1 &nbsp; Algorithmic Adventures: The King's Gambit
+# PROJECT 1 &nbsp; Algorithmic Adventures: The&nbsp;King's Gambit
 ![test_pic](./garage.jpg)
 
 ## CONFIG UNSET
