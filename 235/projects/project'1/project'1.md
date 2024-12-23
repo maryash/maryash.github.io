@@ -158,15 +158,21 @@ The parameterized constructor must be able to work with **only the color of the 
 ```java
 /**
 * @brief Parameterized constructor.
-* @param : A const reference to the color of the Chess Piece (a string). Set the color "BLACK" if the provided string contains non-alphabetic characters. 
+* @param : A const reference to the color of the Chess Piece (a string).
+*     Set the color "BLACK" if the provided string contains non-alphabetic characters. 
 *     If the string is purely alphabetic, it is converted and stored in uppercase
-*     NOTE: We DO NOT supply a default value for color, the first parameter. Notice that if we do, we override the default constructor.
-* @param : The 0-indexed row position of the Chess Piece (as a const reference to an integer). Default value -1 if not provided.
-* @param : The 0-indexed column position of the Chess Piece (as a const reference to an integer). Default value -1.
-* @param : A flag indicating whether the Chess Piece is moving up on the board, or not (as a const reference to a boolean). Default value False if not provided.
+*     NOTE: We DO NOT supply a default value for color, the first parameter.
+*           Notice that if we do, we override the default constructor.
+* @param : The 0-indexed row position of the Chess Piece (as a const reference to an integer).
+*          Default value -1 if not provided.
+* @param : The 0-indexed column position of the Chess Piece (as a const reference to an integer).
+*          Default value -1.
+* @param : A flag indicating whether the Chess Piece is moving up on the board
+*          or not (as a const reference to a boolean). Default value False if not provided.
 * @post : The private members are set to the values of the corresponding parameters. 
 *   If the provided color parameter is invalid (ie. not alphabetic), it is set to "BLACK"
-*   If EITHER of the provided row or col are out-of-bounds, that is between 0 (inclusive) and BOARD_LENGTH (not inclusive), then BOTH are set to -1 (regardless of being in-bounds or not).
+*   If EITHER of the provided row or col are out-of-bounds, that is between 0 (inclusive)
+*      and BOARD_LENGTH (not inclusive), then BOTH are set to -1 (regardless of being in-bounds or not).
 */
 ```
 
@@ -206,8 +212,10 @@ getRow
 
 /**
  * @brief Sets the row position of the chess piece 
- * @param row A const reference to an integer representing the new row of the piece 
- *  If the supplied value is outside the board dimensions [0, BOARD_LENGTH), the ChessPiece is considered to be taken off the board, and its row AND column are set to -1 instead.
+ * @param row A const reference to an integer representing the new row of the piece
+ *
+ * If the supplied value is outside the board dimensions [0, BOARD_LENGTH), 
+ *    the ChessPiece is considered to be taken off the board, and its row AND column are set to -1 instead.
  */
 setRow
 
@@ -219,8 +227,10 @@ getColumn
 
 /**
  * @brief Sets the column position of the chess piece 
- * @param row A const reference to an integer representing the new column of the piece 
- *  If the supplied value is outside the board dimensions [0, BOARD_LENGTH), the ChessPiece is considered to be taken off the board, and its row AND column are set to -1 instead.
+ * @param row A const reference to an integer representing the new column of the piece
+ *
+ * If the supplied value is outside the board dimensions [0, BOARD_LENGTH),
+ *  the ChessPiece is considered to be taken off the board, and its row AND column are set to -1 instead.
  */
 setColumn 
 
@@ -242,7 +252,8 @@ setMovingUp
 #### The Display Function
 ```java
 /**
- * @brief Displays the chess piece's information in the following format, if it is considered on the board (ie. its row and col are not -1):
+ * @brief Displays the chess piece's information in the following format,
+ *        if it is considered on the board (ie. its row and col are not -1):
  * <COLOR> piece at (row, col) is moving <UP / DOWN>\n
  * 
  * Otherwise an alternative format is used:
@@ -284,16 +295,26 @@ Pawn
 ```java
 /**
 * @brief Parameterized constructor.
-* @param : A const reference to the color of the Pawn (a string). Set the color "BLACK" if the provided string contains non-alphabetic characters (eg. numbers or symbols). 
+* @param : A const reference to the color of the Pawn (a string).
+*     Set the color "BLACK" if the provided string contains non-alphabetic characters (eg. numbers or symbols). 
 *     If the string is purely alphabetic, it is converted and stored in uppercase.
-*     NOTE: We do not supply a default value for color, the first parameter. Notice that if we do, we override the default constructor.
-* @param : The 0-indexed row position of the Pawn (as a const reference to an integer). Default value -1 if not provided, or if the value provided is outside the board's dimensions, [0, BOARD_LENGTH)
-* @param : The 0-indexed column position of the Pawn (as a const reference to an integer). Default value -1 if not provided, or if the value provided is outside the board's dimensions, [0, BOARD_LENGTH)
-* @param : A flag indicating whether the Pawn is moving up on the board, or not (as a const reference to a boolean). Default value false if not provided.
-* @param : A flag indicating whether the Pawn can double jump two spaces forward or not (as a const reference to a boolean). Default value false if not provided.
+*     NOTE: We do not supply a default value for color, the first parameter.
+*           Notice that if we do, we override the default constructor.
+* @param : The 0-indexed row position of the Pawn (as a const reference to an integer).
+*          Default value -1 if not provided, or if the value provided is outside the
+*          board's dimensions, [0, BOARD_LENGTH)
+* @param : The 0-indexed column position of the Pawn (as a const reference to an integer).
+*          Default value -1 if not provided, or if the value provided is outside the
+*          board's dimensions, [0, BOARD_LENGTH)
+* @param : A flag indicating whether the Pawn is moving up on the board, or not (as a const reference to a boolean).
+*          Default value false if not provided.
+* @param : A flag indicating whether the Pawn can double jump two spaces forward or not (as a const reference to a boolean).
+*          Default value false if not provided.
 * @post : The private members are set to the values of the corresponding parameters. 
 *   If the provided color parameter is invalid (ie. not alphabetic), it is set to "BLACK"
-*   If EITHER of the provided row or col are out-of-bounds, that is between 0 (inclusive) and BOARD_LENGTH (not inclusive), then BOTH are set to -1 (regardless of being in-bounds or not).
+*   If EITHER of the provided row or col are out-of-bounds,
+*      that is between 0 (inclusive) and BOARD_LENGTH (not inclusive),
+*      then BOTH are set to -1 (regardless of being in-bounds or not).
 * @note Remember to construct the base-class as well using these parameters!
 */
 Pawn
@@ -318,9 +339,11 @@ toggleDoubleJump
 
 /**
  * @brief Determines if this pawn can be promoted to another piece
- *     A pawn can be promoted if its row has reached the farthest row it can move up (or down) to. This is determined by the board size and the Piece's movingUp_ member.
+ *     A pawn can be promoted if its row has reached the farthest row it can move up (or down) to.
+ *     This is determined by the board size and the Piece's movingUp_ member.
  *
- * EXAMPLE: If a pawn is movingUp and the board has 8 rows, then it can promoted only if it is in the 7th row (0-indexed)
+ * EXAMPLE: If a pawn is movingUp and the board has 8 rows,
+*           then it can promoted only if it is in the 7th row (0-indexed)
  * @return True if this pawn can be promoted. False otherwise.
  */
 canPromote
@@ -352,14 +375,22 @@ Rook
 * @brief Parameterized constructor. Rememeber to use the arguments to construct the underlying ChessPiece.
 * @param : A const reference to the color of the Rook (a string). Set the color "BLACK" if the provided string contains non-alphabetic characters. 
 *     If the string is purely alphabetic, it is converted and stored in uppercase
-*     NOTE: We do not supply a default value for color, the first parameter. Notice that if we do, we override the default constructor.
-* @param : The 0-indexed row position of the Rook (as a const reference to an integer). Default value -1 if not provided, or if the value provided is outside the board's dimensions, [0, BOARD_LENGTH)
-* @param : The 0-indexed column position of the Rook (as a const reference to an integer). Default value -1 if not provided, or if the value provided is outside the board's dimensions, [0, BOARD_LENGTH)
-* @param : A flag indicating whether the Rook is moving up on the board, or not (as a const reference to a boolean). Default value false if not provided.
-* @param : An integer representing how many castle moves it can make. Default to 3 if no value provided.
+*     NOTE: We do not supply a default value for color, the first parameter.
+*           Notice that if we do, we override the default constructor.
+* @param : The 0-indexed row position of the Rook (as a const reference to an integer).
+*          Default value -1 if not provided, or if the value provided is outside the
+*          board's dimensions, [0, BOARD_LENGTH)
+* @param : The 0-indexed column position of the Rook (as a const reference to an integer).
+*          Default value -1 if not provided, or if the value provided is outside the
+*          board's dimensions, [0, BOARD_LENGTH)
+* @param : A flag indicating whether the Rook is moving up on the board, or not (as a const reference to a boolean).
+*          Default value false if not provided.
+* @param : An integer representing how many castle moves it can make.
+*          Default to 3 if no value provided.
 * @post : The private members are set to the values of the corresponding parameters. 
 *   If the provided color parameter is invalid (ie. not alphabetic), it is set to "BLACK"
-*   If EITHER of the provided row or col are out-of-bounds, that is between 0 (inclusive) and BOARD_LENGTH (not inclusive), then BOTH are set to -1 (regardless of being in-bounds or not).
+*   If EITHER of the provided row or col are out-of-bounds, that is between 0 (inclusive)
+*      and BOARD_LENGTH (not inclusive), then BOTH are set to -1 (regardless of being in-bounds or not).
 * @note Remember to construct the base-class as well using these parameters!
 */
 Rook 
@@ -374,7 +405,8 @@ Rook
  *     This rook can castle with another piece if:
  *        1. It has more than 0 castle moves available
  *        2. Both pieces share the same color
- *        3. Both pieces are considered on-the-board (no -1 rows or columns) and laterally adjacent (ie. they share the same row and their columns differ by at most 1)
+ *        3. Both pieces are considered on-the-board (no -1 rows or columns)
+ *           and laterally adjacent (ie. they share the same row and their columns differ by at most 1)
  * @param ChessPiece A const reference to chess piece with which the rook may / may not be able to castle with
  * @return True if the rook can castle with the given piece. False otherwise.
  */
