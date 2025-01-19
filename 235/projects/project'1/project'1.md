@@ -97,9 +97,9 @@ Any block of code that is not self-explanatory must be preceded by a comment des
 It can be a lot of copy/pasting, but it is not useless. If someone is reading through your code to understand what it does, they shouldn't have to consult the comments in a different file!
 
 ## Task 2: The ChessPiece Class
-<div style="text-align: center;">
-    <img src="./../../../files/235_basepiece.png" width="600" />
-</div>
+
+<img src="./../../../files/235_basepiece.png" width="600" style="display: block; margin-left: auto; margin-right: auto;" />
+
 Time to get coding. You'll be implementing the ```ChessPiece``` base class.
 
 #### Key Notes
