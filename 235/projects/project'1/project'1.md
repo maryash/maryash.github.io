@@ -4,7 +4,7 @@ title: PROJECT 1
 ---  
 
 # PROJECT 1 &nbsp; Algorithmic Adventures: The&nbsp;King's Gambit
-<img src="./../../../files/235_chess.png" width="1200" align="center"/>
+<img src="./../../../files/235_chess.png" width="1200"/>
 
 ## CONFIG UNSET
 <!-- CONFIG, ie. make sure to set these before DEPLOYING -->
@@ -270,7 +270,9 @@ display
 ---
 
 ## Task 3: Inheriting From `ChessPiece`
-<img src="./../../../files/235_chesspieces.png" width="600" align="center"/>
+<p align="center">
+  <img src="./../../../files/235_chesspieces.png" width="600"/>
+</p>
 
 Now that we've established the foundation with the `ChessPiece` class, let's build upon it. By leveraging *inheritance*, we can create more specific piece classes like `Pawn` and `Rook`. 
 
@@ -429,7 +431,10 @@ getCastleMovesLeft
 ---
 
 ## Task 4: Testing
-<img src="./../../../files/235_debugging.png" width="600" align="center"/>
+<p align="center">
+  <img src="./../../../files/235_debugging.png" width="600"/>
+</p>
+
 To ensure your code functions as expected, it's essential to write and execute test cases. In `main.cpp` you are **strongly encouraged** to write a `main()` function to define test cases and compare your program's output to what *you* expect the output to be. 
 
 Always implement and test your programs *INCREMENTALLY*. That means implement and test one method at a time.
@@ -470,7 +475,10 @@ make rebulild # Performs clean and make in one step
 This assumes you did not rename the Makefile and that it is the only one in the current directory.
 
 ## Task 5: Submission
-![Task 5](./../../../files/235_tradeoffer.png)
+<p align="center">
+  <img src="./../../../files/235_tradeoffer.png" width="600"/>
+</p>
+
 You will submit your solution to Gradescope via GitHub Classroom. The autograder will grade the following files:
 
 ```
