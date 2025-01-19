@@ -31,7 +31,7 @@ In order to successfully complete this project, we strongly recommend that you l
 ---
 
 ## Task 1: Getting Started with GitHub Classroom
-![Task 1](./../../../files/235_githubclassroom.png)
+<img src="./../../../files/235_githubclassroom.png" width="1200" />
 <span style="color:teal">
 <b>[IMPORTANT]</b> Do not skip this step. Otherwise, you'll be ill-positioned to do this (or future) projects.
 </span>
@@ -97,7 +97,7 @@ Any block of code that is not self-explanatory must be preceded by a comment des
 It can be a lot of copy/pasting, but it is not useless. If someone is reading through your code to understand what it does, they shouldn't have to consult the comments in a different file!
 
 ## Task 2: The ChessPiece Class
-![Task 2](./../../../files/235_basepiece.png)
+<img src="./../../../files/235_basepiece.png" width="1200" />
 Time to get coding. You'll be implementing the ```ChessPiece``` base class.
 
 #### Key Notes
@@ -267,7 +267,7 @@ display
 ---
 
 ## Task 3: Inheriting From `ChessPiece`
-![Task 3](./../../../files/235_chesspieces.png)
+<img src="./../../../files/235_chesspieces.png" width="1200" />
 
 Now that we've established the foundation with the `ChessPiece` class, let's build upon it. By leveraging *inheritance*, we can create more specific piece classes like `Pawn` and `Rook`. 
 
