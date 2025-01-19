@@ -31,7 +31,7 @@ In order to successfully complete this project, we strongly recommend that you l
 ---
 
 ## Task 1: Getting Started with GitHub Classroom
-
+![Task 1](./../../../files/235_githubclassroom.png)
 <span style="color:teal">
 <b>[IMPORTANT]</b> Do not skip this step. Otherwise, you'll be ill-positioned to do this (or future) projects.
 </span>
@@ -97,6 +97,7 @@ Any block of code that is not self-explanatory must be preceded by a comment des
 It can be a lot of copy/pasting, but it is not useless. If someone is reading through your code to understand what it does, they shouldn't have to consult the comments in a different file!
 
 ## Task 2: The ChessPiece Class
+![Task 2](./../../../files/235_basepiece.png)
 Time to get coding. You'll be implementing the ```ChessPiece``` base class.
 
 #### Key Notes
@@ -266,6 +267,8 @@ display
 ---
 
 ## Task 3: Inheriting From `ChessPiece`
+![Task 3](./../../../files/235_chesspieces.png)
+
 Now that we've established the foundation with the `ChessPiece` class, let's build upon it. By leveraging *inheritance*, we can create more specific piece classes like `Pawn` and `Rook`. 
 
 This powerful technique allows us to reuse existing code and create new classes with specialized behaviors. This not only saves us some keystrokes, but better yet promotes code clarity and maintainability. 
@@ -423,6 +426,7 @@ getCastleMovesLeft
 ---
 
 ## Task 4: Testing
+![Task 4](./../../../files/235_debugging.png)
 To ensure your code functions as expected, it's essential to write and execute test cases. In `main.cpp` you are **strongly encouraged** to write a `main()` function to define test cases and compare your program's output to what *you* expect the output to be. 
 
 Always implement and test your programs *INCREMENTALLY*. That means implement and test one method at a time.
@@ -463,6 +467,7 @@ make rebulild # Performs clean and make in one step
 This assumes you did not rename the Makefile and that it is the only one in the current directory.
 
 ## Task 5: Submission
+![Task 5](./../../../files/235_tradeoffer.png)
 You will submit your solution to Gradescope via GitHub Classroom. The autograder will grade the following files:
 
 ```
