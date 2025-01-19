@@ -124,7 +124,7 @@ The `ChessPiece` class serves as the base class for all chess pieces. It defines
 * ```int column_``` An integer corresponding to the column position of the chess piece
 * ```bool movingUp_``` A boolean representing whether the piece is moving up the board (in reference to the visual below)
 
-**For convenience, the class defines the following static constant, as a protected member variable:**
+**For convenience, the class must define the following static constant, as a protected member variable:**
 ```static const int BOARD_LENGTH = 8``` A constant value representing the number of rows & columns on the chessboard (since boards are square)
 
 
