@@ -4,7 +4,7 @@ title: PROJECT 1
 ---  
 
 # PROJECT 1 &nbsp; Algorithmic Adventures: The&nbsp;King's Gambit
-<img src="./../../../files/235_chess.png" width="1200" />
+<img src="./../../../files/235_chess.png" width="1200" align="center"/>
 
 ## CONFIG UNSET
 <!-- CONFIG, ie. make sure to set these before DEPLOYING -->
@@ -97,7 +97,7 @@ Any block of code that is not self-explanatory must be preceded by a comment des
 It can be a lot of copy/pasting, but it is not useless. If someone is reading through your code to understand what it does, they shouldn't have to consult the comments in a different file!
 
 ## Task 2: The ChessPiece Class
-<img src="./../../../files/235_basepiece.png" width="600" />
+<img src="./../../../files/235_basepiece.png" width="600" align="center"/>
 Time to get coding. You'll be implementing the ```ChessPiece``` base class.
 
 #### Key Notes
@@ -267,7 +267,7 @@ display
 ---
 
 ## Task 3: Inheriting From `ChessPiece`
-<img src="./../../../files/235_chesspieces.png" width="600" />
+<img src="./../../../files/235_chesspieces.png" width="600" align="center"/>
 
 Now that we've established the foundation with the `ChessPiece` class, let's build upon it. By leveraging *inheritance*, we can create more specific piece classes like `Pawn` and `Rook`. 
 
@@ -426,7 +426,7 @@ getCastleMovesLeft
 ---
 
 ## Task 4: Testing
-![Task 4](./../../../files/235_debugging.png)
+<img src="./../../../files/235_debugging.png" width="600" align="center"/>
 To ensure your code functions as expected, it's essential to write and execute test cases. In `main.cpp` you are **strongly encouraged** to write a `main()` function to define test cases and compare your program's output to what *you* expect the output to be. 
 
 Always implement and test your programs *INCREMENTALLY*. That means implement and test one method at a time.
