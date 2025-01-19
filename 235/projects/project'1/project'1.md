@@ -32,6 +32,7 @@ In order to successfully complete this project, we strongly recommend that you l
 
 ## Task 1: Getting Started with GitHub Classroom
 <img src="./../../../files/235_githubclassroom.png" width="600" />
+
 <span style="color:teal">
 <b>[IMPORTANT]</b> Do not skip this step. Otherwise, you'll be ill-positioned to do this (or future) projects.
 </span>
