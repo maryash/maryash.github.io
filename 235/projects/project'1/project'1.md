@@ -98,7 +98,7 @@ It can be a lot of copy/pasting, but it is not useless. If someone is reading th
 
 ## Task 2: The ChessPiece Class
 <p align="center">
-  <img src="./../../../files/235_basepiece.png" width="600"/>
+  <img src="./../../../files/235_basepiece.png" width="500"/>
 </p>
 
 Time to get coding. You'll be implementing the ```ChessPiece``` base class.
@@ -271,7 +271,7 @@ display
 
 ## Task 3: Inheriting From `ChessPiece`
 <p align="center">
-  <img src="./../../../files/235_chesspieces.png" width="600"/>
+  <img src="./../../../files/235_chesspieces.png" width="500"/>
 </p>
 
 Now that we've established the foundation with the `ChessPiece` class, let's build upon it. By leveraging *inheritance*, we can create more specific piece classes like `Pawn` and `Rook`. 
@@ -432,7 +432,7 @@ getCastleMovesLeft
 
 ## Task 4: Testing
 <p align="center">
-  <img src="./../../../files/235_debugging.png" width="600"/>
+  <img src="./../../../files/235_debugging.png" width="500"/>
 </p>
 
 To ensure your code functions as expected, it's essential to write and execute test cases. In `main.cpp` you are **strongly encouraged** to write a `main()` function to define test cases and compare your program's output to what *you* expect the output to be. 
@@ -476,7 +476,7 @@ This assumes you did not rename the Makefile and that it is the only one in the 
 
 ## Task 5: Submission
 <p align="center">
-  <img src="./../../../files/235_tradeoffer.png" width="600"/>
+  <img src="./../../../files/235_tradeoffer.png" width="500"/>
 </p>
 
 You will submit your solution to Gradescope via GitHub Classroom. The autograder will grade the following files:
@@ -523,6 +523,6 @@ You must start working on the projects as soon as they are assigned to detect an
 
 Help is available via drop-in tutoring in Lab 1001B (see Blackboard for schedule). You will be able to get help if you start early and go to the lab early. We only a finite number of UTAs in the lab; **the days leading up to the due date will be crowded and you may not be able to get much help then.**
 
-Authors: Daniel Sooknanan, Prof. Maryash
+Authors: Daniel Sooknanan, Georgina Woo, Prof. Maryash
 
 Credit to Prof. Ligorio & Prof. Wole
