@@ -4,7 +4,7 @@ title: PROJECT 1
 ---  
 
 # PROJECT 1 &nbsp; Algorithmic Adventures: The&nbsp;King's Gambit
-<img src="./../../../files/235_chess.png" width="600" />
+<img src="./../../../files/235_chess.png" width="1200" />
 
 ## CONFIG UNSET
 <!-- CONFIG, ie. make sure to set these before DEPLOYING -->
