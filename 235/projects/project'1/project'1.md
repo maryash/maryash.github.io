@@ -127,6 +127,7 @@ The `ChessPiece` class serves as the base class for all chess pieces. It defines
 **For convenience, the class must define the following static constant, as a protected member variable:**
 ```static const int BOARD_LENGTH = 8``` A constant value representing the number of rows & columns on the chessboard (since boards are square)
 
+For example, a board with BOARD_LENGTH 8 would look like this:
 
 ```python
 [ROW]
@@ -163,8 +164,8 @@ The parameterized constructor must be able to work with **only the color of the 
 /**
 * @brief Parameterized constructor.
 * @param : A const reference to the color of the Chess Piece (a string).
-*     Set the color "BLACK" if the provided string contains non-alphabetic characters. 
-*     If the string is purely alphabetic, it is converted and stored in uppercase
+*     Set the color "BLACK" if the provided string contains ANY non-alphabetic characters. 
+*     If the string is purely alphabetical, it is converted and stored in uppercase
 *     NOTE: We DO NOT supply a default value for color, the first parameter.
 *           Notice that if we do, we override the default constructor.
 * @param : The 0-indexed row position of the Chess Piece (as a const reference to an integer).
@@ -175,7 +176,7 @@ The parameterized constructor must be able to work with **only the color of the 
 *          or not (as a const reference to a boolean). Default value False if not provided.
 * @post : The private members are set to the values of the corresponding parameters. 
 *   If the provided color parameter is invalid (ie. not alphabetic), it is set to "BLACK"
-*   If EITHER of the provided row or col are out-of-bounds, that is between 0 (inclusive)
+*   If EITHER of the provided row or col are out-of-bounds, where the bounds are between 0 (inclusive)
 *      and BOARD_LENGTH (not inclusive), then BOTH are set to -1 (regardless of being in-bounds or not).
 */
 ```
@@ -262,7 +263,11 @@ setMovingUp
  * 
  * Otherwise an alternative format is used:
  * <COLOR> piece is not on the board\n
- * @note "\n" just means endline in this case. Please use "std::endl," don't hardcode "\n".
+ * @note "\n" just means endline in this case. Please use "std::endl," don't print out the text "\n".
+ * Example output 1:
+   BLACK piece at (2,4) is moving UP
+   Example output 2:
+   WHITE piece is not on the board
  */
 display
 ```
