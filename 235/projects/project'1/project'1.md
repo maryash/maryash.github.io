@@ -98,7 +98,7 @@ It can be a lot of copy/pasting, but it is not useless. If someone is reading th
 
 ## Task 2: The ChessPiece Class
 
-<img src="./../../../files/235_basepiece.png" width="600" style="display: block; margin-left: auto; margin-right: auto;" />
+<img src="./../../../files/235_basepiece.png" width="600" align="center"/>
 
 Time to get coding. You'll be implementing the ```ChessPiece``` base class.
 
