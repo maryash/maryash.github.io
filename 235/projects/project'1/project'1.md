@@ -4,7 +4,7 @@ title: PROJECT 1
 ---  
 
 # PROJECT 1 &nbsp; Algorithmic Adventures: The&nbsp;King's Gambit
-<img src="./../../../files/235_chess.png" width="1200" />
+<img src="./../../../files/235_chess.png" width="600" />
 
 ## CONFIG UNSET
 <!-- CONFIG, ie. make sure to set these before DEPLOYING -->
@@ -267,7 +267,7 @@ display
 ---
 
 ## Task 3: Inheriting From `ChessPiece`
-<img src="./../../../files/235_chesspieces.png" width="1200" />
+<img src="./../../../files/235_chesspieces.png" width="600" />
 
 Now that we've established the foundation with the `ChessPiece` class, let's build upon it. By leveraging *inheritance*, we can create more specific piece classes like `Pawn` and `Rook`. 
 
