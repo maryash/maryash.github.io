@@ -4,7 +4,7 @@ title: PROJECT 1
 ---  
 
 # PROJECT 1: &nbsp; Algorithmic Adventures: The&nbsp;King's Gambit
-<img src="./../../../files/235_chess.png" width="1200"/>
+<img src="./../../../files/235_chess.png" width="600"/>
 
 ## CONFIG UNSET
 <!-- CONFIG, ie. make sure to set these before DEPLOYING -->
@@ -31,7 +31,7 @@ In order to successfully complete this project, we strongly recommend that you l
 ---
 
 ## Task 1: Getting Started with GitHub Classroom
-<img src="./../../../files/235_githubclassroom.png" width="1200" />
+<img src="./../../../files/235_githubclassroom.png" width="600" />
 <span style="color:teal">
 <b>[IMPORTANT]</b> Do not skip this step. Otherwise, you'll be ill-positioned to do this (or future) projects.
 </span>
