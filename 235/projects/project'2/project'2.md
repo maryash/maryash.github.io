@@ -636,6 +636,6 @@ You must start working on the projects as soon as they are assigned to detect an
 
 Help is available via drop-in tutoring in Lab 1001B (see Blackboard for schedule). You will be able to get help if you start early and go to the lab early. We only a finite number of UTAs in the lab; **the days leading up to the due date will be crowded and you may not be able to get much help then.**
 
-Authors: Daniel Sooknanan, Prof. Maryash
+Authors: Daniel Sooknanan, Georgina Woo, Prof. Maryash
 
 Credit to Prof. Ligorio & Prof. Wole
