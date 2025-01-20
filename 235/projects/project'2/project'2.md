@@ -7,6 +7,10 @@
 <!-- BEGIN PROJECT SPECS -->
 
 # Algorithmic Adventures: The King's Gambit
+<p align="center">
+  <img src="./../../../files/235_header.png" width="500"/>
+</p>
+
 
 ## Project 2: Boxing Up Our Pieces
 This time, we'll be building on Inheritance & getting our feet wet with Abstract Data Types (ADTs).
@@ -42,6 +46,12 @@ Work through the tasks sequentially (implement and test). Only move on to a task
 ---
 
 ## Task 1: New Year, New Me: Updating `ChessPiece`, `Pawn`, & `Rook`
+
+<p align="center">
+  <img src="./../../../files/235_pawnrook.png" width="500"/>
+</p>
+
+
 Boot up your IDE of choice, we're coding now. 
 
 ### Part A: Modifying `ChessPiece`
@@ -422,6 +432,12 @@ contains
 ```
 
 ## Task 3: Putting the Pieces Away: Implementing the `ChessBox` class
+
+<p align="center">
+  <img src="./../../../files/235_chessbox.png" width="500"/>
+</p>
+
+
 Now we'll put it all together and create the `ChessBox`, which has two `ArrayBox` members each containing `ChessPiece` objects of a specific color with one color per player in our little Chess game.
 
 Really, we've done most of the heavy-lifting by implementing `ArrayBox`, so our work is just in calling the functions we've already made.
