@@ -8,7 +8,7 @@
 
 # Algorithmic Adventures: The King's Gambit
 <p align="center">
-  <img src="./../../../files/235_header.png" width="500"/>
+  <img src="./../../../files/235_header.png" width="800"/>
 </p>
 
 
@@ -48,7 +48,7 @@ Work through the tasks sequentially (implement and test). Only move on to a task
 ## Task 1: New Year, New Me: Updating `ChessPiece`, `Pawn`, & `Rook`
 
 <p align="center">
-  <img src="./../../../files/235_pawnrook.png" width="500"/>
+  <img src="./../../../files/235_pawnrook.png" width="800"/>
 </p>
 
 
@@ -434,7 +434,7 @@ contains
 ## Task 3: Putting the Pieces Away: Implementing the `ChessBox` class
 
 <p align="center">
-  <img src="./../../../files/235_chessbox.png" width="500"/>
+  <img src="./../../../files/235_chessbox.jpg" width="800"/>
 </p>
 
 
