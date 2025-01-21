@@ -9,6 +9,11 @@
 # Algorithmic Adventures: The King's Gambit
 
 ## Project 3: Chaining Things Together
+
+<p align="center">
+  <img src="./../../../files/235_chains.png" width="500"/>
+</p>
+
 This time, we'll be working with more ADTs & linked data structures, nothing too fancy!
 
 In this project you will:
@@ -45,6 +50,11 @@ Work through the tasks sequentially (implement and test). Only move on to a task
 ---
 
 ## Task 1: Link Up: Implementing the `LinkedBox` Class
+
+<p align="center">
+  <img src="./../../../files/235_linkedboxes.png" width="500"/>
+</p>
+
 IDE? Check. Fingers warmed up? Check. Coffee? Check(mate). Let's begin!
 
 ### Part A: Setting Up Our Class
@@ -196,7 +206,7 @@ int count(const std::string& type) const;
 ```
 
 ## Task 2: Modifying the `ChessBox` Class
-If you find yourself working on this for more than 2 minutes, *you're probably overthinking it.*
+If you find yourself working on this for too long, *you're probably overthinking it.*
 
 You should've noticed that the `LinkedBox` interface is strangely reminiscent of the `ArrayBox` interface (ie. the function signatures are the same).
 
@@ -290,6 +300,10 @@ contains
 ```
 
 ## Submission, Testing, & Debugging
+
+<p align="center">
+  <img src="./../../../files/235_linkedtesting.png" width="500"/>
+</p>
 
 You will submit your solution to Gradescope via GitHub Classroom. The autograder will grade the following files:
 
