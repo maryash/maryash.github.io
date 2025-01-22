@@ -7,14 +7,14 @@ title: CSCI 235 MAIN PAGE
   
 [**SYLLABUS**](syllabus.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-[**GRADESCOPE**](https://www.gradescope.com/courses/155598 "Entry Code 9GRRD8"){:target="_blank"}  
+[**GRADESCOPE**](https://www.gradescope.com/courses/945960 "Entry Code 3R8PGN"){:target="_blank"}  
   
 **LECTURE** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
 Tuesdays and Fridays 10:00 AM - 11:15 PM in HW 714  
   
-**HELP, TUTORING, AND PROJECT LAB SESSIONS**  
-This is an essential resource for you during this semester.  Attendance is highly recommended.  You must submit your questions about your code the day before through this online form: &nbsp; [THROUGH THIS LINK](https://forms.gle/tv39oy3brf76HjRS7){:target="_blank"}. You can also email it to [cs235help@gmail.com](cs235help@gmail.com){:target="_blank"}.  You will either receive a reply by email by the end of day, or it will be answered in the Project Lab Session the forllowing day.  You can also ask your questions during the lab, but the lab TA, will always answer previousely submitted questions first.  
-Project Lab Sessions will take place on most Tuesdays, Wednesdays, and Thursdays at 2:00 PM. 
+**TUTORING**  
+In HN 1000 B  
+This is an essential resource for you during this semester.  Attendance is highly recommended!  
     
 **TEXTBOOK** &nbsp; [**Data Abstraction and Problem Solving with C++: Walls and Mirrors**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, 7th Edition [**eText**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, Frank M. Carrano, ISBN-13 978-0134463971. Must be rented ($44) or purchased ($74) from [**Vitalsource.com**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"} in order for the chapter links to work!  
   
