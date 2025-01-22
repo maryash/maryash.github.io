@@ -20,7 +20,7 @@ title: Genady Maryash, Hunter College
   
   [CSCI 235 FALL 2020](235/index.html)   
  
-  [CSCI 235 SPRING 2021](h235/index.html)   
+  [CSCI 235 SPRING 2021](235/index.html)   
  
   [CSCI 160 SUMMER 2021](160/index.html)   
  
@@ -35,3 +35,6 @@ title: Genady Maryash, Hunter College
   [CSCI 160 FALL  2023](160/index.html) 
 
   [CSCI 160 SPRING 2024](160/index.html) 
+  
+  [CSCI 235 SPRING 2025](235/index.html)   
+ 
