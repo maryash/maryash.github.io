@@ -10,7 +10,7 @@ title: CSCI 235 MAIN PAGE
 [**GRADESCOPE**](https://www.gradescope.com/courses/155598 "Entry Code 9GRRD8"){:target="_blank"}  
   
 **LECTURE** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
-Mondays and Thursdays 11:10 AM - 12:25 PM on BlackBoard Collaborate  
+Tuesdays and Fridays 10:00 AM - 11:15 PM in HW 714  
   
 **HELP, TUTORING, AND PROJECT LAB SESSIONS**  
 This is an essential resource for you during this semester.  Attendance is highly recommended.  You must submit your questions about your code the day before through this online form: &nbsp; [THROUGH THIS LINK](https://forms.gle/tv39oy3brf76HjRS7){:target="_blank"}. You can also email it to [cs235help@gmail.com](cs235help@gmail.com){:target="_blank"}.  You will either receive a reply by email by the end of day, or it will be answered in the Project Lab Session the forllowing day.  You can also ask your questions during the lab, but the lab TA, will always answer previousely submitted questions first.  
@@ -24,10 +24,15 @@ Project Lab Sessions will take place on most Tuesdays, Wednesdays, and Thursdays
   
  DATE | TOPIC | READING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | ASSIGNMENTS 
  :---: | :---: | --- | :---: | ---: 
- 2/1 | Introduction | [Syllabus](syllabus.html){:target="_blank"}<br/>[Programming Guidelines](programming_guidelines.html){:target="_blank"} | [Introduction](slides/01_introduction.pdf){:target="_blank"} | 
- 2/4 | Data&nbsp;Abstraction<br/>OOP | [Chapter&nbsp;1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/30%5B%3Bvnd.vst.idref%3DP70010119250000000000000000005D9%5D!/4/2%5BP70010119250000000000000000005D9%5D/2/2%5BP7001011925000000000000000009091%5D/4%400:0){:target="_blank"}<br/>[Appendix&nbsp;B](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/450%5B%3Bvnd.vst.idref%3DP7001011925000000000000000006BC2%5D!/4/2%5BP7001011925000000000000000006BC2%5D/2/2%5BP700101192500000000000000000E4E6%5D/4%400:0){:target="_blank"} | [Abstraction](/slides/02_oop.pdf){:target="_blank"} | [**Project&nbsp;0 &nbsp; due&nbsp;2/15** ](projects/project-0/project-0.html){:target="_blank"} 
- 2/8 |  |  |  |  [**Project&nbsp;1 &nbsp; due&nbsp;2/28** ](projects/project-1/project-1.html){:target="_blank"} 
- 2/11 | Inheritance | [C++&nbsp;Interlude&nbsp;1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/48%5B%3Bvnd.vst.idref%3DP700101192500000000000000000099F%5D!/4/6%400:0){:target="_blank"} | [Inheritance](slides/03_inheritance.pdf){:target="_blank"} | [SQ&nbsp;Basic&nbsp;Inheritance&nbsp;](study_questions/sq_00_Basic_Inheritance.pdf){:target="_blank"} 
+ 1/28 | Introduction | [Syllabus](syllabus.html){:target="_blank"}<br/>[Programming Guidelines](programming_guidelines.html){:target="_blank"} | [Introduction](slides/01_introduction.pdf){:target="_blank"} | [**Project&nbsp;0 &nbsp; due&nbsp;now** ](projects/project-0/project-0.html){:target="_blank"} 
+ 1/31 | Data&nbsp;Abstraction<br/>OOP | [Chapter&nbsp;1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/30%5B%3Bvnd.vst.idref%3DP70010119250000000000000000005D9%5D!/4/2%5BP70010119250000000000000000005D9%5D/2/2%5BP7001011925000000000000000009091%5D/4%400:0){:target="_blank"}<br/>[Appendix&nbsp;B](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/450%5B%3Bvnd.vst.idref%3DP7001011925000000000000000006BC2%5D!/4/2%5BP7001011925000000000000000006BC2%5D/2/2%5BP700101192500000000000000000E4E6%5D/4%400:0){:target="_blank"} | [Abstraction](/slides/02_oop.pdf){:target="_blank"} | 
+
+     
+<!-- 
+
+ 
+ 2/4 |  |  |  |  [**Project&nbsp;1 &nbsp; due&nbsp;2/28** ](projects/project-1/project-1.html){:target="_blank"} 
+ 2/7 | Inheritance | [C++&nbsp;Interlude&nbsp;1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/48%5B%3Bvnd.vst.idref%3DP700101192500000000000000000099F%5D!/4/6%400:0){:target="_blank"} | [Inheritance](slides/03_inheritance.pdf){:target="_blank"} | [SQ&nbsp;Basic&nbsp;Inheritance&nbsp;](study_questions/sq_00_Basic_Inheritance.pdf){:target="_blank"} 
  2/15 |  |  |  | 
  2/18 | ADTs,&nbsp;Templates | [Chapter&nbsp;3.1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/86%5B%3Bvnd.vst.idref%3DP7001011925000000000000000001247%5D!/4/6%400:0){:target="_blank"} | [ADTs&nbsp;&&nbsp;Templates](slides/04_adt_templates.pdf){:target="_blank"} | 
  2/22 |  |  |  | 
@@ -71,7 +76,6 @@ Project Lab Sessions will take place on most Tuesdays, Wednesdays, and Thursdays
 ---  
   
 
-<!-- 
  4/22 |  |  |  | [**Project&nbsp;4**&nbsp;**due&nbsp;11/16**](projects/project_4_/project_4_.html){:target="_blank"} 
  4/26 |  |  |  | [**Project&nbsp;5**&nbsp;**due&nbsp;12/13**](projects/project_5_/project_5_.html){:target="_blank"} 
 
