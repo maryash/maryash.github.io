@@ -3,10 +3,8 @@ layout: myDefault
 title: PROJECT 0
 ---
 # PROJECT 0: Setup & Hello World
-<img src="./../../../files/235_HelloWorld.png" width="600"/>  
+<img src="./../../../files/235_HelloWorld.png" width="600"/>
 <!-- CONFIG, ie. make sure to set these before DEPLOYING -->
-[SUBMISSION_LIMIT]: 5  
-[DUE DATE]: TBD
 <!-- BEGIN PROJECT SPECS -->
 ## A Brief Overview
 Welcome to your very first project of the semester! The goal of **Project 0** is simple: ensure you’re fully set up with GitHub Classroom, familiarize yourself with the **Makefile** provided, and compile your very first C++ program. As basic as this sounds—just printing “Hello, World!”—it’s an essential milestone to confirm that your environment is ready for more complex tasks ahead. Please DO NOT SKIP ANY PARTS OF THIS PROJECT, COMPLETE THE ENTIRE THING YOURSELF if you want to make sure that you will be able to solve and debug the other projects by their deadlines.
@@ -131,7 +129,7 @@ You will submit your solution to Gradescope via GitHub Classroom. The autograder
 
 Although Gradescope allows multiple submissions, it is **not** a platform for testing or debugging. You **MUST** test and debug your program locally.  
 
-**Only [SUBMISSION_LIMIT] submissions per day** are allowed. Use them wisely.
+**Only 5 submissions per day** are allowed. Use them wisely.
 
 Before submitting, be sure that:
 1. Your code compiles via the provided `Makefile`.
