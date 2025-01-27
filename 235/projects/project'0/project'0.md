@@ -29,10 +29,11 @@ This project is designed to get you comfortable with the infrastructure of our c
    * Or if you're in a rush: [Git Explained in 100 Seconds](https://www.youtube.com/watch?v=hwP7WQkmECE)
    * For a more step-by-step approach: [Using GitHub from start to finish](https://www.youtube.com/watch?v=-RCnNyD0L-s)
 
-3) **Accept the Project 0 GitHub Classroom assignment link** (found on Blackboard). This will create a repository under your GitHub account specifically for this project.  
+3) **Accept the Project 0 GitHub Classroom assignment via this link**: https://classroom.github.com/a/wjC4jYta
+   * Follow the steps to create a repository under your GitHub account specifically for this project.  
    * Refer to this tutorial if you need help with GitHub Classroom: [GitHub Classroom Tutorial](https://www.youtube.com/watch?v=AHDCokfgcSo)
 
-4) After accepting, **clone the repository** to your local machine. This will give you a local copy where you can edit files, compile your code, and eventually push your changes.  
+5) After accepting, **clone the repository** to your local machine. This will give you a local copy where you can edit files, compile your code, and eventually push your changes.  
 
 <span style="color:teal">
 <b>[NOTE]</b> You will also be provided with an in-depth guide on using GitHub Classroom and repositories in our course. If anything is still unclear after reviewing the guide, feel free to explore additional resources online or ask the TAs for help.
@@ -164,5 +165,5 @@ No late submissions will be accepted.
 ### Additional Help
 Help is available via drop-in tutoring in Lab 1001B (see Blackboard for the schedule). Remember, the lab can get crowded as due dates approach, so coming early is your best strategy.
 
-Authors: Michael Russo, Daniel Sooknanan, Prof. Maryash
+Authors: Michael Russo, Daniel Sooknanan, Georgina Woo Prof. Maryash
 Credit to Prof. Ligorio
