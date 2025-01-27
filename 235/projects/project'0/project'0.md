@@ -4,7 +4,7 @@ title: PROJECT 0
 ---  
 
 # PROJECT 0: Setup & Hello World
-![Hello World](./HelloWorld.png)
+<img src="./../../../files/235_HelloWorld.png" width="600"/>
 ## CONFIG UNSET
 <!-- CONFIG, ie. make sure to set these before DEPLOYING -->
 [SUBMISSION_LIMIT]: 5
@@ -148,12 +148,10 @@ Once you have verified all the above, submit to Gradescope.
 ---
 
 ### Grading Rubric
-- **Correctness:** 80%  
+
+- Please note that submission of this introductory project is required, while the project is worth one point.
+- **Correctness:** 100%  
   Your program should compile, run, and print “Hello, World!” exactly.  
-- **Documentation:** 15%  
-  Basic file/function header comments as specified.  
-- **Style and Design:** 5%  
-  Proper naming, minimal but clear code structure, and good organization.
 
 ---
 
