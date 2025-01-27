@@ -1,17 +1,13 @@
 ---  
 layout: myDefault
 title: PROJECT 0
----  
-
+---
 # PROJECT 0: Setup & Hello World
 <img src="./../../../files/235_HelloWorld.png" width="600"/>
-## CONFIG UNSET
 <!-- CONFIG, ie. make sure to set these before DEPLOYING -->
 [SUBMISSION_LIMIT]: 5
 [DUE DATE]: TBD
-
 <!-- BEGIN PROJECT SPECS -->
-
 ## A Brief Overview
 Welcome to your very first project of the semester! The goal of **Project 0** is simple: ensure you’re fully set up with GitHub Classroom, familiarize yourself with the **Makefile** provided, and compile your very first C++ program. As basic as this sounds—just printing “Hello, World!”—it’s an essential milestone to confirm that your environment is ready for more complex tasks ahead. Please DO NOT SKIP ANY PARTS OF THIS PROJECT, COMPLETE THE ENTIRE THING YOURSELF if you want to make sure that you will be able to solve and debug the other projects by their deadlines.
 
