@@ -29,7 +29,7 @@ This project is designed to get you comfortable with the infrastructure of our c
    * Or if you're in a rush: [Git Explained in 100 Seconds](https://www.youtube.com/watch?v=hwP7WQkmECE)
    * For a more step-by-step approach: [Using GitHub from start to finish](https://www.youtube.com/watch?v=-RCnNyD0L-s)
 
-3) **Accept the Project 0 GitHub Classroom assignment via this link**: https://classroom.github.com/a/wjC4jYta
+3) **Accept the Project 0 GitHub Classroom assignment via this link**: [Link](https://classroom.github.com/a/wjC4jYta)
    * Follow the steps to create a repository under your GitHub account specifically for this project.  
    * Refer to this tutorial if you need help with GitHub Classroom: [GitHub Classroom Tutorial](https://www.youtube.com/watch?v=AHDCokfgcSo)
 
