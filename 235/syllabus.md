@@ -5,19 +5,19 @@ title: 235 SYLLABUS
 
 **[CSCI 235 &nbsp; &nbsp; ANALYSIS & DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
 
-**Spring 2021 &nbsp; &nbsp; Mondays and Thursdays &nbsp; 11:10 AM to 12:25 PM on BlackBoard Collaborate**
+**Spring 2025 &nbsp; &nbsp; Tuesdays and Fridays &nbsp; 11:10 AM to 12:25 PM in Hunter West 714**
   
 **INSTRUCTOR**  
-**Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours by appointment on BlackBoard Collaborate.  
+**Genady Maryash** &nbsp; gmaryash@hunter.cuny.edu &nbsp; office hours imediately after each lecture and by appointment.
   
 **TEXTBOOK**  
 [**Data Abstraction and Problem Solving with C++: Walls and Mirrors**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, 7th Edition [**eText**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, Frank M. Carrano, ISBN-13 978-0134463971. Must be rented ($39) or purchased ($59) from [**Vitalsource.com**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"} in order for the chapter links to work!  
   
 **SOURCE CODE FROM TEXTBOOK AND SLIDES**  
-[**TextbookSourceCode.zip**](files/TextbookSourceCode.zip)
-
+[**TextbookSourceCode.zip**](files/TextbookSourceCode.zip){:target="_blank"}
   
 **OTHER RESOURCES**  
+[**Linux on Windows NEW Video Tutorial**](http://tiny.cc/2p0jvz){:target="_blank"}  
 [Open Data Structures in C++ opendatastructures.org](http://opendatastructures.org/){:target="_blank"}  
 [Prof. Stewart Weiss’ notes](http://www.compsci.hunter.cuny.edu/~sweiss/ course_materials/csci235/csci235_lecture_notes.php){:target="_blank"}  
 [Linux on Windows Tutorial: okunhardt.github.io/documents/Installing_WSL.pdf](https://okunhardt.github.io/documents/Installing_WSL.pdf){:target="_blank"}  
@@ -36,21 +36,19 @@ Please check this page regularly for announcements, updates, lecture notes and s
 I hope you will enjoy the programming projects! There will be seven programming projects.  You will have a week to complete each project. Every program must comply with the [Programming Guidelines](programming_guidelines.html){:target="_blank"}. You **must read** this document, it contains guidelines about submission, lateness, plagiarism, grading and logging into your Linux accounts.  
   
 **COURSE FINAL GRADE COMPOSITION**  
-7% for each of the seven projects (together they are the most important part of your grade), 7% all lecture activities, 7% all study questions, 14% the midterm, and 23% the final exam. 
+2% for enrolling and attending workshops, 5% for each of the seven projects (together they are the most important part of your grade), 5% all lecture activities, 5% all study questions, 18% the midterm, and 35% the final exam. 
   
 **QUESTIONS**  
-Ask as many as you need during lecture!  You may get additional help with your project during the daily Lab Session from 1:15 PM to 2:15 PM.  
+Ask as many as you need during lecture!  And get additional help with your questions and projects In the tutoring lab!  
 
-**BLACKBOARD COLLABORATE**  
-We will use BlackBoard Collaborate synchronousely for all **lectures** as well as all **lab sessions for help with projects**.  We will also use BlackBoard for all exams.  Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default).  You must regularly check my announcements on BlackBoard and your Hunter email. This is how you will receive important course-related communication.  
-**IMPORTANT:** Students who participate in this class with their camera on or use a profile image are agreeing to have their video or image recorded solely for the
-purpose of creating a record for students enrolled in the class to refer to, including those enrolled students who are unable to attend live. If you are unwilling to consent to have your profile or video image recorded, be sure to keep your camera off and do not use a profile image. Likewise, students who un-mute during class and participate orally are agreeing to have their voices recorded. If you are not willing to consent to have your voice recorded during class, you will need to keep your mute button activated and communicate exclusively using the "chat" feature, which allows students to type questions and comments live.
+**BLACKBOARD & BRIGHTSPACE**  
+We will use BlackBoard or BrightSpace announcement emails and for one or two synchronous lectures during the semester.  Make sure that you have configured BlackBoard to use your preferred email address (your Hunter email address, by default).  You must regularly check my announcements on BrightSpace and your Hunter email. This is how you will receive important course-related communication.  
 
 **GRADESCOPE**  
 You will submit all projects electronically through Gradescope. You will see your grades (including exam grades) on Gradescope as well. An invite email was sent to you before the first lecture. If you have not received it, ask to send you another one: you will need to email him or her your full name, EMPLID, and a working email address. 
 
 **SOFTWARE**  
-This course it taught in Linux and your programs must be able to run on a Linux platform. <!--- On campus, you may use the 1001C and 1001B labs to do your work for this course. ---> The standard Linux/Unix/Mac OS C++ compiler is g++. If you wish to use a home computer, you can use any version of Linux. We recommend [Ubuntu Linux](http://www.ubuntu.com) -- it the one used by Gradescope.  Or use a Mac.  Macs have Unix command line and g++.  You could also use a Linux environment included with most recent versions of Windows.  Check out this excellent tutorial: [okunhardt.github.io/documents/Installing_WSL.pdf
+This course it taught in Linux and your programs must be able to run on a Linux platform.  On campus, you may use the 1001C and 1001B labs to do your work for this course.  The standard Linux/Unix/Mac OS C++ compiler is g++. If you wish to use a home computer, you can use any version of Linux. We recommend [Ubuntu Linux](http://www.ubuntu.com) -- it the one used by Gradescope.  Or use a Mac.  Macs have Unix command line and g++.  You could also use a Linux environment included with most recent versions of Windows.  Check out this excellent tutorial: [okunhardt.github.io/documents/Installing_WSL.pdf
 ](https://okunhardt.github.io/documents/Installing_WSL.pdf) or just google it. We have had problems in the past with students programming in a native Windows environment at home, and their programs don’t work in the Linux labs and might be incompatible with Gradescope.  
 
 **SYLLABUS COMPLIANCE**  
