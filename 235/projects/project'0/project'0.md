@@ -3,9 +3,9 @@ layout: myDefault
 title: PROJECT 0
 ---
 # PROJECT 0: Setup & Hello World
-<img src="./../../../files/235_HelloWorld.png" width="600"/>
+<img src="./../../../files/235_HelloWorld.png" width="600"/>  
 <!-- CONFIG, ie. make sure to set these before DEPLOYING -->
-[SUBMISSION_LIMIT]: 5
+[SUBMISSION_LIMIT]: 5  
 [DUE DATE]: TBD
 <!-- BEGIN PROJECT SPECS -->
 ## A Brief Overview
@@ -152,7 +152,7 @@ Once you have verified all the above, submit to Gradescope.
 ---
 
 ### Due Date
-This project is **due on [DUE DATE]**.  
+This project is **due on 1/31**.  
 No late submissions will be accepted.
 
 ---
