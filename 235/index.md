@@ -22,12 +22,12 @@ This is an essential resource for you during this semester.  Attendance is highl
 
 [**Linux on Windows NEW Video Tutorial**](http://tiny.cc/2p0jvz){:target="_blank"}  
 
-**PROJECT RESOURCES** <br></br>
+**PROJECT RESOURCES** <br>
 [**Github Guide**](files/Github.pdf)
 
 [**Makefile Guide**](files/Make.pdf)
 
-[**Common Compilation Errors**](files/Common%20Compilation%20Errors.pdf) <br></br>
+[**Common Compilation Errors**](files/Common%20Compilation%20Errors.pdf) <br>
 
   
 **COURSE OUTLINE**  
