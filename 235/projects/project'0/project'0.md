@@ -62,10 +62,10 @@ For **ALL** projects, including this one, part of your grade will be points for 
 ---
 ## Task 2: Writing a Simple “Hello, World!” Program
 
-1) In your **cloned** repository, open (or create) a file named `HelloWorld.hpp`.  
-2) In your **cloned** repository, open (or create) a file named `HelloWorld.cpp`.  
-3) In your **cloned** repository, open (or create) a file named `main.cpp`.  
-4) Implement the simplest possible C++ program with separate files for a header (`.hpp`), source (`.cpp`), and main (`.cpp`).  
+1) In your **cloned** repository, create a file named `HelloWorld.hpp`.  
+2) In your **cloned** repository, create a file named `HelloWorld.cpp`.  
+3) In your **cloned** repository, create a file named `main.cpp`.  
+4) Implement the following simple C++ program with separate files for a header (`.hpp`), source (`.cpp`), and main (`.cpp`). The main will be for local testing purposes.
 
 **HelloWorld.hpp**  
 ```cpp
