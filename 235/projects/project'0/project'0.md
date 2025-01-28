@@ -42,7 +42,6 @@ This project is designed to get you comfortable with the infrastructure of our c
 ---
 
 #### Additional Resources if You’re Brand-New to C++:
-* [CodeBeauty’s Intro to C++](https://youtu.be/t-f0nH3YEeQ)
 * [TheNewBoston’s C++ Playlist](https://www.youtube.com/playlist?list=PLAE85DE8440AA6B83)  
 *(You won’t need all the details from these resources just yet, but they are helpful references.)*
 
@@ -58,38 +57,71 @@ For **ALL** projects, including this one, part of your grade will be points for 
    - A brief description of what the file does  
 
 2. **Function-level Documentation**  
-   Each function (including `main()`) should include a brief comment describing its purpose. Later projects will involve param/return tags in the documentation, but this starting project will not.
+   Each function should include a brief comment describing its purpose. Later projects will involve param/return tags in the documentation, but this starting project will not.
 
 ---
-
 ## Task 2: Writing a Simple “Hello, World!” Program
 
-1) In your **cloned** repository, open (or create) a file named `main.cpp`.  
+1) In your **cloned** repository, open (or create) a file named `HelloWorld.hpp`.  
+2) In your **cloned** repository, open (or create) a file named `HelloWorld.cpp`.  
+3) In your **cloned** repository, open (or create) a file named `main.cpp`.  
+4) Implement the simplest possible C++ program with separate files for a header (`.hpp`), source (`.cpp`), and main (`.cpp`).  
 
-2) Implement the simplest possible C++ program:  
-    ```cpp
-    // File: main.cpp
-    // Author: Your Name
-    // Date: (today's date)
-    // A simple C++ program that prints "Hello, World!"
-    #include <iostream>
+**HelloWorld.hpp**  
+```cpp
+// File: HelloWorld.hpp
+// Author: Your Name
+// Date: (today's date)
+// A header file containing a function declaration for printing "Hello, World!"
 
-    int main() {
-        std::cout << "Hello, World!" << std::endl;
-        return 0;
-    }
-    ```
+#ifndef HELLOWORLD_HPP
+#define HELLOWORLD_HPP
 
-3) Ensure your code is documented with the basic guidelines above.  
-   * Keep it simple. Just have the file-level comment at the top.  
+void printHelloWorld();
 
-4) **Commit your code** locally, then **push** it to GitHub. This ensures your changes are saved and visible to the instructor/TA.
+#endif
+```
+
+**HelloWorld.cpp**  
+```cpp
+// File: HelloWorld.cpp
+// Author: Your Name
+// Date: (today's date)
+// A source file that defines a function to print "Hello, World!"
+
+#include <iostream>
+#include "HelloWorld.hpp"
+
+void printHelloWorld() {
+    std::cout << "Hello, World!" << std::endl;
+}
+```
+
+**main.cpp**  
+```cpp
+// File: main.cpp
+// Author: Your Name
+// Date: (today's date)
+// A main file that tests our function in HelloWorld.cpp
+
+#include "HelloWorld.hpp"
+
+int main() {
+    printHelloWorld();
+    return 0;
+}
+```
+
+5) Test your code locally by using make to compile.  
+   * You will likely need to install make (especially if you are on Windows). Now is the appropriate time to ensure that is set up, using the resources provided to you and seeking help from the tutoring lab if necessary.
+
+6) **Commit your code** locally, then **push** it to GitHub. 
 
 ---
 
 ## Task 3: Using the Provided Makefile
 
-This repository comes with a `Makefile` that helps you compile your code more easily. Instead of typing out `g++ main.cpp -o main` in the terminal each time, you can simply type:
+This repository comes with a `Makefile` that helps you compile your code more easily. Instead of using g++ in the terminal, you can simply type:
 
     make
 
@@ -99,15 +131,10 @@ This command will look for a `Makefile` in the current directory and compile the
     make rebuild  # Cleans, then re-runs make
 
 <span style="color:teal">
-<b>[ENVIRONMENT NOTE]</b> If you have any issues installing or using <code>make</code> on your own machine (e.g., if you’re on Windows or macOS without Xcode command-line tools), we will provide you with a guide on how to SSH into the lab computers, where <code>make</code> is already installed. For example, you can check out these YouTube links for installation on different systems:
-<ul>
-  <li><a href="https://www.youtube.com/watch?v=25d1GmPdRaQ" target="_blank">Installing Make on Windows (via WSL)</a></li>
-  <li><a href="https://www.youtube.com/watch?v=a6a7-cd-3B4" target="_blank">Installing Command-Line Tools (Make) on macOS</a></li>
-</ul>
-We will also provide a more specific written guide. If you still have issues, please consult online resources or contact the TAs for assistance.
+<b>[ENVIRONMENT NOTE]</b> If you have any issues installing or using <code>make</code> on your own machine (e.g., if you’re on Windows or macOS without Xcode command-line tools), we will provide you with a guide on how to SSH into the lab computers, where <code>make</code> is already installed. Please refer to the video on the course homepage and request help in the tutoring lab if necessary. There are also many resources online that will help you with this task, including on stackoverflow.
 </span>
 
-By using the `Makefile`, you ensure that your code is built consistently with the same settings our autograder uses.
+By using the `Makefile`, you ensure that your code is built consistently with the same settings our autograder uses. If you do not use the Makefile to verify compilation, then there is a high chance that your code will not compile when you attempt to submit on gradescope.
 
 ---
 
@@ -126,7 +153,7 @@ That’s it! You’ve successfully built and run your first program in our envir
 ---
 
 ## Task 5: Submission
-You will submit your solution to Gradescope via GitHub Classroom. The autograder will look for and compile your `main.cpp` (and any other files).  
+You will submit your solution to Gradescope via GitHub Classroom. The autograder will look for and compile your `HelloWorld.hpp` and `HelloWorld.cpp`.  
 
 Although Gradescope allows multiple submissions, it is **not** a platform for testing or debugging. You **MUST** test and debug your program locally.  
 
