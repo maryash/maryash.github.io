@@ -26,7 +26,7 @@ This is an essential resource for you during this semester.  Attendance is highl
   
  DATE | TOPIC | READING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | ASSIGNMENTS 
  :---: | :---: | --- | :---: | ---: 
- 1/28 | Introduction | [Syllabus](syllabus.html){:target="_blank"}<br/>[Programming Guidelines](programming_guidelines.html){:target="_blank"} | [Introduction](slides/01_introduction.pdf){:target="_blank"} | [**Project&nbsp;0 &nbsp; due&nbsp;now** ](){:target="_blank"} 
+ 1/28 | Introduction | [Syllabus](syllabus.html){:target="_blank"}<br/>[Programming Guidelines](programming_guidelines.html){:target="_blank"} | [Introduction](slides/01_introduction.pdf){:target="_blank"} | [**Project&nbsp;0 &nbsp; due&nbsp;now** ](projects/project'0/project'0.html){:target="_blank"} 
  1/31 | Data&nbsp;Abstraction<br/>OOP | [Chapter&nbsp;1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/30%5B%3Bvnd.vst.idref%3DP70010119250000000000000000005D9%5D!/4/2%5BP70010119250000000000000000005D9%5D/2/2%5BP7001011925000000000000000009091%5D/4%400:0){:target="_blank"}<br/>[Appendix&nbsp;B](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/450%5B%3Bvnd.vst.idref%3DP7001011925000000000000000006BC2%5D!/4/2%5BP7001011925000000000000000006BC2%5D/2/2%5BP700101192500000000000000000E4E6%5D/4%400:0){:target="_blank"} | [Abstraction](/slides/02_oop.pdf){:target="_blank"} | 
 
      
