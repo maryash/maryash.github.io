@@ -157,7 +157,7 @@ You will submit your solution to Gradescope via GitHub Classroom. The autograder
 
 Although Gradescope allows multiple submissions, it is **not** a platform for testing or debugging. You **MUST** test and debug your program locally.  
 
-**Only 5 submissions per day** are allowed. Use them wisely.
+**For future projects, only 5 submissions per day** are allowed. This project will be unlimited since it is an introduction.
 
 Before submitting, be sure that:
 1. Your code compiles via the provided `Makefile`.
