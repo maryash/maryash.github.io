@@ -33,7 +33,7 @@ This project is designed to get you comfortable with the infrastructure of our c
    * Follow the steps to create a repository under your GitHub account specifically for this project.  
    * Refer to this tutorial if you need help with GitHub Classroom: [GitHub Classroom Tutorial](https://www.youtube.com/watch?v=AHDCokfgcSo)
 
-5) After accepting, **clone the repository** to your local machine. This will give you a local copy where you can edit files, compile your code, and eventually push your changes.  
+5) After accepting, **clone the repository** to your local machine. This will give you a local copy where you can edit files, compile your code, and eventually push your changes. Here's a [github guide](../files/Github.pdf)!
 
 <span style="color:teal">
 <b>[NOTE]</b> You will also be provided with an in-depth guide on using GitHub Classroom and repositories in our course. If anything is still unclear after reviewing the guide, feel free to explore additional resources online or ask the TAs for help.
@@ -125,7 +125,7 @@ int main() {
 
 ## Task 3: Using the Provided Makefile
 
-This repository comes with a `Makefile` that helps you compile your code more easily. Instead of using g++ in the terminal, you can simply type:
+Here is a [guide to makefiles](../files/Make.pdf). This repository comes with a `Makefile` that helps you compile your code more easily. Instead of using g++ in the terminal, you can simply type:
 
     make
 
@@ -167,7 +167,7 @@ Before submitting, be sure that:
 1. Your code compiles via the provided `Makefile`.
 2. It runs correctly on the Linux machines in the labs at Hunter College (if applicable).
 
-**“But it ran on my machine!”** is not a valid argument for broken submissions.  
+**“But it ran on my machine!”** is not a valid argument for broken submissions. [Here](../files/Common%20Compilation%20Errors.pdf) is an almost exhaustive list of compilation errors. 
 
 Once you have verified all the above, submit to Gradescope.
 
