@@ -74,12 +74,13 @@ For **ALL** projects, including this one, part of your grade will be points for 
 // Date: (today's date)
 // A header file containing a function declaration for printing "Hello, World!"
 
-#ifndef HELLOWORLD_HPP
-#define HELLOWORLD_HPP
+#ifndef HELLO_WORLD_HPP
+#define HELLO_WORLD_HPP
 
-void printHelloWorld();
+// Declaration of the HelloWorld function.
+void HelloWorld();
 
-#endif
+#endif // HELLO_WORLD_HPP
 ```
 
 **HelloWorld.cpp**  
@@ -89,12 +90,15 @@ void printHelloWorld();
 // Date: (today's date)
 // A source file that defines a function to print "Hello, World!"
 
-#include <iostream>
 #include "HelloWorld.hpp"
+#include <iostream>
 
-void printHelloWorld() {
-    std::cout << "Hello, World!" << std::endl;
+// Definition of the HelloWorld function.
+void HelloWorld()
+{
+    std::cout << "Hello World" << std::endl;
 }
+
 ```
 
 **main.cpp**  
