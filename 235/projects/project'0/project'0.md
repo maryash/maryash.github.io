@@ -64,8 +64,8 @@ For **ALL** projects, including this one, part of your grade will be points for 
 
 1) In your **cloned** repository, create a file named `HelloWorld.hpp`.  
 2) In your **cloned** repository, create a file named `HelloWorld.cpp`.  
-3) In your **cloned** repository, create a file named `main.cpp`.  
-4) Implement the following simple C++ program with separate files for a header (`.hpp`), source (`.cpp`), and main (`.cpp`). The main will be for local testing purposes.
+3) In your **cloned** repository, create a file named `test.cpp`.  
+4) Implement the following simple C++ program with separate files for a header (`.hpp`), source (`.cpp`), and test (`.cpp`). The test will be for local testing purposes.
 
 **HelloWorld.hpp**  
 ```cpp
@@ -101,17 +101,17 @@ void HelloWorld()
 
 ```
 
-**main.cpp**  
+**test.cpp**  
 ```cpp
-// File: main.cpp
+// File: test.cpp
 // Author: Your Name
 // Date: (today's date)
-// A main file that tests our function in HelloWorld.cpp
+// A tes file thatt tests our function in HelloWorld.cpp
 
 #include "HelloWorld.hpp"
 
 int main() {
-    printHelloWorld();
+    HelloWorld();
     return 0;
 }
 ```
@@ -133,6 +133,8 @@ This command will look for a `Makefile` in the current directory and compile the
 
     make clean    # Removes .o files (object files) and clears out old build artifacts
     make rebuild  # Cleans, then re-runs make
+
+<br>Please note that the starter code makefile relies on a rule for make clean that isn't there, you can fix this yourselves if you want by using the Makefile guide or online resources<br>
 
 <span style="color:teal">
 <b>[ENVIRONMENT NOTE]</b> If you have any issues installing or using <code>make</code> on your own machine (e.g., if you’re on Windows or macOS without Xcode command-line tools), we will provide you with a guide on how to SSH into the lab computers, where <code>make</code> is already installed. Please refer to the video on the course homepage and request help in the tutoring lab if necessary. There are also many resources online that will help you with this task, including on stackoverflow.
