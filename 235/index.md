@@ -21,6 +21,14 @@ This is an essential resource for you during this semester.  Attendance is highl
 [**SOURCE CODE FROM TEXTBOOK AND SLIDES**](files/TextbookSourceCode.zip) &nbsp; [**TextbookSourceCode.zip**](files/TextbookSourceCode.zip) 
 
 [**Linux on Windows NEW Video Tutorial**](http://tiny.cc/2p0jvz){:target="_blank"}  
+
+**PROJECT RESOURCES** <br></br>
+[**Github Guide**](files/Github.pdf)
+
+[**Makefile Guide**](files/Make.pdf)
+
+[**Common Compilation Errors**](files/Common%20Compilation%20Errors.pdf) <br></br>
+
   
 **COURSE OUTLINE**  
   
