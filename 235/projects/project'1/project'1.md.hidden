@@ -400,7 +400,7 @@ Rook
 * @param : A flag indicating whether the Rook is moving up on the board, or not (as a const reference to a boolean).
 *          Default value false if not provided.
 * @param : An integer representing how many castle moves it can make.
-*          Default to 3 if no value provided.
+*          Default to 3 if no value provided. If a negative value is provided, 0 is used instead.
 * @post : The private members are set to the values of the corresponding parameters. 
 *   If the provided color parameter is invalid (ie. not alphabetic), it is set to "BLACK"
 *   If EITHER of the provided row or col are out-of-bounds, that is between 0 (inclusive)
