@@ -20,8 +20,9 @@ This is an essential resource for you during this semester.  Attendance is highl
   
 [**SOURCE CODE FROM TEXTBOOK AND SLIDES**](files/TextbookSourceCode.zip) &nbsp; [**TextbookSourceCode.zip**](files/TextbookSourceCode.zip) 
 
-[**Linux on Windows NEW Video Tutorial**](http://tiny.cc/2p0jvz){:target="_blank"} <br>
-^ Please note: once WSL is configured properly, stop watching the video and go to the Project 0 specifications to continue.
+[**Linux on Windows NEW Video Tutorial**](http://tiny.cc/2p0jvz){:target="_blank"}  
+  
+Please note: once WSL is configured properly, stop watching the video and go to the Project 0 specifications to continue.
 
 **PROJECT RESOURCES**  
   
