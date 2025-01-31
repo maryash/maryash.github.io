@@ -23,12 +23,15 @@ This is an essential resource for you during this semester.  Attendance is highl
 [**Linux on Windows NEW Video Tutorial**](http://tiny.cc/2p0jvz){:target="_blank"} <br>
 ^ Please note: once WSL is configured properly, stop watching the video and go to the Project 0 specifications to continue.
 
-**PROJECT RESOURCES** <br>
-[**Github Guide**](files/Github.pdf)
+**PROJECT RESOURCES**  
+  
+[**Github Guide**](files/Github.pdf){:target="_blank"}
 
-[**Makefile Guide**](files/Make.pdf)
+[**Makefile Guide**](files/Make.pdf){:target="_blank"}
 
-[**Common Compilation Errors**](files/Common%20Compilation%20Errors.pdf) <br>
+[**Common Compilation Errors**](files/Common%20Compilation%20Errors.pdf{:target="_blank"})  
+
+[**CSCI235 Discord Invite Link**](https://discord.gg/eXUwdCZCky){:target="_blank"}
 
   
 **COURSE OUTLINE**  
