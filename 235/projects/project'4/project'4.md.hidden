@@ -22,9 +22,9 @@ In this project you will:
 
 You'll notice we have a lot of files in this project. So we've done some house-cleaning and organized them into folders.
 
-The hierarchy you see stores the chess piece files neatly, with everything moved into a pieces folder for tidiness. Notice the `pieces_module.hpp`: a file that bundles all piece headers. By including this, we can include all these files, while only using *one* include statement. 
+The hierarchy you see stores the chess piece files neatly, with everything moved into a pieces folder for tidiness. Notice the `pieces_module.hpp`: a file that bundles all piece headers. By including this, we can include all these files while only using *one* include statement. 
 
-I'd encourage you to utilize when testing your code. We sure will when testing yours.\
+I'd encourage you to utilize this when testing your code. We sure will when testing yours.
 
 **NOTE: Do *not* modify the include statements of any of the piece files. You should only place your code below the line denoting where your code should go. Especially *do not* include `ChessBoard` as you'll get circular importing errors.** 
 
