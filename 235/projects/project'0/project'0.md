@@ -199,4 +199,5 @@ No late submissions will be accepted.
 Help is available via drop-in tutoring in Lab 1001B (see Blackboard for the schedule). Remember, the lab can get crowded as due dates approach, so coming early is your best strategy.
 
 Authors: Michael Russo, Daniel Sooknanan, Georgina Woo, Prof. Maryash
+
 Credit to Prof. Ligorio
