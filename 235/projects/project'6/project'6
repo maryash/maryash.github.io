@@ -1,0 +1,390 @@
+
+# CONFIG UNSET
+<!-- CONFIG, ie. make sure to set these before DEPLOYING -->
+[DUE DATE]: TBD
+
+<!-- BEGIN PROJECT SPECS -->
+
+# Algorithmic Adventures: The King's Gambit
+
+## Project 6: Rounding Things Up
+This time, we'll be adding rounds to our Chess simulation. And since no one's perfect, we'll be using this as an excuse to work with stacks to undo moves. 
+
+In this project you will:
+1. Create `Move` class to store player move data
+2. Update `ChessBoard` to maintain move history stack
+3. Add `attemptRound()` method for round logic
+4. Implement `undo()` to revert board states
+
+---
+#### Additional Resources (if you need)
+
+---
+### Before You Continue
+
+You'll notice we've added a `BoardColorizer` namespace & `display` function to the `ChessBoard` file. It'll display the current board state and colors the characters for pieces on the board according to the players' representative colors. This is to help you debug your code (and show a little bit of how terminals work).
+
+If you're wondering how it works, [see here for a little more info.](https://andrewnoske.com/wiki/Unix_-_ANSI_colors). Effectively, you've heard of `\n` representing a newline, so we have some other combination of symbols that tell the terminal to render text with a specific color. 
+
+**This has been tested on *Linux* machines.** If you are using Windows, I'd strongly recommend to use WSL: Windows Subsystem for Linux [(see here for more info)](https://learn.microsoft.com/en-us/windows/wsl/install). Effectively, it gives you a Linux environment on your Windows machine.
+
+*If the colored printing still doesn't work, feel free to modify the display function as you see fit to make it more helpful for you (since you won't be able to distinguish between player 1 and 2's pieces). We will not be grading it.*
+
+**We will ONLY be grading the underlying board state, so no need to worry about the good ol' typo-in-my-print-function error.** But you're still better off providing *detailed instructions* when asking the user for input, because you won't be able to test your code otherwise.
+
+---
+
+### Task 1: Moving Out & About: Implementing the `Move` class
+Ok, no dilly-dallying. We're jumping right into the project.
+
+You've made classes before, but we'll have a few new things: `std::pair` & explicitly marking the default constructor as deleted.
+
+View [some examples here](https://www.geeksforgeeks.org/pair-in-cpp-stl), but effectively, think of this as a `std::vector` with two elements; a `first` and a `second`. And that's it. We'll be using a `std::pair<int,int>` to store the `(row, col)` of a square, instead of making an entirely new class OR wasting space with a vector.
+
+#### File Hierarchy
+First, create `Move.hpp` and `Move.cpp`, and store them in the same directory as `ChessBoard.hpp` and `ChessBoard.cpp` (same location that `Transform` was in, in the last project). If it's not in the right location, your program won't compile.
+
+#### Type-Aliasing for Clarity
+At the top of `Move.hpp`, like last project (outside the `Move` class definition), feel free to include the following alias, to make things a little more readable at first glance.
+```c++
+/** We alias a pair of integers as a square (or cell).
+ * The `first` element in the pair corresponds to the `row`
+ * and the second to the `column` */ 
+typedef std::pair<int,int> Square;
+```
+
+**More importantly, make sure to include the `<utility>` header as well.**
+
+#### Private Members
+```c++
+ChessPiece* moved_piece_;  // A pointer to the piece that moved
+ChessPiece* captured_piece_;  // A pointer to the piece that was captured (or nullptr if none)
+Square from_ // Represents the original square that `moved_piece_` started from
+Square to_ // Represents the destination square that `moved_piece_` moved to
+```
+<small>NOTE: Anytime you see `Square`, you can feel free to replace it with `std::pair<int,int>`, since Square is just another 'name' for that type. </small>
+
+#### Constructors
+**1. Default Constructor**
+Since it doesn't make sense for us to create a `Move` object with no parameters (we'll only be constructing `Move` objects when we have specific move information we need to store), we **mark the default constructor deleted in `Move.hpp`.** 
+
+```c++
+Move() = delete;
+```
+**2. Parameterized Constructor**
+And now we provide a parameterized constructor, which will be the *only* way to initialize a `Move` object.
+```c++
+/**
+ * Constructs a Move object representing a move on a chessboard.
+ *
+ * @param from A const ref. to a pair of integers (ie. "Square") representing
+ *             the starting square of the move.
+ * @param to A const ref. to a pair of integers (ie. "Square") representing
+ *           the destination square of the move.
+ * @param moved_piece A pointer to the ChessPiece that was moved.
+ * @param captured_piece A pointer to the ChessPiece that was 
+ *        captured during the move. Default value nullptr.
+ *        Nullptr is also used if we have no piece that was captured.
+ * @post The private members of the Move are updated accordingly.
+ */
+Move
+```
+
+#### Accessors
+Since we will only ever to construct our `Move` with the move information we want to store, we will NOT make mutator functions for `Move`. 
+
+It's similar to when you check your internet search history: *you aren't allowed to modify the names of the sites you visited or the terms you searched up.* Similarly, users *will not be allowed to modify the Move information itself once it has been constructed (eg. where the destination space was).*
+```c++
+/**
+ * Gets the original position (starting square) of the move.
+ * @return The original position as a Square (std::pair<int, int>).
+ */
+getOriginalPosition
+
+/**
+ * Gets the target position (destination square) of the move.
+ * @return The target position as a Square (std::pair<int, int>).
+ */
+getTargetPosition
+
+/**
+ * Gets a pointer to the ChessPiece that was moved.
+ * @return A pointer to the moved ChessPiece.
+ */
+getMovedPiece
+
+/**
+ * Gets a pointer to the ChessPiece that was captured during the move.
+ * @return A pointer to the captured ChessPiece, or nullptr if no piece was captured.
+ */
+getCapturedPiece
+```
+
+### Task 2: Begin the Turn-Based Combat: Adding `attemptRound()`
+Now we'll begin with the actual simulation. 
+
+#### Part A: Storing Move History
+This parts simple. To track the moves we've made, we'll want to use a stack of `Move` objects. 
+
+So we add a new private member to `ChessBoard`:
+
+```c++
+std::stack<Move> past_moves_ // Stores all previously executed moves
+```
+
+**And don't forget to import the `<stack>` standard library header as well.**
+
+#### Part B: Putting it Into Practice
+We've already given you the `move()` method in `ChessBoard`, which handles the movement logic for pieces. Reposting the function signature here:
+```c++ 
+/**
+* @brief Moves the piece at (row,col) to (new_row, new_col), if possible
+* 
+* @return True if the move was successfullcol executed. 
+* 
+*      A move is possible if:
+*      1) (row,col) is a valid space on the board ( ie. within [0, BOARD_LENGTH) )
+*      2) There exists a piece at (row,col)
+*      3) The color of the piece equals the color of the current player whose turn it is
+*      4) The piece "can move" to the target location (new_row, new_col) 
+*           and (if applicable) the piece being captured is not of type "KING"
+* 
+*      Otherwise the move is invalid and nothing occurs / false is returned.
+* 
+* @post If the move is possible, it is executed
+*      - board is updated to reflect the move
+*      - The moved piece's row and col members are updated to reflect the move
+*      If a pawn is moved from its start position, its double_jumpable_ flag is set to false.. 
+*/
+bool ChessBoard::move(const int& row, const int& col, const int& new_row, const int& new_col);
+```
+<small>NOTE: For simplicity, this method only accomodates standard moves, and not the Rook's `castle` feature; for this reason, we've also disabled castling in the `Rook` `canMove()` implementation.</small>
+
+**Now it's your turn.**
+
+In `ChessBoard.hpp` we'll be adding `attemptRound()` a function that does the following:
+
+**1. Prompts the user to select a square on the board (as two space-separated integers), corresponding to the piece they want to move or type in anything else to undo the last move.**
+**2. Reads in user input.**
+-   Note, if the input is not strictly two integers (eg. the user types "NOT A NUMBER"), we'll count this as an *undo* and return whether the undo operation was succesful or not. Specifically, we'll be relying on `std::cin.fail()` [(see here for an example)](https://www.geeksforgeeks.org/how-to-use-cin-fail-method-in-cpp/#) to delineate this.
+-   And since we've yet to implement `undo`, *just stub this case for now.*
+
+**3. Prompts the user to select another square on the board, corresponding to the space they want their selected piece to move to, or type in anything else to undo the last move.**
+**4. Reads in the user input.**
+- Same as above, if the input is not strictly two integers, *undo* and return whether it suceeded or not. 
+
+**5. Attempts to execute the move.**
+-   The specified square exists on the board (ie. the row & col are in [0, BOARD_LENGTH) )
+-   The `move()` method executes succesfully given the specified squares
+
+**6. If the move was executed succesfully:**
+-   Push a `Move` to the `past_moves_` detailing the move we just made.
+-   Notice, `move()` actually executes the move and *may remove the 'captured piece' from play*, so you may want to construct the `Move` object *before* the move is executed.
+**7. If the move OR undo was executed succesfully:**
+-   Toggle the `playerOneTurn` member of `ChessBoard`
+
+
+As some additional clarification, notice that we read in TWO pairs of integers (the start square and the destination square), regardless of whether or not the first pair actually selects a piece on the board.* **Do not terminate early unless for an *undo*.** See below for example cases as well.
+
+```c++
+/**
+ * @brief Attempts to execute a round of play on the chessboard. A round consists of the 
+ * following sequence of actions:
+ * 
+ * 1) Prompts the user to select a piece by entering two space-separated integers 
+ *    or type anything else to undo the last move
+ * 2) Records their input, or returns the result of attempting to undo the previous action
+ * 3) Prompt the user to select a target square to move the piece 
+ *    or type anything else to undo.
+ * 4) Records their input, or returns the result of attempting to undo the previous action
+ * 5) Attempt to execute the move, using move()
+ * 6) If the move is successful, records the action by pushing a Move to past_moves_.
+ * 7) If the move OR undo is successful, toggles the `playerOneTurn` boolean member of `ChessBoard`
+ * 
+ * @return Returns true if the round has been completed successfully, that is:
+ *      - If a pieced was succesfully moved.
+ *      - Or a move was successfully undone.
+ * @post The `past_moves_` stack & `playerOneTurn` members are updated as described above
+ */
+attemptRound
+```
+
+**Here are some example cases to clarify expected behavior.**
+Note, you are not required to use these specific prompt messages. We'll be checking the underlying board state and return values.
+
+Consider the following board configuration:
+```bash
+7 | R N B K Q B N R
+6 | P P * P P P P P
+5 | * * * * * * * *
+4 | * * P * * * * *
+3 | * * * * * * P *
+2 | * * * * * * * *
+1 | P P P P P P * P
+0 | R N B K Q B N R
+    ---------------
+    0 1 2 3 4 5 6 7
+```
+With Move History:
+```
+1. PLAYER ONE: (1,6) -> (3,6)
+2. PLAYER TWO: (6,2) -> (4,2)
+```
+
+Valid Move Example:
+```bash
+[PLAYER 1] Select a piece (Enter two integers: '<row> <col>'), or any other input to undo the last action.
+1 2
+[PLAYER 1] Specify a square to move to (Enter two integers: '<row> <col>'), or any other input to undo the last action.
+3 2 
+Moved (1,2) to (3,2)
+# Now it is P2's turn
+```
+
+Invalid Move Example:
+```bash
+[PLAYER 1] Select a piece (Enter two integers: '<row> <col>'), or any other input to undo the last action.
+4 2
+[PLAYER 1] Specify a square to move to (Enter two integers: '<row> <col>'), or any other input to undo the last action.
+2 4
+Unable to move piece at (4,2) to (2,4)
+# It should still be is P1's turn; notice there is no piece at (4,2) but we still read in both pairs of integers
+```
+
+Undo Example:
+```bash
+[PLAYER 1] Select a piece (Enter two integers: '<row> <col>'), or any other input to undo the last action.
+UNDO
+Undid move from (6,2) to (4,2)
+# Now it is P2's turn since their previous move was undone
+```
+
+### Task 3: Ctrl + Z Moment: Implementing `undo`
+Ok so we've talked a lot about `undo()` in the previous task, so now's the time to implement it.
+
+#### Part A: Write the `undo` Method
+Add the `undo()` method to `ChessBoard` as follows:
+
+```c++
+/**
+ * @brief Reverts the most recent action executed by a player,
+ *        if there is a `Move` object in the `past_moves_` stack
+ * 
+ *        This is done by updating the moved piece to its original
+ *        position, and the captured piece (if applicable) to the target
+ *        position specified by the `Move` object at the top of the stack
+ * 
+ * @return True if the action was undone succesfully.
+ *         False otherwise (ie. if there are no moves to undo)
+ * 
+ * @post 1) Reverts the `board` member's pointers to reflect
+ *          the board state before the most recent move, if possible. 
+ *       2) Updates the row / col members of each involved `ChessPiece` 
+ *          (ie. the moved & captured pieces) to match their reverted 
+ *          positions on the board
+ *       3) The most recent `Move` object is removed from the `past_moves_`
+ *          stack 
+ */ 
+undo
+```
+
+#### Part B: Integrate `undo` Into `attemptRound`
+Now that we've written `undo`, we just need to integrate it into `attemptRound`. 
+
+Remember how we stubbed it earlier? Well, now we just need to handle the case where a user inputs a string, when we expect to read in integers. Remember, you can use `std::cin.fail()` for this to simplify the process. 
+
+And that's it! Here's some examples to show you the expected behavior:
+
+Undo Example #1 (from above):
+```bash
+[PLAYER 1] Select a piece (Enter two integers: '<row> <col>'), or any other input to undo the last action.
+UNDO
+Undid move from (6,2) to (4,2)
+# Now it is P2's turn since their previous move was undone
+```
+
+Undo Example #2 (for additional clarification):
+```bash
+[PLAYER 1] Select a piece (Enter two integers: '<row> <col>'), or any other input to undo the last action.
+4 2
+[PLAYER 1] Specify a square to move to (Enter two integers: '<row> <col>'), or any other input to undo the last action.
+TYPO!!!
+Undid move from (6,2) to (4,2)
+# Once again, it is P2's turn since their previous move was undone
+```
+
+### Submission, Testing, & Debugging
+
+You will submit your solution to Gradescope. 
+
+Seeing as we have a folder structure in our repo, we'll search your submission for the filenames listed below, so feel free to submit via GitHub repo OR just upload the files directly.
+
+**Just make sure there's only copy of each filename in your ENTIRE repo / submission (ie. do NOT have more than one file named `ChessPiece.hpp`, no matter the location).**
+
+The autograder will grade the following files:
+```
+1. ChessBoard.hpp
+2. ChessBoard.cpp
+3. Move.hpp
+4. Move.cpp
+```
+
+**Please ensure that the `ChessBoard` and `Move` classes are located in the same directory layer. (ie. their parent folder should be the same)**
+
+Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging, and it should not be used for that purpose. You MUST test and debug your program locally. 
+
+**To help prevent over-reliance on Gradescope for testing, only 5 submissions per day will be allowed.**
+
+Before submitting to Gradescope, you MUST ensure that your program compiles using the provided Makefile and runs correctly on the Linux machines in the labs at Hunter College. This is your baseline—if it runs correctly there, it will run correctly on Gradescope. If it does not, you will have the necessary feedback (compiler error messages, debugger, or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above, submit it to Gradescope.
+
+### Testing: Compiling with the Included `Makefile`
+
+*For your convenience, we've included a `Makefile`, which allows you to quickly re-compile your code, instead of writing `g++` over and over again. **It also ensures that your code is being compiled using the correct version of C++. And by correct one, we mean the one the auto-grader uses.***
+
+In the terminal, in the same directory as your `Makefile` and your source files, you can use the following commands:
+
+```bash
+make # Compiles all recently modified files specified by the OBJs list
+make clean # Removes all files ending in .o from your directory, ie. clears your folder of old code
+make rebulild # Performs clean and make in one step
+```
+
+This assumes you did not rename the Makefile and that it is the only one in the current directory.
+
+### Debugging
+*Here are some quick tips, in case you run into the infamous "It compiles on my machine, but not on Gradescope"*
+1) Ensure your filenames are correct (case-sensitive), and don't contain leading / trailing spaces 
+2) Ensure that your function signatures are correct (ie. function name spelling, order/type of the parameters, return type). 
+**This also includes `const` declarations. Remember, if a function does *not* modify the underlying object, it must be declared `const`.** 
+3) Make sure to `import` any STL modules you may use.
+
+---
+
+### Grading Rubric
+- **Correctness:** 80% (distributed across unit testing of your submission)
+- **Documentation:** 15%
+- **Style and Design:** 5% (proper naming, modularity, and organization)
+
+---
+
+### Due Date
+This project is **due on [DUE DATE]**.
+*No late submission will be accepted.*
+
+---
+
+### Important Notes
+You must start working on the projects as soon as they are assigned to detect any problems and to address them with us well before the deadline so that we have time to get back to you before the deadline.
+
+
+**There will be no extensions and no negotiation about project grades after the submission deadline.**
+
+---
+
+### Additional Help
+
+Help is available via drop-in tutoring in Lab 1001B (see Blackboard for schedule). You will be able to get help if you start early and go to the lab early. We only a finite number of UTAs in the lab; **the days leading up to the due date will be crowded and you may not be able to get much help then.**
+
+Authors: Daniel Sooknanan, Georgina Woo, Prof. Maryash
+
+Credit to Prof. Ligorio & Prof. Wole
