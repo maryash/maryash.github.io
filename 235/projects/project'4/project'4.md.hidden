@@ -1,0 +1,247 @@
+
+# CONFIG UNSET
+<!-- CONFIG, ie. make sure to set these before DEPLOYING -->
+[DUE DATE]: TBD
+
+<!-- BEGIN PROJECT SPECS -->
+
+# Algorithmic Adventures: The King's Gambit
+
+## Project 4: Moving Up In the World
+This time, we'll be introducing moves to our chess simulation. To do this, we're going to leverage Polymorpishm, abstract classes, and virtual functions.
+
+In this project you will:
+1) Modify the `ChessPiece` base class, adding a pure virtual function `canMove()`, and converting it into an *abstract class*.
+2) Implement `canMove` for the `Queen`, `King`, and `Bishop` classes.
+
+---
+#### Additional Resources (if you need)
+
+---
+### Before You Continue
+
+You'll notice we have a lot of files in this project. So we've done some house-cleaning and organized them into folders.
+
+The hierarchy you see stores the chess piece files neatly, with everything moved into a pieces folder for tidiness. Notice the `pieces_module.hpp`: a file that bundles all piece headers. By including this, we can include all these files, while only using *one* include statement. 
+
+I'd encourage you to utilize when testing your code. We sure will when testing yours.\
+
+**NOTE: Do *not* modify the include statements of any of the piece files. You should only place your code below the line denoting where your code should go. Especially *do not* include `ChessBoard` as you'll get circular importing errors.** 
+
+
+---
+
+### Task 1: `ChessPiece` Goes Virtual
+
+#### Part A: Tracking Move History
+We'll start off by adding some new functionality for a `ChessPiece` which tells us whether a piece has moved or not.
+
+Let's add the following private member variable:
+```c++
+bool has_moved_ // A boolean flag representing whether a piece has moved on the board or not
+```
+
+And now for its accessors and mutator:
+```c++
+/**
+ * @brief Checks if the ChessPiece has moved.
+ * @return The value stored in has_moved_
+ */
+hasMoved
+
+/**
+ * @brief Flags the ChessPiece as having moved.
+ * @post The has_moved_ member is set to true.
+ */
+flagMoved
+```
+
+#### Part B: Abstracting `ChessPiece`
+Now we'll start getting into the polymorphic-side of things. Let's define a *pure virtual* function in `ChessPiece.hpp`
+
+```c++
+/**
+ * @brief Determines whether the ChessPiece can move to a specified target position on the board.
+ *
+ * The validity of the move is determined dynamically at 
+ * runtime and depends on the specific implementation in derived classes.
+ *
+ * @param target_row An integer representing the row of the target position on the board.
+ * @param target_col An integer reprsenting the col of the target position on the board.
+ * @param board A const reference to a 2D vector of ChessPiece pointers 
+ *              representing the chessboard, where each cell contains a
+ *              pointer to a ChessPiece or nullptr if the cell is empty.
+ * 
+ * @return True if the piece can move to the specified position; false otherwise.
+ * 
+ * @note This function is pure virtual and must be implemented by derived classes for specific 
+ *       piece behavior (e.g., King, Queen, Knight, etc.).
+ */
+canMove
+```
+
+And that's it! We don't need to add any implementation in `ChessPiece.cpp`, since we've marked this function *pure virtual* (its implementation is solely left to derived classes).
+
+---
+
+### Task 2: I Like to Move It, Move It 
+We've provided the files and some basic setup to get you started, but now we'll be implementing `canMove` for each of the following classes:
+1. King 
+2. Bishop
+3. Queen
+**Remember to mark these functions with `override` in their respective `.hpp` files.*
+
+#### Part A: Implementing King `canMove()`
+We'll start off with the most straightforward move, King. Of course, feel free to reference the other files given to get an example of how you might want to design your code.
+
+```c++
+/**
+ * @brief Determines whether the King can move to the specified target position on the board.
+ * @pre The row & col members of the Rook object match its actual position on the passed board object.
+ * 
+ * The King's movement follows these rules:
+ * 1. The King can move only one square in any direction.
+ * 2. The target square must either be empty (moving) or contain a piece of another color (capturing)
+ * 3. The target square must stay within the board's bounds, ie. not outside [0, BOARD_LENGTH)
+ * 4. The King cannot move to its currently occupied position (ie. it can't stand still).
+ * 
+ * @param target_row An integer reprsenting the row index of the target square on the board.
+ * @param target_col An integer reprsenting the column index of the target square on the board.
+ * @param board A 2D vector representing the current board state, 
+ *              where each cell points to a ChessPiece object or is null.
+ * 
+ * @return True if the King can move to the specified position; false otherwise.
+ */
+canMove
+```
+
+#### Part B: Implementing Bishop `canMove()`
+Now we'll move on to something a little more involved, Bishop's move.
+```c++
+/**
+ * @brief Determines whether the Bishop can move to the specified target position on the board.
+ * @pre The row & col members of the Bishop object match its actual position on the passed board object.
+ * 
+ * The Bishop's movement follows these rules:
+ * 1. The Bishop may move any number of squares diagonally from its current position
+ * 2. The path to the target square must be unobstructed by (ie. contain) other pieces, 
+ *      except for the target square itself.
+ * 3. The target square must either be empty (moving) or contain a piece of another color (capturing)
+ * 4. The target square must stay within the board's bounds, ie. not outside [0, BOARD_LENGTH)
+ * 5. The Bishop cannot move to its currently occupied position (i.e. it can't stand still).
+ * 
+ * @param target_row An integer representing the row index of the target square on the board.
+ * @param target_col An integer representing the column index of the target square on the board.
+ * @param board A 2D vector representing the current board state, 
+ *              where each cell points to a ChessPiece object or is null.
+ * 
+ * @return True if the Bishop can move to the specified position; false otherwise.
+ */
+canMove
+```
+
+#### Part C: Implementing Queen `canMove()`
+And lastly, we'll finish off by writing Queen's move logic.
+```c++
+/**
+ * @brief Determines whether the Queen can move to the specified target position on the board.
+ * @pre The row & col members of the Queen object match its actual position on the passed board object.
+ * 
+ * The Queen's movement follows these rules:
+ * 1. The Queen may move any number of squares
+ *      vertically, horizontally, or diagonally from its current position
+ * 2. The path to the target square must be unobstructed by (ie. contain) other pieces, 
+ *      except for the target square itself.
+ * 3. The target square must either be empty (moving) or contain a piece of another color (capturing)
+ * 4. The target square must stay within the board's bounds, ie. not outside [0, BOARD_LENGTH)
+ * 5. The Queen cannot move to its currently occupied position (i.e. it can't stand still).
+ * 
+ * @param target_row An integer representing the row index of the target square on the board.
+ * @param target_col An integer representing the column index of the target square on the board.
+ * @param board A 2D vector representing the current board state, 
+ *              where each cell points to a ChessPiece object or is null.
+ * 
+ * @return True if the Queen can move to the specified position; false otherwise.
+ */
+canMove
+```
+
+
+### Submission, Testing, & Debugging
+
+You will submit your solution to Gradescope. 
+
+Seeing as we have a folder structure in our repo, we'll search your submission for the filenames listed below, so feel free to submit via GitHub repo OR just upload the files directly.
+
+**Just make sure there's only copy of each filename in your ENTIRE repo / submission (ie. do NOT have more than one file named `ChessPiece.hpp`, no matter the location).**
+
+The autograder will grade the following files:
+```
+1. ChessPiece.cpp
+2. ChessPiece.hpp
+3. King.cpp
+4. King.hpp
+5. Bishop.cpp
+6. Bishop.hpp
+7. Queen.cpp
+8. Queen.hpp
+```
+
+**Once again, please do not modify the underlying file structure or import statements. You should only be modifying the provided files where specified.**
+
+Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging, and it should not be used for that purpose. You MUST test and debug your program locally. 
+
+**To help prevent over-reliance on Gradescope for testing, only 5 submissions per day will be allowed.**
+
+Before submitting to Gradescope, you MUST ensure that your program compiles using the provided Makefile and runs correctly on the Linux machines in the labs at Hunter College. This is your baseline—if it runs correctly there, it will run correctly on Gradescope. If it does not, you will have the necessary feedback (compiler error messages, debugger, or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above, submit it to Gradescope.
+
+### Testing: Compiling with the Included `Makefile`
+
+*For your convenience, we've included a `Makefile`, which allows you to quickly re-compile your code, instead of writing `g++` over and over again. **It also ensures that your code is being compiled using the correct version of C++. And by correct one, we mean the one the auto-grader uses.***
+
+In the terminal, in the same directory as your `Makefile` and your source files, you can use the following commands:
+
+```bash
+make # Compiles all recently modified files specified by the OBJs list
+make clean # Removes all files ending in .o from your directory, ie. clears your folder of old code
+make rebulild # Performs clean and make in one step
+```
+
+This assumes you did not rename the Makefile and that it is the only one in the current directory.
+
+### Debugging
+*Here are some quick tips, in case you run into the infamous "It compiles on my machine, but not on Gradescope"*
+1) Ensure your filenames are correct (case-sensitive), and don't contain leading / trailing spaces 
+2) Ensure that your function signatures are correct (ie. function name spelling, order/type of the parameters, return type). 
+**This also includes `const` declarations. Remember, if a function does *not* modify the underlying object, it must be declared `const`.** 
+
+---
+
+### Grading Rubric
+- **Correctness:** 80% (distributed across unit testing of your submission)
+- **Documentation:** 15%
+- **Style and Design:** 5% (proper naming, modularity, and organization)
+
+---
+
+### Due Date
+This project is **due on [DUE DATE]**.
+*No late submission will be accepted.*
+
+---
+
+### Important Notes
+You must start working on the projects as soon as they are assigned to detect any problems and to address them with us well before the deadline so that we have time to get back to you before the deadline.
+
+
+**There will be no extensions and no negotiation about project grades after the submission deadline.**
+
+---
+
+### Additional Help
+
+Help is available via drop-in tutoring in Lab 1001B (see Blackboard for schedule). You will be able to get help if you start early and go to the lab early. We only a finite number of UTAs in the lab; **the days leading up to the due date will be crowded and you may not be able to get much help then.**
+
+Authors: Daniel Sooknanan, Georgina Woo, Prof. Maryash
+
+Credit to Prof. Ligorio & Prof. Wole
