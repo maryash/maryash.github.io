@@ -6,10 +6,10 @@ title: PROJECT 1
 # PROJECT 1 &nbsp; Algorithmic Adventures: The&nbsp;King's Gambit
 <img src="./../../../files/235_chess.png" width="600"/>
 
-## CONFIG UNSET
+## CONFIG
 <!-- CONFIG, ie. make sure to set these before DEPLOYING -->
 [SUBMISSION_LIMIT]: 5
-[DUE DATE]: TBD
+[DUE DATE]: Feb 10 2025
 
 <!-- BEGIN PROJECT SPECS -->
 
@@ -49,7 +49,7 @@ to keep.**
 Classroom Tutorial](https://www.youtube.com/watch?v=AHDCokfgcSo)
     * Although the video is about a different course, the instructions are the same (with different repo and file names). The only difference is that we will not add a distribution branch, so you can ignore the part where it says to execute the two git commands in the readme file; there are not extra instructions in the readme file on our repo.
 
-**The link to accept the GitHub Classroom assignment can be found on Blackboard.**
+**The link to accept the GitHub Classroom assignment can be found** [here](https://classroom.github.com/a/kII2WPq3)
 
 ---
 #### Additional Resources to Brush Up On Basic OOP (if you need)
@@ -527,7 +527,7 @@ You must start working on the projects as soon as they are assigned to detect an
 
 ### Additional Help
 
-Help is available via drop-in tutoring in Lab 1001B (see Blackboard for schedule). You will be able to get help if you start early and go to the lab early. We only a finite number of UTAs in the lab; **the days leading up to the due date will be crowded and you may not be able to get much help then.**
+Help is available via drop-in tutoring in Lab 1001B. You will be able to get help if you start early and go to the lab early. We only a finite number of UTAs in the lab; **the days leading up to the due date will be crowded and you may not be able to get much help then.**
 
 Authors: Daniel Sooknanan, Georgina Woo, Prof. Maryash
 
