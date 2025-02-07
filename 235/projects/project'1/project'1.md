@@ -497,7 +497,7 @@ You will submit your solution to Gradescope via GitHub Classroom. The autograder
 
 Although Gradescope allows multiple submissions, it is not a platform for testing and/or debugging, and it should not be used for that purpose. You MUST test and debug your program locally. 
 
-**To help prevent over-reliance on Gradescope for testing, only [SUBMISSION_LIMIT] submissions per day will be allowed.**
+**To help prevent over-reliance on Gradescope for testing, only 5 submissions per day will be allowed.**
 
 Before submitting to Gradescope, you MUST ensure that your program compiles using the provided Makefile and runs correctly on the Linux machines in the labs at Hunter College. This is your baseline—if it runs correctly there, it will run correctly on Gradescope. If it does not, you will have the necessary feedback (compiler error messages, debugger, or program output) to guide you in debugging, which you don’t have through Gradescope. “But it ran on my machine!” is not a valid argument for a submission that does not compile. Once you have done all the above, submit it to Gradescope.
 
@@ -507,12 +507,12 @@ Before submitting to Gradescope, you MUST ensure that your program compiles usin
 - **Correctness:** 80% (distributed across unit testing of your submission)
 - **Documentation:** 15%
 - **Style and Design:** 5% (proper naming, modularity, and organization)
-- **EXTRA CREDIT:** 5% (make a submission that scores at least 30 points by Febuary 11th, 11:59PM EST)
+- **EXTRA CREDIT:** 5% (make a submission that scores at least 30 points by 2/11 at 11:59PM EST)
 
 ---
 
 ### Due Date
-This project is **due on [DUE DATE]**.
+This project is **due by 2/14 at 11:59**.
 *No late submission will be accepted.*
 
 ---
