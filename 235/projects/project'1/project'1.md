@@ -507,6 +507,7 @@ Before submitting to Gradescope, you MUST ensure that your program compiles usin
 - **Correctness:** 80% (distributed across unit testing of your submission)
 - **Documentation:** 15%
 - **Style and Design:** 5% (proper naming, modularity, and organization)
+- **EXTRA CREDIT:** 5% (make a submission that scores at least 30 points by Febuary 11th, 11:59PM EST)
 
 ---
 
