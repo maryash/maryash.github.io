@@ -27,6 +27,8 @@ fresh your knowledge of basic OOP, and let you git the ground running with new m
 
 In order to successfully complete this project, we strongly recommend that you look back to your CSCI 135 coursework for reference.
 
+**Note:** Do not use namespace std in any of the projects for this class. For reasons that will be discussed in class, it is better to not rely on it and get in the habit of using the namespace resolution operator. While you may pass some of the gradescope tests even if you're using the namespace, others will fail. 
+
 ---
 
 ## Task 1: Getting Started with GitHub Classroom
