@@ -30,7 +30,7 @@ Please note: once WSL is configured properly, stop watching the video and go to 
 
 [**Makefile Guide**](files/Make.pdf){:target="_blank"}
 
-[**Common Compilation Errors**](files/Common%20Compilation%20Errors.pdf{:target="_blank"})  
+[**Common Compilation Errors**](files/Common%20Compilation%20Errors.pdf){:target="_blank"}  
 
 [**CSCI235 Discord Invite Link**](https://discord.gg/eXUwdCZCky){:target="_blank"}
 
