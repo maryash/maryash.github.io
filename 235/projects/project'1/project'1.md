@@ -234,7 +234,7 @@ getColumn
 
 /**
  * @brief Sets the column position of the chess piece 
- * @param row A const reference to an integer representing the new column of the piece
+ * @param column A const reference to an integer representing the new column of the piece
  *
  * If the supplied value is outside the board dimensions [0, BOARD_LENGTH),
  *  the ChessPiece is considered to be taken off the board, and its row AND column are set to -1 instead.
