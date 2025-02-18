@@ -5,7 +5,6 @@
   <img src="./../../../files/235_header.png" width="800"/>
 </p>
 
-
 ## Project 2: Boxing Up Our Pieces
 This time, we'll be building on Inheritance & getting our feet wet with Abstract Data Types (ADTs).
 
@@ -560,6 +559,10 @@ contains
 ```
 
 ## Submission, Testing, & Debugging
+
+<p align="center">
+  <img src="./../../../files/235_compileoffer.png" width="800"/>
+</p>
 
 You will submit your solution to Gradescope via GitHub Classroom. The autograder will grade the following files:
 
