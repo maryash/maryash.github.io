@@ -354,7 +354,6 @@ addItem
 * @param type A const reference to a string specifying the type of the object to remove
 *
 * @post Objects after the removed instance are shifted elements over by the size of the object we just removed
-*      so the values between adjacent items
 * 
 * @return True if the remove operation was successfully performed. False otherwise.
 * 
