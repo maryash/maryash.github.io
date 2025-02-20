@@ -312,9 +312,9 @@ Trust me, it'll help you debug your code.
 ```c++
 /**
  * @brief Appends the parameter item to the `items_` array such that:
- *  1) There current size_ and target.getSize() is small enough 
+ *  1) There current size_ and target.size() is small enough 
  *      that the item can be added without exceeding the ArrayBox capacity_
- *  2) The target item takes up target.getSize() spaces at 
+ *  2) The target item takes up target.size() spaces at 
  *      starting at the leftmost non-occupied space
  * 
  * @param type A const reference to an item of type T, specifying the object to add
