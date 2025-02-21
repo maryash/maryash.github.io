@@ -1,6 +1,6 @@
 ---  
 layout: myDefault
-title: PROJECT 1
+title: PROJECT 2
 ---  
 
 # Algorithmic Adventures: The King's Gambit
@@ -39,6 +39,7 @@ Work through the tasks sequentially (implement and test). Only move on to a task
 2) Functions that *do not* modify the object must be declared `const`
 3) Document your code! The doc requirements still apply!
 
+**The link to accept the GitHub Classroom assignment can be found** [here](https://classroom.github.com/a/8MhI58HA)
 ---
 
 ## Task 1: New Year, New Me: Updating `ChessPiece`, `Pawn`, & `Rook`
