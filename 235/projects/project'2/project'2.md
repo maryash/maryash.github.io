@@ -615,6 +615,7 @@ This assumes you did not rename the Makefile and that it is the only one in the 
 - **Correctness:** 80% (distributed across unit testing of your submission)
 - **Documentation:** 15%
 - **Style and Design:** 5% (proper naming, modularity, and organization)
+- **EXTRA CREDIT:** 5% (make a submission that scores at least 40 points by 2/26 at 11:59PM EST)
 
 ---
 
