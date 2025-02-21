@@ -615,7 +615,7 @@ This assumes you did not rename the Makefile and that it is the only one in the 
 ---
 
 ### Due Date
-This project is **due on 3/7**.
+This project is **due on 3/4**.
 *No late submission will be accepted.*
 
 ---
