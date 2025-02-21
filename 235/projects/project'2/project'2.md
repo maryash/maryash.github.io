@@ -1,4 +1,7 @@
-<!-- BEGIN PROJECT SPECS -->
+---  
+layout: myDefault
+title: PROJECT 1
+---  
 
 # Algorithmic Adventures: The King's Gambit
 <p align="center">
