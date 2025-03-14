@@ -1,9 +1,4 @@
 
-# CONFIG UNSET
-<!-- CONFIG, ie. make sure to set these before DEPLOYING -->
-[SUBMISSION_LIMIT]: 5
-[DUE DATE]: TBD
-
 <!-- BEGIN PROJECT SPECS -->
 
 # Algorithmic Adventures: The King's Gambit
@@ -353,7 +348,7 @@ This assumes you did not rename the Makefile and that it is the only one in the 
 ---
 
 ### Due Date
-This project is **due on [DUE DATE]**.
+This project is **due on  March 28 2025**.
 *No late submission will be accepted.*
 
 ---
