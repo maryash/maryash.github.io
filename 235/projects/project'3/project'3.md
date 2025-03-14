@@ -20,6 +20,8 @@ In this project you will:
 1) Implement the `LinkedBox` class, an ADT which supports storage of any class with `size()` & `getType()` functions. 
 2) Modify the `ChessBox` class, altering the underlying structure used to store our pieces to use `LinkedBox` in lieu of `ArrayBox`
 
+**The link to accept the GitHub Classroom assignment can be found** [here](https://classroom.github.com/a/Fw0RMUz5)
+
 ---
 #### Additional Resources (if you need)
 Abstract Data Types
