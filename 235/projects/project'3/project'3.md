@@ -1,4 +1,3 @@
-
 <!-- BEGIN PROJECT SPECS -->
 
 # Algorithmic Adventures: The King's Gambit
