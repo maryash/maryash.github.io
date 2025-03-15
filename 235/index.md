@@ -49,6 +49,7 @@ Please note: once WSL is configured properly, stop watching the video and go to 
  3/4 | Link-Based<br/>Implementation | [Chapter&nbsp;4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/110%5B%3Bvnd.vst.idref%3DP7001011925000000000000000001798%5D!/4/2%5BP7001011925000000000000000001798%5D/2/2%5BP7001011925000000000000000009F33%5D/4%400:0){:target="_blank"} | [LinkedBag](slides/07_LinkedBag.pdf){:target="_blank"} | [SQ&nbsp;LinkedBag&nbsp;](study_questions/sq_03_LinkedChain.pdf){:target="_blank"} 
  3/7 | Copy Constructor |  | [Copy Constructor](slides/08_Copy_Constructor.pdf){:target="_blank"} | 
  3/11 | Lists | [Chapter&nbsp;8](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/188%5B%3Bvnd.vst.idref%3DP7001011925000000000000000002728%5D!/4/2%5BP7001011925000000000000000002728%5D/2/2%5BP700101192500000000000000000AC19%5D/4%400:0){:target="_blank"}<br/>[Chapter&nbsp;9](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/202%5B%3Bvnd.vst.idref%3DP700101192500000000000000000295E%5D!/4/2%5BP700101192500000000000000000295E%5D/2/2%5BP700101192500000000000000000AE08%5D/4%400:0){:target="_blank"} | [Lists](slides/09_lists.pdf){:target="_blank"} | [SQ&nbsp;Lists&nbsp;](study_questions/sq_04_lists.pdf){:target="_blank"} 
+ 3/14 | Exception Handling | [C++&nbsp;Interlude&nbsp;3](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/162%5B%3Bvnd.vst.idref%3DP7001011925000000000000000002395%5D!/4/2%5BP7001011925000000000000000002395%5D/2/2%5BP700101192500000000000000000A90C%5D/4%400:0){:target="_blank"} | [Exception Handling](slides/10_exception_handling.pdf){:target="_blank"} | [**Project 3 &nbsp; due 3/28**](projects/project'3/project'3.html){:target="_blank"} 
 
      
 <!-- 
@@ -56,7 +57,6 @@ Please note: once WSL is configured properly, stop watching the video and go to 
  
  2/22 |  |  |  | 
  
- 3/15 | Exception Handling | [C++&nbsp;Interlude&nbsp;3](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/162%5B%3Bvnd.vst.idref%3DP7001011925000000000000000002395%5D!/4/2%5BP7001011925000000000000000002395%5D/2/2%5BP700101192500000000000000000A90C%5D/4%400:0){:target="_blank"} | [Exception Handling](slides/10_exception_handling.pdf){:target="_blank"} | [**Project 3 &nbsp; due 4/5**](projects/project-3/project-3.html){:target="_blank"} 
  3/18 | Polymorphism<br/>*(not on midterm)* | [C++&nbsp;Interlude&nbsp;2.4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/106%5B%3Bvnd.vst.idref%3DP70010119250000000000000000016EA%5D!/4/6%400:0){:target="_blank"} | [Polymorphism](slides/11_polymorphism.pdf){:target="_blank"} | [SQ&nbsp;Polymorphism&nbsp;9/20](study_questions/sq_05_polymorphism.pdf){:target="_blank"} 
  3/18 | Midterm Review |  |  | 
  3/22 | *MIDTRERM* | *EXAM* |  | 
