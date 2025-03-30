@@ -1,21 +1,37 @@
 
-# CONFIG UNSET
-<!-- CONFIG, ie. make sure to set these before DEPLOYING -->
-[DUE DATE]: TBD
 
 <!-- BEGIN PROJECT SPECS -->
 
 # Algorithmic Adventures: The King's Gambit
 
 ## Project 4: Moving Up In the World
-This time, we'll be introducing moves to our chess simulation. To do this, we're going to leverage Polymorpishm, abstract classes, and virtual functions.
+
+<p align="center">
+  <img src="./../../../files/235_moving.png" width="500"/>
+</p>
+
+This time, we'll be introducing moves to our chess simulation. To do this, we're going to leverage Polymorphism, abstract classes, and virtual functions.
 
 In this project you will:
 1) Modify the `ChessPiece` base class, adding a pure virtual function `canMove()`, and converting it into an *abstract class*.
 2) Implement `canMove` for the `Queen`, `King`, and `Bishop` classes.
 
+**The link to accept the GitHub Classroom assignment can be found** [here](https://classroom.github.com/a/yzE6ngjo)
+
 ---
 #### Additional Resources (if you need)
+
+Abstract Data Types
+* [Geeks for Geeks](https://www.geeksforgeeks.org/abstract-data-types/)
+* [Neso Academy](https://www.geeksforgeeks.org/abstract-data-types/)
+
+Template Classes
+* [Geeks for Geeks](https://www.geeksforgeeks.org/templates-cpp/)
+* [CPP Manual](https://cplusplus.com/doc/oldtutorial/templates/)
+* [Tutorials Point](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm)
+
+Polymorphism
+* [Geeks for Geeks](https://www.geeksforgeeks.org/cpp-polymorphism/)
 
 ---
 ### Before You Continue
@@ -30,6 +46,9 @@ I'd encourage you to utilize this when testing your code. We sure will when test
 
 
 ---
+<p align="center">
+  <img src="./../../../files/235_abstraction.png" width="500"/>
+</p>
 
 ### Task 1: `ChessPiece` Goes Virtual
 
@@ -169,6 +188,10 @@ canMove
 
 ### Submission, Testing, & Debugging
 
+<p align="center">
+  <img src="./../../../files/235_bathcat.png" width="500"/>
+</p>
+
 You will submit your solution to Gradescope. 
 
 Seeing as we have a folder structure in our repo, we'll search your submission for the filenames listed below, so feel free to submit via GitHub repo OR just upload the files directly.
@@ -204,7 +227,7 @@ In the terminal, in the same directory as your `Makefile` and your source files,
 ```bash
 make # Compiles all recently modified files specified by the OBJs list
 make clean # Removes all files ending in .o from your directory, ie. clears your folder of old code
-make rebulild # Performs clean and make in one step
+make rebuild # Performs clean and make in one step
 ```
 
 This assumes you did not rename the Makefile and that it is the only one in the current directory.
