@@ -1,6 +1,11 @@
 # Algorithmic Adventures: The King's Gambit
 
 ## Project 5: Backtracking to a Classic Problem
+
+<p align="center">
+  <img src="./../../../files/235_recursion.png" width="500"/>
+</p>
+
 Now we'll be delving into recursion, specifically recursive backtracking. Since we're playing chess, it's only natural that we tackle the N-Queens problem. 
 
 In this project you will:
