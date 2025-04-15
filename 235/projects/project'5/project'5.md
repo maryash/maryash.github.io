@@ -3,7 +3,7 @@
 ## Project 5: Backtracking to a Classic Problem
 
 <p align="center">
-  <img src="./../../../files/235_recursion.png" width="500"/>
+  <img src="./../../../files/235_recursion.jpg" width="500"/>
 </p>
 
 Now we'll be delving into recursion, specifically recursive backtracking. Since we're playing chess, it's only natural that we tackle the N-Queens problem. 
@@ -210,6 +210,9 @@ groupSimilarBoards
 ---
 
 ### Submission, Testing, & Debugging
+<p align="center">
+  <img src="./../../../files/235_distractedtest.png" width="500"/>
+</p>
 
 You will submit your solution to Gradescope. 
 
@@ -263,7 +266,7 @@ This assumes you did not rename the Makefile and that it is the only one in the 
 ---
 
 ### Due Date
-This project is **due on [DUE DATE]**.
+This project is **due on April 25 2025**.
 *No late submission will be accepted.*
 
 ---
