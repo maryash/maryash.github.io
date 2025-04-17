@@ -3,7 +3,7 @@ layout: myDefault
 title: PROJECT 3
 ---  
 
-# Chaining Things Together
+# PROJECT 3 &nbsp; Chaining Things Together
 
 <p align="center">
   <img src="./../../../files/235_chains.png" width="500"/>
