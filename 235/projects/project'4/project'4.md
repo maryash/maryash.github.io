@@ -1,10 +1,9 @@
+---  
+layout: myDefault
+title: PROJECT 2
+---  
 
-
-<!-- BEGIN PROJECT SPECS -->
-
-# Algorithmic Adventures: The King's Gambit
-
-## Project 4: Moving Up In the World
+# Moving Up In the World
 
 <p align="center">
   <img src="./../../../files/235_moving.png" width="500"/>
