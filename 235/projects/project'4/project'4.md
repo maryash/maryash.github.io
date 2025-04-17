@@ -3,7 +3,7 @@ layout: myDefault
 title: PROJECT 4
 ---  
 
-# Moving Up In the World
+# PROJECT 4 &nbsp; Moving Up In the World
 
 <p align="center">
   <img src="./../../../files/235_moving.png" width="500"/>
