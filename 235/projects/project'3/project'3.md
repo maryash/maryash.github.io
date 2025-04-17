@@ -1,8 +1,9 @@
-<!-- BEGIN PROJECT SPECS -->
+---  
+layout: myDefault
+title: PROJECT 3
+---  
 
-# Algorithmic Adventures: The King's Gambit
-
-## Project 3: Chaining Things Together
+# Chaining Things Together
 
 <p align="center">
   <img src="./../../../files/235_chains.png" width="500"/>
