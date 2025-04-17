@@ -3,7 +3,7 @@ layout: myDefault
 title: PROJECT 2
 ---  
 
-# Algorithmic Adventures: The King's Gambit
+# PROJECT 2 &nbsp; Algorithmic Adventures: The King's Gambit
 <p align="center">
   <img src="./../../../files/235_header.png" width="800"/>
 </p>
