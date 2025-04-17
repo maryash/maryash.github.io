@@ -3,7 +3,7 @@ layout: myDefault
 title: PROJECT 5
 ---  
 
-#  Backtracking to a Classic Problem
+# Backtracking to a Classic Problem
 
 <p align="center">
   <img src="./../../../files/235_recursion.jpg" width="500"/>
