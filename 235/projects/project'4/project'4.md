@@ -1,6 +1,6 @@
 ---  
 layout: myDefault
-title: PROJECT 2
+title: PROJECT 4
 ---  
 
 # Moving Up In the World
