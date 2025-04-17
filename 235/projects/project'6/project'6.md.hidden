@@ -3,7 +3,7 @@ layout: myDefault
 title: PROJECT 6
 ---  
 
-# Rounding Things Up
+# PROJECT 6 &nbsp; Rounding Things Up
 This time, we'll be adding rounds to our Chess simulation. And since no one's perfect, we'll be using this as an excuse to work with stacks to undo moves. 
 
 In this project you will:
