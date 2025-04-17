@@ -1,13 +1,14 @@
-
 # CONFIG UNSET
 <!-- CONFIG, ie. make sure to set these before DEPLOYING -->
-[DUE DATE]: TBD
 
 <!-- BEGIN PROJECT SPECS -->
 
-# Algorithmic Adventures: The King's Gambit
+---  
+layout: myDefault
+title: PROJECT 6
+---  
 
-## Project 6: Rounding Things Up
+# Rounding Things Up
 This time, we'll be adding rounds to our Chess simulation. And since no one's perfect, we'll be using this as an excuse to work with stacks to undo moves. 
 
 In this project you will:
