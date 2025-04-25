@@ -127,6 +127,11 @@ getCapturedPiece
 ```
 
 ### Task 2: Begin the Turn-Based Combat: Adding `attemptRound()`
+
+<p align="center">
+  <img src="./../../../files/235_turnbased.png" width="500"/>
+</p>
+
 Now we'll begin with the actual simulation. 
 
 #### Part A: Storing Move History
