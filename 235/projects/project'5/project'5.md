@@ -193,7 +193,7 @@ There's groups of them. If you rotate or flip a solution in some specific way, i
 
 ```c++
 /**
- * @brief Groups similar chessboard configurations by transformations.
+ * @brief A STATIC function that groups similar chessboard configurations by transformations.
  * 
  * This function organizes a list of chessboard configurations into groups of similar boards, 
  * where similarity is defined as being identical under a 
