@@ -46,9 +46,9 @@ typedef std::vector<std::vector<char>> CharacterBoard;
 ```
 This is called **type-aliasing**.
 
-Now whenever we write `CharacterBoard` in actuality, we'll mean `std::vector<std::vector<char>>`. 
+Now whenever we write `CharacterBoard` in actuality, we'll mean `std::vector<std::vector<char>>`. It makes our code more readable, and less prone to errors when writing it. It's optional, but trust me, once you start working with lists of 2D vectors, it gets hard to read.
 
-It makes our code more readable, and less prone to errors when writing it. It's optional, but trust me, once you start working with lists of 2D vectors, it gets hard to read.
+<u>***By the way, you should be marking `Q` for cells with Queens, and `*` for those that are empty!***</u>
 
 2) Now let's move on to solving 8-Queens. Define this wrapper function as a public member of `ChessBoard`.
 ```c++
