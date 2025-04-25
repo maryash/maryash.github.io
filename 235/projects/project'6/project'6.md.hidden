@@ -185,7 +185,7 @@ In `ChessBoard.hpp` we'll be adding `attemptRound()` a function that does the fo
 - Same as above, if the input is not strictly two integers, *undo* and return whether it suceeded or not. 
 
 **5. Attempts to execute the move.**
--   The specified square exists on the board (ie. the row & col are in [0, BOARD_LENGTH) )
+-   The specified square exists on the board (ie. the row & col are in [0, BOARD_LENGTH) ]
 -   The `move()` method executes succesfully given the specified squares
 
 **6. If the move was executed succesfully:**
@@ -357,7 +357,7 @@ In the terminal, in the same directory as your `Makefile` and your source files,
 ```bash
 make # Compiles all recently modified files specified by the OBJs list
 make clean # Removes all files ending in .o from your directory, ie. clears your folder of old code
-make rebulild # Performs clean and make in one step
+make rebuild # Performs clean and make in one step
 ```
 
 This assumes you did not rename the Makefile and that it is the only one in the current directory.
@@ -379,7 +379,7 @@ This assumes you did not rename the Makefile and that it is the only one in the 
 ---
 
 ### Due Date
-This project is **due on [DUE DATE]**.
+This project is **due on May 2nd 2025**.
 *No late submission will be accepted.*
 
 ---
