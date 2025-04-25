@@ -206,7 +206,7 @@ There's groups of them. If you rotate or flip a solution in some specific way, i
  *         where each inner vector is a list of boards 
  *         that are transformations of each other.
  */
-groupSimilarBoards
+ChessBoard::groupSimilarBoards
 ```
 <small>I told you, the type alias at the beginning was useful. Unless you want `std::vector<std::vector<std::vector<std::vector<char>>>>`</small>
 
