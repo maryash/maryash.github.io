@@ -39,7 +39,7 @@ If you're wondering how it works, [see here for a little more info.](https://and
 
 ### Task 1: Moving Out & About: Implementing the `Move` class
 <p align="center">
-  <img src="./../../../files/235_pair.gif" width="500"/>
+  <img src="./../../../files/235_pair.jpg" width="500"/>
 </p>
 Ok, no dilly-dallying. We're jumping right into the project.
 
