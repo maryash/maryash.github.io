@@ -379,7 +379,7 @@ This assumes you did not rename the Makefile and that it is the only one in the 
 ---
 
 ### Due Date
-This project is **due on May 2nd 2025**.
+This project is **due on May 4th 2025**.
 *No late submission will be accepted.*
 
 ---
