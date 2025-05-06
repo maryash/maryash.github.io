@@ -1,6 +1,9 @@
-# Algorithmic Adventures: The King's Gambit
+---  
+layout: myDefault
+title: PROJECT 6
+---  
 
-## Project 7: Branching Out
+# PROJECT 7 &nbsp; Branching Out
 This time, we'll be adding players to our Chess simulation. Pretty cut and dry!
 
 In this project you will:
