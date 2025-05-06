@@ -65,6 +65,15 @@ Please note: once WSL is configured properly, stop watching the video and go to 
  5/6 | Trees | [Chapter&nbsp;15](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/310%5B%3Bvnd.vst.idref%3DP70010119250000000000000000042F9%5D!/4/2%5BP70010119250000000000000000042F9%5D/2/2%5BP700101192500000000000000000C34F%5D/4%400:0){:target="_blank"} | [Trees](slides/21_trees.pdf){:target="_blank"} | 
  5/10 |  |  |  | [**Project&nbsp;7 &nbsp; due 5/23**<br/>**(*submit&nbsp;as&nbsp;a&nbsp;ZIP&nbsp;file on&nbsp;BlackBoard*)**](projects/project-7/project-7.html){:target="_blank"} 
 
+---  
+
+### Instructor Evaluations:
+**Computer: [www.hunter.cuny.edu/te](http://www.hunter.cuny.edu/te){:target="_blank"}**  
+
+**Smartphone: [www.hunter.cuny.edu/mobilete](http://www.hunter.cuny.edu/mobilete){:target="_blank"}**
+  
+   
+---  
      
 <!-- 
  2/22 |  |  |  |  
@@ -79,15 +88,7 @@ Please note: once WSL is configured properly, stop watching the video and go to 
  n.a./n.a. | Dictionaries and Hashing | [Chapter&nbsp;18.1](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/368%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005125%5D!/4/2%5BP7001011925000000000000000005125%5D/2/2%5BP700101192500000000000000000CF16%5D/2%400:0){:target="_blank"}[&nbsp;&&nbsp;18.4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/374%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005385%5D!/4/2%5BP7001011925000000000000000005385%5D/2/2%5BP700101192500000000000000000D110%5D/4%400:0){:target="_blank"} | [Dictionaries and Hashing](slides/24_dictionaries_hashing.pdf){:target="_blank"} | 
  n.a./n.a. | STL | [C++&nbsp;Interlude&nbsp;8](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/428%5B%3Bvnd.vst.idref%3DP7001011925000000000000000005DB5%5D!/4/2%5BP7001011925000000000000000005DB5%5D/2%400:0){:target="_blank"} | [STL](slides/i8_stl.pdf){:target="_blank"} | 
   
----  
 
-### Instructor Evaluations:
-**Computer: [www.hunter.cuny.edu/te](http://www.hunter.cuny.edu/te){:target="_blank"}**  
-
-**Smartphone: [www.hunter.cuny.edu/mobilete](http://www.hunter.cuny.edu/mobilete){:target="_blank"}**
-  
-   
----  
   
 
  4/22 |  |  |  | [**Project&nbsp;4**&nbsp;**due&nbsp;11/16**](projects/project_4_/project_4_.html){:target="_blank"} 
