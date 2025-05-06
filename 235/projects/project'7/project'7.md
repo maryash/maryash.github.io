@@ -1,6 +1,6 @@
 ---  
 layout: myDefault
-title: PROJECT 6
+title: PROJECT 7
 ---  
 
 # PROJECT 7 &nbsp; Branching Out
@@ -11,6 +11,8 @@ In this project you will:
 2. Implement insertion & search operations for `PlayerBST` 
 3. Add member functions to get metrics on players across the `PlayerBST`
 4. Implement various traversal methods to concretize what differentiates pre, in, and post-order searches!
+
+Here's the GitHub classroom assignment link: https://classroom.github.com/a/6JFM7wTJ
 
 ---
 ### Before You Continue
