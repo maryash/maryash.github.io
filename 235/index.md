@@ -63,7 +63,6 @@ Please note: once WSL is configured properly, stop watching the video and go to 
  4/29 | Queues | [Chapter&nbsp;13](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/274%5B%3Bvnd.vst.idref%3DP7001011925000000000000000003B21%5D!/4/2%5BP7001011925000000000000000003B21%5D/2/2%5BP700101192500000000000000000BCB7%5D/4%400:0){:target="_blank"} | [Queues](slides/19_queues.pdf){:target="_blank"} | [**Project&nbsp;6 &nbsp; due 5/23**](projects/project-6/project-6.html){:target="_blank"}
  5/3 | Queue Implementation | [Chapter&nbsp;14](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/292%5B%3Bvnd.vst.idref%3DP7001011925000000000000000003F1B%5D!/4/2%5BP7001011925000000000000000003F1B%5D/2/2%5BP700101192500000000000000000C023%5D/4%400:0){:target="_blank"} | [Queue Implementation](slides/20_queue_implementation.pdf){:target="_blank"} | [SQ&nbsp;Queues&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;](study_questions/sq_10_queues.pdf){:target="_blank"} 
  5/6 | Trees | [Chapter&nbsp;15](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/310%5B%3Bvnd.vst.idref%3DP70010119250000000000000000042F9%5D!/4/2%5BP70010119250000000000000000042F9%5D/2/2%5BP700101192500000000000000000C34F%5D/4%400:0){:target="_blank"} | [Trees](slides/21_trees.pdf){:target="_blank"} | 
- 5/10 |  |  |  | [**Project&nbsp;7 &nbsp; due 5/23**<br/>**(*submit&nbsp;as&nbsp;a&nbsp;ZIP&nbsp;file on&nbsp;BlackBoard*)**](projects/project-7/project-7.html){:target="_blank"} 
 
 ---  
 
@@ -79,6 +78,7 @@ Please note: once WSL is configured properly, stop watching the video and go to 
  2/22 |  |  |  |  
  3/18 | Midterm Review |  |  | 
  
+ 5/10 |  |  |  | [**Project&nbsp;7 &nbsp; due 5/23**<br/>**(*submit&nbsp;as&nbsp;a&nbsp;ZIP&nbsp;file on&nbsp;BlackBoard*)**](projects/project-7/project-7.html){:target="_blank"} 
 
  5/13 | Smart&nbsp;Pointers | [C++&nbsp;Interlude&nbsp;4](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/216%5B%3Bvnd.vst.idref%3DP7001011925000000000000000002CE7%5D!/4/2%5BP7001011925000000000000000002CE7%5D/2/2%5BP700101192500000000000000000B108%5D/4%400:0){:target="_blank"} | [Smart Pointers](slides/i4_smart_pointers.pdf){:target="_blank"} | [SQ&nbsp;Trees&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;](study_questions/sq_11_trees.pdf){:target="_blank"} 
  5/17 | Tree Implementation | [Chapter&nbsp;16](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/324%5B%3Bvnd.vst.idref%3DP70010119250000000000000000047EF%5D!/4/2%5BP70010119250000000000000000047EF%5D/2/2%5BP700101192500000000000000000C782%5D/4%400:0){:target="_blank"} | [Tree Implementation](slides/22_tree_implementation.pdf){:target="_blank"} |  
