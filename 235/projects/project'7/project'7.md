@@ -12,7 +12,7 @@ In this project you will:
 3. Add member functions to get metrics on players across the `PlayerBST`
 4. Implement various traversal methods to concretize what differentiates pre, in, and post-order searches!
 
-Here's the GitHub classroom assignment link: https://classroom.github.com/a/6JFM7wTJ
+Here's the GitHub classroom assignment link: [https://classroom.github.com/a/6JFM7wTJ](https://classroom.github.com/a/6JFM7wTJ)
 
 ---
 ### Before You Continue
