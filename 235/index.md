@@ -64,7 +64,7 @@ Please note: once WSL is configured properly, stop watching the video and go to 
  _/_ | Queue Implementation | [Chapter&nbsp;14](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/292%5B%3Bvnd.vst.idref%3DP7001011925000000000000000003F1B%5D!/4/2%5BP7001011925000000000000000003F1B%5D/2/2%5BP700101192500000000000000000C023%5D/4%400:0){:target="_blank"} | [Queue Implementation](slides/20_queue_implementation.pdf){:target="_blank"} | [SQ&nbsp;Queues&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;](study_questions/sq_10_queues.pdf){:target="_blank"}<br/>[**Project&nbsp;7 &nbsp; due 5/13**](projects/project'7/project'7.html){:target="_blank"} 
  5/9 | Trees | [Chapter&nbsp;15](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/310%5B%3Bvnd.vst.idref%3DP70010119250000000000000000042F9%5D!/4/2%5BP70010119250000000000000000042F9%5D/2/2%5BP700101192500000000000000000C34F%5D/4%400:0){:target="_blank"} | [Trees](slides/21_trees.pdf){:target="_blank"} | 
  5/13 | Tree Implementation | [Chapter&nbsp;16](https://bookshelf.vitalsource.com/#/books/9780134477473/epubcfi/6/324%5B%3Bvnd.vst.idref%3DP70010119250000000000000000047EF%5D!/4/2%5BP70010119250000000000000000047EF%5D/2/2%5BP700101192500000000000000000C782%5D/4%400:0){:target="_blank"} | [Tree Implementation](slides/22_tree_implementation.pdf){:target="_blank"} | [SQ&nbsp;Trees&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;](study_questions/sq_11_trees.pdf){:target="_blank"} 
- **5/19** | **FINAL EXAM** | **ASSEMBLY HALL: HN 118** | **Monday 9:00 AM** | 
+ **5/19** | **FINAL EXAM** | **! ROOM CHANGE !** | **ASSEMBLY HALL #HN118** | **Monday 9:00 AM**
 
 ---    
 
