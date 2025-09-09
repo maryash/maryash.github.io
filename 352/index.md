@@ -34,8 +34,8 @@ Please note: once WSL is configured properly, stop watching the video and go to 
 **COURSE OUTLINE**  
   
  DATE | TOPIC | READINGS | SLIDES | ASSIGNMENTS 
- --- | --- | --- | --- | --- 
- <img width=54/> | <img width=200/> | <img width=200/> | <img width=50/> | <img width=50/>
+ ---* | --- | --- | --- | --- 
+ <img width=54/> | <img width=192/> | <img width=216/> | <img width=48/> | <img width=48/>
 Week 1 | The E/R Model<br/>Weak Entity Sets<br/>The DB Environment | 4.1 The Entity/Relationship Model<br/>4.2 Design Principles<br/>4.4 Weak Entity Sets |  | 
 LAB 1 | The SQLite Environment Tutorial |  |  | 
 Week 2 | E/R Diagrams, Subclasses<br/>Relational Design<br/>Host Language Interface | 4.5 From E/R to Relational Designs<br/>4.6 From Subclass Structures to Relations<br/>4.7 Unified Modeling Language  |  | 
