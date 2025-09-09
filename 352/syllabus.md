@@ -23,7 +23,9 @@ Be able to integrate a relational database into a software application, includin
 **Textbook & Readings** The book or PDF required for the course:  
 Widom, Ullman et al "A First Course in Database Systems" 3rd Edition OR "Database Systems - The Complete Book" 2nd Edition (selected chapters)  
 Additional readings and tutorials are available on the course webpage.  
-Technology This course uses multiple software tools and languages.  
+  
+**Technology**  
+This course uses multiple software tools and languages:    
 **Python** a programming language that is freely available across multiple platforms.   
 **SQLite** a free database.  
 **BrightSpace** the learning management system used throughout CUNY. Accounts are provided automatically to all enrolled students.  
