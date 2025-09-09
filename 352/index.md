@@ -3,7 +3,7 @@ layout: myDefault
 title: CSCI 352 MAIN PAGE
 ---
 
-**[CSCI 352 &nbsp; &nbsp; DATABASE DESIGN 2 &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
+**[CSCI 352 &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
   
 [**SYLLABUS**](syllabus.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -18,7 +18,7 @@ This is an essential resource for you during this semester.  Attendance is highl
     
 **TEXTBOOK** &nbsp; [**Data Abstraction and Problem Solving with C++: Walls and Mirrors**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, 7th Edition [**eText**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, Frank M. Carrano, ISBN-13 978-0134463971. Must be rented ($44) or purchased ($74) from [**Vitalsource.com**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"} in order for the chapter links to work!  
   
-[**SOURCE CODE FROM TEXTBOOK AND SLIDES**](files/TextbookSourceCode.zip) &nbsp; [**TextbookSourceCode.zip**](files/TextbookSourceCode.zip) 
+[**SOURCE CODE FROM TEXTBOOK AND SLIDES**](files/) &nbsp; [**TextbookSourceCode.zip**](files/) 
 
 [**Linux on Windows NEW Video Tutorial**](http://tiny.cc/2p0jvz){:target="_blank"}  
   
@@ -28,11 +28,7 @@ Please note: once WSL is configured properly, stop watching the video and go to 
   
 [**Github Guide**](files/Github.pdf){:target="_blank"}
 
-[**Makefile Guide**](files/Make.pdf){:target="_blank"}
-
-[**Common Compilation Errors**](files/Common%20Compilation%20Errors.pdf){:target="_blank"}  
-
-[**CSCI235 Discord Invite Link**](https://discord.gg/eXUwdCZCky){:target="_blank"}
+[**CSCI352 Discord Invite Link**](){:target="_blank"}
 
   
 **COURSE OUTLINE**  
@@ -42,6 +38,73 @@ Please note: once WSL is configured properly, stop watching the video and go to 
  3/21 |  |  |  | 
  3/25 | Tuesday | *MIDTRERM* | *EXAM* | 
  **5/19** | **FINAL EXAM** | **!   ROOM CHANGE   !     - - - - > > >** | **ASSEMBLY HALL #HN118** | **Monday 9:00 AM**
+Week 1 | The E/R Model, Weak Entity Sets, the DB Environment | 4.1  The Entity/Relationship Model 4.2  Design Principles  4.4  Weak Entity Sets |  | 
+LAB 1 | The SQLite Environment Tutorial |  |  | 
+Week 2 | E/R Diagrams and Subclasses to Relational Design, Host Language Interface | 4.5  From E/R Diagrams to Relational Designs 4.6  Converting Subclass Structures to Relations 4.7  Unified Modeling Language  |  | 
+Lab 2 | Host-Language Interface Python Tutorial |  |  | 
+Week 3 | UML Diagrams,  Designs to Relations, ODL | 4.8  From UML Diagrams to Relations 4.9  Object Definition Language 4.10 From ODL Designs to Relational Designs 9.1  The Three-Tier Architecture |  | 
+Lab 3 | Python Frontend Flask Tutorial |  |  | 
+
+Week 4
+The Relational Model of Data,  Defining Schema 
+2.1  An Overview of Data Models
+2.2  Basics of the Relational Model
+2.3  Defining a Relation Schema in SQL 
+7.1  Keys and Foreign Keys 
+Lab 4   lIntroduction to 1st, 2nd, & 3rd Normal Forms
+Week 5
+Simple Queries,  3-Tier Architecture,  Web Tier Flask Tutorial
+6.1  Simple Queries in SQL  
+6.2  Queries Involving More Than One Relation
+9.1  The Three-Tier Architecture
+Lab 5   Tutorial on 1st and 2nd NF
+Week 6
+Algebraic Query Language
+2.4  An Algebraic Query Language
+5.1  Relational Operations on Bags 
+Lab 6   Tutorial on Python-SQLite-hosted-on-PythonAnywhere
+Week 7
+Constraints,  Transactions  
+7.2  Constraints on Attributes and Tuples 
+7.3  Modification of Constraints 
+6.6  Transactions in SQL
+Lab 7  Examples of real world DB requirements
+Week 8
+Functional Dependencies,  Normalization
+3.1  Functional Dependencies 
+3.2  Rules About Functional Dependencies 
+3.3  Design of Relational Database Schemas
+Lab 8   Python: substantial host-language program  integration
+Week 9
+Subquerries,  Database Modifications
+6.3  Subqueries
+6.4  Full-Relation Operations 
+6.5  Database Modifications
+Lab 9   Work with database Cursors
+Week 10
+Decomposition,  BCNF and 3NF
+3.4  Decomposition: The Good, Bad, and Ugly
+3.5  Third Normal Form 
+Lab 10 Python: populating RDB from flat file / external data sources
+Week 11
+Multivalued Dependencies,  4NF
+3.6  Multivalued Dependencies  
+3.7  An Algorithm for Discovering MVD's
+Lab 11 Normalizing your project database into 4NF
+Week 12 
+Views,  Indexes
+8.1  Virtual Views  
+8.2  Modifying Views
+8.3  Indexes in SQL 
+8.4  Selection of Indexes 
+Lab 12 Judicious Use of Denormalization 
+Week 13
+Final Project Presentations
+Week 14
+Semester Review
+Week 15
+Final Exam
+
 
 ---    
 
