@@ -47,7 +47,7 @@ Lab 4 | Introduction to 1st, 2nd, & 3rd Normal Forms |  |  |
 Week 5 | Simple Queries,  3-Tier Architecture<br/>Web Tier Flask Tutorial | 6.1 Simple Queries in SQL<br/>6.2 Queries with More Than One Relation<br/>9.1 The Three-Tier Architecture |  | 
 Lab 5 | Tutorial on 1st and 2nd NF |  |  | 
 Week 6 | Algebraic Query Language | 2.4 An Algebraic Query Language<br/>5.1 Relational Operations on Bags |  | 
-Lab 6 | Tutorial on Python-SQLite-hosted-on-PythonAnywhere |  |  | 
+Lab 6 | Tutorial on Python-SQLite-Hosted-on-PythonAnywhere |  |  | 
 Week 7 | Constraints,  Transactions | 7.2 Constraints on Attributes and Tuples<br/>7.3 Modification of Constraints<br/>6.6 Transactions in SQL |  | 
 Lab 7 | Examples of real world DB requirements |  |  | 
 Week 8 | Functional Dependencies,  Normalization | 3.1 Functional Dependencies<br/>3.2 Rules on Functional Dependencies<br/>3.3 Design of Relational Database Schemas |  | 
