@@ -1,10 +1,8 @@
 ---
 layout: myDefault
 title: CSCI 352 MAIN PAGE
----
-
-**[CSCI 352 &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
-  
+---  
+**[CSCI 352 &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**
 # CSCI 35200: DATABASE DESIGN
 Hunter College, City University of New York
 ## General Information
