@@ -16,7 +16,8 @@ Tuesdays and Fridays 10:00 AM - 11:15 PM in HW 714
 In HN 1001 B  
 This is an essential resource for you during this semester.  Attendance is highly recommended!  
     
-**TEXTBOOK** &nbsp; [**Data Abstraction and Problem Solving with C++: Walls and Mirrors**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, 7th Edition [**eText**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"}, Frank M. Carrano, ISBN-13 978-0134463971. Must be rented ($44) or purchased ($74) from [**Vitalsource.com**](https://www.vitalsource.com/products/data-abstraction-amp-problem-solving-with-c-walls-frank-m-carrano-timothy-m-v9780134477473?term=C%2B%2B+walls+mirrors){:target="_blank"} in order for the chapter links to work!  
+**TEXTBOOK** &nbsp; Widom, Ullman et al "A First Course in Database Systems" 3rd Edition OR "Database Systems - The Complete Book" 2nd Edition (selected chapters) — either book or PDF.    
+Additional readings and tutorials are available on the course webpage.  
   
 [**SOURCE CODE FROM TEXTBOOK AND SLIDES**](files/) &nbsp; [**TextbookSourceCode.zip**](files/) 
 
@@ -52,36 +53,17 @@ Week 7 | Constraints,  Transactions | 7.2 Constraints on Attributes and Tuples<b
 Lab 7 | Examples of real world DB requirements |  |  | 
 Week 8 | Functional Dependencies,  Normalization | 3.1 Functional Dependencies<br/>3.2 Rules on Functional Dependencies<br/>3.3 Design of Relational Database Schemas |  | 
 Lab 8 | Python: substantial host-language program  integration |  |  | 
-
-Week 9
-Subquerries,  Database Modifications
-6.3  Subqueries
-6.4  Full-Relation Operations 
-6.5  Database Modifications
-Lab 9   Work with database Cursors
-Week 10
-Decomposition,  BCNF and 3NF
-3.4  Decomposition: The Good, Bad, and Ugly
-3.5  Third Normal Form 
-Lab 10 Python: populating RDB from flat file / external data sources
-Week 11
-Multivalued Dependencies,  4NF
-3.6  Multivalued Dependencies  
-3.7  An Algorithm for Discovering MVD's
-Lab 11 Normalizing your project database into 4NF
-Week 12 
-Views,  Indexes
-8.1  Virtual Views  
-8.2  Modifying Views
-8.3  Indexes in SQL 
-8.4  Selection of Indexes 
-Lab 12 Judicious Use of Denormalization 
-Week 13
-Final Project Presentations
-Week 14
-Semester Review
-Week 15
-Final Exam
+Week 9 | Subquerries, Database Modifications | 6.3 Subqueries<br/>6.4 Full-Relation Operations<br/>6.5 Database Modifications |  | 
+Lab 9 | Work with database Cursors |  |  | 
+Week 10 | Decomposition,  BCNF and 3NF | 3.4 Decomposition: The Good, Bad, and Ugly<br/>3.5 Third Normal Form |  | 
+Lab 10 | Python: populating RDB from flat file / external data sources |  |  | 
+Week 11 | Multivalued Dependencies, 4NF | 3.6 Multivalued Dependencies<br/>3.7 An Algorithm for Discovering MVD's |  | 
+Lab 11 | Normalizing your project database into 4NF |  |  | 
+Week 12 | Views, Indexes | 8.1 Virtual Views<br/>8.2 Modifying Views<br/>8.3 Indexes in SQL<br/>8.4 Selection of Indexes |  | 
+Lab 12 | Judicious Use of Denormalization |  |  | 
+Week 13 | Final Project Presentations |  |  | 
+Week 14 | Semester Review |  |  | 
+Week 15 | Final Exam |  |  | 
 
 
 ---    
