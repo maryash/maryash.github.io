@@ -32,7 +32,8 @@ This course uses multiple software tools and languages:
 **Gradescope** an automatic grading program from UC Berkeley. All programming assignments will be submitted to Gradescope. Lecture quizzes will be on paper, but graded and returned via Gradescope. An email with access information will be sent to your email of record on Blackboard two days before the semester starts.  
 **Github** a freely available site for hosting and collaborating, particularly for programming.
   
-**Grades** The grading for the course will be based on:
+**Grades**  
+The grading for the course will be based on:
 Programming Assignments: 20%  
 Lab Quizzes:  20% (the average of the highest 10 quiz scores)  
 Design and Code Reviews: 20% (the average of the highest 10 code review scores)  
@@ -42,8 +43,7 @@ Final Project: 30%
 **Expectations**  
 Completing homework is an essential part of the learning experience. Students are expected to learn both the material covered in class and the material in the online Labs, the textbook and other assigned reading.  
   
-**Honor Code** You are encouraged to work together on the overall design of the programs and homework. However, for specific programs and homework assignments, all work must be your own. You are responsible for knowing and following **Hunter College's Academic Integrity Policy:**  
-Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. The College is committed to enforcing the CUNY Policy on Academic Integrity and will pursue cases of academic dishonesty according to the Hunter College Academic Integrity Procedures.  
+**Honor Code** You are encouraged to work together on the overall design of the programs and homework. However, for specific programs and homework assignments, all work must be your own. You are responsible for knowing and following **Hunter College's Academic Integrity Policy:**  Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. The College is committed to enforcing the CUNY Policy on Academic Integrity and will pursue cases of academic dishonesty according to the Hunter College Academic Integrity Procedures.  
 All incidents of cheating will be reported to the Office of Student Conduct in the Vice President for Student Affairs and Dean of Students office.  
   
 **Course Format**  
