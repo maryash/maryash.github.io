@@ -7,7 +7,7 @@ title: CSCI 352 MAIN PAGE
   
 # CSCI 35200: DATABASE DESIGN
 Hunter College, City University of New York
-## General Information**
+## General Information
 This is a practical database design course.  It covers essential skills needed to conceptualize, model, and implement robust and effective database systems that meet the real-world business scenarios.  You will learn to conceptually represent data organization, model entity-relationships, normalize schemas, minimize redundancy, and ensure data integrity.  With hands-on projects on organizing data (creating tables, defining constraints) and manipulating data (querying, updating).  Informed by real world scenarios, this course will teach you to analyze business requirements and to crystalize them into optimum database schemas.
 ## Prerequisite CSCI 22700 or CSCI 23500
 ## Learning Outcomes
