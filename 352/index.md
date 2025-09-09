@@ -35,14 +35,11 @@ Please note: once WSL is configured properly, stop watching the video and go to 
   
  DATE | TOPIC | READING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | ASSIGNMENTS 
  :---: | :---: | --- | :---: | ---: 
- 3/21 |  |  |  | 
- 3/25 | Tuesday | *MIDTRERM* | *EXAM* | 
- **5/19** | **FINAL EXAM** | **!   ROOM CHANGE   !     - - - - > > >** | **ASSEMBLY HALL #HN118** | **Monday 9:00 AM**
-Week 1 | The E/R Model, Weak Entity Sets, the DB Environment | 4.1  The Entity/Relationship Model 4.2  Design Principles  4.4  Weak Entity Sets |  | 
+Week 1 | The E/R Model<br/>Weak Entity Sets<br/>The DB Environment | 4.1 The Entity/Relationship Model<br/>4.2 Design Principles<br/>4.4 Weak Entity Sets |  | 
 LAB 1 | The SQLite Environment Tutorial |  |  | 
-Week 2 | E/R Diagrams and Subclasses to Relational Design, Host Language Interface | 4.5  From E/R Diagrams to Relational Designs 4.6  Converting Subclass Structures to Relations 4.7  Unified Modeling Language  |  | 
+Week 2 | E/R Diagrams, Subclasses<br/>Relational Design<br/>Host Language Interface | 4.5 From E/R Diagrams to Relational Designs<br/>4.6 Converting Subclass Structures to Relations<br/>4.7 Unified Modeling Language  |  | 
 Lab 2 | Host-Language Interface Python Tutorial |  |  | 
-Week 3 | UML Diagrams,  Designs to Relations, ODL | 4.8  From UML Diagrams to Relations 4.9  Object Definition Language 4.10 From ODL Designs to Relational Designs 9.1  The Three-Tier Architecture |  | 
+Week 3 | UML Diagrams, ODL<br/>Designs to Relations | 4.8 From UML Diagrams to Relations<br/>4.9 Object Definition Language<br/>4.10 From ODL Designs to Relational Designs<br/>9.1 The Three-Tier Architecture |  | 
 Lab 3 | Python Frontend Flask Tutorial |  |  | 
 
 Week 4
