@@ -33,7 +33,7 @@ Please note: once WSL is configured properly, stop watching the video and go to 
 
   
 **COURSE OUTLINE**  
-  <span style="display:inline-block; width:48px">DATE</span> | <span style="display:inline-block; width:150px">TOPIC</span> | <span style="display:inline-block; width:150px">READINGS</span> | <span style="display:inline-block; width:48px">SLIDES</span> | <span style="display:inline-block; width:48px">ASSIGNMENTS</span> 
+  &nbsp;DATE&nbsp; | &nbsp;&nbsp;&nbsp;TOPIC&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;READINGS&nbsp;&nbsp;&nbsp; | &nbsp;SLIDES&nbsp; | &nbsp;ASSIGNMENTS&nbsp; 
  ---: | :--- | --- | --- | --- 
 Week 1 | The E/R Model<br/>Weak Entity Sets<br/>The DB Environment | 4.1 The Entity/Relationship Model<br/>4.2 Design Principles<br/>4.4 Weak Entity Sets |  | 
 Lab 1 | The SQLite Environment Tutorial |  |  | 
