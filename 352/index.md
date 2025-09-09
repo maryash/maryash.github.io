@@ -41,37 +41,17 @@ Week 2 | E/R Diagrams, Subclasses<br/>Relational Design<br/>Host Language Interf
 Lab 2 | Host-Language Interface Python Tutorial |  |  | 
 Week 3 | UML Diagrams, ODL<br/>Designs to Relations | 4.8 From UML Diagrams to Relations<br/>4.9 Object Definition Language<br/>4.10 From ODL to Relational Designs<br/>9.1 The Three-Tier Architecture |  | 
 Lab 3 | Python Frontend Flask Tutorial |  |  | 
+Week 4 | The Relational Model of Data,  Defining Schema | 2.1 An Overview of Data Models2.2 Basics of the Relational Model2.3 Defining a Relation Schema in SQL7.1 Keys and Foreign Keys 
+Lab 4 | Introduction to 1st, 2nd, & 3rd Normal Forms |  |  | 
+Week 5 | Simple Queries,  3-Tier Architecture,  Web Tier Flask Tutorial | 6.1 Simple Queries in SQL 6.2 Queries Involving More Than One Relation9.1 The Three-Tier Architecture |  | 
+Lab 5 | Tutorial on 1st and 2nd NF |  |  | 
+Week 6 | Algebraic Query Language2.4 An Algebraic Query Language5.1 Relational Operations on Bags 
+Lab 6 Tutorial on Python-SQLite-hosted-on-PythonAnywhere
+Week 7 | Constraints,  Transactions | 7.2 Constraints on Attributes and Tuples7.3 Modification of Constraints6.6 Transactions in SQL |  | 
+Lab 7 | Examples of real world DB requirements |  |  | 
+Week 8 | Functional Dependencies,  Normalization | 3.1 Functional Dependencies 3.2 Rules About Functional Dependencies 3.3 Design of Relational Database Schemas |  | 
+Lab 8 | Python: substantial host-language program  integration |  |  | 
 
-Week 4
-The Relational Model of Data,  Defining Schema 
-2.1  An Overview of Data Models
-2.2  Basics of the Relational Model
-2.3  Defining a Relation Schema in SQL 
-7.1  Keys and Foreign Keys 
-Lab 4   lIntroduction to 1st, 2nd, & 3rd Normal Forms
-Week 5
-Simple Queries,  3-Tier Architecture,  Web Tier Flask Tutorial
-6.1  Simple Queries in SQL  
-6.2  Queries Involving More Than One Relation
-9.1  The Three-Tier Architecture
-Lab 5   Tutorial on 1st and 2nd NF
-Week 6
-Algebraic Query Language
-2.4  An Algebraic Query Language
-5.1  Relational Operations on Bags 
-Lab 6   Tutorial on Python-SQLite-hosted-on-PythonAnywhere
-Week 7
-Constraints,  Transactions  
-7.2  Constraints on Attributes and Tuples 
-7.3  Modification of Constraints 
-6.6  Transactions in SQL
-Lab 7  Examples of real world DB requirements
-Week 8
-Functional Dependencies,  Normalization
-3.1  Functional Dependencies 
-3.2  Rules About Functional Dependencies 
-3.3  Design of Relational Database Schemas
-Lab 8   Python: substantial host-language program  integration
 Week 9
 Subquerries,  Database Modifications
 6.3  Subqueries
