@@ -54,15 +54,15 @@ Week ⑧ | Functional Dependencies,  Normalization | 3.1 Functional Dependencies
 Lab ⑧ | Python: substantial host-language<br/>program integration |  |  | 
 Week ⑨ | Subquerries, Database Modifications | 6.3 Subqueries<br/>6.4 Full-Relation Operations<br/>6.5 Database Modifications |  | 
 Lab ⑨ | Work with database Cursors |  |  | 
-Week 10 | Decomposition,  BCNF and 3NF | 3.4 Decomposition: The Good, Bad, and Ugly<br/>3.5 Third Normal Form |  | 
-Lab 10 | Python: populating RDB from flat file / external data sources |  |  | 
-Week 11 | Multivalued Dependencies, 4NF | 3.6 Multivalued Dependencies<br/>3.7 An Algorithm for Discovering MVD's |  | 
-Lab 11 | Normalizing your project database into 4NF |  |  | 
-Week 12 | Views, Indexes | 8.1 Virtual Views<br/>8.2 Modifying Views<br/>8.3 Indexes in SQL<br/>8.4 Selection of Indexes |  | 
-Lab 12 | Judicious Use of Denormalization |  |  | 
-Week 13 | Final Project Presentations |  |  | 
-Week 14 | Semester Review |  |  | 
-Week 15 | Final Exam |  |  | 
+Week ⑩ | Decomposition,  BCNF and 3NF | 3.4 Decomposition: The Good, Bad, and Ugly<br/>3.5 Third Normal Form |  | 
+Lab ⑩ | Python: populating RDB from flat file / external data sources |  |  | 
+Week ⑪ | Multivalued Dependencies, 4NF | 3.6 Multivalued Dependencies<br/>3.7 An Algorithm for Discovering MVD's |  | 
+Lab ⑪ | Normalizing your project database into 4NF |  |  | 
+Week ⑫ | Views, Indexes | 8.1 Virtual Views<br/>8.2 Modifying Views<br/>8.3 Indexes in SQL<br/>8.4 Selection of Indexes |  | 
+Lab ⑫ | Judicious Use of Denormalization |  |  | 
+Week ⑬ | Final Project Presentations |  |  | 
+Week ⑭ | Semester Review |  |  | 
+Week ⑮ | Final Exam |  |  | 
 
 
 ---    
