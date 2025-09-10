@@ -32,28 +32,28 @@ Please note: once WSL is configured properly, stop watching the video and go to 
 [**CSCI352 Discord Invite Link**](){:target="_blank"}
 
   
-**COURSE OUTLINE**  
+**COURSE OUTLINE**  ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮    🄋 ➀ ➁ ➂ ➃ ➄ ➅ ➆ ➇ ➈ ➉
   
 DATE | TOPIC | READINGS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | ASSIGNMENTS 
  ---: | :--- | --- | --- | --- 
-Week 1 | The E/R Model<br/>Weak Entity Sets<br/>The DB Environment | 4.1 The Entity/Relationship Model<br/>4.2 Design Principles<br/>4.4 Weak Entity Sets |  | 
-Lab 1 | The SQLite Environment Tutorial |  |  | 
-Week 2 | E/R Diagrams, Subclasses<br/>Relational Design<br/>Host Language Interface | 4.5 From E/R to Relational Designs<br/>4.6 From Subclass Structures to Relations<br/>4.7 Unified Modeling Language  |  | 
-Lab 2 | Host-Language Interface Python Tutorial |  |  | 
-Week 3 | UML Diagrams, ODL<br/>Designs to Relations | 4.8 From UML Diagrams to Relations<br/>4.9 Object Definition Language<br/>4.10 From ODL to Relational Designs<br/>9.1 The Three-Tier Architecture |  | 
-Lab 3 | Python Frontend Flask Tutorial |  |  | 
-Week 4 | The Relational Model of Data<br/>Defining Schema | 2.1 An Overview of Data Models<br/>2.2 Basics of the Relational Model<br/>2.3 Defining Relation Schema in SQL<br/>7.1 Keys and Foreign Keys |  | 
-Lab 4 | Introduction to 1st, 2nd, & 3rd Normal Forms |  |  | 
-Week 5 | Simple Queries,  3-Tier Architecture<br/>Web Tier Flask Tutorial | 6.1 Simple Queries in SQL<br/>6.2 Queries with More Than One Relation<br/>9.1 The Three-Tier Architecture |  | 
-Lab 5 | Tutorial on 1st and 2nd NF |  |  | 
-Week 6 | Algebraic Query Language | 2.4 An Algebraic Query Language<br/>5.1 Relational Operations on Bags |  | 
-Lab 6 | Tutorial on Python-SQLite-Hosted-on-PythonAnywhere |  |  | 
-Week 7 | Constraints,  Transactions | 7.2 Constraints on Attributes and Tuples<br/>7.3 Modification of Constraints<br/>6.6 Transactions in SQL |  | 
-Lab 7 | Examples of real world DB requirements |  |  | 
-Week 8 | Functional Dependencies,  Normalization | 3.1 Functional Dependencies<br/>3.2 Rules on Functional Dependencies<br/>3.3 Design of Relational Database Schemas |  | 
-Lab 8 | Python: substantial host-language<br/>program integration |  |  | 
-Week 9 | Subquerries, Database Modifications | 6.3 Subqueries<br/>6.4 Full-Relation Operations<br/>6.5 Database Modifications |  | 
-Lab 9 | Work with database Cursors |  |  | 
+Week ① | The E/R Model<br/>Weak Entity Sets<br/>The DB Environment | 4.1 The Entity/Relationship Model<br/>4.2 Design Principles<br/>4.4 Weak Entity Sets |  | 
+Lab ① | The SQLite Environment Tutorial |  |  | 
+Week ② | E/R Diagrams, Subclasses<br/>Relational Design<br/>Host Language Interface | 4.5 From E/R to Relational Designs<br/>4.6 From Subclass Structures to Relations<br/>4.7 Unified Modeling Language  |  | 
+Lab ② | Host-Language Interface Python Tutorial |  |  | 
+Week ③ | UML Diagrams, ODL<br/>Designs to Relations | 4.8 From UML Diagrams to Relations<br/>4.9 Object Definition Language<br/>4.10 From ODL to Relational Designs<br/>9.1 The Three-Tier Architecture |  | 
+Lab ③ | Python Frontend Flask Tutorial |  |  | 
+Week ④ | The Relational Model of Data<br/>Defining Schema | 2.1 An Overview of Data Models<br/>2.2 Basics of the Relational Model<br/>2.3 Defining Relation Schema in SQL<br/>7.1 Keys and Foreign Keys |  | 
+Lab ④ | Introduction to 1st, 2nd, & 3rd Normal Forms |  |  | 
+Week ⑤ | Simple Queries,  3-Tier Architecture<br/>Web Tier Flask Tutorial | 6.1 Simple Queries in SQL<br/>6.2 Queries with More Than One Relation<br/>9.1 The Three-Tier Architecture |  | 
+Lab ⑤ | Tutorial on 1st and 2nd NF |  |  | 
+Week ⑥ | Algebraic Query Language | 2.4 An Algebraic Query Language<br/>5.1 Relational Operations on Bags |  | 
+Lab ⑥ | Tutorial on Python-SQLite-Hosted-on-PythonAnywhere |  |  | 
+Week ⑦ | Constraints,  Transactions | 7.2 Constraints on Attributes and Tuples<br/>7.3 Modification of Constraints<br/>6.6 Transactions in SQL |  | 
+Lab ⑦ | Examples of real world DB requirements |  |  | 
+Week ⑧ | Functional Dependencies,  Normalization | 3.1 Functional Dependencies<br/>3.2 Rules on Functional Dependencies<br/>3.3 Design of Relational Database Schemas |  | 
+Lab ⑧ | Python: substantial host-language<br/>program integration |  |  | 
+Week ⑨ | Subquerries, Database Modifications | 6.3 Subqueries<br/>6.4 Full-Relation Operations<br/>6.5 Database Modifications |  | 
+Lab ⑨ | Work with database Cursors |  |  | 
 Week 10 | Decomposition,  BCNF and 3NF | 3.4 Decomposition: The Good, Bad, and Ugly<br/>3.5 Third Normal Form |  | 
 Lab 10 | Python: populating RDB from flat file / external data sources |  |  | 
 Week 11 | Multivalued Dependencies, 4NF | 3.6 Multivalued Dependencies<br/>3.7 An Algorithm for Discovering MVD's |  | 
