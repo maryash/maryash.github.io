@@ -34,7 +34,7 @@ Please note: once WSL is configured properly, stop watching the video and go to 
   
 **COURSE OUTLINE**  
   
- &nbsp;DATE&nbsp; | &nbsp;&nbsp;TOPIC&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;READINGS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;SLIDES&nbsp; | &nbsp;ASSIGNMENTS&nbsp; 
+DATE &nbsp; | &nbsp;&nbsp;TOPIC&nbsp;&nbsp; | READINGS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp;SLIDES&nbsp; | &nbsp;ASSIGNMENTS&nbsp; 
  ---: | :--- | --- | --- | --- 
 Week 1 | The E/R Model<br/>Weak Entity Sets<br/>The DB Environment | 4.1 The Entity/Relationship Model<br/>4.2 Design Principles<br/>4.4 Weak Entity Sets |  | 
 Lab 1 | The SQLite Environment Tutorial |  |  | 
@@ -51,7 +51,7 @@ Lab 6 | Tutorial on Python-SQLite-Hosted-on-PythonAnywhere |  |  |
 Week 7 | Constraints,  Transactions | 7.2 Constraints on Attributes and Tuples<br/>7.3 Modification of Constraints<br/>6.6 Transactions in SQL |  | 
 Lab 7 | Examples of real world DB requirements |  |  | 
 Week 8 | Functional Dependencies,  Normalization | 3.1 Functional Dependencies<br/>3.2 Rules on Functional Dependencies<br/>3.3 Design of Relational Database Schemas |  | 
-Lab 8 | Python: substantial host-language program<br/>integration |  |  | 
+Lab 8 | Python: substantial host-language<br/>program integration |  |  | 
 Week 9 | Subquerries, Database Modifications | 6.3 Subqueries<br/>6.4 Full-Relation Operations<br/>6.5 Database Modifications |  | 
 Lab 9 | Work with database Cursors |  |  | 
 Week 10 | Decomposition,  BCNF and 3NF | 3.4 Decomposition: The Good, Bad, and Ugly<br/>3.5 Third Normal Form |  | 
