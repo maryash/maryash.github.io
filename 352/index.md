@@ -48,13 +48,13 @@ Week&nbsp;&nbsp;5 | Simple Queries,  3-Tier Architecture<br/>Web Tier Flask Tuto
 Lab&nbsp;&nbsp;5 | Tutorial on 1st and 2nd NF |  |  | 
 Week&nbsp;&nbsp;6 | Algebraic Query Language | 2.4 An Algebraic Query Language<br/>5.1 Relational Operations on Bags |  | 
 Lab&nbsp;&nbsp;6 | Tutorial on Python-SQLite-Hosted-on-PythonAnywhere |  |  | 
-Week&nbsp;&nbsp;7 | Constraints,  Transactions | 7.2&nbsp;Constraints&nbsp;on&nbsp;Attributes&nbsp;and&nbsp;Tuples<br/>7.3 Modification of Constraints<br/>6.6 Transactions in SQL |  | 
+Week&nbsp;&nbsp;7 | Constraints,  Transactions | 7.2 Constraints on Attributes and Tuples<br/>7.3 Modification of Constraints<br/>6.6 Transactions in SQL |  | 
 Lab&nbsp;&nbsp;7 | Examples of real world DB<br/>requirements |  |  | 
 Week&nbsp;&nbsp;8 | Functional Dependencies,  Normalization | 3.1 Functional Dependencies<br/>3.2 Rules on Functional Dependencies<br/>3.3&nbsp;Design&nbsp;of&nbsp;Relational&nbsp;Database&nbsp;Schemas |  | 
 Lab&nbsp;&nbsp;8 | Python: substantial host-language<br/>program integration |  |  | 
 Week&nbsp;&nbsp;9 | Subquerries, Database Modifications | 6.3 Subqueries<br/>6.4 Full-Relation Operations<br/>6.5 Database Modifications |  | 
 Lab&nbsp;&nbsp;9 | Work with database Cursors |  |  | 
-Week&nbsp;10 | Decomposition,  BCNF and 3NF | 3.4 Decomposition: The Good, Bad, and Ugly<br/>3.5 Third Normal Form |  | 
+Week&nbsp;10 | Decomposition,  BCNF and 3NF | 3.4 Decomposition: Good, Bad, and Ugly<br/>3.5 Third Normal Form |  | 
 Lab&nbsp;10 | Python: populating RDB from flat file / external data sources |  |  | 
 Week&nbsp;11 | Multivalued Dependencies, 4NF | 3.6 Multivalued Dependencies<br/>3.7 An Algorithm for Discovering MVD's |  | 
 Lab&nbsp;11 | Normalizing your project database into 4NF |  |  | 
