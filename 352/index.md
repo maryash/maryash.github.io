@@ -50,7 +50,7 @@ Week&nbsp;&nbsp;6 | Algebraic Query Language | 2.4 An Algebraic Query Language<b
 Lab&nbsp;&nbsp;6 | Tutorial on Python-SQLite-Hosted-on-PythonAnywhere |  |  | 
 Week&nbsp;&nbsp;7 | Constraints,  Transactions | 7.2&nbsp;Constraints&nbsp;on&nbsp;Attributes&nbsp;and&nbsp;Tuples<br/>7.3 Modification of Constraints<br/>6.6 Transactions in SQL |  | 
 Lab&nbsp;&nbsp;7 | Examples of real world DB<br/>requirements |  |  | 
-Week&nbsp;&nbsp;8 | Functional Dependencies,  Normalization | 3.1 Functional Dependencies<br/>3.2 Rules on Functional Dependencies<br/>3.3 Design of Relational Database Schemas |  | 
+Week&nbsp;&nbsp;8 | Functional Dependencies,  Normalization | 3.1 Functional Dependencies<br/>3.2 Rules on Functional Dependencies<br/>3.3&nbsp;Design&nbsp;of&nbsp;Relational&nbsp;Database&nbsp;Schemas |  | 
 Lab&nbsp;&nbsp;8 | Python: substantial host-language<br/>program integration |  |  | 
 Week&nbsp;&nbsp;9 | Subquerries, Database Modifications | 6.3 Subqueries<br/>6.4 Full-Relation Operations<br/>6.5 Database Modifications |  | 
 Lab&nbsp;&nbsp;9 | Work with database Cursors |  |  | 
