@@ -34,7 +34,7 @@ Please note: once WSL is configured properly, stop watching the video and go to 
   
 **COURSE OUTLINE**  
   
-DATE&nbsp;&nbsp; | TOPIC | READINGS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | SLIDES | ASSIGNMENTS 
+DATE&nbsp; | TOPIC | READINGS | SLIDES | ASSIGNMENTS 
  ---: | :--- | --- | --- | --- 
 Week&nbsp;&nbsp;1 | The E/R Model<br/>Weak Entity Sets<br/>The DB Environment | 4.1 The Entity/Relationship Model<br/>4.2 Design Principles<br/>4.4 Weak Entity Sets |  | 
 Lab&nbsp;&nbsp;1 | The SQLite Environment Tutorial |  |  | 
@@ -48,7 +48,7 @@ Week&nbsp;&nbsp;5 | Simple Queries,  3-Tier Architecture<br/>Web Tier Flask Tuto
 Lab&nbsp;&nbsp;5 | Tutorial on 1st and 2nd NF |  |  | 
 Week&nbsp;&nbsp;6 | Algebraic Query Language | 2.4 An Algebraic Query Language<br/>5.1 Relational Operations on Bags |  | 
 Lab&nbsp;&nbsp;6 | Tutorial on Python-SQLite-Hosted-on-PythonAnywhere |  |  | 
-Week&nbsp;&nbsp;7 | Constraints,  Transactions | 7.2 Constraints on Attributes and Tuples<br/>7.3 Modification of Constraints<br/>6.6 Transactions in SQL |  | 
+Week&nbsp;&nbsp;7 | Constraints,  Transactions | 7.2&nbsp;Constraints&nbsp;on&nbsp;Attributes&nbsp;and&nbsp;Tuples<br/>7.3 Modification of Constraints<br/>6.6 Transactions in SQL |  | 
 Lab&nbsp;&nbsp;7 | Examples of real world DB<br/>requirements |  |  | 
 Week&nbsp;&nbsp;8 | Functional Dependencies,  Normalization | 3.1 Functional Dependencies<br/>3.2 Rules on Functional Dependencies<br/>3.3 Design of Relational Database Schemas |  | 
 Lab&nbsp;&nbsp;8 | Python: substantial host-language<br/>program integration |  |  | 
