@@ -28,6 +28,7 @@ Additional requireded readings and tutorials are available on this course webpag
 [**CSCI354 Discord Invite Link**](){:target="_blank"}  
     
 **COURSE OUTLINE**  
+  
 DATE&nbsp; | TOPIC | READINGS | SLIDES | ASSIGNMENTS 
  --- | --- | --- | --- | --- 
 Week&nbsp;&nbsp;1 | The E/R Model<br/>Weak Entity Sets<br/>The DB Environment | 4.1 The Entity/Relationship Model<br/>4.2 Design Principles<br/>4.4 Weak Entity Sets |  | 
