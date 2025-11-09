@@ -14,10 +14,13 @@ Tuesdays and Fridays 10:00 AM - 11:15 PM in HW 714
   
 **TUTORING**  
 In HN 1001 B  
-This is an essential resource for you during this semester.  Attendance is highly recommended!  
-    
-**TEXTBOOK** &nbsp; Widom, Ullman et al "A First Course in Database Systems" 3rd Edition OR "Database Systems - The Complete Book" 2nd Edition (selected chapters) — either book or PDF.    
-Additional readings and tutorials are available on the course webpage.  
+This is an essential resource for you during this semester.  Attendance is highly recommended! 
+  
+<!-- 
+**TEXTBOOK** &nbsp; Widom, Ullman et al "A First Course in Database Systems" 3rd Edition OR "Database Systems - The Complete Book" 2nd Edition (selected chapters) — either book or PDF.   
+--> 
+**TEXTBOOK** &nbsp; Care Churcher "Beginning Database Design" 2nd Edition — either book or PDF.   
+Additional requireded readings and tutorials are available on this course webpage.  
   
 [**SOURCE CODE FROM TEXTBOOK AND SLIDES**](files/) &nbsp; [**TextbookSourceCode.zip**](files/) 
 
@@ -29,7 +32,7 @@ Please note: once WSL is configured properly, stop watching the video and go to 
   
 [**Github Guide**](files/Github.pdf){:target="_blank"}
 
-[**CSCI352 Discord Invite Link**](){:target="_blank"}
+[**CSCI354 Discord Invite Link**](){:target="_blank"}
 
   
 **COURSE OUTLINE**  
