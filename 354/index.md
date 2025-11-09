@@ -19,6 +19,7 @@ This is an essential resource for you during this semester.  Attendance is highl
 <!-- 
 **TEXTBOOK** &nbsp; Widom, Ullman et al "A First Course in Database Systems" 3rd Edition OR "Database Systems - The Complete Book" 2nd Edition (selected chapters) — either book or PDF.   
 --> 
+
 **TEXTBOOK** &nbsp; Care Churcher "Beginning Database Design" 2nd Edition — either book or PDF.   
 Additional requireded readings and tutorials are available on this course webpage.  
   
