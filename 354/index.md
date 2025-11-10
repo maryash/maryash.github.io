@@ -12,14 +12,36 @@ title: CSCI 354 MAIN PAGE
 **LECTURE AND LAB** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
 Tuesdays and Fridays 10:00 AM - 11:15 PM online  
   
+This is a practical database design course.  It covers essential skills needed to conceptualize, model, and implement robust and effective database systems that meet the real-world business scenarios.  You will learn to conceptually represent data organization, model entity-relationships, normalize schemas, minimize redundancy, and ensure data integrity.  With hands-on projects on organizing data (creating tables, defining constraints) and manipulating data (querying, updating).  Informed by real world scenarios, this course will teach you to analyze business requirements and to crystalize them into optimum database schemas. 
+
+**PREREQUISITES** CSCI 22700 or CSCI 23500
+
+**LERNING OUTCOMES**
+Be able to design and implement a relational database schema design of realistic complexity that normalized to 3NF.
+Be able to implement the database in a RDBMS.
+Be able to manipulate a relational database using a query language.  
+Be able to integrate a relational database into a software application, including one with a three-tier server architecture.  
+
+**EXPECTATIONS** Completing homework is an essential part of the learning experience. Students are expected to learn both the material covered in class and the material in the online Labs, the textbook and other assigned reading.
+
+**FINAL GRADE**
+Home Work Assignments: 10%  
+Lab Tests: 45%  
+Code Reviews: 15% 
+Midterm Exam 15% 
+Final Exam: 25%  
+Optional Final Project: 20% 
+If you chouse to work on a project, the weight of the totality of other components will be reduced to 90%,  effectively allowing you to reach 110! 
+  
 **REQUIRED SUPPLIES**  
 You will draw/write all homeworks, tests, and exams on paper.  You MUST use [this particilar GRID PAPER](https://www.amazon.com/gp/product/B001IZKYYS/ref=ox_sc_act_title_2?smid=A36N3VFG4OZIHD){:target="_blank"} with these particular [black 0.7-point PilotFriXion pens](https://www.amazon.com/gp/product/B009QYH52C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER){:target="_blank"}.  I do not allow any other paper or pens/pencils.  
-
-**TEXTBOOK** &nbsp; Clare Churcher "Beginning Database Design" 2nd (2012) Edition — either book or PDF.  
+  
+**TEXTBOOK**  
+Clare Churcher "Beginning Database Design" 2nd (2012) Edition — either book or PDF.  
 Additional requireded readings and tutorials will be provided on this course webpage.  
   
 [**SOURCE CODE FROM TEXTBOOK AND SLIDES**](files/) &nbsp; [**TextbookSourceCode.zip**](files/) 
-
+  
 **PROJECT RESOURCES**  
   
 [**Github Guide**](files/Github.pdf){:target="_blank"}
