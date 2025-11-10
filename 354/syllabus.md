@@ -80,10 +80,6 @@ A comprehensive final project is required.  It will demonstrate your mastery of 
 **Computer Access**  
 University computer laboratories are available for this course in 1001B HN. These machines are for all students enrolled in computer science at Hunter College.  Given the limited number (26 machines), work on those computers must be related to this course only and a code of conduct applies to computer use in the department and on-campus. Misusing university computers could result in losing your computer access for the rest of the term.  
   
-**Tutoring**  
-The college provides drop-in tutoring and assistance for courses via Skirball Science Learning Center.  Additional tutoring will be available in the computer science department (10th Floor Hunter North).  
-We also provide discussion board and email help.  More information is available on the course site on Blackboard.  
-  
 **Policy on Bullying**  
 Bullying, cyberbullying, online hate, intimidation, threats, harassment, and pressure to share schoolwork are all forms of violence. CUNY holds a zero tolerance stance towards all such acts. The University is committed to prevention of any form of bullying, will respond promptly to threats and/or acts, and will protect victims of bullying from retaliation.  As a criminal matter, the New York Attorney General defines cyberbullying as the use of email, websites, instant messaging, chat rooms, text messaging and digital cameras to antagonize and intimidate others. Disrupting a teleconferencing platform (such as Zoom/Skype/Blackboard Collaborate Ultra) is a federal crime.  
   
