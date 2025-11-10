@@ -16,7 +16,7 @@ Tuesdays and Fridays 10:00 AM - 11:15 PM online
 **Prerequisites** CSCI 22700 or CSCI 23500
 
 **Learning Outcomes**
-- Be able to design and implement a relational database schema design of realistic complexity - that normalized to 3NF.
+- Be able to design and implement a relational database schema design of realistic complexity normalized to 3NF.
 - Be able to implement the database in a RDBMS.
 - Be able to manipulate a relational database using a query language.  
 - Be able to integrate a relational database into a software application, including one with a three-tier server architecture.  
