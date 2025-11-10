@@ -22,7 +22,7 @@ Tuesdays and Fridays 10:00 AM - 11:15 PM online
 - Be able to integrate a relational database into a software application, including one with a three-tier server architecture.  
 
 **Required Supplies**  
-You will draw/write all homeworks, tests, and exams on paper.  You MUST use this [PARTICULAR GRID PAPER](https://www.amazon.com/gp/product/B001IZKYYS/ref=ox_sc_act_title_2?smid=A36N3VFG4OZIHD){:target="_blank"} with these specific [0.7-POINT BLACK **Pilot FriXion** PENS](https://www.amazon.com/gp/product/B009QYH52C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER){:target="_blank"}.  I do not allow any other paper or pens/pencils.  
+You will write/draw all homeworks, tests, and exams on paper.  You MUST use this [PARTICULAR GRID PAPER](https://www.amazon.com/gp/product/B001IZKYYS/ref=ox_sc_act_title_2?smid=A36N3VFG4OZIHD){:target="_blank"} with these [0.7-POINT BLACK **Pilot FriXion** PENS](https://www.amazon.com/gp/product/B009QYH52C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER){:target="_blank"}.  I do not allow any other paper or pens/pencils.  
   
 **Textbook**  
 Clare Churcher "Beginning Database Design" 2nd (2012) Edition — either book or PDF.  
