@@ -9,15 +9,14 @@ title: CSCI 354 MAIN PAGE
 [**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [**GRADESCOPE**](https://www.gradescope.com/courses/ "Entry Code "){:target="_blank"}  
   
-**LECTURE** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
-Tuesdays and Fridays 10:00 AM - 11:15 PM in HW 714  
+**LECTURE AND LAB** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
+Tuesdays and Fridays 10:00 AM - 11:15 PM online  
   
-**TUTORING**  
-In HN 1001 B  
-This is an essential resource for you during this semester.  Attendance is highly recommended!  
-  
-**TEXTBOOK** &nbsp; Care Churcher "Beginning Database Design" 2nd Edition — either book or PDF.  
-Additional requireded readings and tutorials are available on this course webpage.  
+**REQUIRED SUPPLIES**  
+You will draw/write all homeworks, tests, and exams on paper.  You MUST use [this particilar GRID PAPER](https://www.amazon.com/gp/product/B001IZKYYS/ref=ox_sc_act_title_2?smid=A36N3VFG4OZIHD){:target="_blank"} with these particular [black 0.7-point PilotFriXion pens](https://www.amazon.com/gp/product/B009QYH52C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER){:target="_blank"}.  I do not allow any other paper or pens/pencils.  
+
+**TEXTBOOK** &nbsp; Clare Churcher "Beginning Database Design" 2nd (2012) Edition — either book or PDF.  
+Additional requireded readings and tutorials will be provided on this course webpage.  
   
 [**SOURCE CODE FROM TEXTBOOK AND SLIDES**](files/) &nbsp; [**TextbookSourceCode.zip**](files/) 
 
