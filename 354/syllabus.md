@@ -5,7 +5,7 @@ title: CSCI 354 SYLLABUS
 
 **[CSCI 354 &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
   
-**CSCI 35400: DATABASE DESIGN**  
+**CSCI 35400 &nbsp; DATABASE DESIGN**  
 Hunter College, City University of New York  
   
 **Lecture and Lab** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
