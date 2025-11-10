@@ -3,7 +3,7 @@ layout: myDefault
 title: CSCI 395 SYLLABUS
 ---
 
-**[CSCI 35400 &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
+**[CSCI 39500 &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
   
 **CSCI 39500 &nbsp; DATABASE DESIGN**  
 Hunter College, City University of New York  
