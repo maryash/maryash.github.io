@@ -9,7 +9,7 @@ title: CSCI 395 SYLLABUS
 Hunter College, City University of New York  
   
 **Lecture and Lab** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
-Tuesdays and Fridays 10:00 AM - 11:15 PM online  
+Mondays and Wednesdays 8:30 AM - 9:45 AM on line  
   
 **Description**  This course in practical database design covers essential skills needed to conceptualize, model, and implement robust and effective database systems that meet the real-world business scenarios.  You will learn to visually represent data organization, model entity-relationships, normalize schemas, minimize redundancy, and ensure data integrity.  With hands-on projects on organizing data (creating tables, defining constraints) and manipulating data (querying, updating).  Informed by real world scenarios, this course will teach you to analyze business requirements and to crystalize them into optimum database schemas. 
 
