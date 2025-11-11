@@ -10,7 +10,7 @@ title: CSCI 395 MAIN PAGE
 [**GRADESCOPE**](https://www.gradescope.com/courses/ "Entry Code "){:target="_blank"}  
   
 **LECTURE AND LAB** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
-Tuesdays and Fridays 10:00 AM - 11:15 PM online  
+Mondays and Wednesdays 8:30 AM - 9:45 AM on line  
   
 **TEXTBOOK**  
 Clare Churcher "Beginning Database Design" 2nd (2012) Edition — either book or PDF.  
