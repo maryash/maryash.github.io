@@ -31,11 +31,11 @@ Additional requireded readings and tutorials will be provided on this course web
 
 **Technology**  
 This course uses multiple software tools and languages:    
-**Python** a programming language that is freely available across multiple platforms.   
-**SQLite** a free database.  
-**BrightSpace** the learning management system used throughout CUNY. Accounts are provided automatically to all enrolled students.  
-**Gradescope**  All assignments will be submitted to Gradescope. Weekly tets, exams and homeworks will be on paper submited as images, graded, and returned via Gradescope. An email with access information will be sent to your email of record on Blackboard two days before the semester starts.  
-**Github** a freely available site for hosting and collaborating, particularly for programming.
+*Python* a programming language that is freely available across multiple platforms.   
+*SQLite* a free database.  
+*BrightSpace* the learning management system used throughout CUNY. Accounts are provided automatically to all enrolled students.  
+*Gradescope*  All assignments will be submitted to Gradescope. Weekly tets, exams and homeworks will be on paper submited as images, graded, and returned via Gradescope. An email with access information will be sent to your email of record on Blackboard two days before the semester starts.  
+*Github* a freely available site for hosting and collaborating, particularly for programming.
   
 **Final Grade**
 Home Work Assignments: 10%  
