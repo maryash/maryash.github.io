@@ -8,13 +8,13 @@ title: CSCI 395 SYLLABUS
 [**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [**GRADESCOPE**](https://www.gradescope.com/courses/ "Entry Code "){:target="_blank"}    
   
+**Description**  This course in practical database design covers essential skills needed to conceptualize, model, and implement robust and effective database systems that meet the real-world business scenarios.  You will learn to visually represent data organization, model entity-relationships, normalize schemas, minimize redundancy, and ensure data integrity.  With hands-on projects on organizing data (creating tables, defining constraints) and manipulating data (querying, updating).  Informed by real world scenarios, this course will teach you to analyze business requirements and to crystalize them into optimum database schemas. 
+  
+**Prerequisites** CSCI 22700 or CSCI 23500
+
 **Lecture and Lab** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
 Mondays and Wednesdays 8:30 AM - 9:45 AM on line  
   
-**Description**  This course in practical database design covers essential skills needed to conceptualize, model, and implement robust and effective database systems that meet the real-world business scenarios.  You will learn to visually represent data organization, model entity-relationships, normalize schemas, minimize redundancy, and ensure data integrity.  With hands-on projects on organizing data (creating tables, defining constraints) and manipulating data (querying, updating).  Informed by real world scenarios, this course will teach you to analyze business requirements and to crystalize them into optimum database schemas. 
-
-**Prerequisites** CSCI 22700 or CSCI 23500
-
 **Learning Outcomes**  
 1. Be able to design and implement a relational database schema design of realistic complexity normalized to 3NF.  
 1. Be able to implement the database in a RDBMS.  
