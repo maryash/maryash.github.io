@@ -7,8 +7,6 @@ title: CSCI 395 SYLLABUS
 [**SYLLABUS**](syllabus.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 [**GRADESCOPE**](https://www.gradescope.com/courses/ "Entry Code "){:target="_blank"}    
-**CSCI 39500 &nbsp; DATABASE DESIGN**  
-Hunter College, City University of New York  
   
 **Lecture and Lab** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
 Mondays and Wednesdays 8:30 AM - 9:45 AM on line  
