@@ -3,8 +3,10 @@ layout: myDefault
 title: CSCI 395 SYLLABUS
 ---
 
-**[CSCI 39500 &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
-  
+**[CSCI 395 &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
+[**SYLLABUS**](syllabus.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[**GRADESCOPE**](https://www.gradescope.com/courses/ "Entry Code "){:target="_blank"}    
 **CSCI 39500 &nbsp; DATABASE DESIGN**  
 Hunter College, City University of New York  
   
