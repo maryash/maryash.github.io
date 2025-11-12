@@ -16,9 +16,9 @@ Mondays and Wednesdays 8:30 AM - 9:45 AM on line
 **Prerequisites** CSCI 22700 or CSCI 23500
 
 **Learning Outcomes**
-* Be able to design and implement a relational database schema design of realistic complexity normalized to 3NF.  
-* Be able to implement the database in a RDBMS.*Be able to manipulate a relational database using a query language.  
-* Be able to integrate a relational database into a software application, including one with a three-tier server architecture.  
+1 Be able to design and implement a relational database schema design of realistic complexity normalized to 3NF.  
+1 Be able to implement the database in a RDBMS.*Be able to manipulate a relational database using a query language.  
+1 Be able to integrate a relational database into a software application, including one with a three-tier server architecture.  
  
 **Required Supplies**  
 You will write/draw all homeworks, tests, and exams on paper.  You MUST use this [PARTICULAR GRID PAPER](https://www.amazon.com/gp/product/B001IZKYYS/ref=ox_sc_act_title_2?smid=A36N3VFG4OZIHD){:target="_blank"} with these [0.7mm BLACK **Pilot FriXion** PENS](https://www.amazon.com/gp/product/B009QYH52C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER){:target="_blank"}.  I do not allow any other paper or pens/pencils.  
