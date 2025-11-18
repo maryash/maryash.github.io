@@ -16,7 +16,7 @@ Clare Churcher "Beginning Database Design" 2nd (2012) Edition — either book or
 Additional requireded readings and tutorials will be provided on this course webpage.  
   
 **REQUIRED SUPPLIES**  
-You will write/draw all homeworks, tests, and exams on paper.  You MUST use this [PARTICULAR GRID PAPER](https://www.amazon.com/gp/product/B001IZKYYS/ref=ox_sc_act_title_2?smid=A36N3VFG4OZIHD){:target="_blank"} with these [0.7mm BLACK **Pilot FriXion** PENS](https://www.amazon.com/gp/product/B009QYH52C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER){:target="_blank"}.  I do not allow any other paper or pens/pencils.  Scanner app: [🍏](https://apps.apple.com/fr/app/scanner-app-genius-scan/id377672876){:target="_blank"} / [🤖](https://play.google.com/store/apps/details?id=com.thegrizzlylabs.geniusscan.free&hl=en){:target="_blank"}  
+You will write/draw all homeworks, tests, and exams on paper.  You MUST use this [PARTICULAR GRID PAPER](https://www.amazon.com/gp/product/B001IZKYYS/ref=ox_sc_act_title_2?smid=A36N3VFG4OZIHD){:target="_blank"} with these [0.7mm BLACK **Pilot FriXion** PENS](https://www.amazon.com/gp/product/B009QYH52C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER){:target="_blank"}.  I do not allow any other paper or pens/pencils.  Scanner app: [ 🍏 ](https://apps.apple.com/fr/app/scanner-app-genius-scan/id377672876){:target="_blank"} / [ 🤖 ](https://play.google.com/store/apps/details?id=com.thegrizzlylabs.geniusscan.free&hl=en){:target="_blank"}  
       
 **COURSE OUTLINE**  
   
