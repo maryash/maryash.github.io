@@ -22,7 +22,7 @@ Mondays and Wednesdays 8:30 AM - 9:45 AM on line
 1. Be able to integrate a relational database into a software application, including one with a three-tier server architecture.  
   
 **Required Supplies**  
-You will write/draw all homeworks, tests, and exams with pen on paper in the exact manner that I demand; quolity of presentation of your work is a large part of each grade.  You MUST buy this [PARTICULAR GRID PAPER](https://www.amazon.com/gp/product/B001IZKYYS/ref=ox_sc_act_title_2?smid=A36N3VFG4OZIHD){:target="_blank"} and these [0.7mm BLACK **Pilot FriXion** PENS](https://www.amazon.com/gp/product/B009QYH52C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER){:target="_blank"}.  I do not allow any other paper or pens/pencils.  
+You will write/draw all homeworks, tests, and exams with pen on paper in the exact manner that I demand; quality of presentation of your work is a large part of each grade.  You MUST buy this [PARTICULAR GRID PAPER](https://www.amazon.com/gp/product/B001IZKYYS/ref=ox_sc_act_title_2?smid=A36N3VFG4OZIHD){:target="_blank"} and these [0.7mm BLACK **Pilot FriXion** PENS](https://www.amazon.com/gp/product/B009QYH52C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER){:target="_blank"}.  I do not allow any other paper or pens/pencils.  
   
 **Textbook**  
 Clare Churcher "Beginning Database Design" 2nd (2012) Edition — either book or PDF.  
@@ -48,7 +48,7 @@ Code Reviews: 15%
 Midterm Exam 15% 
 Final Exam: 25%  
 Optional Extra Credit Final Project: 10% 
-You will write/draw all homeworks, tests, and exams with pen on paper in the exact manner that I demand; quolity of presentation of your work is a large part of the grade for any assignment.  
+You will write/draw all homeworks, tests, and exams with pen on paper in the exact manner that I demand; quality of presentation of your work is a large part of the grade for any assignment.  
     
 **Expectations**  
 Attendance of every lecture and every lab is mandatory.  Completing homework is an essential part of the learning experience.  You are expected to learn both the material covered in class and the material in the labs, the textbook and other assigned reading.  
