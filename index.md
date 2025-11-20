@@ -38,6 +38,6 @@ title: Genady Maryash, Hunter College
   
   [CSCI 235 SPRING 2025](235/index.html)   
 
-  [CSCI 395〖354〗SPRING 2025](354/index.html)   
+  [CSCI 395〖354〗SPRING 2026](354/index.html)   
   
  
