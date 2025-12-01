@@ -20,7 +20,7 @@ You will write/draw all homeworks, tests, and exams with pen on paper in the exa
       
 **COURSE OUTLINE**  
   
-DATE&nbsp; | TOPIC | READINGS | SLIDES 
+DATE | TOPIC | READINGS | SLIDES 
  --- | --- | --- | --- 
 Week&nbsp;&nbsp;1|What Can Go Wrong|Mishandling Keywords and Categories 1<br/>Repeated Information 4<br/>Designing for a Single Report 6| 
 Lab&nbsp;&nbsp;1|The SQLite Environment Tutorial|| 
@@ -30,7 +30,7 @@ Week&nbsp;&nbsp;3|Initial Requirements and Use Cases|Real and Abstract Views of 
 Lab&nbsp;&nbsp;3|Python Frontend Flask Tutorial|| 
 Week&nbsp;&nbsp;4|Learning from the Data Model|Review of Data Models 43<br/>Optionality: Should It Be 0 or 1? 46<br/>&nbsp;&nbsp;*Student Course Example 46<br/>&nbsp;&nbsp;Customer Order Example 47<br/>&nbsp;&nbsp;Insect Example 47*<br/>A Cardinality of 1: Might It Occasionally Be Two? 48<br/>&nbsp;&nbsp;*Insect Example 48<br/>&nbsp;&nbsp;*Sports Club Example 49*<br/>A Cardinality of 1: What About Historical Data? 50<br/>&nbsp;&nbsp;Sports Club Example 50<br/>&nbsp;&nbsp;Departments Example 51<br/>&nbsp;&nbsp;Insect Example 51*<br/>A Many–Many: Are We Missing Anything? 52<br/>&nbsp;&nbsp;*Sports Club Example 53<br/>&nbsp;&nbsp;Student Course Example 55<br/>&nbsp;&nbsp;Meal Delivery Example 55<br/>&nbsp;&nbsp;When a Many–Many Doesn’t Need an Intermediate Class 56*| 
 Lab&nbsp;&nbsp;4|Introduction to 1st, 2nd, & 3rd Normal Forms|| 
-Week&nbsp;&nbsp;5|Developing a Data Model|Attribute, Class, or Relationship? 59<br/>Two or More Relationships Between Classes 61<br/>Different Routes Between Classes 63<br/>&nbsp;&nbsp;*Redundant Information 64<br/>&nbsp;&nbsp;Routes Providing Different Information 65<br/>&nbsp;&nbsp;False Information from a Route (Fan Trap) 65<br/>&nbsp;&nbsp;Gaps in a Route Between Classes (Chasm Trap) 67*<br/>Relationships Between Objects of the Same Class 68<br/>Relationships&nbsp;Involving&nbsp;More&nbsp;Than&nbsp;Two Classes&nbsp;69| 
+Week&nbsp;&nbsp;5|Developing a Data Model|Attribute, Class, or Relationship? 59<br/>Two or More Relationships Between Classes 61<br/>Different Routes Between Classes 63<br/>&nbsp;&nbsp;*Redundant Information 64<br/>&nbsp;&nbsp;Routes Providing Different Information 65<br/>&nbsp;&nbsp;False Information from a Route (Fan Trap) 65<br/>&nbsp;&nbsp;Gaps in a Route Between Classes (Chasm Trap) 67*<br/>Relationships&nbsp;Between&nbsp;Objects&nbsp;of&nbsp;the&nbsp;Same&nbsp;Class&nbsp;68<br/>Relationships Involving More Than Two Classes 69| 
 Lab&nbsp;&nbsp;5|Tutorial on 1st and 2nd NF|| 
 Week&nbsp;&nbsp;6|Generalization and Specialization|Classes or Objects with Much in Common 75<br/>Specialization 76<br/>Generalization 77<br/>Inheritance in Summary 79<br/>When Inheritance Is Not a Good Idea 80<br/>&nbsp;&nbsp;*Confusing Objects with Subclasses 80<br/>&nbsp;&nbsp;Confusing an Association with a Subclass 81*<br/>When Is Inheritance Worth Considering? 81<br/>Should the Superclass Have Objects? 83<br/>Objects That Belong to More Than One Subclass 84<br/>Composites and Aggregates 87<br/>It Isn’t Easy 89| 
 Lab&nbsp;&nbsp;6|Tutorial on Python-SQLite-Hosted-on-PythonAnywhere|| 
@@ -42,9 +42,8 @@ Week&nbsp;&nbsp;9|More on Keys and Constraints|Choosing a Primary Key 129<br/>&n
 Lab&nbsp;&nbsp;9|Work with database Cursors|| 
 Week&nbsp;10|Query Basics|Simple Queries on One Table 141<br/>&nbsp;&nbsp;*The Project Operation 142<br/>&nbsp;&nbsp;The Select Operation 142<br/>&nbsp;&nbsp;Aggregates 143<br/>&nbsp;&nbsp;Ordering 145*<br/>Queries with Two or More Tables 145<br/>&nbsp;&nbsp;*The Join Operation 145<br/>&nbsp;&nbsp;Set Operations 147*<br/>How Indexes Can Help 149<br/>&nbsp;&nbsp;*Indexes and Simple Queries 149<br/>&nbsp;&nbsp;Disadvantages of Indexes 151<br/>&nbsp;&nbsp;Types of Indexes 152*<br/>Views 152<br/>&nbsp;&nbsp;*Creating Views 153<br/>&nbsp;&nbsp;Uses for Views 153*| 
 Lab&nbsp;10|Python: populating RDB from flat file / external data sources|| 
-Week&nbsp;11|Other Implementations|Object–Oriented Implementation 169<br/>&nbsp;&nbsp;*Classes and Objects 169<br/>&nbsp;&nbsp;Complex Types and Methods 171<br/>&nbsp;&nbsp;Collections of Objects 173<br/>&nbsp;&nbsp;Representing Relationships 173<br/>&nbsp;&nbsp;OO Environments 175*<br/>Implementing a Data Model in a Spreadsheet 176 
-Lab&nbsp;11|Normalizing your project database into 4NF| 
-<br/>&nbsp;&nbsp;*1–Many Relationships 177<br/>&nbsp;&nbsp;Many–Many Relationships 180*<br/>Implementing in XML 181<br/>&nbsp;&nbsp;*Representing Relationships 183<br/>&nbsp;&nbsp;Defining XML types 185*<br/>Querying XML 186<br/>NoSQL 186| 
+Week&nbsp;11|Other Implementations|Object–Oriented Implementation 169<br/>&nbsp;&nbsp;*Classes and Objects 169<br/>&nbsp;&nbsp;Complex Types and Methods 171<br/>&nbsp;&nbsp;Collections of Objects 173<br/>&nbsp;&nbsp;Representing Relationships 173<br/>&nbsp;&nbsp;OO Environments 175*<br/>Implementing a Data Model in a Spreadsheet 176<br/>&nbsp;&nbsp;*1–Many Relationships 177<br/>&nbsp;&nbsp;Many–Many Relationships 180*<br/>Implementing in XML 181<br/>&nbsp;&nbsp;*Representing Relationships 183<br/>&nbsp;&nbsp;Defining XML types 185*<br/>Querying XML 186<br/>NoSQL 186 
+Lab&nbsp;11|Normalizing your project database into 4NF|| 
 Week&nbsp;12|* User Interface|Input Forms 157<br/>&nbsp;&nbsp;*Data Entry Forms Based on a Single Table 158<br/>&nbsp;&nbsp;Data Entry Forms Based on Several Tables 159<br/>&nbsp;&nbsp;Constraints on a Form 161<br/>&nbsp;&nbsp;Restricting Access to a Form 163*<br/>Reports 163<br/>&nbsp;&nbsp;*Basing Reports on Views 163<br/>&nbsp;&nbsp;Main Parts of a Report 164<br/>&nbsp;&nbsp;Grouping and Summarizing 164*| 
 Lab&nbsp;12|Judicious Use of Denormalization|| 
 Week&nbsp;13|Final Project Presentations|| 
