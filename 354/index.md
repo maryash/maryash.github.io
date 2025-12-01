@@ -76,9 +76,9 @@ Lab&nbsp;12 | Judicious Use of Denormalization |  |  |
 Week&nbsp;13 | Final Project Presentations |  |  | 
 Week&nbsp;14 | Semester Review |  |  | 
 Week&nbsp;15 | Final Exam |  |  | 
-
-
-
+  
+---      
+  
  --- | --- 
 The E/R Model<br/>Weak Entity Sets<br/>The DB Environment|4.1 The Entity/Relationship Model<br/>4.2 Design Principles<br/>4.4 Weak Entity Sets 
 E/R Diagrams, Subclasses<br/>Relational Design<br/>Host Language Interface|4.5 From E/R to Relational Designs<br/>4.6 From Subclass Structures to Relations<br/>4.7 Unified Modeling Language 
