@@ -5,6 +5,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   parse_block_html: true
+  parse_span_html: true
 future: true
 jailed: false
 theme: jekyll-theme-primer
