@@ -1,5 +1,6 @@
 github: []
 encoding: UTF-8
+markdown: 1
 kramdown:
   input: kramdown
   hard_wrap: true
