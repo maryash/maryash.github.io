@@ -21,7 +21,7 @@ You will write/draw all homeworks, tests, and exams with pen on paper in the exa
   
 <details>
  <summary>More About Use Cases 38</summary>
- *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Actors 38<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exceptions and Extensions 39<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use Cases for Maintaining Data 39<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use Cases for Reporting Information 40*</details><br/>Finding Out More About the Problem 40<br/>Finding Out More About the Problem 40*
+ *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Actors 38<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exceptions and Extensions 39<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use Cases for Maintaining Data 39<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use Cases for Reporting Information 40*
 </details>
 Finding Out More About the Problem 40
 <details>
