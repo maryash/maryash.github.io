@@ -4,7 +4,6 @@ title: LAB 1
 ---  
 
 # LAB 1
----
 
 Today’s lab will focus on downloading and setting up SQLiteStudio.  
 Software tools needed: web browser.
@@ -37,7 +36,7 @@ To install and launch it:
 
 * Open the SQL Editor (**Alt + E**). Copy and paste the following code, then execute the query (**F9**):
 
-``` sql
+~~~ mysql
 CREATE TABLE Member (
    MemberID INTEGER PRIMARY KEY NOT NULL,
    LastName TEXT(20) NOT NULL,
@@ -48,7 +47,7 @@ CREATE TABLE Member (
    Gender TEXT(1),
    Team TEXT(20) REFERENCES Team(TeamName)
 );
-```
+~~~
 
 * In the left panel, double-click Tables, then select Member. You should see the table structure as follows:
 
@@ -71,14 +70,14 @@ When you click on the Data tab in the Team table, you should see the tuples inse
 
 * Once the tables are created, we can add tuples to the `Member` table. Insert sample tuples by copying and pasting the following SQL code:
 
-``` sql
+~~~ mysql
 INSERT INTO Member (MemberID, LastName, FirstName, Phone, Handicap, JoinDate, Gender, Team)
 VALUES
 (118, 'McKenzie', 'Melissa', '6468888888', 30, '2005-05-28', 'F', NULL),
 (138, 'Stone', 'Michael', '9188888888', 30, '2009-05-31', 'M', NULL),
 (153, 'Nolan', 'Brenda', '7188888888', 11, '2006-08-12', 'F', 'TeamB'),
 (176, 'Branch', 'Helen', '9298888888', NULL, '2011-12-06', 'F', NULL);
-```
+~~~
 
 After executing the query, click on the Data tab in the Member table. You should see the tuples displayed as follows:
 
