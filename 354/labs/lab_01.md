@@ -44,11 +44,11 @@ To install and launch it:
 
  Click OK to save the column, and repeat this process for the remaining columns.
 
- ![Member Table](MemberTable.png)
+ <img src="MemberTable.png" alt="Member Table" width="450">
 
 5. Once the columns are created, we can add tuples to the `Member` table. To add tuples, click on the "Data" tab, then click the green **+** icon to insert a new row  
    Enter the following data: 
 
-   ![Member Tuples](MemberTuples.png)  
+   <img src="MemberTuples.png" alt="Member Tuples" width="450">  
 
 Click on the ✅ icon to save the changes.
