@@ -2,61 +2,51 @@
 layout: myDefault 
 title: LAB 1  
 ---  
-  
+
 LAB 1  
 ---  
 
-Today’s lab will focus on setting up an environment for SQLite in VS Code.
+Today’s lab will focus on downloading and setting up SQLiteStudio.  
+Software tools needed: web browser.
 
-Software tools needed: VS Code.
+### Downloading SQLiteStudio
 
+We will be using SQLiteStudio, a GUI database browser that lets you work with SQLite databases without having to use the terminal.
 
-### Using SQLite
+To install and launch it:
 
-We will be using SQLite since it is a simple tool for learning SQL and databases without worrying about servers or accounts setup.
-On macOS, SQLite is preinstalled. 
+1. Navigate to the [SQLiteStudio website](https://sqlitestudio.pl/) and download the installer based on your operating system.
 
-To verify its presence and check the version, open your terminal and run the following command:
+2. Once the file has downloaded, open it. You should see an image with the SQLiteStudio icon. Double-click the icon to launch the application.
 
-*   Click the icon of the terminal. It will launch a terminal window in which you can type commands.
-*   In the terminal window, type:
-    
-	    sqlite3 --version
-    
-    (followed by an enter/return).
-    
-    If it is installed, you will see the version number.
+*You may encounter a security warning while opening. If so, go to Settings → Privacy & Security and click on “Open Anyway”*
 
+3. Follow the prompts to complete the setup, including accepting the license agreement. After installation, launch SQLiteStudio. You should see the main interface, ready for use.
 
-Instead of using the shell window (where we can try things immediately), we will use a graphical tool called SQLite extension in VS Code.
+### Using SQLiteStudio
 
-1.  First, let's open VS Code. If you do not have VS Code installed yet, follow these instructions to download it [Download VS Code](https://www.youtube.com/watch?v=2-s90N2K1_s)
-2.  Open VS Code and click on “Open Folder” on your left screen, and create a folder called “Database” and open it. Inside the created folder in VS Code, create files called “mydatabase.db” and “mysql.sql” by clicking on the New File icon.
-    
-3.  On the left sidebar, click on the Extensions icon which is a square formed by four squares. In the search box at the top, type:
+1. Create a new database by clicking on the database icon with a plus sign in the top bar (Control + O). Fill it out with the following information:
 
-        SQLite
-4.  Install SQLite extension. Once it is installed, lets reload the window because some extensions do not start until VS Code restarts. Command + Shift + P, and type:
+   Database Type: SQLite 3  
+   File: Select “Create a new database file,” then click the folder icon and choose where you want your database to be stored.  
+   Name: `mydatabase`
 
-        Developer: Reload Window
-    (followed by an Enter/Return)
+2. On the left-side panel, right-click on `mydatabase` and select "Connect to the database".
 
-5.  Open the SQL file you created earlier, and type the following SQL commands into it:
-    ```
-    -- It inserts student table to the database
-    CREATE TABLE student(
-    student_ID INT NOT NULL PRIMARY KEY,
-    first_name TEXT NOT NULL,
-    last_name TEXT NOT NULL
-    );
+3. Right-click on "Tables" and select "Create table", then name it `Member`.
 
+4. Click on the column icon to add columns to the *Member* table.  
+   Set up the first column as follows:
 
-    -- It inserts this tuple into the student table
-    INSERT INTO student(student_ID, first_name, last_name) VALUES (1, 'John', 'Smith');
+   Name: MemberID  
+   Data Type: INTEGER  
+   Select "Primary Key" and "Not NULL"
 
+ Click OK to save the column, and repeat this process for the remaining columns.
 
-    -- Query
-    SELECt * FROM student;
+ ![Member Table](MemberTable.png)
 
-    ```
-6. To execute the code, right-click anywhere inside the SQL file and select “Run Query”. On the right side of your screen, you will see the table that you created along with the tuple that you inserted into the table.
+5. Once the columns are created, we can add tuples to the `Member` table. To add tuples, click on the "Data" tab, then click the green **+** icon to insert a new row  
+   Enter the following data:  
+
+Click on the ✅ icon to save the changes.
