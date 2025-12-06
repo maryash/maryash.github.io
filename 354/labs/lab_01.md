@@ -19,7 +19,7 @@ To install and launch it:
 
 2. Once the file has downloaded, open it. You should see an image with the SQLiteStudio icon. Double-click the icon to launch the application.
 
-*You may encounter a security warning while opening. If so, go to Settings → Privacy & Security and click on “Open Anyway”*
+   *You may encounter a security warning while opening. If so, go to Settings → Privacy & Security and click on “Open Anyway”*
 
 3. Follow the prompts to complete the setup, including accepting the license agreement. After installation, launch SQLiteStudio. You should see the main interface, ready for use.
 
@@ -42,13 +42,11 @@ To install and launch it:
    Data Type: INTEGER  
    Select "Primary Key" and "Not NULL"
 
- Click OK to save the column, and repeat this process for the remaining columns.
+5. Click OK to save the column, and repeat this process for the remaining columns.
+   <img src="MemberTable.png" alt="Member Table" width="450">
 
- <img src="MemberTable.png" alt="Member Table" width="450">
-
-5. Once the columns are created, we can add tuples to the `Member` table. To add tuples, click on the "Data" tab, then click the green **+** icon to insert a new row  
+6. Once the columns are created, we can add tuples to the `Member` table. To add tuples, click on the "Data" tab, then click the green **+** icon to insert a new row  
    Enter the following data: 
-
    <img src="MemberTuples.png" alt="Member Tuples" width="450">  
 
 Click on the ✅ icon to save the changes.
