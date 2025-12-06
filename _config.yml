@@ -3,9 +3,9 @@ encoding: UTF-8
 markdown: 1
 kramdown:
   input: kramdown
-  hard_wrap: true
-  parse_block_html: true
-  parse_span_html: true
+  hard_wrap: false
+  parse_block_html: false
+  parse_span_html: false
 future: true
 jailed: false
 theme: jekyll-theme-primer
