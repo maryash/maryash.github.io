@@ -34,7 +34,7 @@ To install and launch it:
 2. On the left-side panel, right-click on `mydatabase` and select "Connect to the database".
 
 3. Open SQL Editor (Alt + E), copy and paste the following code and execute the query(F9).
-```
+  ```
     CREATE TABLE Member (
         MemberID INTEGER PRIMARY KEY NOT NULL,
         LastName TEXT(20) NOT NULL,
@@ -45,14 +45,14 @@ To install and launch it:
         Gender TEXT(1),
         Team TEXT(20) REFERENCES Team (TeamName) 
     );
-```
+  ```
 
-4. Double click on "Table", then double click on "Member", you will see the following table
+4. In the left panel, double-click Tables, then select Member. You should see the table structure as follows:
    <img src="MemberTable.png" alt="Member Table" width="450">
 
-Now is your turn to to create a table called "Team". Have two attributes/columns: 
-- TeamName: text type of size 20, set it as Primary Key, and Not NULL.
-- PracticeNight: text type of size 20.
+Now is your turn to create a table called "Team". Have two columns: 
+- TeamName: TEXT type of size 20, set as Primary Key, and Not NULL.
+- PracticeNight: TEXT type of size 20.
 
    <img src="TeamTable.png" alt="Member Table" width="450">
 
@@ -60,19 +60,19 @@ Also, insert the following tuples into the Team table and run the query
 - ('TeamA', 'Tuesday')
 - ('TeamB', 'Monday')
 
-When you click on the Data tab in the Team table, you should be able to see the tuples inserted as following
+When you click on the Data tab in the Team table, you should see the tuples inserted:
 
    <img src="TeamTuples.png" alt="Member Table" width="450">
 
-5. Once the columns are created, we can add tuples to the `Member` table. To add tuples, copy and paste the following SQL code 
-```
+5. Once the tables are created, we can add tuples to the `Member` table. Insert sample tuples by copying and pasting the following SQL code: 
+  ```
    INSERT INTO Member (MemberID, LastName, FirstName, Phone, Handicap, JoinDate, Gender, Team)
    VALUES
    (118, 'McKenzie', 'Melissa', '6468888888', 30, '2005-05-28', 'F', NULL),
    (138, 'Stone', 'Michael', '9188888888', 30, '2009-05-31', 'M', NULL),
    (153, 'Nolan', 'Brenda', '7188888888', 11, '2006-08-12', 'F', 'TeamB'),
    (176, 'Branch', 'Helen', '9298888888', NULL, '2011-12-06', 'F', NULL);
-```
-Click on the Data tab in the Member table, you should be able to see the tuples inserted as following
+  ```
+After executing the query, click on the Data tab in the Member table. You should see the tuples displayed as follows:
 
    <img src="MemberTuples.png" alt="Member Tuples" width="450">  
