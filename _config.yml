@@ -1,7 +1,7 @@
 github: []
 encoding: UTF-8
 kramdown:
-  hard_wrap: false
+  hard_wrap: true
   parse_block_html: false
   parse_span_html: false
 future: true
