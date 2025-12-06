@@ -46,7 +46,8 @@ To install and launch it:
    <img src="MemberTable.png" alt="Member Table" width="450">
 
 6. Once the columns are created, we can add tuples to the `Member` table. To add tuples, click on the "Data" tab, then click the green **+** icon to insert a new row  
-   Enter the following data: 
+   Enter the following data:
+   
    <img src="MemberTuples.png" alt="Member Tuples" width="450">  
 
 Click on the ✅ icon to save the changes.
