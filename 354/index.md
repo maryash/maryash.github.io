@@ -1,4 +1,4 @@
- ---
+---
 layout: myDefault
 title: CSCI 395 MAIN PAGE
 ---
@@ -21,12 +21,11 @@ You will write/draw all homeworks, tests, and exams with pen on paper in the exa
   
 <details>
  <summary>More About Use Cases 38</summary>
- *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Actors 38<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exceptions and Extensions 39<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use Cases for Maintaining Data 39<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use Cases for Reporting Information 40*
-</details>
-Finding Out More About the Problem 40
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Actors 38<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exceptions and Extensions 39<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use Cases for Maintaining Data 39<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use Cases for Reporting Information 40*
+</details>Finding Out More About the Problem 40
 <details>
  <summary>What Have We Postponed? 41</summary>
- *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Changing Prices 41<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meals That Are Discontinued 41<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quantities of Particular Meals 41*
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Changing Prices 41<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meals That Are Discontinued 41<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quantities of Particular Meals 41*
 </details>
   
   
