@@ -2,8 +2,8 @@ github: []
 encoding: UTF-8
 kramdown:
   hard_wrap: true
-  parse_block_html: false
-  parse_span_html: false
+  parse_block_html: true
+  parse_span_html: true
 future: true
 jailed: false
 theme: jekyll-theme-primer
