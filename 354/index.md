@@ -1,13 +1,9 @@
+<style>.bfr{position:relative;background-color:white;z-index:2}.drn{position:relative;top:-1em;left:-0.58em;margin-bottom:-1em}.ftr{position:relative;top:-0.25em}</style>  
 ---
 layout: myDefault
 title: CSCI 395 MAIN PAGE
 ---
 
-<style>
-.bfr{position:relative;background-color:white;z-index:2}
-.drn{position:relative;top:-1em;left:-0.58em;margin-bottom:-1em}
-.ftr{position:relative;top:-0.25em}
-</style>  
 
 **[CSCI 39500 &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
 [**SYLLABUS**](syllabus.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -23,7 +19,6 @@ Additional requireded readings and tutorials will be provided on this course web
   
 **REQUIRED SUPPLIES**  
 You will write/draw all homeworks, tests, and exams with pen on paper in the exact maner that I demand; quality of presentation of your work is a large part of each grade.  You MUST buy this [PARTICULAR GRID PAPER](https://www.amazon.com/gp/product/B001IZKYYS/ref=ox_sc_act_title_2?smid=A36N3VFG4OZIHD){:target="_blank"} and these [0.7mm BLACK **Pilot FriXion** PENS](https://www.amazon.com/gp/product/B009QYH52C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER){:target="_blank"}.  I do not allow any other paper or pens/pencils.  Scanner app: [ 🍏 ](https://apps.apple.com/fr/app/scanner-app-genius-scan/id377672876){:target="_blank"} / [ 🤖 ](https://play.google.com/store/apps/details?id=com.thegrizzlylabs.geniusscan.free&hl=en){:target="_blank"}
-
 <span class="bfr">More About Use Cases 38</span><details class="drn"><em class="ftr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Actors 38<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exceptions and Extensions 39<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use Cases for Maintaining Data 39<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use Cases for Reporting Information 40</em></details>Finding Out More About the Problem 40<br/><span class="bfr">What Have We Postponed? 41</span><details class="drn"><em class="ftr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Changing Prices 41<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meals That Are Discontinued 41<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quantities of Particular Meals 41</em></details>
 
 **COURSE OUTLINE**  
