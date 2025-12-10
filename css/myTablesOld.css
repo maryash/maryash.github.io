@@ -8,6 +8,7 @@ table, td, th {
     spacing: 0px;
     border-width: 1px;
     border-style: solid;
+    vertical-align: text-top;
 }
 tr:nth-child(odd) {
     background-color: #f3f3f3;
