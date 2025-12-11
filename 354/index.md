@@ -63,15 +63,12 @@ Multivalued Dependencies, 4NF|3.6 Multivalued Dependencies<br/>3.7 An Algorithm 
 
 **Smartphone: [www.hunter.cuny.edu/mobilete](http://www.hunter.cuny.edu/mobilete){:target="_blank"}**
   
-   
----  
-     
-<!-- 
-
- 
- -->
+---    
+<!--  
+  -->  
   
 ---  
+  
 <style>  
 body{line-height: 1.75em;}
 .a{position:relative;background-color:white;z-index:2;}
@@ -103,18 +100,22 @@ hr.style-six {
 }
 a:link {
     text-decoration: none;
+    font-size: 0.9em;
     color: #0000BF;
 }
 a:visited {
     text-decoration: none;
+    font-size: 0.9em;
     color: #0000AF;
 }
 a:hover {
     text-decoration: none;
+    font-size: 0.9em;
     color: #0000FF;
 }
 a:active {
     text-decoration: none;
+    font-size: 0.9em;
     color: #00007F;
 }
 </style>  
