@@ -65,19 +65,20 @@ Multivalued Dependencies, 4NF|3.6 Multivalued Dependencies<br/>3.7 An Algorithm 
   
 ---    
 <!--  
-  -->  
+body{line-height: 1.75em;}
+top:-0.25em;
+-->  
   
 ---  
   
 <style>  
-body{line-height: 1.75em;}
 .a{position:relative;background-color:white;z-index:2;}
 .o{position:relative;background-color:#f0f0f0;z-index:2;}  
-.b{position:relative;top:-1.9em;left:-0.6em;margin-bottom:-2em;}
+.b{position:relative;top:-2em;left:-0.6em;margin-bottom:-2em;}
 details::marker{content:"≡";}
 summary::marker{content:"≡";}
 .b::marker{content:"≡";}
-.c{position:relative;top:-0.25em;}
+.c{position:relative;}
 details{content:"≡";}
 summary{content:"≡";}
 table {
