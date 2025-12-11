@@ -82,7 +82,7 @@ table, td, th {
     border: 1px solid #dee1e4;
     vertical-align: text-top;
 }
-tr:nth-child(even) {background-color: #fafafa;}
+tr:nth-child(even) {background-color: #f0f0f0;}
 tr:nth-child(odd) {background-color: #ffffff;}
 hr.style-six {
     border: 0;
@@ -107,6 +107,7 @@ a:active {
     color: #00007F;
 }
 .a{position:relative;background-color:white;z-index:2;}
+.o{position:relative;background-color:#f0f0f0;;z-index:2;}  
 .b{position:relative;top:-1.9em;left:-0.5em;margin-bottom:-2em;}
 details::marker{content:"≡";}
 summary::marker{content:"≡";}
