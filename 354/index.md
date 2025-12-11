@@ -73,7 +73,7 @@ Multivalued Dependencies, 4NF|3.6 Multivalued Dependencies<br/>3.7 An Algorithm 
   
 ---  
 <style>  
-body{line-height: 1.5em;}
+body{line-height: 2em;}
 .a{position:relative;background-color:white;z-index:2;}
 .o{position:relative;background-color:#f0f0f0;z-index:2;}  
 .b{position:relative;top:-1.9em;left:-0.6em;margin-bottom:-2em;}
@@ -88,8 +88,8 @@ table {
 }
 table, td, th {
     text-align: left;
-    padding: 4px;
-    border: 2px solid #d0d0d0;
+    padding: 5px;
+    border: 1px solid #d0d0d0;
     vertical-align: text-top;
 }
 th {background-color: #f0f0f0;}
@@ -98,8 +98,8 @@ tr:nth-child(odd) {background-color: #ffffff;}
 hr.style-six {
     border: 0;
     height: 0;
-    border-top: 2px solid rgba(0, 0, 0, 0.2);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 a:link {
     text-decoration: none;
