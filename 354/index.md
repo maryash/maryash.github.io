@@ -73,7 +73,7 @@ Multivalued Dependencies, 4NF|3.6 Multivalued Dependencies<br/>3.7 An Algorithm 
   
 ---  
 <style>  
-body{}
+body{line-height: 1.9em;}
 .a{position:relative;background-color:white;z-index:2;}
 .o{position:relative;background-color:#f0f0f0;z-index:2;}  
 .b{position:relative;top:-1.9em;left:-0.6em;margin-bottom:-2em;}
