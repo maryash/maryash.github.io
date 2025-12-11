@@ -100,22 +100,18 @@ hr.style-six {
 }
 a:link {
     text-decoration: none;
-    font-size: 0.9em;
     color: #0000BF;
 }
 a:visited {
     text-decoration: none;
-    font-size: 0.9em;
     color: #0000AF;
 }
 a:hover {
     text-decoration: none;
-    font-size: 0.9em;
     color: #0000FF;
 }
 a:active {
     text-decoration: none;
-    font-size: 0.9em;
     color: #00007F;
 }
 </style>  
