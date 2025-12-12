@@ -12,8 +12,9 @@ title: CSCI 395 MAIN PAGE
 **LECTURE AND LAB** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
 Mondays and Wednesdays 8:30 AM - 9:45 AM on line  
   
-**TEXTBOOK**  
-Clare Churcher "Beginning Database Design" 2nd (2012) Edition — either book or PDF.  
+**TEXTBOOKS**  
+Clare Churcher "Beginning Database Design" 2nd (2012) Edition, and 
+Clare Churcher "Beginning SQL Queries" 2nd (2012) — either books or PDFs.  
 Additional requireded readings and tutorials will be provided on this course webpage.  
   
 **REQUIRED SUPPLIES**  
