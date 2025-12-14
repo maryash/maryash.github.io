@@ -51,6 +51,20 @@ Week&nbsp;14 | Semester Review |  |  |
 Week&nbsp;15 | Final Exam |  |  | 
 
 
+ --- | --- 
+The E/R Model<br/>Weak Entity Sets<br/>The DB Environment|4.1 The Entity/Relationship Model<br/>4.2 Design Principles<br/>4.4 Weak Entity Sets 
+E/R Diagrams, Subclasses<br/>Relational Design<br/>Host Language Interface|4.5 From E/R to Relational Designs<br/>4.6 From Subclass Structures to Relations<br/>4.7 Unified Modeling Language 
+UML Diagrams, ODL<br/>Designs to Relations|4.8 From UML Diagrams to Relations<br/>4.9 Object Definition Language<br/>4.10 From ODL to Relational Designs<br/>9.1 The Three-Tier Architecture 
+The Relational Model of Data<br/>Defining Schema|2.1 An Overview of Data Models<br/>2.2 Basics of the Relational Model<br/>2.3 Defining Relation Schema in SQL<br/>7.1 Keys and Foreign Keys 
+Simple Queries,  3-Tier Architecture<br/>Web Tier Flask Tutorial|6.1 Simple Queries in SQL<br/>6.2 Queries with More Than One Relation<br/>9.1 The Three-Tier Architecture 
+Algebraic Query Language|2.4 An Algebraic Query Language<br/>5.1 Relational Operations on Bags
+Functional Dependencies, Normalization|3.1 Functional Dependencies<br/>3.2 Rules on Functional Dependencies<br/>3.3&nbsp;Design&nbsp;of&nbsp;Relational&nbsp;Database&nbsp;Schemas 
+Constraints, (Transactions)|7.2 Constraints on Attributes and Tuples<br/>7.3 Modification of Constraints<br/>6.6 Transactions in SQL 
+Subquerries, Database Modifications|6.3 Subqueries<br/>6.4 Full-Relation Operations<br/>6.5 Database Modifications
+Decomposition,  BCNF and 3NF|3.4 Decomposition: Good, Bad, and Ugly<br/>3.5 Third Normal Form
+Multivalued Dependencies, 4NF|3.6 Multivalued Dependencies<br/>3.7 An Algorithm for Discovering MVD's 
+
+
 ---    
 
 ### Instructor Evaluations:
