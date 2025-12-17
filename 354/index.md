@@ -26,7 +26,7 @@ $('#Ex').on('click', function () {
     var $this = $(this);           
     let detailsElements = document.querySelectorAll("details");
     detailsElements = [...detailsElements];
-    if ($this.value() === ' ▶ Expand All&nbsp;') {  
+    if ($this.value() == ' ▶ Expand All&nbsp;') {  
         detailsElements.map(item => item.setAttribute("open"));
         $this.value(' ▼ Colapse All');      
     } else {
