@@ -139,7 +139,7 @@ $('#E').on('click', function () {
         $('#E').show();
         $('#C').hide();
         $this.val(' ▼ Colapse All');      
-        detailsElements.map(item => item.setAttribute("open", shouldExpand));
+        detailsElements.map(item => item.setAttribute("open"));
     } else {
         $('#E').hide();
         $('#C').show();
