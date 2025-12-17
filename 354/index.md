@@ -26,12 +26,12 @@ $('#E').on('click', function () {
     var $this = $(this);           
     let detailsElements = document.querySelectorAll("details");
     detailsElements = [...detailsElements];
-    if ($this.val() === ' ▶ Expand All&nbsp;') {  
+    if ($this.value() === ' ▶ Expand All&nbsp;') {  
         $this.val(' ▼ Colapse All');      
         detailsElements.map(item => item.setAttribute("open"));
     } else {
         detailsElements.map(item => item.removeAttribute("open"));
-        $this.val(' ▶ Expand All&nbsp;');      
+        $this.value(' ▶ Expand All&nbsp;');      
     }
 });
 </script>
