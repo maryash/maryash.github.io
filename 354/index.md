@@ -21,21 +21,24 @@ Additional requireded readings and tutorials will be provided on this course web
 You will write/draw all homeworks, tests, and exams with pen on paper in the exact maner that I demand; quality of presentation of your work is a large part of each grade.  You MUST buy this [PARTICULAR GRID PAPER](https://www.amazon.com/gp/product/B001IZKYYS/ref=ox_sc_act_title_2?smid=A36N3VFG4OZIHD){:target="_blank"} and these [0.7mm BLACK **Pilot FriXion** PENS](https://www.amazon.com/gp/product/B009QYH52C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER){:target="_blank"}.  I do not allow any other paper or pens/pencils.  Scanner app: [ 🍏 ](https://apps.apple.com/fr/app/scanner-app-genius-scan/id377672876){:target="_blank"} / [ 🤖 ](https://play.google.com/store/apps/details?id=com.thegrizzlylabs.geniusscan.free&hl=en){:target="_blank"}
 
 **COURSE OUTLINE** &nbsp; <input type="button" id="Togle" onClick="expandElements(true, this)" value="▶ Expand All "/>
+
+```
 <script>
-const expandElements = shouldExpand =`>` {
+const expandElements = shouldExpand => {
     let detailsElements = document.querySelectorAll("details");
     detailsElements = [...detailsElements];
     if (shouldExpand) {
-        detailsElements.map(item =`>` item.setAttribute("open", shouldExpand));
+        detailsElements.map(item => item.setAttribute("open", shouldExpand));
         document.getElementById('Togle').value = '▼Colapse All';
-        document.getElementById('Togle').onclick = () =`>` {expandElements(false, this);};
+        document.getElementById('Togle').onclick = () => {expandElements(false, this);};
     } else {
-        detailsElements.map(item =`>` item.removeAttribute("open"));
+        detailsElements.map(item => item.removeAttribute("open"));
         document.getElementById('Togle').value = '▶ Expand All ';
-        document.getElementById('Togle').onclick = () =`>` {expandElements(true, this);};
+        document.getElementById('Togle').onclick = () => {expandElements(true, this);};
     }
 };
 </script>
+```
 
 
 TOPICS | DESIGNING&nbsp;DATABASES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | USING&nbsp;&nbsp;DATABASES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
