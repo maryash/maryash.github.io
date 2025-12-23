@@ -22,17 +22,17 @@ You will write/draw all homeworks, tests, and exams with pen on paper in the exa
 
 **COURSE OUTLINE** &nbsp; <input type="button" id="Togle" onClick="expandElements(true, this)" value="▶ Expand All "/>
 <script>
-const expandElements = shouldExpand =\> {
+const expandElements = shouldExpand =`>` {
     let detailsElements = document.querySelectorAll("details");
     detailsElements = [...detailsElements];
     if (shouldExpand) {
-        detailsElements.map(item =\> item.setAttribute("open", shouldExpand));
+        detailsElements.map(item =`>` item.setAttribute("open", shouldExpand));
         document.getElementById('Togle').value = '▼Colapse All';
-        document.getElementById('Togle').onclick = () =\> {expandElements(false, this);};
+        document.getElementById('Togle').onclick = () =`>` {expandElements(false, this);};
     } else {
-        detailsElements.map(item =\> item.removeAttribute("open"));
+        detailsElements.map(item =`>` item.removeAttribute("open"));
         document.getElementById('Togle').value = '▶ Expand All ';
-        document.getElementById('Togle').onclick = () =\> {expandElements(true, this);};
+        document.getElementById('Togle').onclick = () =`>` {expandElements(true, this);};
     }
 };
 </script>
