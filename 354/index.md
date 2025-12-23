@@ -36,6 +36,8 @@ const expandElements = shouldExpand =\> {
     }
 };
 </script>
+
+
 TOPICS | DESIGNING&nbsp;DATABASES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | USING&nbsp;&nbsp;DATABASES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
  --- | --- | --- 
 [WEEK&nbsp;1](){:target="_blank"}&nbsp; What Can Go Wrong&nbsp;&nbsp;&nbsp;<br/><span class="v">[LAB&nbsp;1](){:target="_blank"}&nbsp; SQLite</span><br/><em><span class="v">DB Overview</span></em>|Mishandling Keywords and Categories 1<br/>Repeated Information 4<br/>Designing for a Single Report 6|<span class="a">Introducing Database Tables 1</span><details class="b"><em class="c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attributes 2<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Primary Key 3<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inserting and Updating Rows in a Table 3<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designing Appropriate Tables 5</em></details>Introducing Data Models 6<br/><span class="a">Retrieving Information from a Database 9</span><details class="b"><em class="c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Process and Outcome Approaches 10, 11<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Why We Consider Two Approaches 12</em></details>Summary 13| 
