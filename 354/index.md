@@ -101,7 +101,7 @@ top:-0.25em;
 .b{position:relative;top:-1.75em;left:-0.6em;margin-bottom:-2em;}
 .b::marker{content:"≡";}
 .c{position:relative;}
-.v{text-decoration: overline gray;}
+.v{text-decoration: overline #A0A0A0;}
 table {
     border-collapse: collapse;
 }
