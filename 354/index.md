@@ -103,7 +103,7 @@ details::marker{content:"≡";}
 summary::marker{content:"≡";}
 .b::marker{content:"≡";}
 .c{position:relative;}
-.v{text-decoration: overline grey;}
+.v{text-decoration: overline red;}
 details{content:"≡";}
 summary{content:"≡";}
 table {
