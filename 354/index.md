@@ -96,16 +96,28 @@ top:-0.25em;
 ---  
   
 <style>  
+summary::-webkit-details-marker { /* For Safari/Chrome older versions */
+  display: none;
+}
+summary::marker {
+  display: none;
+}
+summary::before {
+  content: "> "; /* Default state (closed) */
+  margin-right: 0.5em; /* Add some spacing */
+  /* Add other styling like color, font-weight, etc. */
+}
+/* Change the custom marker when the details are open */
+details[open] summary::before {
+  content: "v "; /* Open state (e.g., a down arrow) */
+}
+
 .a{position:relative;background-color:white;z-index:2;}
 .o{position:relative;background-color:#f0f0f0;z-index:2;}  
 .b{position:relative;top:-1.75em;left:-0.6em;margin-bottom:-2em;}
-details::marker{content:"≡";}
-summary::marker{content:"≡";}
 .b::marker{content:"≡";}
 .c{position:relative;}
-.v{text-decoration: overline gray;}
-details{content:"≡";}
-summary{content:"≡";}
+.v{text-decoration: overline lightgray;}
 table {
     border-collapse: collapse;
 }
