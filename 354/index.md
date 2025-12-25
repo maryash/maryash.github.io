@@ -29,7 +29,7 @@ Mondays and Wednesdays 8:30 AM - 9:45 AM on line
   
 **TEXTBOOKS**  
 Clare Churcher "Beginning Database Design" 2nd (2012) Edition, and 
-Clare Churcher "Beginning SQL Queries" 2nd (2012) — either books or PDFs.  
+Clare Churcher "Beginning SQL Queries" 2nd (2016) — either books or PDFs.  
 Additional requireded readings and tutorials will be provided on this course webpage.  
   
 **REQUIRED SUPPLIES**  
@@ -97,6 +97,19 @@ top:-0.25em;
   
 <style>  
 -webkit-appearance: none;
+details > summary {
+  list-style: none; // Remove the default arrow.
+  display: flex;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details > summary::after {
+  content:  '▶';
+}
+details[open] > summary::after {
+  content: "▼";
+}
 .a{position:relative;background-color:white;z-index:2;}
 .o{position:relative;background-color:#f0f0f0;z-index:2;}  
 .b{position:relative;top:-1.75em;left:-0.6em;margin-bottom:-2em;}
