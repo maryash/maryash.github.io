@@ -4,6 +4,7 @@ title: CSCI 395 MAIN PAGE
 ---
 
 <script>
+-webkit-appearance: none;
 const expandElements = function(shouldExpand) {
     let detailsElements = document.querySelectorAll("details");
     detailsElements = [...detailsElements];
