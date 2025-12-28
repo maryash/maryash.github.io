@@ -106,15 +106,15 @@ idle3
 
 - Import the modules
 ~~~ python
-import os
-import sqlite3
-
-#Create a folder in your home directory
-os.makedirs(os.path.expanduser("~/SQLiteDB"), exist_ok=True)
-
-#Connect to the database inside that folder
-conn = sqlite3.connect(os.path.expanduser("~/SQLiteDB/mydatabasePython.db"))
-cur = conn.cursor()
+    import os
+    import sqlite3
+    
+    #Create a folder in your home directory
+    os.makedirs(os.path.expanduser("~/SQLiteDB"), exist_ok=True)
+    
+    #Connect to the database inside that folder
+    conn = sqlite3.connect(os.path.expanduser("~/SQLiteDB/mydatabasePython.db"))
+    cur = conn.cursor()
 ~~~
 
 - Enable foreign key
@@ -170,7 +170,7 @@ CREATE TABLE Member (
 ```
 
 - Verify tables
-```
+~~~ python
 cur.execute("SELECT * FROM Team")
 for row in cur.fetchall():
     print("Team Table:", row)
@@ -178,7 +178,7 @@ for row in cur.fetchall():
 cur.execute("SELECT * FROM Member")
 for row in cur.fetchall():
     print("Member Table:", row)
-```
+~~~
 
     <img src="IDLEDisplay.png" alt="IDLE Display" width="550">
 
