@@ -156,17 +156,17 @@ CREATE TABLE Member (
 
 - Insert tuples into Member table
 ```
-members = [
-    (118, 'McKenzie', 'Melissa', '6468888888', 30, '2005-05-28', 'F', None),
-    (138, 'Stone', 'Michael', '9188888888', 30, '2009-05-31', 'M', None),
-    (153, 'Nolan', 'Brenda', '7188888888', 11, '2006-08-12', 'F', 'TeamB'),
-    (176, 'Branch', 'Helen', '9298888888', None, '2011-12-06', 'F', None)
-]
-
-cur.executemany("""
-INSERT INTO Member (MemberID, LastName, FirstName, Phone, Handicap, JoinDate, Gender, Team)
-VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-""", members)
+    members = [
+        (118, 'McKenzie', 'Melissa', '6468888888', 30, '2005-05-28', 'F', None),
+        (138, 'Stone', 'Michael', '9188888888', 30, '2009-05-31', 'M', None),
+        (153, 'Nolan', 'Brenda', '7188888888', 11, '2006-08-12', 'F', 'TeamB'),
+        (176, 'Branch', 'Helen', '9298888888', None, '2011-12-06', 'F', None)
+    ]
+    
+    cur.executemany("""
+    INSERT INTO Member (MemberID, LastName, FirstName, Phone, Handicap, JoinDate, Gender, Team)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    """, members)
 ```
 
 - Verify tables
