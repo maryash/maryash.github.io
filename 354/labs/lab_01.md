@@ -47,7 +47,7 @@ We can verify that the data is inserted by typing
 SELECT * FROM Team;
 ```
 
-<img src="TerminalTeamTable.png" alt="Terminal Team Table" width="450"> 
+<img src="TerminalTeamTable.png" alt="Terminal Team Table" width="550"> 
 
 
 - Create Member table
@@ -80,7 +80,7 @@ VALUES
 SELECT * FROM Member;
 ```
 
-<img src="TerminalMemberTable.png" alt="Terminal Member Table" width="450"> 
+<img src="TerminalMemberTable.png" alt="Terminal Member Table" width="550"> 
 
 
 You can double check the tables in the database
@@ -180,7 +180,7 @@ cur.execute("PRAGMA foreign_keys = ON;")
         print("Member Table:", row)
     ~~~
 
-    <img src="IDLEDisplay.png" alt="IDLE Display" width="450">
+    <img src="IDLEDisplay.png" alt="IDLE Display" width="550">
 
 - Save and close
 
