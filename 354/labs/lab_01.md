@@ -19,7 +19,7 @@ sqlite3 mydatabase.db
 PRAGMA foreign_keys = ON;
 ```
 
-    - Lets make the output readable, making the column names aligned and formats query results for readability only.
+- Lets make the output readable, making the column names aligned and formats query results for readability only.
     ```
     .headers on
     ```
@@ -103,7 +103,7 @@ idle3
 ```
 
 2. import the modules
-    ~~~ mysql
+    ~~~ python
     import os
     import sqlite3
     
@@ -116,27 +116,28 @@ idle3
     ~~~
 
 3. Enable foreign key
-``` 
+~~~ python
 cur.execute("PRAGMA foreign_keys = ON;")
-```
+~~~
 
 4. Create Team table
-```
+~~~ python
 cur.execute("""
 CREATE TABLE Team (
     TeamName TEXT(20) PRIMARY KEY NOT NULL,
     PracticeNight TEXT(20)
 )
 """)
-```
+~~~
 
 5. Insert tuples into Team table
-```
+~~~ python
 cur.execute("INSERT INTO Team (TeamName, PracticeNight) VALUES (?, ?)", ('TeamA', 'Tuesday'))
 cur.execute("INSERT INTO Team (TeamName, PracticeNight) VALUES (?, ?)", ('TeamB', 'Monday'))
-```
+~~~
+
 6. Create Member Table
-``` 
+~~~ python
 cur.execute("""
 CREATE TABLE Member (
    MemberID INTEGER PRIMARY KEY NOT NULL,
@@ -149,9 +150,10 @@ CREATE TABLE Member (
    Team TEXT(20) REFERENCES Team(TeamName)
 )
 """)
-```
+~~~
+
 7. Insert tuples into Member table
-```
+~~~ python
 members = [
     (118, 'McKenzie', 'Melissa', '6468888888', 30, '2005-05-28', 'F', None),
     (138, 'Stone', 'Michael', '9188888888', 30, '2009-05-31', 'M', None),
@@ -163,10 +165,10 @@ cur.executemany("""
 INSERT INTO Member (MemberID, LastName, FirstName, Phone, Handicap, JoinDate, Gender, Team)
 VALUES (?, ?, ?, ?, ?, ?, ?, ?)
 """, members)
-```
+~~~
 
 8. Verify tables
-```
+~~~ python
 cur.execute("SELECT * FROM Team")
 for row in cur.fetchall():
     print("Team Table:", row)
@@ -174,11 +176,12 @@ for row in cur.fetchall():
 cur.execute("SELECT * FROM Member")
 for row in cur.fetchall():
     print("Member Table:", row)
-```
+~~~
+
 <img src="IDLEDisplay.png" alt="IDLE Display" width="450">
 
 9. Save and close
-```
+~~~ python
 conn.commit()
 conn.close()
-```
+~~~
