@@ -7,7 +7,7 @@ Today's lab will focus on two ways of creating a new database; through the termi
 
 Software tools needed: the terminal and Python IDLE programming environment.
 
-### Terminal
+## Terminal
 - Open your terminal, navigate to your Desktop and create(or open if exists) a database from it
 ```
 cd ~/Desktop
@@ -28,19 +28,19 @@ Lets make the output readable, making the column names aligned and formats query
 ```
     
 - Create the Team table
-~~~ mysql
+```
 CREATE TABLE Team (
     TeamName TEXT(20) PRIMARY KEY NOT NULL,
     PracticeNight TEXT(20)
 );
-~~~
+```
 
 - Insert sample tuples into Team table
-~~~ mysql
+```
 INSERT INTO Team (TeamName, PracticeNight) VALUES
 ('TeamA', 'Tuesday'),
 ('TeamB', 'Monday');
-~~~
+```
 
 We can verify that the data is inserted by typing
 ```
@@ -51,7 +51,7 @@ SELECT * FROM Team;
 
 
 - Create Member table
-~~~ mysql
+```
 CREATE TABLE Member (
    MemberID INTEGER PRIMARY KEY NOT NULL,
    LastName TEXT(20) NOT NULL,
@@ -62,18 +62,18 @@ CREATE TABLE Member (
    Gender TEXT(1),
    Team TEXT(20) REFERENCES Team(TeamName)
 );
-~~~
+```
 
 
 - Insert sample tuples into Member table
-~~~ mysql 
+``` 
 INSERT INTO Member (MemberID, LastName, FirstName, Phone, Handicap, JoinDate, Gender, Team)
 VALUES
 (118, 'McKenzie', 'Melissa', '6468888888', 30, '2005-05-28', 'F', NULL),
 (138, 'Stone', 'Michael', '9188888888', 30, '2009-05-31', 'M', NULL),
 (153, 'Nolan', 'Brenda', '7188888888', 11, '2006-08-12', 'F', 'TeamB'),
 (176, 'Branch', 'Helen', '9298888888', NULL, '2011-12-06', 'F', NULL);
-~~~
+```
 
 - Lets verify 
 ```
@@ -96,15 +96,15 @@ Verify the schemas of both tables
 ```
 
 
-### Python IDLE
+## Python IDLE
 We will be using the IDLE programming environment for Python, since it is very simple and comes with all distributions of Python.
 
-1. To launch IDLE, open the terminal, and in the terminal window, type the following and a new window will launch for IDLE.
+- To launch IDLE, open the terminal, and in the terminal window, type the following and a new window will launch for IDLE.
 ```
 idle3
 ```
 
-2. import the modules
+- Import the modules
     ~~~ python
     import os
     import sqlite3
@@ -117,12 +117,12 @@ idle3
     cur = conn.cursor()
     ~~~
 
-3. Enable foreign key
+- Enable foreign key
 ~~~ python
 cur.execute("PRAGMA foreign_keys = ON;")
 ~~~
 
-4. Create Team table
+- Create Team table
     ~~~ python
     cur.execute("""
     CREATE TABLE Team (
@@ -132,13 +132,13 @@ cur.execute("PRAGMA foreign_keys = ON;")
     """)
     ~~~
 
-5. Insert tuples into Team table
+- Insert tuples into Team table
     ~~~ python
     cur.execute("INSERT INTO Team (TeamName, PracticeNight) VALUES (?, ?)", ('TeamA', 'Tuesday'))
     cur.execute("INSERT INTO Team (TeamName, PracticeNight) VALUES (?, ?)", ('TeamB', 'Monday'))
     ~~~
 
-6. Create Member Table
+- Create Member Table
     ~~~ python
     cur.execute("""
     CREATE TABLE Member (
@@ -154,7 +154,7 @@ cur.execute("PRAGMA foreign_keys = ON;")
     """)
     ~~~
 
-7. Insert tuples into Member table
+- Insert tuples into Member table
     ~~~ python
     members = [
         (118, 'McKenzie', 'Melissa', '6468888888', 30, '2005-05-28', 'F', None),
@@ -169,7 +169,7 @@ cur.execute("PRAGMA foreign_keys = ON;")
     """, members)
     ~~~
 
-8. Verify tables
+- Verify tables
     ~~~ python
     cur.execute("SELECT * FROM Team")
     for row in cur.fetchall():
@@ -182,7 +182,7 @@ cur.execute("PRAGMA foreign_keys = ON;")
 
     <img src="IDLEDisplay.png" alt="IDLE Display" width="450">
 
-Save and close
+- Save and close
 
 ~~~ python
     conn.commit()
