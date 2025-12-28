@@ -8,13 +8,13 @@ Today's lab will focus on two ways of creating a new database; through the termi
 Software tools needed: the terminal and Python IDLE programming environment.
 
 ### Terminal
-1. Open your terminal, navigate to your Desktop and create(or open if exists) a database from it
+- Open your terminal, navigate to your Desktop and create(or open if exists) a database from it
 ```
 cd ~/Desktop
 sqlite3 mydatabase.db
 ```
 
-2. Enable key enforcement, otherwise there could be any value in Member.Team and we don't want that
+- Enable key enforcement, otherwise there could be any value in Member.Team and we don't want that
 ```
 PRAGMA foreign_keys = ON;
 ```
@@ -27,7 +27,7 @@ Lets make the output readable, making the column names aligned and formats query
 .mode column
 ```
     
-3. Create the Team table
+- Create the Team table
 ~~~ mysql
 CREATE TABLE Team (
     TeamName TEXT(20) PRIMARY KEY NOT NULL,
@@ -35,7 +35,7 @@ CREATE TABLE Team (
 );
 ~~~
 
-4. Insert sample tuples into Team table
+- Insert sample tuples into Team table
 ~~~ mysql
 INSERT INTO Team (TeamName, PracticeNight) VALUES
 ('TeamA', 'Tuesday'),
@@ -50,7 +50,7 @@ SELECT * FROM Team;
 <img src="TerminalTeamTable.png" alt="Terminal Team Table" width="450"> 
 
 
-5. Create Member table
+- Create Member table
 ~~~ mysql
 CREATE TABLE Member (
    MemberID INTEGER PRIMARY KEY NOT NULL,
@@ -65,7 +65,7 @@ CREATE TABLE Member (
 ~~~
 
 
-6. Insert sample tuples into Member table
+- Insert sample tuples into Member table
 ~~~ mysql 
 INSERT INTO Member (MemberID, LastName, FirstName, Phone, Handicap, JoinDate, Gender, Team)
 VALUES
@@ -75,7 +75,7 @@ VALUES
 (176, 'Branch', 'Helen', '9298888888', NULL, '2011-12-06', 'F', NULL);
 ~~~
 
-7. Lets verify 
+- Lets verify 
 ```
 SELECT * FROM Member;
 ```
@@ -180,10 +180,11 @@ cur.execute("PRAGMA foreign_keys = ON;")
         print("Member Table:", row)
     ~~~
 
-<img src="IDLEDisplay.png" alt="IDLE Display" width="450">
+    <img src="IDLEDisplay.png" alt="IDLE Display" width="450">
 
-9. Save and close
-    ~~~ python
+Save and close
+
+~~~ python
     conn.commit()
-    conn.close()
-    ~~~
+    conn.close() 
+~~~
