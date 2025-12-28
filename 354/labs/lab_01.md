@@ -19,36 +19,38 @@ sqlite3 mydatabase.db
 PRAGMA foreign_keys = ON;
 ```
 
-- Lets make the output readable, making the column names aligned and formats query results for readability only.
-```
-.headers on
-```
-```
-.mode column
-```
+    - Lets make the output readable, making the column names aligned and formats query results for readability only.
+    ```
+    .headers on
+    ```
+    ```
+    .mode column
+    ```
+    
 3. Create the Team table
-``` 
+~~~ mysql
 CREATE TABLE Team (
     TeamName TEXT(20) PRIMARY KEY NOT NULL,
     PracticeNight TEXT(20)
 );
-```
+~~~
 
 4. Insert sample tuples into Team table
-```
+~~~ mysql
 INSERT INTO Team (TeamName, PracticeNight) VALUES
 ('TeamA', 'Tuesday'),
 ('TeamB', 'Monday');
-```
+~~~
 - We can verify that the data is inserted by typing
-``` 
+~~~ mysql
 SELECT * FROM Team;
-```
+~~~
+
 <img src="TerminalTeamTable.png" alt="Terminal Team Table" width="450"> 
 
 
 5. Create Member table
-```
+~~~ mysql
 CREATE TABLE Member (
    MemberID INTEGER PRIMARY KEY NOT NULL,
    LastName TEXT(20) NOT NULL,
@@ -59,18 +61,18 @@ CREATE TABLE Member (
    Gender TEXT(1),
    Team TEXT(20) REFERENCES Team(TeamName)
 );
-```
+~~~
 
 
 6. Insert sample tuples into Member table
-``` 
+~~~ mysql 
 INSERT INTO Member (MemberID, LastName, FirstName, Phone, Handicap, JoinDate, Gender, Team)
 VALUES
 (118, 'McKenzie', 'Melissa', '6468888888', 30, '2005-05-28', 'F', NULL),
 (138, 'Stone', 'Michael', '9188888888', 30, '2009-05-31', 'M', NULL),
 (153, 'Nolan', 'Brenda', '7188888888', 11, '2006-08-12', 'F', 'TeamB'),
 (176, 'Branch', 'Helen', '9298888888', NULL, '2011-12-06', 'F', NULL);
-```
+~~~
 
 7. Lets verify 
 ```
@@ -101,17 +103,17 @@ idle3
 ```
 
 2. import the modules
-```
-import os
-import sqlite3
-
-# Create a folder in your home directory
-os.makedirs(os.path.expanduser("~/SQLiteDB"), exist_ok=True)
-
-# Connect to the database inside that folder
-conn = sqlite3.connect(os.path.expanduser("~/SQLiteDB/mydatabasePython.db"))
-cur = conn.cursor()
-```
+    ~~~ mysql
+    import os
+    import sqlite3
+    
+    #Create a folder in your home directory
+    os.makedirs(os.path.expanduser("~/SQLiteDB"), exist_ok=True)
+    
+    #Connect to the database inside that folder
+    conn = sqlite3.connect(os.path.expanduser("~/SQLiteDB/mydatabasePython.db"))
+    cur = conn.cursor()
+    ~~~
 
 3. Enable foreign key
 ``` 
