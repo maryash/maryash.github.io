@@ -1,9 +1,9 @@
 ---
 layout: myDefault 
-title: LAB 1  
+title: LAB 2  
 ---  
 
-# LAB 1
+# LAB 2
 
 Today’s lab will focus on downloading and setting up SQLiteStudio.  
 Software tools needed: web browser.
