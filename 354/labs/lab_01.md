@@ -171,13 +171,13 @@ CREATE TABLE Member (
 
 - Verify tables
 ~~~ python
-cur.execute("SELECT * FROM Team")
-for row in cur.fetchall():
-    print("Team Table:", row)
-
-cur.execute("SELECT * FROM Member")
-for row in cur.fetchall():
-    print("Member Table:", row)
+    cur.execute("SELECT * FROM Team")
+    for row in cur.fetchall():
+        print("Team Table:", row)
+    
+    cur.execute("SELECT * FROM Member")
+    for row in cur.fetchall():
+        print("Member Table:", row)
 ~~~
 
     <img src="IDLEDisplay.png" alt="IDLE Display" width="550">
