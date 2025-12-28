@@ -105,7 +105,7 @@ idle3
 ```
 
 - Import the modules
-```
+~~~ python
 import os
 import sqlite3
 
@@ -115,7 +115,7 @@ os.makedirs(os.path.expanduser("~/SQLiteDB"), exist_ok=True)
 #Connect to the database inside that folder
 conn = sqlite3.connect(os.path.expanduser("~/SQLiteDB/mydatabasePython.db"))
 cur = conn.cursor()
-```
+~~~
 
 - Enable foreign key
 ```
