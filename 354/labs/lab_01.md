@@ -20,12 +20,12 @@ PRAGMA foreign_keys = ON;
 ```
 
 Lets make the output readable, making the column names aligned and formats query results for readability only.
-    ```
-    .headers on
-    ```
-    ```
-    .mode column
-    ```
+```
+.headers on
+```
+```
+.mode column
+```
     
 3. Create the Team table
 ~~~ mysql
@@ -83,17 +83,18 @@ SELECT * FROM Member;
 <img src="TerminalMemberTable.png" alt="Terminal Member Table" width="450"> 
 
 
-- You can double check the tables in the database
+You can double check the tables in the database
 ``` 
 .tables
 ```
-- Verify the schemas of both tables
+Verify the schemas of both tables
 ```
 .schema Team
 ```
 ```
 .schema Member
 ```
+
 
 ### Python IDLE
 We will be using the IDLE programming environment for Python, since it is very simple and comes with all distributions of Python.
