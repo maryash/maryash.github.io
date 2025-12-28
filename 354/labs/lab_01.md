@@ -19,7 +19,7 @@ sqlite3 mydatabase.db
 PRAGMA foreign_keys = ON;
 ```
 
-- Lets make the output readable, making the column names aligned and formats query results for readability only.
+Lets make the output readable, making the column names aligned and formats query results for readability only.
     ```
     .headers on
     ```
@@ -41,10 +41,11 @@ INSERT INTO Team (TeamName, PracticeNight) VALUES
 ('TeamA', 'Tuesday'),
 ('TeamB', 'Monday');
 ~~~
-- We can verify that the data is inserted by typing
-~~~ mysql
+
+We can verify that the data is inserted by typing
+```
 SELECT * FROM Team;
-~~~
+```
 
 <img src="TerminalTeamTable.png" alt="Terminal Team Table" width="450"> 
 
