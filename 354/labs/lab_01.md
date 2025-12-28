@@ -105,7 +105,7 @@ idle3
 ```
 
 - Import the modules
-~~~ python
+```
 import os
 import sqlite3
 
@@ -115,31 +115,31 @@ os.makedirs(os.path.expanduser("~/SQLiteDB"), exist_ok=True)
 #Connect to the database inside that folder
 conn = sqlite3.connect(os.path.expanduser("~/SQLiteDB/mydatabasePython.db"))
 cur = conn.cursor()
-~~~
+```
 
 - Enable foreign key
-~~~ python
+```
 cur.execute("PRAGMA foreign_keys = ON;")
-~~~
+```
 
 - Create Team table
-~~~ python
+```
 cur.execute("""
 CREATE TABLE Team (
     TeamName TEXT(20) PRIMARY KEY NOT NULL,
     PracticeNight TEXT(20)
 )
 """)
-~~~
+```
 
 - Insert tuples into Team table
-~~~ python
+```
 cur.execute("INSERT INTO Team (TeamName, PracticeNight) VALUES (?, ?)", ('TeamA', 'Tuesday'))
 cur.execute("INSERT INTO Team (TeamName, PracticeNight) VALUES (?, ?)", ('TeamB', 'Monday'))
-~~~
+```
 
 - Create Member Table
-~~~ python
+```
 cur.execute("""
 CREATE TABLE Member (
    MemberID INTEGER PRIMARY KEY NOT NULL,
@@ -152,10 +152,10 @@ CREATE TABLE Member (
    Team TEXT(20) REFERENCES Team(TeamName)
 )
 """)
-~~~
+```
 
 - Insert tuples into Member table
-~~~ python
+```
 members = [
     (118, 'McKenzie', 'Melissa', '6468888888', 30, '2005-05-28', 'F', None),
     (138, 'Stone', 'Michael', '9188888888', 30, '2009-05-31', 'M', None),
@@ -167,10 +167,10 @@ cur.executemany("""
 INSERT INTO Member (MemberID, LastName, FirstName, Phone, Handicap, JoinDate, Gender, Team)
 VALUES (?, ?, ?, ?, ?, ?, ?, ?)
 """, members)
-~~~
+```
 
 - Verify tables
-~~~ python
+```
 cur.execute("SELECT * FROM Team")
 for row in cur.fetchall():
     print("Team Table:", row)
@@ -178,12 +178,12 @@ for row in cur.fetchall():
 cur.execute("SELECT * FROM Member")
 for row in cur.fetchall():
     print("Member Table:", row)
-~~~
+```
 
     <img src="IDLEDisplay.png" alt="IDLE Display" width="550">
 
 - Save and close
-~~~ python
+```
 conn.commit()
 conn.close() 
-~~~
+```
