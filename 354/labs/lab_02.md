@@ -5,6 +5,10 @@ title: LAB 2
 
 # LAB 2
 
+<p align="center">
+<img src="Beaver.png" alt="Member Table" width="450">
+</p>
+
 Today’s lab will focus on downloading and setting up DBeaver.  
 Software tools needed: web browser.
 
