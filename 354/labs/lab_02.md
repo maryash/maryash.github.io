@@ -70,10 +70,10 @@ SELECT * FROM Member;
 ```
 
 <p align="center">
-<img src="DBeaverTeamTable.png" alt="Team Table" width="450">
+<img src="DBeaverTeamTable.png" alt="Team Table" width="850">
 </p>
 <p align="center">
-<img src="DBeaverMemberTable.png" alt="Member Table" width="450">
+<img src="DBeaverMemberTable.png" alt="Member Table" width="850">
 </p>
 
 
