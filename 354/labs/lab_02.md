@@ -1,4 +1,3 @@
-
 ---
 layout: myDefault 
 title: LAB 2  
