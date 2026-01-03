@@ -69,6 +69,13 @@ SELECT * FROM Team;
 SELECT * FROM Member;
 ```
 
+After executing the code, you should see the following tables.
+
+*** If tables do not show up after executing the SQL script, right-click on the database and select `Refresh`.
+
+
+
+
 <p align="center">
 <img src="DBeaverTeamTable.png" alt="Team Table" width="850">
 </p>
