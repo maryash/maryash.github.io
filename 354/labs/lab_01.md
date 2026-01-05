@@ -46,9 +46,9 @@ We can verify that the data is inserted by typing
 ```
 SELECT * FROM Team;
 ```
-
+<p align="center">
 <img src="TerminalTeamTable.png" alt="Terminal Team Table" width="550"> 
-
+</p>
 
 - Create Member table
 ```
@@ -80,8 +80,9 @@ VALUES
 SELECT * FROM Member;
 ```
 
+<p align="center">
 <img src="TerminalMemberTable.png" alt="Terminal Member Table" width="550"> 
-
+</p>
 
 You can double check the tables in the database
 ``` 
