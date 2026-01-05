@@ -181,8 +181,10 @@ CREATE TABLE Member (
         print("Member Table:", row)
 ~~~
 
+<p align="center">
     <img src="IDLEDisplay.png" alt="IDLE Display" width="550">
-
+<p/>
+    
 - Save and close
 ```
 conn.commit()
