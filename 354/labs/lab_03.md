@@ -22,11 +22,11 @@ As we learned in [Lab 2](https://maryash.github.io/354/labs/lab_02$0), lets crea
 
 ### Join queries using Python
 
-1. Lets open VSCode, and create a python file called `lab3.py` and save it in your desktop. 
+1. Lets open VSCode, and create a python file called `lab3.py` and save this file on your desktop. 
 
-If you don't have VSCode installed, follow this short [youtube video](https://www.youtube.com/watch?v=qj5JLEQLelk$0) for instructions.
+If you don't have VS Code installed, follow this short [youtube video](https://www.youtube.com/watch?v=qj5JLEQLelk$0) for installation instructions.
 
-2. We have to connect to the database that we created, and we do so by doing:  
+2. We have to connect to the database that we created in DBeaver using Python:  
 
 ``` sql
 import sqlite3
@@ -35,7 +35,7 @@ conn = sqlite3.connect("dbeaverdatabase.db")
 cur = conn.cursor()
 ```
 
-3. Lets do CROSS JOIN and display the results with the following code
+3. Lets execute a CROSS JOIN and display the results using the following code:
 
 ```sql
 cur.execute("""
@@ -48,34 +48,34 @@ for row in rows:
     print(row)
 ```
 
-4. Close the session
-```sql
+4. Close the connection
+```
 conn.close()
 ```
 
-5. Run it with 
-```sql
+5. Run the program with 
+```
 python lab3.py
 ```
 
-So the complete python code is the following:
+Your complete `lab3.py` file should look like this:
 
-```sql
-import sqlite3
+```
+    import sqlite3
 
-conn = sqlite3.connect("dbeaverdatabase.db")
-cur = conn.cursor()
+    conn = sqlite3.connect("dbeaverdatabase.db")
+    cur = conn.cursor()
 
-cur.execute("""
-SELECT *
-FROM Member m CROSS JOIN Type t;
-""")
+    cur.execute("""
+    SELECT *
+    FROM Member m CROSS JOIN Type t;
+    """)
 
-rows = cur.fetchall()
-for row in rows:
-  print(row)
+    rows = cur.fetchall()
+    for row in rows:
+        print(row)
 
-conn.close()
+    conn.close()
 ```
 
 It will display
@@ -85,7 +85,7 @@ It will display
 
 #### INNER JOIN
 
-It is your turn to try doing INNER JOIN. It should display the following code:
+Now it is your turn to try an INNER JOIN. Your result should look like the following:
 
 <p align="center">
 <img src="lab3_04.png" alt="INNER JOIN" width="450">
