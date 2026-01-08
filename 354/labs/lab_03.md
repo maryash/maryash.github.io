@@ -28,55 +28,55 @@ As we learned in [Lab 2](https://maryash.github.io/354/labs/lab_02$0), lets crea
 
 2. We have to connect to the database that we created in DBeaver using Python:  
 
-``` sql
-    import sqlite3
-    
-    conn = sqlite3.connect("dbeaverdatabase.db")
-    cur = conn.cursor()
-```
+    ``` sql
+        import sqlite3
+        
+        conn = sqlite3.connect("dbeaverdatabase.db")
+        cur = conn.cursor()
+    ```
 
 3. Lets execute a CROSS JOIN and display the results using the following code:
 
-```sql
-    cur.execute("""
-    SELECT *
-    FROM Member m CROSS JOIN Type t;
-    """)
-    
-    rows = cur.fetchall()
-    for row in rows:
-        print(row)
-```
+    ```sql
+        cur.execute("""
+        SELECT *
+        FROM Member m CROSS JOIN Type t;
+        """)
+        
+        rows = cur.fetchall()
+        for row in rows:
+            print(row)
+    ```
 
 4. Close the connection
-```sql
-    conn.close()
-```
+    ```sql
+        conn.close()
+    ```
 
 5. Run the program with 
-```sql
-    python lab3.py
-```
+    ```sql
+        python lab3.py
+    ```
 
 Your complete `lab3.py` file should look like this:
 
-```sql
-    import sqlite3
-    
-    conn = sqlite3.connect("dbeaverdatabase.db")
-    cur = conn.cursor()
-    
-    cur.execute("""
-    SELECT *
-    FROM Member m CROSS JOIN Type t;
-    """)
-    
-    rows = cur.fetchall()
-    for row in rows:
-        print(row)
-    
-    conn.close()
-```
+    ```sql
+        import sqlite3
+        
+        conn = sqlite3.connect("dbeaverdatabase.db")
+        cur = conn.cursor()
+        
+        cur.execute("""
+        SELECT *
+        FROM Member m CROSS JOIN Type t;
+        """)
+        
+        rows = cur.fetchall()
+        for row in rows:
+            print(row)
+        
+        conn.close()
+    ```
 
 It will display
 <p align="center">
