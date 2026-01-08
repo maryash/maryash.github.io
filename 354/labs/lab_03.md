@@ -5,6 +5,10 @@ title: LAB 3
 
 # LAB 3
 
+<p align="center">
+<img src="Python.png" alt="Python" width="450">
+</p>
+
 Today’s lab will focus on using Python as the host-laguage interface.  
 Software tools needed: DBeaver and Visual Studio Code.
 
