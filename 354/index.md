@@ -1,4 +1,3 @@
-
 ---
 layout: myDefault
 title: CSCI 395 MAIN PAGE
