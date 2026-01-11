@@ -3,6 +3,11 @@ layout: myDefault
 title: LAB 1  
 ---  
 # LAB 1
+
+<p align="center">
+  <img src="https://programmerhumor.io/wp-content/uploads/2020/08/use-terminal-they-said-rm-rf.jpg" width="450">
+</p>
+
 Today's lab will focus on two ways of creating a new database; through the terminal and Python IDLE.
 
 Software tools needed: the terminal and Python IDLE programming environment.
