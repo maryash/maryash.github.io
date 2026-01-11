@@ -5,7 +5,7 @@ title: LAB 1
 # LAB 1
 
 <p align="center">
-  <img src="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fprogrammerhumor.io%2Fprogramming-memes%2Fuse-terminal-they-said-rm-rf%2F&ved=0CBYQjRxqGAoTCKjA276Xg5IDFQAAAAAdAAAAABDUAw&opi=89978449" width="450">
+<img src="lab1Intro.jpg" alt="Member Table" width="450">
 </p>
 
 Today's lab will focus on two ways of creating a new database; through the terminal and Python IDLE.
