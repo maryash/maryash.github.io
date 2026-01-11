@@ -7,6 +7,14 @@ Today's lab will focus on two ways of creating a new database; through the termi
 
 Software tools needed: the terminal and Python IDLE programming environment.
 
+
+These are the UML representation of Team class and Member class.
+<p align="center">
+    <img src="lab1_01.png" alt="Team Table" width="150" style="margin-right: 80px;"> 
+    <img src="lab1_02.png" alt="Member Table" width="150"> 
+</p>
+
+
 ## Terminal
 - Open your terminal, navigate to your Desktop and create(or open if exists) a database from it
 ```
