@@ -191,4 +191,3 @@ You will see the following output:
 
 <p align="center">
     <img src="IDLEDisplay.png" alt="IDLE Display" width="550">
-<p/>
