@@ -189,7 +189,7 @@ You will see the following output:
 
     
 - Save and close
-```
-conn.commit()
-conn.close() 
-```
+    ```
+    conn.commit()
+    conn.close() 
+    ```
