@@ -223,7 +223,7 @@ To reproduce the examples in the book, let's create the three tables shown on pa
 We first join the Member table to the Entry table and the result to the Tournament table.
 
 <p align="center">
-<img src="lab3_07.png" alt="process approach" width="450">
+<img src="lab3_07.png" alt="process approach" width="600">
 </p>
 
 #### Outcome Approach
