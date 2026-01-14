@@ -114,11 +114,121 @@ For outer joins, the idea is similar to the inner join.
 </p>
 
 
+### Extending Join Queries
+To reproduce the examples in the book, let's create the three tables shown on page 39.
+
+```sql
+    DROP TABLE IF EXISTS Entry;
+    DROP TABLE IF EXISTS Tournament;
+    DROP TABLE IF EXISTS Member;
+
+    CREATE TABLE Member (
+    MemberID INTEGER PRIMARY KEY,
+    LastName  TEXT,
+    FirstName TEXT
+    );
+
+    INSERT INTO Member (MemberID, LastName, FirstName) VALUES
+    (118, 'McKenzie', 'Melissa'),
+    (138, 'Stone', 'Michael'),
+    (153, 'Nolan', 'Brenda'),
+    (176, 'Branch', 'Helen'),
+    (178, 'Beck', 'Sarah'),
+    (228, 'Burton', 'Sandra'),
+    (235, 'Cooper', 'William'),
+    (239, 'Spence', 'Thomas'),
+    (258, 'Olson', 'Barbara'),
+    (286, 'Pollard', 'Robert'),
+    (290, 'Sexton', 'Thomas'),
+    (323, 'Wilcox', 'Daniel'),
+    (331, 'Schmidt', 'Thomas'),
+    (332, 'Bridges', 'Deborah'),
+    (339, 'Young', 'Betty'),
+    (414, 'Gilmore', 'Jane'),
+    (415, 'Taylor', 'William'),
+    (461, 'Reed', 'Robert'),
+    (469, 'Willis', 'Carolyn'),
+    (487, 'Kent', 'Susan');
+
+    CREATE TABLE Tournament (
+    TourID   INTEGER PRIMARY KEY,
+    TourName TEXT
+    );
+
+    INSERT INTO Tournament (TourID, TourName) VALUES
+    (24, 'Leeston'),
+    (25, 'Kaiapoi'),
+    (36, 'WestCoast'),
+    (38, 'Canterbury'),
+    (40, 'Otago');
+
+    CREATE TABLE Entry (
+    MemberID INTEGER,
+    TourID   INTEGER,
+    Year     INTEGER
+    );
+
+    INSERT INTO Entry (MemberID, TourID, Year) VALUES
+    (118, 24, 2014),
+    (228, 24, 2015),
+    (228, 25, 2015),
+    (228, 36, 2015),
+    (235, 38, 2013),
+    (235, 38, 2015),
+    (235, 40, 2014),
+    (235, 40, 2015),
+    (239, 25, 2015),
+    (239, 40, 2013),
+    (258, 24, 2014),
+    (258, 38, 2014),
+    (286, 24, 2013),
+    (286, 24, 2014),
+    (286, 24, 2015),
+    (415, 24, 2015),
+    (415, 25, 2013),
+    (415, 36, 2014),
+    (415, 36, 2015),
+    (415, 38, 2013),
+    (415, 38, 2015),
+    (415, 40, 2013),
+    (415, 40, 2014),
+    (415, 40, 2015);
+```
 
 
+ We also want to return the names of everyone who entered the Leeston tournament in 2014. To do this, we will follow the process approach, which leads us to the outcome approach.
 
+```sql
+    import sqlite3
 
+    conn = sqlite3.connect("dbeaverdatabase.db")
+    cur = conn.cursor()
 
+    cur.execute("""
+    SELECT LastName, FirstName
+    FROM (Member m INNER JOIN Entry e ON m.MemberID = e.MemberID)
+    INNER JOIN Tournament t ON e.TourID = t.TourID
+    WHERE TourName = 'Leeston'
+    AND Year = 2014;
+    """)
 
+    rows = cur.fetchall()
+    for row in rows:
+        print(row)
 
+    conn.close()
+```
 
+#### Process Approach
+We first join the Member table to the Entry table and the result to the Tournament table.
+
+<p align="center">
+<img src="lab3_07.png" alt="process approach" width="450">
+</p>
+
+#### Outcome Approach
+This is the final outcome.
+Our goal was simply to retrieve the names that satisfy the criteria specified in the SQL query.
+<p align="center">
+<img src="lab3_08.png" alt="outcome approach" width="450">
+</p>
