@@ -64,23 +64,23 @@ As we learned in [Lab 2](https://maryash.github.io/354/labs/lab_02$0), lets crea
 
 Your complete `lab3.py` file should look like this:
 
-    ```sql
-        import sqlite3
-        
-        conn = sqlite3.connect("dbeaverdatabase.db")
-        cur = conn.cursor()
-        
-        cur.execute("""
-        SELECT *
-        FROM Member m CROSS JOIN Type t;
-        """)
-        
-        rows = cur.fetchall()
-        for row in rows:
-            print(row)
-        
-        conn.close()
-    ```
+  ```sql
+      import sqlite3
+      
+      conn = sqlite3.connect("dbeaverdatabase.db")
+      cur = conn.cursor()
+      
+      cur.execute("""
+      SELECT *
+      FROM Member m CROSS JOIN Type t;
+      """)
+      
+      rows = cur.fetchall()
+      for row in rows:
+          print(row)
+      
+      conn.close()
+  ```
 
 It will display
 <p align="center">
