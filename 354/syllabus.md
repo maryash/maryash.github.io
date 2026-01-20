@@ -3,10 +3,9 @@ layout: myDefault
 title: CSCI 395 SYLLABUS
 ---
 
-**[CSCI 39500 &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; HUNTER COLLEGE &nbsp; &nbsp; CITY UNIVERSITY OF NEW YORK](index.html)**  
-[**SYLLABUS**](syllabus.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-[**PROGRAMMING GUIDELINES**](programming_guidelines.html){:target="_blank"}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-[**GRADESCOPE**](https://www.gradescope.com/courses/ "Entry Code "){:target="_blank"}    
+**[CSCI 39500 &nbsp; DATABASE DESIGN &nbsp; HUNTER COLLEGE &nbsp; CUNY](index.html)**  
+[**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; [**BRIGHTSPACE**](https://www.gradescope.com/courses/ "Entry Code "){:target="_blank"}  
+  
   
 **Description**  This course in practical database design covers essential skills needed to conceptualize, model, and implement robust and effective database systems that meet the real-world business scenarios.  You will learn to visually represent data organization, model entity-relationships, normalize schemas, minimize redundancy, and ensure data integrity.  With hands-on projects on organizing data (creating tables, defining constraints) and manipulating data (querying, updating).  Informed by real world scenarios, this course will teach you to analyze business requirements and to crystalize them into optimum database schemas. 
   
