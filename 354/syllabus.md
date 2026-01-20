@@ -3,30 +3,26 @@ layout: myDefault
 title: CSCI 395 SYLLABUS
 ---
 
-**[CSCI 39500 &nbsp; DATABASE DESIGN &nbsp; HUNTER COLLEGE &nbsp; CUNY](index.html)** &nbsp; [**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; [**GRADESCOPE**](https://www.gradescope.com/courses/ "Entry Code "){:target="_blank"}  
+**[CSCI 39500 &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; HUNTER COLLEGE &nbsp; CUNY](index.html)** &nbsp; &nbsp; [**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; &nbsp; [**GRADESCOPE**](https://www.gradescope.com/courses/ "Entry Code "){:target="_blank"}  
   
-  
-**Description**  This course in practical database design covers essential skills needed to conceptualize, model, and implement robust and effective database systems that meet the real-world business scenarios.  You will learn to visually represent data organization, model entity-relationships, normalize schemas, minimize redundancy, and ensure data integrity.  With hands-on projects on organizing data (creating tables, defining constraints) and manipulating data (querying, updating).  Informed by real world scenarios, this course will teach you to analyze business requirements and to crystalize them into optimum database schemas. 
+**Description**  
+This course in practical database design covers essential skills needed to conceptualize, model, and implement robust and effective database systems that meet the real-world business scenarios.  You will learn to visually represent data organization, model entity-relationships, normalize schemas, minimize redundancy, and ensure data integrity.  With hands-on projects on organizing data (creating tables, defining constraints) and manipulating data (querying, updating).  Informed by real world scenarios, this course will teach you to analyze business requirements and to crystalize them into optimum database schemas.
   
 **Prerequisites** CSCI 22700 or CSCI 23500
 
-**Lecture and Lab** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu  
-Mondays and Wednesdays 8:30 AM - 9:45 AM on line  
-  
 **Learning Outcomes**  
 1. Be able to design and implement a relational database schema design of realistic complexity normalized to 3NF.  
 1. Be able to implement the database in a RDBMS.  
 1. Be able to manipulate a relational database using a query language.  
-1. Be able to integrate a relational database into a software application, including one with a three-tier server architecture.  
+1. Be able to integrate a relational database into a software application, including one with a three-tier server architecture.
   
-**Required Supplies**  
-You will write/draw all homeworks, tests, and exams with pen on paper in the exact manner that I demand; quality of presentation of your work is a large part of each grade.  You MUST buy this [PARTICULAR GRID PAPER](https://www.amazon.com/gp/product/B001IZKYYS/ref=ox_sc_act_title_2?smid=A36N3VFG4OZIHD){:target="_blank"} and these [0.7mm BLACK **Pilot FriXion** PENS](https://www.amazon.com/gp/product/B009QYH52C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER){:target="_blank"}.  I do not allow any other paper or pens/pencils.  Scanner app: [ 🍏 ](https://apps.apple.com/fr/app/scanner-app-genius-scan/id377672876){:target="_blank"} / [ 🤖 ](https://play.google.com/store/apps/details?id=com.thegrizzlylabs.geniusscan.free&hl=en){:target="_blank"}  
+**Lecture and Lab** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu &nbsp; Monday, Wednesday 8:30am-9:45am Zoom
   
 **Textbooks**  
 Clare Churcher "Beginning Database Design" 2nd ed. (2012) Edition, and 
 Clare Churcher "Beginning SQL Queries" 2nd ed. (2012) — either books or PDFs.  
-Additional requireded readings and tutorials will be provided on this course webpage.  
 Additional requireded readings and tutorials will be provided on the [main course webpage](index.html).  
+[PYTHON REFRESHER (if needed) huntercsci127.github.io/f25.html](https://huntercsci127.github.io/f25.html)
   
 **Required Supplies**  
 You will write and draw all homeworks, tests, and exams with pen on paper in the exact maner that I specify. You will photo-scan and submit all to gradescope for semi-automated grading. Maximum consistency being essential, you MUST buy this [PARTICULAR GRID PAPER](https://www.amazon.com/gp/product/B001IZKYYS/ref=ox_sc_act_title_2?smid=A36N3VFG4OZIHD){:target="_blank"} and these [0.7mm BLACK **Pilot FriXion** pens](https://www.amazon.com/gp/product/B009QYH52C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER){:target="_blank"} - both very inexpensive!  I will not allow any other paper or pens/pencils.  You MUST also use this particular free scanner app: [ 🍏 ](https://apps.apple.com/fr/app/scanner-app-genius-scan/id377672876){:target="_blank"} / [ 🤖 ](https://play.google.com/store/apps/details?id=com.thegrizzlylabs.geniusscan.free&hl=en){:target="_blank"}
@@ -41,13 +37,11 @@ This course uses multiple software tools and languages:
 *Gradescope*  All assignments will be submitted to Gradescope. Weekly tets, exams and homeworks will be on paper submited as images, graded, and returned via Gradescope. An email with access information will be sent to your email of record on Blackboard two days before the semester starts.  
 *Github* a freely available site for hosting and collaborating, particularly for programming.
   
-**Final Grade**
-Home Work Assignments: 10%  
-Lab Tests: 45%  
-Code Reviews: 15% 
-Midterm Exam 15% 
-Final Exam: 25%  
-Optional Extra Credit Final Project: 10% 
+**Final Grade** 
+Home Work Assignments: 20% (you may be called to explain any homework assignment solution in detail)
+Lab Tests: 40%  
+Final Exam: 20%  
+Project: 20%
 You will write/draw all homeworks, tests, and exams with pen on paper in the exact manner that I demand; quality of presentation of your work is a large part of the grade for any assignment.  
     
 **Expectations**  
