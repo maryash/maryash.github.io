@@ -10,10 +10,10 @@ title: CSCI 395 SYLLABUS
 **Prerequisites** &nbsp; CSCI 22700 or CSCI 23500
 
 **Learning Outcomes**  
-1. Be able to design and implement a relational database schema design of realistic complexity normalized to 3NF.  
-1. Be able to implement the database in a RDBMS.  
-1. Be able to manipulate a relational database using a query language.  
-1. Be able to integrate a relational database into a software application, including one with a three-tier server architecture.
+1 Be able to design and implement a relational database schema design of realistic complexity normalized to 3NF.  
+2 Be able to implement the database in a RDBMS.  
+3 Be able to manipulate a relational database using a query language.  
+4 Be able to integrate a relational database into a software application, including one with a three-tier server architecture.
   
 **Lecture and Lab** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu &nbsp; Monday, Wednesday 8:30am-9:45am Zoom
   
