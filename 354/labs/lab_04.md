@@ -145,7 +145,7 @@ Run the program with
 Open the `result.csv` file, you should see the following output:
 
 <p align="center">
-<img src="lab4_01.png" alt="result" width="450">
+<img src="lab4_01.png" alt="result" width="350">
 </p>
 
 
@@ -167,7 +167,7 @@ Now it is your turn to write this query in Python and save the output to a CSV f
 The file should look like the following:
 
 <p align="center">
-<img src="lab4_02.png" alt="exists" width="450">
+<img src="lab4_02.png" alt="exists" width="350">
 </p>
 
 
