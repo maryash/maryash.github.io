@@ -5,15 +5,15 @@ title: LAB 5
 
 # LAB 5
 
-Today's lab will be about self joins and a brief introduction to Flask
+Today's lab will be about self joins and provide a brief introduction to Flask
 
-Let's not beat around the bushes, and go straight to the point. We can use the same folder `subqueries` that we used in the previous lab. We only need to delete the csv files, and it is good to go. Or we can create a new folder named `flask` and move the existing database `dbeaverdatabase.db` to the folder, and create a new python file `app.py`
+Let's not beat around the bush, and go straight to the point. We can use the same folder `subqueries` that we used in the previous lab. We only need to delete the csv files, and it will be ready to go. Alternatively, we can create a new folder named `flask` and move the existing database `dbeaverdatabase.db` into that folder, and create a new p=Python file called `app.py`
 
 <p align="center">
 <img src="lab5_01.png" alt="flask folder" width="350">
 </p>
 
-To recreate the table on page 59 of the book, use the following SQL script. If you forgot how to create a new table in DBeaver, checkout [Lab2](https://maryash.github.io/354/labs/lab_02).
+To recreate the table on page 59 of the book, use the following SQL script. If you forgot how to create a new table in DBeaver, check out [Lab2](https://maryash.github.io/354/labs/lab_02).
 
         PRAGMA foreign_keys = ON;
 
@@ -52,12 +52,63 @@ To recreate the table on page 59 of the book, use the following SQL script. If y
         (469, 'Willis', 'Carolyn', 29, 'Junior', 'F', NULL),
         (487, 'Kent', 'Susan', NULL, 'Social', 'F', NULL);
 
+## Self join
+Self joins are Cartesian product (every combination of rows from each table) followed by selecting a subset of those rows that satisfy some join condition.
 
+So when we run
+```
+SELECT *
+FROM Member m INNER JOIN Member c ON m.Coach = c.MemberID;
+```
+this is part of the Cartesian product that we are doing
+<p align="center">
+<img src="lab5_02.png" alt="self join" width="350">
+</p>
 
+The join condition `m.Coach = c.MemberID` then filters this result, keeping only the rows where a member’s coach matches another member’s `MemberID`:
+<p align="center">
+<img src="lab5_03.png" alt="result" width="350">
+</p>
 
+Since we are only interested in the first and last names of the coaches, we select only those columns. We also apply `DISTINCT` to avoid duplicate results:
+```
+SELECT DISTINCT c.FirstName, c.LastName
+FROM Member m INNER JOIN Member c ON m.Coach = c.MemberID;
+```
 
+This is the result we see in DBeaver
+<p align="center">
+<img src="lab5_04.png" alt="result" width="350">
+</p>
 
-install flask
+And this is the result we see when running the same query in Python from the terminal 
+
+        import sqlite3
+
+        conn = sqlite3.connect("dbeaverdatabase.db")
+        cur = conn.cursor()
+
+        cur.execute("""
+        SELECT DISTINCT c.FirstName, c.LastName
+        FROM Member m INNER JOIN Member c ON m.Coach = c.MemberID;
+        """)
+
+        rows = cur.fetchall()
+        for first, last in rows:
+        print(f"{first} {last}")
+
+        conn.close()
+
+<p align="center">
+<img src="lab5_05.png" alt="result" width="350">
+</p>
+
+## Flask
+In real applications, we don't just do queries in database tools like DBeaver or in the terminal. While running SQL directly is useful for learning and testing, most real-world applications access databases through code and display results in a user-friendly interface. Therefore, in this lab we will have a brief introduction to Flask. Flask acts as a simple bridge between the database and the user interface. It lets us take the results of a self join query and present them in a formatted web page.
+
+### Installing flask
+
+In the terminal, type the foolowing command
 ``` 
 python -m pip install flask
 ```
