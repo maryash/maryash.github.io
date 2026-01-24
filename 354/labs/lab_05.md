@@ -10,7 +10,7 @@ Today's lab will be about self joins and provide a brief introduction to Flask
 Let's not beat around the bush, and go straight to the point. We can use the same folder `subqueries` that we used in the previous lab. We only need to delete the csv files, and it will be ready to go. Alternatively, we can create a new folder named `flask` and move the existing database `dbeaverdatabase.db` into that folder, and create a new p=Python file called `app.py`
 
 <p align="center">
-<img src="lab5_01.png" alt="flask folder" width="350">
+<img src="lab5_01.png" alt="flask folder" width="200">
 </p>
 
 To recreate the table on page 59 of the book, use the following SQL script. If you forgot how to create a new table in DBeaver, check out [Lab2](https://maryash.github.io/354/labs/lab_02).
@@ -62,12 +62,12 @@ FROM Member m INNER JOIN Member c ON m.Coach = c.MemberID;
 ```
 this is part of the Cartesian product that we are doing
 <p align="center">
-<img src="lab5_02.png" alt="self join" width="350">
+<img src="lab5_02.png" alt="self join" width="650">
 </p>
 
 The join condition `m.Coach = c.MemberID` then filters this result, keeping only the rows where a member’s coach matches another member’s `MemberID`:
 <p align="center">
-<img src="lab5_03.png" alt="result" width="350">
+<img src="lab5_03.png" alt="result" width="550">
 </p>
 
 Since we are only interested in the first and last names of the coaches, we select only those columns. We also apply `DISTINCT` to avoid duplicate results:
@@ -100,7 +100,7 @@ And this is the result we see when running the same query in Python from the ter
         conn.close()
 
 <p align="center">
-<img src="lab5_05.png" alt="result" width="350">
+<img src="lab5_05.png" alt="result" width="550">
 </p>
 
 ## Flask
