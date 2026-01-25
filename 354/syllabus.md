@@ -18,7 +18,7 @@ title: CSCI 395 SYLLABUS
 **Lecture and Lab** &nbsp; Genady Maryash &nbsp; gmaryash@hunter.cuny.edu &nbsp; Monday, Wednesday 8:30am-9:45am Zoom
   
 **Textbooks** &nbsp; Clare Churcher "Beginning Database Design" 2nd ed. (2012) Edition, and 
-Clare Churcher "Beginning SQL Queries" 2nd ed. (2012) — either books or PDFs.  
+Clare Churcher "Beginning SQL Queries" 2nd ed. (2016) — either books or PDFs.  
 Additional requireded readings and tutorials will be provided on the [MAIN COURSE WEBPAGE](index.html).  
 [PYTHON REFRESHER (if needed): &nbsp; huntercsci127.github.io/f25.html](https://huntercsci127.github.io/f25.html)
   
