@@ -3,8 +3,7 @@ layout: myDefault
 title: CSCI 395 SYLLABUS
 ---
 
-**[CSCI 39500 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; HUNTER COLLEGE &nbsp; CUNY](index.html)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**GRADESCOPE**](**[CSCI 39500 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; HUNTER COLLEGE &nbsp; CUNY](index.html)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**GRADESCOPE**]([https://www.gradescope.com/courses/ "Entry Code "](https://www.gradescope.com/courses/1184869){:target="_blank"}
- "Entry Code YBV46G"){:target="_blank"}
+**[CSCI 39500 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; HUNTER COLLEGE &nbsp; CUNY](index.html)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**GRADESCOPE**](https://www.gradescope.com/courses/1184869 "Entry Code YBV46G"){:target="_blank"}
   
 **Description** &nbsp; This course in practical database design covers essential skills needed to conceptualize, model, and implement robust and effective database systems that meet the real-world business scenarios.  You will learn to visually represent data organization, model entity-relationships, normalize schemas, minimize redundancy, and ensure data integrity.  With hands-on projects on organizing data (creating tables, defining constraints) and manipulating data (querying, updating).  Informed by real world scenarios, this course will teach you to analyze business requirements and to crystalize them into optimum database schemas.
   
