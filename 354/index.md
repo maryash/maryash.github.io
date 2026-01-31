@@ -30,7 +30,9 @@ Additional requireded readings and tutorials will be provided on this course web
   
 **REQUIRED SUPPLIES** &nbsp; You will write and draw all homeworks, tests, and exams with pen on paper in the exact maner that I specify. You will photo-scan and submit all to gradescope for semi-automated grading. Maximum consistency being essential, you MUST buy this [PARTICULAR GRID PAPER](https://www.amazon.com/gp/product/B001IZKYYS/ref=ox_sc_act_title_2?smid=A36N3VFG4OZIHD){:target="_blank"} and these [0.7mm BLACK **Pilot FriXion** pens](https://www.amazon.com/gp/product/B009QYH52C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER){:target="_blank"} - both very inexpensive!  I will not allow any other paper or pens/pencils.  You MUST also use this particular free scanner app: [ 🍏 ](https://apps.apple.com/fr/app/scanner-app-genius-scan/id377672876){:target="_blank"} / [ 🤖 ](https://play.google.com/store/apps/details?id=com.thegrizzlylabs.geniusscan.free&hl=en){:target="_blank"}
 
-**OUTLINE OF WEEKLY TOPICS**
+**OUTLINE OF WEEKLY TOPICS** &#127910; [1](https://us02web.zoom.us/rec/play/gxYJwEbEyky0ObcKvNmBlY2I_mDeHvZNmgUPqtJPCzqhVSsjy3moLE8MrQP-QKYOKJD5AN7ejJ_BlAX-.ftJFRsU1_D97sPVb "Lw1$zwN0"){:target="_blank"} [2](https://us02web.zoom.us/rec/play/67VDUqLZzj0xnfySS3xb-2OnPPZXQy9zKua3r5GQQT4uvc3PlLdTaOfq30yLsQ_0yruvqILJnxt1qho4.h-xt4vLxVwzRN5iy "U3sRcT1="){:target="_blank"} 
+
+
 
 <b><input type="button" id="Togle" style="color:darkblue;" onClick="expandElements(true, this)" value=" ▶ EXPAND ALL "/></b> | LECTURE&nbsp;—&nbsp;DATABASE&nbsp;DESIGN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | LAB&nbsp;—&nbsp;DATABASE&nbsp;USE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
  --- | --- | --- 
