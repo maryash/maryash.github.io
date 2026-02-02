@@ -183,3 +183,50 @@ The file should look like the following:
 </p>
 
 
+## Different Types of Subqueries
+There are different types of nested queries and alternate ways of expressing them.
+
+#### A subquery returning a single value
+To find the tournaments that member Cooper has entered, this is the same as
+```
+SELECT e.TourID, e.Year FROM Entry e WHERE e.MemberID =
+(SELECT m.MemberID FROM Member m
+WHERE m.LastName = 'Cooper');
+```
+this 
+```
+SELECT e.TourID, e.Year
+FROM Entry e INNER JOIN Member m ON e.MemberID = m.MemberID
+WHERE m.LastName = 'Cooper';
+```
+Both of them will return the same output
+
+<p align="center">
+<img src="lab4_06.png" alt="output" width="350">
+</p>
+
+#### A subquery returning a set of single values
+It is your turn to find all the entries for an Open tournament, your output should be the following
+
+<p align="center">
+<img src="lab4_07.png" alt="output" width="350">
+</p>
+
+#### A subquery checking for existence
+To find the names of members that have entered any tournament, this is the same
+```
+SELECT m.LastName, m.FirstName
+FROM Member m
+WHERE EXISTS
+(SELECT * FROM Entry e
+WHERE e.MemberID = m.MemberID);
+```
+as
+```
+SELECT DISTINCT m.LastName, m.FirstName
+FROM Member m INNER JOIN Entry e ON e.MemberID = m.MemberID;
+```
+You should see the following output
+<p align="center">
+<img src="lab4_08.png" alt="output" width="350">
+</p>
