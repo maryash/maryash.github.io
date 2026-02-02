@@ -202,14 +202,14 @@ WHERE m.LastName = 'Cooper';
 Both of them will return the same output
 
 <p align="center">
-<img src="lab4_06.png" alt="output" width="350">
+<img src="lab4_06.png" alt="output" width="250">
 </p>
 
 #### A subquery returning a set of single values
 It is your turn to find all the entries for an Open tournament, your output should be the following
 
 <p align="center">
-<img src="lab4_07.png" alt="output" width="350">
+<img src="lab4_07.png" alt="output" width="250">
 </p>
 
 #### A subquery checking for existence
@@ -228,5 +228,5 @@ FROM Member m INNER JOIN Entry e ON e.MemberID = m.MemberID;
 ```
 You should see the following output
 <p align="center">
-<img src="lab4_08.png" alt="output" width="350">
+<img src="lab4_08.png" alt="output" width="250">
 </p>
