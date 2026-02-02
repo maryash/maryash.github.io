@@ -93,6 +93,18 @@ Today's lab we will focus on how to open csv files to populate tables with the d
 
 ** double check the tables in DBeaver to make sure the data was imported correctly.
 
+<p align="center">
+<img src="lab4_03.png" alt="result" width="350">
+</p>
+
+<p align="center">
+<img src="lab4_04.png" alt="result" width="350">
+</p>
+
+<p align="center">
+<img src="lab4_05.png" alt="result" width="350">
+</p>
+
 ## IN Keyword
 
 Now let’s write some subqueries using the IN keyword. Before doing so, let’s review how IN works.
