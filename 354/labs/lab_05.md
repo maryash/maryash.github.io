@@ -112,3 +112,113 @@ In the terminal, type the foolowing command
 ``` 
 python -m pip install flask
 ```
+
+#### Creating a Flask application
+Let's create a Python file `app.py` in the same folder as the database. This Flask application connects to the database, runs the same self join query we tested earlier, and sends the results to an HTML template.
+
+``` python
+        import os
+        import sqlite3 
+        from flask import Flask, render_template
+
+        app = Flask(__name__) # start the app
+
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+        DB_PATH = os.path.join(BASE_DIR, "dbeaverdatabase.db")
+
+        @app.route("/") #run the following when the useer is in the home page
+        def selfjoin():
+        # coonect it to the database
+        with sqlite3.connect(DB_PATH) as conn:
+                conn.row_factory = sqlite3.Row
+                cur = conn.cursor()
+                #execute query
+                cur.execute("""
+                SELECT DISTINCT c.FirstName, c.LastName
+                FROM Member m INNER JOIN Member c ON m.Coach = c.MemberID;
+                """)
+                rows = cur.fetchall() #fetch the data
+        # returns the data to the template
+        return render_template("selfjoin.html", rows=rows)
+
+        #starts the Flask web server in debug mode
+        if __name__ == "__main__":
+        app.run(debug=True)
+```
+
+#### Create the templates folder
+In the same folder, create a new folder called templates. Inside templates, create a file called `selfjoin.html`. 
+
+The folder structure should look like this:
+
+<p align="center">
+<img src="lab5_06.png" alt="folder" width="350">
+</p>
+
+The template receives the result of the self join and displays each coach’s name in a list. In `selfjoin.html`, add the following
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <title>Lab 5</title>
+        <style>
+                body {
+                font-family: Arial, sans-serif;
+                margin: 40px;
+                }
+
+                h1 {
+                margin-bottom: 10px;
+                }
+
+                table {
+                border-collapse: collapse;
+                width: 50%;
+                }
+
+                th, td {
+                border: 1px solid #444;
+                padding: 8px 12px;
+                text-align: left;
+                }
+
+                th {
+                background-color: #f2f2f2;
+                }
+        </style>
+        </head>
+        <body>
+        <h1>Self Join</h1>
+        <table>
+                <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                </tr>
+
+                {% for row in rows %}
+                <tr>
+                <td>{{ row["FirstName"] }}</td>
+                <td>{{ row["LastName"] }}</td>
+                </tr>
+                {% endfor %}
+        </table>
+        </body>
+        </html>
+
+In the terminal, run the following
+
+```
+python app.py
+```
+
+You will see the following output in the terminal
+
+<p align="center">
+<img src="lab5_07.png" alt="terminal" width="350">
+</p>
+
+Open the link and you should see the list of coaches displayed on a web page.
+<p align="center">
+<img src="lab5_08.png" alt="info" width="350">
+</p>
