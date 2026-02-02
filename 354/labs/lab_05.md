@@ -215,10 +215,10 @@ python app.py
 You will see the following output in the terminal
 
 <p align="center">
-<img src="lab5_07.png" alt="terminal" width="350">
+<img src="lab5_07.png" alt="terminal" width="750">
 </p>
 
 Open the link and you should see the list of coaches displayed on a web page.
 <p align="center">
-<img src="lab5_08.png" alt="info" width="350">
+<img src="lab5_08.png" alt="info" width="750">
 </p>
