@@ -15,42 +15,44 @@ Let's not beat around the bush, and go straight to the point. We can use the sam
 
 To recreate the table on page 59 of the book, use the following SQL script. If you forgot how to create a new table in DBeaver, check out [Lab2](https://maryash.github.io/354/labs/lab_02).
 
-        PRAGMA foreign_keys = ON;
+```
+PRAGMA foreign_keys = ON;
 
-        DROP TABLE IF EXISTS Member;
+DROP TABLE IF EXISTS Member;
 
-        CREATE TABLE Member (
-        MemberID   INTEGER PRIMARY KEY,
-        LastName   TEXT NOT NULL,
-        FirstName  TEXT NOT NULL,
-        Handicap   INTEGER,
-        MemberType TEXT,
-        Gender     TEXT,
-        Coach      INTEGER,
-        FOREIGN KEY (Coach) REFERENCES Member(MemberID)
-        );
+CREATE TABLE Member (
+MemberID   INTEGER PRIMARY KEY,
+LastName   TEXT NOT NULL,
+FirstName  TEXT NOT NULL,
+Handicap   INTEGER,
+MemberType TEXT,
+Gender     TEXT,
+Coach      INTEGER,
+FOREIGN KEY (Coach) REFERENCES Member(MemberID)
+);
 
-        INSERT INTO Member (MemberID, LastName, FirstName, Handicap, MemberType, Gender, Coach) VALUES
-        (118, 'McKenzie', 'Melissa', 30, 'Junior', 'F', 153),
-        (138, 'Stone', 'Michael', 30, 'Senior', 'M', NULL),
-        (153, 'Nolan', 'Brenda', 11, 'Senior', 'F', NULL),
-        (176, 'Branch', 'Helen', NULL, 'Social', 'F', NULL),
-        (178, 'Beck', 'Sarah', NULL, 'Social', 'F', NULL),
-        (228, 'Burton', 'Sandra', 26, 'Junior', 'F', 153),
-        (235, 'Cooper', 'William', 14, 'Senior', 'M', 153),
-        (239, 'Spence', 'Thomas', 10, 'Senior', 'M', NULL),
-        (258, 'Olson', 'Barbara', 16, 'Senior', 'F', NULL),
-        (286, 'Pollard', 'Robert', 19, 'Junior', 'M', 235),
-        (290, 'Sexton', 'Thomas', 26, 'Senior', 'M', 235),
-        (323, 'Wilcox', 'Daniel', 3, 'Senior', 'M', NULL),
-        (331, 'Schmidt', 'Thomas', 25, 'Senior', 'M', 153),
-        (332, 'Bridges', 'Deborah', 12, 'Senior', 'F', 235),
-        (339, 'Young', 'Betty', 21, 'Senior', 'F', NULL),
-        (414, 'Gilmore', 'Jane', 5, 'Junior', 'F', 153),
-        (415, 'Taylor', 'William', 7, 'Senior', 'M', 235),
-        (461, 'Reed', 'Robert', 3, 'Senior', 'M', 235),
-        (469, 'Willis', 'Carolyn', 29, 'Junior', 'F', NULL),
-        (487, 'Kent', 'Susan', NULL, 'Social', 'F', NULL);
+INSERT INTO Member (MemberID, LastName, FirstName, Handicap, MemberType, Gender, Coach) VALUES
+(118, 'McKenzie', 'Melissa', 30, 'Junior', 'F', 153),
+(138, 'Stone', 'Michael', 30, 'Senior', 'M', NULL),
+(153, 'Nolan', 'Brenda', 11, 'Senior', 'F', NULL),
+(176, 'Branch', 'Helen', NULL, 'Social', 'F', NULL),
+(178, 'Beck', 'Sarah', NULL, 'Social', 'F', NULL),
+(228, 'Burton', 'Sandra', 26, 'Junior', 'F', 153),
+(235, 'Cooper', 'William', 14, 'Senior', 'M', 153),
+(239, 'Spence', 'Thomas', 10, 'Senior', 'M', NULL),
+(258, 'Olson', 'Barbara', 16, 'Senior', 'F', NULL),
+(286, 'Pollard', 'Robert', 19, 'Junior', 'M', 235),
+(290, 'Sexton', 'Thomas', 26, 'Senior', 'M', 235),
+(323, 'Wilcox', 'Daniel', 3, 'Senior', 'M', NULL),
+(331, 'Schmidt', 'Thomas', 25, 'Senior', 'M', 153),
+(332, 'Bridges', 'Deborah', 12, 'Senior', 'F', 235),
+(339, 'Young', 'Betty', 21, 'Senior', 'F', NULL),
+(414, 'Gilmore', 'Jane', 5, 'Junior', 'F', 153),
+(415, 'Taylor', 'William', 7, 'Senior', 'M', 235),
+(461, 'Reed', 'Robert', 3, 'Senior', 'M', 235),
+(469, 'Willis', 'Carolyn', 29, 'Junior', 'F', NULL),
+(487, 'Kent', 'Susan', NULL, 'Social', 'F', NULL);
+```
 
 ## Self join
 Self joins are Cartesian product (every combination of rows from each table) followed by selecting a subset of those rows that satisfy some join condition.
@@ -83,21 +85,23 @@ This is the result we see in DBeaver
 
 And this is the result we see when running the same query in Python from the terminal 
 
-        import sqlite3
+```python
+import sqlite3
 
-        conn = sqlite3.connect("dbeaverdatabase.db")
-        cur = conn.cursor()
+conn = sqlite3.connect("dbeaverdatabase.db")
+cur = conn.cursor()
 
-        cur.execute("""
-        SELECT DISTINCT c.FirstName, c.LastName
-        FROM Member m INNER JOIN Member c ON m.Coach = c.MemberID;
-        """)
+cur.execute("""
+SELECT DISTINCT c.FirstName, c.LastName
+FROM Member m INNER JOIN Member c ON m.Coach = c.MemberID;
+""")
 
-        rows = cur.fetchall()
-        for first, last in rows:
-        print(f"{first} {last}")
+rows = cur.fetchall()
+for first, last in rows:
+print(f"{first} {last}")
 
-        conn.close()
+conn.close()
+```
 
 <p align="center">
 <img src="lab5_05.png" alt="result" width="550">
@@ -117,33 +121,33 @@ python -m pip install flask
 Let's create a Python file `app.py` in the same folder as the database. This Flask application connects to the database, runs the same self join query we tested earlier, and sends the results to an HTML template.
 
 ``` python
-        import os
-        import sqlite3 
-        from flask import Flask, render_template
+import os
+import sqlite3 
+from flask import Flask, render_template
 
-        app = Flask(__name__) # start the app
+app = Flask(__name__) # start the app
 
-        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-        DB_PATH = os.path.join(BASE_DIR, "dbeaverdatabase.db")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_PATH = os.path.join(BASE_DIR, "dbeaverdatabase.db")
 
-        @app.route("/") #run the following when the useer is in the home page
-        def selfjoin():
-        # coonect it to the database
-        with sqlite3.connect(DB_PATH) as conn:
-                conn.row_factory = sqlite3.Row
-                cur = conn.cursor()
-                #execute query
-                cur.execute("""
-                SELECT DISTINCT c.FirstName, c.LastName
-                FROM Member m INNER JOIN Member c ON m.Coach = c.MemberID;
-                """)
-                rows = cur.fetchall() #fetch the data
-        # returns the data to the template
-        return render_template("selfjoin.html", rows=rows)
+@app.route("/") #run the following when the useer is in the home page
+def selfjoin():
+# coonect it to the database
+with sqlite3.connect(DB_PATH) as conn:
+        conn.row_factory = sqlite3.Row
+        cur = conn.cursor()
+        #execute query
+        cur.execute("""
+        SELECT DISTINCT c.FirstName, c.LastName
+        FROM Member m INNER JOIN Member c ON m.Coach = c.MemberID;
+        """)
+        rows = cur.fetchall() #fetch the data
+# returns the data to the template
+return render_template("selfjoin.html", rows=rows)
 
-        #starts the Flask web server in debug mode
-        if __name__ == "__main__":
-        app.run(debug=True)
+#starts the Flask web server in debug mode
+if __name__ == "__main__":
+app.run(debug=True)
 ```
 
 #### Create the templates folder
@@ -157,54 +161,57 @@ The folder structure should look like this:
 
 The template receives the result of the self join and displays each coach’s name in a list. In `selfjoin.html`, add the following
 
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-        <meta charset="UTF-8">
-        <title>Lab 5</title>
-        <style>
-                body {
-                font-family: Arial, sans-serif;
-                margin: 40px;
-                }
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lab 5</title>
+<style>
+        body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        }
 
-                h1 {
-                margin-bottom: 10px;
-                }
+        h1 {
+        margin-bottom: 10px;
+        }
 
-                table {
-                border-collapse: collapse;
-                width: 50%;
-                }
+        table {
+        border-collapse: collapse;
+        width: 50%;
+        }
 
-                th, td {
-                border: 1px solid #444;
-                padding: 8px 12px;
-                text-align: left;
-                }
+        th, td {
+        border: 1px solid #444;
+        padding: 8px 12px;
+        text-align: left;
+        }
 
-                th {
-                background-color: #f2f2f2;
-                }
-        </style>
-        </head>
-        <body>
-        <h1>Self Join</h1>
-        <table>
-                <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                </tr>
+        th {
+        background-color: #f2f2f2;
+        }
+</style>
+</head>
+<body>
+<h1>Self Join</h1>
+<table>
+        <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        </tr>
 
-                {% for row in rows %}
-                <tr>
-                <td>{{ row["FirstName"] }}</td>
-                <td>{{ row["LastName"] }}</td>
-                </tr>
-                {% endfor %}
-        </table>
-        </body>
-        </html>
+        {% for row in rows %}
+        <tr>
+        <td>{{ row["FirstName"] }}</td>
+        <td>{{ row["LastName"] }}</td>
+        </tr>
+        {% endfor %}
+</table>
+</body>
+</html>
+```
+
 
 In the terminal, run the following
 
