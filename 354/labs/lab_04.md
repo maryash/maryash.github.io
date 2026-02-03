@@ -19,6 +19,7 @@ Today's lab we will focus on how to open csv files to populate tables with the d
 
 2. Copy the following code into `lab4.py`. This program opens the database, creates the tables, and populates them with data from the CSV files.
 
+``` python
         import csv
         import sqlite3
 
@@ -85,6 +86,7 @@ Today's lab we will focus on how to open csv files to populate tables with the d
 
         conn.commit()
         conn.close()
+```
 
 3. Run the program with 
     ```
@@ -125,6 +127,7 @@ WHERE e.TourID IN (36, 38, 40);
 
 the reason that someone may have been interested in tournaments 36, 38, and 40 might have been because they are the current Open tournaments, so rather than list the Open tournaments individually, we can use another SQL query to generate the set of values we require.
 
+``` python
         import csv
         import sqlite3
 
@@ -148,6 +151,7 @@ the reason that someone may have been interested in tournaments 36, 38, and 40 m
             writer.writerows(rows)
 
         conn.close()
+```
 
 Run the program with 
 
@@ -170,10 +174,12 @@ row e in the Entry table where m.MemberID = e.MemberID ."
 
 which in SQL will be
 
+```
         SELECT m.LastName, m.FirstName
         FROM Member m
         WHERE EXISTS
         (SELECT * FROM Entry e WHERE e.MemberID = m.MemberID);
+```
 
 Now it is your turn to write this query in Python and save the output to a CSV file called exists.csv.
 The file should look like the following:
@@ -188,17 +194,21 @@ There are different types of nested queries and alternate ways of expressing the
 
 #### A subquery returning a single value
 To find the tournaments that member Cooper has entered, this is the same as
+
 ```
 SELECT e.TourID, e.Year FROM Entry e WHERE e.MemberID =
 (SELECT m.MemberID FROM Member m
 WHERE m.LastName = 'Cooper');
 ```
+
 this 
+
 ```
 SELECT e.TourID, e.Year
 FROM Entry e INNER JOIN Member m ON e.MemberID = m.MemberID
 WHERE m.LastName = 'Cooper';
 ```
+
 Both of them will return the same output
 
 <p align="center">
@@ -214,6 +224,7 @@ It is your turn to find all the entries for an Open tournament, your output shou
 
 #### A subquery checking for existence
 To find the names of members that have entered any tournament, this is the same
+
 ```
 SELECT m.LastName, m.FirstName
 FROM Member m
@@ -221,12 +232,16 @@ WHERE EXISTS
 (SELECT * FROM Entry e
 WHERE e.MemberID = m.MemberID);
 ```
+
 as
+
 ```
 SELECT DISTINCT m.LastName, m.FirstName
 FROM Member m INNER JOIN Entry e ON e.MemberID = m.MemberID;
 ```
+
 You should see the following output
+
 <p align="center">
 <img src="lab4_08.png" alt="output" width="250">
 </p>
