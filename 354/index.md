@@ -16,8 +16,7 @@ const expandElements = function(shouldExpand) {
         document.getElementById('Togle').value = ' ▶ EXPAND ALL ';
         document.getElementById('Togle').onclick = function() {expandElements(true, this);};
     }
-};
-</script>
+};  </script>
 
 **[CSCI 39500 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; HUNTER COLLEGE &nbsp; CUNY](index.html)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**GRADESCOPE**](https://www.gradescope.com/courses/1184869 "Entry Code YBV46G"){:target="_blank"}
   
