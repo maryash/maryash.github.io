@@ -229,3 +229,10 @@ Open the link and you should see the list of coaches displayed on a web page.
 <p align="center">
 <img src="lab5_08.png" alt="info" width="750">
 </p>
+
+#### Practice: List the Names of All Members and the Names of Their Coaches
+Change the `app.py` file to retrieve all the members and their coaches first name and last name. Remember to also change the HTML since we are now passing four columns instead of only two. The following should be your output: 
+
+<p align="center">
+<img src="lab5_09.png" alt="members and coaches" width="750">
+</p>
