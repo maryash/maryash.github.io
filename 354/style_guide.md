@@ -61,7 +61,7 @@ Here is how these rules look in practice with a relational schema for an e-comme
 
 Column Name        | Type    | Notes       
  --- | --- | --- 
-`customer_id`        | `INT`     | *Primary Key** 
+`customer_id`        | `INT`     | ***Primary Key*** 
 `customer_full_name` | `VARCHAR` | Prefixed    
 `customer_email`     | `VARCHAR` | Prefixed    
   
@@ -69,7 +69,7 @@ Column Name        | Type    | Notes
 
 column Name   | Type    | Notes       
  --- | --- | --- 
-`product_id`    | `INT`     | *Primary Key** 
+`product_id`    | `INT`     | ***Primary Key*** 
 `product_sku`   | `VARCHAR` | Prefixed    
 `product_price` | `DECIMAL` | Prefixed 
   
@@ -77,8 +77,8 @@ column Name   | Type    | Notes
 
 column Name          | Type     | Notes                                        
  --- | --- | --- 
-`customer_order_id`    | `INT` | *Primary Key*&nbsp;&nbsp;&nbsp;&nbsp;                                
-`customer_id`          | `INT` | *Foreign Key* (Refers to Customer.customer_id) 
+`customer_order_id`    | `INT` | ***Primary Key***&nbsp;&nbsp;&nbsp;&nbsp;                                
+`customer_id`          | `INT` | ***Foreign Key*** (Refers to Customer.customer_id) 
 `customer_order_date`  | `DATETIME` | Prefixed                                     
 `customer_order_total` | `DECIMAL` | Prefixed 
   
@@ -86,9 +86,9 @@ column Name          | Type     | Notes
 
 column Name         | Type | Notes                                                   
  --- | --- | --- 
-`order_item_id`       | `INT` | *Primary Key*&nbsp;&nbsp;&nbsp;&nbsp;                                           
-`customer_order_id`   | `INT` | *Foreign Key* (Refers to CustomerOrder.customer_order_id) 
-`product_id`          | `INT` | *Foreign Key* (Refers to Product.product_id)              
+`order_item_id`       | `INT` | ***Primary Key***&nbsp;&nbsp;&nbsp;&nbsp;                                           
+`customer_order_id`   | `INT` | ***Foreign Key*** (Refers to CustomerOrder.customer_order_id) 
+`product_id`          | `INT` | ***Foreign Key*** (Refers to Product.product_id)              
 `order_item_quantity` | `INT` | Prefixed                                                
 
 **5. SQL Implementation**
