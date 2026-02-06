@@ -3,6 +3,8 @@ layout: myDefault
 title: CSCI 395 MAIN PAGE
 ---
 
+**[CSCI 39500 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; HUNTER COLLEGE &nbsp; CUNY](index.html)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**GRADESCOPE**](https://www.gradescope.com/courses/1184869 "Entry Code YBV46G"){:target="_blank"}
+
 ### **Database Naming Convention Style Guide**
 
 This guide establishes the standards for naming database objects to ensure consistency, readability, and maintainability across the schema.
@@ -17,9 +19,9 @@ This guide establishes the standards for naming database objects to ensure consi
 
 Bad | Good 
  --- | --- 
-user_profiles | `UserProfile` 
-INVOICE_ITEMS | `InvoiceItem`
-auditlogs | `AuditLog` 
+`user_profiles` | `UserProfile` 
+`INVOICE_ITEMS` | `InvoiceItem`
+`auditlogs` | `AuditLog` 
 
 ### **2\. Columns (Fields)**
 
@@ -38,9 +40,9 @@ auditlogs | `AuditLog`
 
 Field Concept | Bad | Good 
  --- | --- | --- 
-First Name | first_name | `user_profile_first_name`
-Email Address | email | `user_profile_email`
-Is Active | isActive | `user_profile_is_active`
+First Name | `first_name` | `user_profile_first_name`
+Email Address | `email` | `user_profile_email`
+Is Active | `isActive` | `user_profile_is_active`
 
 **Primary Keys**
 
@@ -84,35 +86,35 @@ Here is how these rules look in practice with a relational schema for an e-comme
 
 Column Name        | Type    | Notes       
  --- | --- | --- 
-`customer_id`        | INT     | **Primary Key** 
-`customer_full_name` | VARCHAR | Prefixed    
-`customer_email`     | VARCHAR | Prefixed    
+`customer_id`        | `INT`     | **Primary Key** 
+`customer_full_name` | `VARCHAR` | Prefixed    
+`customer_email`     | `VARCHAR` | Prefixed    
   
 **Table:** `Product`
 
 column Name   | Type    | Notes       
  --- | --- | --- 
-`product_id`    | INT     | **Primary Key** 
-`product_sku`   | VARCHAR | Prefixed    
-`product_price` | DECIMAL | Prefixed 
+`product_id`    | `INT`     | **Primary Key** 
+`product_sku`   | `VARCHAR` | Prefixed    
+`product_price` | `DECIMAL` | Prefixed 
   
 **Table:** `CustomerOrder`
 
 column Name          | Type     | Notes                                        
  --- | --- | --- 
-`customer_order_id`    | INT | **Primary Key**                                  
-`customer_id`          | INT | **Foreign Key** (Refers to Customer.customer_id) 
-`customer_order_date`  | DATETIME | Prefixed                                     
-`customer_order_total` | DECIMAL | Prefixed 
+`customer_order_id`    | `INT` | **Primary Key**                                  
+`customer_id`          | `INT` | **Foreign Key** (Refers to Customer.customer_id) 
+`customer_order_date`  | `DATETIME` | Prefixed                                     
+`customer_order_total` | `DECIMAL` | Prefixed 
   
 **Table:** `OrderItem`
 
 column Name         | Type | Notes                                                   
  --- | --- | --- 
-`order_item_id`       | INT | **Primary Key**                                             
-`customer_order_id`   | INT | **Foreign Key** (Refers to CustomerOrder.customer_order_id) 
-`product_id`          | INT | **Foreign Key** (Refers to Product.product_id)              
-`order_item_quantity` | INT | Prefixed                                                
+`order_item_id`       | `INT` | **Primary Key**                                             
+`customer_order_id`   | `INT` | **Foreign Key** (Refers to CustomerOrder.customer_order_id) 
+`product_id`          | `INT` | **Foreign Key** (Refers to Product.product_id)              
+`order_item_quantity` | `INT` | Prefixed                                                
 
 ### **5\. SQL Implementation**
 Here is a SQL snippet demonstrating these conventions:
