@@ -14,7 +14,6 @@ This guide establishes the standards for naming database objects to ensure consi
 *   **Plurality:** Tables should always be **Singular** (e.g., `User` not `Users`), as they represent a single entity definition.
     
 *   **Rule:** Capitalize the first letter of each word. Do not use underscores.
-    
 
 Bad | Good 
  --- | --- 
@@ -34,8 +33,7 @@ auditlogs | AuditLog
 #### **Standard Columns**
 
 *   **Format:** `[table_name]_[field_name]`
-    
-
+  
 **Example: Table** `UserProfile`
 
 Field Concept | Bad | Good 
@@ -83,6 +81,7 @@ A Customer places an Order.
 Here is how these rules look in practice with a relational schema for an e-commerce context.
 
 #### **Table:** `Customer`
+
 Column Name        | Type    | Notes       
  --- | --- | --- 
 customer_id        | INT     | **Primary Key** 
@@ -90,6 +89,7 @@ customer_full_name | VARCHAR | Prefixed
 customer_email     | VARCHAR | Prefixed    
 
 #### **Table:** `Product`
+
 column Name   | Type    | Notes       
  --- | --- | --- 
 product_id    | INT     | **Primary Key** 
@@ -97,6 +97,7 @@ product_sku   | VARCHAR | Prefixed
 product_price | DECIMAL | Prefixed 
 
 #### **Table:** `CustomerOrder`
+
 column Name          | Type     | Notes                                        
  --- | --- | --- 
 customer_order_id    | INT | **Primary Key**                                  
@@ -105,6 +106,7 @@ customer_order_date  | DATETIME | Prefixed
 customer_order_total | DECIMAL | Prefixed 
 
 #### **Table:** `OrderItem`
+
 column Name         | Type | Notes                                                   
  --- | --- | --- 
 order_item_id       | INT | **Primary Key**                                             
