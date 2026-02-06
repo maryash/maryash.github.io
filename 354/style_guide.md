@@ -9,10 +9,9 @@ title: CSCI 395 MAIN PAGE
 This guide establishes the standards for naming database objects to ensure consistency, readability, and maintainability across the schema.
 
 **1. Tables**
-&nbsp;&nbsp;&nbsp;&nbsp; **Case Style:** **PascalCase** (UpperCamelCase).
-&nbsp;&nbsp;&nbsp;&nbsp; **Plurality:**
-&nbsp;&nbsp;&nbsp;&nbsp; Tables should always be **Singular** (e.g., `User` not `Users`), as they represent a single entity definition.
-&nbsp;&nbsp;&nbsp;&nbsp; **Rule:** Capitalize the first letter of each word. Do not use underscores.
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Case Style: PascalCase** (UpperCamelCase).
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Plurality:** Tables should always be **Singular** (e.g., `User` not `Users`), as they represent a single entity definition.
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Rule:** Capitalize the first letter of each word. Do not use underscores.
 
 Bad | Good 
  --- | --- 
@@ -21,12 +20,12 @@ Bad | Good
 `auditlogs` | `AuditLog` 
 
 **2. Columns (Fields)**
-&nbsp;&nbsp;&nbsp;&nbsp; **Case Style:** **snake_case** (all lowercase with underscores).
-&nbsp;&nbsp;&nbsp;&nbsp; **Prefix Rule:** Every standard field must be prefixed with the **snake_case version** of the table name.
-&nbsp;&nbsp;&nbsp;&nbsp; **Separator:** Use an underscore `_` to separate the prefix from the field descriptor.
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Case Style:** **snake_case** (all lowercase with underscores).
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Prefix Rule:** Every standard field must be prefixed with the **snake_case version** of the table name.
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Separator:** Use an underscore `_` to separate the prefix from the field descriptor.
   
 **Standard Columns**
-&nbsp;&nbsp;&nbsp;&nbsp; **Format:** `[table_name]_[field_name]`
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Format:** `[table_name]_[field_name]`
   
 **Example: Table** `UserProfile`
 
@@ -37,23 +36,23 @@ Email Address | `email` | `user_profile_email`
 Is Active | `isActive` | `user_profile_is_active`
 
 **Primary Keys**
-&nbsp;&nbsp;&nbsp;&nbsp; **Format:** `[table_name]_id`
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Format:** `[table_name]_id`
 &nbsp;&nbsp;&nbsp;&nbsp; The Primary Key (PK) follows the standard column naming rule.
 
 **Example: Table** `Customer`
-&nbsp;&nbsp;&nbsp;&nbsp; **PK:** `customer_id`
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **PK:** `customer_id`
   
 **3. Foreign Keys**
-&nbsp;&nbsp;&nbsp;&nbsp; **Rule:** Foreign Keys (FK) are the **exception** to the prefix rule.
-&nbsp;&nbsp;&nbsp;&nbsp; **Convention:** An FK column must have the **exact same name** as the Primary Key it refers to.
-&nbsp;&nbsp;&nbsp;&nbsp; **Purpose:** This makes joins intuitive (`ON TableA.key = TableB.key`).
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Rule:** Foreign Keys (FK) are the **exception** to the prefix rule.
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Convention:** An FK column must have the **exact same name** as the Primary Key it refers to.
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Purpose:** This makes joins intuitive (`ON TableA.key = TableB.key`).
 
 **Example Relationship:**
 A `Customer` places an `Order`.
-1.  **Parent Table:** `Customer`
-    &nbsp;&nbsp;&nbsp;&nbsp; PK: `customer_id`
-2.  **Child Table:** `Order`
-    &nbsp;&nbsp;&nbsp;&nbsp; FK: `customer_id` (Does **not** become `order_customer_id`)
+**Parent Table:** `Customer`
+&nbsp;&nbsp;&nbsp;&nbsp; PK: `customer_id`
+**Child Table:** `Order`
+&nbsp;&nbsp;&nbsp;&nbsp; FK: `customer_id` (Does **not** become `order_customer_id`)
 
 **4. Schema Example**
 Here is how these rules look in practice with a relational schema for an e-commerce context.
