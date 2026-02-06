@@ -33,7 +33,7 @@ auditlogs | AuditLog
 
 #### **Standard Columns**
 
-*   **Format:** `\[table_name\]_\[field_name\]`
+*   **Format:** `[table_name]_[field_name]`
     
 
 **Example: Table** `UserProfile`
@@ -46,7 +46,7 @@ Is Active | isActive | user_profile_is_active
 
 #### **Primary Keys**
 
-*   **Format:** `\[table_name\]_id`
+*   **Format:** `[table_name]_id`
     
 *   The Primary Key (PK) follows the standard column naming rule.
     
@@ -83,35 +83,35 @@ A Customer places an Order.
 Here is how these rules look in practice with a relational schema for an e-commerce context.
 
 #### **Table:** `Customer`
-| Column Name        | Type    | Notes       
-|--------------------|---------|-------------
-| customer_id        | INT     | **Primary Key** 
-| customer_full_name | VARCHAR | Prefixed    
-| customer_email     | VARCHAR | Prefixed    
+Column Name        | Type    | Notes       
+--------------------|---------|-------------
+customer_id        | INT     | **Primary Key** 
+customer_full_name | VARCHAR | Prefixed    
+customer_email     | VARCHAR | Prefixed    
 #### **Table:** `Product`
-| Column Name   | Type    | Notes       
-|---------------|---------|-------------
-| product_id    | INT     | **Primary Key** 
-| product_sku   | VARCHAR | Prefixed    
-| product_price | DECIMAL | Prefixed    
+column Name   | Type    | Notes       
+---------------|---------|-------------
+product_id    | INT     | **Primary Key** 
+product_sku   | VARCHAR | Prefixed    
+product_price | DECIMAL | Prefixed    
 #### **Table:** `CustomerOrder`
-| Column Name          | Type     | Notes                                        
-|----------------------|----------|----------------------------------------------
-| customer_order_id    | INT      | **Primary Key**                                  
-| customer_id          | INT      | **Foreign Key** (Refers to Customer.customer_id) 
-| customer_order_date  | DATETIME | Prefixed                                     
-| customer_order_total | DECIMAL  | Prefixed                                     
+column Name          | Type     | Notes                                        
+----------------------|----------|----------------------------------------------
+customer_order_id    | INT      | **Primary Key**                                  
+customer_id          | INT      | **Foreign Key** (Refers to Customer.customer_id) 
+customer_order_date  | DATETIME | Prefixed                                     
+customer_order_total | DECIMAL  | Prefixed                                     
 #### **Table:** `OrderItem`
-| Column Name         | Type | Notes                                                   
-|---------------------|------|---------------------------------------------------------
-| order_item_id       | INT  | **Primary Key**                                             
-| customer_order_id   | INT  | **Foreign Key** (Refers to CustomerOrder.customer_order_id) 
-| product_id          | INT  | **Foreign Key** (Refers to Product.product_id)              
-| order_item_quantity | INT  | Prefixed                                                
+column Name         | Type | Notes                                                   
+---------------------|------|---------------------------------------------------------
+order_item_id       | INT  | **Primary Key**                                             
+customer_order_id   | INT  | **Foreign Key** (Refers to CustomerOrder.customer_order_id) 
+product_id          | INT  | **Foreign Key** (Refers to Product.product_id)              
+order_item_quantity | INT  | Prefixed                                                
 
 ### **5\. SQL Implementation**
 Here is a SQL snippet demonstrating these conventions:
-```SQL
+``` SQL
 CREATE TABLE Customer (
     customer_id INT PRIMARY KEY,
     customer_name VARCHAR(100),
@@ -123,7 +123,6 @@ CREATE TABLE OrderInvoice (
     customer_id INT, -- Foreign Key matches Source PK Name exactly
     order_invoice_amount DECIMAL(10, 2),
     order_invoice_status VARCHAR(50),
-    
     CONSTRAINT fk_customer 
       FOREIGN KEY (customer_id) 
       REFERENCES Customer(customer_id)
