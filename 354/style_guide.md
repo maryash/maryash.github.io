@@ -26,7 +26,6 @@ Bad | Good
   
 **Standard Columns**
 &nbsp; &nbsp; &nbsp; &nbsp; **Format:** `[table_name]_[field_name]`
-  
 **Example: Table** `UserProfile`
 
 Field Concept | Bad | Good 
@@ -35,10 +34,9 @@ First Name | `first_name` | `user_profile_first_name`
 Email Address | `email` | `user_profile_email`
 Is Active | `isActive` | `user_profile_is_active`
 
-*Primary Keys**
-&nbsp; &nbsp; &nbsp; &nbsp; **Format:** `[table_name]_id`
+**Primary Keys**
+**Format:** `[table_name]_id`
 &nbsp;&nbsp;&nbsp;&nbsp; The Primary Key (PK) follows the standard column naming rule.
-
 **Example: Table** `Customer`
 &nbsp; &nbsp; &nbsp; &nbsp; **PK:** `customer_id`
   
