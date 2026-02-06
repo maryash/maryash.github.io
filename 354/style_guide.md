@@ -5,16 +5,11 @@ title: CSCI 395 MAIN PAGE
 
 **[CSCI 39500 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; HUNTER COLLEGE &nbsp; CUNY](index.html)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**GRADESCOPE**](https://www.gradescope.com/courses/1184869 "Entry Code YBV46G"){:target="_blank"}
 
-### **Database Naming Convention Style Guide**
+**Database Naming Convention Style Guide** This guide establishes the standards for naming database objects to ensure consistency, readability, and maintainability across the schema.
 
-This guide establishes the standards for naming database objects to ensure consistency, readability, and maintainability across the schema.
-
-### **1\. Tables**
-
+**1. Tables**
 *   **Case Style:** **PascalCase** (UpperCamelCase).
-    
 *   **Plurality:** Tables should always be **Singular** (e.g., `User` not `Users`), as they represent a single entity definition.
-    
 *   **Rule:** Capitalize the first letter of each word. Do not use underscores.
 
 Bad | Good 
@@ -23,17 +18,12 @@ Bad | Good
 `INVOICE_ITEMS` | `InvoiceItem`
 `auditlogs` | `AuditLog` 
 
-### **2\. Columns (Fields)**
-
+**2. Columns (Fields)**
 *   **Case Style:** **snake_case** (all lowercase with underscores).
-    
 *   **Prefix Rule:** Every standard field must be prefixed with the **snake_case version** of the table name.
-    
 *   **Separator:** Use an underscore `_` to separate the prefix from the field descriptor.
-    
-
+  
 **Standard Columns**
-
 *   **Format:** `[table_name]_[field_name]`
   
 **Example: Table** `UserProfile`
@@ -45,41 +35,25 @@ Email Address | `email` | `user_profile_email`
 Is Active | `isActive` | `user_profile_is_active`
 
 **Primary Keys**
-
 *   **Format:** `[table_name]_id`
-    
 *   The Primary Key (PK) follows the standard column naming rule.
-    
 
 **Example: Table** `Customer`
-
 *   **PK:** `customer_id`
-    
-
-### **3\. Foreign Keys**
-
+  
+**3. Foreign Keys**
 *   **Rule:** Foreign Keys (FK) are the **exception** to the prefix rule.
-    
 *   **Convention:** An FK column must have the **exact same name** as the Primary Key it refers to.
-    
 *   **Purpose:** This makes joins intuitive (`ON TableA.key = TableB.key`).
-    
 
 **Example Relationship:**
-
 A `Customer` places an `Order`.
-
 1.  **Parent Table:** `Customer`
-    
     *   PK: `customer_id`
-        
 2.  **Child Table:** `Order`
-    
     *   FK: `customer_id` (Does **not** become `order_customer_id`)
-        
 
-### **4\. Schema Example**
-
+**4. Schema Example**
 Here is how these rules look in practice with a relational schema for an e-commerce context.
   
 **Table:** `Customer`
@@ -116,7 +90,7 @@ column Name         | Type | Notes
 `product_id`          | `INT` | **Foreign Key** (Refers to Product.product_id)              
 `order_item_quantity` | `INT` | Prefixed                                                
 
-### **5\. SQL Implementation**
+**5. SQL Implementation**
 Here is a SQL snippet demonstrating these conventions:
 ```sql
 CREATE TABLE Customer (
