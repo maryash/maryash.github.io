@@ -1,6 +1,6 @@
 ---
 layout: myDefault
-title: CSCI 395 MAIN PAGE
+title: CSCI 354
 ---
 
 <script>
