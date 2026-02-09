@@ -15,8 +15,8 @@ Software tools needed: the terminal and Python IDLE programming environment.
 
 These are the UML representation of Team class and Member class.
 <p align="center">
-    <img src="lab1_01.png" alt="Team Table" width="150" style="margin-right: 80px;"> 
-    <img src="lab1_02.png" alt="Member Table" width="150"> 
+    <img src="lab1_05.png" alt="Team Table" width="150" style="margin-right: 80px;"> 
+    <img src="lab1_06.png" alt="Member Table" width="150"> 
 </p>
 
 
