@@ -43,14 +43,14 @@ Lets make the output readable, making the column names aligned and formats query
 - Create the Team table
 ```
 CREATE TABLE Team (
-TeamName TEXT(20) PRIMARY KEY NOT NULL,
-PracticeNight TEXT(20)
+team_name TEXT(20) PRIMARY KEY NOT NULL,
+practice_night TEXT(20)
 );
 ```
 
 - Insert sample tuples into Team table
 ```
-INSERT INTO Team (TeamName, PracticeNight) VALUES
+INSERT INTO Team (team_name, practice_night) VALUES
 ('TeamA', 'Tuesday'),
 ('TeamB', 'Monday');
 ```
@@ -66,21 +66,21 @@ SELECT * FROM Team;
 - Create Member table
 ```
 CREATE TABLE Member (
-   MemberID INTEGER PRIMARY KEY NOT NULL,
-   LastName TEXT(20) NOT NULL,
-   FirstName TEXT(20) NOT NULL,
-   Phone TEXT(20),
-   Handicap INTEGER,
-   JoinDate DATETIME,
-   Gender TEXT(1),
-   Team TEXT(20) REFERENCES Team(TeamName)
+   member_id INTEGER PRIMARY KEY NOT NULL,
+   last_name TEXT(20) NOT NULL,
+   first_name TEXT(20) NOT NULL,
+   phone TEXT(20),
+   handicap INTEGER,
+   join_date DATETIME,
+   gender TEXT(1),
+   team TEXT(20) REFERENCES Team(team_name)
 );
 ```
 
 
 - Insert sample tuples into Member table
 ``` 
-INSERT INTO Member (MemberID, LastName, FirstName, Phone, Handicap, JoinDate, Gender, Team)
+INSERT INTO Member (member_id, last_name, first_name, phone, handicap, join_date, gender, team)
 VALUES
 (118, 'McKenzie', 'Melissa', '6468888888', 30, '2005-05-28', 'F', NULL),
 (138, 'Stone', 'Michael', '9188888888', 30, '2009-05-31', 'M', NULL),
@@ -140,30 +140,30 @@ cur.execute("PRAGMA foreign_keys = ON;")
 ```
 cur.execute("""
 CREATE TABLE Team (
-    TeamName TEXT(20) PRIMARY KEY NOT NULL,
-    PracticeNight TEXT(20)
+    team_Name TEXT(20) PRIMARY KEY NOT NULL,
+    practice_night TEXT(20)
 )
 """)
 ```
 
 - Insert tuples into Team table
 ```
-cur.execute("INSERT INTO Team (TeamName, PracticeNight) VALUES (?, ?)", ('TeamA', 'Tuesday'))
-cur.execute("INSERT INTO Team (TeamName, PracticeNight) VALUES (?, ?)", ('TeamB', 'Monday'))
+cur.execute("INSERT INTO Team (team_Name, practice_night) VALUES (?, ?)", ('TeamA', 'Tuesday'))
+cur.execute("INSERT INTO Team (team_Name, practice_night) VALUES (?, ?)", ('TeamB', 'Monday'))
 ```
 
 - Create Member Table
 ```
 cur.execute("""
 CREATE TABLE Member (
-   MemberID INTEGER PRIMARY KEY NOT NULL,
-   LastName TEXT(20) NOT NULL,
-   FirstName TEXT(20) NOT NULL,
-   Phone TEXT(20),
-   Handicap INTEGER,
-   JoinDate DATETIME,
-   Gender TEXT(1),
-   Team TEXT(20) REFERENCES Team(TeamName)
+   member_id INTEGER PRIMARY KEY NOT NULL,
+   last_name TEXT(20) NOT NULL,
+   first_name TEXT(20) NOT NULL,
+   phone TEXT(20),
+   handicap INTEGER,
+   join_date DATETIME,
+   gender TEXT(1),
+   team TEXT(20) REFERENCES Team(team_name)
 )
 """)
 ```
@@ -178,7 +178,7 @@ CREATE TABLE Member (
     ]
     
     cur.executemany("""
-    INSERT INTO Member (MemberID, LastName, FirstName, Phone, Handicap, JoinDate, Gender, Team)
+    INSERT INTO Member (member_id, last_name, first_name, phone, handicap, join_date, gender, team)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?)
     """, members)
 ```
