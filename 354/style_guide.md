@@ -1,6 +1,6 @@
 ---
 layout: myDefault
-title: SYLLABUS
+title: STYLE GUIDE
 ---
 
 **[CSCI 39500 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DATABASE DESIGN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; HUNTER COLLEGE &nbsp; CUNY](index.html)** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**SYLLABUS**](syllabus.html){:target="_blank"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [**GRADESCOPE**](https://www.gradescope.com/courses/1184869 "Entry Code YBV46G"){:target="_blank"}
@@ -26,13 +26,13 @@ Bad | Good
   
 **Standard Columns**
 &nbsp; &nbsp; &nbsp; &nbsp; **Format:** `[table_name]_[field_name]`
-**Example: Table** `UserProfile`
+**Example: Table** `User`
 
 Field Concept | Bad | Good 
  --- | --- | --- 
-First Name | `first_name` | `user_profile_first_name`
-Email Address | `email` | `user_profile_email`
-Is Active | `isActive` | `user_profile_is_active`
+First Name | `first_name` | `user_first_name`
+Email Address | `email` | `user_email`
+Is Active | `isActive` | `user_is_active`
 
 **Primary Keys**
 **Format:** `[table_name]_id`
@@ -71,14 +71,14 @@ column Name   | Type    | Notes
 `product_sku`   | `VARCHAR` | Prefixed    
 `product_price` | `DECIMAL` | Prefixed 
   
-**Table:** `CustomerOrder`
+**Table:** `Order`
 
 column Name          | Type     | Notes                                        
  --- | --- | --- 
-`customer_order_id`    | `INT` | ***Primary Key***&nbsp;&nbsp;&nbsp;&nbsp;                                
+`order_id`    | `INT` | ***Primary Key***&nbsp;&nbsp;&nbsp;&nbsp;                                
 `customer_id`          | `INT` | ***Foreign Key*** (Refers to Customer.customer_id) 
-`customer_order_date`  | `DATETIME` | Prefixed                                     
-`customer_order_total` | `DECIMAL` | Prefixed 
+`order_date`  | `DATETIME` | Prefixed                                     
+`order_total` | `DECIMAL` | Prefixed 
   
 **Table:** `OrderItem`
 
