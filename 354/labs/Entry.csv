@@ -1,4 +1,4 @@
-member_id, tournament_id, entry_year
+entry_member_id,entry_tournament_id,entry_year
 118,24,2014
 228,24,2015
 228,25,2015

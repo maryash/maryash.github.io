@@ -1,4 +1,4 @@
-TourID,TourName,TourType
+tournament_id,tournament_name,tournament_type
 24,Leeston,Social
 25,Kaiapoi,Social
 36,WestCoast,Open
