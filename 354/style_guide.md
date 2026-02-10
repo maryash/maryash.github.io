@@ -85,7 +85,7 @@ column Name          | Type     | Notes
 column Name         | Type | Notes                                                   
  --- | --- | --- 
 `order_item_id`       | `INT` | ***Primary Key***&nbsp;&nbsp;&nbsp;&nbsp;                                           
-`customer_order_id`   | `INT` | ***Foreign Key*** (Refers to CustomerOrder.customer_order_id) 
+`order_id`   | `INT` | ***Foreign Key*** (Refers to Order.order_id) 
 `product_id`          | `INT` | ***Foreign Key*** (Refers to Product.product_id)              
 `order_item_quantity` | `INT` | Prefixed                                                
 
