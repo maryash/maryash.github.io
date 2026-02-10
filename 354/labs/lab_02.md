@@ -81,10 +81,10 @@ After executing the code, you should see the following tables.
 
 
 <p align="center">
-<img src="DBeaverTeamTable.png" alt="Team Table" width="850">
+<img src="lab2_01.png" alt="Team Table" width="300">
 </p>
 <p align="center">
-<img src="DBeaverMemberTable.png" alt="Member Table" width="850">
+<img src="lab2_02.png" alt="Member Table" width="900">
 </p>
 
 
@@ -97,11 +97,11 @@ In the previous lab, we learned how to create a database ising the terminal and 
 2. Right-click on the database that we just connected, and click on `View Diagram`. You will see that the two tables are connected.
 
 <p align="center">
-  <img src="DBeaverDiagram.png" alt="Diagram" width="450">
+  <img src="lab2_03.png" alt="Diagram" width="450">
 </p>
 
-If you click on the `Team` attribute in the Member table, it will be highlighted in green in the Member table and `TeamName` in the Team table because it indicates that `Team` is a foreign key referencing `TeamName`.
+If you click on the `Team` attribute in the Member table, it will be highlighted in green in the Member table and `team_name` in the Team table because it indicates that `Team` is a foreign key referencing `team_name`.
 
 <p align="center">
-  <img src="DBeaverForeignKey.png" alt="Foreign Key Diagram" width="450">
+  <img src="lab2_04.png" alt="Foreign Key Diagram" width="450">
 </p>
