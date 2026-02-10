@@ -32,21 +32,21 @@ Today's lab we will focus on how to open csv files to populate tables with the d
         DROP TABLE IF EXISTS Member;
 
         CREATE TABLE Member (
-            MemberID INTEGER PRIMARY KEY,
-            LastName TEXT,
-            FirstName TEXT
+            member_id INTEGER PRIMARY KEY,
+            member_last_name TEXT,
+            member_first_name TEXT
         );
 
         CREATE TABLE Tournament (
-            TourID INTEGER PRIMARY KEY,
-            TourName TEXT,
-            TourType TEXT
+            tournament_id INTEGER PRIMARY KEY,
+            tournament_name TEXT,
+            tournament_type TEXT
         );
 
         CREATE TABLE Entry (
-            MemberID INTEGER,
-            TourID INTEGER,
-            Year INTEGER
+            entry_member_id INTEGER,
+            entry_tournament_id INTEGER,
+            entry_year INTEGER
         );
         """)
 
@@ -113,16 +113,16 @@ Now let’s write some subqueries using the IN keyword. Before doing so, let’s
 
 Instead of repeating e.TourID three times:
 ```
-SELECT e.MemberID
+SELECT e.entry_member_id
 FROM Entry e
-WHERE e.TourID = 36 OR e.TourID = 38 OR e.TourID = 40;
+WHERE e.entry_tournament_id = 36 OR e.entry_tournament_id = 38 OR e.entry_tournament_id = 40;
 ```
 
 we can use the IN keyword and list the values inside parentheses:
 ```
-SELECT e.MemberID
+SELECT e.entry_member_id
 FROM Entry e
-WHERE e.TourID IN (36, 38, 40);
+WHERE e.entry_tournament_id IN (36, 38, 40);
 ```
 
 the reason that someone may have been interested in tournaments 36, 38, and 40 might have been because they are the current Open tournaments, so rather than list the Open tournaments individually, we can use another SQL query to generate the set of values we require.
@@ -135,19 +135,19 @@ the reason that someone may have been interested in tournaments 36, 38, and 40 m
         cur = conn.cursor()
 
         cur.execute("""
-        SELECT e.MemberID
+        SELECT e.entry_member_id
         FROM Entry e
-        WHERE e.TourID IN (
-        SELECT t.TourID
+        WHERE e.entry_tournament_id IN (
+        SELECT t.tournament_id
         FROM Tournament t
-        WHERE t.TourType = 'Open');
+        WHERE t.tournament_type = 'Open'
         """)
 
         rows = cur.fetchall()
 
         with open("result.csv", "w", newline="") as f:
             writer = csv.writer(f)
-            writer.writerow(["MemberID"])
+            writer.writerow(["entry_member_id"])
             writer.writerows(rows)
 
         conn.close()
@@ -170,15 +170,17 @@ Open the `result.csv` file, you should see the following output:
 Thinking about the EXISTS Keyword, we can translate it as 
 
 "I’ll write out the names from row m, where m comes from the Member table, if there exists a
-row e in the Entry table where m.MemberID = e.MemberID ."
+row e in the Entry table where e.entry_member_id = m.member_id."
 
 which in SQL will be
 
 ```
-        SELECT m.LastName, m.FirstName
+        SELECT m.member_last_name, m.member_first_name
         FROM Member m
-        WHERE EXISTS
-        (SELECT * FROM Entry e WHERE e.MemberID = m.MemberID);
+        WHERE EXISTS (
+        SELECT *
+        FROM Entry e
+        WHERE e.entry_member_id = m.member_id);
 ```
 
 Now it is your turn to write this query in Python and save the output to a CSV file called exists.csv.
@@ -196,17 +198,17 @@ There are different types of nested queries and alternate ways of expressing the
 To find the tournaments that member Cooper has entered, this is the same as
 
 ```
-SELECT e.TourID, e.Year FROM Entry e WHERE e.MemberID =
-(SELECT m.MemberID FROM Member m
-WHERE m.LastName = 'Cooper');
+SELECT e.entry_tournament_id, e.entry_year FROM Entry eWHERE e.entry_member_id = (
+SELECT m.member_id FROM Member m
+WHERE m.member_last_name = 'Cooper');
 ```
 
 this 
 
 ```
-SELECT e.TourID, e.Year
-FROM Entry e INNER JOIN Member m ON e.MemberID = m.MemberID
-WHERE m.LastName = 'Cooper';
+SELECT e.entry_tournament_id, e.entry_year FROM Entry e
+INNER JOIN Member m ON e.entry_member_id = m.member_id
+WHERE m.member_last_name = 'Cooper';
 ```
 
 Both of them will return the same output
@@ -226,18 +228,18 @@ It is your turn to find all the entries for an Open tournament, your output shou
 To find the names of members that have entered any tournament, this is the same
 
 ```
-SELECT m.LastName, m.FirstName
+SELECT m.member_last_name, m.member_first_name
 FROM Member m
-WHERE EXISTS
+WHERE EXISTS 
 (SELECT * FROM Entry e
-WHERE e.MemberID = m.MemberID);
+WHERE e.entry_member_id = m.member_id);
 ```
 
 as
 
 ```
-SELECT DISTINCT m.LastName, m.FirstName
-FROM Member m INNER JOIN Entry e ON e.MemberID = m.MemberID;
+SELECT DISTINCT m.member_last_name, m.member_first_name FROM Member m
+INNER JOIN Entry e ON e.entry_member_id = m.member_id;
 ```
 
 You should see the following output
