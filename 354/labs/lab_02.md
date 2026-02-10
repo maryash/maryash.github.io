@@ -43,26 +43,26 @@ DROP TABLE IF EXISTS Team;
 
 CREATE TABLE Team (
     team_name TEXT(20) NOT NULL PRIMARY KEY,
-    practice_night TEXT(20)
+    team_practice_night TEXT(20)
 );
 
-INSERT INTO Team (team_name, practice_night) VALUES
+INSERT INTO Team (team_name, team_practice_night) VALUES
     ('TeamA', 'Tuesday'),
     ('TeamB', 'Monday');
 
 CREATE TABLE Member (
     member_id INTEGER NOT NULL PRIMARY KEY,
-    last_name TEXT(20) NOT NULL,
-    first_name TEXT(20) NOT NULL,
-    phone TEXT(20),
-    handicap INTEGER,
-    join_date DATE,
-    gender TEXT(1),
-    team TEXT(20),
-    FOREIGN KEY (team) REFERENCES Team(team_name)
+    member_last_name TEXT(20) NOT NULL,
+    member_first_name TEXT(20) NOT NULL,
+    member_phone TEXT(20),
+    member_handicap INTEGER,
+    member_join_date DATE,
+    member_gender TEXT(1),
+    team_name TEXT(20),
+    FOREIGN KEY (team_name) REFERENCES Team(team_name)
 );
 
-INSERT INTO Member (member_id, last_name, first_name, phone, handicap, join_date, gender, team)
+INSERT INTO Member (member_id, member_last_name, member_first_name, member_phone, member_handicap, member_join_date, member_gender, team_name)
 VALUES
     (118, 'McKenzie', 'Melissa', '6468888888', 30, '2005-05-28', 'F', NULL),
     (138, 'Stone', 'Michael', '9188888888', 30, '2009-05-31', 'M', NULL),
