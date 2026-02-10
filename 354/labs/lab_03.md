@@ -17,11 +17,11 @@ Software tools needed: DBeaver and Visual Studio Code.
 As we learned in [Lab 2](https://maryash.github.io/354/labs/lab_02$0), lets create the following tables in DBeaver:
 
 <p align="center">
-<img src="lab3_01.png" alt="Member Table" width="450">
+<img src="lab3_01.png" alt="Member Table" width="500">
 </p>
 
 <p align="center">
-<img src="lab3_02.png" alt="Type Table" width="450">
+<img src="lab3_02.png" alt="Type Table" width="200">
 </p>
 
 ## Join queries using Python
@@ -44,7 +44,7 @@ As we learned in [Lab 2](https://maryash.github.io/354/labs/lab_02$0), lets crea
     ```sql
         cur.execute("""
         SELECT *
-        FROM Member m CROSS JOIN Type t;
+        FROM Member m CROSS JOIN TypeTable t;
         """)
         
         rows = cur.fetchall()
@@ -72,7 +72,7 @@ Your complete `lab3.py` file should look like this:
       
       cur.execute("""
       SELECT *
-      FROM Member m CROSS JOIN Type t;
+      FROM Member m CROSS JOIN TypeTable t;
       """)
       
       rows = cur.fetchall()
@@ -123,12 +123,12 @@ To reproduce the examples in the book, let's create the three tables shown on pa
     DROP TABLE IF EXISTS Member;
 
     CREATE TABLE Member (
-    MemberID INTEGER PRIMARY KEY,
-    LastName  TEXT,
-    FirstName TEXT
+    member_id INTEGER PRIMARY KEY,
+    member_last_name  TEXT,
+    member_first_name TEXT
     );
 
-    INSERT INTO Member (MemberID, LastName, FirstName) VALUES
+    INSERT INTO Member (member_id, member_last_name, member_first_name) VALUES
     (118, 'McKenzie', 'Melissa'),
     (138, 'Stone', 'Michael'),
     (153, 'Nolan', 'Brenda'),
@@ -151,11 +151,11 @@ To reproduce the examples in the book, let's create the three tables shown on pa
     (487, 'Kent', 'Susan');
 
     CREATE TABLE Tournament (
-    TourID   INTEGER PRIMARY KEY,
-    TourName TEXT
+    tournament_id   INTEGER PRIMARY KEY,
+    tournament_name TEXT
     );
 
-    INSERT INTO Tournament (TourID, TourName) VALUES
+    INSERT INTO Tournament (tournament_id, tournament_name) VALUES
     (24, 'Leeston'),
     (25, 'Kaiapoi'),
     (36, 'WestCoast'),
@@ -163,12 +163,12 @@ To reproduce the examples in the book, let's create the three tables shown on pa
     (40, 'Otago');
 
     CREATE TABLE Entry (
-    MemberID INTEGER,
-    TourID   INTEGER,
-    Year     INTEGER
+    entry_member_id INTEGER,
+    entry_tournament_id   INTEGER,
+    entry_year     INTEGER
     );
 
-    INSERT INTO Entry (MemberID, TourID, Year) VALUES
+    INSERT INTO Entry (entry_member_id, entry_tournament_id, entry_year) VALUES
     (118, 24, 2014),
     (228, 24, 2015),
     (228, 25, 2015),
@@ -203,19 +203,21 @@ To reproduce the examples in the book, let's create the three tables shown on pa
 
     conn = sqlite3.connect("dbeaverdatabase.db")
     cur = conn.cursor()
-
+    
+    # Using the column names defined in the CREATE TABLE statements above
     cur.execute("""
-    SELECT LastName, FirstName
-    FROM (Member m INNER JOIN Entry e ON m.MemberID = e.MemberID)
-    INNER JOIN Tournament t ON e.TourID = t.TourID
-    WHERE TourName = 'Leeston'
-    AND Year = 2014;
+    SELECT member_last_name, member_first_name
+    FROM Member m 
+    INNER JOIN Entry e ON m.member_id = e.entry_member_id
+    INNER JOIN Tournament t ON e.entry_tournament_id = t.tournament_id
+    WHERE t.tournament_name = 'Leeston'
+      AND e.entry_year = 2014;
     """)
-
+    
     rows = cur.fetchall()
     for row in rows:
         print(row)
-
+    
     conn.close()
 ```
 
