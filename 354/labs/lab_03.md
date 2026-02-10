@@ -21,7 +21,7 @@ As we learned in [Lab 2](https://maryash.github.io/354/labs/lab_02$0), lets crea
 </p>
 
 <p align="center">
-<img src="lab3_02.png" alt="Type Table" width="200">
+<img src="lab3_02.png" alt="Type Table" width="250">
 </p>
 
 ## Join queries using Python
