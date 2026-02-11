@@ -60,7 +60,7 @@ Let's run this SQL script in DBeaver.
 Let’s try to generate the following output using Flask
 
 <p align="center">
-<img src="lab6_03.png" alt="relationship" width="300">
+<img src="lab6_03.png" alt="relationship" width="500">
 </p>
 
 To do this, we need to add the following query to our Python file in order to retrieve all columns from the `Member` table:
@@ -107,7 +107,7 @@ Run the python file with the following command in the terminal:
 ```
 
 <p align="center">
-<img src="lab6_04.png" alt="flask result" width="300">
+<img src="lab6_04.png" alt="flask result" width="500">
 </p>
 
 
@@ -215,7 +215,7 @@ The HTML should look like
 This should produce the following output
 
 <p align="center">
-<img src="lab6_05.png" alt="relationships" width="300">
+<img src="lab6_05.png" alt="relationships" width="500">
 </p>
 
 Now, let’s print every member, the team they belong to, and the name of that team’s manager.
@@ -229,5 +229,5 @@ This is the query:
 
 It’s now your turn to modify the HTML. You should get the following output:
 <p align="center">
-<img src="lab6_06.png" alt="relationships" width="300">
+<img src="lab6_06.png" alt="relationships" width="500">
 </p>
