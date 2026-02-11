@@ -229,5 +229,5 @@ This is the query:
 
 It’s now your turn to modify the HTML. You should get the following output:
 <p align="center">
-<img src="lab6_05.png" alt="relationships" width="300">
+<img src="lab6_06.png" alt="relationships" width="300">
 </p>
