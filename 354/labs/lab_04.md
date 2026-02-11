@@ -140,7 +140,7 @@ the reason that someone may have been interested in tournaments 36, 38, and 40 m
         WHERE e.entry_tournament_id IN (
         SELECT t.tournament_id
         FROM Tournament t
-        WHERE t.tournament_type = 'Open'
+        WHERE t.tournament_type = 'Open');
         """)
 
         rows = cur.fetchall()
