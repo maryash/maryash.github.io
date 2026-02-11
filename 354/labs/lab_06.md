@@ -5,6 +5,10 @@ title: LAB 6
 
 # LAB 6
 
+<p align="center">
+  <img src="https://i.programmerhumor.io/2021/05/programmerhumor-io-frontend-memes-programming-memes-fcb0bcde1ba597e.jpg" width="250">
+</p>
+
 Today's lab will be a refresh of Flask and about multiple relationships between tables. 
 
 Let's run this SQL script in DBeaver.
