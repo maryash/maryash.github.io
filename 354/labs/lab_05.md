@@ -21,17 +21,17 @@ PRAGMA foreign_keys = ON;
 DROP TABLE IF EXISTS Member;
 
 CREATE TABLE Member (
-MemberID   INTEGER PRIMARY KEY,
-LastName   TEXT NOT NULL,
-FirstName  TEXT NOT NULL,
-Handicap   INTEGER,
-MemberType TEXT,
-Gender     TEXT,
-Coach      INTEGER,
-FOREIGN KEY (Coach) REFERENCES Member(MemberID)
+member_id   INTEGER PRIMARY KEY,
+member_last_name   TEXT NOT NULL,
+member_first_name  TEXT NOT NULL,
+member_handicap   INTEGER,
+member_type TEXT,
+member_gender     TEXT,
+member_coach      INTEGER,
+FOREIGN KEY (member_coach) REFERENCES Member(member_id)
 );
 
-INSERT INTO Member (MemberID, LastName, FirstName, Handicap, MemberType, Gender, Coach) VALUES
+INSERT INTO Member (member_id, member_last_name, member_first_name, member_handicap, member_type, member_gender, member_coach) VALUES
 (118, 'McKenzie', 'Melissa', 30, 'Junior', 'F', 153),
 (138, 'Stone', 'Michael', 30, 'Senior', 'M', NULL),
 (153, 'Nolan', 'Brenda', 11, 'Senior', 'F', NULL),
@@ -60,22 +60,22 @@ Self joins are Cartesian product (every combination of rows from each table) fol
 So when we run
 ```
 SELECT *
-FROM Member m INNER JOIN Member c ON m.Coach = c.MemberID;
+FROM Member m INNER JOIN Member c ON m.member_coach = c.member_id;
 ```
 this is part of the Cartesian product that we are doing
 <p align="center">
 <img src="lab5_02.png" alt="self join" width="650">
 </p>
 
-The join condition `m.Coach = c.MemberID` then filters this result, keeping only the rows where a member’s coach matches another member’s `MemberID`:
+The join condition `m.member_coach = c.member_id` then filters this result, keeping only the rows where a member’s coach matches another member’s `MemberID`:
 <p align="center">
 <img src="lab5_03.png" alt="result" width="550">
 </p>
 
 Since we are only interested in the first and last names of the coaches, we select only those columns. We also apply `DISTINCT` to avoid duplicate results:
 ```
-SELECT DISTINCT c.FirstName, c.LastName
-FROM Member m INNER JOIN Member c ON m.Coach = c.MemberID;
+SELECT DISTINCT c.member_first_name, c.member_last_name
+FROM Member m INNER JOIN Member c ON m.member_coach = c.member_id;
 ```
 
 This is the result we see in DBeaver
@@ -92,8 +92,8 @@ conn = sqlite3.connect("dbeaverdatabase.db")
 cur = conn.cursor()
 
 cur.execute("""
-SELECT DISTINCT c.FirstName, c.LastName
-FROM Member m INNER JOIN Member c ON m.Coach = c.MemberID;
+SELECT DISTINCT c.member_first_name, c.member_last_name
+FROM Member m INNER JOIN Member c ON m.member_coach = c.member_id;
 """)
 
 rows = cur.fetchall()
@@ -138,8 +138,8 @@ with sqlite3.connect(DB_PATH) as conn:
         cur = conn.cursor()
         #execute query
         cur.execute("""
-        SELECT DISTINCT c.FirstName, c.LastName
-        FROM Member m INNER JOIN Member c ON m.Coach = c.MemberID;
+        SELECT DISTINCT c.member_first_name, c.member_last_name
+        FROM Member m INNER JOIN Member c ON m.member_coach = c.member_id;
         """)
         rows = cur.fetchall() #fetch the data
 # returns the data to the template
