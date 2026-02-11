@@ -111,7 +111,7 @@ Today's lab we will focus on how to open csv files to populate tables with the d
 
 Now let’s write some subqueries using the IN keyword. Before doing so, let’s review how IN works.
 
-Instead of repeating e.TourID three times:
+Instead of repeating e.entry_tournament_id three times:
 ```
 SELECT e.entry_member_id
 FROM Entry e
