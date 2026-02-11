@@ -198,7 +198,7 @@ There are different types of nested queries and alternate ways of expressing the
 To find the tournaments that member Cooper has entered, this is the same as
 
 ```
-SELECT e.entry_tournament_id, e.entry_year FROM Entry eWHERE e.entry_member_id = (
+SELECT e.entry_tournament_id, e.entry_year FROM Entry e WHERE e.entry_member_id = (
 SELECT m.member_id FROM Member m
 WHERE m.member_last_name = 'Cooper');
 ```
